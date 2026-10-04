@@ -6,7 +6,7 @@ Last updated: 2026-10-04, after the callouts/quotes/galleries milestone. This do
 
 Port the visual appearance and used behavior of Kat's existing **Leota Ghost theme** into the existing **leota-astro Casper port**, preserving the Astro architecture and portable content. The original website is unavailable, so the reference is the supplied theme, Ghost export/media, and Kat's feedback. Kat approved the plan, then successive local implementation milestones, and said the visual result was looking great before requesting the special-content milestone.
 
-The special-content milestone is complete and reported. The latest request is to save this handoff summary. No next implementation milestone has yet been chosen after that completion.
+The special-content milestone is complete and reported, and the project checkpoint is committed. Kat has now added automated PNG-to-WebP optimization and deployment-media cleanup to the migration plan. The current request updates planning/context only; conversion and deployment cleanup have not started.
 
 ## Workspace and source material
 
@@ -125,13 +125,13 @@ Historical page counts/warnings in earlier milestone reports describe those earl
 2. Finish representative-content acceptance: Spotify playback and any other actually used rich embeds; deeper gallery coverage (multiple rows, mixed aspect ratios, adjacent cards), browser compatibility and no-JavaScript checks as warranted.
 3. Scope campaign/resource page migration with Kat. Preserve distinctions between pages and posts, real body content and hero behavior. Enable each inactive nav link only when its target works.
 4. Review remaining starter/demo content and recent-post suggestions. Starter posts still exist on original routes and may appear in recent-post areas. Do not remove them indiscriminately.
-5. After local prototype acceptance, design a separate repeatable export converter and bulk-media process: dry-run report, source→target mapping, draft/page/post separation, collision checks, unsupported-card reporting, preserved captions/links/metadata, and non-destructive originals.
+5. After local prototype acceptance, design a repeatable export converter and bulk-media process: dry-run report, source→target mapping, draft/page/post separation, collision checks, unsupported-card reporting, and preserved captions/links/metadata. Include the automated PNG-to-WebP pipeline described in `image-optimization-plan.md`: prototype pilot, reviewed quality settings, responsive sizes where useful, reference rewriting, validation, and a deployment manifest that excludes replaced source images. Preserve originals in the separate backup, not in the deployed site.
 6. Plan legacy links/redirects. Known example: Ghost tag slug `cityofmist` differs from Astro `city-of-mist`. Newly imported tags also require a systematic legacy-slug audit; metadata lookup fixes do not constitute a redirect plan.
 7. Treat email and AWS publishing as separate later scopes.
 
 ## Working-tree and runtime cautions
 
-The workspace has substantial **uncommitted and untracked work**. No commit, push, or deployment was made during these milestones. `package.json` and `pnpm-lock.yaml` modifications predate our visual work. The original complex Markdown sample, Kat author data, and some media were already supplied locally. Preserve these; inspect diffs before any staging or cleanup. Do not reset/revert the tree to obtain a clean baseline.
+The visual-port checkpoint is committed as `4f512c7` on `codex/leota-visual-port`. Bulk media remains untracked locally; subsequent documentation changes may be uncommitted. No push or deployment has been made. `package.json` and `pnpm-lock.yaml` modifications predate our visual work. The original complex Markdown sample, Kat author data, and some media were already supplied locally. Preserve these; inspect diffs before any staging or cleanup. Do not reset/revert the tree to obtain a clean baseline.
 
 Local preview was last running at `http://localhost:4321/`, launched with `pnpm dev --host 127.0.0.1 --port 4321`. Verify the process/port rather than assuming it persists or starting a duplicate. The dev server has previously cached missing imports for newly created files; restarting the verified project server resolved it. A previous Markdown image 500 also resolved with restart; do not redesign image handling based on that resolved incident.
 
@@ -150,3 +150,11 @@ Detailed milestone records: `visual-port-baseline.md`, `visual-port-milestone-tw
 ## Branch checkpoint requested after handoff
 
 Kat subsequently authorized creating a branch and committing the work. Branch: `codex/leota-visual-port`. The checkpoint includes source, sample content, documentation, the existing Astro 7.3.5 pin/lockfile, and two small branding assets. Bulk/local media remain outside Git. `prototype-media-manifest.json` records the prototype media URLs, sizes, SHA-256 checksums, and inclusion status. A fresh checkout requires restoring the excluded media at those public paths. Earlier statements about uncommitted work describe the pre-checkpoint state. No push or deployment was requested.
+
+## Added requirement: automated image optimization
+
+Kat wants the migration workflow to convert existing PNGs to optimized WebPs and update references throughout the publication, replacing the manual Squoosh workflow. Start with prototype images, then extend to the archive after quality/size validation. Inventory every usage, preserve semantics and aspect ratios, record explicit source-to-output mappings and exceptions, and report savings. Generate only useful responsive variants to balance transfer performance against storage.
+
+**Deployment requirement:** ultimately remove superseded source images from the deployed site to reduce storage. Keep archival originals in a separate backup outside the deployment/public tree. Merely changing references or using a Git ignore rule is insufficient: exclude source copies from the build/upload artifact, and later reconcile already-deployed obsolete objects using a reviewed manifest. Full-size gallery downloads should use optimized large images, so “Open original” links/labels must be updated to avoid depending on archived PNGs. Preserve legacy image URLs through redirects where needed instead of keeping duplicate source files.
+
+See `image-optimization-plan.md` for stages and acceptance criteria. This is a planned migration requirement, not a record of completed conversion or authorization for immediate production deletion.
