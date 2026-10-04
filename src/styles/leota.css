@@ -1,0 +1,318 @@
+/* Leota presentation adapted from the supplied Ghost theme and publication
+   settings. Starter feed/page/archive layouts remain for later milestones. */
+:root {
+    --ghost-accent-color: #572b9e;
+    --blue: var(--ghost-accent-color);
+    --color-darkmode: #151719;
+    --color-secondary-text: #979797;
+    --content-width: 900px;
+    --container-width: 1200px;
+}
+
+html.dark-mode { color-scheme: dark; }
+html.dark-mode body.leota {
+    color: rgba(255, 255, 255, 0.75);
+    background: var(--color-darkmode);
+    font-family: var(--font-body), sans-serif;
+}
+.leota :is(h1, h2, h3, h4, h5, h6) { font-family: var(--font-heading), sans-serif; }
+.leota .outer { padding-inline: max(4vmin, 20px); }
+.leota .inner { max-width: var(--container-width); width: 100%; }
+.leota a:focus-visible, .leota summary:focus-visible {
+    outline: 2px solid #fff;
+    outline-offset: 6px;
+}
+.leota .skip-link {
+    position: fixed;
+    z-index: 3000;
+    top: 12px;
+    left: 20px;
+    padding: 12px 20px;
+    color: #fff;
+    background: var(--ghost-accent-color);
+    transform: translateY(-160%);
+}
+.leota .skip-link:focus { transform: none; }
+
+/* Header: Leota's 88px navigation and logo-on-cover arrangement. */
+html.dark-mode .leota .site-header { background: var(--ghost-accent-color); padding-block: 0; }
+.leota .site-header::before, .leota .site-header::after { display: none; }
+.publication-nav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    min-height: 88px;
+    position: relative;
+    z-index: 200;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.3;
+    color: #fff;
+}
+.publication-logo { display: block; flex-shrink: 0; }
+.publication-logo img { display: block; width: 40px; height: 40px; object-fit: contain; }
+.publication-nav-home .publication-logo { display: none; }
+.leota .publication-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px 32px;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.leota .publication-links li { margin: 0; padding: 0; }
+.leota .publication-links a { color: inherit; text-decoration: none; }
+.leota .publication-links a:hover, .leota .publication-links a[aria-current] { text-decoration: underline; text-underline-offset: 5px; }
+.publication-links [aria-disabled] { opacity: 0.7; cursor: default; }
+.publication-mobile-nav { display: none; }
+
+.publication-header {
+    position: relative;
+    min-height: 560px;
+    display: flex;
+    align-items: center;
+    padding: calc(19vmin + 44px) max(4vmin, 20px) 19vmin;
+    color: #fff;
+    background: var(--ghost-accent-color);
+}
+.publication-navigation { position: absolute; inset: 0 0 auto; z-index: 200; }
+.publication-cover { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.publication-intro { position: relative; text-align: center; }
+.publication-title { margin: 0; padding: 0; }
+.publication-title img { display: block; margin: auto; max-height: 120px; max-width: 60%; }
+.publication-description { max-width: 640px; margin: 20px auto 0; font-size: 2.4rem; line-height: 1.4; }
+.leota.home-template .post-feed { margin-top: 0; padding-top: max(4vmin, 40px); }
+.leota .post-card-excerpt { font-family: var(--font-body), sans-serif; }
+.leota.home-template .post-feed::before { display: none; }
+
+/* Shared footer, with publication secondary navigation. */
+html.dark-mode .leota .site-footer { background: var(--color-darkmode); padding-block: 48px; }
+.leota .site-footer-content { display: flex; flex-wrap: wrap; align-items: center; gap: 24px; font-size: 1.3rem; }
+.leota .site-footer-nav { margin: 0 auto; }
+.leota .site-footer-nav a::before { content: none; }
+.leota .site-footer-nav a { margin: 0; }
+.leota .site-footer .poweredby { color: var(--color-secondary-text); }
+
+/* Article hero and content grid: derived from Leota's article-hero/gh-canvas. */
+.leota-article { padding-bottom: max(8vmin, 64px); overflow-wrap: break-word; }
+.leota-canvas {
+    --gap: max(4vmin, 20px);
+    --main: min(var(--content-width), 100% - var(--gap) * 2);
+    --wide: minmax(0, calc((var(--container-width) - var(--content-width)) / 2));
+    --full: minmax(var(--gap), 1fr);
+    display: grid;
+    grid-template-columns: [full-start] var(--full) [wide-start] var(--wide)
+        [main-start] var(--main) [main-end] var(--wide) [wide-end] var(--full) [full-end];
+}
+.leota-canvas > * { grid-column: main-start / main-end; min-width: 0; }
+.leota-canvas > .kg-width-wide { grid-column: wide-start / wide-end; }
+.leota-canvas > .kg-width-full { grid-column: full-start / full-end; }
+.article-hero { position: relative; display: flex; flex-direction: column; justify-content: flex-end; min-height: 56vmin; margin-bottom: max(6.4vmin, 40px); }
+.article-hero:not(.has-image) { min-height: 0; margin-bottom: 0; }
+.article-hero-image { position: absolute; inset: 0; overflow: hidden; }
+.article-hero-image img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: center; }
+.article-hero-scrim { position: absolute; inset: 0; background: linear-gradient(to bottom, transparent 0%, rgba(0,0,0,.12) 40%, rgba(0,0,0,.65) 100%); }
+.article-hero-content { position: relative; z-index: 1; padding: max(6.4vmin, 40px) 0 max(4.8vmin, 32px); }
+.article-hero:not(.has-image) .article-hero-content { padding-block: max(6.4vmin, 40px); }
+.article-tag { margin: 0 0 16px; font-size: 1.6rem; font-weight: 600; }
+.article-tag a { color: var(--color-secondary-text); }
+.article-title { margin: 0; color: #fff; font-size: clamp(3.2rem, 5vw, 5.2rem); font-weight: 800; line-height: 1.05; }
+.article-excerpt { margin: 20px 0 0; max-width: 720px; font-size: 2rem; line-height: 1.45; color: var(--color-secondary-text); }
+.article-hero.has-image .article-excerpt { color: rgba(255,255,255,.85); }
+.article-hero.has-image .article-tag a { color: rgba(255,255,255,.7); }
+
+.leota-content { font-family: var(--font-body), sans-serif; font-size: 2rem; line-height: 1.6; }
+.leota-content > * { margin: 0; }
+.leota-content > * + * { margin-top: max(3.2vmin, 24px); }
+.leota-content > :is(h1,h2,h3,h4,h5,h6) { margin: 0; color: rgba(255,255,255,.9); }
+.leota-content > :is(h1,h2,h3,h4,h5,h6):not(:first-child) { margin-top: 2em; }
+.leota-content > :is(h1,h2,h3,h4,h5,h6) + * { margin-top: 1.5rem; }
+.leota-content h2 { font-size: 3.2rem; line-height: 1.2; }
+.leota-content h3 { font-size: 2.8rem; line-height: 1.3; }
+.leota-content a { color: #fff; text-decoration: underline; overflow-wrap: anywhere; }
+.leota-content :is(ul,ol) { padding-left: 1.9em; }
+.leota-content li p { margin-block: .5em; }
+.leota-content blockquote { position: relative; padding: 0; border: 0; font-size: inherit; font-style: italic; line-height: inherit; }
+.leota-content > :is(blockquote,hr), .leota-content > :is(blockquote,hr) + * { margin-top: max(4.8vmin,32px); }
+.leota-content > blockquote:first-child { margin-top: 0; }
+.leota-content blockquote::before { content: ''; position: absolute; left: -1.5em; top: 0; bottom: 0; width: 3px; background: var(--ghost-accent-color); }
+.leota-content blockquote p { margin: 0; font: inherit; color: inherit; }
+.leota-content blockquote p + p { margin-top: 1em; }
+.leota-content :is(img,video) { display: block; max-width: 100%; height: auto; margin-inline: auto; }
+.leota-content iframe { display: block; max-width: 100%; border: 0; }
+.leota-content pre { max-width: 100%; overflow-x: auto; padding: 20px; font-size: 1.4rem; background: #0d0f12; border-radius: 5px; }
+.leota-content :not(pre) > code { padding: .15em .4em; font-size: .9em; background: #000; border-radius: .25em; }
+.leota-content table { display: block; max-width: 100%; overflow-x: auto; }
+.leota-content figcaption { font-size: 1.4rem; color: var(--color-secondary-text); text-align: center; }
+.leota-content hr { border: 0; border-top: 1px solid #424242; }
+.leota-recent { border-top: 1px solid #303234; padding-block: max(6.4vmin, 40px); }
+.leota-recent-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 40px; }
+.leota-recent-grid .post-card { margin: 0; min-width: 0; }
+
+@media (max-width: 991px) {
+    .publication-nav { min-height: 64px; justify-content: space-between; }
+    .publication-nav-home .publication-logo { display: block; }
+    .publication-desktop-nav { display: none; }
+    .publication-mobile-nav { display: block; }
+    .publication-mobile-nav summary { display: flex; flex-direction: column; justify-content: center; gap: 7px; width: 44px; height: 44px; cursor: pointer; list-style: none; }
+    .publication-mobile-nav summary::-webkit-details-marker { display: none; }
+    .publication-mobile-nav summary span { display: block; width: 26px; height: 2px; margin-left: auto; background: #fff; }
+    .publication-mobile-nav[open] summary span:first-child { transform: translateY(4.5px) rotate(45deg); }
+    .publication-mobile-nav[open] summary span:last-child { transform: translateY(-4.5px) rotate(-45deg); }
+    .leota .publication-mobile-nav .publication-links { position: absolute; inset: 100% calc(-1 * max(4vmin,20px)) auto; display: flex; flex-direction: column; align-items: flex-start; gap: 24px; padding: 28px max(4vmin,20px); background: var(--color-darkmode); box-shadow: 0 12px 20px #0004; }
+    .leota-recent-grid { gap: 24px; }
+}
+@media (max-width: 767px) {
+    .publication-header { min-height: 240px; padding-top: calc(19vmin + 64px); }
+    .publication-description { font-size: 2.2rem; margin-top: 12px; }
+    .article-hero { min-height: 40vmin; }
+    .leota-recent-grid { grid-template-columns: 1fr; }
+    .leota .site-footer-content { flex-direction: column; text-align: center; }
+    .leota .site-footer .publication-links { justify-content: center; }
+}
+@media (max-width: 650px) {
+    .leota-content { font-size: 1.8rem; }
+    .leota-content blockquote::before { left: min(-4vmin, -20px); }
+    .leota-content h2 { font-size: 2.8rem; }
+    .leota-content h3 { font-size: 2.4rem; }
+}
+
+/* Leota Classic feed: one large lead, two medium cards, then three columns. */
+.leota .post-feed {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 4.8vmin 4vmin;
+    margin: 0;
+    padding: max(4.8vmin, 36px) 0;
+}
+html.dark-mode .leota .site-main { background: var(--color-darkmode); }
+html.dark-mode .leota .post-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    min-height: 0;
+    margin: 0;
+    padding: 0;
+    overflow-wrap: break-word;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+}
+.leota .post-feed > .post-card { grid-column: span 2; }
+.leota .post-card-image-link { position: relative; display: block; overflow: hidden; margin-bottom: 32px; aspect-ratio: 1 / .55; }
+.leota .post-card-image { display: block; width: 100%; height: 100%; object-fit: cover; opacity: .9; }
+.leota .post-card-content { display: flex; flex-direction: column; flex-grow: 1; }
+.leota .post-card-content-link { display: block; color: #fff; text-decoration: none; }
+.leota .post-card-content-link:hover .post-card-title { opacity: .9; }
+.leota .post-card-tags { display: block; margin: 0 0 10px; font-size: 1.4rem; font-weight: 600; line-height: 1.2; color: var(--color-secondary-text); }
+.leota .post-card-title { margin: 0; font-size: 2.6rem; font-weight: 800; line-height: 1.2; color: #fff; }
+html.dark-mode .leota .post-card-excerpt {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    margin-top: 12px;
+    max-width: 720px;
+    color: var(--color-secondary-text);
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+.leota .post-card-excerpt p { margin: 0; }
+.leota .post-card:is(.post-card-large, .dynamic, .no-image) .post-card-excerpt { -webkit-line-clamp: 3; }
+.leota .post-card-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin-top: 12px; padding: 0; color: var(--color-secondary-text); font-size: 1.3rem; }
+.leota .post-card-meta-length { display: flex; align-items: center; gap: 6px; }
+.leota .post-card-meta-length::before { content: ''; width: 2px; height: 2px; border-radius: 50%; background: currentColor; }
+.leota .post-card.no-image { justify-content: center; }
+.leota .feed-pagination { display: flex; flex-wrap: wrap; justify-content: center; gap: 24px; padding: 36px 0; font-size: 1.5rem; }
+.leota .feed-pagination a { color: #fff; }
+
+/* Archive summaries match Leota's large introductory card, outside the feed
+   so loading another page cannot duplicate the archive heading. */
+.archive-intro { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 4vmin; margin: 4vmin 0 0; padding-top: max(4.8vmin,36px); }
+.archive-image { grid-column: span 2; aspect-ratio: 1 / .55; }
+.archive-image img { display: block; width: 100%; height: 100%; object-fit: cover; opacity: .9; }
+.archive-content { min-width: 0; }
+.archive-intro:not(.has-image) .archive-content { grid-column: span 2; }
+.archive-content h1 { margin: 0; color: #fff; font-size: 4.4rem; font-weight: 800; line-height: 1.05; }
+.archive-content p { margin: 16px 0 0; font-size: 1.6rem; line-height: 1.5; }
+.archive-portrait { display: block; border-radius: 50%; object-fit: cover; margin: 0 0 20px; }
+.archive-meta { margin-top: 24px; font-size: 1.5rem; }
+.archive-meta-links { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 12px; }
+.archive-meta-links a { color: #fff; }
+.page-template .leota-article { padding-bottom: max(12vmin,64px); }
+.page-template .article-hero:not(.has-image) .article-hero-content { padding-block: max(12vmin,64px) max(3.2vmin,28px); }
+
+@media (min-width: 1001px) {
+    html.dark-mode .leota .post-card-large { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 4vmin; }
+    .leota .post-feed > .post-card-large { grid-column: span 6; }
+    .leota .post-card-large .post-card-image-link { grid-column: span 2; margin: 0; }
+    .leota .post-card-large .post-card-content { grid-column: span 1; }
+    .leota .post-card-large.no-image .post-card-content { grid-column: span 2; }
+    .leota .post-card-large .post-card-title { font-size: 4.4rem; line-height: 1.05; }
+    .leota .post-card-large .post-card-excerpt { margin-top: 16px; }
+    .leota .post-feed > .dynamic { grid-column: span 3; }
+    .leota .dynamic .post-card-title { font-size: 3rem; }
+}
+@media (max-width: 1000px) {
+    .leota .post-feed { grid-template-columns: repeat(2,minmax(0,1fr)); }
+    .leota .post-feed > .post-card { grid-column: auto; }
+    .archive-intro { grid-template-columns: 1fr 1fr; }
+    .archive-image { grid-column: auto; }
+    .archive-content h1 { font-size: 3.2rem; }
+}
+@media (max-width: 767px) {
+    .leota .post-feed { grid-template-columns: 1fr; gap: 40px; }
+    .archive-intro { grid-template-columns: 1fr; gap: 32px; }
+    .archive-intro:not(.has-image) .archive-content { grid-column: auto; }
+}
+
+/* Ghost card treatments, with Leota's typography. Content stays portable HTML. */
+.leota-content > :not(.kg-card) + .kg-card,
+.leota-content > .kg-card + :not(.kg-card) { margin-top: max(6vmin, 28px); }
+.leota-content .kg-callout-card { display: flex; gap: .8em; padding: 1.2em 1.6em; border-radius: 8px; }
+.leota-content .kg-callout-card-blue { background: rgba(33,172,232,.12); }
+.leota-content .kg-callout-card-yellow { background: rgba(240,165,15,.13); }
+.leota-content .kg-callout-card + .kg-callout-card { margin-top: 1em; }
+.leota-content .kg-callout-emoji { flex: 0 0 auto; font-size: 2.1rem; line-height: 1.4; }
+.leota-content .kg-callout-text { min-width: 0; font-family: Georgia, serif; font-size: 1.9rem; line-height: 1.6; }
+.leota-content blockquote.kg-blockquote-alt { padding: 0 2.5em; font-family: Georgia, serif; font-size: 1.5em; font-style: italic; line-height: 1.7; text-align: center; color: var(--color-secondary-text); }
+.leota-content blockquote.kg-blockquote-alt::before { display: none; }
+.leota-content :is(.kg-gallery-card,.kg-image-card) { --gallery-gap: 1.2rem; }
+.leota-content :is(.kg-gallery-card,.kg-image-card):not(.kg-card-hascaption) + :is(.kg-gallery-card,.kg-image-card) { margin-top: var(--gallery-gap); }
+.leota-content .kg-gallery-row { display: flex; gap: var(--gallery-gap); }
+.leota-content .kg-gallery-row + .kg-gallery-row { margin-top: var(--gallery-gap); }
+.leota-content .kg-gallery-image { min-width: 0; flex: 1; }
+.leota-content :is(.kg-gallery-image,.kg-image-card) > a { display: block; cursor: zoom-in; }
+.leota-content .kg-gallery-image a { height: 100%; }
+.leota-content .kg-gallery-image img { width: 100%; height: 100%; object-fit: contain; }
+.leota-content figcaption { padding: 1.5rem 1.5rem 0; font-size: 1.3rem; line-height: 1.4; color: rgba(255,255,255,.6); }
+.leota-content figcaption p { margin: 0; }
+.image-lightbox { position: fixed; inset: 0; width: 100%; max-width: none; height: 100%; max-height: none; margin: 0; padding: 20px; border: 0; color: #fff; background: transparent; }
+.image-lightbox::backdrop { background: rgba(0,0,0,.94); }
+.image-lightbox[open] { display: flex; flex-direction: column; }
+.lightbox-toolbar { display: flex; align-items: center; gap: 24px; font-size: 1.5rem; }
+.lightbox-original { margin-left: auto; color: #fff; text-decoration: underline; }
+.image-lightbox button { min-width: 44px; min-height: 44px; padding: 0 12px; border: 0; border-radius: 4px; color: #fff; background: #242629; font: 3.2rem/1 sans-serif; cursor: pointer; }
+.image-lightbox button:hover { background: var(--ghost-accent-color); }
+.image-lightbox button:focus-visible { outline: 2px solid #fff; outline-offset: 3px; }
+.lightbox-stage { display: flex; flex: 1; align-items: center; justify-content: center; gap: 20px; min-height: 0; pointer-events: none; }
+.lightbox-stage > * { pointer-events: auto; }
+.lightbox-stage figure { display: flex; flex-direction: column; align-items: center; max-width: calc(100% - 128px); max-height: 100%; margin: 0; min-width: 0; }
+.lightbox-image { min-height: 0; max-width: 100%; max-height: calc(100dvh - 160px); object-fit: contain; }
+.lightbox-caption { flex-shrink: 0; max-width: 900px; max-height: 20dvh; overflow: auto; padding-top: 16px; font-size: 1.4rem; line-height: 1.4; text-align: center; }
+@media (max-width: 800px) {
+    .leota-content blockquote.kg-blockquote-alt { font-size: 1.4em; padding-inline: 2em; }
+}
+@media (max-width: 600px) {
+    .leota-content blockquote.kg-blockquote-alt { font-size: 1.2em; padding-inline: 1.75em; }
+    .leota-content .kg-callout-card { padding: 20px; }
+    .leota-content .kg-callout-text { font-size: 1.8rem; }
+    .leota-content :is(.kg-gallery-card,.kg-image-card) { --gallery-gap: .6rem; }
+    .image-lightbox { padding: 12px; }
+    .lightbox-stage { flex-wrap: wrap; align-content: center; gap: 12px; }
+    .lightbox-stage figure { order: -1; width: 100%; max-width: 100%; max-height: calc(100% - 56px); }
+    .lightbox-image { max-height: calc(100dvh - 210px); }
+}

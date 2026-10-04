@@ -1,27 +1,37 @@
+// Publication settings recovered from the 2026-10-03 Ghost export.
 export const SITE_CONFIG = {
-  title: 'Ghost',
-  description: 'The professional publishing platform',
-  cover: 'assets/images/blog-cover.jpg',
-  logo: 'assets/images/blog-icon.png',
-  logoDark: 'assets/images/favicon.png',
-  favicon: 'assets/images/favicon.png',
+  title: 'Game Notes & Summaries',
+  description: 'All the things I write down from all the games we play.',
+  cover: 'assets/images/2026/05/musetta._dramatic_low_angle_looking_up_at_six_silhouetted_figur_8e265eba-592c-4a9d-8900-251bc271583a.png',
+  logo: 'assets/images/2025/01/IMG_0489.png',
+  logoDark: 'assets/images/2025/01/IMG_0489.png',
+  favicon: 'assets/images/2024/12/IMG_0423-2.png',
   navigation: true,
-  subscribers: true,
-  twitter: 'tryghost',
-  facebook: 'ghost',
-  xUsername: 'tryghost',
-  github: 'AntonyLeons/casper',
+  subscribers: false,
+  twitter: '',
+  facebook: '',
+  xUsername: '',
+  github: '',
   disqus: false,
-  disqusShortname: 'antonyleons',
-  googleAnalytics: 'UA-69281367-1',
+  disqusShortname: '',
+  googleAnalytics: '',
   wordsPerMinute: 200,
   pageSize: 25,
-  algolia: {
-    applicationId: '08WJSG8GMW',
-    indexName: 'jasper2',
-    searchOnlyApiKey: '899d0b22cae5a8affeb4f1f9f35adcc4',
-  },
+  homepageTag: 'CoM Season 1',
+  algolia: null as { applicationId: string; indexName: string; searchOnlyApiKey: string } | null,
 };
+
+// Keep the original destinations recorded while their pages await migration.
+export const PRIMARY_NAVIGATION = [
+  { label: 'City of Mist', href: '/city-of-mist/', available: false },
+  { label: 'Freaky Gray Company', href: '/the-freaky-gray-company/', available: false },
+  { label: 'The Chosen', href: '/the-chosen/', available: false },
+  { label: 'About', href: '/about/', available: true },
+];
+export const SECONDARY_NAVIGATION = [
+  { label: 'DM Resources', href: '/dm-resources/', available: false },
+  { label: 'RPG Consent Checklist', href: '/rpg-consent-checklist/', available: false },
+];
 
 /**
  * Helper to resolve paths with the Astro base URL

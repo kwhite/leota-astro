@@ -1,0 +1,21 @@
+---
+import { getAssetUrl } from '../config';
+interface Props {
+    title: string;
+    cover?: string | null;
+    description?: string;
+    primaryTag?: string;
+}
+const { title, cover, description, primaryTag } = Astro.props;
+---
+<header class:list={['article-hero', { 'has-image': !!cover }]}>
+    {cover && <>
+        <div class="article-hero-image"><img src={getAssetUrl(cover)} alt="" fetchpriority="high" /></div>
+        <div class="article-hero-scrim"></div>
+    </>}
+    <div class="article-hero-content leota-canvas">
+        {primaryTag && <div class="article-tag"><a href={getAssetUrl(`/tag/${primaryTag.toLowerCase().replace(/\s+/g, '-')}/`)}>{primaryTag}</a></div>}
+        <h1 class="article-title">{title}</h1>
+        {description && <p class="article-excerpt">{description}</p>}
+    </div>
+</header>

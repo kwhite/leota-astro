@@ -1,0 +1,19 @@
+---
+import { getAssetUrl } from '../config';
+interface Props {
+    title: string;
+    description?: string;
+    cover?: string | null;
+    portrait?: string | null;
+}
+const { title, description, cover, portrait } = Astro.props;
+---
+<section class:list={['archive-intro', { 'has-image': !!cover }]}>
+    {cover && <div class="archive-image"><img src={getAssetUrl(cover)} alt="" fetchpriority="high" /></div>}
+    <div class="archive-content">
+        {portrait && <img class="archive-portrait" src={getAssetUrl(portrait)} alt="" width="80" height="80" />}
+        <h1>{title}</h1>
+        {description && <p>{description}</p>}
+        <slot />
+    </div>
+</section>

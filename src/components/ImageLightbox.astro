@@ -1,0 +1,95 @@
+<dialog class="image-lightbox" aria-label="Image viewer">
+    <div class="lightbox-toolbar">
+        <span class="lightbox-counter" aria-live="polite"></span>
+        <a class="lightbox-original" target="_blank" rel="noopener">Open original</a>
+        <button type="button" class="lightbox-close" autofocus aria-label="Close image viewer">×</button>
+    </div>
+    <div class="lightbox-stage">
+        <button type="button" class="lightbox-prev" aria-label="Previous image">‹</button>
+        <figure><img class="lightbox-image" alt="" /><figcaption class="lightbox-caption"></figcaption></figure>
+        <button type="button" class="lightbox-next" aria-label="Next image">›</button>
+    </div>
+</dialog>
+
+<script>
+    let cleanup: (() => void) | undefined;
+    function initialize() {
+        cleanup?.();
+        const dialog = document.querySelector<HTMLDialogElement>('.image-lightbox');
+        if (!dialog || typeof dialog.showModal !== 'function') return;
+        const controller = new AbortController();
+        const { signal } = controller;
+        const image = dialog.querySelector<HTMLImageElement>('.lightbox-image')!;
+        const caption = dialog.querySelector<HTMLElement>('.lightbox-caption')!;
+        const counter = dialog.querySelector<HTMLElement>('.lightbox-counter')!;
+        const original = dialog.querySelector<HTMLAnchorElement>('.lightbox-original')!;
+        const previous = dialog.querySelector<HTMLButtonElement>('.lightbox-prev')!;
+        const next = dialog.querySelector<HTMLButtonElement>('.lightbox-next')!;
+        const cardSelector = '.kg-image-card, .kg-gallery-card';
+        let items: HTMLAnchorElement[] = [];
+        let index = 0;
+        let opener: HTMLAnchorElement | undefined;
+        let previousOverflow = '';
+        function render() {
+            const link = items[index];
+            const source = link.querySelector('img')!;
+            image.src = link.href;
+            image.alt = source.alt;
+            caption.textContent = link.closest('figure')?.querySelector('figcaption')?.textContent || source.alt;
+            counter.textContent = `${index + 1} / ${items.length}`;
+            original.href = link.href;
+            previous.hidden = next.hidden = items.length < 2;
+        }
+        function move(step: number) { index = (index + step + items.length) % items.length; render(); }
+        document.querySelectorAll<HTMLAnchorElement>('.leota-content :is(.kg-image-card, .kg-gallery-card) a[href]').forEach(link => {
+            if (!link.querySelector('img')) return;
+            link.addEventListener('click', event => {
+                if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+                event.preventDefault();
+                opener = link;
+                let first = link.closest(cardSelector)!;
+                while (first.previousElementSibling?.matches(cardSelector)) first = first.previousElementSibling;
+                items = [];
+                for (let card: Element | null = first; card?.matches(cardSelector); card = card.nextElementSibling) {
+                    items.push(...Array.from(card.querySelectorAll<HTMLAnchorElement>('a[href]')).filter(a => a.querySelector('img')));
+                }
+                index = items.indexOf(link);
+                render();
+                previousOverflow = document.documentElement.style.overflow;
+                document.documentElement.style.overflow = 'hidden';
+                dialog.showModal();
+            }, { signal });
+        });
+        previous.addEventListener('click', () => move(-1), { signal });
+        next.addEventListener('click', () => move(1), { signal });
+        dialog.querySelector('.lightbox-close')!.addEventListener('click', () => dialog.close(), { signal });
+        dialog.addEventListener('keydown', event => {
+            if (event.key === 'Tab') {
+                const controls = Array.from(dialog.querySelectorAll<HTMLElement>('a[href], button'))
+                    .filter(control => !control.hidden);
+                const first = controls[0];
+                const last = controls[controls.length - 1];
+                if (event.shiftKey && document.activeElement === first) {
+                    event.preventDefault(); last.focus();
+                } else if (!event.shiftKey && document.activeElement === last) {
+                    event.preventDefault(); first.focus();
+                }
+            }
+            if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
+                event.preventDefault(); move(event.key === 'ArrowLeft' ? -1 : 1);
+            }
+        }, { signal });
+        dialog.addEventListener('click', event => { if (event.target === dialog) dialog.close(); }, { signal });
+        dialog.addEventListener('close', () => {
+            document.documentElement.style.overflow = previousOverflow;
+            opener?.focus({ preventScroll: true });
+            image.removeAttribute('src');
+        }, { signal });
+        cleanup = () => {
+            if (dialog.open) { dialog.close(); document.documentElement.style.overflow = previousOverflow; }
+            controller.abort();
+        };
+    }
+    document.addEventListener('astro:page-load', initialize);
+    document.addEventListener('astro:before-swap', () => cleanup?.());
+</script>

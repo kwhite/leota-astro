@@ -3,11 +3,9 @@ import { getCollection, getEntry } from 'astro:content';
 import Layout from '../../../layouts/Layout.astro';
 import SiteNav from '../../../components/SiteNav.astro';
 import PostCard from '../../../components/PostCard.astro';
+import ArchiveHeader from '../../../components/ArchiveHeader.astro';
+import Pagination from '../../../components/Pagination.astro';
 import { SITE_CONFIG, getAssetUrl } from '../../../config';
-import Website from '../../../components/icons/Website.astro';
-import Twitter from '../../../components/icons/Twitter.astro';
-import Facebook from '../../../components/icons/Facebook.astro';
-import Rss from '../../../components/icons/Rss.astro';
 
 export async function getStaticPaths({ paginate }: any) {
   const allPosts = await getCollection('posts');
@@ -62,56 +60,29 @@ const authorProfileImg = authorData.picture ? getAssetUrl(authorData.picture) : 
 ---
 
 <Layout title={authorData.name} description={authorData.bio} image={coverImage} current="author">
-    <!-- Header -->
-    <header class={`site-header outer ${coverImage ? '' : 'no-cover'}`} style={coverImage ? `background-image: url(${coverImage})` : ''}>
-        <div class="inner">
-            <SiteNav current="author" />
-            <div class="site-header-content">
-                {authorProfileImg && (
-                    <img class="author-profile-image" src={authorProfileImg} alt={authorData.name} />
-                )}
-                <h1 class="site-title">{authorData.name}</h1>
-                {authorData.bio && (
-                    <h2 class="author-bio">{authorData.bio}</h2>
-                )}
-                <div class="author-meta">
-                    {authorData.location && (
-                        <div class="author-location">{authorData.location} <span class="bull">&bull;</span></div>
-                    )}
-                    <div class="author-stats">
-                        {statsText} <span class="bull">&bull;</span>
-                    </div>
-                    {authorData.url && (
-                        <a class="social-link social-link-wb" href={authorData.url_full || (typeof authorData.url === 'string' ? authorData.url : '')} target="_blank" rel="noopener" aria-label="Website">
-                            <Website style="width:16px;height:16px;" />
-                        </a>
-                    )}
-                    {authorData.twitter && (
-                        <a class="social-link social-link-tw" href={`https://twitter.com/${authorData.twitter}`} target="_blank" rel="noopener" aria-label="Twitter">
-                            <Twitter style="width:16px;height:16px;" />
-                        </a>
-                    )}
-                    {authorData.facebook && (
-                        <a class="social-link social-link-fb" href={`https://facebook.com/${authorData.facebook}`} target="_blank" rel="noopener" aria-label="Facebook">
-                            <Facebook style="width:16px;height:16px;" />
-                        </a>
-                    )}
-                    <a class="social-link social-link-rss" href={`https://feedly.com/i/subscription/feed/${new URL(getAssetUrl(`/author/${author}/feed.xml`), Astro.site || 'https://casper.leons.dev/').toString()}`} target="_blank" rel="noopener" aria-label="RSS Feed">
-                        <Rss style="width:16px;height:16px;" />
-                    </a>
-                </div>
-            </div>
-        </div>
-    </header>
+    <header class="site-header outer"><div class="inner"><SiteNav current="author" /></div></header>
 
     <!-- Main Content Area -->
     <main id="site-main" class="site-main outer" role="main">
         <div class="inner">
-            <div class="post-feed" data-max-pages={maxPages} data-base-url={getAssetUrl(`/author/${author}/`)}>
+            <ArchiveHeader title={authorData.name} description={authorData.bio} cover={coverImage} portrait={authorProfileImg}>
+                <div class="archive-meta">
+                    {authorData.location && <div>{authorData.location}</div>}
+                    <div>{statsText}</div>
+                    <div class="archive-meta-links">
+                        {typeof authorData.url_full === 'string' && authorData.url_full && <a href={authorData.url_full} rel="noopener">Website</a>}
+                        {authorData.twitter && <a href={`https://twitter.com/${authorData.twitter}`} rel="noopener">Twitter</a>}
+                        {authorData.facebook && <a href={`https://facebook.com/${authorData.facebook}`} rel="noopener">Facebook</a>}
+                        <a href={getAssetUrl(`/author/${author}/feed.xml`)}>RSS feed</a>
+                    </div>
+                </div>
+            </ArchiveHeader>
+            <div class="post-feed" data-current-page={page.currentPage} data-max-pages={maxPages} data-base-url={getAssetUrl(`/author/${author}/`)}>
                 {page.data.map((post: any) => (
                     <PostCard post={post} />
                 ))}
             </div>
+            <Pagination currentPage={page.currentPage} totalPages={maxPages} baseUrl={getAssetUrl(`/author/${author}/`)} />
         </div>
     </main>
 </Layout>

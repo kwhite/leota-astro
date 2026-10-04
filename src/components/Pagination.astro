@@ -1,0 +1,10 @@
+---
+interface Props { currentPage: number; totalPages: number; baseUrl: string; }
+const { currentPage, totalPages, baseUrl } = Astro.props;
+const pageUrl = (number: number) => number === 1 ? baseUrl : `${baseUrl}page${number}/`;
+---
+{totalPages > 1 && <nav class="feed-pagination" aria-label="Pagination">
+    {currentPage > 1 && <a rel="prev" href={pageUrl(currentPage - 1)}>← Newer posts</a>}
+    <span>Page {currentPage} of {totalPages}</span>
+    {currentPage < totalPages && <a rel="next" href={pageUrl(currentPage + 1)}>Older posts →</a>}
+</nav>}

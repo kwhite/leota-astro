@@ -1,0 +1,131 @@
+{
+  "note": "Local prototype media inventory. Only the two small branding assets are included in this commit. Other media remain local and in the supplied backup; preserve public paths when restoring. This is not a bulk storage or sync solution.",
+  "assets": [
+    {
+      "publicUrl": "/assets/images/2024/12/IMG_0423-2.png",
+      "bytes": 76839,
+      "sha256": "18a89ad1c3c3712389f1582d4bab540ad7e8e5dcaa2cdc01057369f8b480d3af",
+      "includedInGit": true
+    },
+    {
+      "publicUrl": "/assets/images/2025/01/IMG_0489.png",
+      "bytes": 62747,
+      "sha256": "532562d2a91322f4840546447000a9ce2ecbde6f4f906ddfea3b801d0d959042",
+      "includedInGit": true
+    },
+    {
+      "publicUrl": "/assets/images/2025/02/01532928-25F1-4374-AFD7-7892B0A62CA5.png",
+      "bytes": 2494049,
+      "sha256": "60ef3480505cf23961add397b306fbede43016fb7e7cf9a96be9c728efdb0583",
+      "includedInGit": false
+    },
+    {
+      "publicUrl": "/assets/images/2025/02/569F61AC-972A-424E-B5E0-169B2822F3C1-2.png",
+      "bytes": 4477434,
+      "sha256": "2ebd25c2fe4a7f34bb7d3848d06385cf0bdd79a8c974d475eba51045d2c946a4",
+      "includedInGit": false
+    },
+    {
+      "publicUrl": "/assets/images/2025/02/831AF2D6-3DC5-4377-B0DB-F4340B354696-1.png",
+      "bytes": 4305312,
+      "sha256": "9239267ecc9824e60c2a48dc2a5896f5bb3517c62b02edd234358b40f43af063",
+      "includedInGit": false
+    },
+    {
+      "publicUrl": "/assets/images/2025/02/843B013D-8DA7-4873-A949-474F49FDA1E5.png",
+      "bytes": 4532323,
+      "sha256": "f4908d5449abda2c21e3d7dd8062df0e40b82f404d80364aea796d7cee67c9df",
+      "includedInGit": false
+    },
+    {
+      "publicUrl": "/assets/images/2025/02/B7CE18E8-AAAF-45DC-BC98-AE1B619FAF14-1.png",
+      "bytes": 3317760,
+      "sha256": "e9bb7753f83c7889ee9ca8d0382086745c1e1de8ac22eee45d1934e665224a75",
+      "includedInGit": false
+    },
+    {
+      "publicUrl": "/assets/images/2025/02/B7CE18E8-AAAF-45DC-BC98-AE1B619FAF14.png",
+      "bytes": 3317760,
+      "sha256": "e9bb7753f83c7889ee9ca8d0382086745c1e1de8ac22eee45d1934e665224a75",
+      "includedInGit": false
+    },
+    {
+      "publicUrl": "/assets/images/2025/02/IMG_0502.jpeg",
+      "bytes": 154237,
+      "sha256": "e839ecb006950be81597bcb0693c43436e302bd2f9332948d6909b315d55c17e",
+      "includedInGit": false
+    },
+    {
+      "publicUrl": "/assets/images/2025/03/granted3609_dnd_style_a_stocky_human_male_mariner_--v_6.1_e1868e4b-4422-4d5c-a575-7358089afee1-1.png",
+      "bytes": 1179575,
+      "sha256": "a458248aa64a9a5d655939296ca0c66ade7708e1053b5f1a7595b33c37013f46",
+      "includedInGit": false
+    },
+    {
+      "publicUrl": "/assets/images/2025/03/jeroenfm_dd_15th_century_tiefling_ship_crewman_--v_6.1_76ac8b4a-6305-4261-ae1b-b71f898a180e-1.png",
+      "bytes": 1548363,
+      "sha256": "6df541026940d56ae6484b9655054439f3db072ee4fe13e87c91cc64ef4efe65",
+      "includedInGit": false
+    },
+    {
+      "publicUrl": "/assets/images/2025/03/musetta._A_dynamic_wide_angle_fantasy_image_of_a_wrecked_scho_7fe3cb9f-6c99-46a9-b917-5e1579966fea_0.png",
+      "bytes": 2151912,
+      "sha256": "052fed97d094a0cbbbef9fcd7eaf8307194c3df9785b4df3150be521cd2f32a5",
+      "includedInGit": false
+    },
+    {
+      "publicUrl": "/assets/images/2026/05/look-a-dragon-4.png",
+      "bytes": 2028523,
+      "sha256": "ff1be9a7025a9a2726a154526e919bcc8b52c1d5f1d633af90f05a7f261ce5f3",
+      "includedInGit": false
+    },
+    {
+      "publicUrl": "/assets/images/2026/05/musetta._dramatic_low_angle_looking_up_at_six_silhouetted_figur_8e265eba-592c-4a9d-8900-251bc271583a.png",
+      "bytes": 2701913,
+      "sha256": "a041c2a3c31fcdc13ec673abd7efcfb7030c3fe5c1887026dea3df41278944b3",
+      "includedInGit": false
+    },
+    {
+      "publicUrl": "/assets/images/2026/05/wildemount.jpg",
+      "bytes": 229218,
+      "sha256": "28cd392e39e24ebdaa884c788df347a5fdb606d4efa80e7b8d3a5b299d5f4575",
+      "includedInGit": false
+    },
+    {
+      "publicUrl": "/assets/images/2026/06/coffeeshop-prologue-1.webp",
+      "bytes": 95994,
+      "sha256": "242332497c6c0ccd2d88c81ab93ec2cfa7bc67e622298e4cd4bdfd3de5e86362",
+      "includedInGit": false
+    },
+    {
+      "publicUrl": "/assets/images/2026/06/sekhmet-1.webp",
+      "bytes": 101186,
+      "sha256": "ae3c64143ada8e2c593b52d78cdbd6303a7138cca466acc9f593ef53277ddf3f",
+      "includedInGit": false
+    },
+    {
+      "publicUrl": "/assets/images/2026/08/briana5-1.webp",
+      "bytes": 115846,
+      "sha256": "36412029d2a2b96bdd3cacbceb5affe55524f631a199c60044319476e952a2c2",
+      "includedInGit": false
+    },
+    {
+      "publicUrl": "/assets/images/2026/09/raz--1--1.webp",
+      "bytes": 85054,
+      "sha256": "0e593430b2cbcb212d215f0f088a4f367a65e9316b26616c639468534599008c",
+      "includedInGit": false
+    },
+    {
+      "publicUrl": "/assets/images/2026/09/raz--1-.webp",
+      "bytes": 85054,
+      "sha256": "0e593430b2cbcb212d215f0f088a4f367a65e9316b26616c639468534599008c",
+      "includedInGit": false
+    },
+    {
+      "publicUrl": "/assets/images/kat.png",
+      "bytes": 2727344,
+      "sha256": "2ff42f2f9b263e688c81830b2c024940a80f8cfc2fe1ee9f05be2fb31306f20f",
+      "includedInGit": false
+    }
+  ]
+}

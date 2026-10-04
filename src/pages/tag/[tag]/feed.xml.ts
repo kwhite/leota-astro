@@ -1,4 +1,4 @@
-import { getCollection, getEntry } from 'astro:content';
+import { getCollection } from 'astro:content';
 import { SITE_CONFIG, getAssetUrl } from '../../../config';
 import { generateAtomFeed } from '../../../utils/feed';
 
@@ -33,7 +33,9 @@ export async function GET(context: any) {
   const indexUrl = new URL(getAssetUrl(`/tag/${tag}/`), siteUrl).toString();
 
   // Tag info from the data collection
-  const tagEntry = tag ? await getEntry('tags', tag) : null;
+  const tagEntry = (await getCollection('tags')).find(entry =>
+    entry.data.name.toLowerCase().replace(/\s+/g, '-') === tag
+  );
   const tagInfo = tagEntry ? tagEntry.data : null;
   const tagName = tagInfo?.name || tag.replace(/-/g, ' ');
   const tagDescription = typeof tagInfo?.description === 'string' ? tagInfo.description : `A collection of posts filed under ${tagName}`;
