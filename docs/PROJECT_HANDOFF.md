@@ -114,7 +114,7 @@ Latest production build: **52 pages**, no warnings. XML feeds parse successfully
 - Complete complex-post rendered text matches export after normalizing existing smart punctuation. All special blocks match source text/order. Gallery sample's complete rendered text matches source.
 - Browser verified keyboard image opening, arrow navigation, next wrapping two→one, Escape and close button, focus return, Tab/Shift+Tab loop, and isolated image `1 / 1` with navigation hidden. Repeated navigation/reload initialization worked.
 - Static direct-image links/gallery HTML provide the no-JavaScript fallback, but a separate JavaScript-disabled browser run was not performed.
-- Spotify iframe remains intact and responsive in the source; **playback is still unverified**.
+- Kat has confirmed that Spotify embeds work correctly. Playback acceptance is complete based on user verification.
 - Exact live-site visual parity cannot be certified because the original site is unavailable.
 
 Historical page counts/warnings in earlier milestone reports describe those earlier states, not current failures.
@@ -122,7 +122,7 @@ Historical page counts/warnings in earlier milestone reports describe those earl
 ## Known remaining work and proposed sequence
 
 1. Review the completed special-content milestone with Kat; address requested visual changes. Decide whether touch gestures/zoom are needed beyond the current accessible viewer.
-2. Finish representative-content acceptance: Spotify playback and any other actually used rich embeds; deeper gallery coverage (multiple rows, mixed aspect ratios, adjacent cards), browser compatibility and no-JavaScript checks as warranted.
+2. Finish representative-content acceptance: link previews on the DM Resources page are the only other rich-embed type Kat uses. Spotify is verified by Kat. Also consider deeper gallery coverage (multiple rows, mixed aspect ratios, adjacent cards), browser compatibility and no-JavaScript checks as warranted.
 3. Scope campaign/resource page migration with Kat. Preserve distinctions between pages and posts, real body content and hero behavior. Enable each inactive nav link only when its target works.
 4. Review remaining starter/demo content and recent-post suggestions. Starter posts still exist on original routes and may appear in recent-post areas. Do not remove them indiscriminately.
 5. After local prototype acceptance, design a repeatable export converter and bulk-media process: dry-run report, source→target mapping, draft/page/post separation, collision checks, unsupported-card reporting, and preserved captions/links/metadata. Include the automated PNG-to-WebP pipeline described in `image-optimization-plan.md`: prototype pilot, reviewed quality settings, responsive sizes where useful, reference rewriting, validation, and a deployment manifest that excludes replaced source images. Preserve originals in the separate backup, not in the deployed site.
@@ -158,3 +158,13 @@ Kat wants the migration workflow to convert existing PNGs to optimized WebPs and
 **Deployment requirement:** ultimately remove superseded source images from the deployed site to reduce storage. Keep archival originals in a separate backup outside the deployment/public tree. Merely changing references or using a Git ignore rule is insufficient: exclude source copies from the build/upload artifact, and later reconcile already-deployed obsolete objects using a reviewed manifest. Full-size gallery downloads should use optimized large images, so “Open original” links/labels must be updated to avoid depending on archived PNGs. Preserve legacy image URLs through redirects where needed instead of keeping duplicate source files.
 
 See `image-optimization-plan.md` for stages and acceptance criteria. This is a planned migration requirement, not a record of completed conversion or authorization for immediate production deletion.
+
+## City of Mist special-page review
+
+Kat requested inspection of the City of Mist overview, Districts/Locations, and People pages. See `city-of-mist-page-review.md` for the source-backed inventory and proposed migration unit. Key additions: shared campaign subnavigation; Ghost v2 image-backed header cards; a chapter table; a downloadable city map and twelve district banners; a custom 21-person, four-column desktop portrait directory with five active sheet links. The older `city-of-mist-characters` page is separate, has its hero disabled, and is commented out of current subnavigation. Preserve that distinction. Inspection identified source-content gaps, People font-loading uncertainty, Wren's incorrect alt text, and media originals/renditions that need reconciliation across local files and the backup. No application code or page migration was performed in this review.
+
+## User clarifications after the page review
+
+- Image-backed arc/season cards are a **site-wide reusable treatment**, used for tag destinations in Buffy/The Chosen, Freaky Gray Company, and City of Mist. Build one extensible presentation with content-driven image, heading, optional description, destination/button label and supported width/alignment variants. Keep campaign names, tag slugs and copy out of the component. Reuse the existing Astro architecture; no new collection/schema is implied. Verify examples across all three campaigns before finalizing the interface.
+- Kat confirmed Spotify embeds work correctly; do not leave playback listed as unresolved acceptance work.
+- The only other rich embeds in use are the link previews on **DM Resources**. Inspect their actual exported markup and metadata before implementing support; do not expand the scope to unused embed providers or card types.
