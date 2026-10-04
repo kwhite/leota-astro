@@ -1,0 +1,9 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import CampaignNav from '../components/CampaignNav.astro';
+import { Content, frontmatter } from '../data/campaigns/rules.md';
+---
+<PageLayout title={frontmatter.title} cover={frontmatter.cover} subclass="campaign-page">
+    <CampaignNav current="rules" />
+    <Content />
+</PageLayout>

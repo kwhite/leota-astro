@@ -316,3 +316,14 @@ html.dark-mode .leota .post-card-excerpt {
     .lightbox-stage figure { order: -1; width: 100%; max-width: 100%; max-height: calc(100% - 56px); }
     .lightbox-image { max-height: calc(100dvh - 210px); }
 }
+
+/* Campaign content retains the shared reading grid and banner widths. */
+.campaign-page .leota-content > .campaign-nav { margin-top: 0; }
+.campaign-page .district-description > p { margin: 0; }
+.campaign-page .district-description > p + p { margin-top: 24px; }
+.campaign-page .district-description > p:empty { display: none; }
+.campaign-page .migration-note { font-size: 1.5rem; color: var(--color-secondary-text); }
+.campaign-page table { width: 100%; border-collapse: collapse; font-size: 1.7rem; }
+.campaign-page :is(th,td) { padding: 12px 16px; border-bottom: 1px solid #424242; text-align: left; }
+.campaign-page th { color: #fff; font-weight: 700; }
+.campaign-page .content-banner + .district-description { margin-top: 28px; }

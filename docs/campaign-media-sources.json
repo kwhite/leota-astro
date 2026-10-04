@@ -1,0 +1,220 @@
+{
+  "note": "All campaign assets reused from existing local public media; no new copies or conversions. Bulk images remain outside Git. This manifest inventories current delivery files, not archival provenance. Optimization and source reconciliation remain pending.",
+  "assets": [
+    {
+      "publicUrl": "/assets/images/2024/12/IMG_0423-2.png",
+      "bytes": 76839,
+      "sha256": "18a89ad1c3c3712389f1582d4bab540ad7e8e5dcaa2cdc01057369f8b480d3af"
+    },
+    {
+      "publicUrl": "/assets/images/2025/01/IMG_0489.png",
+      "bytes": 62747,
+      "sha256": "532562d2a91322f4840546447000a9ce2ecbde6f4f906ddfea3b801d0d959042"
+    },
+    {
+      "publicUrl": "/assets/images/2026/05/cillian-tennant.png",
+      "bytes": 6837593,
+      "sha256": "576c833f9f9c90a69f58409ca59c6a61ce54a32c99ce686954dbf023abeb9729"
+    },
+    {
+      "publicUrl": "/assets/images/2026/05/city-of-mist-map.jpg",
+      "bytes": 606840,
+      "sha256": "78071a940c667bef0b784e8909a1452412d787b654dbb6ba3ca4fadef7693a5b"
+    },
+    {
+      "publicUrl": "/assets/images/2026/05/city-of-mist.png",
+      "bytes": 1746984,
+      "sha256": "ff2df2fb58a3d49454b06a226ba2e0cca8a7537bed094f0115ebb9a0c1d0a94c"
+    },
+    {
+      "publicUrl": "/assets/images/2026/05/daniel1.png",
+      "bytes": 5287326,
+      "sha256": "b49966be98afff606dc2ade5cb6149d61fa1066afaad728e0ff9a671c85cc5bf"
+    },
+    {
+      "publicUrl": "/assets/images/2026/05/geoffrey1.png",
+      "bytes": 7081870,
+      "sha256": "2bc51d46cd57524f2979a1acc485021f9a2b490a1836b0f15705e2d454597667"
+    },
+    {
+      "publicUrl": "/assets/images/2026/05/isabella-aguilar.png",
+      "bytes": 5766688,
+      "sha256": "925bc95f2436ecd0b1c5661a787b1501c47fe8bafcddccdc118b1b2e1a6635aa"
+    },
+    {
+      "publicUrl": "/assets/images/2026/05/london1.png",
+      "bytes": 5613542,
+      "sha256": "0e720b3e4da50d850ed225d7e355b131a9c69f0cae72faf564c1df798cd3a44c"
+    },
+    {
+      "publicUrl": "/assets/images/2026/05/maeve1.png",
+      "bytes": 6599617,
+      "sha256": "8e84cbbced191509ef0d4413179916783500cf5bc13d03b0d76f89461db79d5b"
+    },
+    {
+      "publicUrl": "/assets/images/2026/05/musetta._35mm_film_photography_cinematic_medium_shot_single_w_dae01c57-cbea-4cf5-99c5-a494a4b5c811_3.png",
+      "bytes": 2005349,
+      "sha256": "c4c1bf4db1e3981e903e33f2794c078f0a462d9bdfc354b456d46a64a665b2b8"
+    },
+    {
+      "publicUrl": "/assets/images/2026/05/musetta._35mm_film_photography_cinematic_wide_elevated_shot_c_a21fcb87-978d-46b9-b98b-b11f98645082_2.png",
+      "bytes": 1561192,
+      "sha256": "f3bcda4d06d8b166b49f581ddb6505856f2c79fe26c2eb5942605ea5281f3308"
+    },
+    {
+      "publicUrl": "/assets/images/2026/05/musetta._35mm_film_photography_cinematic_wide_shot_Black_urba_4cf3320b-7549-4f24-b967-52bb4b627069_2.png",
+      "bytes": 1641665,
+      "sha256": "312caf6089f4fb004a3e6aef4b2cd890b41a59728b464175b57818c8c9e5bd6b"
+    },
+    {
+      "publicUrl": "/assets/images/2026/05/musetta._35mm_film_photography_cinematic_wide_shot_Chinatown__22805d23-8287-4367-9c9a-156b18a51605_3.png",
+      "bytes": 1652982,
+      "sha256": "367a8908e6e92e6938dba183dccf14f81b799343b840faa091fd3708499ba7a6"
+    },
+    {
+      "publicUrl": "/assets/images/2026/05/musetta._35mm_film_photography_cinematic_wide_shot_Gothic_rev_9386beb8-5b57-4bf5-ab4b-178d858256c7_2.png",
+      "bytes": 1939201,
+      "sha256": "c45a12cbd591a431a16c916cc843ac3dd1c9a68488650efb9b64c8f83eb37d68"
+    },
+    {
+      "publicUrl": "/assets/images/2026/05/musetta._35mm_film_photography_cinematic_wide_shot_New_Orlean_23aa75cf-20b8-44de-8279-ab3f706c04ab_0-1.png",
+      "bytes": 1989066,
+      "sha256": "b71b7b40cdcc3756c3456411f9ba93dd45d86d169f27d0008f13f3791dbdf17f"
+    },
+    {
+      "publicUrl": "/assets/images/2026/05/musetta._35mm_film_photography_cinematic_wide_shot_empty_Lati_6b8278a2-84ba-436a-ab0f-db3c1791355f_0.png",
+      "bytes": 2080604,
+      "sha256": "452d4246cf1eccb7c5ca854b870c68e3e0921d292885130764fcd0cd0828467a"
+    },
+    {
+      "publicUrl": "/assets/images/2026/05/musetta._35mm_film_photography_cinematic_wide_shot_empty_blue_3e271823-fa8b-4678-b4db-8beff8b68b3a_2.png",
+      "bytes": 1590792,
+      "sha256": "8b85f9e3168a0ba27899037880b08a2b1c23b3ac191b50b20423a862479a88c2"
+    },
+    {
+      "publicUrl": "/assets/images/2026/05/musetta._35mm_film_photography_cinematic_wide_shot_empty_neon_4f3bdda3-f361-4163-99c9-aa1ccc99d25c_2-1.png",
+      "bytes": 1945442,
+      "sha256": "51c252314eb914d2b41c8bf72ceb88649212e8716226316e7f75792b7df72d8f"
+    },
+    {
+      "publicUrl": "/assets/images/2026/05/musetta._35mm_film_photography_cinematic_wide_shot_immaculate_317e0f32-aef4-4f68-8f6c-f883aa582c93_2.png",
+      "bytes": 1994894,
+      "sha256": "03aa0ea75d1ce8fe39d0937c915c83341c974b1b166a7270b8b85f8c47914bcb"
+    },
+    {
+      "publicUrl": "/assets/images/2026/05/musetta._35mm_film_photography_cinematic_wide_shot_vast_luxur_f4af885d-a2cd-44d3-99f8-11568fe8e0d6_1.png",
+      "bytes": 2183496,
+      "sha256": "d6436848420361061d1773f87e7b8ef49580d16f1f623c85d79d51f08fb1f6e9"
+    },
+    {
+      "publicUrl": "/assets/images/2026/05/musetta._35mm_film_photography_cinematic_wide_shot_view_from__090af7a5-f6ae-4cb7-a214-7e9bb7e995a3_3.png",
+      "bytes": 1921964,
+      "sha256": "03ea39dab94953c06cbf08e628c937ccbc5a7bc206857e07d9a171de2ef29a78"
+    },
+    {
+      "publicUrl": "/assets/images/2026/05/musetta._dramatic_low_angle_looking_up_at_six_silhouetted_figur_8e265eba-592c-4a9d-8900-251bc271583a-1.png",
+      "bytes": 2701913,
+      "sha256": "a041c2a3c31fcdc13ec673abd7efcfb7030c3fe5c1887026dea3df41278944b3"
+    },
+    {
+      "publicUrl": "/assets/images/2026/05/musetta._dramatic_low_angle_looking_up_at_six_silhouetted_figur_8e265eba-592c-4a9d-8900-251bc271583a.png",
+      "bytes": 2701913,
+      "sha256": "a041c2a3c31fcdc13ec673abd7efcfb7030c3fe5c1887026dea3df41278944b3"
+    },
+    {
+      "publicUrl": "/assets/images/2026/05/musetta._six_silhouetted_figures_from_behind_on_rain-slicked__a509e987-720d-4d51-8944-4b159e3c3a48_1-1.png",
+      "bytes": 1746984,
+      "sha256": "ff2df2fb58a3d49454b06a226ba2e0cca8a7537bed094f0115ebb9a0c1d0a94c"
+    },
+    {
+      "publicUrl": "/assets/images/2026/05/musetta._six_silhouetted_figures_from_behind_on_rain-slicked__a509e987-720d-4d51-8944-4b159e3c3a48_1.png",
+      "bytes": 1746984,
+      "sha256": "ff2df2fb58a3d49454b06a226ba2e0cca8a7537bed094f0115ebb9a0c1d0a94c"
+    },
+    {
+      "publicUrl": "/assets/images/2026/05/sofia-sandoval.png",
+      "bytes": 7244873,
+      "sha256": "a04e336cd967ad972048c35a3924a3e4d081ba845462e51aaae073b60748ac6c"
+    },
+    {
+      "publicUrl": "/assets/images/2026/05/tio-tez.png",
+      "bytes": 6732353,
+      "sha256": "df9028b75460bfe6c1f0e48250d78e9e2b98512754e7b6860455b651dbea0262"
+    },
+    {
+      "publicUrl": "/assets/images/2026/06/briana-short.png",
+      "bytes": 6394823,
+      "sha256": "c22d562726ec614c6179f0fbb07a7a05f04196b81d884cab9f8dc4bd2b8ee292"
+    },
+    {
+      "publicUrl": "/assets/images/2026/06/coffeeshop-prologue2-1.webp",
+      "bytes": 65760,
+      "sha256": "faae20159e2955e10b736dd1392e2fd2cebb7e998f6ded5bc8af8bbf442811c7"
+    },
+    {
+      "publicUrl": "/assets/images/2026/06/fadi.png",
+      "bytes": 6215277,
+      "sha256": "1b2caf538ec48cfe771f2cd4246e4c3b11ca81e73dc544cb3c5182432c6668a4"
+    },
+    {
+      "publicUrl": "/assets/images/2026/06/jessica-hamer.png",
+      "bytes": 7301617,
+      "sha256": "efa12c4440f670179d5d60b598cfeb22654c06f913c878b53644e2bc35dfa5ac"
+    },
+    {
+      "publicUrl": "/assets/images/2026/06/michelle-adams.png",
+      "bytes": 6524994,
+      "sha256": "3c8b6d0e0d65f242654bd1827e9333617bf2166aa3ebc2bb6fc396d45aefd445"
+    },
+    {
+      "publicUrl": "/assets/images/2026/06/wren3.png",
+      "bytes": 9043127,
+      "sha256": "6964857dce6dbfee7d4ee35035fef826cd30323a086f4217515be04c56df7e2f"
+    },
+    {
+      "publicUrl": "/assets/images/2026/07/Rogelio-Lopez.webp",
+      "bytes": 461088,
+      "sha256": "2dd1be4e2ece50ecdabd0c6ac1b2c6eae93cdd5a0cafe3cfe0c6f868033b0017"
+    },
+    {
+      "publicUrl": "/assets/images/2026/07/jamie2.webp",
+      "bytes": 68546,
+      "sha256": "f853a425ea8e836ad518c5bc725d1b048b88869aa78ef31d95127163a83ce247"
+    },
+    {
+      "publicUrl": "/assets/images/2026/07/john2.webp",
+      "bytes": 188832,
+      "sha256": "794e9b2bc913bddd966ee18786d432e9b3ebf302e8b00c217d24b03317a5a9f6"
+    },
+    {
+      "publicUrl": "/assets/images/2026/07/kevin2.webp",
+      "bytes": 127754,
+      "sha256": "06e05e4aa8ca64ee62f2a2bf4c7db16f76786b0e2fd5a68aa710513a6a45a6c5"
+    },
+    {
+      "publicUrl": "/assets/images/2026/07/la-colibri.webp",
+      "bytes": 313482,
+      "sha256": "c5fdb19024568777dbd391f5b3fb0fb5de95acb06942682bc955189328a03c52"
+    },
+    {
+      "publicUrl": "/assets/images/2026/07/lanina.webp",
+      "bytes": 343426,
+      "sha256": "dad1d5d711a8a7c398243eac32afb6d561c0a84d1016cc4ed926735b121086a3"
+    },
+    {
+      "publicUrl": "/assets/images/2026/07/sergei2.webp",
+      "bytes": 166764,
+      "sha256": "cee76fcac33d8c4e876a13a019d63380a9c0c8b0202235f507ff0e8e7babfaa2"
+    },
+    {
+      "publicUrl": "/assets/images/2026/08/denver-morrison.webp",
+      "bytes": 231164,
+      "sha256": "447f8c8e9398070c9d7eea9f0504cb32f01011da992d2c4ba2e11735b31d3c5f"
+    },
+    {
+      "publicUrl": "/assets/images/2026/08/vipcolorful-copy.png",
+      "bytes": 954958,
+      "sha256": "eb9b6851abc4c15580ca29c24dad969a86a41571691c50b398de5f64fbf07e7d"
+    }
+  ]
+}

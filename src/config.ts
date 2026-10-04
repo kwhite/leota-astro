@@ -23,7 +23,7 @@ export const SITE_CONFIG = {
 
 // Keep the original destinations recorded while their pages await migration.
 export const PRIMARY_NAVIGATION = [
-  { label: 'City of Mist', href: '/city-of-mist/', available: false },
+  { label: 'City of Mist', href: '/city-of-mist/', available: true },
   { label: 'Freaky Gray Company', href: '/the-freaky-gray-company/', available: false },
   { label: 'The Chosen', href: '/the-chosen/', available: false },
   { label: 'About', href: '/about/', available: true },

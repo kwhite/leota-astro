@@ -14,6 +14,14 @@ export default defineConfig({
   },
   fonts: [
     {
+      name: 'Bebas Neue', cssVariable: '--font-character-name',
+      provider: fontProviders.google(), weights: [400], styles: ['normal'], display: 'swap',
+    },
+    {
+      name: 'IBM Plex Mono', cssVariable: '--font-character-meta',
+      provider: fontProviders.google(), weights: [600], styles: ['normal'], display: 'swap',
+    },
+    {
       name: 'Fira Sans',
       cssVariable: '--font-heading',
       provider: fontProviders.google(),

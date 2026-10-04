@@ -1,0 +1,41 @@
+---
+import { Font } from 'astro:assets';
+import PageLayout from '../layouts/PageLayout.astro';
+import CampaignNav from '../components/CampaignNav.astro';
+import { getAssetUrl } from '../config';
+import data from '../data/campaigns/people.json';
+---
+<PageLayout title={data.title} cover={data.cover} subclass="campaign-page">
+    <Font cssVariable="--font-character-name" preload={false} />
+    <Font cssVariable="--font-character-meta" preload={false} />
+    <CampaignNav current="people" />
+    <div class="people-grid kg-width-wide kg-gallery-card" role="list" aria-label="People in The City">
+        {data.people.map(person => <article class="person-card" role="listitem">
+            <a class="person-image" href={getAssetUrl(person.image)} aria-label={`Open portrait of ${person.name}`} data-image-caption={[person.name,person.mythos,person.neighborhood].filter(Boolean).join(' — ')}>
+                <img src={getAssetUrl(person.image)} alt={person.name} width={person.width} height={person.height} loading="lazy" />
+            </a>
+            <div class="person-info">
+                <h2>{person.name}</h2>
+                {person.mythos && <p class="person-mythos">{person.mythosStruck ? <s>{person.mythos}</s> : person.mythos}</p>}
+                <p class="person-neighborhood">{person.neighborhood}</p>
+                {person.sheet && <a class="person-sheet" href={person.sheet} target="_blank" rel="noopener noreferrer">↗ Character Sheet<span class="sr-only"> for {person.name} (opens in a new tab)</span></a>}
+            </div>
+        </article>)}
+    </div>
+</PageLayout>
+<style>
+    .people-grid { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 24px; }
+    .person-card { display: flex; flex-direction: column; min-width: 0; background: #080d1a; border: 1px solid #1a9fff33; }
+    .person-image { display: block; cursor: zoom-in; }
+    .person-image img { width: 100%; aspect-ratio: 2 / 3; object-fit: cover; }
+    .person-info { flex: 1; padding: 16px; border-top: 1px solid #1a9fff33; }
+    .person-info h2 { margin: 0 0 8px; font-family: var(--font-character-name), sans-serif; font-size: 2.6rem; letter-spacing: .06em; line-height: 1.1; color: #e8f0ff; }
+    .person-info p { margin: 0 0 8px; }
+    .person-mythos { font: 600 1.3rem/1.5 var(--font-character-meta), monospace; letter-spacing: .08em; color: #ff568f; text-transform: uppercase; }
+    .person-neighborhood { color: #9babca; font-size: 1.5rem; line-height: 1.5; }
+    .person-info a.person-sheet { display: block; margin-top: 16px; padding: 10px 6px; border: 1px solid #1a9fff66; color: #56b8ff; font: 600 1.2rem/1.5 var(--font-character-meta), monospace; text-transform: uppercase; text-align: center; text-decoration: none; }
+    .person-sheet:hover { background: #1a9fff26; }
+    .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+    @media (max-width: 1023px) { .people-grid { grid-template-columns: repeat(2, minmax(0,1fr)); } }
+    @media (max-width: 480px) { .people-grid { grid-template-columns: 1fr; gap: 28px; } }
+</style>

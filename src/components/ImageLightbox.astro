@@ -35,7 +35,7 @@
             const source = link.querySelector('img')!;
             image.src = link.href;
             image.alt = source.alt;
-            caption.textContent = link.closest('figure')?.querySelector('figcaption')?.textContent || source.alt;
+            caption.textContent = link.dataset.imageCaption || link.closest('figure')?.querySelector('figcaption')?.textContent || source.alt;
             counter.textContent = `${index + 1} / ${items.length}`;
             original.href = link.href;
             previous.hidden = next.hidden = items.length < 2;

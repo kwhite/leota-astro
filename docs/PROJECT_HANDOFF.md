@@ -6,7 +6,7 @@ Last updated: 2026-10-04, after the callouts/quotes/galleries milestone. This do
 
 Port the visual appearance and used behavior of Kat's existing **Leota Ghost theme** into the existing **leota-astro Casper port**, preserving the Astro architecture and portable content. The original website is unavailable, so the reference is the supplied theme, Ghost export/media, and Kat's feedback. Kat approved the plan, then successive local implementation milestones, and said the visual result was looking great before requesting the special-content milestone.
 
-The special-content milestone is complete and reported, and the project checkpoint is committed. Kat has now added automated PNG-to-WebP optimization and deployment-media cleanup to the migration plan. The current request updates planning/context only; conversion and deployment cleanup have not started.
+The special-content checkpoint and subsequent planning updates are committed. Kat then authorized the next milestone: four City of Mist pages and shared image-backed cards are now implemented locally, with details in `visual-port-milestone-five.md`. This implementation is not yet committed. Image optimization and deployment cleanup remain planned, not started.
 
 ## Workspace and source material
 
@@ -168,3 +168,7 @@ Kat requested inspection of the City of Mist overview, Districts/Locations, and 
 - Image-backed arc/season cards are a **site-wide reusable treatment**, used for tag destinations in Buffy/The Chosen, Freaky Gray Company, and City of Mist. Build one extensible presentation with content-driven image, heading, optional description, destination/button label and supported width/alignment variants. Keep campaign names, tag slugs and copy out of the component. Reuse the existing Astro architecture; no new collection/schema is implied. Verify examples across all three campaigns before finalizing the interface.
 - Kat confirmed Spotify embeds work correctly; do not leave playback listed as unresolved acceptance work.
 - The only other rich embeds in use are the link previews on **DM Resources**. Inspect their actual exported markup and metadata before implementing support; do not expand the scope to unused embed providers or card types.
+
+## Latest milestone: City of Mist pages
+
+Documentation review was committed as `abc8d04` before implementation. See `visual-port-milestone-five.md` for the new Overview, Neighborhoods, People and Rules routes, shared ContentBanner/CampaignNav, source fidelity checks, and 56-page build. City of Mist is now an active main-navigation link; other unmigrated sections remain inactive. Chapter titles only link when the corresponding post exists. People has 21 entries and five sheet links with its own responsive grid and portrait lightbox captions. Campaign images remain local/untracked and are inventoried in `campaign-media-sources.json`. No image conversion or deployment happened. These facts supersede earlier statements that only About is enabled and that no campaign pages have been implemented.
