@@ -1,0 +1,532 @@
+---
+title: "1.8 Far from the Tree, Part 2"
+description: "Who's your Daddy?"
+cover: "/assets/images/2026/09/raz--1-.webp"
+date: "2026-09-11T23:28:20.000Z"
+author: "kat"
+tags:
+  - City of Mist
+  - CoM Season 1
+  - John
+  - Kevin
+  - London
+  - Maeve
+  - Sergei
+  - Wren
+  - Session Notes
+---
+
+<blockquote class="kg-blockquote-alt">GalleryWren: "Raz may have rizz, but I think that Sergei got some Daedalus jizz."</blockquote>
+
+## The Family Wing
+
+> GalleryJohn: "Okay, I'm done acting with myself."
+
+Catherine takes John and Sergei to their actual rooms, leaving behind the crowded quarters of the "failures" for greener pastures.
+
+John's room contains all the touches that mark it as someone's personal space. There's a drum kit, photos of him with unknown bandmates, modern touches. Before she and Sergei leave, Catherine gently places her hands on John's face, then kissing him on the cheek. "It is a pleasure to have you home. I know I did not say that enough before."
+
+Catherine takes Sergei to his room next. Unlike John's quarters, this feels like a decorator-appointed guest room. It's impersonal, though elegant. She offers to send Daedalus to see him, telling Sergei that the scientist "very much sees you as one of his children as well." Sergei says he'd like that, and Catherine departs, with kindness but less affection than she did with John.
+
+Sergei puts all this together and realizes that he is the clone, and John the original son. Rushing back to John's room, the pair of them confront this uncomfortable truth and try to figure out how to get the hell off this crazy train.
+
+## Maeve's Room
+
+Shortly after Maeve and Cillian are issued rooms of their own, there's a knock on Maeve's door. Cillian prowls around the room, agitated. He starts, stops, starts again, and finally blurts out an articulate question: "Can you... **do** stuff?"
+
+When Maeve questions the kind of "stuff" we are talking about, Cillian gives up and just shows her. Verdant ivy grows down and around his arms, then shrivels and crumbles to ash at his unspoken command.
+
+> Maeve: "Wow. You weren't kidding about that green thumb of yours."
+
+Maeve examines him again and still sees that greenery and the puzzle box around a bright green core that was there earlier. Not a Rift, not really. But something containing one. A lock they don't know the combination to.
+
+Maeve finally tells Cillian that she can see and speak with ghosts. And that the times he recalls where he thought she had one too many beers and was talking to a wall, or the seeming non-sequiturs... those were all conversations with dead people he couldn't see.
+
+> Cillian: "But I don't **want** to forget."
+
+Her best guess is that the "locked box" metaphor means he has some kind of affinity for these powers, but that it's not a fully manifested Rift. That he's able to wield this right now because the Sunken City makes everything about their powers feel more intense. So probably, when they get back to the surface, this will go away, and he will eventually rationalize the experience away and forget about it. He doesn't love that idea.
+
+Maeve starts to ask Cillian something a lot more personal when there's a knock on the door. It's Kevin and his creepy three-eyed lizard. Kevin cheerily tells them that the lizard is named Ariki, and he knows this because it told him. Yup. Creepy.
+
+About this time, John and Sergei arrive, and Maeve gives up and goes to get Wren and London, since apparently, it's meeting time.
+
+> Wren: "It's pretty... juicy here."
+
+Wren has taken charge of the group's phones and is trying to get them operational after their dip in the ocean. On top of that, her powers feel amplified down here, and she offers to work on Maeve's dislocated shoulder. Wren positions her hands on Maeve's arm, and hieroglyphic symbols blaze to life along Wren's arms, seeming to rise off of her skin, brighter and more potent than ever before. She locks everything back into place, and Maeve feels instant relief that leaves her briefly lightheaded. Wren repeats the feat with London, taking away the worst of the pain in his ribs.
+
+> Wren: "I'm pretty new to the club, too, by the way."
+
+Now that Cillian is "in the club," Maeve gives him a full download.
+
+### The Download
+
+<aside class="kg-card kg-callout-card kg-callout-card-blue"><div class="kg-callout-emoji">👻</div><div class="kg-callout-text">Warning that this section is Maeve's version, and does not reflect the opinions of the MC. Proceed with caution, although it's a good refresher.</div></aside>
+
+Maeve explains how they all met, when their powers manifested, and everything that happened at the glass factory five years ago.
+
+She also explains that Bri, Cillian's high school girlfriend and the woman Maeve was charged with finding that night at Discord, used to have powers and lost them when she was shoved through the oven in the Gingerbread Witch enclave. When she came out of that experience, Bri remembered nothing. But now, Bri seems to know that someone with powers "did something" to her, and she is aware that these Mythic abilities are real (most Sleepers are not). She is working with the Men in Gray – Precinct 246, the one that doesn't exist – to bring down people with Rifts. That night at the club, she had boxing gloves that negated her opponent's powers, and the group still hasn't figured out how that is possible.
+
+The Men in Gray believe that if Rifts are allowed to manifest, they come with their own needs, wants, and goals. And those goals will bring the city to its knees if the Rifts get their way. Innocent people will be harmed as the gods and folkloric figures create the world they want. There's a subset of these Men in Gray, the Shrouders, who perform a special function involving identifying prisoners with Rifts and... doing something to them. Nobody is sure what.
+
+> Cillian: "So **that's** why you're so good at finding missing people. You're **cheating**!  
+> Maeve: "I'm **helping**!"  
+> Cillian: "You are helping. You help a lot. But you're cheating. I **like** that. I can respect it."
+
+This turns into a round-robin where each of the folks in the room *(except Kevin and London)* tells Cillian about their abilities and performs some "party tricks" to demonstrate how it all works, and he reciprocates. 🌿
+
+Maeve also tells Cillian the truth about his friends, Cyrus and Seamus, the Griffin's Nest enclave, and the subtext of their conversation about Hades and Ocean Heights and how Maeve going there is probably not a great idea. She's equally convinced that with his new powers, Cillian going anywhere near Armand and The Barn enclave is *also* a not a great idea.
+
+All talked out, they're mercifully interrupted by an uncanny servant who announces that it is time for dinner and escorts them all into the hallway.
+
+<aside class="kg-card kg-callout-card kg-callout-card-blue"><div class="kg-callout-emoji">💡</div><div class="kg-callout-text">They all got dressed for dinner somewhere in here, in either Russian formal dinner-wear or flower-child chic. Don't worry about it. We didn't.</div></aside>
+
+## Rasputin
+
+<figure class="kg-card kg-image-card"><a href="/assets/images/2026/09/raz--1--1.webp" aria-label="Open illustration in full size"><img src="/assets/images/2026/09/raz--1--1.webp" width="1344" height="896" alt="" loading="lazy"></a></figure>
+
+<iframe allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" allowfullscreen="" frameborder="0" height="152" loading="lazy" src="https://open.spotify.com/embed/track/5jkFvD4UJrmdoezzT1FRoP?si=2900092d66884167&amp;utm_source=oembed" style="border-radius: 12px" title="Spotify Embed: Rasputin" width="100%"></iframe>
+
+
+The automaton servant takes the group to an enormous dining hall set for a crowd. The feast is sumptuous and features the finest of Russian and Eastern European cuisine. In the middle of the soup course, the atmosphere abruptly changes as Rasputin, or "Raz" enters with what can only be called a cult of adoring followers around him.
+
+> Wren: "Raz has got rizz."
+
+Rasputin is long-haired and dressed as the quintessential flower child, loose and flowing and free. The people around him are in various states of dress and undress, dancing to the music that follows them in. Rasputin works the crowd with incredible charisma, kissing hands, twirling dancers, making physical connections. They slowly find seats at the long table.
+
+Catherine enters a short way behind them, dressed in formal dinner attire, rolls her eyes, and moves to the seat at the table's head.
+
+Rasputin spots Maeve and Wren and glides over to them, delightedly stroking Maeve's hair and kissing Wren's hand before welcoming them to the table. He offers Wren a dance, but at her look, moves on, searching for a more consensual partner.
+
+He spots John and Sergei, and his joyous energy goes up another notch. He locks John in to a manly, back-thumping kind of hug.
+
+<blockquote class="kg-blockquote-alt">Ivan! Welcome home! My son! I feared I would never see you again!</blockquote>
+
+Groupie osmosis happens, and suddenly, John and Sergei are just as surrounded by willing admirers as Raz. Maeve offers John their established "do you need rescuing" sign, but he is quite happy where he is...
+
+> Wren: "So it looks like Game doesn't clone, huh?"
+
+Sergei, on the other hand, works hard to extract himself from the situation. An older, hunched, nebbish man taps him on the shoulder. This is Daedalus – the scientist who Catherine explained views Sergei like a son. He asks Sergei if he'd like to escape, and maybe see the lab. Sergei quickly agrees, and the two depart. As they walk down the hallway, Daedalus tests Sergei's memory, throwing difficult math problems and scientific equations at him. Sergei responds with ease, noting that while most of his memory works just fine, it is this place, specifically, that he does not recall. Daedalus has no answer for that.
+
+## The Laboratory of Daedalus
+
+The lab is a scientific steampunk wonderland; the stuff of dreams. Sergei feels a bit like Belle walking into the Beast's library. But the anachronistic construction and charm of the facility doesn't compromise its quality. While there's less high tech ornamentation, the equipment in use here is identical in function. There are also a few creepy mad scientist lab vibes.
+
+Daedalus is genuinely thrilled to see Sergei, and gives him a hard sell on staying here and working together. He shows off his jetpack designs (says they're better than wings), and goes on and on about the experiments they planned to do together. Then he interrupts himself to show Sergei the cloning room. He peels back a skylight that floods the light of a scarab-borne sun over a bank of empty tanks. He pats one of them affectionately.
+
+<blockquote class="kg-blockquote-alt">This was your tank.</blockquote>
+
+### The Clones
+
+Sergei tries to get a sense of the number of clones they've created to date and gets some garbled facts about them.
+
+> Daedalus: "You were most successful, but there was secret for why you work, and are not stupid. But that is our secret."
+
+- Ten survived the creation process, including Sergei.
+- Six are currently here in the palace.
+- Four were "very stupid" and are not alive. *(Or un-alived. Not sure.)*
+- There were others, but most of them didn't survive more than a day or two.
+
+Daedalus offers up all the notes on the cloning experiments that resulted in Sergei's creation. He says Sergei is welcome to take them, but he would like them back.
+
+<blockquote class="kg-blockquote-alt">You can read whatever you want. It's about you. You are the great success. You are... not the success that Catherine wanted. But you are the success that she got.</blockquote>
+
+### Helix Corporation
+
+He explains a bit about his own traumatic past, how he arrived in the Sunken City, and his original work for Helix Corporation. After that "blew up bad," he remained here for Rasputin. Sergei notes the parallels to his getting thrown out of the University for property damage. He becomes more and more worried that Helix didn't hire him for his brain but for his genetics. Daedalus acknowledges that Sergei has always had full access to his Rift, because he's from the Sunken City, where people don't have problems accessing them. They don't require a trigger or event to manifest here.
+
+> Daedalus: "Here money is not problem, so that is good. If you work here, you can break whatever you want!"
+
+<aside class="kg-card kg-callout-card kg-callout-card-blue"><div class="kg-callout-emoji">🔎</div><div class="kg-callout-text">Helix Corporation used to operate in the Sunken City. Do Sergei's colleagues know about it? Do they know about <strong>him</strong>? And what about Dr. Leyland?</div></aside>
+
+### Apples & Oranges
+
+Sergei asks if Daedalus knows anything about the Apples & Oranges company, but he's unfamiliar. When confronted with what's happening at The Barn enclave, he's sympathetic, but also pragmatic about the whole thing.
+
+> Daedalus: "No, this is bad. This is way of world too much. They hurt people because they want something. But... it will make your fruits more expensive."
+
+### Sunken City Facts
+
+Daedalus tells Sergei that the Sunken City's domes are issued based on followers. Get enough followers, and you get your own dome. The main dome belongs to The Elders, who make all the rules and own the whole city, but who nobody has seen in living memory.
+
+And time works normally here. The concern about being "seen at breakfast" was just Mariah mistaking Sergei and John for lesser clones. He can't explain the missing memories, though. Daedalus suspects Rasputin did it, because outsiders knowing about the city makes it unsafe. But he doesn't know why that would be.
+
+<aside class="kg-card kg-callout-card kg-callout-card-blue"><div class="kg-callout-emoji">🔎</div><div class="kg-callout-text">We don't really know what Rasputin does. It's probably a bad idea to underestimate him.</div></aside>
+
+After one last entreaty to consider staying in the Sunken City and working together, Sergei excuses himself and hustles out with the precious experiment notes.
+
+## The Head of the Table
+
+> London: "He is quite the showman. Everyone loves him."  
+> Catherine: "I do not need attention. Although it is nice."  
+> London: "But you are clearly deserving of it. You're the powerful one in the room."  
+> Catherine: "...**I** think I am, yes."
+
+After John and his new girlfriends exit the room for the night, London appears at Catherine's side, offering to refresh her drink and asking if he can join her. She agrees and the two slide into conversation. Wren sits nearby, attentive, but not interrupting.
+
+They cover idle topics, from Raz's display to London's fashion sense (even in borrowed clothing) to the party's power dynamics, landing on Mariah, and the challenges faced as a woman in the Sunken City.
+
+> Catherine: "Such potential she has, but she refuses to step into it. I keep giving her opportunities to advance herself, and she is always complaining about how the patriarchy keeps her down."  
+> London: "She implied it is a challenge here for women to get ahead."  
+> Catherine: "This is a challenge everywhere. I would imagine that though you are not a woman, 'womanness' is something you have experienced. For other reasons."  
+> London: "You would not be wrong, señora."
+
+And that's the hook he needed. From there, Catherine starts talking. She wants the city – the whole Sunken City, not just this small dome at the end of the line. Whoever controls the Tower of Judgment in the central dome controls it all. Right now that's the Elders.
+
+### The Elders
+
+Nobody knows what an Elder *is* anymore. Supposedly they founded the city. Nobody has seen one in longer than anyone can account for, and the orders keep coming anyway.
+
+> Catherine: "It is like a machine that has been set in motion. And once you set it in motion, it keeps going and going and going, long past when it should have died."
+
+### The Crystal Golems
+
+The golems enforce the will of the Elders. Usually they are peaceful and helpful, endlessly repairing things, like the group saw on their way into the city. They behave this way right up until you move against the Elders, at which point they shift from helpful to damage control. You can do massive damage to them and buy yourself a little time, but that's all you can do. Nobody has ever decommissioned one.
+
+Then she stops and looks at him, arching an eyebrow. "You are drilling me for information. One might think you are some kind of spy come from above."
+
+He has captured her interest, but not her trust, and the difference is about to cost him important details. Wren has been within earshot for the entire conversation. She finally steps in to join them. Catherine grabs the vodka off the table, pours herself more, and offers the bottle around.
+
+> Catherine: "So ***you*** are the real spy here, is what I am hearing."  
+> Wren: "I wouldn't say I'm a spy. Maybe just... a little birdie."
+
+Wren leans in to the conversation.
+
+> Wren: "I like the way you talk about your ambition. I own my own company and run my own company. I don't think it's the wrong time for a woman to run this country. I don't think you're the wrong person. I think you should show the world that you are right. Since we're here, maybe there's something we can do."  
+> London: "I think Wren is correct. What assistance would you need? I think any deferment that perhaps you are not the right woman or this is not the right time, well, that is doubt talking, and it is ill-placed."
+
+That does it. Not London's charm, but Wren declaring that she's buying in to Catherine's goals. Catherine sinks back in to the logistics that challenge her plan.
+
+### The Tower
+
+The tower rises to the very top of the dome. There is a munitions system up there that detonates anything approaching from above, so there is no coming in from the sky, and there has never been a successful attempt. The ground floor is open to the public. Her people can walk right in. That is also exactly where her people stop.
+
+> Catherine: "They say they have never seen locks more astute than these."
+
+The ground floor houses a museum and the entrance to a library where scholars work in the basement of the building. Any doors out from there, that go any further up into the tower, are all locked with diabolically difficult locks that none of her people have been able to handle.
+
+What she needs is an infiltration team – somebody unusually good at getting into things, plus muscle to subdue the elders and get back out again. Rasputin's followers are no use to her — Raz's appeal is mystic-prophet, and while any number of them would gladly die for her, they would not be *good* at it.
+
+> Catherine: "Ivan's father is fantastic in bed. He is good for little else, other than popular attention. He brings the masses. And they would die for him, for us. But cannon fodder, while it has its place, is not actually what I am looking for."
+
+### The Clones
+
+Which is how she arrives at her sons, who should be the key to her success. And she does not pull punches stating her position.
+
+> Catherine: "Ivan takes after his father. He is loved. He has fans, groupies, you say in English. All he wants is to drink vodka and play drums and be adored for it. He was over thirty and he had no ambition. He was practically groupie for his own father."  
+> London: "And Sergei?"  
+> Catherine: "Sergei is better. But I do not think he has the savvy. [...] He wants to be in a lab all day. Might as well be Daedalus."
+
+Catherine explains that her real concern is the need for a blood heir with ambition and a sense of the importance of legacy, dynasty, and empire. It is the only reason she had a child. The cloning project started so John could... be John, living his rock and roll lifestyle, and she'd have another "son" to be what she wishes Ivan could be.
+
+Sergei is a step forward, the most successful of the clones, but still not what she needs. And Daedalus fascination with him makes her suspicious.
+
+> Catherine: "I sometimes think Daedalus must have interfered. Daedalus has been weird about him. I wonder if he did something with experiments."
+
+Wren defends John to his mother, recalling his dedication to helping the enslaved gods in The Barn enclave and how he's gone out of his way to do the right thing time and again in the short time they've known each other. Catherine remains unconvinced, but says she'll consider Wren's position.
+
+London steers the conversation back to less dangerous topics. Catherine shares that she attended University in The City for a while, but found it dull. She also mentioned a rumor she has heard of a Council of Truth that is the true power in The City. A group "run entirely by the magic inside" where "the legend is in control." But she has no idea whether or not they actually exist.
+
+<aside class="kg-card kg-callout-card kg-callout-card-blue"><div class="kg-callout-emoji">🔎</div><div class="kg-callout-text">The Council of Truth -- An avatar-run organization rumored to be the secret power behind The City? Sounds like one for the board. 🧶</div></aside>
+
+London bids her *buenas noches* as he and Wren rise to take their leave. She bids him the same, clasping his hand in farewell.
+
+As Wren and London exit the dining room, he surreptitiously glances down at the map of the palace in his hand... with Catherine's bedroom marked on it. He slips it into his pocket.
+
+<aside class="kg-card kg-callout-card kg-callout-card-blue"><div class="kg-callout-emoji">💜</div><div class="kg-callout-text">Not sure if Wren clocked that one or not. I guess we'll find out.</div></aside>
+
+## Of Roughage and Rhetoric
+
+Kevin loiters off to the side of the room, watching the party. He takes lettuce garnish from the serving trays, handing it up to Ariki on his shoulder, who placidly munches away. The hippies are delighted by the odd lizardlike creature, cooing over him before wandering off.
+
+That's how it looks on the outside. But inside, the conversation is stark. Kevin muses to himself.
+
+> Look at this. Everyone's so **alive**. I mean, look at the light. Do you see that?
+
+Ariki's third eye opens up. Then... Another voice. **That** voice. **His** voice.
+
+> Kind of makes you want to douse it. That could be fun.
+
+> No! I don't want to douse this. I don't see any fun in that. There's life and there's light here.
+
+> No. There is shallowness. There's frivolity. There is throwing themselves into something they believe is fun because they have no belief. Because they have no balance, no darkness. It would take something big to shake them out of their stupor that they have made their lives. Their meaningless lives. They're not happy. Look at them. Their joy is mania.
+
+> *But aren't they happy right now? In this moment?*
+
+> No. They're searching for something they can't find. Because they won't accept anything other than shallowness and frivolity. Surfing is only fun because the ocean is deep. You can't connect with the water if you don't admit what it really is.
+
+> Does it have to be deep? Not the water, but just them.
+
+> Do you really want a life like that?
+
+> It's not what I want. It's what they have right now. And besides, they'll be sad at some point. There'll be darkness at some point, but right now there's light. And—
+
+> And they'll continue to deny their sadness. Until one of them kills themselves over it. Light and darkness. Neither exists without the other, and they're trying to deny the existence of darkness. I'd like to make some of them search.
+
+> ... Do you want any more lettuce?
+
+## Maeve's Room
+
+> GalleryMaeve: "*"It's starting to feel like one of those British bedroom farces with all the slamming doors."*
+
+Sergei returns to Maeve's room but she is... not in residence. He quickly starts to spread out the pages of Daedalus's notes on the floor in an order that only makes sense to him.
+
+Kevin, London, and Wren check in there as well. Sergei is totally absorbed in his work. Wren and London fill in Kevin and Sergei on Catherine's motivations and what they've learned about the defenses at the Tower of Judgment. Sergei corroborates based on his conversation with Daedalus.
+
+> Sergei: "When do you tell the girl you like that you're a clone? I'll have to think about that later."
+
+Sergei also drops his bomb. Based on what he's read in these notes, he is somehow a genetic product of Rasputin, Catherine... *and* Daedalus. That's why he was a successful experiment where the others were not.
+
+These clones are a project to create what the crew is calling "Captain Sunken City" – a super-soldier-like program trying to create the perfect blend of charisma, strength, intelligence, and ambition to achieve Catherine's goals.
+
+<aside class="kg-card kg-callout-card kg-callout-card-blue"><div class="kg-callout-emoji">🔎</div><div class="kg-callout-text">Michelle Adams at Helix Corporation seems to be a biological science specialist. She might be able to help Sergei piece together how the cloning experiments work... assuming we ever get out of here.</div></aside>
+
+London excuses himself a little after 11 PM, bidding them all *buenas noches*.
+
+Wren and Kevin retire eventually, while Sergei stays up all night studying trying to understand the experiments that created him.
+
+<aside class="kg-card kg-callout-card kg-callout-card-blue"><div class="kg-callout-emoji">🗡️</div><div class="kg-callout-text">London still has this map, which may or may not contain anything accidentally useful. Of course, for the group to know that, he'd have to admit to having it. <em>(However, this is my reminder to ask about it next session.)</em></div></aside>
+
+## Cillian's Room
+
+After the popcorn-worthy entertainment in the dining room ends – with John and London both leaving, and Raz showing no signs of slowing down – Cillian and Maeve head back to the guest wing, still whispering and laughing. Noting Sergei is hanging in Maeve's room in a maelstrom of paper, they opt for the privacy of Cillian's room instead.
+
+They don't come back out.
+
+> GalleryMaeve: "Clearly we should blow up a completely functional, mutually beneficial working relationship in favor of making really ill-advised decisions involving a lot of vodka."
+
+### A Rift Awakens
+
+> *Cillian: "Let me just be manly here and pretend I'm not in pain, okay?"*
+
+Around 2 AM, Cillian wakes up in agony. He tries to get out of bed and stumbles, collapsing to the floor with a groan. A frantic Maeve launches up out of the bed, trying to figure out what's wrong. As she reaches for him...
+
+Time stops. Maeve is frozen, but somehow, Cillian keeps moving. A blink or two later, she's moving again, dropping down to the floor next to him.
+
+Another moment of intense pain, and the room around them explodes into verdant greenery. Ivy spirals up the walls, crawling over the ceiling, and the bed erupts into a field of wild woodland flowers.
+
+Cillian catches his breath, slowly recovering from the attack. Maeve looks around the room in wonder.
+
+> Maeve: "Can you turn it off? Make it go back to normal?"  
+> Cillian: "I don't know. Do we **want** it to go back to normal?"
+
+Instead they decide the flowers are perfect.
+
+## The Next Morning
+
+<aside class="kg-card kg-callout-card kg-callout-card-blue"><div class="kg-callout-emoji">🌿</div><div class="kg-callout-text">Maeve sneaks a peek at Cillian's Mythos situation the next morning. The big takeaway: there's no locked box anymore. Instead, there's a man with a staff and a cauldron. </div></aside>
+
+> Maeve: "Oooh, it's getting all Celtic up in here."
+
+On her way to breakfast, Wren passes Cillian's door, which looks like it's about to buckle under the weight of a mass of sprawling, winding greenery more at home in the Secret Garden than a Russian palace.
+
+> Wren: "Major wood, huh?"  
+> MC: "I had just taken a sip of water that almost went all over the floor."  
+> GalleryWren: "I'd had that one in my pocket. Couldn't resist."  
+> GalleryJohn: "Neither could she."
+
+Once she reaches the dining room, Wren finds London and Kevin already there, and Sergei quickly arrives. He sends an automaton servant to go find John.
+
+Upstairs, Cillian makes a play for room service, because it's quite nice to have whatever you want brought to you (and it's been a long time). But ultimately, you cannot keep Maeve away from an all-you-can-eat buffet, so out they go, meeting up with the others, while Maeve continues to remove bits of flowers from her hair.
+
+> John: *"All right. My clone calls, I answer. But I'm the **real** guy."*
+
+John reluctantly peels himself away from his room, but only after hearing it's Sergei doing the asking.
+
+Once the Avengers are fully assembled, everybody is brought up to speed on the conversations with Catherine and Daedalus. Sergei adds the findings from his late-night research into the mix:
+
+**They cannot clone a clone.** They need John, the original subject, to move their experiments forward.
+
+<aside class="kg-card kg-callout-card kg-callout-card-blue"><div class="kg-callout-emoji">🔎</div><div class="kg-callout-text">This may well be why John didn't want to stay... and why they're not going to let us go easily. But what about Sergei? Why did he leave too?</div></aside>
+
+They have no good answer for why John – and the people of The City – remember him being on tour 15 years ago if he only left here 5 years ago. There are theories, but no resolutions.
+
+<aside class="kg-card kg-callout-card kg-callout-card-blue"><div class="kg-callout-emoji">🔎</div><div class="kg-callout-text">Daedalus implied Rasputin may be responsible for the memory changes as a way to protect the city. We've neither confirmed nor disproven this theory.</div></aside>
+
+There's also the problem of how to leave the Sunken City. There are clearly safe ways to do so, but swimming out of here is not one of them. London acknowledges that Catherine sidestepped that one quite elegantly during their conversation at dinner.
+
+> Wren: "You might have already impregnated someone, we don't know. I walked past your room last night. It was pretty loud."   
+> John: "Oh, sorry about that."   
+> Maeve: "Oh no. You're not."
+
+They float ideas of how to get back out of here with both John and Sergei and a minimum of conflict.
+
+1. Wren: Have John provide an heir. While fun for John, that's going to take a long time. Last night notwithstanding.
+2. London: Give Catherine what she wants, moral ambiguity be damned. Help her take the tower in exchange for safe passage out of here. He theorizes that once she has the city, she won't need John in the same way – she wants that clone to help her take the tower, after all. There's still her concern for her legacy, but once she has control, it won't be as pressing. Which gives the group time, as well.
+
+> Kevin: "Let's take the tower. I have no helpful skills towards taking said tower. But I'm in favor of it."
+
+Ultimately, whatever they do should be up to John and Sergei. They decide that at least doing some reconnaissance is a good plan.
+
+The rough outline:
+
+- Sergei will work with Daedalus to build a ray gun that can shatter the crystal that the Crystal Golems are made of. But he'll need a sample to tune it to find the right resonant frequency.
+- The rest of the party will go to the Tower of Judgment to play tourist, find a crystal sample, and figure out what a realistic infiltration plan would look like. Wren will take her phone camera and photograph anything that might be useful to Sergei. *(She'd also really really like to disassemble an automaton...)*
+
+## On the Road Again
+
+Catherine catches wind of their plans *(no privacy in imperial Russia, of course)* and provides all the travel equipment they need to make the trek through the glass tunnels to the central dome.
+
+> London: "I am sorry, *amigo*. I wish I had a real charro for you, but you are stuck with me."
+
+The trip is a lengthy one. Cillian teaches London the basics of how to ride a horse on the way, and he starts to catch on by the time they arrive at their destination. The horse is proud, fast, never tires, and is... carnivore-leaning.
+
+Their journey takes them through an Edo-period Japanese dome with rice fields and a weighty sense of honor and history, samurai and ninja warriors celebrated in the art and architecture. Everyone kind, if faintly suspicious, so long as they're clearly passing through. *(Lunch is fantastic.)*
+
+## The Sunken City
+
+The Central Dome can be seen from inside the tunnels, and it is enormous, rising higher and higher into the ocean, light refracting off the crystal in a stunning display as Khepri pushes the sun across the sky. Jetpacks and flying mounts and people with angel wings swoop overhead. The jetpacks tend to go wonky and crash into things, and the towering golems are there to placidly clean them up afterwards. The golems are roughly 8' tall – bigger than humans but not dinosaurs. *(We spent substantive time comparing them to Marshmallow from Frozen.)* And there are roughly six of them visible at any given time. Sounds of partying and battle from the avenues off the plaza bounce off the beautiful crystalline structures.
+
+The Tower of Judgment rises above them, surrounded by open plazas with ever-flowing fountains, benevolent merchants, street performers, and unique crystal columns.
+
+<aside class="kg-card kg-callout-card kg-callout-card-blue"><div class="kg-callout-emoji">👻</div><div class="kg-callout-text">I'm curious about these "unique crystal columns." Might they be the kind of crystal we're looking for?</div></aside>
+
+> In the center of the main dome, surrounded by open plazas sprouting ever-flowing fountains and packed with benevolent merchants, performers, and crystal columns, sits the tallest tower of the sunken city where the elders themselves sit. The Tower of Judgment.   
+>   
+> The tower is an incredibly tall freestanding structure of white marble, strange crystal structures, and sleek gem-like protrusions, all fully symmetrical and seemingly delicately designed with some purpose.
+
+London, Kevin, and John move beyond their physical senses, examining the tower with mythical abilities. They realize there's more to this structure than meets the eye.
+
+> The tower anchors the entire dome. Without it, Atlantis will be washed away by the clash of the mist and the Age of Wonders.
+
+So without the tower, this whole city falls. Or at least, this whole section of the city falls. Hopefully, they can leave it standing. Hopefully.
+
+At the very top of the tower, light glints off of gigantic lenses that top the tower. These are probably the munitions that Catherine spoke of.
+
+Idling as tourists, the group makes their way into the tower, to visit the ground floor museum. They tie up London's horse outside.
+
+## The Museum
+
+> Kevin: "Holy EPCOT Center back there."
+
+The interior of the ground floor of the tower feels a lot like the Empire State Building. Discreet signs in the lobby point to the **Society of Answers**, a **Gift Shop**, and the **Museum of History** for the Sunken City. The receptionist looks like some odd cross between a bullfrog and a human, and answers with a voice that implies both.
+
+### The Creation of the Sunken City
+
+The Elders created the city as a place of innovation and harmony away from the cruelty and evils of the city above. This was intended to be a place where imagination can take the lead. A place of safety. Nobody knows how old it really is, though images of Atlantis are unapologetically invoked. The city is heralded as "a collaboration of people working together with different goals — those who appreciated the magic of the city, and those who wished to contain it — creating a haven for everyone.
+
+---
+
+Maeve surveys the exhibits and learns a few things that might be relevant in three different areas. She scans diagrams and placards, searching for anything that will help them. She is one of those people who reads every. Single. Sign.
+
+### The Elders
+
+Since its construction eons ago, the Sunken City has been ruled by The Elders. Omnipotent masters, The Elders have never given a true code of laws or presented any rules, allowing many different groups and people to prosper, and fight, under the dome.
+
+Only 2 types of occurrences ever make the Elders actively intervene in the day-to-day life in the Sunken City: attempts at a revolution, and excursions of suppressors from the city – those who wish to stop the magical presence here. When one of those two things happen, the Golems shift gears.
+
+As far as the Elders, none have ever been named or described. Some of the oldest residents claim to have spoken with one, but there is no verification for any of it.
+
+### The Golems
+
+Crystal Golems are helpful, specifically in repairing city infrastructure. They assist with the distribution of food and supplies, and are perfect servants to anyone who does not abuse them. They don't talk, but they can take commands, and they treat everyone with respect. They appear to follow the laws of The Elders unconditionally.
+
+Anyone causing the crystal golem excessive or repeated harm, however, will soon find themselves surrounded by dozens of them. The golems possess crystal lasers – golden, red, and purple lasers all serve different (and unspecified) purposes. And they can and will always call additional golems to help them if one of them is being harassed by an unscrupulous citizen. And when attacked, they get bigger, growing into a 12 foot tall destructive machine.
+
+Rebellion is almost unheard of in the Sunken City. Though some rebellions have happened, all were suppressed quickly thanks to the golems. And none have ever breached the tower.
+
+### The Culture
+
+The culture in the Sunken City is one of happy chaos. In short, what happens "if lawlessness went right as opposed to went wrong." This is partly because everyone is a godlike entity, so it's hard to actually kill each other, and partly because Golems eject troublemakers into the water to drown. It's a Jules Verne vision of the future – Christmas, a summer liberation celebration, and various religious holidays fill the civic calendar.
+
+The domes each have a dominant group in charge. Earn yourselves a big enough entourage, enough followers, and you can get one yourself. There always seems to be another dome available – no displacement is formally necessary.
+
+## Rasputin's Dome: Daedalus's Laboratory
+
+Meanwhile...
+
+Sergei returns to the lab after parting ways with his friends after breakfast, eyes scratchy with sleep. He holds the notes he borrowed in hand. He's come to ask Daedalus for assistance creating a ray gun that can shatter a specific, unspecified crystal frequency. Daedalus readily agrees, without asking too many questions. He is always up for an experiment.
+
+The notes revealed that Daedalus was consulting with someone on the cloning experiments. Someone from the surface. A man from a "numbered district," terrified of everything, whom Daedalus and Catherine hid. He tells Sergei more when asked.
+
+> *They do cloning, on the surface. He does not have good cloning for mental capacity. They seem more interested in cloning for following orders, not for making good clones. But he did help with early process of making sure clones do not die.*
+
+Sergei quickly *(okay, in game it was quick; in reality it took us way too long)* realizes that this "numbered district" must be Independence – District Nine, home of the Niners. And that would make the Niners...
+
+> Sergei: "I am thinking that I know who the clones are on the surface. The people that he was afraid of. They are the Niners. It is like... police force that grab people with powers, and take them away."   
+> Daedalus: "Well, that is not good."
+
+Sensing his intense interest, Daedalus offers to set up a meeting for Sergei and the cloning expert currently in hiding. Sergei agrees enthusiastically but opts to wait for his friends to return before meeting. With that, the pair of them focus on the ray gun project. It will take a while, but they should have something working tomorrow. He and Daedalus agree to have dinner if the rest of their company does not return.
+
+<aside class="kg-card kg-callout-card kg-callout-card-blue"><div class="kg-callout-emoji">🔎</div><div class="kg-callout-text">The Niners are clones! What does it mean?!? We will have to meet with this mysterious man to find out.</div></aside>
+
+## The Society of Answers
+
+> Receptionist: "I don't recommend you go for long though... Because if you find something interesting, you might stay."  
+> Wren: "Like forever?"  
+> Receptionist: "It happens sometimes."
+
+> Wren: "Okay, so we'll only look for boring things, not interesting things."  
+> Receptionist: "That is a strategy I have not heard before. It might work."
+
+The receptionist cautions them about spending too much time in the Society of Answers, but gestures towards the entrance.
+
+The library is vast, stacks receding in all directions, and open to all "seekers of knowledge." It is maintained by a group known as the Society of Answers, a cadre of bearded, aged librarians with pointed white beards who all wander in relative silence, muttering softly to themselves, their noses buried in ancient tomes.
+
+There is no desk, no catalogue, and no signage. The group is completely on its own. There is nothing that bars them from browsing the shelves. Except not knowing where anything is. Random attempts to get books through luck or willpower fail. They finally decide to interrupt one of the pacing librarians and ask.
+
+### The Raven and the Writing Desk
+
+> London: "I feel like I just had a conversation with Lewis Carroll after a **very** long night."
+
+Kevin approaches one of the librarians to see if he can get directions to anything that will get them pointed towards more information. The conversation doesn't quite go as expected.
+
+> Kevin: "Hi! Uh, hi. We're from out of Dome, and I love your beard. And we were just at the museum and we learned a lot about the amazing main tower and we wanted to learn more."
+
+> Librarian: "I am pondering something myself. What is more like the moon? A newborn baby, or a lover's song?"
+
+Another librarian overhears this, and approaches the pair.
+
+> Librarian 2: "Oh, are we having a discussion? That is wonderful. Hello. Maybe you can contribute. I'm writing an essay. I'm going to show how skulls could be milked if they were fruits."
+
+> Kevin: "I would suggest a lover's song. Because love will wax and wane and change over time, but yet it also still remains constant.   
+>   
+> "And a skull could be milked if it indeed were fruit, but by that same logic, so could you if you were said fruit. A skull is a part of me, is it not? And if a skull could be milked, were it a piece of fruit, I could be milked if it were a piece of fruit, but then I would be milking my skull as well as myself."
+
+> Librarian: "Excellent. Excellent. You're very wise."
+
+> Kevin: "No, I'm just a good guesser."
+
+> Librarian: "No. You have a **truth**. Deep inside you, that speaks wisdom."
+
+He pokes Kevin in the chest. Kevin can't decide if that's a Thing to be worried about. After a moment the librarians turn to one another and start talking, and the group hears the names of ancient philosophers, and questioning if a Petrarchan sonnet was written as a haiku, how would the Desert cactus live in a jungle of cheese.
+
+They don't really get directions out of that. Kevin tries again, asking for a section with reference material about how the city was built.
+
+> Librarian 2: "I know where the section is. You find the section by going the diameter of a rat's tail, by following then to the widdershins direction circumnavigating the Well of Souls, and finally down the steps And to the alternative route of the rats, but not in a maze."
+
+Right. They excuse themselves.
+
+> Kevin: "My friends and I need to go find out why oranges don't have handles."  
+> Librarian: "An excellent question."
+
+### One More Chapter
+
+> Maeve: "Sometimes when they're not being cooperative, I can force them to do what I want them to do. It feels really rude, so I try not to do it very much."
+
+Still at a loss for what to do next, Maeve checks to see if there are any ghosts around who might be more helpful than these librarians. There are indeed ghosts... of more librarians. It's hard to get their attention *(this doesn't change in the afterlife, apparently)*, so she finally commands one to come to her.
+
+She asks the ghost to bring her a book about The Elders. The ghost says it knows just the book, wanders off, and comes back shortly with one in hand. It is indeed about The Elders, but it's massive, and written by someone who was getting paid by the word. They could parse through it, but it is convoluted and will take a long, long time.
+
+Maeve asks the ghost whether the elders are still here.
+
+> There is a case that says they are, and a case that says they aren't. There is a case that says someone has usurped them. Then there is a case that says there is no one there.
+
+Right. Okay. Not helpful. So she tries again – asking if there is a way they can **safely** ascend the tower.
+
+In response, the ghost leads them into the stacks. A few turns later, they are in front of a massive brass door. A door that does not open.
+
+### At the Threshold
+
+The door has beautiful Art Deco design work, but nothing actually useful for a door – no handle, no keyhole, no hinges, no locking mechanism. Just a wide expanse of brass. It just... does not open. At all. Ever.
+
+Wren suggests Maeve try going through it, the inverse of the way items passed through her when they were fighting Alex Duke outside the barn. She hasn't tried that... but...
+
+> Maeve: "I just put a door on top of the door, and then I went through the other door, and it worked. I promise that makes sense if you're me."
+
+Maeve visualizes the cold, romanesque archway that follows her everywhere – the entrance to the underworld, the one she helps ghosts pass through. She layers the one on top of the other, and steps across that threshold for the first time. and... it works! On the other side of the doorway, there's a large staircase going straight up. But no way to open the door here, either. With nothing left except to go up or leave, Maeve fortunately manages to get back out the same way she got in.
+
+They throw around a few possible solutions to literally destroy the door or rip it out of the wall, but they are confident all of those would bring the golems down on them. Maeve can get through, but she's pretty certain she can't take anyone with her. So getting Catherine or her team through the door isn't straightforward, either. Though possibly, they could just show her the door and let her figure it out.
+
+Wren takes some photos of the door for Sergei while the group contemplates their next move.
+
+<aside class="kg-card kg-callout-card kg-callout-card-blue"><div class="kg-callout-emoji">💡</div><div class="kg-callout-text"><strong>FOLLOW UP ITEMS - CENTRAL DOME</strong><br>We need a crystal sample to tune the ray gun, and we still haven't seen one of these imposing locks -- this brass door is the first way up the tower that we have found. We also haven't explored the gift shop.<br><br>We need to decide if we are staying tonight or going back to Rasputin's palace.</div></aside>

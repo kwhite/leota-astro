@@ -1,0 +1,16 @@
+---
+import { getCollection } from 'astro:content';
+import { getAssetUrl } from '../config';
+interface Props {
+    chapters: { chapter: string; title: string; href: string | null }[];
+    chapterLabel?: string;
+    titleLabel?: string;
+}
+const { chapters, chapterLabel = 'Chapter', titleLabel = 'Title' } = Astro.props;
+const available = new Set((await getCollection('posts')).map(post => `/${post.id}/`));
+---
+<table class="campaign-table"><thead><tr><th scope="col">{chapterLabel}</th><th scope="col">{titleLabel}</th></tr></thead><tbody>
+    {chapters.map(chapter => <tr><td>{chapter.chapter}</td><td>{chapter.href && available.has(chapter.href)
+        ? <a href={getAssetUrl(chapter.href)}>{chapter.title}</a>
+        : <span>{chapter.title}</span>}</td></tr>)}
+</tbody></table>

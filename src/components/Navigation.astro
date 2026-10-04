@@ -1,9 +1,12 @@
 ---
-import { getAssetUrl } from '../config';
+import { PRIMARY_NAVIGATION, SECONDARY_NAVIGATION, getAssetUrl } from '../config';
+interface Props { secondary?: boolean; }
+const items = Astro.props.secondary ? SECONDARY_NAVIGATION : PRIMARY_NAVIGATION;
 ---
-<ul class="nav" role="menu">
-    <li class="nav-home" role="menuitem"><a href={getAssetUrl('/')}>Home</a></li>
-    <li class="nav-about" role="menuitem"><a href={getAssetUrl('/about/')}>About</a></li>
-    <li class="nav-getting-started" role="menuitem"><a href={getAssetUrl('/tag/getting-started/')}>Getting Started</a></li>
-    <li class="nav-try-ghost" role="menuitem"><a href="https://astro.build" target="_blank" rel="noopener">Try Astro</a></li>
+<ul class="publication-links">
+    {items.map(item => <li>
+        {item.available ? (
+            <a href={getAssetUrl(item.href)} aria-current={Astro.url.pathname === getAssetUrl(item.href) ? 'page' : undefined}>{item.label}</a>
+        ) : <span aria-disabled="true">{item.label}</span>}
+    </li>)}
 </ul>

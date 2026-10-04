@@ -1,0 +1,19 @@
+---
+import { getAssetUrl } from '../config';
+interface Props { current: 'overview' | 'rules' | 'neighborhoods' | 'people'; }
+const links = [
+    { id: 'overview', label: 'Overview', href: '/city-of-mist/' },
+    { id: 'rules', label: 'Rules', href: '/com-system-modifications/' },
+    { id: 'neighborhoods', label: 'Neighborhoods', href: '/neighborhoods-in-the-city/' },
+    { id: 'people', label: 'People', href: '/people-in-the-city/' },
+    { id: 'summaries', label: 'Session Summaries', href: '/tag/city-of-mist/' },
+];
+---
+<nav class="campaign-nav" aria-label="City of Mist sections">
+    {links.map(link => <a href={getAssetUrl(link.href)} aria-current={Astro.props.current === link.id ? 'page' : undefined}>{link.label}</a>)}
+</nav>
+<style>
+    .campaign-nav { display: flex; flex-wrap: wrap; gap: 4px 24px; padding-block: 10px; border-block: 1px solid #424242; }
+    .campaign-nav a { display: inline-flex; align-items: center; min-height: 44px; font-size: 1.2rem; font-weight: 600; letter-spacing: .02em; text-transform: uppercase; color: var(--color-secondary-text); text-decoration: none; }
+    .campaign-nav a:hover, .campaign-nav a[aria-current] { color: #fff; text-decoration: underline; text-decoration-color: #a47be0; text-underline-offset: 6px; }
+</style>

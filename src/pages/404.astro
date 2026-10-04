@@ -7,6 +7,7 @@ import { SITE_CONFIG, getAssetUrl } from '../config';
 // Import CSS stylesheets so Astro bundles them
 import '../styles/global.css';
 import '../styles/screen.css';
+import '../styles/leota.css';
 
 // Fetch the 3 latest posts for error recommendations
 const allPosts = await getCollection('posts');
@@ -15,11 +16,11 @@ const recommendedPosts = allPosts.slice(0, 3);
 ---
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark-mode">
 <head>
     <BaseHead title="404 - Page Not Found" description="Page not found" />
 </head>
-<body class="error-template">
+<body class="leota error-template">
     <div class="site-wrapper">
         <!-- Error Header -->
         <header class="site-header outer no-cover">

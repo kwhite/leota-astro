@@ -1,0 +1,12 @@
+{
+  "username": "Kat",
+  "name": "Kat",
+  "location": "Austin, TX",
+  "url_full": false,
+  "url": false,
+  "bio": "Nerd scribe.",
+  "picture": "assets/images/kat.png",
+  "facebook": false,
+  "twitter": false,
+  "cover": false
+}
