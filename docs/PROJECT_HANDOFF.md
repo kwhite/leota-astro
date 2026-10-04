@@ -1,12 +1,16 @@
 # Here Be Dragons / Leota Astro — thread handoff
 
-Last updated: 2026-10-04, after the callouts/quotes/galleries milestone. This document records project context and user decisions; it is not a new authorization to deploy, send email, or migrate the full archive. Read the user's latest request before continuing.
+Last updated: 2026-10-04, after the MDX pages checkpoint and rich-post authoring plan. This document records project context and user decisions; it is not a new authorization to deploy, send email, or migrate the full archive. Read the user's latest request before continuing.
 
 ## Goal and current position
 
 Port the visual appearance and used behavior of Kat's existing **Leota Ghost theme** into the existing **leota-astro Casper port**, preserving the Astro architecture and portable content. The original website is unavailable, so the reference is the supplied theme, Ghost export/media, and Kat's feedback. Kat approved the plan, then successive local implementation milestones, and said the visual result was looking great before requesting the special-content milestone.
 
-The special-content checkpoint and subsequent planning updates are committed. Kat then authorized the next milestone: four City of Mist pages and shared image-backed cards are now implemented locally, with details in `visual-port-milestone-five.md`. This implementation is not yet committed. Image optimization and deployment cleanup remain planned, not started.
+Current checkpoint: `bffa197` on `codex/leota-visual-port`, committed and pushed to origin. This includes the City of Mist pages, demo cleanup, standalone pages collection and MDX page composition. Latest build: 35 pages, no warnings. Bulk media remains local/untracked. Image optimization and deployment cleanup remain planned, not started. Historical sections below describe earlier checkpoints; this paragraph and the latest decision take precedence for current status.
+
+**Next proposed milestone: rich-post MDX components.** Kat wants reusable callouts, pull quotes, galleries, images, Spotify embeds and link previews instead of manually repeating HTML classes/layouts. See [rich-content-authoring-plan.md](rich-content-authoring-plan.md) for component contracts, staged sample conversion, acceptance checks and the later migration/media pipeline. Both posts and pages already load `.md`/`.mdx`; no new content architecture is needed. Start with Callout/PullQuote and the 1.8 post, then galleries/images, then Spotify and DM Resources bookmarks. Share components with pages and keep simple prose in Markdown.
+
+Kat requested **planning and documentation only before stopping for the night**. Rich-post components/conversions are not implemented. These latest planning docs are uncommitted; no build is needed for this documentation-only change. Resume implementation when requested, without interpreting the plan itself as bulk-migration or deployment authorization.
 
 ## Workspace and source material
 
