@@ -1,6 +1,7 @@
 ---
-title: "Modified System"
-cover: "/assets/images/2026/05/city-of-mist.png"
+title: Modified System
+cover: /assets/images/2026/05/city-of-mist.png
+campaignSection: rules
 ---
 
 <div class="kg-card kg-callout-card kg-callout-card-blue"><div class="kg-callout-emoji">💡</div><div class="kg-callout-text">These are a transcription of Jackie&#x27;s notes from session zero. If there are things you think we missed or need to add or elaborate, let Kat know.</div></div>

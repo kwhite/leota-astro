@@ -1,13 +1,16 @@
 ---
+import { getEntry, render } from 'astro:content';
 import PageLayout from '../layouts/PageLayout.astro';
-import { Content, frontmatter } from '../data/about.md';
+const page = await getEntry('pages', 'about');
+if (!page) throw new Error('Missing page content: about');
+const frontmatter = page.data;
+const { Content } = await render(page);
 ---
 
 <PageLayout
   title={frontmatter.title}
   cover={frontmatter.cover}
   description={frontmatter.description}
-  subclass={frontmatter.subclass}
 >
   <Content />
 </PageLayout>

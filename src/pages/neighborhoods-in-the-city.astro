@@ -1,19 +1,12 @@
 ---
+import { getEntry, render } from 'astro:content';
 import PageLayout from '../layouts/PageLayout.astro';
 import CampaignNav from '../components/CampaignNav.astro';
-import ContentBanner from '../components/ContentBanner.astro';
-import { getAssetUrl } from '../config';
-import data from '../data/campaigns/neighborhoods.json';
+const page = await getEntry('pages', 'neighborhoods-in-the-city');
+if (!page) throw new Error('Missing page content: neighborhoods-in-the-city');
+const { Content } = await render(page);
 ---
-<PageLayout title={data.title} cover={data.cover} subclass="campaign-page">
-    <CampaignNav current="neighborhoods" />
-    <p>{data.intro}</p>
-    <figure class="kg-card kg-image-card kg-card-hascaption">
-        <a href={getAssetUrl(data.map.image)} aria-label="Open City of Mist map in full size"><img src={getAssetUrl(data.map.image)} width={data.map.width} height={data.map.height} alt="City of Mist neighborhood map" loading="lazy" /></a>
-        <figcaption>Download <a href={getAssetUrl(data.map.download)} download>here</a></figcaption>
-    </figure>
-    {data.districts.map(district => <>
-        <ContentBanner {...district} width="wide" />
-        {district.bodyHtml && <div class="district-description" set:html={district.bodyHtml} />}
-    </>)}
+<PageLayout title={page.data.title} cover={page.data.cover} description={page.data.description} subclass="campaign-page">
+    {page.data.campaignSection && <CampaignNav current={page.data.campaignSection} />}
+    <Content />
 </PageLayout>

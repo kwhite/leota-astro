@@ -53,7 +53,24 @@ const tags = defineCollection({
   }),
 });
 
+// Standalone pages: prose in Markdown, optional structured sections in frontmatter.
+const pages = defineCollection({
+  loader: glob({ pattern: '**/[^_]*.{md,mdx}', base: './src/content/pages' }),
+  schema: z.object({
+    title: z.string(), cover: z.string().nullable().optional(),
+    description: z.string().optional(), sourceId: z.string().optional(),
+    campaignSection: z.enum(['overview', 'rules', 'neighborhoods', 'people']).optional(),
+    chapters: z.array(z.object({ chapter: z.string(), title: z.string(), href: z.string().nullable() })).default([]),
+    people: z.array(z.object({
+      name: z.string(), mythos: z.string().nullable(), mythosStruck: z.boolean(),
+      neighborhood: z.string().nullable(), image: z.string(), width: z.number(), height: z.number(),
+      sheet: z.string().nullable(),
+    })).default([]),
+  }),
+});
+
 export const collections = {
+  pages,
   posts,
   authors,
   tags,

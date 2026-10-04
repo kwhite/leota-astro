@@ -1,7 +1,9 @@
 import { defineConfig, fontProviders } from 'astro/config';
+import mdx from '@astrojs/mdx';
 
 // https://astro.build/config
 export default defineConfig({
+  integrations: [mdx()],
   site: process.env.SITE_URL || 'https://herebedragons.club',
   base: process.env.BASE_PATH || '/',
   markdown: {

@@ -1,25 +1,12 @@
 ---
-import { getCollection } from 'astro:content';
+import { getEntry, render } from 'astro:content';
 import PageLayout from '../layouts/PageLayout.astro';
 import CampaignNav from '../components/CampaignNav.astro';
-import ContentBanner from '../components/ContentBanner.astro';
-import { getAssetUrl } from '../config';
-import data from '../data/campaigns/city-of-mist.json';
-import { Content } from '../data/campaigns/city-of-mist-intro.md';
-const available = new Set((await getCollection('posts')).map(post => `/${post.id}/`));
+const page = await getEntry('pages', 'city-of-mist');
+if (!page) throw new Error('Missing page content: city-of-mist');
+const { Content } = await render(page);
 ---
-<PageLayout title={data.title} cover={data.cover} subclass="campaign-page">
-    <CampaignNav current="overview" />
+<PageLayout title={page.data.title} cover={page.data.cover} description={page.data.description} subclass="campaign-page">
+    {page.data.campaignSection && <CampaignNav current={page.data.campaignSection} />}
     <Content />
-    <h2 id="our-story">Our Story</h2>
-    <h3 id="part-1-manifest-destiny">Part 1: Manifest Destiny</h3>
-    <p class="migration-note">Chapter links become available as summaries are migrated.</p>
-    <table class="campaign-table"><thead><tr><th scope="col">Chapter</th><th scope="col">Title</th></tr></thead><tbody>
-        {data.chapters.map(chapter => <tr><td>{chapter.chapter}</td><td>{chapter.href && available.has(chapter.href)
-            ? <a href={getAssetUrl(chapter.href)}>{chapter.title}</a>
-            : <span>{chapter.title}</span>}</td></tr>)}
-    </tbody></table>
-    <h3 id="part-2-the-harvest">Part 2: The Harvest</h3><p>Chapter list coming soon!</p>
-    <h3 id="part-3-jus-in-bello">Part 3: <em>Jus in Bello</em></h3><p>Chapter list coming soon!</p>
-    {data.cards.map(card => <ContentBanner {...card} width="regular" />)}
 </PageLayout>

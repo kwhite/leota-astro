@@ -1,0 +1,17 @@
+---
+import { getAssetUrl } from '../config';
+interface Props {
+    image: string;
+    alt: string;
+    width: number;
+    height: number;
+    download?: string;
+    downloadLabel?: string;
+    openLabel?: string;
+}
+const { image, alt, width, height, download, downloadLabel = 'Download image', openLabel = `Open ${alt} in full size` } = Astro.props;
+---
+<figure class:list={['kg-card', 'kg-image-card', { 'kg-card-hascaption': !!download }]}>
+    <a href={getAssetUrl(image)} aria-label={openLabel}><img src={getAssetUrl(image)} width={width} height={height} alt={alt} loading="lazy" /></a>
+    {download && <figcaption><a href={getAssetUrl(download)} download>{downloadLabel}</a></figcaption>}
+</figure>
