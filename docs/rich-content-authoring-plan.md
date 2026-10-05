@@ -1,6 +1,6 @@
 # Rich content authoring with MDX
 
-Planned 2026-10-04. **Step 1 (Callout and PullQuote) is implemented**; see the status section at the end and [post-authoring.md](post-authoring.md). Galleries, Spotify and link previews do not exist yet.
+Planned 2026-10-04. **Steps 1 (Callout, PullQuote) and 2 (Gallery, ContentImage) are implemented**; see the status sections at the end and [post-authoring.md](post-authoring.md). Spotify and link previews do not exist yet.
 
 ## Decision
 
@@ -90,6 +90,15 @@ Follow `image-optimization-plan.md`. Components should centralize media URL hand
 - Feed fix: MDX entries have no `rendered.html`, so `src/utils/feed.ts` fell back to the raw MDX source. It now renders MDX bodies through Astro's container API with the MDX container renderer. All 24 feeds parse and contain rendered callouts. Side effect: Vite prints a harmless `MODULE_LEVEL_DIRECTIVE` warning per `.mdx` entry; all HTML pages are byte-identical with and without the change.
 - "GalleryWren:"/"GalleryJohn:" prefixes are in the Ghost export and were preserved.
 
+## Step 2 status (2026-10-04)
+
+- Checked the contract against all published export content first: 10 galleries (all wide, all captioned with plain text, 1–3 rows of 2–3 images, 3 with mixed aspect ratios, no image links) and 151 single images (all regular width, 72 captioned, 5 captions with links/italics). Ghost's export has no flex values; the theme computed them at runtime.
+- Contract changes from the draft above: captions are a plain `caption` prop or the component body (for links/italics) rather than a prop only; the per-image caption field was dropped because no source content uses one. `Gallery` defaults to `size="wide"`. Flex is width ÷ height, computed at build time. A flat `rows` list or a non-positive dimension fails the build with a clear message.
+- `ContentImage` gained `caption`, body caption, `size` and `fullSize`; existing calls are unchanged (Neighborhoods page byte-identical).
+- `2025-03-29-session-notes` is now `.mdx` with `Gallery` and two yellow `Callout`s. Its gallery HTML is identical to the hand-written version; the only page difference is `aria-hidden` on callout emoji. Text, URLs and heading IDs match; feeds render it.
+- A temporary fixture (removed) exercised three mixed-ratio rows, adjacent image/gallery cards, uncaptioned cards, wide single images, linked/italic captions and `fullSize`. Equal row heights at 1280px and 390px, no overflow; viewer sequences of 8 and 4 grouped correctly, wrap-around, caption/alt fallbacks, keyboard open, arrows, Escape and focus return all worked.
+- MDX pitfall found: a line starting with `>` inside a multi-line tag is parsed as a Markdown quote. Documented in post-authoring.md.
+
 ## Resume point
 
-Step 2 (images and galleries, `2025-03-29-session-notes`) is next, after Kat reviews step 1. Its yellow callouts can use `Callout` directly. No new dependencies appear necessary.
+Step 3 (Spotify wrapper and DM Resources link previews) is next, after Kat reviews step 2. Kat's uncommitted Spotify `border-radius` rule in `leota.css` is relevant there. No new dependencies appear necessary.

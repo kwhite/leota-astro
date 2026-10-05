@@ -2,7 +2,7 @@
 
 Posts live in `src/content/posts/`. Use **Markdown (`.md`) for ordinary posts** and **MDX (`.mdx`) when a post needs rich-content components**. Both belong to the same `posts` collection, so frontmatter, URLs, tags, homepage filtering, listings and feeds work the same way. Renaming a post from `.md` to `.mdx` with the same basename keeps its URL.
 
-The same components work in pages; see [page-authoring.md](page-authoring.md) for page-only components and general MDX syntax. [rich-content-authoring-plan.md](rich-content-authoring-plan.md) tracks the components still planned (galleries, Spotify, link previews).
+The same components work in pages; see [page-authoring.md](page-authoring.md) for page-only components and general MDX syntax. [rich-content-authoring-plan.md](rich-content-authoring-plan.md) tracks the components still planned (Spotify, link previews).
 
 ## Import components once
 
@@ -65,6 +65,73 @@ Large centered serif quote, for the alternate quote style. Ordinary quotations s
 ```
 
 Multi-paragraph pull quotes use the same blank-line block form as callouts.
+
+## Gallery
+
+Rows of images that share a height within each row, with the shared image viewer. Every image record needs `image`, `alt`, and numeric `width` and `height` (the file's pixel size). The component works out the proportions; never add `flex` values yourself.
+
+| Prop | Required | Notes |
+| --- | --- | --- |
+| `rows` | yes | A list of rows, each a list of images. Even a single row needs the double brackets: `rows={[[ ... ]]}`. |
+| `caption` | no | Plain-text caption under the gallery. |
+| `size` | no | `"wide"` (default, like Ghost), `"full"` or `"regular"` (reading-column width). |
+
+Image records can also set `fullSize` to open a different, larger file in the viewer than the one displayed. It defaults to `image`.
+
+```mdx
+import Gallery from '../../components/Gallery.astro';
+
+<Gallery
+  caption="Capt. Billbog Marrow and First Mate Byrne"
+  rows={[
+    [
+      { image: "/assets/images/2025/03/billbog.png", alt: "Capt. Billbog Marrow", width: 1024, height: 1024 },
+      { image: "/assets/images/2025/03/byrne.png", alt: "First Mate Byrne", width: 1024, height: 1024 },
+    ],
+    [
+      { image: "/assets/images/2025/03/ship.png", alt: "The Quick Fortune", width: 1456, height: 816 },
+    ],
+  ]}
+/>
+```
+
+Ghost galleries use two or three images per row; keep the original grouping when converting. A row given as a flat list (single brackets) stops the build with a message saying so.
+
+## ContentImage
+
+A single image that opens in the viewer.
+
+| Prop | Required | Notes |
+| --- | --- | --- |
+| `image`, `alt`, `width`, `height` | yes | As for gallery images. |
+| `caption` | no | Plain-text caption. |
+| `size` | no | `"regular"` (default), `"wide"` or `"full"`. |
+| `fullSize` | no | Larger file to open in the viewer; defaults to `image`. |
+| `download`, `downloadLabel` | no | Adds a download link to the caption (used by the City of Mist map). |
+| `openLabel` | no | Screen-reader label for the link; defaults to "Open <alt> in full size". |
+
+```mdx
+import ContentImage from '../../components/ContentImage.astro';
+
+<ContentImage image="/assets/images/2025/03/ship.png" alt="The Quick Fortune" width={1456} height={816} caption="Leaving port" />
+```
+
+**Formatted captions.** For a caption with links or italics, put it in the component body instead of `caption`. This also works for `Gallery`.
+
+```mdx
+<ContentImage image="/assets/images/2025/03/ship.png" alt="The Quick Fortune" width={1456} height={816}>The *Quick Fortune* leaves port</ContentImage>
+```
+
+If the props span several lines, end the last prop line with `>` rather than starting a new line with it. MDX reads a line beginning with `>` as a Markdown quote and fails with "Unexpected character after `<`".
+
+```mdx
+<Gallery
+  rows={[[ ... ]]}>
+  Caption with a [link](https://example.com)
+</Gallery>
+```
+
+**Viewer grouping.** Images and galleries placed directly after one another, with nothing between them, open as one sequence in the viewer. Any paragraph or heading between them starts a new sequence. Each image shows its card's caption in the viewer, or its alt text when there is no caption.
 
 ## Typography and syntax notes
 

@@ -41,12 +41,12 @@ The example metadata is illustrative; use real existing media for a new page. No
 
 ## Available components
 
-**Callout** and **PullQuote** are shared with posts; see [post-authoring.md](post-authoring.md) for their props and examples. Gallery, Spotify and link-preview components are still planned in [rich-content-authoring-plan.md](rich-content-authoring-plan.md). The page components below are also available now.
+**Callout**, **PullQuote**, **Gallery** and **ContentImage** are shared with posts; see [post-authoring.md](post-authoring.md) for their props and examples. Spotify and link-preview components are still planned in [rich-content-authoring-plan.md](rich-content-authoring-plan.md). The page components below are also available now.
 
 - **ContentBanner**: `title`, `image`, optional heading `id`, `description`, `href`/`label`, `width` (`regular`, `wide`, `full`) and `align` (`left`, `center`). Content lives directly on the call. Preserve existing IDs when moving banners so deep links keep working.
 - **ChapterTable**: `<ChapterTable chapters={frontmatter.chapters} />`. The chapter array stays in YAML to make a long list easy to maintain; the call chooses its location. Optional `chapterLabel` and `titleLabel` change column headings. Each entry has `chapter` (a quoted string), `title`, and `href` (or `null` for intentionally unlinked titles). Links activate only when corresponding posts exist.
 - **PeopleGrid**: `<PeopleGrid people={frontmatter.people} label="People in The City" />`. Source order is display order. Each person has `name`, `image`, dimensions, optional/null `mythos`, `neighborhood`, `sheet`, and `mythosStruck`. The grid includes its styles/fonts and the existing portrait-lightbox hooks.
-- **ContentImage**: image URL, alt text, numeric width/height; optional `download`, `downloadLabel`, and `openLabel`. Supplies a zoomable image and optional download caption. Used for the city map.
+- **ContentImage**: image URL, alt text, numeric width/height; optional `caption`, `size`, `fullSize`, `download`, `downloadLabel`, and `openLabel` (full reference in [post-authoring.md](post-authoring.md)). Supplies a zoomable image and optional caption/download link. Used for the city map.
 
 Structured datasets can stay in frontmatter without controlling placement. The collection validates the existing `chapters` and `people` arrays; small card/map values are props at their position in the body. Components' prop interfaces document those values, while visual/content checks remain necessary.
 
