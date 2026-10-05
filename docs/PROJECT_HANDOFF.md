@@ -212,3 +212,7 @@ Kat reviewed the authoring guide and accepted it for v1. Planned enhancements, w
 Open decisions raised this session, not yet resolved:
 - **Media hosting.** The Netlify deploy preview (PR for steps 1–3) shows broken images because bulk media is untracked. Options presented: commit as-is, optimize then commit a small set, or host media outside Git (S3). Kat has not chosen; do not commit media until she does.
 - **Decap CMS at `/admin/`.** Template leftover: `.md`-only, no pages collection, edits MDX unsafely, commits to `main`, Git Gateway/Identity not enabled (and deprecated by Netlify). Recommended leaving it disabled; Kat has not decided whether to remove or reconfigure it.
+
+## Git state (2026-10-04, end of session)
+
+PRs #1 and #2 from `codex/leota-visual-port` are merged into `main`; that branch has been deleted locally and on GitHub. Earlier references to it as the working branch are historical. The final docs commit was moved to `docs/authoring-plan-updates` for its own PR. Going forward, start each piece of work on a new branch from an up-to-date `main`. Still uncommitted locally: the `js-yaml` bump, `.claude/launch.json` and bulk media.
