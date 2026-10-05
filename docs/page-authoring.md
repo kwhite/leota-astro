@@ -9,6 +9,7 @@ Page content lives in `src/content/pages/`. Use **Markdown (`.md`) for simple pa
 | `people-in-the-city.mdx` | People data in frontmatter and a movable directory component |
 | `com-system-modifications.md` | Rules prose, tables and callouts |
 | `about.md` | About title, cover and prose |
+| `dm-resources.mdx` | Intro, Patreon card gallery and link previews grouped under headings |
 
 ## Compose a page in the body
 
@@ -41,7 +42,7 @@ The example metadata is illustrative; use real existing media for a new page. No
 
 ## Available components
 
-**Callout**, **PullQuote**, **Gallery** and **ContentImage** are shared with posts; see [post-authoring.md](post-authoring.md) for their props and examples. Spotify and link-preview components are still planned in [rich-content-authoring-plan.md](rich-content-authoring-plan.md). The page components below are also available now.
+**Callout**, **PullQuote**, **Gallery**, **ContentImage**, **SpotifyEmbed** and **LinkPreview** are shared with posts; see [post-authoring.md](post-authoring.md) for their props and examples. The page components below are also available now.
 
 - **ContentBanner**: `title`, `image`, optional heading `id`, `description`, `href`/`label`, `width` (`regular`, `wide`, `full`) and `align` (`left`, `center`). Content lives directly on the call. Preserve existing IDs when moving banners so deep links keep working.
 - **ChapterTable**: `<ChapterTable chapters={frontmatter.chapters} />`. The chapter array stays in YAML to make a long list easy to maintain; the call chooses its location. Optional `chapterLabel` and `titleLabel` change column headings. Each entry has `chapter` (a quoted string), `title`, and `href` (or `null` for intentionally unlinked titles). Links activate only when corresponding posts exist.

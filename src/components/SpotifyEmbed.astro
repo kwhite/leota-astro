@@ -1,0 +1,13 @@
+---
+interface Props {
+    url: string;
+    title: string;
+    height?: number;
+}
+const { url, title, height = 152 } = Astro.props;
+// Accept a share link or an embed link; keep its query string (share ID, album/playlist context).
+const match = url.match(/^https:\/\/open\.spotify\.com\/(?:embed\/)?(track|album|playlist|episode|show|artist)\/([A-Za-z0-9]+)\/?(\?.*)?$/);
+if (!match) throw new Error(`SpotifyEmbed needs an open.spotify.com link to a track, album, playlist, episode, show or artist; got "${url}".`);
+const src = `https://open.spotify.com/embed/${match[1]}/${match[2]}${match[3] ?? ''}`;
+---
+<figure class="kg-card kg-embed-card"><iframe style="border-radius: 12px" width="100%" height={height} title={`Spotify Embed: ${title}`} frameborder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" src={src}></iframe></figure>

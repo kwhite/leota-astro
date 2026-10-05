@@ -1,0 +1,19 @@
+---
+import { getAssetUrl } from '../config';
+interface Props {
+    url: string;
+    title?: string;
+    description?: string;
+    icon?: string;
+    author?: string;
+    publisher?: string;
+    thumbnail?: string;
+    caption?: string;
+}
+const { url, description, icon, author, publisher, thumbnail, caption } = Astro.props;
+// Without a recorded title the card still works as a link labelled with the site's host name.
+const title = Astro.props.title || new URL(url).hostname.replace(/^www\./, '');
+// Plain captions use the prop; formatted captions use the component body.
+const hasCaption = !!caption || Astro.slots.has('default');
+---
+<figure class:list={['kg-card', 'kg-bookmark-card', { 'kg-card-hascaption': hasCaption }]}><a class="kg-bookmark-container" href={url}><div class="kg-bookmark-content"><div class="kg-bookmark-title">{title}</div>{description && <div class="kg-bookmark-description">{description}</div>}{(icon || author || publisher) && <div class="kg-bookmark-metadata">{icon && <img class="kg-bookmark-icon" src={getAssetUrl(icon)} alt="" loading="lazy" />}{author && <span class="kg-bookmark-author">{author}</span>}{publisher && <span class="kg-bookmark-publisher">{publisher}</span>}</div>}</div>{thumbnail && <div class="kg-bookmark-thumbnail"><img src={getAssetUrl(thumbnail)} alt="" loading="lazy" /></div>}</a>{hasCaption && <figcaption>{caption}<slot /></figcaption>}</figure>

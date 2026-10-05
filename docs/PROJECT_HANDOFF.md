@@ -1,6 +1,6 @@
 # Here Be Dragons / Leota Astro — thread handoff
 
-Last updated: 2026-10-04, after rich-post components step 2 (Gallery/ContentImage). This document records project context and user decisions; it is not a new authorization to deploy, send email, or migrate the full archive. Read the user's latest request before continuing.
+Last updated: 2026-10-04, after rich-post components step 3 (SpotifyEmbed/LinkPreview, DM Resources page). This document records project context and user decisions; it is not a new authorization to deploy, send email, or migrate the full archive. Read the user's latest request before continuing.
 
 ## Goal and current position
 
@@ -195,8 +195,12 @@ MDX build: 35 pages, no warnings; all five pages preserve rendered text (allowin
 
 Kat approved slice 1 only, committed at the end. Added `Callout` and `PullQuote`, converted the 1.8 post to `.mdx`, fixed feeds to render MDX bodies, and added `post-authoring.md`. Details and verification are in the step 1 status section of `rich-content-authoring-plan.md`. Build: 35 pages; the only warnings are the harmless `MODULE_LEVEL_DIRECTIVE` notices described there. Next: step 2 (galleries/images) after Kat reviews.
 
-The uncommitted Spotify `border-radius` rule in `leota.css` is Kat's own visual-QA change and was deliberately left out of the step 1 commit. The `js-yaml` bump in `package.json`/`pnpm-lock.yaml` also remains uncommitted. Local preview launch config lives in `.claude/launch.json` (`leota-dev`, uncommitted).
+The Spotify `border-radius` rule in `leota.css` is Kat's own visual-QA change; it was left out of the step 1 and 2 commits and committed with step 3 at her request. The `js-yaml` bump in `package.json`/`pnpm-lock.yaml` also remains uncommitted. Local preview launch config lives in `.claude/launch.json` (`leota-dev`, uncommitted).
 
 ## Latest milestone: rich-post components step 2
 
 Kat approved step 1 and asked to start step 2. Added `Gallery`, extended `ContentImage` (caption, size, fullSize), and converted `2025-03-29-session-notes` to `.mdx`. Details, the export survey behind the final props, and verification are in the step 2 status section of `rich-content-authoring-plan.md`; authoring docs are in `post-authoring.md`. Build: 35 pages. Next: step 3 (Spotify, DM Resources link previews) after Kat reviews.
+
+## Latest milestone: rich-post components step 3
+
+Added `SpotifyEmbed` and `LinkPreview`, used SpotifyEmbed in the 1.8 post, migrated **DM Resources** to `src/content/pages/dm-resources.mdx` and enabled its secondary-navigation link (City of Mist, About and DM Resources are now the active links). DM Resources media was copied from the backup and inventoried in `dm-resources-media-sources.json`. The FGC Characters page also uses bookmark cards and can reuse LinkPreview when migrated. Per-image gallery captions are recorded under Future enhancements in the plan. Details in the step 3 status section of `rich-content-authoring-plan.md`. Build: 36 pages.

@@ -2,7 +2,7 @@
 
 Posts live in `src/content/posts/`. Use **Markdown (`.md`) for ordinary posts** and **MDX (`.mdx`) when a post needs rich-content components**. Both belong to the same `posts` collection, so frontmatter, URLs, tags, homepage filtering, listings and feeds work the same way. Renaming a post from `.md` to `.mdx` with the same basename keeps its URL.
 
-The same components work in pages; see [page-authoring.md](page-authoring.md) for page-only components and general MDX syntax. [rich-content-authoring-plan.md](rich-content-authoring-plan.md) tracks the components still planned (Spotify, link previews).
+The same components work in pages; see [page-authoring.md](page-authoring.md) for page-only components and general MDX syntax. [rich-content-authoring-plan.md](rich-content-authoring-plan.md) records the component plan and future enhancements.
 
 ## Import components once
 
@@ -132,6 +132,58 @@ If the props span several lines, end the last prop line with `>` rather than sta
 ```
 
 **Viewer grouping.** Images and galleries placed directly after one another, with nothing between them, open as one sequence in the viewer. Any paragraph or heading between them starts a new sequence. Each image shows its card's caption in the viewer, or its alt text when there is no caption.
+
+## SpotifyEmbed
+
+A Spotify player. Paste the link from Spotify's **Share → Copy link** (or an existing embed link); the component converts it and keeps its query string.
+
+| Prop | Required | Notes |
+| --- | --- | --- |
+| `url` | yes | An `open.spotify.com` link to a track, album, playlist, episode, show or artist. Anything else stops the build with a message. |
+| `title` | yes | Track or album name; the player's accessible title becomes "Spotify Embed: <title>". |
+| `height` | no | Defaults to `152`, the compact track player every existing embed uses. Albums and playlists look better at `352`. |
+
+```mdx
+import SpotifyEmbed from '../../components/SpotifyEmbed.astro';
+
+<SpotifyEmbed url="https://open.spotify.com/track/5jkFvD4UJrmdoezzT1FRoP?si=2900092d66884167" title="Rasputin" />
+```
+
+## LinkPreview
+
+A static bookmark card for an external link: title, description, small icon, author/publisher and thumbnail. Nothing is fetched at build time; supply whatever you have. Only `url` is required: without a `title`, the card shows the site's host name.
+
+| Prop | Notes |
+| --- | --- |
+| `url` | Destination (required). |
+| `title`, `description` | Card text. Long descriptions are clipped to two lines. |
+| `icon`, `thumbnail` | Image paths, usually under `/assets/images/icon/` and `/assets/images/thumbnail/` for imported Ghost bookmarks. |
+| `author`, `publisher` | Shown after the icon, separated by a bullet when both exist. |
+| `caption` | Plain-text caption; use the component body for links or italics, as with images. |
+
+```mdx
+import LinkPreview from '../../components/LinkPreview.astro';
+
+<LinkPreview
+  url="https://www.tomcartos.com"
+  title="Tom Cartos"
+  description="TTRPG Battlemaps, Assets, Tokens & Adventure."
+  author="Tom Cartos"
+  icon="/assets/images/icon/favicon-8.ico"
+  thumbnail="/assets/images/thumbnail/TC_Banner-Wide.jpg"
+  caption="Another map maker who does good generic things."
+/>
+```
+
+If a prop value contains a double quote, `&` or braces, write it as an expression instead: `description={"Tokens & Adventure"}`.
+
+## Keeping a heading's link ID
+
+Markdown headings get IDs automatically, used for links like `/dm-resources/#maps`. Ghost made some IDs differently (for example it dropped `&`). To keep an old ID, write that heading as HTML:
+
+```mdx
+<h2 id="magic-items-monsters">Magic Items &amp; Monsters</h2>
+```
 
 ## Typography and syntax notes
 

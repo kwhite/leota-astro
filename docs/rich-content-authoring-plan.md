@@ -1,6 +1,6 @@
 # Rich content authoring with MDX
 
-Planned 2026-10-04. **Steps 1 (Callout, PullQuote) and 2 (Gallery, ContentImage) are implemented**; see the status sections at the end and [post-authoring.md](post-authoring.md). Spotify and link previews do not exist yet.
+Planned 2026-10-04. **Steps 1–3 are implemented** (Callout, PullQuote, Gallery, ContentImage, SpotifyEmbed, LinkPreview, and the DM Resources page); see the status sections at the end and [post-authoring.md](post-authoring.md).
 
 ## Decision
 
@@ -78,6 +78,10 @@ Keep blank lines around nested Markdown. Verify MDX slot output and paragraph ma
 - Confirm image dimensions/alt text and missing-preview fallbacks. Rich blocks render statically except existing lightbox behavior and third-party Spotify content.
 - Run targeted checks and `pnpm build`; do not add a broad test framework solely for presentational wrappers.
 
+## Future enhancements
+
+- **Per-image gallery captions** (requested by Kat 2026-10-04, not scheduled). Add an optional `caption` to `Gallery` image records; galleries without it must render unchanged, and the gallery-wide caption stays. Viewer captions are nearly free: pass the value as the link's `data-image-caption`, which `ImageLightbox` already reads (PeopleGrid uses it). Visible captions under each image need a design decision first, because uneven caption lengths break equal-height rows: options are viewer-only, overlaid on the image, or a shared caption band per row. Decide against a real gallery that needs it. No Ghost source gallery uses per-image captions, so the converter does not depend on this.
+
 ## Image optimization connection
 
 Follow `image-optimization-plan.md`. Components should centralize media URL handling through existing asset helpers and support eventual optimized display/full-size destinations. Authors should not manually maintain PNG/WebP pairs, responsive variants or manifests. Later migration tooling rewrites component props as well as Markdown, frontmatter and remaining HTML references. Lightbox/download targets must resolve to optimized large images when source PNGs are excluded from deployment; update “Open original” wording at that stage. Preserve archival originals outside the deployed tree. This milestone does not convert/delete media or deploy anything.
@@ -99,6 +103,15 @@ Follow `image-optimization-plan.md`. Components should centralize media URL hand
 - A temporary fixture (removed) exercised three mixed-ratio rows, adjacent image/gallery cards, uncaptioned cards, wide single images, linked/italic captions and `fullSize`. Equal row heights at 1280px and 390px, no overflow; viewer sequences of 8 and 4 grouped correctly, wrap-around, caption/alt fallbacks, keyboard open, arrows, Escape and focus return all worked.
 - MDX pitfall found: a line starting with `>` inside a multi-line tag is parsed as a Markdown quote. Documented in post-authoring.md.
 
+## Step 3 status (2026-10-04)
+
+- Export survey: all 37 Spotify embeds (18 posts) are tracks at height 152 inside `<figure class="kg-card kg-embed-card">`, some with album/playlist `context` query parameters, none captioned. Bookmark cards appear on DM Resources (16) and also on the unmigrated `fgc-characters` page (6), which earlier notes did not mention. No other iframe providers.
+- `SpotifyEmbed` (`url`, `title`, optional `height`) accepts share or embed links, keeps the query string and restores Ghost's embed `<figure>` that the 1.8 hand import had dropped. The 1.8 iframe attributes are otherwise identical. Kat's Spotify `border-radius` rule (from her visual QA) was committed with step 3 at her request.
+- `LinkPreview` reproduces Ghost's bookmark markup and core bookmark CSS with Leota's dark-mode colors; on narrow screens the thumbnail stacks above the text. Only `url` is required; a missing title falls back to the host name. No fetching at build time.
+- DM Resources migrated to `src/content/pages/dm-resources.mdx` with a route and enabled secondary-navigation link. Generated from the export (intro, nine-card Patreon gallery, 16 previews, Bookish Artists paragraph). Rendered text matches the export after punctuation normalization; all 19 external links and seven heading IDs match (one pinned with an HTML heading because Astro's slug for "&" differs). 41 media files copied unchanged from the backup into `public/assets/images/` (cover, `2025/04` cards, `icon/`, `thumbnail/`; 54 MB, untracked) and listed in `dm-resources-media-sources.json`.
+- Source empty alt text on the Patreon cards was replaced with "<creator> Patreon card" names derived from filenames and bookmark titles.
+- Verified desktop and 390px with no overflow or broken images. Feeds are unaffected (pages are not in feeds).
+
 ## Resume point
 
-Step 3 (Spotify wrapper and DM Resources link previews) is next, after Kat reviews step 2. Kat's uncommitted Spotify `border-radius` rule in `leota.css` is relevant there. No new dependencies appear necessary.
+Step 4 (authoring guide review and acceptance with Kat) is next; most of the guide already exists in `post-authoring.md`. Then step 5, the repeatable Ghost converter; the DM Resources generator logic is a starting point. Bulk migration remains a separate reviewed milestone.
