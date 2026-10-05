@@ -204,3 +204,11 @@ Kat approved step 1 and asked to start step 2. Added `Gallery`, extended `Conten
 ## Latest milestone: rich-post components step 3
 
 Added `SpotifyEmbed` and `LinkPreview`, used SpotifyEmbed in the 1.8 post, migrated **DM Resources** to `src/content/pages/dm-resources.mdx` and enabled its secondary-navigation link (City of Mist, About and DM Resources are now the active links). DM Resources media was copied from the backup and inventoried in `dm-resources-media-sources.json`. The FGC Characters page also uses bookmark cards and can reuse LinkPreview when migrated. Per-image gallery captions are recorded under Future enhancements in the plan. Details in the step 3 status section of `rich-content-authoring-plan.md`. Build: 36 pages.
+
+## Step 4 confirmed; authoring enhancements planned
+
+Kat reviewed the authoring guide and accepted it for v1. Planned enhancements, with Kat's guiding principle of streamlined authoring and components doing the heavy lifting, are in the plan's Future enhancements: automatic gallery rows (prioritized), automatic image dimensions, a link-preview helper command, and per-image captions.
+
+Open decisions raised this session, not yet resolved:
+- **Media hosting.** The Netlify deploy preview (PR for steps 1–3) shows broken images because bulk media is untracked. Options presented: commit as-is, optimize then commit a small set, or host media outside Git (S3). Kat has not chosen; do not commit media until she does.
+- **Decap CMS at `/admin/`.** Template leftover: `.md`-only, no pages collection, edits MDX unsafely, commits to `main`, Git Gateway/Identity not enabled (and deprecated by Netlify). Recommended leaving it disabled; Kat has not decided whether to remove or reconfigure it.

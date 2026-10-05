@@ -1,6 +1,6 @@
 # Rich content authoring with MDX
 
-Planned 2026-10-04. **Steps 1–3 are implemented** (Callout, PullQuote, Gallery, ContentImage, SpotifyEmbed, LinkPreview, and the DM Resources page); see the status sections at the end and [post-authoring.md](post-authoring.md).
+Planned 2026-10-04. **Steps 1–3 are implemented and step 4 is confirmed** (Callout, PullQuote, Gallery, ContentImage, SpotifyEmbed, LinkPreview, and the DM Resources page); see the status sections at the end and [post-authoring.md](post-authoring.md).
 
 ## Decision
 
@@ -66,7 +66,7 @@ Keep blank lines around nested Markdown. Verify MDX slot output and paragraph ma
 1. **Callouts and quotes pilot.** Capture the current rendered 1.8 post as a baseline. Implement `Callout` and `PullQuote`, then convert `1-8-far-from-the-tree-part-2.md` to `.mdx` with the same basename. Preserve its 14 blue callouts, four pull quotes, 62 ordinary quotations, source text/emphasis/line breaks and Spotify embed. Check nested Markdown spacing before broadening the API. Leave plain posts and the two reference/demo posts alone.
 2. **Images and galleries.** Extend `ContentImage` compatibly and add `Gallery`; convert `2025-03-29-session-notes.md` to `.mdx`. Preserve two-image order/caption and two yellow callouts. Exercise multiple rows, mixed aspect ratios, adjacent cards and a standalone image using a temporary verification fixture rather than adding published demo content. Preserve direct image fallback links and existing keyboard/focus behavior. Avoid extra wrappers that break consecutive-card lightbox grouping.
 3. **Embeds and resources.** Wrap the existing Spotify examples in `SpotifyEmbed`, preserving their destinations and appearance. Kat already verified playback; check wrapper parity rather than treating playback as previously unresolved. Inspect DM Resources bookmark metadata in the export, implement `LinkPreview`, and migrate that page as the next content slice. Enable its navigation link only when the route/content is ready. Missing preview metadata must still leave a useful ordinary link. Do not fetch previews during every build or invent metadata.
-4. **Authoring guide and acceptance.** Add `docs/post-authoring.md` with tested, copyable examples, component props/defaults, gallery data examples and MDX pitfalls; cross-link the page guide. Offer the same components for Rules and other pages as they are migrated. Review representative desktop/mobile output with Kat before bulk conversion.
+4. **Authoring guide and acceptance.** *(Confirmed by Kat 2026-10-04.)* Add `docs/post-authoring.md` with tested, copyable examples, component props/defaults, gallery data examples and MDX pitfalls; cross-link the page guide. Offer the same components for Rules and other pages as they are migrated. Review representative desktop/mobile output with Kat before bulk conversion.
 5. **Repeatable migration.** Teach the later Ghost converter to emit Markdown for simple entries and MDX imports/component calls for supported rich cards. Deduplicate imports, safely serialize props/escape MDX syntax, preserve source metadata and content order, and report unsupported cards for review. Keep a dry-run/source mapping and collision checks. Never execute exported scripts or import source account settings. Bulk migration remains a separate reviewed milestone.
 
 ## Verification and acceptance
@@ -80,6 +80,11 @@ Keep blank lines around nested Markdown. Verify MDX slot output and paragraph ma
 
 ## Future enhancements
 
+Guiding principle from Kat: keep authoring as streamlined as possible for the content editor, with components doing the heavy lifting behind the scenes. Ghost's editor did some of this automatically; these items restore it.
+
+- **Automatic gallery rows** (Kat: definitely wanted; highest priority of these). Let `Gallery` accept a flat `images` list and build rows itself using Ghost's rule: three per row, and when one image would be left alone on the last row, move one from the previous row so the last two rows have two each. Dimensions only set widths within a row, which the component already computes. Keep explicit `rows` as an override, and keep existing calls rendering unchanged.
+- **Automatic image dimensions.** Read `width`/`height` from local files at build time for `Gallery` and `ContentImage`, so authors supply only path and alt text. Explicit values stay optional overrides (needed for remote images). Shares image-size reading with the optimization pipeline.
+- **Link preview helper.** An authoring-time command that takes a URL, fetches its title, description, icon and thumbnail metadata, downloads and optimizes the images into `public/assets/images/icon/` and `thumbnail/` (oversized sources such as the 12 MB GIF thumbnail get resized), and prints a ready-to-paste `<LinkPreview … />`. Runs once while writing, never at build time, so a site going offline cannot break a page. Shares download/optimization code with the converter and image pipeline.
 - **Per-image gallery captions** (requested by Kat 2026-10-04, not scheduled). Add an optional `caption` to `Gallery` image records; galleries without it must render unchanged, and the gallery-wide caption stays. Viewer captions are nearly free: pass the value as the link's `data-image-caption`, which `ImageLightbox` already reads (PeopleGrid uses it). Visible captions under each image need a design decision first, because uneven caption lengths break equal-height rows: options are viewer-only, overlaid on the image, or a shared caption band per row. Decide against a real gallery that needs it. No Ghost source gallery uses per-image captions, so the converter does not depend on this.
 
 ## Image optimization connection
@@ -114,4 +119,4 @@ Follow `image-optimization-plan.md`. Components should centralize media URL hand
 
 ## Resume point
 
-Step 4 (authoring guide review and acceptance with Kat) is next; most of the guide already exists in `post-authoring.md`. Then step 5, the repeatable Ghost converter; the DM Resources generator logic is a starting point. Bulk migration remains a separate reviewed milestone.
+Step 4 is confirmed: Kat reviewed `post-authoring.md` and accepted it for v1, noting the tradeoffs versus Ghost's editor (manual gallery rows and preview metadata), which the Future enhancements above address. Next candidates: automatic gallery rows, and step 5, the repeatable Ghost converter; the DM Resources generator logic is a starting point. Bulk migration remains a separate reviewed milestone.
