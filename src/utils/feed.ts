@@ -1,4 +1,7 @@
-import { getEntry } from 'astro:content';
+import { getEntry, render } from 'astro:content';
+import { experimental_AstroContainer as AstroContainer } from 'astro/container';
+import { loadRenderers } from 'astro:container';
+import { getContainerRenderer as getMDXRenderer } from '@astrojs/mdx/container-renderer';
 import { getAssetUrl } from '../config';
 
 interface FeedOptions {
@@ -18,6 +21,16 @@ function escapeXml(value: string): string {
     .replace(/'/g, '&apos;');
 }
 
+let containerPromise: Promise<AstroContainer> | undefined;
+
+// MDX entries have no pre-rendered HTML, so render their components to a string.
+async function renderPostHtml(post: any): Promise<string> {
+  if (post.rendered?.html) return post.rendered.html;
+  containerPromise ??= loadRenderers([getMDXRenderer()]).then(renderers => AstroContainer.create({ renderers }));
+  const { Content } = await render(post);
+  return (await containerPromise).renderToString(Content);
+}
+
 export async function generateAtomFeed(posts: any[], options: FeedOptions): Promise<Response> {
   const { title, description, feedUrl, indexUrl, siteUrl } = options;
   const lastUpdated = posts.length > 0 ? new Date(posts[0].data.date).toISOString() : new Date().toISOString();
@@ -33,7 +46,7 @@ export async function generateAtomFeed(posts: any[], options: FeedOptions): Prom
     const authorName = authorData?.name || (post.data.author?.id || '');
     const authorEmail = (authorData as any)?.email || '';
     const authorUri = typeof authorData?.url_full === 'string' ? authorData.url_full : '';
-    const cleanContent = escapeXml(post.rendered?.html || post.body || '');
+    const cleanContent = escapeXml(await renderPostHtml(post));
 
     let authorXml = `<author><name>${escapeXml(authorName)}</name>`;
     if (authorEmail) authorXml += `<email>${escapeXml(authorEmail)}</email>`;

@@ -5,13 +5,18 @@ interface Props {
     alt: string;
     width: number;
     height: number;
+    size?: 'regular' | 'wide' | 'full';
+    fullSize?: string;
+    caption?: string;
     download?: string;
     downloadLabel?: string;
     openLabel?: string;
 }
-const { image, alt, width, height, download, downloadLabel = 'Download image', openLabel = `Open ${alt} in full size` } = Astro.props;
+const { image, alt, width, height, size = 'regular', fullSize = image, caption, download, downloadLabel = 'Download image', openLabel = alt ? `Open ${alt} in full size` : 'Open image in full size' } = Astro.props;
+// Plain captions use the prop; formatted captions use the component body. A download link follows either.
+const hasCaption = !!caption || Astro.slots.has('default');
 ---
-<figure class:list={['kg-card', 'kg-image-card', { 'kg-card-hascaption': !!download }]}>
-    <a href={getAssetUrl(image)} aria-label={openLabel}><img src={getAssetUrl(image)} width={width} height={height} alt={alt} loading="lazy" /></a>
-    {download && <figcaption><a href={getAssetUrl(download)} download>{downloadLabel}</a></figcaption>}
+<figure class:list={['kg-card', 'kg-image-card', { [`kg-width-${size}`]: size !== 'regular', 'kg-card-hascaption': hasCaption || !!download }]}>
+    <a href={getAssetUrl(fullSize)} aria-label={openLabel}><img src={getAssetUrl(image)} width={width} height={height} alt={alt} loading="lazy" /></a>
+    {(hasCaption || download) && <figcaption>{caption}<slot />{hasCaption && download && ' '}{download && <a href={getAssetUrl(download)} download>{downloadLabel}</a>}</figcaption>}
 </figure>

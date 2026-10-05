@@ -1,0 +1,251 @@
+{
+  "note": "DM Resources page media copied unchanged from the Ghost media backup at original paths (cover, Patreon card gallery, bookmark icons/thumbnails). Local/untracked like other bulk media; optimization pending.",
+  "assets": [
+    {
+      "publicUrl": "/assets/images/2025/02/F52E1EB6-D107-4A47-B9B9-2456700F13A2-1.png",
+      "source": "ghost-media-backup-2026-10-03/images/2025/02/F52E1EB6-D107-4A47-B9B9-2456700F13A2-1.png",
+      "bytes": 3627738,
+      "sha256": "1710facd7eb01d299d3c54594ba8535b337d85db60c0d9cb15ac3389dea37470"
+    },
+    {
+      "publicUrl": "/assets/images/2025/04/5emagic-membership-card-patreon.png",
+      "source": "ghost-media-backup-2026-10-03/images/2025/04/5emagic-membership-card-patreon.png",
+      "bytes": 1345331,
+      "sha256": "f94267549b6524a47adaf8a442ecfc693ad010b9c6bc63d1e09f4a89f9146ff1"
+    },
+    {
+      "publicUrl": "/assets/images/2025/04/boroughbound-membership-card-patreon.png",
+      "source": "ghost-media-backup-2026-10-03/images/2025/04/boroughbound-membership-card-patreon.png",
+      "bytes": 898556,
+      "sha256": "6b9229d85d142270fd01d6af730879116b976f55f98869d2e13f131853e3ac3f"
+    },
+    {
+      "publicUrl": "/assets/images/2025/04/czepeku-membership-card-patreon.png",
+      "source": "ghost-media-backup-2026-10-03/images/2025/04/czepeku-membership-card-patreon.png",
+      "bytes": 4322055,
+      "sha256": "0473d4bef0ca77a07be360a2d33c806236614970e6e954f4c13e04115f0ec82c"
+    },
+    {
+      "publicUrl": "/assets/images/2025/04/czepekuscenes-membership-card-patreon.png",
+      "source": "ghost-media-backup-2026-10-03/images/2025/04/czepekuscenes-membership-card-patreon.png",
+      "bytes": 3393409,
+      "sha256": "eccca9522e4f7b32d7d1305ee9252e31f785d30c4b99f06729cdcee939a65049"
+    },
+    {
+      "publicUrl": "/assets/images/2025/04/hitpointpress-membership-card-patreon.png",
+      "source": "ghost-media-backup-2026-10-03/images/2025/04/hitpointpress-membership-card-patreon.png",
+      "bytes": 2580196,
+      "sha256": "d5e69efb631be0756651456818f8ebda6d221b539dfe6a81e8e84ceeb6117896"
+    },
+    {
+      "publicUrl": "/assets/images/2025/04/jamesrpgart-membership-card-patreon.png",
+      "source": "ghost-media-backup-2026-10-03/images/2025/04/jamesrpgart-membership-card-patreon.png",
+      "bytes": 1653689,
+      "sha256": "b84be7a78cba2a720cc2de232a2f39d196c36cdf90507a144a6b5ad9893f1cbd"
+    },
+    {
+      "publicUrl": "/assets/images/2025/04/kibblestasty-membership-card-patreon.png",
+      "source": "ghost-media-backup-2026-10-03/images/2025/04/kibblestasty-membership-card-patreon.png",
+      "bytes": 2985731,
+      "sha256": "964a34aa9082b405c8826315eeddbfabc24a0973f6a3ce9161325523bbfdc422"
+    },
+    {
+      "publicUrl": "/assets/images/2025/04/thegriffonssaddlebag-membership-card-patreon.png",
+      "source": "ghost-media-backup-2026-10-03/images/2025/04/thegriffonssaddlebag-membership-card-patreon.png",
+      "bytes": 4337626,
+      "sha256": "b227b833150a416e146a5d904cdbf34f1e1bfac1ebac98abba36823e49211875"
+    },
+    {
+      "publicUrl": "/assets/images/2025/04/tomcartos-membership-card-patreon.png",
+      "source": "ghost-media-backup-2026-10-03/images/2025/04/tomcartos-membership-card-patreon.png",
+      "bytes": 3539329,
+      "sha256": "4e6f9a625e77a6894a11deb8b8229990cadebad0ca3f36bbabd2df405ce1144a"
+    },
+    {
+      "publicUrl": "/assets/images/icon/apple-touch-icon-114x114.png",
+      "source": "ghost-media-backup-2026-10-03/images/icon/apple-touch-icon-114x114.png",
+      "bytes": 2635,
+      "sha256": "109e495f65fb5d1660539b07facd7ba9b3d49786d49ad7d95bd7b0165ac66e73"
+    },
+    {
+      "publicUrl": "/assets/images/icon/apple-touch-icon.png",
+      "source": "ghost-media-backup-2026-10-03/images/icon/apple-touch-icon.png",
+      "bytes": 5554,
+      "sha256": "c0ff6fefd27fdc038404672b99b55cdce02ce7c590eb10cccf405917686bd3b5"
+    },
+    {
+      "publicUrl": "/assets/images/icon/cropped-jrpglogo.001-270x270.jpg",
+      "source": "ghost-media-backup-2026-10-03/images/icon/cropped-jrpglogo.001-270x270.jpg",
+      "bytes": 10774,
+      "sha256": "34d6ebbb3582f343887c9bfca4af795f4ba3d4a51d43675adc9e9584fb877125"
+    },
+    {
+      "publicUrl": "/assets/images/icon/favicon-1.ico",
+      "source": "ghost-media-backup-2026-10-03/images/icon/favicon-1.ico",
+      "bytes": 49036,
+      "sha256": "6fa2c125251c6118b0c374e0d8849518960496bb1a6f096b8e31fc8628193ac6"
+    },
+    {
+      "publicUrl": "/assets/images/icon/favicon-10.ico",
+      "source": "ghost-media-backup-2026-10-03/images/icon/favicon-10.ico",
+      "bytes": 10787,
+      "sha256": "d5780b98a931be8b95742a020752b75ee186f5c2fa557095d4c7f32ba904f5b8"
+    },
+    {
+      "publicUrl": "/assets/images/icon/favicon-152-1.png",
+      "source": "ghost-media-backup-2026-10-03/images/icon/favicon-152-1.png",
+      "bytes": 10727,
+      "sha256": "b1cfc0f053324a7ee417d91da8081262e11b675d1aa46e5be7ef6815336aa1d0"
+    },
+    {
+      "publicUrl": "/assets/images/icon/favicon-180.png",
+      "source": "ghost-media-backup-2026-10-03/images/icon/favicon-180.png",
+      "bytes": 4267,
+      "sha256": "a917ecff5b6976cc9794a8a9d05b596de057008b3bd020efec19fae5282277bc"
+    },
+    {
+      "publicUrl": "/assets/images/icon/favicon-2.ico",
+      "source": "ghost-media-backup-2026-10-03/images/icon/favicon-2.ico",
+      "bytes": 22222,
+      "sha256": "4749cdfede0deb496bea2e1965090d08f9a50a253a0fba449ece77b2d70e9d6c"
+    },
+    {
+      "publicUrl": "/assets/images/icon/favicon-3.ico",
+      "source": "ghost-media-backup-2026-10-03/images/icon/favicon-3.ico",
+      "bytes": 17368,
+      "sha256": "67f665786375f523417e6bf5e803e63e4b136a80f2da6b1e2b0dbb9e02c118cd"
+    },
+    {
+      "publicUrl": "/assets/images/icon/favicon-4.ico",
+      "source": "ghost-media-backup-2026-10-03/images/icon/favicon-4.ico",
+      "bytes": 1406,
+      "sha256": "e7c01b49d7fa1df5c47eb8475b373c103be2f878c412093401b7406688e82a07"
+    },
+    {
+      "publicUrl": "/assets/images/icon/favicon-5.ico",
+      "source": "ghost-media-backup-2026-10-03/images/icon/favicon-5.ico",
+      "bytes": 15406,
+      "sha256": "190c68df3f8a5f81c728912b1632ab2c2085563cf39011e007c7f9c4197fb8fb"
+    },
+    {
+      "publicUrl": "/assets/images/icon/favicon-8.ico",
+      "source": "ghost-media-backup-2026-10-03/images/icon/favicon-8.ico",
+      "bytes": 21277,
+      "sha256": "6bffcb958eb66f4a1b756e4a4b3197af5ceca023a67126cccfda19ebbd1da814"
+    },
+    {
+      "publicUrl": "/assets/images/icon/favicon-9.ico",
+      "source": "ghost-media-backup-2026-10-03/images/icon/favicon-9.ico",
+      "bytes": 1406,
+      "sha256": "e7c01b49d7fa1df5c47eb8475b373c103be2f878c412093401b7406688e82a07"
+    },
+    {
+      "publicUrl": "/assets/images/icon/favicon.ico",
+      "source": "ghost-media-backup-2026-10-03/images/icon/favicon.ico",
+      "bytes": 49036,
+      "sha256": "6fa2c125251c6118b0c374e0d8849518960496bb1a6f096b8e31fc8628193ac6"
+    },
+    {
+      "publicUrl": "/assets/images/icon/favicon_copy.webp",
+      "source": "ghost-media-backup-2026-10-03/images/icon/favicon_copy.webp",
+      "bytes": 912,
+      "sha256": "b6ba8e6467c21ec300faa9265f592f33d67e9e65ac8d33352eb243671a17553a"
+    },
+    {
+      "publicUrl": "/assets/images/icon/pwa-192.png",
+      "source": "ghost-media-backup-2026-10-03/images/icon/pwa-192.png",
+      "bytes": 2079,
+      "sha256": "8e255641e70f4e6fc9d0d873f506e08ce8f80dd4d15802ebe0f5b931d30e4428"
+    },
+    {
+      "publicUrl": "/assets/images/thumbnail/-23collection-promo-card-2C.png",
+      "source": "ghost-media-backup-2026-10-03/images/thumbnail/-23collection-promo-card-2C.png",
+      "bytes": 432846,
+      "sha256": "bd7790cb680a4671f0e45f33285bf8a0aa2601f66e6781ec1329bed2b9dd0748"
+    },
+    {
+      "publicUrl": "/assets/images/thumbnail/AvraeSquare.jpg",
+      "source": "ghost-media-backup-2026-10-03/images/thumbnail/AvraeSquare.jpg",
+      "bytes": 221354,
+      "sha256": "ef0d853c9e2735bd5151396abb98d96d85262f9f854db9fb554e890c25283e9a"
+    },
+    {
+      "publicUrl": "/assets/images/thumbnail/C-BigBads.png",
+      "source": "ghost-media-backup-2026-10-03/images/thumbnail/C-BigBads.png",
+      "bytes": 7039049,
+      "sha256": "4276cdeb7f0b2962e4300d25d384ad217ae7bba90a0e11b9d9c12225533095ac"
+    },
+    {
+      "publicUrl": "/assets/images/thumbnail/TC_Banner-Wide.jpg",
+      "source": "ghost-media-backup-2026-10-03/images/thumbnail/TC_Banner-Wide.jpg",
+      "bytes": 398063,
+      "sha256": "b4f00bee6b157856d79607d872d747b293b8f18ce4cbf81b41f126cd60e14b7a"
+    },
+    {
+      "publicUrl": "/assets/images/thumbnail/Website.png",
+      "source": "ghost-media-backup-2026-10-03/images/thumbnail/Website.png",
+      "bytes": 18180,
+      "sha256": "4d37f0a53455c130c4c9403361fbb493e29b0e9dca6cd154585c7702b8424589"
+    },
+    {
+      "publicUrl": "/assets/images/thumbnail/basic.jpg",
+      "source": "ghost-media-backup-2026-10-03/images/thumbnail/basic.jpg",
+      "bytes": 693814,
+      "sha256": "7e68860db228b2fc5646ce543ed2e1d0f2d2d81b7558470b4fa06396c6223ae3"
+    },
+    {
+      "publicUrl": "/assets/images/thumbnail/emblem-transparent-no-shadow.png",
+      "source": "ghost-media-backup-2026-10-03/images/thumbnail/emblem-transparent-no-shadow.png",
+      "bytes": 2106095,
+      "sha256": "9d9ffe07f11fa44c1834f46b380efb3d4cd74955b130a2e2f07508e9e4cec924"
+    },
+    {
+      "publicUrl": "/assets/images/thumbnail/hamlet-map-thumb.png",
+      "source": "ghost-media-backup-2026-10-03/images/thumbnail/hamlet-map-thumb.png",
+      "bytes": 17500,
+      "sha256": "10f9046f5c6f9891b1f8764a8cfb6d05a60e6467fbd886f2f04bd99ae2bcc28c"
+    },
+    {
+      "publicUrl": "/assets/images/thumbnail/jrpgart-logo.gif",
+      "source": "ghost-media-backup-2026-10-03/images/thumbnail/jrpgart-logo.gif",
+      "bytes": 12307464,
+      "sha256": "4e0d587593b4f51a5b9061023b31d569a84b786810aed78c2c88790b07969247"
+    },
+    {
+      "publicUrl": "/assets/images/thumbnail/og.png",
+      "source": "ghost-media-backup-2026-10-03/images/thumbnail/og.png",
+      "bytes": 216493,
+      "sha256": "5d7807782c57bc40d4a10c59b6b292077d24cd1c700c6458a659f38ca2a7e788"
+    },
+    {
+      "publicUrl": "/assets/images/thumbnail/opengraph-image-1u4ouu.jpg",
+      "source": "ghost-media-backup-2026-10-03/images/thumbnail/opengraph-image-1u4ouu.jpg",
+      "bytes": 623321,
+      "sha256": "2c46076a2cd05728d579536a5fe7e351d288b8486a1137b75e1fe569c78011bc"
+    },
+    {
+      "publicUrl": "/assets/images/thumbnail/opengraph-image.png",
+      "source": "ghost-media-backup-2026-10-03/images/thumbnail/opengraph-image.png",
+      "bytes": 1344631,
+      "sha256": "f4a46f6ea14099ba5b9b026c311599f3897a8b4cc3c768ecb5e02e9b6049e91d"
+    },
+    {
+      "publicUrl": "/assets/images/thumbnail/popular-name-generator-tiefling.png",
+      "source": "ghost-media-backup-2026-10-03/images/thumbnail/popular-name-generator-tiefling.png",
+      "bytes": 5396,
+      "sha256": "7f1a923110416a1b01975ad99ab919217f64a57695194d3dd17f8727a2fe8097"
+    },
+    {
+      "publicUrl": "/assets/images/thumbnail/share-square-shops.jpg",
+      "source": "ghost-media-backup-2026-10-03/images/thumbnail/share-square-shops.jpg",
+      "bytes": 50401,
+      "sha256": "11c28a44336d15e9acf18f867a324d037384eb5340e6a4a7fdbe36a23a2000de"
+    },
+    {
+      "publicUrl": "/assets/images/thumbnail/swinging-ball-trap.jpg",
+      "source": "ghost-media-backup-2026-10-03/images/thumbnail/swinging-ball-trap.jpg",
+      "bytes": 9730,
+      "sha256": "d781aa1a0d3e23b121fba8e80358353525d15e1ee8b34baeab56e64850598569"
+    }
+  ]
+}

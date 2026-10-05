@@ -141,6 +141,7 @@ html.dark-mode .leota .site-footer { background: var(--color-darkmode); padding-
 .leota-content blockquote p + p { margin-top: 1em; }
 .leota-content :is(img,video) { display: block; max-width: 100%; height: auto; margin-inline: auto; }
 .leota-content iframe { display: block; max-width: 100%; border: 0; }
+.leota-content iframe[src*="open.spotify.com/embed"] { border-radius: 12px; overflow: hidden; }
 .leota-content pre { max-width: 100%; overflow-x: auto; padding: 20px; font-size: 1.4rem; background: #0d0f12; border-radius: 5px; }
 .leota-content :not(pre) > code { padding: .15em .4em; font-size: .9em; background: #000; border-radius: .25em; }
 .leota-content table { display: block; max-width: 100%; overflow-x: auto; }
@@ -278,6 +279,8 @@ html.dark-mode .leota .post-card-excerpt {
 .leota-content .kg-callout-card + .kg-callout-card { margin-top: 1em; }
 .leota-content .kg-callout-emoji { flex: 0 0 auto; font-size: 2.1rem; line-height: 1.4; }
 .leota-content .kg-callout-text { min-width: 0; font-family: Georgia, serif; font-size: 1.9rem; line-height: 1.6; }
+.leota-content .kg-callout-text > :where(p,ul,ol) { margin: 0; }
+.leota-content .kg-callout-text > :is(p,ul,ol) + :is(p,ul,ol) { margin-top: 1em; }
 .leota-content blockquote.kg-blockquote-alt { padding: 0 2.5em; font-family: Georgia, serif; font-size: 1.5em; font-style: italic; line-height: 1.7; text-align: center; color: var(--color-secondary-text); }
 .leota-content blockquote.kg-blockquote-alt::before { display: none; }
 .leota-content :is(.kg-gallery-card,.kg-image-card) { --gallery-gap: 1.2rem; }
@@ -290,6 +293,19 @@ html.dark-mode .leota .post-card-excerpt {
 .leota-content .kg-gallery-image img { width: 100%; height: 100%; object-fit: contain; }
 .leota-content figcaption { padding: 1.5rem 1.5rem 0; font-size: 1.3rem; line-height: 1.4; color: rgba(255,255,255,.6); }
 .leota-content figcaption p { margin: 0; }
+.leota-content .kg-embed-card { display: flex; flex-direction: column; align-items: center; width: 100%; }
+.leota-content .kg-bookmark-card a.kg-bookmark-container { display: flex; overflow: hidden; color: #fff; text-decoration: none; background: var(--color-darkmode); border: 1px solid rgb(124 139 154 / 25%); border-radius: 6px; }
+.leota-content .kg-bookmark-content { display: flex; flex: 1 1 100%; flex-direction: column; align-items: flex-start; min-width: 0; padding: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif; }
+.leota-content .kg-bookmark-title { font-size: 15px; font-weight: 600; line-height: 1.4em; }
+.leota-content .kg-bookmark-description { display: -webkit-box; max-height: 44px; margin-top: 3px; overflow: hidden; font-size: 14px; line-height: 1.5em; opacity: .7; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+.leota-content .kg-bookmark-metadata { display: flex; align-items: center; width: 100%; margin-top: 22px; font-size: 14px; font-weight: 500; white-space: nowrap; }
+.leota-content .kg-bookmark-metadata > :not(img) { opacity: .7; }
+.leota-content .kg-bookmark-icon { flex: 0 0 auto; width: 20px; height: 20px; margin: 0 6px 0 0; }
+.leota-content .kg-bookmark-metadata > span:last-of-type { overflow: hidden; text-overflow: ellipsis; }
+.leota-content .kg-bookmark-metadata > span:nth-of-type(2) { font-weight: 400; }
+.leota-content .kg-bookmark-metadata > span:nth-of-type(2)::before { content: '•'; margin: 0 6px; }
+.leota-content .kg-bookmark-thumbnail { position: relative; flex-grow: 1; min-width: 33%; }
+.leota-content .kg-bookmark-thumbnail img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; border-radius: 0 2px 2px 0; }
 .image-lightbox { position: fixed; inset: 0; width: 100%; max-width: none; height: 100%; max-height: none; margin: 0; padding: 20px; border: 0; color: #fff; background: transparent; }
 .image-lightbox::backdrop { background: rgba(0,0,0,.94); }
 .image-lightbox[open] { display: flex; flex-direction: column; }
@@ -310,6 +326,8 @@ html.dark-mode .leota .post-card-excerpt {
     .leota-content blockquote.kg-blockquote-alt { font-size: 1.2em; padding-inline: 1.75em; }
     .leota-content .kg-callout-card { padding: 20px; }
     .leota-content .kg-callout-text { font-size: 1.8rem; }
+    .leota-content .kg-bookmark-card a.kg-bookmark-container { flex-direction: column-reverse; }
+    .leota-content .kg-bookmark-thumbnail { min-height: 160px; }
     .leota-content :is(.kg-gallery-card,.kg-image-card) { --gallery-gap: .6rem; }
     .image-lightbox { padding: 12px; }
     .lightbox-stage { flex-wrap: wrap; align-content: center; gap: 12px; }

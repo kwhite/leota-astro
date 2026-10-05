@@ -29,7 +29,7 @@ export const PRIMARY_NAVIGATION = [
   { label: 'About', href: '/about/', available: true },
 ];
 export const SECONDARY_NAVIGATION = [
-  { label: 'DM Resources', href: '/dm-resources/', available: false },
+  { label: 'DM Resources', href: '/dm-resources/', available: true },
   { label: 'RPG Consent Checklist', href: '/rpg-consent-checklist/', available: false },
 ];
 

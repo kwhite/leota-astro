@@ -1,6 +1,6 @@
 # Rich content authoring with MDX
 
-Planned 2026-10-04. Kat requested planning/documentation only for this session; implementation is the next proposed milestone. These components do not exist yet unless explicitly identified below as existing.
+Planned 2026-10-04. **Steps 1–3 are implemented** (Callout, PullQuote, Gallery, ContentImage, SpotifyEmbed, LinkPreview, and the DM Resources page); see the status sections at the end and [post-authoring.md](post-authoring.md).
 
 ## Decision
 
@@ -78,10 +78,40 @@ Keep blank lines around nested Markdown. Verify MDX slot output and paragraph ma
 - Confirm image dimensions/alt text and missing-preview fallbacks. Rich blocks render statically except existing lightbox behavior and third-party Spotify content.
 - Run targeted checks and `pnpm build`; do not add a broad test framework solely for presentational wrappers.
 
+## Future enhancements
+
+- **Per-image gallery captions** (requested by Kat 2026-10-04, not scheduled). Add an optional `caption` to `Gallery` image records; galleries without it must render unchanged, and the gallery-wide caption stays. Viewer captions are nearly free: pass the value as the link's `data-image-caption`, which `ImageLightbox` already reads (PeopleGrid uses it). Visible captions under each image need a design decision first, because uneven caption lengths break equal-height rows: options are viewer-only, overlaid on the image, or a shared caption band per row. Decide against a real gallery that needs it. No Ghost source gallery uses per-image captions, so the converter does not depend on this.
+
 ## Image optimization connection
 
 Follow `image-optimization-plan.md`. Components should centralize media URL handling through existing asset helpers and support eventual optimized display/full-size destinations. Authors should not manually maintain PNG/WebP pairs, responsive variants or manifests. Later migration tooling rewrites component props as well as Markdown, frontmatter and remaining HTML references. Lightbox/download targets must resolve to optimized large images when source PNGs are excluded from deployment; update “Open original” wording at that stage. Preserve archival originals outside the deployed tree. This milestone does not convert/delete media or deploy anything.
 
+## Step 1 status (2026-10-04)
+
+- `Callout` (`color`: blue/yellow, required; optional decorative `emoji`, `aria-hidden`) and `PullQuote` (body only; no attribution prop because no source quote has one) are in `src/components/`. Both output the existing Ghost card classes, so no visual redesign. Added CSS for paragraphs/lists nested inside callout text.
+- `1-8-far-from-the-tree-part-2` is now `.mdx`: 14 callouts and 4 pull quotes as components; 62 ordinary quotes, image and Spotify iframe unchanged apart from JSX syntax (self-closed `<img />`, bare `allowfullscreen`). The final follow-up callout uses Markdown paragraphs instead of `<br><br>`.
+- Verified against a pre-conversion build: same block counts, heading IDs, link/image URLs, page `<head>`, homepage. The only text differences are smart punctuation now applied inside callouts/quotes (curly quotes, `…`, `–`), matching the rest of the post. Desktop and 390px reviewed with no overflow.
+- Feed fix: MDX entries have no `rendered.html`, so `src/utils/feed.ts` fell back to the raw MDX source. It now renders MDX bodies through Astro's container API with the MDX container renderer. All 24 feeds parse and contain rendered callouts. Side effect: Vite prints a harmless `MODULE_LEVEL_DIRECTIVE` warning per `.mdx` entry; all HTML pages are byte-identical with and without the change.
+- "GalleryWren:"/"GalleryJohn:" prefixes are in the Ghost export and were preserved.
+
+## Step 2 status (2026-10-04)
+
+- Checked the contract against all published export content first: 10 galleries (all wide, all captioned with plain text, 1–3 rows of 2–3 images, 3 with mixed aspect ratios, no image links) and 151 single images (all regular width, 72 captioned, 5 captions with links/italics). Ghost's export has no flex values; the theme computed them at runtime.
+- Contract changes from the draft above: captions are a plain `caption` prop or the component body (for links/italics) rather than a prop only; the per-image caption field was dropped because no source content uses one. `Gallery` defaults to `size="wide"`. Flex is width ÷ height, computed at build time. A flat `rows` list or a non-positive dimension fails the build with a clear message.
+- `ContentImage` gained `caption`, body caption, `size` and `fullSize`; existing calls are unchanged (Neighborhoods page byte-identical).
+- `2025-03-29-session-notes` is now `.mdx` with `Gallery` and two yellow `Callout`s. Its gallery HTML is identical to the hand-written version; the only page difference is `aria-hidden` on callout emoji. Text, URLs and heading IDs match; feeds render it.
+- A temporary fixture (removed) exercised three mixed-ratio rows, adjacent image/gallery cards, uncaptioned cards, wide single images, linked/italic captions and `fullSize`. Equal row heights at 1280px and 390px, no overflow; viewer sequences of 8 and 4 grouped correctly, wrap-around, caption/alt fallbacks, keyboard open, arrows, Escape and focus return all worked.
+- MDX pitfall found: a line starting with `>` inside a multi-line tag is parsed as a Markdown quote. Documented in post-authoring.md.
+
+## Step 3 status (2026-10-04)
+
+- Export survey: all 37 Spotify embeds (18 posts) are tracks at height 152 inside `<figure class="kg-card kg-embed-card">`, some with album/playlist `context` query parameters, none captioned. Bookmark cards appear on DM Resources (16) and also on the unmigrated `fgc-characters` page (6), which earlier notes did not mention. No other iframe providers.
+- `SpotifyEmbed` (`url`, `title`, optional `height`) accepts share or embed links, keeps the query string and restores Ghost's embed `<figure>` that the 1.8 hand import had dropped. The 1.8 iframe attributes are otherwise identical. Kat's Spotify `border-radius` rule (from her visual QA) was committed with step 3 at her request.
+- `LinkPreview` reproduces Ghost's bookmark markup and core bookmark CSS with Leota's dark-mode colors; on narrow screens the thumbnail stacks above the text. Only `url` is required; a missing title falls back to the host name. No fetching at build time.
+- DM Resources migrated to `src/content/pages/dm-resources.mdx` with a route and enabled secondary-navigation link. Generated from the export (intro, nine-card Patreon gallery, 16 previews, Bookish Artists paragraph). Rendered text matches the export after punctuation normalization; all 19 external links and seven heading IDs match (one pinned with an HTML heading because Astro's slug for "&" differs). 41 media files copied unchanged from the backup into `public/assets/images/` (cover, `2025/04` cards, `icon/`, `thumbnail/`; 54 MB, untracked) and listed in `dm-resources-media-sources.json`.
+- Source empty alt text on the Patreon cards was replaced with "<creator> Patreon card" names derived from filenames and bookmark titles.
+- Verified desktop and 390px with no overflow or broken images. Feeds are unaffected (pages are not in feeds).
+
 ## Resume point
 
-Start with step 1 after Kat resumes implementation. No new dependencies appear necessary: the MDX integration and both loaders are already configured. The current request ends with this plan and docs; no application code, content conversion, commit, push or deployment is included in this planning session.
+Step 4 (authoring guide review and acceptance with Kat) is next; most of the guide already exists in `post-authoring.md`. Then step 5, the repeatable Ghost converter; the DM Resources generator logic is a starting point. Bulk migration remains a separate reviewed milestone.

@@ -9,6 +9,7 @@ Page content lives in `src/content/pages/`. Use **Markdown (`.md`) for simple pa
 | `people-in-the-city.mdx` | People data in frontmatter and a movable directory component |
 | `com-system-modifications.md` | Rules prose, tables and callouts |
 | `about.md` | About title, cover and prose |
+| `dm-resources.mdx` | Intro, Patreon card gallery and link previews grouped under headings |
 
 ## Compose a page in the body
 
@@ -41,12 +42,12 @@ The example metadata is illustrative; use real existing media for a new page. No
 
 ## Available components
 
-For the planned shared callout, pull quote, gallery, Spotify and link-preview components, see [rich-content-authoring-plan.md](rich-content-authoring-plan.md). They will work in both pages and posts; they are not implemented yet. The components below are available now.
+**Callout**, **PullQuote**, **Gallery**, **ContentImage**, **SpotifyEmbed** and **LinkPreview** are shared with posts; see [post-authoring.md](post-authoring.md) for their props and examples. The page components below are also available now.
 
 - **ContentBanner**: `title`, `image`, optional heading `id`, `description`, `href`/`label`, `width` (`regular`, `wide`, `full`) and `align` (`left`, `center`). Content lives directly on the call. Preserve existing IDs when moving banners so deep links keep working.
 - **ChapterTable**: `<ChapterTable chapters={frontmatter.chapters} />`. The chapter array stays in YAML to make a long list easy to maintain; the call chooses its location. Optional `chapterLabel` and `titleLabel` change column headings. Each entry has `chapter` (a quoted string), `title`, and `href` (or `null` for intentionally unlinked titles). Links activate only when corresponding posts exist.
 - **PeopleGrid**: `<PeopleGrid people={frontmatter.people} label="People in The City" />`. Source order is display order. Each person has `name`, `image`, dimensions, optional/null `mythos`, `neighborhood`, `sheet`, and `mythosStruck`. The grid includes its styles/fonts and the existing portrait-lightbox hooks.
-- **ContentImage**: image URL, alt text, numeric width/height; optional `download`, `downloadLabel`, and `openLabel`. Supplies a zoomable image and optional download caption. Used for the city map.
+- **ContentImage**: image URL, alt text, numeric width/height; optional `caption`, `size`, `fullSize`, `download`, `downloadLabel`, and `openLabel` (full reference in [post-authoring.md](post-authoring.md)). Supplies a zoomable image and optional caption/download link. Used for the city map.
 
 Structured datasets can stay in frontmatter without controlling placement. The collection validates the existing `chapters` and `people` arrays; small card/map values are props at their position in the body. Components' prop interfaces document those values, while visual/content checks remain necessary.
 

@@ -1,0 +1,8 @@
+---
+interface Props {
+    color: 'blue' | 'yellow';
+    emoji?: string;
+}
+const { color, emoji } = Astro.props;
+---
+<aside class:list={['kg-card', 'kg-callout-card', `kg-callout-card-${color}`]}>{emoji && <div class="kg-callout-emoji" aria-hidden="true">{emoji}</div>}<div class="kg-callout-text"><slot /></div></aside>
