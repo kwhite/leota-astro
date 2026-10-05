@@ -41,7 +41,7 @@ The example metadata is illustrative; use real existing media for a new page. No
 
 ## Available components
 
-For the planned shared callout, pull quote, gallery, Spotify and link-preview components, see [rich-content-authoring-plan.md](rich-content-authoring-plan.md). They will work in both pages and posts; they are not implemented yet. The components below are available now.
+**Callout** and **PullQuote** are shared with posts; see [post-authoring.md](post-authoring.md) for their props and examples. Gallery, Spotify and link-preview components are still planned in [rich-content-authoring-plan.md](rich-content-authoring-plan.md). The page components below are also available now.
 
 - **ContentBanner**: `title`, `image`, optional heading `id`, `description`, `href`/`label`, `width` (`regular`, `wide`, `full`) and `align` (`left`, `center`). Content lives directly on the call. Preserve existing IDs when moving banners so deep links keep working.
 - **ChapterTable**: `<ChapterTable chapters={frontmatter.chapters} />`. The chapter array stays in YAML to make a long list easy to maintain; the call chooses its location. Optional `chapterLabel` and `titleLabel` change column headings. Each entry has `chapter` (a quoted string), `title`, and `href` (or `null` for intentionally unlinked titles). Links activate only when corresponding posts exist.

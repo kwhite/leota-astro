@@ -1,6 +1,6 @@
 # Here Be Dragons / Leota Astro — thread handoff
 
-Last updated: 2026-10-04, after the MDX pages checkpoint and rich-post authoring plan. This document records project context and user decisions; it is not a new authorization to deploy, send email, or migrate the full archive. Read the user's latest request before continuing.
+Last updated: 2026-10-04, after rich-post components step 1 (Callout/PullQuote). This document records project context and user decisions; it is not a new authorization to deploy, send email, or migrate the full archive. Read the user's latest request before continuing.
 
 ## Goal and current position
 
@@ -52,7 +52,7 @@ Keep Astro, its collections, route patterns, client router, package manager, and
 
 - Node 24.13.1, pnpm 12.9.1, Astro 7.3.5 at last verification.
 - Scripts: `pnpm dev`, `pnpm build`, `pnpm preview`. No dedicated test suite.
-- `src/content.config.ts` defines posts (Markdown/mdx glob), JSON authors, and JSON tags. MDX integration is not configured. Author is a collection reference. Posts use title/date/author, optional description/cover, ordered tags, and existing optional layout/navigation/disqus fields.
+- `src/content.config.ts` defines posts and pages (Markdown/MDX globs), JSON authors, and JSON tags. The official MDX integration is configured (see the MDX composition section). Author is a collection reference. Posts use title/date/author, optional description/cover, ordered tags, and existing optional layout/navigation/disqus fields.
 - Ordinary content remains `.md`; small deliberate HTML blocks preserve Ghost card semantics. Do not convert all images/prose to framework components.
 - Media convention: `public/assets/images/YYYY/MM/file` → `/assets/images/YYYY/MM/file`. Preserve filenames and hierarchy.
 - Roughly 3.8GB of media is unsuitable for ordinary Git. Bulk-media ignore/storage/sync decisions remain unresolved; dated media is currently untracked and not broadly ignored. Do not mass-stage it, introduce LFS, or delete it without a scoped plan.
@@ -190,3 +190,9 @@ Kat identified that the initial pages-collection refactor still fixed frontmatte
 Tables, banners, map and People grid are called directly in MDX bodies through `ChapterTable`, `ContentBanner`, `ContentImage` and `PeopleGrid`. Chapter/People datasets remain validated frontmatter arrays but no longer determine placement. Banners and map props sit directly in the body. District descriptions are ordinary Markdown next to their banners. Simplified the pages schema by removing the fixed story/cards/map/districts fields. Route templates only load content, shared layout and campaign navigation. See `page-authoring.md` for examples and MDX syntax guidance. This supersedes the earlier fixed-frontmatter-section design; neither authoring refactor has been committed yet.
 
 MDX build: 35 pages, no warnings; all five pages preserve rendered text (allowing smart punctuation normalization), links, image URLs and heading IDs relative to the pre-refactor output. The dev server needed restart to clear stale entries after file-extension changes. No media conversion, deletion or deployment was performed.
+
+## Latest milestone: rich-post components step 1
+
+Kat approved slice 1 only, committed at the end. Added `Callout` and `PullQuote`, converted the 1.8 post to `.mdx`, fixed feeds to render MDX bodies, and added `post-authoring.md`. Details and verification are in the step 1 status section of `rich-content-authoring-plan.md`. Build: 35 pages; the only warnings are the harmless `MODULE_LEVEL_DIRECTIVE` notices described there. Next: step 2 (galleries/images) after Kat reviews.
+
+The uncommitted Spotify `border-radius` rule in `leota.css` is Kat's own visual-QA change and was deliberately left out of the step 1 commit. The `js-yaml` bump in `package.json`/`pnpm-lock.yaml` also remains uncommitted. Local preview launch config lives in `.claude/launch.json` (`leota-dev`, uncommitted).

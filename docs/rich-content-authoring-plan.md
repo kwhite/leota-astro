@@ -1,6 +1,6 @@
 # Rich content authoring with MDX
 
-Planned 2026-10-04. Kat requested planning/documentation only for this session; implementation is the next proposed milestone. These components do not exist yet unless explicitly identified below as existing.
+Planned 2026-10-04. **Step 1 (Callout and PullQuote) is implemented**; see the status section at the end and [post-authoring.md](post-authoring.md). Galleries, Spotify and link previews do not exist yet.
 
 ## Decision
 
@@ -82,6 +82,14 @@ Keep blank lines around nested Markdown. Verify MDX slot output and paragraph ma
 
 Follow `image-optimization-plan.md`. Components should centralize media URL handling through existing asset helpers and support eventual optimized display/full-size destinations. Authors should not manually maintain PNG/WebP pairs, responsive variants or manifests. Later migration tooling rewrites component props as well as Markdown, frontmatter and remaining HTML references. Lightbox/download targets must resolve to optimized large images when source PNGs are excluded from deployment; update “Open original” wording at that stage. Preserve archival originals outside the deployed tree. This milestone does not convert/delete media or deploy anything.
 
+## Step 1 status (2026-10-04)
+
+- `Callout` (`color`: blue/yellow, required; optional decorative `emoji`, `aria-hidden`) and `PullQuote` (body only; no attribution prop because no source quote has one) are in `src/components/`. Both output the existing Ghost card classes, so no visual redesign. Added CSS for paragraphs/lists nested inside callout text.
+- `1-8-far-from-the-tree-part-2` is now `.mdx`: 14 callouts and 4 pull quotes as components; 62 ordinary quotes, image and Spotify iframe unchanged apart from JSX syntax (self-closed `<img />`, bare `allowfullscreen`). The final follow-up callout uses Markdown paragraphs instead of `<br><br>`.
+- Verified against a pre-conversion build: same block counts, heading IDs, link/image URLs, page `<head>`, homepage. The only text differences are smart punctuation now applied inside callouts/quotes (curly quotes, `…`, `–`), matching the rest of the post. Desktop and 390px reviewed with no overflow.
+- Feed fix: MDX entries have no `rendered.html`, so `src/utils/feed.ts` fell back to the raw MDX source. It now renders MDX bodies through Astro's container API with the MDX container renderer. All 24 feeds parse and contain rendered callouts. Side effect: Vite prints a harmless `MODULE_LEVEL_DIRECTIVE` warning per `.mdx` entry; all HTML pages are byte-identical with and without the change.
+- "GalleryWren:"/"GalleryJohn:" prefixes are in the Ghost export and were preserved.
+
 ## Resume point
 
-Start with step 1 after Kat resumes implementation. No new dependencies appear necessary: the MDX integration and both loaders are already configured. The current request ends with this plan and docs; no application code, content conversion, commit, push or deployment is included in this planning session.
+Step 2 (images and galleries, `2025-03-29-session-notes`) is next, after Kat reviews step 1. Its yellow callouts can use `Callout` directly. No new dependencies appear necessary.

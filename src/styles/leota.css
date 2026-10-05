@@ -278,6 +278,8 @@ html.dark-mode .leota .post-card-excerpt {
 .leota-content .kg-callout-card + .kg-callout-card { margin-top: 1em; }
 .leota-content .kg-callout-emoji { flex: 0 0 auto; font-size: 2.1rem; line-height: 1.4; }
 .leota-content .kg-callout-text { min-width: 0; font-family: Georgia, serif; font-size: 1.9rem; line-height: 1.6; }
+.leota-content .kg-callout-text > :where(p,ul,ol) { margin: 0; }
+.leota-content .kg-callout-text > :is(p,ul,ol) + :is(p,ul,ol) { margin-top: 1em; }
 .leota-content blockquote.kg-blockquote-alt { padding: 0 2.5em; font-family: Georgia, serif; font-size: 1.5em; font-style: italic; line-height: 1.7; text-align: center; color: var(--color-secondary-text); }
 .leota-content blockquote.kg-blockquote-alt::before { display: none; }
 .leota-content :is(.kg-gallery-card,.kg-image-card) { --gallery-gap: 1.2rem; }
