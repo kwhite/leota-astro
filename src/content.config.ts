@@ -59,6 +59,7 @@ const pages = defineCollection({
   schema: z.object({
     title: z.string(), cover: z.string().nullable().optional(),
     description: z.string().optional(), sourceId: z.string().optional(),
+    campaign: z.enum(['city-of-mist', 'the-chosen']).default('city-of-mist'),
     campaignSection: z.enum(['overview', 'rules', 'neighborhoods', 'people']).optional(),
     chapters: z.array(z.object({ chapter: z.string(), title: z.string(), href: z.string().nullable() })).default([]),
     people: z.array(z.object({

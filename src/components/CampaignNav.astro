@@ -1,19 +1,17 @@
 ---
-import { getAssetUrl } from '../config';
-interface Props { current: 'overview' | 'rules' | 'neighborhoods' | 'people'; }
-const links = [
-    { id: 'overview', label: 'Overview', href: '/city-of-mist/' },
-    { id: 'rules', label: 'Rules', href: '/com-system-modifications/' },
-    { id: 'neighborhoods', label: 'Neighborhoods', href: '/neighborhoods-in-the-city/' },
-    { id: 'people', label: 'People', href: '/people-in-the-city/' },
-    { id: 'summaries', label: 'Session Summaries', href: '/tag/city-of-mist/' },
-];
+import { CAMPAIGN_NAVIGATION, getAssetUrl, type CampaignId } from '../config';
+interface Props { current: 'overview' | 'rules' | 'neighborhoods' | 'people'; campaign?: CampaignId; }
+const { current, campaign = 'city-of-mist' } = Astro.props;
+const { label, links } = CAMPAIGN_NAVIGATION[campaign];
 ---
-<nav class="campaign-nav" aria-label="City of Mist sections">
-    {links.map(link => <a href={getAssetUrl(link.href)} aria-current={Astro.props.current === link.id ? 'page' : undefined}>{link.label}</a>)}
+<nav class="campaign-nav" aria-label={`${label} sections`}>
+    {links.map(link => link.available
+        ? <a href={getAssetUrl(link.href)} aria-current={current === link.id ? 'page' : undefined}>{link.label}</a>
+        : <span aria-disabled="true">{link.label}</span>)}
 </nav>
 <style>
     .campaign-nav { display: flex; flex-wrap: wrap; gap: 4px 24px; padding-block: 10px; border-block: 1px solid #424242; }
-    .campaign-nav a { display: inline-flex; align-items: center; min-height: 44px; font-size: 1.2rem; font-weight: 600; letter-spacing: .02em; text-transform: uppercase; color: var(--color-secondary-text); text-decoration: none; }
+    .campaign-nav a, .campaign-nav span { display: inline-flex; align-items: center; min-height: 44px; font-size: 1.2rem; font-weight: 600; letter-spacing: .02em; text-transform: uppercase; color: var(--color-secondary-text); text-decoration: none; }
     .campaign-nav a:hover, .campaign-nav a[aria-current] { color: #fff; text-decoration: underline; text-decoration-color: #a47be0; text-underline-offset: 6px; }
+    .campaign-nav span { opacity: .5; }
 </style>

@@ -25,9 +25,33 @@ export const SITE_CONFIG = {
 export const PRIMARY_NAVIGATION = [
   { label: 'City of Mist', href: '/city-of-mist/', available: true },
   { label: 'Freaky Gray Company', href: '/the-freaky-gray-company/', available: false },
-  { label: 'The Chosen', href: '/the-chosen/', available: false },
+  { label: 'The Chosen', href: '/the-chosen/', available: true },
   { label: 'About', href: '/about/', available: true },
 ];
+// Section links for campaign landing pages; unavailable sections render inactive until migrated.
+export const CAMPAIGN_NAVIGATION = {
+  'city-of-mist': {
+    label: 'City of Mist',
+    links: [
+      { id: 'overview', label: 'Overview', href: '/city-of-mist/', available: true },
+      { id: 'rules', label: 'Rules', href: '/com-system-modifications/', available: true },
+      { id: 'neighborhoods', label: 'Neighborhoods', href: '/neighborhoods-in-the-city/', available: true },
+      { id: 'people', label: 'People', href: '/people-in-the-city/', available: true },
+      { id: 'summaries', label: 'Session Summaries', href: '/tag/city-of-mist/', available: true },
+    ],
+  },
+  'the-chosen': {
+    label: 'The Chosen',
+    links: [
+      { id: 'overview', label: 'Overview', href: '/the-chosen/', available: true },
+      { id: 'cast', label: 'Cast', href: '/the-chosen-cast/', available: false },
+      { id: 'rules', label: 'The Rules', href: '/general-buffy-game-info/', available: false },
+      { id: 'summaries', label: 'Season Summaries', href: '/tag/the-chosen/', available: true },
+    ],
+  },
+} as const;
+export type CampaignId = keyof typeof CAMPAIGN_NAVIGATION;
+
 export const SECONDARY_NAVIGATION = [
   { label: 'DM Resources', href: '/dm-resources/', available: true },
   { label: 'RPG Consent Checklist', href: '/rpg-consent-checklist/', available: false },
