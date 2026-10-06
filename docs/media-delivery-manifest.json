@@ -2,9 +2,9 @@
   "version": 2,
   "pillow": "12.3.0",
   "webp": "1.6.0",
-  "sourceBytes": 360001566,
-  "deliveryBytes": 84494051,
-  "variantBytes": 74769300,
+  "sourceBytes": 384257173,
+  "deliveryBytes": 89587093,
+  "variantBytes": 82029064,
   "assets": [
     {
       "source": "/assets/files/2026/02/_chase_season3_mid.pdf",
@@ -1535,8 +1535,8 @@
       "status": "converted",
       "reason": "quality 90 artwork",
       "usedIn": [
-        "src/content/posts/2025-01-18-session-notes.mdx",
-        "src/content/posts/2025-01-04-session-notes.md"
+        "src/content/posts/2025-01-04-session-notes.md",
+        "src/content/posts/2025-01-18-session-notes.mdx"
       ],
       "variants": [
         {
@@ -8234,6 +8234,96 @@
       ]
     },
     {
+      "source": "/assets/images/2026/06/Obierika1.png",
+      "delivery": "/assets/images/2026/06/Obierika1.webp",
+      "sourceSha256": "75ab8ed759abad3a4c3712dc84c524fb804a5cca90fab84defbc99fe692e6f18",
+      "deliverySha256": "e4b130bfa4dbb8741e5bacb438450bfd4b9e2bdb26108e9717613e6c2a9d7e13",
+      "sourceBytes": 6323167,
+      "deliveryBytes": 309642,
+      "dimensions": [
+        2000,
+        1333
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/1-1-discord.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/06/Obierika1.w320.webp",
+          "deliverySha256": "06641cf347b3696cef0c465bf32cc17cbd60f4bddaff25b3fb8b9663667ed07d",
+          "deliveryBytes": 19282,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/06/Obierika1.w640.webp",
+          "deliverySha256": "7394c3218beda3b61c41270673a3b35b4e2ce38007eafb752be332c46010f3eb",
+          "deliveryBytes": 52736,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/06/Obierika1.w960.webp",
+          "deliverySha256": "9483acbdc4540bc7ee15a216c032a2b1d02eea78cc7b4e42cb6fe8c62348f21f",
+          "deliveryBytes": 99028,
+          "dimensions": [
+            960,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/06/Obierika1.w1280.webp",
+          "deliverySha256": "1ce01862b765199dbaa13278a90ad75c46584da4d66d4cd7d21df44f8fb869f0",
+          "deliveryBytes": 154820,
+          "dimensions": [
+            1280,
+            853
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/06/Obierika1.w1920.webp",
+          "deliverySha256": "71907439d1697009206ccb8e3b9cc9df8c5438bab44327c8d926c787bd799fe8",
+          "deliveryBytes": 297458,
+          "dimensions": [
+            1920,
+            1280
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
       "source": "/assets/images/2026/06/briana-short.png",
       "delivery": "/assets/images/2026/06/briana-short.webp",
       "sourceSha256": "c22d562726ec614c6179f0fbb07a7a05f04196b81d884cab9f8dc4bd2b8ee292",
@@ -8302,6 +8392,96 @@
           "dimensions": [
             1280,
             1920
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/06/cillian-e1.png",
+      "delivery": "/assets/images/2026/06/cillian-e1.webp",
+      "sourceSha256": "1c86a2c3a92544e37e24675210bd5c3bde92a4eb01b5b702df56e12abbebe678",
+      "deliverySha256": "08f3f3bc896e2361d0d42c6b819665545829f70ef7f535f84e831cfd2bc24149",
+      "sourceBytes": 4565642,
+      "deliveryBytes": 151468,
+      "dimensions": [
+        2000,
+        1121
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/1-1-discord.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/06/cillian-e1.w320.webp",
+          "deliverySha256": "9836ab9d369fcb3116dd90639e8151ca5e98722072c857bad4395f7daf7ca44c",
+          "deliveryBytes": 13666,
+          "dimensions": [
+            320,
+            179
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/06/cillian-e1.w640.webp",
+          "deliverySha256": "c513022e718091789624f945b52873fb134bd32996a3f92184b1e4e2b2697e24",
+          "deliveryBytes": 34024,
+          "dimensions": [
+            640,
+            359
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/06/cillian-e1.w960.webp",
+          "deliverySha256": "5f9e10d4cb548d55bf33ec897493309e9713df2ef71d9fced672221dcf1b0fa6",
+          "deliveryBytes": 55902,
+          "dimensions": [
+            960,
+            538
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/06/cillian-e1.w1280.webp",
+          "deliverySha256": "d26879557c7103478a5fd1d713679a5a3456af6952f9896f40b2ee380483e9c8",
+          "deliveryBytes": 81106,
+          "dimensions": [
+            1280,
+            717
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/06/cillian-e1.w1920.webp",
+          "deliverySha256": "ff483674beba6ddc6e9103922e420ffa37df9cc6259fcf1afd741293c2afd7e1",
+          "deliveryBytes": 140796,
+          "dimensions": [
+            1920,
+            1076
           ],
           "settings": {
             "method": 6,
@@ -8587,6 +8767,157 @@
       ]
     },
     {
+      "source": "/assets/images/2026/06/maeve-apt2-1.webp",
+      "delivery": "/assets/images/2026/06/maeve-apt2-1.webp",
+      "sourceSha256": "48878dcdd66952593227391315678802a5c68a1e56a0b7656132f9913aa2ecb8",
+      "deliverySha256": "48878dcdd66952593227391315678802a5c68a1e56a0b7656132f9913aa2ecb8",
+      "sourceBytes": 236944,
+      "deliveryBytes": 236944,
+      "dimensions": [
+        2000,
+        1121
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/posts/1-1-2-discord-contin.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/06/maeve-apt2-1.w320.webp",
+          "deliverySha256": "db172690a11160cfa49b2f277b3e514dd10a5959b6482ea00e552cd9a16f9383",
+          "deliveryBytes": 16772,
+          "dimensions": [
+            320,
+            179
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/06/maeve-apt2-1.w640.webp",
+          "deliverySha256": "95669a0141ad3a0a09d3556e315aa66a314c9d9df40603da8f3b1e1cff13774b",
+          "deliveryBytes": 52498,
+          "dimensions": [
+            640,
+            359
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/06/maeve-apt2-1.w960.webp",
+          "deliverySha256": "3d0a693ea0b865fcf34e18bd1bdf0998233901ee44d6089f7a84fa14472c703a",
+          "deliveryBytes": 101136,
+          "dimensions": [
+            960,
+            538
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/06/maeve-apt2-1.w1280.webp",
+          "deliverySha256": "001d22c6b569a05377b7fa1cebeeb0280c7c3717749be2275983b0e1c782670e",
+          "deliveryBytes": 157938,
+          "dimensions": [
+            1280,
+            717
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/06/maeveoffice2.png",
+      "delivery": "/assets/images/2026/06/maeveoffice2.webp",
+      "sourceSha256": "14f7fe8e7776dfb378a6d1f10c3c462c2e2ebf1c137599434ba18a2bd72acddb",
+      "deliverySha256": "7a92a3b0cff3909cc367a3b1d5fad0d96af2aada6c9afd896a8ac0660e423176",
+      "sourceBytes": 1263973,
+      "deliveryBytes": 121248,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/1-1-discord.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/06/maeveoffice2.w320.webp",
+          "deliverySha256": "8d55c89d8e42c9ee8beac27e858a8350e6ff9120984eff5d3250b27661e7c79d",
+          "deliveryBytes": 18232,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/06/maeveoffice2.w640.webp",
+          "deliverySha256": "9ab2be4d715941cec5c24edbb732a40abcbf09b24bfda502fea52f7405149c3d",
+          "deliveryBytes": 44694,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/06/maeveoffice2.w960.webp",
+          "deliverySha256": "6d9846c02bfd933debb516fd509ded2272227f657e967feb9695881403b0d7cb",
+          "deliveryBytes": 77248,
+          "dimensions": [
+            960,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/06/maeveoffice2.w1280.webp",
+          "deliverySha256": "3ac4e6dba21d56c66f6b44d2c364454a982b5c2ccf30592db4e831c55903aa01",
+          "deliveryBytes": 110214,
+          "dimensions": [
+            1280,
+            853
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
       "source": "/assets/images/2026/06/michelle-adams.png",
       "delivery": "/assets/images/2026/06/michelle-adams.webp",
       "sourceSha256": "3c8b6d0e0d65f242654bd1827e9333617bf2166aa3ebc2bb6fc396d45aefd445",
@@ -8655,6 +8986,481 @@
           "dimensions": [
             1280,
             1920
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/06/musetta._Shot_from_inside_empty_cage_looking_outward_through_ch_bfe49b1d-9aac-44c3-ada6-362e35150661.png",
+      "delivery": "/assets/images/2026/06/musetta._Shot_from_inside_empty_cage_looking_outward_through_ch_bfe49b1d-9aac-44c3-ada6-362e35150661.webp",
+      "sourceSha256": "d14157e59bb6d75466a3b9f230fbc94ade76281c93bcf8fd6e3c6b35e66478f7",
+      "deliverySha256": "0e16242fcd64bd2901a9b009fb26a556ff0bf7dd0890ad3c7a9a2b7b4683ac4c",
+      "sourceBytes": 5325413,
+      "deliveryBytes": 537328,
+      "dimensions": [
+        2000,
+        1121
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/1-1-discord.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/06/musetta._Shot_from_inside_empty_cage_looking_outward_through_ch_bfe49b1d-9aac-44c3-ada6-362e35150661.w320.webp",
+          "deliverySha256": "b4fd6a4cfcf0e47ae68f7a2279862abc36507117f210644f5c15504be13fae5b",
+          "deliveryBytes": 23766,
+          "dimensions": [
+            320,
+            179
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/06/musetta._Shot_from_inside_empty_cage_looking_outward_through_ch_bfe49b1d-9aac-44c3-ada6-362e35150661.w640.webp",
+          "deliverySha256": "60b1c36780250fcd3633268afc85bace61f5696a74b6ff712c2a75297e2b8161",
+          "deliveryBytes": 73638,
+          "dimensions": [
+            640,
+            359
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/06/musetta._Shot_from_inside_empty_cage_looking_outward_through_ch_bfe49b1d-9aac-44c3-ada6-362e35150661.w960.webp",
+          "deliverySha256": "ec297293b1d5af27018141525b69196cdfde112d3ea5a07e6288ce9a95dfdb80",
+          "deliveryBytes": 134958,
+          "dimensions": [
+            960,
+            538
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/06/musetta._Shot_from_inside_empty_cage_looking_outward_through_ch_bfe49b1d-9aac-44c3-ada6-362e35150661.w1280.webp",
+          "deliverySha256": "7fad5839dd89b143e7f12d5c6c820abef6b6f8000129c7a3323902378b27c7eb",
+          "deliveryBytes": 216004,
+          "dimensions": [
+            1280,
+            717
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/06/musetta._Shot_from_inside_empty_cage_looking_outward_through_ch_bfe49b1d-9aac-44c3-ada6-362e35150661.w1920.webp",
+          "deliverySha256": "3cb5d7cde3020a51923c12b27d7a5c0e4bafa16e38682d325b653cd120c0df13",
+          "deliveryBytes": 463654,
+          "dimensions": [
+            1920,
+            1076
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/06/musetta._Woman_in_her_late_20s_olive_skin_dark_brown_hair_in__c1fbb3aa-6a0f-42cc-bbe6-7a174c071f49_3.png",
+      "delivery": "/assets/images/2026/06/musetta._Woman_in_her_late_20s_olive_skin_dark_brown_hair_in__c1fbb3aa-6a0f-42cc-bbe6-7a174c071f49_3.webp",
+      "sourceSha256": "7ffca57af903ab27fc3e13b6cf99beba9afc81c81d54309ff3e678cdb090afee",
+      "deliverySha256": "c54052eeca6fa3db6aeb1ab7a65999e584e957411bf3de15bd52e39eda27fc96",
+      "sourceBytes": 1417365,
+      "deliveryBytes": 71722,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/1-1-discord.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/06/musetta._Woman_in_her_late_20s_olive_skin_dark_brown_hair_in__c1fbb3aa-6a0f-42cc-bbe6-7a174c071f49_3.w320.webp",
+          "deliverySha256": "aba2edb88d1d6798e9e0c55573bec24a42389e2af0bd117e2a6bb1f852d31985",
+          "deliveryBytes": 10142,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/06/musetta._Woman_in_her_late_20s_olive_skin_dark_brown_hair_in__c1fbb3aa-6a0f-42cc-bbe6-7a174c071f49_3.w640.webp",
+          "deliverySha256": "2a63a6055aa3b6a3df3f303b46fca9d19e3f51166a2c90fc2f4999195c0296cc",
+          "deliveryBytes": 25412,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/06/musetta._Woman_in_her_late_20s_olive_skin_dark_brown_hair_in__c1fbb3aa-6a0f-42cc-bbe6-7a174c071f49_3.w960.webp",
+          "deliverySha256": "8e8c9a560c363b6b3f66218d5c9a119e57315c899e24d3e9a5b5046a9e9ddc27",
+          "deliveryBytes": 44608,
+          "dimensions": [
+            960,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/06/musetta._Woman_in_her_late_20s_olive_skin_dark_brown_hair_in__c1fbb3aa-6a0f-42cc-bbe6-7a174c071f49_3.w1280.webp",
+          "deliverySha256": "a8879629e9bc34a7abba4e8b3dfbe6ad0422dc84f818a0b04b3f1c8691baa2f4",
+          "deliveryBytes": 67450,
+          "dimensions": [
+            1280,
+            853
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/06/sekhmet.webp",
+      "delivery": "/assets/images/2026/06/sekhmet.webp",
+      "sourceSha256": "ae3c64143ada8e2c593b52d78cdbd6303a7138cca466acc9f593ef53277ddf3f",
+      "deliverySha256": "ae3c64143ada8e2c593b52d78cdbd6303a7138cca466acc9f593ef53277ddf3f",
+      "sourceBytes": 101186,
+      "deliveryBytes": 101186,
+      "dimensions": [
+        2000,
+        1333
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/posts/1-1-2-discord-contin.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/06/sekhmet.w320.webp",
+          "deliverySha256": "7c2fb701d40cf02b10e8e41db0fb42fbc73ddd10ebed4fbed4f7eef812bb41d5",
+          "deliveryBytes": 11388,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/06/sekhmet.w640.webp",
+          "deliverySha256": "2833954f31e1180c0dd97b66b16c1c4227b2e992450d9438f3c2d4f69b5d11a7",
+          "deliveryBytes": 29990,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/06/sekhmet.w960.webp",
+          "deliverySha256": "93f070613da625ade6686790a5f22843025d266bda9afd02374bb9de320d46b6",
+          "deliveryBytes": 52876,
+          "dimensions": [
+            960,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/06/sekhmet.w1280.webp",
+          "deliverySha256": "6065db019db0e23cb640c7084caa40ee60f49dba2fcc8c0e7e859d0a80f5daa9",
+          "deliveryBytes": 79444,
+          "dimensions": [
+            1280,
+            853
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/06/sewers.webp",
+      "delivery": "/assets/images/2026/06/sewers.webp",
+      "sourceSha256": "4b212341eda52662db5db64c8afdf02bc543c8397f5d9954fbea7a1a132b5614",
+      "deliverySha256": "4b212341eda52662db5db64c8afdf02bc543c8397f5d9954fbea7a1a132b5614",
+      "sourceBytes": 41278,
+      "deliveryBytes": 41278,
+      "dimensions": [
+        1456,
+        816
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/posts/1-1-2-discord-contin.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/06/sewers.w320.webp",
+          "deliverySha256": "def77e1bce63a62f2ba8df86d66ec87eb78ae59f999699507aff5703e28fbce6",
+          "deliveryBytes": 7520,
+          "dimensions": [
+            320,
+            179
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/06/sewers.w640.webp",
+          "deliverySha256": "b5c80aa65bcefc8069820b5f9c146600562feb29918b1b6e3f5d1183a40c6a56",
+          "deliveryBytes": 21092,
+          "dimensions": [
+            640,
+            359
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/06/sewers.w960.webp",
+          "deliverySha256": "f5aac8800d8632ed5cf8e8902e2ca17d250ca020fb0b8dc7ba2de01e3d3f592c",
+          "deliveryBytes": 36948,
+          "dimensions": [
+            960,
+            538
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/06/vipcolorful.webp",
+      "delivery": "/assets/images/2026/06/vipcolorful.webp",
+      "sourceSha256": "5ab0c0fbb28716c5bfebb6242e58d1cf7ac46de411d83df6b225fbb312870806",
+      "deliverySha256": "5ab0c0fbb28716c5bfebb6242e58d1cf7ac46de411d83df6b225fbb312870806",
+      "sourceBytes": 46964,
+      "deliveryBytes": 46964,
+      "dimensions": [
+        1456,
+        816
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/posts/1-1-2-discord-contin.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/06/vipcolorful.w320.webp",
+          "deliverySha256": "825df6627f5df5c9fdc9f428cb2b6998dcc281cd7888c2ca0ba1d4f9aeeb6780",
+          "deliveryBytes": 11310,
+          "dimensions": [
+            320,
+            179
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/06/vipcolorful.w640.webp",
+          "deliverySha256": "fdb39d7e2289e5ceae0f2b3bf99edc218da57f7a7e121286dc8101694d251eae",
+          "deliveryBytes": 28582,
+          "dimensions": [
+            640,
+            359
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/06/womanindoor.webp",
+      "delivery": "/assets/images/2026/06/womanindoor.webp",
+      "sourceSha256": "c94adaf49ba16a021d9ed4a660714f84b2f5f60b17da9d962f25de068aeb22bd",
+      "deliverySha256": "c94adaf49ba16a021d9ed4a660714f84b2f5f60b17da9d962f25de068aeb22bd",
+      "sourceBytes": 34246,
+      "deliveryBytes": 34246,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/posts/1-1-2-discord-contin.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/06/womanindoor.w320.webp",
+          "deliverySha256": "e76a43699c551a3c3b32f6bd491d996e76f924ab25b58482da654156fbd61315",
+          "deliveryBytes": 8996,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/06/womanindoor.w640.webp",
+          "deliverySha256": "6c7d8a350b8758f2f17f221ebc5e1f640851463ca0bcd366f3f599a7bdc8680c",
+          "deliveryBytes": 22648,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/06/wren-e1.png",
+      "delivery": "/assets/images/2026/06/wren-e1.webp",
+      "sourceSha256": "23314aada52f30bef7eab9f209ef3965d501b775d9aeffd10c8c16d4ee18f171",
+      "deliverySha256": "1d0056a0810b5f146def3d2a368c959cd4d6d3e84f235486f2648eed1ae36961",
+      "sourceBytes": 1531417,
+      "deliveryBytes": 73004,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/1-1-discord.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/06/wren-e1.w320.webp",
+          "deliverySha256": "88ef47b353301863aef02b11bd3126cb99625905b504fe860aabcfcedb424065",
+          "deliveryBytes": 9502,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/06/wren-e1.w640.webp",
+          "deliverySha256": "cc044e7b99890954f3d8490184513f4420ded69e81921048161d4df1b8cb257a",
+          "deliveryBytes": 23622,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/06/wren-e1.w960.webp",
+          "deliverySha256": "a4e5fdc25226b8d226296a588c78b03fd3030ae11b9a493eda134299ec9b9d94",
+          "deliveryBytes": 41990,
+          "dimensions": [
+            960,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/06/wren-e1.w1280.webp",
+          "deliverySha256": "ed868367a79ff046cc5a8d3c18b016424e7aa02cd8c8916def41d45802ccfd32",
+          "deliveryBytes": 68340,
+          "dimensions": [
+            1280,
+            853
           ],
           "settings": {
             "method": 6,
@@ -8877,6 +9683,80 @@
       ]
     },
     {
+      "source": "/assets/images/2026/07/chopping-block2.webp",
+      "delivery": "/assets/images/2026/07/chopping-block2.webp",
+      "sourceSha256": "744ff98957ab76e93aefc38dd4994558596779af8da7c3a3fa0bd1f8c2a258e9",
+      "deliverySha256": "744ff98957ab76e93aefc38dd4994558596779af8da7c3a3fa0bd1f8c2a258e9",
+      "sourceBytes": 105200,
+      "deliveryBytes": 105200,
+      "dimensions": [
+        2000,
+        1121
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/posts/1-2-2-chopping-block-cont.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/07/chopping-block2.w320.webp",
+          "deliverySha256": "ee0531fae5c53af09f6bc7b6f8a93d76f566bcf09b6c02dca91ac0dfe188fc13",
+          "deliveryBytes": 9096,
+          "dimensions": [
+            320,
+            179
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/07/chopping-block2.w640.webp",
+          "deliverySha256": "2ad7198d40a7f4ce575a95fc1d936dfa07e3bdfa1074d099df076a748374b40f",
+          "deliveryBytes": 26520,
+          "dimensions": [
+            640,
+            359
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/07/chopping-block2.w960.webp",
+          "deliverySha256": "af4c723b2f8bef8466914199add08cd56b04bb6851975a828e34310d7a63576d",
+          "deliveryBytes": 48132,
+          "dimensions": [
+            960,
+            538
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/07/chopping-block2.w1280.webp",
+          "deliverySha256": "3764b5af061f54f180dd034e7c759f20d848f1c6335fa0d9aaa3e9147b2daa3f",
+          "deliveryBytes": 74816,
+          "dimensions": [
+            1280,
+            717
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
       "source": "/assets/images/2026/07/class-of-2007-1.webp",
       "delivery": "/assets/images/2026/07/class-of-2007-1.webp",
       "sourceSha256": "449e61384af509fff67b25341934e77f0dcd3f37a218c50ba9c80170039f4b3f",
@@ -8917,6 +9797,67 @@
           "dimensions": [
             640,
             427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/07/eldorado-outside.webp",
+      "delivery": "/assets/images/2026/07/eldorado-outside.webp",
+      "sourceSha256": "588fdf9392eafb1f35ed51ce1cf1b4e36c9fa8199913ad37970ed1338850bd94",
+      "deliverySha256": "588fdf9392eafb1f35ed51ce1cf1b4e36c9fa8199913ad37970ed1338850bd94",
+      "sourceBytes": 206908,
+      "deliveryBytes": 206908,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/posts/1-2-chopping-block.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/07/eldorado-outside.w320.webp",
+          "deliverySha256": "0e8af40a0bf656a4532680bfc316269814ff2569efee356e7e6708adaf980710",
+          "deliveryBytes": 29238,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/07/eldorado-outside.w640.webp",
+          "deliverySha256": "34a3905f9966db2feee2f29ac373a722016e553439d232190cb33fd9a2096a6b",
+          "deliveryBytes": 104614,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/07/eldorado-outside.w960.webp",
+          "deliverySha256": "1b1855b6f1fbe32f7c57b276e847d564c41cfbdacf764a9908e8e39a76e2ffe5",
+          "deliveryBytes": 203426,
+          "dimensions": [
+            960,
+            640
           ],
           "settings": {
             "method": 6,
@@ -9296,6 +10237,67 @@
       ]
     },
     {
+      "source": "/assets/images/2026/07/meatpacking-saturated.webp",
+      "delivery": "/assets/images/2026/07/meatpacking-saturated.webp",
+      "sourceSha256": "140c2b5bcce7feb0f49c856c16614e95f008a78326078d539a9e0cf0c151f49e",
+      "deliverySha256": "140c2b5bcce7feb0f49c856c16614e95f008a78326078d539a9e0cf0c151f49e",
+      "sourceBytes": 189984,
+      "deliveryBytes": 189984,
+      "dimensions": [
+        1456,
+        816
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/posts/1-2-chopping-block.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/07/meatpacking-saturated.w320.webp",
+          "deliverySha256": "c88d8070fa612ffd8f49e01e6b17f9d0020796da20d153ce1e91802cd1593716",
+          "deliveryBytes": 19758,
+          "dimensions": [
+            320,
+            179
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/07/meatpacking-saturated.w640.webp",
+          "deliverySha256": "6affded8f2c4e405ffa25962eb26a25a8b335f904233cfca370bb5654a706226",
+          "deliveryBytes": 70606,
+          "dimensions": [
+            640,
+            359
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/07/meatpacking-saturated.w960.webp",
+          "deliverySha256": "aa6b5eddeacbd5c8dcbdbcf7e50bb283dd981be2419224a99e712f2701ddd753",
+          "deliveryBytes": 138212,
+          "dimensions": [
+            960,
+            538
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
       "source": "/assets/images/2026/07/natural-order.webp",
       "delivery": "/assets/images/2026/07/natural-order.webp",
       "sourceSha256": "7047e73568afd66160be16a3130bb2e98320a168a0010a53a688e8503aea09ef",
@@ -9336,6 +10338,202 @@
           "dimensions": [
             640,
             427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/07/pyramid.webp",
+      "delivery": "/assets/images/2026/07/pyramid.webp",
+      "sourceSha256": "ef9fc9659d84d84aa5a95daeac96f78bfef0e15437a186c7034aa9f9d28ae58f",
+      "deliverySha256": "ef9fc9659d84d84aa5a95daeac96f78bfef0e15437a186c7034aa9f9d28ae58f",
+      "sourceBytes": 143454,
+      "deliveryBytes": 143454,
+      "dimensions": [
+        2000,
+        1333
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/posts/1-2-2-chopping-block-cont.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/07/pyramid.w320.webp",
+          "deliverySha256": "c836a318c46ec6ffe0bb66e113cbeddf30170d3b1c0d496f85dbdac5d2dee002",
+          "deliveryBytes": 10592,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/07/pyramid.w640.webp",
+          "deliverySha256": "1a90977a91b7aef6a0670e3cf4b50c94e90b255fe2a94f7ba6552812b90a54f1",
+          "deliveryBytes": 33470,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/07/pyramid.w960.webp",
+          "deliverySha256": "8fc7c62dfd8f40e7dd53a70a5bde1819e17cb80b2f21c917b4a411c3934c72a7",
+          "deliveryBytes": 65612,
+          "dimensions": [
+            960,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/07/pyramid.w1280.webp",
+          "deliverySha256": "cd6f8cf0f7bdf567594846c04d6d93730615797a35fc2b399676e463129e1bb0",
+          "deliveryBytes": 104990,
+          "dimensions": [
+            1280,
+            853
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/07/rogelio-cover.webp",
+      "delivery": "/assets/images/2026/07/rogelio-cover.webp",
+      "sourceSha256": "08921baaabf2657edbf6854d9b2679ab3982ac74d0979eccc6a2ddeecb2966a0",
+      "deliverySha256": "08921baaabf2657edbf6854d9b2679ab3982ac74d0979eccc6a2ddeecb2966a0",
+      "sourceBytes": 38810,
+      "deliveryBytes": 38810,
+      "dimensions": [
+        1456,
+        816
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/posts/1-2-chopping-block.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/07/rogelio-cover.w320.webp",
+          "deliverySha256": "2c01102c786711d2dca349d608adbbda7d0acb67eaf3258164c2fa2d8f1ac31c",
+          "deliveryBytes": 8520,
+          "dimensions": [
+            320,
+            179
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/07/rogelio-cover.w640.webp",
+          "deliverySha256": "d2142b8316340027c2453de936dffbfcca2552882d1bef41d638d830d93aef58",
+          "deliveryBytes": 20794,
+          "dimensions": [
+            640,
+            359
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/07/rogelio-cover.w960.webp",
+          "deliverySha256": "c6af8d41390a988e75784b074d6546369ca597648b38308e41d8f71f858e3219",
+          "deliveryBytes": 37630,
+          "dimensions": [
+            960,
+            538
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/07/rogelio-house.webp",
+      "delivery": "/assets/images/2026/07/rogelio-house.webp",
+      "sourceSha256": "a6eb9c418177278c70bb19fef75ae0c56291a62a7f79529c183061efb14e4644",
+      "deliverySha256": "a6eb9c418177278c70bb19fef75ae0c56291a62a7f79529c183061efb14e4644",
+      "sourceBytes": 250890,
+      "deliveryBytes": 250890,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/posts/1-2-chopping-block.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/07/rogelio-house.w320.webp",
+          "deliverySha256": "902ff8e0bf13edd64f049760fa53350d04a2eeda1b94edac112825546d818fdd",
+          "deliveryBytes": 29462,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/07/rogelio-house.w640.webp",
+          "deliverySha256": "8fe4d7b9419c31d8424628f4cef6627004b33f8a8dfdb8201d3f58b63fb88a68",
+          "deliveryBytes": 112072,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/07/rogelio-house.w960.webp",
+          "deliverySha256": "4466e37173f83eeb50de36ccb9aa35f3671c42da935ac061ce281687d6be138d",
+          "deliveryBytes": 234882,
+          "dimensions": [
+            960,
+            640
           ],
           "settings": {
             "method": 6,
@@ -9419,6 +10617,286 @@
       ]
     },
     {
+      "source": "/assets/images/2026/07/soccer-1.webp",
+      "delivery": "/assets/images/2026/07/soccer-1.webp",
+      "sourceSha256": "c3a38e6f7cf351b1a3f582dee04cb47c3bada8b7feae1feeb7d27ffff4797c5c",
+      "deliverySha256": "c3a38e6f7cf351b1a3f582dee04cb47c3bada8b7feae1feeb7d27ffff4797c5c",
+      "sourceBytes": 120744,
+      "deliveryBytes": 120744,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/posts/1-2-2-chopping-block-cont.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/07/soccer-1.w320.webp",
+          "deliverySha256": "ae4a897f4fa5a63f1d1562730b9860ad2d40e3c63851a085086e3e983d1fd33d",
+          "deliveryBytes": 20588,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/07/soccer-1.w640.webp",
+          "deliverySha256": "ff57bce4fde8f4feef67827fd0744d1b7b0a75e269469f002eba700142d5b173",
+          "deliveryBytes": 67700,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/07/soccer.webp",
+      "delivery": "/assets/images/2026/07/soccer.webp",
+      "sourceSha256": "c3a38e6f7cf351b1a3f582dee04cb47c3bada8b7feae1feeb7d27ffff4797c5c",
+      "deliverySha256": "c3a38e6f7cf351b1a3f582dee04cb47c3bada8b7feae1feeb7d27ffff4797c5c",
+      "sourceBytes": 120744,
+      "deliveryBytes": 120744,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/posts/1-2-chopping-block.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/07/soccer.w320.webp",
+          "deliverySha256": "ae4a897f4fa5a63f1d1562730b9860ad2d40e3c63851a085086e3e983d1fd33d",
+          "deliveryBytes": 20588,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/07/soccer.w640.webp",
+          "deliverySha256": "ff57bce4fde8f4feef67827fd0744d1b7b0a75e269469f002eba700142d5b173",
+          "deliveryBytes": 67700,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/08/b-apartment.webp",
+      "delivery": "/assets/images/2026/08/b-apartment.webp",
+      "sourceSha256": "36949c5cff5d001cefb8adaf29d4d956787b2cd3c1f07e010aa531d1791b0df0",
+      "deliverySha256": "36949c5cff5d001cefb8adaf29d4d956787b2cd3c1f07e010aa531d1791b0df0",
+      "sourceBytes": 22048,
+      "deliveryBytes": 22048,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/posts/1-4-bad-apples.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/08/b-apartment.w320.webp",
+          "deliverySha256": "43f3049c38e16f2aedd9e76281cbf38d8a576146e7d44a402be8ad9b274772eb",
+          "deliveryBytes": 3870,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/08/b-apartment.w640.webp",
+          "deliverySha256": "f86d9061a54e6e8bf4443192b68f3a06aded28c86637b8e22794c3af2922b886",
+          "deliveryBytes": 10192,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/08/b-apartment.w960.webp",
+          "deliverySha256": "20da41eefb3b020436d5de2e63a02d3bcdfa12f54abf74193665f87654e64e0d",
+          "deliveryBytes": 19386,
+          "dimensions": [
+            960,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/08/barn-1.webp",
+      "delivery": "/assets/images/2026/08/barn-1.webp",
+      "sourceSha256": "0926710be21c7b67de2ffd0598426d1be5681008f62361b4ed09b9593447fa61",
+      "deliverySha256": "0926710be21c7b67de2ffd0598426d1be5681008f62361b4ed09b9593447fa61",
+      "sourceBytes": 42950,
+      "deliveryBytes": 42950,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/posts/1-6-the-killing-fields.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/08/barn-1.w320.webp",
+          "deliverySha256": "21c7fe2f2f0780629c5b7ad27827b06d69ced06eeb2138c9a03bb52a755d620f",
+          "deliveryBytes": 7730,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/08/barn-1.w640.webp",
+          "deliverySha256": "e2296cf1f8e78b7bb6c3b6d7b7eac681c996f11dc7d0fb790d0bb9ac85301e09",
+          "deliveryBytes": 23190,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/08/barn-1.w960.webp",
+          "deliverySha256": "80bfa9a9b29717cb71962cc05e92dca3187ec455db03b1797786d1a650657034",
+          "deliveryBytes": 42528,
+          "dimensions": [
+            960,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/08/barn.webp",
+      "delivery": "/assets/images/2026/08/barn.webp",
+      "sourceSha256": "7c7e2723b8b917b404bd71e499c69ad462f27ed05eb955cbfe3f40f96d56691d",
+      "deliverySha256": "7c7e2723b8b917b404bd71e499c69ad462f27ed05eb955cbfe3f40f96d56691d",
+      "sourceBytes": 44360,
+      "deliveryBytes": 44360,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/posts/1-5-when-the-cats-away-summary.mdx",
+        "src/content/posts/1-5-when-the-cats-away.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/08/barn.w320.webp",
+          "deliverySha256": "d8923dee577eb6fd3107e1838891ef521dcb08b03db4b34490dabc3dfc9cf657",
+          "deliveryBytes": 7824,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/08/barn.w640.webp",
+          "deliverySha256": "8eae97dfe0fb915198817192d1a1b020b8fcb8f73bd907fe5305036780cc83cb",
+          "deliveryBytes": 23858,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/08/barn.w960.webp",
+          "deliverySha256": "ce1ddd533d4f11f14c683b63cca74a06f3af879e599a3716e830ff922e60b039",
+          "deliveryBytes": 43120,
+          "dimensions": [
+            960,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
       "source": "/assets/images/2026/08/briana5-1.webp",
       "delivery": "/assets/images/2026/08/briana5-1.webp",
       "sourceSha256": "36412029d2a2b96bdd3cacbceb5affe55524f631a199c60044319476e952a2c2",
@@ -9480,6 +10958,298 @@
       ]
     },
     {
+      "source": "/assets/images/2026/08/briana5.webp",
+      "delivery": "/assets/images/2026/08/briana5.webp",
+      "sourceSha256": "36412029d2a2b96bdd3cacbceb5affe55524f631a199c60044319476e952a2c2",
+      "deliverySha256": "36412029d2a2b96bdd3cacbceb5affe55524f631a199c60044319476e952a2c2",
+      "sourceBytes": 115846,
+      "deliveryBytes": 115846,
+      "dimensions": [
+        1376,
+        768
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/posts/1-1-discord.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/08/briana5.w320.webp",
+          "deliverySha256": "8035237f371c27436d5e05a65634ea384acf217a4eed3f36bc82ff405528fdf4",
+          "deliveryBytes": 18442,
+          "dimensions": [
+            320,
+            179
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/08/briana5.w640.webp",
+          "deliverySha256": "05f8603093d589c2313fd3f07da363f9999ee61c1cc6bd845b6851bb681d5d1a",
+          "deliveryBytes": 59638,
+          "dimensions": [
+            640,
+            357
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/08/briana5.w960.webp",
+          "deliverySha256": "fb0bb8b825d202ff76ccc0ddfb948f7b7324b10c66f78a6718f3be4e6c96a023",
+          "deliveryBytes": 113580,
+          "dimensions": [
+            960,
+            536
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/08/casitacrop.webp",
+      "delivery": "/assets/images/2026/08/casitacrop.webp",
+      "sourceSha256": "b7572001627e271ce6c8a49a3b23540679029dbceada2a6308a471c57dc542a6",
+      "deliverySha256": "b7572001627e271ce6c8a49a3b23540679029dbceada2a6308a471c57dc542a6",
+      "sourceBytes": 111578,
+      "deliveryBytes": 111578,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/posts/1-6-the-killing-fields.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/08/casitacrop.w320.webp",
+          "deliverySha256": "fe66778f25e25e72840940a9a7ac9671d6b5fb8f7e758e92ecf1c2232ba3977a",
+          "deliveryBytes": 18494,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/08/casitacrop.w640.webp",
+          "deliverySha256": "9199b44f32e6ca011158344f46201ed72ec0e411db8b048f25ca58f12269bcbf",
+          "deliveryBytes": 61068,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/08/courtyard.webp",
+      "delivery": "/assets/images/2026/08/courtyard.webp",
+      "sourceSha256": "99e571af47ab506044dfb5a5325930b37d45c62e66dd4f966b6a2478930e6834",
+      "deliverySha256": "99e571af47ab506044dfb5a5325930b37d45c62e66dd4f966b6a2478930e6834",
+      "sourceBytes": 112808,
+      "deliveryBytes": 112808,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/posts/1-6-the-killing-fields.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/08/courtyard.w320.webp",
+          "deliverySha256": "4ba72ea3774350365365e870004dcc12d0e2ee9de2a784e65769169cb72232dd",
+          "deliveryBytes": 21674,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/08/courtyard.w640.webp",
+          "deliverySha256": "fd88044d02fa63626b4f343da4f51d840cebd87c097858c3372a958c047b81ef",
+          "deliveryBytes": 70766,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/08/daniel-board.webp",
+      "delivery": "/assets/images/2026/08/daniel-board.webp",
+      "sourceSha256": "219aa0566f152cb3566c6de8a6ca60edf65db8d4684dfe67a550d70c3aa08ad4",
+      "deliverySha256": "219aa0566f152cb3566c6de8a6ca60edf65db8d4684dfe67a550d70c3aa08ad4",
+      "sourceBytes": 48506,
+      "deliveryBytes": 48506,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/posts/1-6-the-killing-fields.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/08/daniel-board.w320.webp",
+          "deliverySha256": "fc18bd18ed41fc2d525c1dc8b1884c7439311d2b9ff5c1554051d0e577a44444",
+          "deliveryBytes": 11388,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/08/daniel-board.w640.webp",
+          "deliverySha256": "107782021f56c0d9772316a5d75909bba596d2e73712bb017c55d250d01baccb",
+          "deliveryBytes": 28168,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/08/daniel-board.w960.webp",
+          "deliverySha256": "eb9265c96595d5375289f1fcf52a15cfdf79930240526c12f6d0c26036f32c0a",
+          "deliveryBytes": 47826,
+          "dimensions": [
+            960,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/08/daniel-ritual-1.webp",
+      "delivery": "/assets/images/2026/08/daniel-ritual-1.webp",
+      "sourceSha256": "f2c042beb4f5a1c93da4a521b55b6fc1dfff29f9420ba2e06c9551025d972f2e",
+      "deliverySha256": "f2c042beb4f5a1c93da4a521b55b6fc1dfff29f9420ba2e06c9551025d972f2e",
+      "sourceBytes": 91956,
+      "deliveryBytes": 91956,
+      "dimensions": [
+        2000,
+        1333
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/posts/1-3-gravity.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/08/daniel-ritual-1.w320.webp",
+          "deliverySha256": "78a2a879ca3b0a50745935f4795dd9e29e69e380875f747860ad56aeb37fe31b",
+          "deliveryBytes": 11274,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/08/daniel-ritual-1.w640.webp",
+          "deliverySha256": "cb41952278295f3a881e6b795124591b120c5842059bacb11aa95550d31eca0b",
+          "deliveryBytes": 27164,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/08/daniel-ritual-1.w960.webp",
+          "deliverySha256": "4d4fbcaea1f00cd0697ae1981124d85c2545c65b0e2176ebdb76fe3465f6bd54",
+          "deliveryBytes": 47038,
+          "dimensions": [
+            960,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/08/daniel-ritual-1.w1280.webp",
+          "deliverySha256": "ac91d0650687b131d2efa2521277db13965fd1cac5d463151ca6852b03d15642",
+          "deliveryBytes": 69316,
+          "dimensions": [
+            1280,
+            853
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
       "source": "/assets/images/2026/08/denver-morrison.webp",
       "delivery": "/assets/images/2026/08/denver-morrison.webp",
       "sourceSha256": "447f8c8e9398070c9d7eea9f0504cb32f01011da992d2c4ba2e11735b31d3c5f",
@@ -9532,6 +11302,647 @@
           "dimensions": [
             960,
             1440
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/08/fields3.webp",
+      "delivery": "/assets/images/2026/08/fields3.webp",
+      "sourceSha256": "4b3a8e5129cce743c166d25f1e622dcf2aadc06462371b29d9e635ca9867cc2c",
+      "deliverySha256": "4b3a8e5129cce743c166d25f1e622dcf2aadc06462371b29d9e635ca9867cc2c",
+      "sourceBytes": 101930,
+      "deliveryBytes": 101930,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/posts/1-6-the-killing-fields.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/08/fields3.w320.webp",
+          "deliverySha256": "dd8ec93dc8202ec893f80c8d469d5e5208736b2cd3c7e7166ab7fe668c82ccb3",
+          "deliveryBytes": 23134,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/08/fields3.w640.webp",
+          "deliverySha256": "baf88805ba8e31837f7b6f3591da08766335e686b3f4be3d7a124a7f27943ed0",
+          "deliveryBytes": 69344,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/08/fort-garrido-1.webp",
+      "delivery": "/assets/images/2026/08/fort-garrido-1.webp",
+      "sourceSha256": "137a2eaaeda4e52f0b6f5193916d996684270fed8504a08a05f6e836015a0f92",
+      "deliverySha256": "137a2eaaeda4e52f0b6f5193916d996684270fed8504a08a05f6e836015a0f92",
+      "sourceBytes": 135756,
+      "deliveryBytes": 135756,
+      "dimensions": [
+        1456,
+        816
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/posts/1-4-bad-apples.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/08/fort-garrido-1.w320.webp",
+          "deliverySha256": "9a60679c00f9375c2d9a97602ccfb513571e0cdf126fab0ae7ad353c10770469",
+          "deliveryBytes": 16690,
+          "dimensions": [
+            320,
+            179
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/08/fort-garrido-1.w640.webp",
+          "deliverySha256": "de366a10fbf3cbea4ee6f019f114839d14a9e03c26c65d941c649250c3eaf658",
+          "deliveryBytes": 59662,
+          "dimensions": [
+            640,
+            359
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/08/fort-garrido-1.w960.webp",
+          "deliverySha256": "5c101f602387de7699fb9a9a986e8f769f9691d6e0e6ecb7f44285d854154687",
+          "deliveryBytes": 120536,
+          "dimensions": [
+            960,
+            538
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/08/kevin-ty.webp",
+      "delivery": "/assets/images/2026/08/kevin-ty.webp",
+      "sourceSha256": "d3573629f0e2c6e71edb415e5160f8184a47e7853e8a30530a36f614aef04c75",
+      "deliverySha256": "d3573629f0e2c6e71edb415e5160f8184a47e7853e8a30530a36f614aef04c75",
+      "sourceBytes": 51410,
+      "deliveryBytes": 51410,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/posts/1-3-gravity.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/08/kevin-ty.w320.webp",
+          "deliverySha256": "7bf40f450b1a3686ef0f61801de52ca65c65803f81cb6838a7b31159423bef1f",
+          "deliveryBytes": 13090,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/08/kevin-ty.w640.webp",
+          "deliverySha256": "68046cdaf508f408c94102906d21bf412a322f536832f6e532cff4575a64bac5",
+          "deliveryBytes": 33218,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/08/keviv-denver-3.webp",
+      "delivery": "/assets/images/2026/08/keviv-denver-3.webp",
+      "sourceSha256": "3e2711614463aa21fef4befffdd8bcc80e8b5f362fbd71ff464152e57958c926",
+      "deliverySha256": "3e2711614463aa21fef4befffdd8bcc80e8b5f362fbd71ff464152e57958c926",
+      "sourceBytes": 64420,
+      "deliveryBytes": 64420,
+      "dimensions": [
+        2000,
+        1121
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/posts/1-3-gravity.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/08/keviv-denver-3.w320.webp",
+          "deliverySha256": "f86bb2ee3bae631f11349a72762e73bf88bb890c3f534012ad01dc46dc31cf81",
+          "deliveryBytes": 6554,
+          "dimensions": [
+            320,
+            179
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/08/keviv-denver-3.w640.webp",
+          "deliverySha256": "dc94e36d18bfd9fa12f404f00e937028cfc87437863d3dbee95028faf5c9823b",
+          "deliveryBytes": 17436,
+          "dimensions": [
+            640,
+            359
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/08/keviv-denver-3.w960.webp",
+          "deliverySha256": "1e22908129c03bcfa6a183c1379ffabb5c2821e618af2c6021439f05fcf5ab20",
+          "deliveryBytes": 30386,
+          "dimensions": [
+            960,
+            538
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/08/keviv-denver-3.w1280.webp",
+          "deliverySha256": "4961a85c3ffd4d93e0e7fe660fb40fc3d87dbcfa05f4041307891fa8b3c41001",
+          "deliveryBytes": 46274,
+          "dimensions": [
+            1280,
+            717
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/08/killing-fields.webp",
+      "delivery": "/assets/images/2026/08/killing-fields.webp",
+      "sourceSha256": "fb0f46019f66f8e5d81b630ced75603b98f76f67ca19e22daeb1091a9d4162f3",
+      "deliverySha256": "fb0f46019f66f8e5d81b630ced75603b98f76f67ca19e22daeb1091a9d4162f3",
+      "sourceBytes": 87872,
+      "deliveryBytes": 87872,
+      "dimensions": [
+        1680,
+        704
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/posts/1-6-the-killing-fields.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/08/killing-fields.w320.webp",
+          "deliverySha256": "2cfe63f737722c6e14c80da95a2525ba8841102ce08ab1cb511936f230e5852e",
+          "deliveryBytes": 13336,
+          "dimensions": [
+            320,
+            134
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/08/killing-fields.w640.webp",
+          "deliverySha256": "00ff4902de1866531c43093e43245fa68968683699b5a5c7b42cbb7e82a42ef3",
+          "deliveryBytes": 42726,
+          "dimensions": [
+            640,
+            268
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/08/killing-fields.w960.webp",
+          "deliverySha256": "41f0d510b0fb37b8463ca02a3366db2991b102b41c0892fdb074e160370708e2",
+          "deliveryBytes": 79214,
+          "dimensions": [
+            960,
+            402
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/08/london-colonia.webp",
+      "delivery": "/assets/images/2026/08/london-colonia.webp",
+      "sourceSha256": "d72267aa74ffa7ef05857bd299801608db83ef3610e9af9607260215fc34707f",
+      "deliverySha256": "d72267aa74ffa7ef05857bd299801608db83ef3610e9af9607260215fc34707f",
+      "sourceBytes": 118200,
+      "deliveryBytes": 118200,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/posts/1-3-gravity.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/08/london-colonia.w320.webp",
+          "deliverySha256": "2b01aa1f8877509650dc5ff7e75366a1caa86f77045f0befbbfbef3419cb467e",
+          "deliveryBytes": 21946,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/08/london-colonia.w640.webp",
+          "deliverySha256": "9a69c434b0c05a3cdce3fe849092356544b10c3e684e527ce021e162a68b9c3c",
+          "deliveryBytes": 65894,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/08/maeve-night-pub.webp",
+      "delivery": "/assets/images/2026/08/maeve-night-pub.webp",
+      "sourceSha256": "c1ce3f97382d19d8f57fcc8476ce4406d68a0259ed5bf2990fd3c09c7cf481a1",
+      "deliverySha256": "c1ce3f97382d19d8f57fcc8476ce4406d68a0259ed5bf2990fd3c09c7cf481a1",
+      "sourceBytes": 49212,
+      "deliveryBytes": 49212,
+      "dimensions": [
+        1264,
+        848
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/posts/1-4-bad-apples.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/08/maeve-night-pub.w320.webp",
+          "deliverySha256": "f68ca3c29cc052184c9ecc00ff1f78a9b812ad1ac81efc354d2cf39da779a18a",
+          "deliveryBytes": 14336,
+          "dimensions": [
+            320,
+            215
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/08/maeve-night-pub.w640.webp",
+          "deliverySha256": "9099193047c2d60a050e47a02ade55341c89ba915aef2e49835107cd146ef1c0",
+          "deliveryBytes": 36400,
+          "dimensions": [
+            640,
+            429
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/08/river2.webp",
+      "delivery": "/assets/images/2026/08/river2.webp",
+      "sourceSha256": "0afb72cfbec29f6f77fab987845cb216b3647cee22dc6885633a40eafa8e6059",
+      "deliverySha256": "0afb72cfbec29f6f77fab987845cb216b3647cee22dc6885633a40eafa8e6059",
+      "sourceBytes": 47680,
+      "deliveryBytes": 47680,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/posts/1-6-the-killing-fields.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/08/river2.w320.webp",
+          "deliverySha256": "09a5e871fa8b34d43385d1bec2fe7f3c25901b4581743426cce55fad63ef6ad1",
+          "deliveryBytes": 8474,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/08/river2.w640.webp",
+          "deliverySha256": "ea0ee0d68b6debdbe29c457e02efffcc60c0cfdd222990c4c9a37f0f3a9a8cbc",
+          "deliveryBytes": 24946,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/08/river2.w960.webp",
+          "deliverySha256": "4f6419a4a11d5272b0153740f80c37f33c1ac82b267e48fb6a1bfa0f8a92ee5e",
+          "deliveryBytes": 45502,
+          "dimensions": [
+            960,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/08/sergei-cupcake.webp",
+      "delivery": "/assets/images/2026/08/sergei-cupcake.webp",
+      "sourceSha256": "4af41bc74e7394e5c9e6d52cc8b260fe4f559747d6c7cf50c3a464a9f0ae823d",
+      "deliverySha256": "4af41bc74e7394e5c9e6d52cc8b260fe4f559747d6c7cf50c3a464a9f0ae823d",
+      "sourceBytes": 29630,
+      "deliveryBytes": 29630,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/posts/1-3-gravity.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/08/sergei-cupcake.w320.webp",
+          "deliverySha256": "4f1e8374fb4eff993d0133b3854b1e4dae4ce4ef61c05c8394089ceb4d0f80bd",
+          "deliveryBytes": 9572,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/08/sergei-cupcake.w640.webp",
+          "deliverySha256": "bd5dee22e66b7b8f1c18df0ce339e9aa6a4ed4afa51b2efa24cb17f298e20796",
+          "deliveryBytes": 21390,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/08/sergei-labtable.webp",
+      "delivery": "/assets/images/2026/08/sergei-labtable.webp",
+      "sourceSha256": "4a6c3d9a4b2fd48ae613ef266d20094783f0e8452bb63000bceb237788d486cf",
+      "deliverySha256": "4a6c3d9a4b2fd48ae613ef266d20094783f0e8452bb63000bceb237788d486cf",
+      "sourceBytes": 35548,
+      "deliveryBytes": 35548,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/posts/1-4-bad-apples.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/08/sergei-labtable.w320.webp",
+          "deliverySha256": "7c3b48518bd718ab745da404db530fa7123d6045be0446fd8857cdb37411ed49",
+          "deliveryBytes": 11654,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/08/sergei-labtable.w640.webp",
+          "deliverySha256": "3c0531f36d5976d9bc3ce58122cf6e8d38e31ced8708bfc96ef397569a6ea166",
+          "deliveryBytes": 26842,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/08/town-hall-1.webp",
+      "delivery": "/assets/images/2026/08/town-hall-1.webp",
+      "sourceSha256": "ce264fc76f064c6d9598c00c7bb771b1826f6dc6568f2601db3c28cc4f1a0590",
+      "deliverySha256": "ce264fc76f064c6d9598c00c7bb771b1826f6dc6568f2601db3c28cc4f1a0590",
+      "sourceBytes": 96070,
+      "deliveryBytes": 96070,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/posts/1-4-bad-apples.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/08/town-hall-1.w320.webp",
+          "deliverySha256": "16fc332c5bcdee26da583e2af15f40d49ba3c768ec93db4f2d2c14f876575d5a",
+          "deliveryBytes": 19422,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/08/town-hall-1.w640.webp",
+          "deliverySha256": "99a14900d310a247412156358495fbccf97e30c93bbb5980dfb3b064cf183577",
+          "deliveryBytes": 62148,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/08/town-hall.webp",
+      "delivery": "/assets/images/2026/08/town-hall.webp",
+      "sourceSha256": "ce264fc76f064c6d9598c00c7bb771b1826f6dc6568f2601db3c28cc4f1a0590",
+      "deliverySha256": "ce264fc76f064c6d9598c00c7bb771b1826f6dc6568f2601db3c28cc4f1a0590",
+      "sourceBytes": 96070,
+      "deliveryBytes": 96070,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/posts/1-4-bad-apples.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/08/town-hall.w320.webp",
+          "deliverySha256": "16fc332c5bcdee26da583e2af15f40d49ba3c768ec93db4f2d2c14f876575d5a",
+          "deliveryBytes": 19422,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/08/town-hall.w640.webp",
+          "deliverySha256": "99a14900d310a247412156358495fbccf97e30c93bbb5980dfb3b064cf183577",
+          "deliveryBytes": 62148,
+          "dimensions": [
+            640,
+            427
           ],
           "settings": {
             "method": 6,
@@ -9609,6 +12020,359 @@
           "dimensions": [
             1280,
             717
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/08/wren-denver2.webp",
+      "delivery": "/assets/images/2026/08/wren-denver2.webp",
+      "sourceSha256": "548b13911fa607353c57768052bf85767bb2b79f3fd739f56da7d20d4783399e",
+      "deliverySha256": "548b13911fa607353c57768052bf85767bb2b79f3fd739f56da7d20d4783399e",
+      "sourceBytes": 56792,
+      "deliveryBytes": 56792,
+      "dimensions": [
+        1264,
+        848
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/posts/1-4-bad-apples.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/08/wren-denver2.w320.webp",
+          "deliverySha256": "8873bc4cbbd59022b0d659ca4e30853c026ab1cc2c36e21081e45c716b6df6a7",
+          "deliveryBytes": 15752,
+          "dimensions": [
+            320,
+            215
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/08/wren-denver2.w640.webp",
+          "deliverySha256": "e0b7daca3edbb07cb6144a78984f7b6e2e2cfecff7f866398e73bca890ceba80",
+          "deliveryBytes": 41770,
+          "dimensions": [
+            640,
+            429
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/09/catherine-headroom2.webp",
+      "delivery": "/assets/images/2026/09/catherine-headroom2.webp",
+      "sourceSha256": "8322ffd13d35bac6d8cde05cdb01a55171f0528343bebb90aaf96eec4599b64c",
+      "deliverySha256": "8322ffd13d35bac6d8cde05cdb01a55171f0528343bebb90aaf96eec4599b64c",
+      "sourceBytes": 33412,
+      "deliveryBytes": 33412,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/posts/1-7-far-from-the-tree-part-1.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/09/catherine-headroom2.w320.webp",
+          "deliverySha256": "8a3e4eaeedda9f922b2ee62794a2993fafdafcf450d540fb3e55957b6bd32d8b",
+          "deliveryBytes": 11700,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/09/catherine-headroom2.w640.webp",
+          "deliverySha256": "f6d5a5dab5bc978c523e44791ad44535e7115944f3ef14646a626c2b8218e469",
+          "deliveryBytes": 26808,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/09/daedalusupscale-1.webp",
+      "delivery": "/assets/images/2026/09/daedalusupscale-1.webp",
+      "sourceSha256": "c5e9ca493cd03a922654dfd7151378275e42968b63ae918cc78e33405da2e97e",
+      "deliverySha256": "c5e9ca493cd03a922654dfd7151378275e42968b63ae918cc78e33405da2e97e",
+      "sourceBytes": 167008,
+      "deliveryBytes": 167008,
+      "dimensions": [
+        2000,
+        1333
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/posts/1-9-far-from-the-tree-part-3.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/09/daedalusupscale-1.w320.webp",
+          "deliverySha256": "9646e8d04306971c05f6c42fb94c8be0aa9e3fb681c26a432874d5aa3880dd0f",
+          "deliveryBytes": 15682,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/09/daedalusupscale-1.w640.webp",
+          "deliverySha256": "dafd49a4cc6e51720a80569513a46c7493047991e0b9a1329756599db79ed782",
+          "deliveryBytes": 38446,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/09/daedalusupscale-1.w960.webp",
+          "deliverySha256": "c6b0cfbc59fe78f4a930783866c878d8241e17dc385dd7243f6f4b7dcf91f1b6",
+          "deliveryBytes": 64136,
+          "dimensions": [
+            960,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/09/daedalusupscale-1.w1280.webp",
+          "deliverySha256": "26694bbfba84c2aba2f2dcce4fe3c64ff196f0de3c7a3ec09e287db3401fed52",
+          "deliveryBytes": 102862,
+          "dimensions": [
+            1280,
+            853
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/09/daedalusupscale.webp",
+      "delivery": "/assets/images/2026/09/daedalusupscale.webp",
+      "sourceSha256": "c5e9ca493cd03a922654dfd7151378275e42968b63ae918cc78e33405da2e97e",
+      "deliverySha256": "c5e9ca493cd03a922654dfd7151378275e42968b63ae918cc78e33405da2e97e",
+      "sourceBytes": 167008,
+      "deliveryBytes": 167008,
+      "dimensions": [
+        2000,
+        1333
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/posts/1-9-far-from-the-tree-part-3.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/09/daedalusupscale.w320.webp",
+          "deliverySha256": "9646e8d04306971c05f6c42fb94c8be0aa9e3fb681c26a432874d5aa3880dd0f",
+          "deliveryBytes": 15682,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/09/daedalusupscale.w640.webp",
+          "deliverySha256": "dafd49a4cc6e51720a80569513a46c7493047991e0b9a1329756599db79ed782",
+          "deliveryBytes": 38446,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/09/daedalusupscale.w960.webp",
+          "deliverySha256": "c6b0cfbc59fe78f4a930783866c878d8241e17dc385dd7243f6f4b7dcf91f1b6",
+          "deliveryBytes": 64136,
+          "dimensions": [
+            960,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/09/daedalusupscale.w1280.webp",
+          "deliverySha256": "26694bbfba84c2aba2f2dcce4fe3c64ff196f0de3c7a3ec09e287db3401fed52",
+          "deliveryBytes": 102862,
+          "dimensions": [
+            1280,
+            853
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/09/ekaterinia.webp",
+      "delivery": "/assets/images/2026/09/ekaterinia.webp",
+      "sourceSha256": "662c8cf5a152745309b3ede3b46d2ede51993373c8ca007c076aa96500043e26",
+      "deliverySha256": "662c8cf5a152745309b3ede3b46d2ede51993373c8ca007c076aa96500043e26",
+      "sourceBytes": 41036,
+      "deliveryBytes": 41036,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/posts/1-7-far-from-the-tree-part-1.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/09/ekaterinia.w320.webp",
+          "deliverySha256": "2d44c4943535ad8990ffa7952f82b4b47b85fe0ca8ec5a48d0ea8a11a3402095",
+          "deliveryBytes": 11914,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/09/ekaterinia.w640.webp",
+          "deliverySha256": "98955e40cfb2d687f4c132221400df5e4ccd58b6bac12a2252d2b3eb330b819e",
+          "deliveryBytes": 27822,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/09/mariah-1.webp",
+      "delivery": "/assets/images/2026/09/mariah-1.webp",
+      "sourceSha256": "ca57410a0e05349ba89167323660f8d73f1b1bc4fdcb198ffd5535b4a5e5b87d",
+      "deliverySha256": "ca57410a0e05349ba89167323660f8d73f1b1bc4fdcb198ffd5535b4a5e5b87d",
+      "sourceBytes": 45108,
+      "deliveryBytes": 45108,
+      "dimensions": [
+        1456,
+        816
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/posts/1-7-far-from-the-tree-part-1.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/09/mariah-1.w320.webp",
+          "deliverySha256": "7c35994ef2cbb433c836d29760df979f3b89afeaa4eceddb8c749827e0bd4afa",
+          "deliveryBytes": 11446,
+          "dimensions": [
+            320,
+            179
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/09/mariah-1.w640.webp",
+          "deliverySha256": "18442429d4925f298f581a1e6ba126fa3aa28666f4f6ca609bc8e7a0bba61435",
+          "deliveryBytes": 27172,
+          "dimensions": [
+            640,
+            359
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/09/mariah-1.w960.webp",
+          "deliverySha256": "ee507df54c6c1ea75d86eca5113573522e1a7649ff1103ef5230c33a52f01e70",
+          "deliveryBytes": 43724,
+          "dimensions": [
+            960,
+            538
           ],
           "settings": {
             "method": 6,
@@ -9731,6 +12495,115 @@
           "dimensions": [
             960,
             640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/09/serpent-mound.webp",
+      "delivery": "/assets/images/2026/09/serpent-mound.webp",
+      "sourceSha256": "7bacfd9803e1a0a6f4d150c1aa1a7eb04f3177a414866d0e1208b2a4a3430d5c",
+      "deliverySha256": "7bacfd9803e1a0a6f4d150c1aa1a7eb04f3177a414866d0e1208b2a4a3430d5c",
+      "sourceBytes": 71520,
+      "deliveryBytes": 71520,
+      "dimensions": [
+        1456,
+        816
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/posts/1-10-queen-of-the-night.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/09/serpent-mound.w320.webp",
+          "deliverySha256": "709bb934ec36e1b3c7a59b6f983914a593c2220f448e5a1d6eef99598e01068d",
+          "deliveryBytes": 10606,
+          "dimensions": [
+            320,
+            179
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/09/serpent-mound.w640.webp",
+          "deliverySha256": "9c00a611dd8481f2d608c9ad9706f8fd0944ef54a4758c18f468286d67f38553",
+          "deliveryBytes": 33668,
+          "dimensions": [
+            640,
+            359
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/09/serpent-mound.w960.webp",
+          "deliverySha256": "8692a4c50e70d14a154b7e2f3048d852865324c8392b3ea515a106bdf6e9d9d9",
+          "deliveryBytes": 63160,
+          "dimensions": [
+            960,
+            538
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/09/tower.webp",
+      "delivery": "/assets/images/2026/09/tower.webp",
+      "sourceSha256": "5e5b55d6bf6aa900d8cbe3c34af1ae313282665544232fc3acb8e2e8575a3ea2",
+      "deliverySha256": "5e5b55d6bf6aa900d8cbe3c34af1ae313282665544232fc3acb8e2e8575a3ea2",
+      "sourceBytes": 105544,
+      "deliveryBytes": 105544,
+      "dimensions": [
+        1456,
+        816
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/posts/1-9-far-from-the-tree-part-3.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/09/tower.w320.webp",
+          "deliverySha256": "72fbc0f22ddd727acd02835f316f3887bb7f5490b0573ba4ebc5b3373fa0450c",
+          "deliveryBytes": 18688,
+          "dimensions": [
+            320,
+            179
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/09/tower.w640.webp",
+          "deliverySha256": "e1a7defd97dcbe3dbff595332a1ca839c2459f23743ef585629a432d464ac919",
+          "deliveryBytes": 63604,
+          "dimensions": [
+            640,
+            359
           ],
           "settings": {
             "method": 6,

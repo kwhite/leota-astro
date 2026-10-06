@@ -68,3 +68,7 @@ Referenced PDF files under `public/assets/files/` are preserved byte-for-byte, i
 Optimization continues with each content batch; the full unmigrated archive is not prepared/uploaded. This batch adds 40 referenced source images (116.96 MiB), 20.40 MiB of full-size delivery images and 144 responsive variants. All 184 new objects are uploaded to R2; three representative public downloads match their checksums. Original backup/public files remain unchanged and outside Git. The current manifest covers 198 source assets and 683 delivery files (about 152 MiB including variants/PDFs). Six source assets no longer referenced after tag cleanup leave the manifest; no bucket objects are deleted.
 
 The build passes with 58 pages. Media checks validate 357 responsive occurrences, 212 full-size links and all 683 delivery checksums. See `com-prologue-migration.json` for content/media provenance.
+
+## City of Mist Season One batch (2026-10-06)
+
+Adds 47 referenced source images (23.13 MiB), 4.86 MiB of full-size delivery images and 140 responsive variants. All 187 new objects uploaded to R2; three representative public downloads match their checksums. Current manifest covers 245 source assets and 870 delivery files. Build: 71 pages; media checks cover 503 responsive occurrences, 274 full-size links and 870 checksums. Original files remain untouched and outside Git.

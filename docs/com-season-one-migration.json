@@ -1,0 +1,495 @@
+{
+  "batch": "City of Mist Season One",
+  "spamScan": "Scanned every selected body for unrelated shopping/spam, reviewed candidates and narrative samples; no unrelated spam found. Individual injection fields not read or migrated.",
+  "posts": [
+    {
+      "slug": "1-1-discord",
+      "sourceId": "6a382660d30f0c172a80eb1b",
+      "title": "1.1 Discord",
+      "publishedAt": "2026-06-23T03:09:54.000Z",
+      "tags": [
+        "City of Mist",
+        "CoM Season 1"
+      ],
+      "sourceHtmlSha256": "f44e2dd77a3b987d9262ab7b9eed4e3fefa17ddace10803c753100cd4cfa2da4",
+      "file": "src/content/posts/1-1-discord.mdx",
+      "omittedParagraphs": 0,
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "images": 6,
+      "embeds": 3,
+      "callouts": 4
+    },
+    {
+      "slug": "1-1-2-discord-contin",
+      "sourceId": "6a413169d30f0c172a80eef3",
+      "title": "1.1.2 Discord, cont.",
+      "publishedAt": "2026-06-29T22:41:43.000Z",
+      "tags": [
+        "City of Mist",
+        "CoM Season 1"
+      ],
+      "sourceHtmlSha256": "6fe7bf77b43249d9a71cd6cbf7492ec0d50ea0b2518bf80b7c80b80928dc10a6",
+      "file": "src/content/posts/1-1-2-discord-contin.mdx",
+      "omittedParagraphs": 0,
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "images": 4,
+      "embeds": 0,
+      "callouts": 4
+    },
+    {
+      "slug": "1-2-chopping-block",
+      "sourceId": "6a4927c0c8bce703a095dda0",
+      "title": "1.2 Chopping Block",
+      "publishedAt": "2026-07-07T16:32:48.000Z",
+      "tags": [
+        "City of Mist",
+        "CoM Season 1"
+      ],
+      "sourceHtmlSha256": "d93d46ba4ff306eabcbf552e2067616df678b2bfaf9798d2af6c103c296fddfe",
+      "file": "src/content/posts/1-2-chopping-block.mdx",
+      "omittedParagraphs": 0,
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "images": 4,
+      "embeds": 1,
+      "callouts": 10
+    },
+    {
+      "slug": "1-2-2-chopping-block-cont",
+      "sourceId": "6a66767dc8bce703a095e270",
+      "title": "1.2.2 Chopping Block, cont.",
+      "publishedAt": "2026-08-01T13:41:27.000Z",
+      "tags": [
+        "City of Mist",
+        "CoM Season 1"
+      ],
+      "sourceHtmlSha256": "4f1386d35cc5cbe083d3ca72581001eb509cdf7deb27c62a545ed6d9660f896b",
+      "file": "src/content/posts/1-2-2-chopping-block-cont.mdx",
+      "omittedParagraphs": 0,
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "images": 2,
+      "embeds": 0,
+      "callouts": 2
+    },
+    {
+      "slug": "1-3-gravity",
+      "sourceId": "6a70bd92c8bce703a095e4cc",
+      "title": "1.3 Gravity",
+      "publishedAt": "2026-08-07T20:23:12.000Z",
+      "tags": [
+        "City of Mist",
+        "CoM Season 1"
+      ],
+      "sourceHtmlSha256": "9430db38fd51b9e14c7fe4f030c8709980f21f22bfe24300423aa8082db139c4",
+      "file": "src/content/posts/1-3-gravity.mdx",
+      "omittedParagraphs": 0,
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "images": 4,
+      "embeds": 0,
+      "callouts": 5
+    },
+    {
+      "slug": "1-4-bad-apples",
+      "sourceId": "6a79324267238c03a3cb9de2",
+      "title": "1.4 Bad Apples",
+      "publishedAt": "2026-08-17T22:06:49.000Z",
+      "tags": [
+        "City of Mist",
+        "CoM Season 1"
+      ],
+      "sourceHtmlSha256": "34fed366ef14a7bf45ae91346959e5c92b91aa7ff048c22dd595317a7e5f54af",
+      "file": "src/content/posts/1-4-bad-apples.mdx",
+      "omittedParagraphs": 0,
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 1,
+      "images": 6,
+      "embeds": 1,
+      "callouts": 5
+    },
+    {
+      "slug": "1-5-when-the-cats-away",
+      "sourceId": "6a8b0acd67238c03a3cba18b",
+      "title": "1.5 When the Cat's Away (Original)",
+      "publishedAt": "2026-08-24T02:39:32.000Z",
+      "tags": [],
+      "sourceHtmlSha256": "e6d3b49f208eda05a252b3d2d67a248508ffadff579b4b9dec728b7c9526ba5a",
+      "file": "src/content/posts/1-5-when-the-cats-away.mdx",
+      "omittedParagraphs": 0,
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "images": 0,
+      "embeds": 2,
+      "callouts": 4
+    },
+    {
+      "slug": "1-6-the-killing-fields",
+      "sourceId": "6a9444e167238c03a3cba43c",
+      "title": "1.6 The Killing Fields",
+      "publishedAt": "2026-09-05T03:11:30.000Z",
+      "tags": [
+        "City of Mist",
+        "CoM Season 1"
+      ],
+      "sourceHtmlSha256": "8fcdbd52334cbba7d1c4618d11261204b0ef3f007b8b9b20e6b471f00df15322",
+      "file": "src/content/posts/1-6-the-killing-fields.mdx",
+      "omittedParagraphs": 0,
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "images": 6,
+      "embeds": 1,
+      "callouts": 4
+    },
+    {
+      "slug": "1-7-far-from-the-tree-part-1",
+      "sourceId": "6a9d6a2a67238c03a3cba76b",
+      "title": "1.7 Far from the Tree, Part 1",
+      "publishedAt": "2026-09-11T23:27:41.000Z",
+      "tags": [
+        "City of Mist",
+        "CoM Season 1",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "8c057356273dd8775b5de5084393fb4754815fd2fb03003c7d69b63764eae067",
+      "file": "src/content/posts/1-7-far-from-the-tree-part-1.mdx",
+      "omittedParagraphs": 0,
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "images": 2,
+      "embeds": 0,
+      "callouts": 6
+    },
+    {
+      "slug": "1-9-far-from-the-tree-part-3",
+      "sourceId": "6aa3260a247a2403a913b000",
+      "title": "1.9 Far from the Tree, Part 3",
+      "publishedAt": "2026-09-15T14:10:32.000Z",
+      "tags": [
+        "City of Mist",
+        "CoM Season 1",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "373b2f30c2cb83eeb5e3e43902d038ef9040f4e878c97de5984c55736a03799b",
+      "file": "src/content/posts/1-9-far-from-the-tree-part-3.mdx",
+      "omittedParagraphs": 0,
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "images": 2,
+      "embeds": 0,
+      "callouts": 10
+    },
+    {
+      "slug": "1-5-when-the-cats-away-summary",
+      "sourceId": "6aab081e247a2403a913b728",
+      "title": "1.5 When the Cat's Away",
+      "publishedAt": "2026-08-23T18:40:00.000Z",
+      "tags": [
+        "City of Mist",
+        "CoM Season 1"
+      ],
+      "sourceHtmlSha256": "4cb4852ce10314532c8fc9e0529a1d31ff44c6143d66ede6f7898cf786852b16",
+      "file": "src/content/posts/1-5-when-the-cats-away-summary.mdx",
+      "omittedParagraphs": 0,
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "images": 0,
+      "embeds": 2,
+      "callouts": 9
+    },
+    {
+      "slug": "1-10-queen-of-the-night",
+      "sourceId": "6ab93848247a2403a913b8d7",
+      "title": "1.10 Queen of the Night",
+      "publishedAt": "2026-09-29T23:22:29.000Z",
+      "tags": [
+        "City of Mist",
+        "CoM Season 1",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "ee9d8a9a74d49d429f5aa1ff841b6d20d9849a4ffa17ffb06d24a113c856eb30",
+      "file": "src/content/posts/1-10-queen-of-the-night.mdx",
+      "omittedParagraphs": 0,
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 1,
+      "images": 0,
+      "embeds": 0,
+      "callouts": 5
+    }
+  ],
+  "media": [
+    {
+      "source": "/assets/images/2026/09/ekaterinia.webp",
+      "sourceSha256": "662c8cf5a152745309b3ede3b46d2ede51993373c8ca007c076aa96500043e26",
+      "sourceBytes": 41036
+    },
+    {
+      "source": "/assets/images/2026/09/daedalusupscale-1.webp",
+      "sourceSha256": "c5e9ca493cd03a922654dfd7151378275e42968b63ae918cc78e33405da2e97e",
+      "sourceBytes": 167008
+    },
+    {
+      "source": "/assets/images/2026/09/daedalusupscale.webp",
+      "sourceSha256": "c5e9ca493cd03a922654dfd7151378275e42968b63ae918cc78e33405da2e97e",
+      "sourceBytes": 167008
+    },
+    {
+      "source": "/assets/images/2026/09/serpent-mound.webp",
+      "sourceSha256": "7bacfd9803e1a0a6f4d150c1aa1a7eb04f3177a414866d0e1208b2a4a3430d5c",
+      "sourceBytes": 71520
+    },
+    {
+      "source": "/assets/images/2026/09/mariah-1.webp",
+      "sourceSha256": "ca57410a0e05349ba89167323660f8d73f1b1bc4fdcb198ffd5535b4a5e5b87d",
+      "sourceBytes": 45108
+    },
+    {
+      "source": "/assets/images/2026/09/tower.webp",
+      "sourceSha256": "5e5b55d6bf6aa900d8cbe3c34af1ae313282665544232fc3acb8e2e8575a3ea2",
+      "sourceBytes": 105544
+    },
+    {
+      "source": "/assets/images/2026/09/catherine-headroom2.webp",
+      "sourceSha256": "8322ffd13d35bac6d8cde05cdb01a55171f0528343bebb90aaf96eec4599b64c",
+      "sourceBytes": 33412
+    },
+    {
+      "source": "/assets/images/2026/06/sekhmet.webp",
+      "sourceSha256": "ae3c64143ada8e2c593b52d78cdbd6303a7138cca466acc9f593ef53277ddf3f",
+      "sourceBytes": 101186
+    },
+    {
+      "source": "/assets/images/2026/06/cillian-e1.png",
+      "sourceSha256": "1c86a2c3a92544e37e24675210bd5c3bde92a4eb01b5b702df56e12abbebe678",
+      "sourceBytes": 4565642
+    },
+    {
+      "source": "/assets/images/2026/06/maeveoffice2.png",
+      "sourceSha256": "14f7fe8e7776dfb378a6d1f10c3c462c2e2ebf1c137599434ba18a2bd72acddb",
+      "sourceBytes": 1263973
+    },
+    {
+      "source": "/assets/images/2026/06/maeve-apt2-1.webp",
+      "sourceSha256": "48878dcdd66952593227391315678802a5c68a1e56a0b7656132f9913aa2ecb8",
+      "sourceBytes": 236944
+    },
+    {
+      "source": "/assets/images/2026/06/sewers.webp",
+      "sourceSha256": "4b212341eda52662db5db64c8afdf02bc543c8397f5d9954fbea7a1a132b5614",
+      "sourceBytes": 41278
+    },
+    {
+      "source": "/assets/images/2026/06/musetta._Woman_in_her_late_20s_olive_skin_dark_brown_hair_in__c1fbb3aa-6a0f-42cc-bbe6-7a174c071f49_3.png",
+      "sourceSha256": "7ffca57af903ab27fc3e13b6cf99beba9afc81c81d54309ff3e678cdb090afee",
+      "sourceBytes": 1417365
+    },
+    {
+      "source": "/assets/images/2026/06/wren-e1.png",
+      "sourceSha256": "23314aada52f30bef7eab9f209ef3965d501b775d9aeffd10c8c16d4ee18f171",
+      "sourceBytes": 1531417
+    },
+    {
+      "source": "/assets/images/2026/06/musetta._Shot_from_inside_empty_cage_looking_outward_through_ch_bfe49b1d-9aac-44c3-ada6-362e35150661.png",
+      "sourceSha256": "d14157e59bb6d75466a3b9f230fbc94ade76281c93bcf8fd6e3c6b35e66478f7",
+      "sourceBytes": 5325413
+    },
+    {
+      "source": "/assets/images/2026/06/vipcolorful.webp",
+      "sourceSha256": "5ab0c0fbb28716c5bfebb6242e58d1cf7ac46de411d83df6b225fbb312870806",
+      "sourceBytes": 46964
+    },
+    {
+      "source": "/assets/images/2026/06/Obierika1.png",
+      "sourceSha256": "75ab8ed759abad3a4c3712dc84c524fb804a5cca90fab84defbc99fe692e6f18",
+      "sourceBytes": 6323167
+    },
+    {
+      "source": "/assets/images/2026/06/womanindoor.webp",
+      "sourceSha256": "c94adaf49ba16a021d9ed4a660714f84b2f5f60b17da9d962f25de068aeb22bd",
+      "sourceBytes": 34246
+    },
+    {
+      "source": "/assets/images/2026/07/soccer.webp",
+      "sourceSha256": "c3a38e6f7cf351b1a3f582dee04cb47c3bada8b7feae1feeb7d27ffff4797c5c",
+      "sourceBytes": 120744
+    },
+    {
+      "source": "/assets/images/2026/07/rogelio-cover.webp",
+      "sourceSha256": "08921baaabf2657edbf6854d9b2679ab3982ac74d0979eccc6a2ddeecb2966a0",
+      "sourceBytes": 38810
+    },
+    {
+      "source": "/assets/images/2026/07/pyramid.webp",
+      "sourceSha256": "ef9fc9659d84d84aa5a95daeac96f78bfef0e15437a186c7034aa9f9d28ae58f",
+      "sourceBytes": 143454
+    },
+    {
+      "source": "/assets/images/2026/07/eldorado-outside.webp",
+      "sourceSha256": "588fdf9392eafb1f35ed51ce1cf1b4e36c9fa8199913ad37970ed1338850bd94",
+      "sourceBytes": 206908
+    },
+    {
+      "source": "/assets/images/2026/07/rogelio-house.webp",
+      "sourceSha256": "a6eb9c418177278c70bb19fef75ae0c56291a62a7f79529c183061efb14e4644",
+      "sourceBytes": 250890
+    },
+    {
+      "source": "/assets/images/2026/07/soccer-1.webp",
+      "sourceSha256": "c3a38e6f7cf351b1a3f582dee04cb47c3bada8b7feae1feeb7d27ffff4797c5c",
+      "sourceBytes": 120744
+    },
+    {
+      "source": "/assets/images/2026/07/meatpacking-saturated.webp",
+      "sourceSha256": "140c2b5bcce7feb0f49c856c16614e95f008a78326078d539a9e0cf0c151f49e",
+      "sourceBytes": 189984
+    },
+    {
+      "source": "/assets/images/2026/07/chopping-block2.webp",
+      "sourceSha256": "744ff98957ab76e93aefc38dd4994558596779af8da7c3a3fa0bd1f8c2a258e9",
+      "sourceBytes": 105200
+    },
+    {
+      "source": "/assets/images/2026/08/maeve-night-pub.webp",
+      "sourceSha256": "c1ce3f97382d19d8f57fcc8476ce4406d68a0259ed5bf2990fd3c09c7cf481a1",
+      "sourceBytes": 49212
+    },
+    {
+      "source": "/assets/images/2026/08/casitacrop.webp",
+      "sourceSha256": "b7572001627e271ce6c8a49a3b23540679029dbceada2a6308a471c57dc542a6",
+      "sourceBytes": 111578
+    },
+    {
+      "source": "/assets/images/2026/08/barn-1.webp",
+      "sourceSha256": "0926710be21c7b67de2ffd0598426d1be5681008f62361b4ed09b9593447fa61",
+      "sourceBytes": 42950
+    },
+    {
+      "source": "/assets/images/2026/08/fields3.webp",
+      "sourceSha256": "4b3a8e5129cce743c166d25f1e622dcf2aadc06462371b29d9e635ca9867cc2c",
+      "sourceBytes": 101930
+    },
+    {
+      "source": "/assets/images/2026/08/wren-denver2.webp",
+      "sourceSha256": "548b13911fa607353c57768052bf85767bb2b79f3fd739f56da7d20d4783399e",
+      "sourceBytes": 56792
+    },
+    {
+      "source": "/assets/images/2026/08/town-hall.webp",
+      "sourceSha256": "ce264fc76f064c6d9598c00c7bb771b1826f6dc6568f2601db3c28cc4f1a0590",
+      "sourceBytes": 96070
+    },
+    {
+      "source": "/assets/images/2026/08/sergei-labtable.webp",
+      "sourceSha256": "4a6c3d9a4b2fd48ae613ef266d20094783f0e8452bb63000bceb237788d486cf",
+      "sourceBytes": 35548
+    },
+    {
+      "source": "/assets/images/2026/08/killing-fields.webp",
+      "sourceSha256": "fb0f46019f66f8e5d81b630ced75603b98f76f67ca19e22daeb1091a9d4162f3",
+      "sourceBytes": 87872
+    },
+    {
+      "source": "/assets/images/2026/08/sergei-cupcake.webp",
+      "sourceSha256": "4af41bc74e7394e5c9e6d52cc8b260fe4f559747d6c7cf50c3a464a9f0ae823d",
+      "sourceBytes": 29630
+    },
+    {
+      "source": "/assets/images/2026/08/kevin-ty.webp",
+      "sourceSha256": "d3573629f0e2c6e71edb415e5160f8184a47e7853e8a30530a36f614aef04c75",
+      "sourceBytes": 51410
+    },
+    {
+      "source": "/assets/images/2026/08/daniel-ritual-1.webp",
+      "sourceSha256": "f2c042beb4f5a1c93da4a521b55b6fc1dfff29f9420ba2e06c9551025d972f2e",
+      "sourceBytes": 91956
+    },
+    {
+      "source": "/assets/images/2026/08/keviv-denver-3.webp",
+      "sourceSha256": "3e2711614463aa21fef4befffdd8bcc80e8b5f362fbd71ff464152e57958c926",
+      "sourceBytes": 64420
+    },
+    {
+      "source": "/assets/images/2026/08/briana5.webp",
+      "sourceSha256": "36412029d2a2b96bdd3cacbceb5affe55524f631a199c60044319476e952a2c2",
+      "sourceBytes": 115846
+    },
+    {
+      "source": "/assets/images/2026/08/barn.webp",
+      "sourceSha256": "7c7e2723b8b917b404bd71e499c69ad462f27ed05eb955cbfe3f40f96d56691d",
+      "sourceBytes": 44360
+    },
+    {
+      "source": "/assets/images/2026/08/fort-garrido-1.webp",
+      "sourceSha256": "137a2eaaeda4e52f0b6f5193916d996684270fed8504a08a05f6e836015a0f92",
+      "sourceBytes": 135756
+    },
+    {
+      "source": "/assets/images/2026/08/london-colonia.webp",
+      "sourceSha256": "d72267aa74ffa7ef05857bd299801608db83ef3610e9af9607260215fc34707f",
+      "sourceBytes": 118200
+    },
+    {
+      "source": "/assets/images/2026/08/river2.webp",
+      "sourceSha256": "0afb72cfbec29f6f77fab987845cb216b3647cee22dc6885633a40eafa8e6059",
+      "sourceBytes": 47680
+    },
+    {
+      "source": "/assets/images/2026/08/daniel-board.webp",
+      "sourceSha256": "219aa0566f152cb3566c6de8a6ca60edf65db8d4684dfe67a550d70c3aa08ad4",
+      "sourceBytes": 48506
+    },
+    {
+      "source": "/assets/images/2026/08/b-apartment.webp",
+      "sourceSha256": "36949c5cff5d001cefb8adaf29d4d956787b2cd3c1f07e010aa531d1791b0df0",
+      "sourceBytes": 22048
+    },
+    {
+      "source": "/assets/images/2026/08/courtyard.webp",
+      "sourceSha256": "99e571af47ab506044dfb5a5325930b37d45c62e66dd4f966b6a2478930e6834",
+      "sourceBytes": 112808
+    },
+    {
+      "source": "/assets/images/2026/08/town-hall-1.webp",
+      "sourceSha256": "ce264fc76f064c6d9598c00c7bb771b1826f6dc6568f2601db3c28cc4f1a0590",
+      "sourceBytes": 96070
+    }
+  ],
+  "editorialNotes": [
+    "Gallery prefixes are intentional OOC commentary shorthand and must be preserved (Kat confirmed). Original 1.5 remains untagged and linked from the revised version. Native details/summary preserves the two collapsible sections. Source typos and campaign lore retained.",
+    "Repaired exported list nesting, preserved scene-break rules, underlines and the family-tree code block. Body images use ordinary Markdown and the automatic lightbox; HTML handles Spotify and alternate quotes.",
+    "Original 1.5 remains untagged: absent from campaign archives/homepage but included in global/author feeds under the existing behavior. Extra listing exclusion has not been requested in response to the optional question."
+  ],
+  "validation": {
+    "pages": 71,
+    "responsiveImages": 503,
+    "fullSizeLinks": 274,
+    "deliveryChecksums": 870,
+    "sourceBodyComparison": "All 12 built article bodies match source text with whitespace/typography normalized; image, embed, callout and disclosure counts checked. Gallery prefixes preserved.",
+    "spamOmissions": 0,
+    "browserChecks": "Bad Apples disclosure opens with mouse and closes with keyboard; 390px viewport has no horizontal page overflow. Markdown image opens the lightbox; Escape closes it and returns focus to its link.",
+    "publicR2Checksums": 3,
+    "gallerySpeakerPrefixesPreserved": 127
+  },
+  "mediaDelivery": {
+    "newSources": 47,
+    "sourceBytes": 24255607,
+    "fullSizeDeliveryBytes": 5093042,
+    "responsiveVariants": 140,
+    "newUploadedObjects": 187,
+    "bucketDeletions": 0
+  }
+}
