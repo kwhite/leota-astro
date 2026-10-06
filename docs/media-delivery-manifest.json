@@ -2,9 +2,9 @@
   "version": 2,
   "pillow": "12.3.0",
   "webp": "1.6.0",
-  "sourceBytes": 631255549,
-  "deliveryBytes": 129024718,
-  "variantBytes": 142148962,
+  "sourceBytes": 677192719,
+  "deliveryBytes": 133531259,
+  "variantBytes": 149615184,
   "assets": [
     {
       "source": "/assets/files/2026/02/Mirror-Mirror---Intro-Sequence-2.pdf",
@@ -255,6 +255,24 @@
       "reason": "original PDF download",
       "usedIn": [
         "src/content/pages/the-chosen-cast.mdx"
+      ],
+      "variants": []
+    },
+    {
+      "source": "/assets/files/2026/02/ceremony.pdf",
+      "delivery": "/assets/files/2026/02/ceremony.pdf",
+      "sourceSha256": "dd0ae7b4063c747c1d8fec8a2f657a49ba5d6ce12007ab097f621db0fddcd74f",
+      "deliverySha256": "dd0ae7b4063c747c1d8fec8a2f657a49ba5d6ce12007ab097f621db0fddcd74f",
+      "sourceBytes": 44531,
+      "deliveryBytes": 44531,
+      "dimensions": null,
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "original PDF download",
+      "usedIn": [
+        "src/content/posts/3-16-anger-management.mdx"
       ],
       "variants": []
     },
@@ -12590,6 +12608,930 @@
       ]
     },
     {
+      "source": "/assets/images/2026/02/ChatGPT-Image-Feb-6--2026--11_18_26-PM.png",
+      "delivery": "/assets/images/2026/02/ChatGPT-Image-Feb-6--2026--11_18_26-PM.webp",
+      "sourceSha256": "6bcbe534bfa289cff1d800d4f2a5d3956074970f8070a90ca2ea2b8aa4cb873c",
+      "deliverySha256": "5d356e4da3adec656c722e36380b90efbc36fecfd3db2970ae71fef60194826f",
+      "sourceBytes": 3076541,
+      "deliveryBytes": 486674,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/autsd.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/02/ChatGPT-Image-Feb-6--2026--11_18_26-PM.w320.webp",
+          "deliverySha256": "21bc08fe02dde36c22034e9212d544277d3686050c4445a546f21e6b1292a43f",
+          "deliveryBytes": 18618,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/ChatGPT-Image-Feb-6--2026--11_18_26-PM.w640.webp",
+          "deliverySha256": "62d8be82aa2bfc37a608517c158c64951280509dfeaffa1be2557fba6b52d62a",
+          "deliveryBytes": 67972,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/ChatGPT-Image-Feb-6--2026--11_18_26-PM.w960.webp",
+          "deliverySha256": "209dc154b94e7976d2d97aa24edb23c2dac53638a388b7d913c0ef07cf67b233",
+          "deliveryBytes": 168132,
+          "dimensions": [
+            960,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/ChatGPT-Image-Feb-6--2026--11_18_26-PM.w1280.webp",
+          "deliverySha256": "dce34ceaf5905bdd654c9d3c9fe69310aeb6f72cff7067c1f4e489aeef818711",
+          "deliveryBytes": 319232,
+          "dimensions": [
+            1280,
+            853
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/02/ChatGPT-Image-Feb-6--2026--11_47_09-PM.png",
+      "delivery": "/assets/images/2026/02/ChatGPT-Image-Feb-6--2026--11_47_09-PM.webp",
+      "sourceSha256": "2954a74cea78a1a525cf4e3366b3658a1ea23297ca54ee957c50aac62c32cc44",
+      "deliverySha256": "f376e90c6103aa2c469b4758a5c17a61be975ef618d69d6e9f1f1204ff37f20a",
+      "sourceBytes": 2268815,
+      "deliveryBytes": 223698,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/armageddon.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/02/ChatGPT-Image-Feb-6--2026--11_47_09-PM.w320.webp",
+          "deliverySha256": "bf95034c321ff2f11e586576475e30ea6f6f9236325e0a3870a603574ebf8ed9",
+          "deliveryBytes": 26924,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/ChatGPT-Image-Feb-6--2026--11_47_09-PM.w640.webp",
+          "deliverySha256": "bc1b79323e05b945d34090c06ca18e013700ab380b36802b4c36353d38f8cf30",
+          "deliveryBytes": 76334,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/ChatGPT-Image-Feb-6--2026--11_47_09-PM.w960.webp",
+          "deliverySha256": "2fb0e8e5a4f272773417bb54bb3931fbf3422d64253518f7c31282852ce2fe49",
+          "deliveryBytes": 127504,
+          "dimensions": [
+            960,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/ChatGPT-Image-Feb-6--2026--11_47_09-PM.w1280.webp",
+          "deliverySha256": "9d20514fbd2666fad71c0a1e1766a0c7a25a97910d66ae5061a8e75ae77f9add",
+          "deliveryBytes": 181444,
+          "dimensions": [
+            1280,
+            853
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/02/ChatGPT-Image-Feb-7--2026--03_25_23-PM.png",
+      "delivery": "/assets/images/2026/02/ChatGPT-Image-Feb-7--2026--03_25_23-PM.webp",
+      "sourceSha256": "385ae6fa6784be2f33b09a3571ac77f8d5faef91f1d5b47584c0c4d0df94e6b3",
+      "deliverySha256": "b80fd62bbb636ec8d993b0db86843ef518e058f54ea2df472d003730cb2f44a5",
+      "sourceBytes": 2406202,
+      "deliveryBytes": 241696,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/sanctuary.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/02/ChatGPT-Image-Feb-7--2026--03_25_23-PM.w320.webp",
+          "deliverySha256": "3860c9cbffbbb0883bf170e48c03c610eea1d0b312d65a5129f4f59cf54e87b4",
+          "deliveryBytes": 19684,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/ChatGPT-Image-Feb-7--2026--03_25_23-PM.w640.webp",
+          "deliverySha256": "10bd6ee198eb66b3541a879e146d33baa48ad5293bb3b97ad74ba227c985acb6",
+          "deliveryBytes": 68384,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/ChatGPT-Image-Feb-7--2026--03_25_23-PM.w960.webp",
+          "deliverySha256": "f0800e1546f05dc2d7de122a60e15bb0458e3bc1591891287b8bbc70f9367cf4",
+          "deliveryBytes": 127722,
+          "dimensions": [
+            960,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/ChatGPT-Image-Feb-7--2026--03_25_23-PM.w1280.webp",
+          "deliverySha256": "4fd90c758a0871baf208dda29005912882216357b92e78721e1fc39740b3568e",
+          "deliveryBytes": 187430,
+          "dimensions": [
+            1280,
+            853
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/02/ChatGPT-Image-Feb-7--2026--04_41_22-PM.png",
+      "delivery": "/assets/images/2026/02/ChatGPT-Image-Feb-7--2026--04_41_22-PM.webp",
+      "sourceSha256": "2d90171ec09ef678774632ce20989a42ec564239318c7ff2b0a7818bff380b43",
+      "deliverySha256": "daaf6ca617e364bd074467bd11ed8b87ec461bdad9858f38c5874677cbc55a18",
+      "sourceBytes": 1880041,
+      "deliveryBytes": 73072,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/sleepwalker.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/02/ChatGPT-Image-Feb-7--2026--04_41_22-PM.w320.webp",
+          "deliverySha256": "233fa52494fe51a1c33ec97bdfaba9d275a6d7088652f4a1129a5c293045d3a7",
+          "deliveryBytes": 5366,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/ChatGPT-Image-Feb-7--2026--04_41_22-PM.w640.webp",
+          "deliverySha256": "7237f9fefcab8e4dae38bc557252c0612bed7b19ca4b7f797698b887e9067165",
+          "deliveryBytes": 14796,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/ChatGPT-Image-Feb-7--2026--04_41_22-PM.w960.webp",
+          "deliverySha256": "063ae53e0cfd9d77962609bc7e723a2f6c30b13c3f56a8100d984c6be1b987e0",
+          "deliveryBytes": 28600,
+          "dimensions": [
+            960,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/ChatGPT-Image-Feb-7--2026--04_41_22-PM.w1280.webp",
+          "deliverySha256": "e7d07687f8f79ae3ed4ac49bd7203a2c5fd5635f2b850752ab88006b3d7c0aaa",
+          "deliveryBytes": 48388,
+          "dimensions": [
+            1280,
+            853
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/02/ChatGPT-Image-Feb-8--2026--04_48_57-PM.png",
+      "delivery": "/assets/images/2026/02/ChatGPT-Image-Feb-8--2026--04_48_57-PM.webp",
+      "sourceSha256": "9913ce5dc50fbcb3c53f83126fdfc0ec8511029581c191243159e4b7bea601dd",
+      "deliverySha256": "3041b45280f073a728643b7eae1ac9c1be336d45818e93123d5751f523d3820e",
+      "sourceBytes": 2482103,
+      "deliveryBytes": 282654,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/the-call-pt-1.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/02/ChatGPT-Image-Feb-8--2026--04_48_57-PM.w320.webp",
+          "deliverySha256": "7d1b5006a8c2a26e6b8fe859dcf6c32a54e85ebc99cd061bb20d3df399d2d70f",
+          "deliveryBytes": 19116,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/ChatGPT-Image-Feb-8--2026--04_48_57-PM.w640.webp",
+          "deliverySha256": "0e9fe7eb0abd74a308f20d22911c64f7440e104648efb1691573ecf8696aa297",
+          "deliveryBytes": 69688,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/ChatGPT-Image-Feb-8--2026--04_48_57-PM.w960.webp",
+          "deliverySha256": "fac422d35dc6d2991d1eaaf13d874d0b018ad4207afcb5742dc4ebd4c31757b1",
+          "deliveryBytes": 141702,
+          "dimensions": [
+            960,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/ChatGPT-Image-Feb-8--2026--04_48_57-PM.w1280.webp",
+          "deliverySha256": "536d0ce3c9afad8813482576fb743f11ca7454e0d996e07d7883153c37efd2de",
+          "deliveryBytes": 221094,
+          "dimensions": [
+            1280,
+            853
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/02/ChatGPT-Image-Feb-8--2026--05_52_52-PM-1.png",
+      "delivery": "/assets/images/2026/02/ChatGPT-Image-Feb-8--2026--05_52_52-PM-1.webp",
+      "sourceSha256": "cb9befb875b9b4196983204c63c5c80afaf4bafe86871459c3ad75c537791448",
+      "deliverySha256": "d4c6b7776ccc8b6960fba0c2b31634c2892c29f333de1da7ef7080a4f4f1cb73",
+      "sourceBytes": 2735093,
+      "deliveryBytes": 416756,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/the-call-pt-2.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/02/ChatGPT-Image-Feb-8--2026--05_52_52-PM-1.w320.webp",
+          "deliverySha256": "76bbecc2b644562284a42b00104ae28724b807ee3ad4b57326ebed28aac0bd83",
+          "deliveryBytes": 23094,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/ChatGPT-Image-Feb-8--2026--05_52_52-PM-1.w640.webp",
+          "deliverySha256": "1e5777cbbe60ba665b12f729253019bd610f52ca37f4bcd5ef6f3e21e30b9393",
+          "deliveryBytes": 86728,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/ChatGPT-Image-Feb-8--2026--05_52_52-PM-1.w960.webp",
+          "deliverySha256": "d19634a0a779c524ad9815525f51468f1c7a759142ea073ef38ef845e0308758",
+          "deliveryBytes": 186436,
+          "dimensions": [
+            960,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/ChatGPT-Image-Feb-8--2026--05_52_52-PM-1.w1280.webp",
+          "deliverySha256": "3c375246242edec6d16b854423c845455106860db087b92641b41caee4c0b3ff",
+          "deliveryBytes": 301530,
+          "dimensions": [
+            1280,
+            853
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/02/ChatGPT-Image-Feb-8--2026--07_58_51-PM.png",
+      "delivery": "/assets/images/2026/02/ChatGPT-Image-Feb-8--2026--07_58_51-PM.webp",
+      "sourceSha256": "7ee6c08973c9352e437525030dfdcf32d4940ddd66cf7e68ce2e622f0855be4a",
+      "deliverySha256": "184165a0fa0685db1f95b477219fd0b65a65aae9ec29763064a574f2feff7264",
+      "sourceBytes": 2223172,
+      "deliveryBytes": 169850,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/jaded.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/02/ChatGPT-Image-Feb-8--2026--07_58_51-PM.w320.webp",
+          "deliverySha256": "0a79d0a0d760a6d0311cb14e07e3f41b484345b1cea1aa29b48fda3ddee4f67b",
+          "deliveryBytes": 11552,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/ChatGPT-Image-Feb-8--2026--07_58_51-PM.w640.webp",
+          "deliverySha256": "3c7ee67289042579c9c5c35e0fbc9c5dd77df8d1bcf4786e324cbb6ee23ef09d",
+          "deliveryBytes": 35368,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/ChatGPT-Image-Feb-8--2026--07_58_51-PM.w960.webp",
+          "deliverySha256": "d50c15626fd753cef42118b4b536728ff6c1599c80acfff6f11bc76b1db9d836",
+          "deliveryBytes": 69468,
+          "dimensions": [
+            960,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/ChatGPT-Image-Feb-8--2026--07_58_51-PM.w1280.webp",
+          "deliverySha256": "96882e76508b5eb51a08cf1a5eedf8227db58797a367efbf690522d665816393",
+          "deliveryBytes": 122168,
+          "dimensions": [
+            1280,
+            853
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/02/ChatGPT-Image-Feb-8--2026--08_23_24-PM.png",
+      "delivery": "/assets/images/2026/02/ChatGPT-Image-Feb-8--2026--08_23_24-PM.webp",
+      "sourceSha256": "64d29f0b3a178d9d2e890098d8b42e6c7735a265effdbe1e7a091643154acc78",
+      "deliverySha256": "01d924da29ec0ec57c53b57fca9b20c2d8349f9ce46622a3b6fd2b890f0e50a1",
+      "sourceBytes": 2330033,
+      "deliveryBytes": 222766,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/parents-night.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/02/ChatGPT-Image-Feb-8--2026--08_23_24-PM.w320.webp",
+          "deliverySha256": "86a4680e4b183721672dc47b144a185c0d29022000f321b2ea88bfd5ffeb6f7c",
+          "deliveryBytes": 18076,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/ChatGPT-Image-Feb-8--2026--08_23_24-PM.w640.webp",
+          "deliverySha256": "c185bb62384042ae4cba8d3b74dddb0f63018f7e0ac478cc96e26bf32e75ac47",
+          "deliveryBytes": 55792,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/ChatGPT-Image-Feb-8--2026--08_23_24-PM.w960.webp",
+          "deliverySha256": "5ef1d7ca2b14542f892d90abacc557899e504603847bae914bf85f0e3feed90a",
+          "deliveryBytes": 104302,
+          "dimensions": [
+            960,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/ChatGPT-Image-Feb-8--2026--08_23_24-PM.w1280.webp",
+          "deliverySha256": "673a1cece660bc39a24e3ec87e4af03596a3fb807bb608673aa882f1ff7d4a07",
+          "deliveryBytes": 160490,
+          "dimensions": [
+            1280,
+            853
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/02/ChatGPT-Image-Feb-8--2026--09_55_56-PM.png",
+      "delivery": "/assets/images/2026/02/ChatGPT-Image-Feb-8--2026--09_55_56-PM.webp",
+      "sourceSha256": "8336575eaf8a0ce7815364008579abc76c153edca0c7035da948927f4567ad8b",
+      "deliverySha256": "86b5e4b7ce4d09d1b07461047de2ff89c0ffe9508576afa480b00666a73306d8",
+      "sourceBytes": 2133530,
+      "deliveryBytes": 139516,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/toxic.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/02/ChatGPT-Image-Feb-8--2026--09_55_56-PM.w320.webp",
+          "deliverySha256": "3ca66d13113f7c17a9a5af585201de40aa304cd672a48b670947970045fea2bb",
+          "deliveryBytes": 13818,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/ChatGPT-Image-Feb-8--2026--09_55_56-PM.w640.webp",
+          "deliverySha256": "7fe600768b968bec351465221f2a73dabf1b4407c1fa5bae3eee6e2c56341949",
+          "deliveryBytes": 37822,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/ChatGPT-Image-Feb-8--2026--09_55_56-PM.w960.webp",
+          "deliverySha256": "fc57dd95012616afee5a6860bf9daa755b2c35918df7816f9473f1d655cca3ff",
+          "deliveryBytes": 65804,
+          "dimensions": [
+            960,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/ChatGPT-Image-Feb-8--2026--09_55_56-PM.w1280.webp",
+          "deliverySha256": "d33f1318d937790e18a9072cd93f70062802caa4de7b842eb3ea1f8cf6856023",
+          "deliveryBytes": 104764,
+          "dimensions": [
+            1280,
+            853
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/02/ChatGPT-Image-Feb-8--2026--10_53_12-PM.png",
+      "delivery": "/assets/images/2026/02/ChatGPT-Image-Feb-8--2026--10_53_12-PM.webp",
+      "sourceSha256": "87fcf7d35100721ab4730176da283244400bf2e3551c1dde7677654474aa3299",
+      "deliverySha256": "04f2d0bbf899d16152468332f1b3083df6b7a6c9e0c9964804cace974c50367a",
+      "sourceBytes": 2559108,
+      "deliveryBytes": 343196,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/3-1-something-old-something-new.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/02/ChatGPT-Image-Feb-8--2026--10_53_12-PM.w320.webp",
+          "deliverySha256": "c9a8657c197b65a3c893a3aa770f2580dca5549de7d1c0c6b29bf513200c7b0c",
+          "deliveryBytes": 28398,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/ChatGPT-Image-Feb-8--2026--10_53_12-PM.w640.webp",
+          "deliverySha256": "02a8ff33ffaaed561f190773b38190af180b76bb3d999ce8d786b8534c53d16f",
+          "deliveryBytes": 98996,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/ChatGPT-Image-Feb-8--2026--10_53_12-PM.w960.webp",
+          "deliverySha256": "b06b1317b47d89da5da541b260f471b43c1959b9e49e89afd141c6097bf152f0",
+          "deliveryBytes": 188030,
+          "dimensions": [
+            960,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/ChatGPT-Image-Feb-8--2026--10_53_12-PM.w1280.webp",
+          "deliverySha256": "a65bbe6868de18d8515f2c2a2a4c686ebb78bdf070cace93dea202d22f3ec26d",
+          "deliveryBytes": 274318,
+          "dimensions": [
+            1280,
+            853
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/02/ChatGPT-Image-Feb-8--2026--11_10_40-PM.png",
+      "delivery": "/assets/images/2026/02/ChatGPT-Image-Feb-8--2026--11_10_40-PM.webp",
+      "sourceSha256": "5c1460d33a618082eaf4eb7aba8db199fabdbca930180557dfa39d6b9b25fe80",
+      "deliverySha256": "427498e2b843ab3c0d37e22ce0c1fa2f4271bea8fae5cdc50dde1b224c15b260",
+      "sourceBytes": 2022038,
+      "deliveryBytes": 122992,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/the-answer-pt-1.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/02/ChatGPT-Image-Feb-8--2026--11_10_40-PM.w320.webp",
+          "deliverySha256": "54deb8e2f3d1778f86893e29127b17fd2ac678ad07ba56802118fe746976bf7a",
+          "deliveryBytes": 14042,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/ChatGPT-Image-Feb-8--2026--11_10_40-PM.w640.webp",
+          "deliverySha256": "89c6c3383be394e2b737a283143be24ec51e2ac97ee0c593629e59d7793dd323",
+          "deliveryBytes": 37210,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/ChatGPT-Image-Feb-8--2026--11_10_40-PM.w960.webp",
+          "deliverySha256": "1fcb072d18c460e9f67d065c886615a889469c54963fe37b582ba99116381c82",
+          "deliveryBytes": 65222,
+          "dimensions": [
+            960,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/ChatGPT-Image-Feb-8--2026--11_10_40-PM.w1280.webp",
+          "deliverySha256": "ba8e35a32daa519012be492979790d6a90866413c4bd2f308735f0cd7fae358b",
+          "deliveryBytes": 96378,
+          "dimensions": [
+            1280,
+            853
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/02/ChatGPT-Image-Feb-8--2026--11_26_36-PM.png",
+      "delivery": "/assets/images/2026/02/ChatGPT-Image-Feb-8--2026--11_26_36-PM.webp",
+      "sourceSha256": "e92ca1b286767d4731a27634ad176d33da099e5f3432b02dd16897fb6d9c1083",
+      "deliverySha256": "85a48a64ca2f9de9a8e36b82d7f5e9fc2394f954502cb5764727ca4bbe89fe9f",
+      "sourceBytes": 2072652,
+      "deliveryBytes": 126698,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/beautiful-day.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/02/ChatGPT-Image-Feb-8--2026--11_26_36-PM.w320.webp",
+          "deliverySha256": "e19c17314d88cd7689548c59ca555050d56bd8549d6a96f7e02274af16deed68",
+          "deliveryBytes": 14108,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/ChatGPT-Image-Feb-8--2026--11_26_36-PM.w640.webp",
+          "deliverySha256": "aff5dfd98cd1ec9e37f384cc860d5b8217ecb4d067f1f04fb4a89c08bfd9da8f",
+          "deliveryBytes": 37018,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/ChatGPT-Image-Feb-8--2026--11_26_36-PM.w960.webp",
+          "deliverySha256": "17904a01fc19eef2e07be0ecf802abe94fd3761594b280e67a25db2beb4592ff",
+          "deliveryBytes": 62460,
+          "dimensions": [
+            960,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/ChatGPT-Image-Feb-8--2026--11_26_36-PM.w1280.webp",
+          "deliverySha256": "59d7d0694580bbcc193f8670bf5a93bffc8ca776cde60c21369240d001390373",
+          "deliveryBytes": 94876,
+          "dimensions": [
+            1280,
+            853
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
       "source": "/assets/images/2026/02/ChatGPT-Image-Feb-9--2026--03_23_36-PM.png",
       "delivery": "/assets/images/2026/02/ChatGPT-Image-Feb-9--2026--03_23_36-PM.webp",
       "sourceSha256": "6c1cd90f2099e5ffcaf6f61a7a55a71bd8cfc5f464cca87fb46a98fa65c482a1",
@@ -13152,6 +14094,314 @@
         "src/content/pages/the-chosen.mdx"
       ],
       "variants": []
+    },
+    {
+      "source": "/assets/images/2026/02/musetta._A_beautiful_young_latina_woman_from_the_referennce_i_cceca8f7-015f-495b-b34a-b0dbf0db3745_0.png",
+      "delivery": "/assets/images/2026/02/musetta._A_beautiful_young_latina_woman_from_the_referennce_i_cceca8f7-015f-495b-b34a-b0dbf0db3745_0.webp",
+      "sourceSha256": "505abec0e3d6955ee40091d5e425a26461e2c4f8e239b9179dbd61e39917e220",
+      "deliverySha256": "818bbba0dfd3315affc29e78e74d2c7dbf29384b12896336fa4962155cba352d",
+      "sourceBytes": 1726397,
+      "deliveryBytes": 138962,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/corrupted.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/02/musetta._A_beautiful_young_latina_woman_from_the_referennce_i_cceca8f7-015f-495b-b34a-b0dbf0db3745_0.w320.webp",
+          "deliverySha256": "a58d25fbe58ae356102b362651b13214a906bae5b97487cd2ff5c52aafa9ece3",
+          "deliveryBytes": 14498,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._A_beautiful_young_latina_woman_from_the_referennce_i_cceca8f7-015f-495b-b34a-b0dbf0db3745_0.w640.webp",
+          "deliverySha256": "f567f6759640a0ae6a328c5f393b3187c0923626467a33ddf624d4ecdb72aa5d",
+          "deliveryBytes": 36784,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._A_beautiful_young_latina_woman_from_the_referennce_i_cceca8f7-015f-495b-b34a-b0dbf0db3745_0.w960.webp",
+          "deliverySha256": "3a4b8c504ca389d1568188ffe12de943e7fe3958ec4c47d8487e34e7b6c736e9",
+          "deliveryBytes": 70794,
+          "dimensions": [
+            960,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._A_beautiful_young_latina_woman_from_the_referennce_i_cceca8f7-015f-495b-b34a-b0dbf0db3745_0.w1280.webp",
+          "deliverySha256": "9ab33df78cd774dbe745dc2982472123d99ce9f88f631da1da32deb997978aab",
+          "deliveryBytes": 123574,
+          "dimensions": [
+            1280,
+            853
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/02/musetta._A_well-dressed_gunslinger_in_a_black_hat_sits_at_a_p_34833a93-aaa8-4567-93b0-1095bc58992d_3.png",
+      "delivery": "/assets/images/2026/02/musetta._A_well-dressed_gunslinger_in_a_black_hat_sits_at_a_p_34833a93-aaa8-4567-93b0-1095bc58992d_3.webp",
+      "sourceSha256": "152900d599c8753f41fb3f06620739cb8857fc7a2017508b503e049049046fc2",
+      "deliverySha256": "b49a5dfa2e4993eb851a0fff6fb49f81cdb81232a8e5af766e35c91b0705bd05",
+      "sourceBytes": 1268615,
+      "deliveryBytes": 66862,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/www.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/02/musetta._A_well-dressed_gunslinger_in_a_black_hat_sits_at_a_p_34833a93-aaa8-4567-93b0-1095bc58992d_3.w320.webp",
+          "deliverySha256": "c450badf55afcf34fe36e713e55968ffb633c4674eace78738eaf716038c1473",
+          "deliveryBytes": 11444,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._A_well-dressed_gunslinger_in_a_black_hat_sits_at_a_p_34833a93-aaa8-4567-93b0-1095bc58992d_3.w640.webp",
+          "deliverySha256": "dfe1cc3fa504b631dcb1d9c970d4b778b69245d5ae5c61e1cc77a4253d430fb3",
+          "deliveryBytes": 26564,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._A_well-dressed_gunslinger_in_a_black_hat_sits_at_a_p_34833a93-aaa8-4567-93b0-1095bc58992d_3.w960.webp",
+          "deliverySha256": "188e8c194cbd48d717174795e2f3da7404e58c887b9c29e81f2555e4718e8124",
+          "deliveryBytes": 43944,
+          "dimensions": [
+            960,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._A_well-dressed_gunslinger_in_a_black_hat_sits_at_a_p_34833a93-aaa8-4567-93b0-1095bc58992d_3.w1280.webp",
+          "deliverySha256": "3c2ee4be5d209b88447590a85ada9aa0069229ecbd7b48584ec5f52d50129643",
+          "deliveryBytes": 63240,
+          "dimensions": [
+            1280,
+            853
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/02/musetta._A_young_Katy_Rose_plays_the_role_of_a_beautiful_blon_fa66e009-4a11-4b77-9055-6fc399ad4b6f_3.png",
+      "delivery": "/assets/images/2026/02/musetta._A_young_Katy_Rose_plays_the_role_of_a_beautiful_blon_fa66e009-4a11-4b77-9055-6fc399ad4b6f_3.webp",
+      "sourceSha256": "b50a38172f82d5f6ac4f8f891380ecc80c371d18cae162fe73e2d51a4f4e41d1",
+      "deliverySha256": "e6ad341ceee93ecdd6375ac79a50cd58602a85eb388a2a7544b04bbade6050e2",
+      "sourceBytes": 1386015,
+      "deliveryBytes": 123400,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/3-16-anger-management.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/02/musetta._A_young_Katy_Rose_plays_the_role_of_a_beautiful_blon_fa66e009-4a11-4b77-9055-6fc399ad4b6f_3.w320.webp",
+          "deliverySha256": "942a0f79cec000a91f75b14f021beb429ceac9668cbb12118548d10f95c3eb2d",
+          "deliveryBytes": 15528,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._A_young_Katy_Rose_plays_the_role_of_a_beautiful_blon_fa66e009-4a11-4b77-9055-6fc399ad4b6f_3.w640.webp",
+          "deliverySha256": "09e2862d6078fecb3046c224ea05209ce134ab3427de541f493952a6d1eb774c",
+          "deliveryBytes": 46308,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._A_young_Katy_Rose_plays_the_role_of_a_beautiful_blon_fa66e009-4a11-4b77-9055-6fc399ad4b6f_3.w960.webp",
+          "deliverySha256": "b152f17c9215be4de17073e9de6128eabf7df916ac53188f53c87ad62811799d",
+          "deliveryBytes": 83458,
+          "dimensions": [
+            960,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._A_young_Katy_Rose_plays_the_role_of_a_beautiful_blon_fa66e009-4a11-4b77-9055-6fc399ad4b6f_3.w1280.webp",
+          "deliverySha256": "c3f2f63cec462e9c9185dd9df9d9d42805b89735b3ac992c804405f2a9f3f82d",
+          "deliveryBytes": 115716,
+          "dimensions": [
+            1280,
+            853
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/02/musetta._An_ornate_Tibetan_ceremonial_plate_with_intricate_go_966f27ed-a20c-4a41-8aa6-df093aae3cc5_3.png",
+      "delivery": "/assets/images/2026/02/musetta._An_ornate_Tibetan_ceremonial_plate_with_intricate_go_966f27ed-a20c-4a41-8aa6-df093aae3cc5_3.webp",
+      "sourceSha256": "5312d6d925a2dd8721a368930034e9dbec7b44b9715c7cac17dc846b235c499d",
+      "deliverySha256": "80da99da7a19f441f8f02ddea0fd1ae88a2c3ae1b9c770c64174c7fcaa8415d9",
+      "sourceBytes": 1731616,
+      "deliveryBytes": 204378,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/two-steps-forward.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/02/musetta._An_ornate_Tibetan_ceremonial_plate_with_intricate_go_966f27ed-a20c-4a41-8aa6-df093aae3cc5_3.w320.webp",
+          "deliverySha256": "22d6a84b156b5e27f0f779a9febc969037a21e886f362b7fc1ab0705d9a231cb",
+          "deliveryBytes": 20648,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._An_ornate_Tibetan_ceremonial_plate_with_intricate_go_966f27ed-a20c-4a41-8aa6-df093aae3cc5_3.w640.webp",
+          "deliverySha256": "fed98b998e5ebb230a8e0a1411d0610f47224963af33ef0e22ad9f6915ecb869",
+          "deliveryBytes": 67298,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._An_ornate_Tibetan_ceremonial_plate_with_intricate_go_966f27ed-a20c-4a41-8aa6-df093aae3cc5_3.w960.webp",
+          "deliverySha256": "8ac8d61cf41407219d127e531f9a846de551e90a6055fa5345883b8788a91174",
+          "deliveryBytes": 124520,
+          "dimensions": [
+            960,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._An_ornate_Tibetan_ceremonial_plate_with_intricate_go_966f27ed-a20c-4a41-8aa6-df093aae3cc5_3.w1280.webp",
+          "deliverySha256": "0a1e5af64b274d98c3394d6a87b2b695bafe12c907b76e9e26cb11da742174d8",
+          "deliveryBytes": 188332,
+          "dimensions": [
+            1280,
+            853
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
     },
     {
       "source": "/assets/images/2026/02/musetta._Ancient_leather-bound_book_open_on_wooden_laboratory_7d9e832f-f216-4cd3-952b-7fd0eaf51d2d_2.png",
@@ -13912,6 +15162,83 @@
           "delivery": "/assets/images/2026/02/musetta._Dark_Victorian_attic_with_large_pentagram_occult_sym_af26af2d-5258-4bad-b4bf-801cb7ac602e_1.w1280.webp",
           "deliverySha256": "ce0a2e3ac532bc3048186a848f7ed80a02365e5647895cf37494bf28abb40b57",
           "deliveryBytes": 190144,
+          "dimensions": [
+            1280,
+            853
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/02/musetta._Four_college-aged_vampires_Raven_the_weirdly_intense_e31a4434-5565-4527-94e7-8be90f44d58c_0-1.png",
+      "delivery": "/assets/images/2026/02/musetta._Four_college-aged_vampires_Raven_the_weirdly_intense_e31a4434-5565-4527-94e7-8be90f44d58c_0-1.webp",
+      "sourceSha256": "34327b5812cfac39620f704feead6e7ffaba195257a13834bf926fd3ff37a470",
+      "deliverySha256": "6e4ce19de50ef7f7f0424082df82143263d108c812581da021067466845a6ba6",
+      "sourceBytes": 1587411,
+      "deliveryBytes": 122416,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/3-15-dead-end.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/02/musetta._Four_college-aged_vampires_Raven_the_weirdly_intense_e31a4434-5565-4527-94e7-8be90f44d58c_0-1.w320.webp",
+          "deliverySha256": "9d9973cc857563c87977749d06256a3390ff7438ea5aebaa76cf5568a2b21c4a",
+          "deliveryBytes": 17358,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Four_college-aged_vampires_Raven_the_weirdly_intense_e31a4434-5565-4527-94e7-8be90f44d58c_0-1.w640.webp",
+          "deliverySha256": "a81773f237ce6e16dcd260f2078d0fbbcff3064ce00ac0dd85f338a590c48925",
+          "deliveryBytes": 48430,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Four_college-aged_vampires_Raven_the_weirdly_intense_e31a4434-5565-4527-94e7-8be90f44d58c_0-1.w960.webp",
+          "deliverySha256": "68df92870a5cf95b339d136abdde3efdf873eef64a57142cf5d4d3f083fe87ce",
+          "deliveryBytes": 84182,
+          "dimensions": [
+            960,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Four_college-aged_vampires_Raven_the_weirdly_intense_e31a4434-5565-4527-94e7-8be90f44d58c_0-1.w1280.webp",
+          "deliverySha256": "79bcfbfb10f4de997fe0f43585852c78a379f66a5927710819fbc150104fe1c0",
+          "deliveryBytes": 115178,
           "dimensions": [
             1280,
             853
@@ -15079,6 +16406,83 @@
       ]
     },
     {
+      "source": "/assets/images/2026/02/musetta._Tight_angled_shot_of_a_young_womans_torso_her_should_32b4c3b5-21b3-4ca4-8031-a1f1d92834ef_2.png",
+      "delivery": "/assets/images/2026/02/musetta._Tight_angled_shot_of_a_young_womans_torso_her_should_32b4c3b5-21b3-4ca4-8031-a1f1d92834ef_2.webp",
+      "sourceSha256": "c3d60e4b5b143004c77a469e395ad025c721c64c697e1dfc080743f05407cf66",
+      "deliverySha256": "f258186279e77493e82c0fce353d2734052c33902304ba61d18258ba31e60230",
+      "sourceBytes": 1569432,
+      "deliveryBytes": 135430,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/code-blue.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/02/musetta._Tight_angled_shot_of_a_young_womans_torso_her_should_32b4c3b5-21b3-4ca4-8031-a1f1d92834ef_2.w320.webp",
+          "deliverySha256": "f9bdfe3b2514e50d469df7cb43ab9debb67fc967ad5b58e0154a096977dc40f1",
+          "deliveryBytes": 16740,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Tight_angled_shot_of_a_young_womans_torso_her_should_32b4c3b5-21b3-4ca4-8031-a1f1d92834ef_2.w640.webp",
+          "deliverySha256": "9035925d03893fac46652ecd89d77881791ed8da129ab04fd1d4c95c8a111e13",
+          "deliveryBytes": 46436,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Tight_angled_shot_of_a_young_womans_torso_her_should_32b4c3b5-21b3-4ca4-8031-a1f1d92834ef_2.w960.webp",
+          "deliverySha256": "0d7b0709f380bc4b2e9012dfaa7c64d10a571fdcbbc5f9682f9a68d8a5331dec",
+          "deliveryBytes": 85182,
+          "dimensions": [
+            960,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Tight_angled_shot_of_a_young_womans_torso_her_should_32b4c3b5-21b3-4ca4-8031-a1f1d92834ef_2.w1280.webp",
+          "deliverySha256": "083fea3eec2a1c637ec724e8a41b267959e9ecafad768962b9c68d244ead8593",
+          "deliveryBytes": 123274,
+          "dimensions": [
+            1280,
+            853
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
       "source": "/assets/images/2026/02/musetta._Translucent_Native_American_warrior_in_traditional_1_6fe019e0-4814-447e-9b6c-1ce15dda473f_0.png",
       "delivery": "/assets/images/2026/02/musetta._Translucent_Native_American_warrior_in_traditional_1_6fe019e0-4814-447e-9b6c-1ce15dda473f_0.webp",
       "sourceSha256": "e3bb1723a3333818cb94d720cba6aceaf91e0faa66ff68b97fa6f7c247ad1db1",
@@ -15375,6 +16779,160 @@
           "delivery": "/assets/images/2026/02/musetta._View_from_basement_looking_at_broken_brick_wall_with_485c51cd-42e1-4b8e-b1bc-cf4a2852bd7b_1.w1280.webp",
           "deliverySha256": "510379706270ef56df3e69c3e859fc5f52505bdfb7db336a3c6249e960c19fde",
           "deliveryBytes": 136172,
+          "dimensions": [
+            1280,
+            853
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/02/musetta._View_looking_down_from_inside_a_remote_isolated_rust_445d17b3-6651-47d6-8373-e73e1f511156_3.png",
+      "delivery": "/assets/images/2026/02/musetta._View_looking_down_from_inside_a_remote_isolated_rust_445d17b3-6651-47d6-8373-e73e1f511156_3.webp",
+      "sourceSha256": "73bde0acbc1de20ea76c95dac389dc1074178724dae76ed4ccdc58d45939bbcd",
+      "deliverySha256": "d8cf654c8cb69e43dd2663535f0a6e1d42539012215d5f1d2657c65846178243",
+      "sourceBytes": 1602565,
+      "deliveryBytes": 125052,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/forest-of-the-dead.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/02/musetta._View_looking_down_from_inside_a_remote_isolated_rust_445d17b3-6651-47d6-8373-e73e1f511156_3.w320.webp",
+          "deliverySha256": "7a9de84ea72792e981a8407ba26a0a5e7963620b676db8bd3f77900f6980d73f",
+          "deliveryBytes": 14200,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._View_looking_down_from_inside_a_remote_isolated_rust_445d17b3-6651-47d6-8373-e73e1f511156_3.w640.webp",
+          "deliverySha256": "b1a2a9f799c4b20b2fe97427e521149a2f532713418bcc2ade377d88767a2921",
+          "deliveryBytes": 40518,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._View_looking_down_from_inside_a_remote_isolated_rust_445d17b3-6651-47d6-8373-e73e1f511156_3.w960.webp",
+          "deliverySha256": "e9f6affc84733c0c7078d72d27d6b75cfb8db3196cce2b0cd5835c924e9eef7c",
+          "deliveryBytes": 76678,
+          "dimensions": [
+            960,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._View_looking_down_from_inside_a_remote_isolated_rust_445d17b3-6651-47d6-8373-e73e1f511156_3.w1280.webp",
+          "deliverySha256": "8e9574e307ec7812f527a69ed125503ceb7ba9343a34c1cb3ceafb4a32fa9ee1",
+          "deliveryBytes": 115742,
+          "dimensions": [
+            1280,
+            853
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/02/musetta._Wide_aerial_landscape_photograph_of_small_New_Englan_c59ef1c4-13c8-4cf8-b1a8-fe4395052810_3.png",
+      "delivery": "/assets/images/2026/02/musetta._Wide_aerial_landscape_photograph_of_small_New_Englan_c59ef1c4-13c8-4cf8-b1a8-fe4395052810_3.webp",
+      "sourceSha256": "5b40c2081daae1e8ff54c9c12b3ce9ecbd268b967db24d4478d12138bf66c71f",
+      "deliverySha256": "1da2e2167b3e3b05cba814e6e5d2351ea53497eb94d55b7b823f87d958bc40c5",
+      "sourceBytes": 1821672,
+      "deliveryBytes": 214794,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/3-23-the-answer-part-2.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/02/musetta._Wide_aerial_landscape_photograph_of_small_New_Englan_c59ef1c4-13c8-4cf8-b1a8-fe4395052810_3.w320.webp",
+          "deliverySha256": "18956e033dcc7f4d8be3b7af9ee67efc34aa03db19588a099ab1938ac7cf0840",
+          "deliveryBytes": 16290,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Wide_aerial_landscape_photograph_of_small_New_Englan_c59ef1c4-13c8-4cf8-b1a8-fe4395052810_3.w640.webp",
+          "deliverySha256": "de4c5dfae8814a3e92cf0d62dfd65544f5c5defbebfe0527b64be61877fa17f4",
+          "deliveryBytes": 59610,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Wide_aerial_landscape_photograph_of_small_New_Englan_c59ef1c4-13c8-4cf8-b1a8-fe4395052810_3.w960.webp",
+          "deliverySha256": "c520d8ae66760df293b65859caa67466b05fe651bc6da41fa141adde12db6c5f",
+          "deliveryBytes": 123912,
+          "dimensions": [
+            960,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Wide_aerial_landscape_photograph_of_small_New_Englan_c59ef1c4-13c8-4cf8-b1a8-fe4395052810_3.w1280.webp",
+          "deliverySha256": "259dae04ca7e8b607931b88d0cd23282d1daeda1fc3bd178c1b679bbcb79ccfa",
+          "deliveryBytes": 196088,
           "dimensions": [
             1280,
             853
@@ -15695,6 +17253,83 @@
       ]
     },
     {
+      "source": "/assets/images/2026/02/musetta._Young_man_in_his_20s_with_dark_hair_wearing_preppy_c_4a5113c8-0788-4510-ac41-14d9dcc2cc9a_0.png",
+      "delivery": "/assets/images/2026/02/musetta._Young_man_in_his_20s_with_dark_hair_wearing_preppy_c_4a5113c8-0788-4510-ac41-14d9dcc2cc9a_0.webp",
+      "sourceSha256": "5dd37fb590bb23199dae1db1183b9a9330b18dd755617557c6c52c3e4f1d5d84",
+      "deliverySha256": "503421c7ee47051b1eff8886e4be6d2a87f72f0bad551230a2053ce397b19658",
+      "sourceBytes": 1722699,
+      "deliveryBytes": 151844,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/3-6-static.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/02/musetta._Young_man_in_his_20s_with_dark_hair_wearing_preppy_c_4a5113c8-0788-4510-ac41-14d9dcc2cc9a_0.w320.webp",
+          "deliverySha256": "e5a6384150491e9e9a3ca52f9c2379d784b12b34a95ff0961485a0363208bc6a",
+          "deliveryBytes": 15556,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Young_man_in_his_20s_with_dark_hair_wearing_preppy_c_4a5113c8-0788-4510-ac41-14d9dcc2cc9a_0.w640.webp",
+          "deliverySha256": "550d95d79b39309f5a9a7972ac917d6215a8909eccee2592bb1134230cde93f9",
+          "deliveryBytes": 43438,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Young_man_in_his_20s_with_dark_hair_wearing_preppy_c_4a5113c8-0788-4510-ac41-14d9dcc2cc9a_0.w960.webp",
+          "deliverySha256": "2ff5ec7aae10a4dee669546a270c5a6cf3c858061d476a791e7ec2bada250852",
+          "deliveryBytes": 82182,
+          "dimensions": [
+            960,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Young_man_in_his_20s_with_dark_hair_wearing_preppy_c_4a5113c8-0788-4510-ac41-14d9dcc2cc9a_0.w1280.webp",
+          "deliverySha256": "bbd76c98f4508977782f21ed1ba764d1f6637f6affcbb7147c54c74ae91d1be4",
+          "deliveryBytes": 133824,
+          "dimensions": [
+            1280,
+            853
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
       "source": "/assets/images/2026/02/musetta._Young_petite_latina_woman_in_her_early_20s_with_long_ffad400f-f205-4a21-abe8-bde1e10f2a7a_3.png",
       "delivery": "/assets/images/2026/02/musetta._Young_petite_latina_woman_in_her_early_20s_with_long_ffad400f-f205-4a21-abe8-bde1e10f2a7a_3.webp",
       "sourceSha256": "785e1e7c8a89f940c7069a53443cce22f48112cc9031d9efc889c4b2c68e3c7c",
@@ -15837,6 +17472,160 @@
           "delivery": "/assets/images/2026/02/musetta._cinematic_image_angled_down_from_the_top_left_at_a_b_351eb776-169f-4cdf-aa8b-3f709e7c31f9_0.w1280.webp",
           "deliverySha256": "6a0e05bd2764353e90e636ef4db01d6a76a230c7096b0b845e3d154dbbbdd15b",
           "deliveryBytes": 91710,
+          "dimensions": [
+            1280,
+            853
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/02/musetta._httpss.mj.runNUgTHNw-imQ_Film_still_of_a_wide_angle__daaf239a-7eb1-4568-9674-b749e907b501_2.png",
+      "delivery": "/assets/images/2026/02/musetta._httpss.mj.runNUgTHNw-imQ_Film_still_of_a_wide_angle__daaf239a-7eb1-4568-9674-b749e907b501_2.webp",
+      "sourceSha256": "3190e0f064b8a8d6bcf9fb5023a7d3b524972dfe5347629d4d6ca0d5c56e3b50",
+      "deliverySha256": "3da894041b0b0d04dc5d4d5fb5ee31ca1aa9c198d85f5728722c97e61f231654",
+      "sourceBytes": 1483387,
+      "deliveryBytes": 122294,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/initiation.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/02/musetta._httpss.mj.runNUgTHNw-imQ_Film_still_of_a_wide_angle__daaf239a-7eb1-4568-9674-b749e907b501_2.w320.webp",
+          "deliverySha256": "6c9181d011b72887b5508ada82b380330ae9ae6cadd41032411c25175c53920f",
+          "deliveryBytes": 12878,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._httpss.mj.runNUgTHNw-imQ_Film_still_of_a_wide_angle__daaf239a-7eb1-4568-9674-b749e907b501_2.w640.webp",
+          "deliverySha256": "7e15ff9a6bfbe560d65e14197a5d1ad09f9c476af665461e24c589b67f1a6039",
+          "deliveryBytes": 39978,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._httpss.mj.runNUgTHNw-imQ_Film_still_of_a_wide_angle__daaf239a-7eb1-4568-9674-b749e907b501_2.w960.webp",
+          "deliverySha256": "3476cd7bd551a9b10e1f328490ddf8623c5af065fcb053c9030b8e05c2439fa3",
+          "deliveryBytes": 74764,
+          "dimensions": [
+            960,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._httpss.mj.runNUgTHNw-imQ_Film_still_of_a_wide_angle__daaf239a-7eb1-4568-9674-b749e907b501_2.w1280.webp",
+          "deliverySha256": "3c1f18e1e5e58442e24b3457585a07b6edd505ac1f4814fd49ebbf5ecea72aa9",
+          "deliveryBytes": 112480,
+          "dimensions": [
+            1280,
+            853
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/02/musetta._ultra-realistic_view_of_an_old_cemetery_at_night_wit_7f5e082f-330f-4ff3-a9e3-7eaf3ea02de1_0.png",
+      "delivery": "/assets/images/2026/02/musetta._ultra-realistic_view_of_an_old_cemetery_at_night_wit_7f5e082f-330f-4ff3-a9e3-7eaf3ea02de1_0.webp",
+      "sourceSha256": "bb6bab7ebfca0005fff004fa666c91690f3e4309231f2415c22ae7d536c39f13",
+      "deliverySha256": "be72d82857bcbdd09b135375ab0ee7f989966fd1b7865ba9ece33956ba86aea0",
+      "sourceBytes": 1803502,
+      "deliveryBytes": 207010,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/slayer.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/02/musetta._ultra-realistic_view_of_an_old_cemetery_at_night_wit_7f5e082f-330f-4ff3-a9e3-7eaf3ea02de1_0.w320.webp",
+          "deliverySha256": "2420f2eedf7cbd7f705caa1a18614e1af946c81bfd6de0da2ad29f7f2c61f962",
+          "deliveryBytes": 15776,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._ultra-realistic_view_of_an_old_cemetery_at_night_wit_7f5e082f-330f-4ff3-a9e3-7eaf3ea02de1_0.w640.webp",
+          "deliverySha256": "71b77bd8174440f63ec0ce4a1035b0d009a6038fe70f920aba68931351cce1ce",
+          "deliveryBytes": 55122,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._ultra-realistic_view_of_an_old_cemetery_at_night_wit_7f5e082f-330f-4ff3-a9e3-7eaf3ea02de1_0.w960.webp",
+          "deliverySha256": "f2da6121a067563d5abb3c729e57be58f694b9769113057eed7a3bbdfd2b3252",
+          "deliveryBytes": 114206,
+          "dimensions": [
+            960,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._ultra-realistic_view_of_an_old_cemetery_at_night_wit_7f5e082f-330f-4ff3-a9e3-7eaf3ea02de1_0.w1280.webp",
+          "deliverySha256": "598ef90478452df6c1c4d476f6b21d76e532a59198c50223e682361a6aed4df9",
+          "deliveryBytes": 187152,
           "dimensions": [
             1280,
             853

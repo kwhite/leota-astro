@@ -35,7 +35,7 @@ For offline media, run once while connected:
 node scripts/download-media.mjs
 ```
 
-This downloads only the manifest's optimized images, responsive variants and PDFs into ignored `.media-delivery/` (about 114 MiB currently). No credentials are needed. Downloads are checksum-verified; rerunning skips valid files and fetches new/changed ones. Restart development after manifest changes. Delete `.media-delivery/` whenever you no longer need the cache.
+This downloads only the manifest's optimized images, responsive variants and PDFs into ignored `.media-delivery/` (about 270 MiB currently). No credentials are needed. Downloads are checksum-verified; rerunning skips valid files and fetches new/changed ones. Restart development after manifest changes. Delete `.media-delivery/` whenever you no longer need the cache.
 
 For a build with bundled cached media:
 
@@ -96,3 +96,8 @@ All 110 new Season 1 delivery files are uploaded to R2; three representative pub
 ## The Chosen Season 2 batch (2026-10-06)
 
 Adds 23 images (40,225,134 source bytes; 3,594,116 full-size delivery bytes), 13 unchanged PDFs (675,497 bytes) and 92 responsive variants. All 128 new objects uploaded to R2. All 13 public PDFs and three representative image downloads match checksums; PDF content types and attachment headers verified. Manifest: 413 source assets and 1,604 delivery files. Build: 191 pages; media checks cover 1,390 responsive occurrences, 610 full-size links and 1,604 checksums. Originals remain unchanged; no bucket objects deleted.
+
+
+## The Chosen Season 3 batch (2026-10-06)
+
+Adds 23 covers (45,892,639 source bytes; 4,462,010 full-size delivery bytes), 92 responsive variants and one unchanged PDF (44,531 bytes). All 116 new objects uploaded to R2; the public PDF and three representative image downloads match SHA-256 checksums. PDF content type and attachment headers verified. Manifest: 437 source assets and 1,720 delivery files (about 270 MiB). Build: 217 pages; media checks cover 1,599 responsive occurrences, 663 full-size links and 1,720 checksums. Original files remain unchanged; no bucket objects deleted.

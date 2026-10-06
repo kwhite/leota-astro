@@ -1,6 +1,6 @@
 {
   "date": "2026-10-06",
-  "status": "Approved taxonomy cleanup; scoped content migration in progress",
+  "status": "Approved taxonomy cleanup; all retained source posts migrated",
   "canonicalFormatTag": "Session Recaps",
   "homepageFilter": "CoM Season 1",
   "preserveBackupExport": true,
@@ -1208,7 +1208,7 @@
     {
       "slug": "initiation",
       "title": "3.14 Initiation",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 3",
@@ -1218,7 +1218,7 @@
     {
       "slug": "toxic",
       "title": "3.2 Toxic",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 3",
@@ -1228,7 +1228,7 @@
     {
       "slug": "code-blue",
       "title": "3.3 Code Blue",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 3",
@@ -1238,7 +1238,7 @@
     {
       "slug": "slayer",
       "title": "3.4 Slayer",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 3",
@@ -1248,7 +1248,7 @@
     {
       "slug": "forest-of-the-dead",
       "title": "3.5 Forest of the Dead",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 3",
@@ -1258,7 +1258,7 @@
     {
       "slug": "www",
       "title": "3.11 WWW",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 3",
@@ -1268,7 +1268,7 @@
     {
       "slug": "parents-night",
       "title": "3.7 Parent's Night",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 3",
@@ -1278,7 +1278,7 @@
     {
       "slug": "jaded",
       "title": "3.8 Jaded",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 3",
@@ -1288,7 +1288,7 @@
     {
       "slug": "the-call-pt-1",
       "title": "3.9 The Call, Part One",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 3",
@@ -1298,7 +1298,7 @@
     {
       "slug": "the-call-pt-2",
       "title": "3.10 The Call, Part Two",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 3",
@@ -1308,7 +1308,7 @@
     {
       "slug": "corrupted",
       "title": "3.17 Corrupted",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 3",
@@ -1318,7 +1318,7 @@
     {
       "slug": "autsd",
       "title": "3.19 A.U.T.S.D.",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 3",
@@ -1328,7 +1328,7 @@
     {
       "slug": "sleepwalker",
       "title": "3.13 Sleepwalker",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 3",
@@ -1338,7 +1338,7 @@
     {
       "slug": "two-steps-forward",
       "title": "3.12 Two Steps Forward",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 3",
@@ -1348,7 +1348,7 @@
     {
       "slug": "sanctuary",
       "title": "3.18 Sanctuary",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 3",
@@ -1358,7 +1358,7 @@
     {
       "slug": "beautiful-day",
       "title": "3.21 Beautiful Day",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 3",
@@ -1368,7 +1368,7 @@
     {
       "slug": "the-answer-pt-1",
       "title": "3.22 The Answer, Part I",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 3",
@@ -1378,7 +1378,7 @@
     {
       "slug": "armageddon",
       "title": "3.20 Armageddon",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 3",
@@ -1388,7 +1388,7 @@
     {
       "slug": "3-1-something-old-something-new",
       "title": "3.1 Something Old, Something New",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Session Recaps",
@@ -1398,7 +1398,7 @@
     {
       "slug": "3-15-dead-end",
       "title": "3.15 Dead End",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 3"
@@ -1407,7 +1407,7 @@
     {
       "slug": "3-16-anger-management",
       "title": "3.16 Anger Management",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 3"
@@ -1425,7 +1425,7 @@
     {
       "slug": "3-6-static",
       "title": "3.6 Static",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 3"
@@ -1434,7 +1434,7 @@
     {
       "slug": "3-23-the-answer-part-2",
       "title": "3.23 The Answer, Part 2",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 3",
@@ -1751,8 +1751,8 @@
   "summary": {
     "sourcePosts": 170,
     "retainedArchivePosts": 168,
-    "alreadyMigratedPosts": 145,
-    "remainingPostsToMigrate": 23,
+    "alreadyMigratedPosts": 168,
+    "remainingPostsToMigrate": 0,
     "approvedOmissions": 2,
     "untaggedRetainedPosts": [
       "1-5-when-the-cats-away"

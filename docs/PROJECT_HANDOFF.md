@@ -1,20 +1,22 @@
 # Here Be Dragons / Leota Astro — thread handoff
 
-Last updated: 2026-10-06, after migrating The Chosen Season 2. This document records project context and user decisions; it is not authorization to deploy, send email, or migrate the full archive. **This current checkpoint takes precedence over the historical milestones below.**
+Last updated: 2026-10-06, after migrating The Chosen Season 3. This document records project context and user decisions; it is not authorization to deploy, send email, or migrate the full archive. **This current checkpoint takes precedence over the historical milestones below.**
 
 ## Goal and current position
 
 Port Kat's Leota Ghost theme and selected content to Astro, preserving the dark design, editable Markdown/MDX, source content and reusable components. Cloudflare hosts the site; Netlify is paused. Kat confirmed live images load from R2.
 
-Main includes PRs #12–#23: Chosen Cast/Rules and PDF download cards, portable R2 media, automatic Markdown image lightboxes, dependency updates, approved tag cleanup, the finished Gazette, City of Mist through Season One, both Freaky Gray Company arcs, and The Chosen Season 1. Current branch `codex/the-chosen-season-two` migrates all 22 Season 2 posts, prepared for PR review. Check its merge status before starting another branch from updated `main`.
+Main includes PRs #12–#24: Chosen Cast/Rules and PDF download cards, portable R2 media, automatic Markdown image lightboxes, dependency updates, approved tag cleanup, the finished Gazette, City of Mist through Season One, both Freaky Gray Company arcs, and The Chosen Seasons 1–2. Current branch `codex/the-chosen-season-three` migrates all 23 Season 3 posts, prepared for PR review. Check its merge status before starting another branch from updated `main`.
 
 Kat approved retaining campaigns, chronology and Gazette locations, removing character, venue and broad/context tags, and consolidating Session Notes/Session Recap into **Session Recaps**. Current post metadata and tag archives reflect this choice; the homepage remains filtered by CoM Season 1. Static 301 rules for former format archives are bundled in `public/_redirects`; Cloudflare runtime behavior remains to be checked after deployment.
 
-Validation: the current R2 production build passes with 191 pages. Media checks cover 1,390 responsive-image occurrences, 610 full-size links and 1,604 delivery-file checksums. Retained navigation archives and the Session Recaps archive/feed were verified, along with the migration plan and bundled redirects. Documentation-only edits do not require another build.
+Validation: the current R2 production build passes with 217 pages. Media checks cover 1,599 responsive-image occurrences, 663 full-size links and 1,720 delivery-file checksums. Retained navigation archives and the Session Recaps archive/feed were verified, along with the migration plan and bundled redirects. Documentation-only edits do not require another build.
 
 ## Next session
 
-Review/merge The Chosen Season 2 PR. City of Mist and Freaky Gray Company are migrated through all currently published posts. Next and final source-post batch: The Chosen Season 3 (23 posts). Use a fresh branch from updated main after merge. Kat approved separate branches/PRs per reviewable season or arc. Read [tag-migration-decisions.md](tag-migration-decisions.md) and [tag-migration-plan.json](tag-migration-plan.json): of 170 source posts, 145 already exist, 23 remain to migrate, and two imported duplicates are approved omissions. Feolinn is a Gazette location; Quicksliver Cabaret is under Zadash and its Return to Summary destination exists. Preserve the untagged 1.5 Original and its direct link from the revised post.
+Review/merge The Chosen Season 3 PR. The source-post migration is now complete in this branch: all 168 retained posts have destination files; the two obsolete imported duplicates are the only approved omissions from the 170-post export. No source posts remain pending. City of Mist, Freaky Gray Company and The Chosen are migrated through their published archives. Read [tag-migration-decisions.md](tag-migration-decisions.md) and [tag-migration-plan.json](tag-migration-plan.json) for mappings and omissions.
+
+Next suggested work after merge: a final cross-archive link/redirect review and an audit of any remaining source pages (the RPG Consent Checklist navigation remains inactive). This is separate from the completed source-post batches and from Kat's deferred editorial cleanup. Do not claim the entire site migration/deployment audit is complete. Feolinn is a Gazette location; Quicksliver Cabaret is under Zadash and its Return to Summary destination exists. Preserve the untagged 1.5 Original and its direct link from the revised post.
 
 Kat plans to clean up Arc 1 headings/callouts another time; defer that editorial work. Arc 1's two covers were removed at her request for consistency. Arc 2 uses covers throughout, so its source covers are retained.
 
@@ -380,3 +382,14 @@ Omitted 16 unrelated shopping-spam paragraphs across 15 posts. Original HTML has
 Validation: 191-page production build passes. All 22 built article bodies match source text after recorded spam omissions, excluding only non-visible download-icon SVG/style text. Structural counts, 22 season archive links, campaign pagination, 18 XML files and the homepage campaign filter pass. Media checks cover 1,390 responsive occurrences, 610 full-size links and 1,604 delivery checksums. Play It Again download-card captions/display filenames and loaded Spotify players were reviewed in the local browser.
 
 This batch adds 23 images (40,225,134 source bytes; 3,594,116 full-size delivery bytes), 13 unchanged PDFs (675,497 bytes) and 92 responsive variants. All 128 new delivery objects are uploaded to R2. All 13 public PDF downloads and three representative image downloads match checksums; PDF attachment headers are verified. Manifest: 413 source assets and 1,604 delivery files. No bucket objects deleted.
+
+
+## The Chosen Season 3 batch (2026-10-06)
+
+All 23 Season 3 posts migrated: 22 plain Markdown files and one MDX file for the ceremony PDF card. Source titles, slugs, dates, ordered tags and OOC/Gallery commentary are preserved, along with 160 horizontal scene separators, 14 literal asterisk breaks, all source headings and five alternate quotes. The final post retains its original missing-notes notice. No story text is invented or editorially rewritten.
+
+Omitted 27 unrelated shopping-spam paragraphs across 19 posts. Source HTML hashes, paragraph indices, omission hashes and reasons are in [chosen-season-three-migration.json](chosen-season-three-migration.json). The two-page memorial-ceremony PDF was text-scanned without spam matches and retained byte-for-byte. Source injection fields were not read or migrated; original backups remain unchanged.
+
+Validation: production build passes with 217 pages. All 23 built article bodies match source text after recorded omissions, excluding non-visible download-icon SVG/style text. Scene-break, heading, alternate-quote and PDF-card checks pass, as do 23 season archive links, campaign pagination, 19 XML files and the homepage filter. All 168 retained source-post destination routes now build; the two approved duplicate omissions are the only excluded source posts. This completes source-post migration, not the remaining source-page/link/deployment review.
+
+Media: 23 source covers (45,892,639 bytes), 4,462,010 bytes of full-size delivery images, 92 responsive variants and one unchanged PDF (44,531 bytes). All 116 new objects uploaded to R2; the public PDF and three representative images match checksums, and PDF download headers pass. Current manifest: 437 source assets and 1,720 delivery files. Media checks pass for 1,599 responsive occurrences, 663 full-size links and 1,720 checksums. No bucket objects deleted.
