@@ -45,7 +45,7 @@ export const CAMPAIGN_NAVIGATION = {
     links: [
       { id: 'overview', label: 'Overview', href: '/the-freaky-gray-company/', available: true },
       { id: 'people', label: 'Characters', href: '/fgc-characters/', available: true },
-      { id: 'gazette', label: 'Wildemount Gazette', href: '/the-wildemount-gazette/', available: false },
+      { id: 'gazette', label: 'Wildemount Gazette', href: '/the-wildemount-gazette/', available: true },
       { id: 'summaries', label: 'Session Summaries', href: '/tag/freaky-gray-company/', available: true },
     ],
   },

@@ -1,0 +1,192 @@
+{
+  "posts": [
+    {
+      "slug": "the-red-veil",
+      "sourceId": "684df7c9e13df905d908b6bb",
+      "title": "The Red Veil",
+      "tags": [
+        "Kamordah",
+        "tavern",
+        "Wildemount"
+      ],
+      "publishedAt": "2025-06-14T22:33:06.000Z",
+      "sourceHtmlSha256": "31203b0d4419a028035d0d7d2c3464b513f98379ec8d8751c1f0310ebd607384",
+      "tables": 3,
+      "omittedParagraphs": 0
+    },
+    {
+      "slug": "the-vintners-respite",
+      "sourceId": "684df9d1e13df905d908b6db",
+      "title": "The Vintner’s Respite",
+      "tags": [
+        "Kamordah",
+        "inns",
+        "Wildemount"
+      ],
+      "publishedAt": "2025-06-14T22:43:18.000Z",
+      "sourceHtmlSha256": "b8a20a7f08d8b3f96ead808d682318885301ef5e3c0e03d32b4fcda4aca3eef8",
+      "tables": 2,
+      "omittedParagraphs": 1
+    },
+    {
+      "slug": "the-scarlet-root",
+      "sourceId": "684e0438e13df905d908b716",
+      "title": "The Scarlet Root",
+      "tags": [
+        "Kamordah",
+        "shops"
+      ],
+      "publishedAt": "2025-06-14T23:29:26.000Z",
+      "sourceHtmlSha256": "0cd4d0555afea07d9537a6f652fe608f17f41b4b05acdef157bf08bdf7282776",
+      "tables": 1,
+      "omittedParagraphs": 1
+    },
+    {
+      "slug": "the-emberglow-atelier",
+      "sourceId": "684e0776e13df905d908b733",
+      "title": "The Emberglow Atelier",
+      "tags": [
+        "Kamordah",
+        "shops"
+      ],
+      "publishedAt": "2025-06-14T23:39:57.000Z",
+      "sourceHtmlSha256": "aaf852c4088e64712ce20777b2e4e1721c368f81f7b8eb8921402d3b605f217c",
+      "tables": 1,
+      "omittedParagraphs": 2
+    },
+    {
+      "slug": "emberpetal-springs",
+      "sourceId": "684e090ce13df905d908b74d",
+      "title": "Fire Orchid Springs",
+      "tags": [
+        "Kamordah",
+        "spa"
+      ],
+      "publishedAt": "2025-06-14T23:46:00.000Z",
+      "sourceHtmlSha256": "2b34b7d26139a9b2866ee2bbfa48d3dffd38009915a4a2047bc7eedf84062171",
+      "tables": 1,
+      "omittedParagraphs": 0
+    },
+    {
+      "slug": "the-invulnerable-vagrant",
+      "sourceId": "684e0dd5e13df905d908b773",
+      "title": "The Invulnerable Vagrant",
+      "tags": [
+        "Zadash",
+        "shops"
+      ],
+      "publishedAt": "2025-06-15T00:08:32.000Z",
+      "sourceHtmlSha256": "ee008855b8e53dcc2d82d4012706dd3a1cd314d8733782583753acee550ff051",
+      "tables": 1,
+      "omittedParagraphs": 0
+    },
+    {
+      "slug": "the-steamed-buns",
+      "sourceId": "684e104ee13df905d908b78a",
+      "title": "The Steamed Buns",
+      "tags": [
+        "Zadash",
+        "spa"
+      ],
+      "publishedAt": "2025-06-15T00:23:39.000Z",
+      "sourceHtmlSha256": "1a17fc413b893cacb1169096155312edb94add4ae542f41bf6d79a6f8fe61f61",
+      "tables": 2,
+      "omittedParagraphs": 1
+    }
+  ],
+  "omissions": [
+    {
+      "slug": "the-vintners-respite",
+      "paragraph": "La búsqueda gana coherencia cuando se determina la conveniencia de una prenda para regalo o uso propio. Antes de continuar con la compra, conviene revisar el plazo de preparación señalado para el producto. La comparación puede completarse con «cómo elegir una camiseta de selección» para revisar los detalles descritos en cada resultado. Antes de confirmar la compra, conviene leer las condiciones de cambio y devolución.",
+      "reason": "Unrelated shopping text; omission approved by Kat."
+    },
+    {
+      "slug": "the-scarlet-root",
+      "paragraph": "コスプレ用の靴を選ぶ際は、足長、足幅、甲の高さ、ヒールの高さを確認することが大切です。複数の候補を比較する際は、コスプレシューズ 通販で仕様の違いを確認できます。サイズに迷う場合は、交換条件を確認したうえで足幅や甲の高さも基準に選びましょう。",
+      "reason": "Unrelated shopping text; omission approved by Kat."
+    },
+    {
+      "slug": "the-emberglow-atelier",
+      "paragraph": "コスプレ衣装を選ぶ際は、サイズ表、素材、付属品、発送予定日を確認すると比較しやすくなります。商品仕様や選び方を比べたい場合は、ブルアカ コスプレ衣装から関連情報を確認できます。最後に衣装全体を試着し、正面だけでなく横や後ろからもシルエットを確認すると安心です。",
+      "reason": "Unrelated shopping text; omission approved by Kat."
+    },
+    {
+      "slug": "the-emberglow-atelier",
+      "paragraph": "Una búsqueda eficaz parte de concretar la necesidad de una prenda suelta o una equipación completa. La decisión gana claridad cuando se puede confirmar la temporada y el diseño descritos. Antes de decidir, «camisetas retro del AC Milan» puede orientar la tarea de revisar recomendaciones prácticas relacionadas con el tema. Para tomar una decisión informada, conviene comparar la opción elegida con las alternativas consideradas.",
+      "reason": "Unrelated shopping text; omission approved by Kat."
+    },
+    {
+      "slug": "the-steamed-buns",
+      "paragraph": "Football shirts often preserve the colours and identity associated with a club or national team. When fit and season are both important, Argentina national team jersey（camiseta de la selección argentina） keeps the choice tied to the intended team. Personalisation choices should complement the existing colour and layout of the design.",
+      "reason": "Unrelated shopping text; omission approved by Kat."
+    }
+  ],
+  "media": [
+    {
+      "url": "/assets/images/2025/06/IMG_0630.png",
+      "source": "images/2025/06/IMG_0630.png",
+      "bytes": 2054069,
+      "sha256": "b309675d06a85d30c4491a8596189ca099090ad69e6cefd4b74618ad766dab04"
+    },
+    {
+      "url": "/assets/images/2025/06/CC5EE366-6ADC-4C0B-9893-EB5DBA9FFD70.png",
+      "source": "images/2025/06/CC5EE366-6ADC-4C0B-9893-EB5DBA9FFD70.png",
+      "bytes": 2868225,
+      "sha256": "a26af5264f799de8153c91764788a1c15aa71863b99a2f1a3994e04434f343d5"
+    },
+    {
+      "url": "/assets/images/2025/06/A2C3D567-92EB-4248-AE29-2B530F343E28.png",
+      "source": "images/2025/06/A2C3D567-92EB-4248-AE29-2B530F343E28.png",
+      "bytes": 3102431,
+      "sha256": "711413ee655383323271fa92049c2c964130659b56904d826619b0e0d45e15c2"
+    },
+    {
+      "url": "/assets/images/2025/06/IMG_0610-1.png",
+      "source": "images/2025/06/IMG_0610-1.png",
+      "bytes": 2159665,
+      "sha256": "7ee924b66426052c2535e3d58829d08cd3bab3dc224629be84f4f762124d45e0"
+    },
+    {
+      "url": "/assets/images/2025/06/1672807A-B150-448B-90DB-F006CB4AC05F.png",
+      "source": "images/2025/06/1672807A-B150-448B-90DB-F006CB4AC05F.png",
+      "bytes": 2725713,
+      "sha256": "25b215879816ae5f2472c1c34de6d90993f536723c12e8d526cc306d24e10674"
+    },
+    {
+      "url": "/assets/images/2025/06/8C6FA1FB-F232-429D-B41C-261ADC831030.png",
+      "source": "images/2025/06/8C6FA1FB-F232-429D-B41C-261ADC831030.png",
+      "bytes": 2909731,
+      "sha256": "282d47d8087dc9e76e8689cb89c28190d3ba6a57b6dd809c85c0d09c95c581fb"
+    },
+    {
+      "url": "/assets/images/2025/06/IMG_0631.png",
+      "source": "images/2025/06/IMG_0631.png",
+      "bytes": 1951379,
+      "sha256": "9da3d0eea57434d90b6c019d46c4b963984054acc31815dc4a14e9198f76d228"
+    },
+    {
+      "url": "/assets/images/2025/06/IMG_0606-2.png",
+      "source": "images/2025/06/IMG_0606-2.png",
+      "bytes": 1800465,
+      "sha256": "4bf2c3cbb4161143ce65ddd2b390e5c410de48a326134681d277a99c4d4d0f9c"
+    },
+    {
+      "url": "/assets/images/2025/06/IMG_0633.png",
+      "source": "images/2025/06/IMG_0633.png",
+      "bytes": 2061274,
+      "sha256": "70bbb7686432b73a7a2dae25ff6c3d6c2a440580b3e9ae4255418f12bea58ad2"
+    },
+    {
+      "url": "/assets/images/2025/06/IMG_0628.jpeg",
+      "source": "images/2025/06/IMG_0628.jpeg",
+      "bytes": 196409,
+      "sha256": "057dbf5edbe38cbd4c2f27152bf6d18e4a514718eaf9c3dc7f142a0d706691eb"
+    },
+    {
+      "url": "/assets/images/2025/06/IMG_0625.png",
+      "source": "images/2025/06/IMG_0625.png",
+      "bytes": 2282346,
+      "sha256": "80372408c748bae51423cc39fbc01e6d4d31d953e5649913c28690e00cb9f569"
+    }
+  ]
+}

@@ -2,9 +2,9 @@
   "version": 2,
   "pillow": "12.3.0",
   "webp": "1.6.0",
-  "sourceBytes": 228888957,
-  "deliveryBytes": 58978362,
-  "variantBytes": 48786110,
+  "sourceBytes": 253000664,
+  "deliveryBytes": 62476277,
+  "variantBytes": 53724394,
   "assets": [
     {
       "source": "/assets/images/2024/12/IMG_0423-2.png",
@@ -2107,6 +2107,811 @@
             "method": 6,
             "lossless": true,
             "exact": true
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/06/1672807A-B150-448B-90DB-F006CB4AC05F.png",
+      "delivery": "/assets/images/2025/06/1672807A-B150-448B-90DB-F006CB4AC05F.webp",
+      "sourceSha256": "25b215879816ae5f2472c1c34de6d90993f536723c12e8d526cc306d24e10674",
+      "deliverySha256": "4a718f0f81b82da4a709e1ceda20b5ad006195b7404ae1378f3fb733beadb8ec",
+      "sourceBytes": 2725713,
+      "deliveryBytes": 280748,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/tags/kamordah.json"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/06/1672807A-B150-448B-90DB-F006CB4AC05F.w320.webp",
+          "deliverySha256": "3aa0acefff5f42b3be5eb81c11edf6fb4195d2d3035c7352e4c24e2717dd345d",
+          "deliveryBytes": 12036,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/06/1672807A-B150-448B-90DB-F006CB4AC05F.w640.webp",
+          "deliverySha256": "64036c38ea4f7131430763590e9006bc268e08ae72624d6f7aa956e4dcff7e7a",
+          "deliveryBytes": 41322,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/06/1672807A-B150-448B-90DB-F006CB4AC05F.w960.webp",
+          "deliverySha256": "6f3bb27b7c94b6718f782ad3243326e1deb0dd37b4a18efb8122ef04f17602e8",
+          "deliveryBytes": 86304,
+          "dimensions": [
+            960,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/06/1672807A-B150-448B-90DB-F006CB4AC05F.w1280.webp",
+          "deliverySha256": "fcbb5d45fc9e17afdb7cdf692e783ef00f05261f9608387b2508e3423a29603d",
+          "deliveryBytes": 172024,
+          "dimensions": [
+            1280,
+            853
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/06/8C6FA1FB-F232-429D-B41C-261ADC831030.png",
+      "delivery": "/assets/images/2025/06/8C6FA1FB-F232-429D-B41C-261ADC831030.webp",
+      "sourceSha256": "282d47d8087dc9e76e8689cb89c28190d3ba6a57b6dd809c85c0d09c95c581fb",
+      "deliverySha256": "0a2a9e2ec780cc95fa8dd41e0b0fa3386ab3387b8cd32a98aebad74bbd5d9d24",
+      "sourceBytes": 2909731,
+      "deliveryBytes": 358752,
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/emberpetal-springs.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/06/8C6FA1FB-F232-429D-B41C-261ADC831030.w320.webp",
+          "deliverySha256": "5f18c3446c1f8bcea718431bcc78d00fe8c46c6ba3f40bbefde0620b85dbd3f1",
+          "deliveryBytes": 24816,
+          "dimensions": [
+            320,
+            480
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/06/8C6FA1FB-F232-429D-B41C-261ADC831030.w640.webp",
+          "deliverySha256": "9ecd750c91eea95ed6481dca26ccb39a17de866d90870e18b07bf54202055a0d",
+          "deliveryBytes": 123894,
+          "dimensions": [
+            640,
+            960
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/06/8C6FA1FB-F232-429D-B41C-261ADC831030.w960.webp",
+          "deliverySha256": "6641e51e3ee384985b77bdcc8e988c98880072800b34a5a6f2518f765b327f17",
+          "deliveryBytes": 301280,
+          "dimensions": [
+            960,
+            1440
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/06/A2C3D567-92EB-4248-AE29-2B530F343E28.png",
+      "delivery": "/assets/images/2025/06/A2C3D567-92EB-4248-AE29-2B530F343E28.webp",
+      "sourceSha256": "711413ee655383323271fa92049c2c964130659b56904d826619b0e0d45e15c2",
+      "deliverySha256": "9bf4415dda65642f05149eba8f6c4b25b301675440f83eb6f16e9deb62b6fb36",
+      "sourceBytes": 3102431,
+      "deliveryBytes": 446926,
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/the-red-veil.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/06/A2C3D567-92EB-4248-AE29-2B530F343E28.w320.webp",
+          "deliverySha256": "2a6b9ebdc57c2e58f0c1d409296ebc27bd3abe6f69a7476f84a719f8c81562a7",
+          "deliveryBytes": 36216,
+          "dimensions": [
+            320,
+            480
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/06/A2C3D567-92EB-4248-AE29-2B530F343E28.w640.webp",
+          "deliverySha256": "1c735933fc7ce305d705c5f6dc339d66dd5b2ef0e360c8f50f8bc4200f43f51b",
+          "deliveryBytes": 138880,
+          "dimensions": [
+            640,
+            960
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/06/A2C3D567-92EB-4248-AE29-2B530F343E28.w960.webp",
+          "deliverySha256": "38f76abd944c6dd0d4b49d42e83492afeaf053aeae61549c087602b462693332",
+          "deliveryBytes": 361352,
+          "dimensions": [
+            960,
+            1440
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/06/CC5EE366-6ADC-4C0B-9893-EB5DBA9FFD70.png",
+      "delivery": "/assets/images/2025/06/CC5EE366-6ADC-4C0B-9893-EB5DBA9FFD70.webp",
+      "sourceSha256": "a26af5264f799de8153c91764788a1c15aa71863b99a2f1a3994e04434f343d5",
+      "deliverySha256": "4c03a282cbc84eb857b9b6f639072e60922490d7beef479eb3373c9088aeb699",
+      "sourceBytes": 2868225,
+      "deliveryBytes": 389952,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/tags/zadash.json"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/06/CC5EE366-6ADC-4C0B-9893-EB5DBA9FFD70.w320.webp",
+          "deliverySha256": "f276bc92aaaa897a0bad01c317816d6f9d7700b55b8ed6c1310ee2815a0a48d6",
+          "deliveryBytes": 16188,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/06/CC5EE366-6ADC-4C0B-9893-EB5DBA9FFD70.w640.webp",
+          "deliverySha256": "d12da7d55482bb7c4baf991c3109c48ef3c81c2a0693fe0f1d2a7177f199a2d5",
+          "deliveryBytes": 54198,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/06/CC5EE366-6ADC-4C0B-9893-EB5DBA9FFD70.w960.webp",
+          "deliverySha256": "5603dd7dafe9ff84f4bdb5e549e8676c52a04028f1064e1a26e61d2988ff43b4",
+          "deliveryBytes": 133008,
+          "dimensions": [
+            960,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/06/CC5EE366-6ADC-4C0B-9893-EB5DBA9FFD70.w1280.webp",
+          "deliverySha256": "6f4e3247d36b6062c749e198f4644b2f69ced18e63231c4f42c5c59957443f20",
+          "deliveryBytes": 256036,
+          "dimensions": [
+            1280,
+            853
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/06/IMG_0606-2.png",
+      "delivery": "/assets/images/2025/06/IMG_0606-2.webp",
+      "sourceSha256": "4bf2c3cbb4161143ce65ddd2b390e5c410de48a326134681d277a99c4d4d0f9c",
+      "deliverySha256": "b1fdfd62b952310867e42da5e0b1d37bf22681913014863a2c5e2c59f8a84ee7",
+      "sourceBytes": 1800465,
+      "deliveryBytes": 223570,
+      "dimensions": [
+        1456,
+        816
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/the-steamed-buns.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/06/IMG_0606-2.w320.webp",
+          "deliverySha256": "4a7414fdedb04539312766de39116354a7336f4e724976fa3874c462c51a6f95",
+          "deliveryBytes": 16140,
+          "dimensions": [
+            320,
+            179
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/06/IMG_0606-2.w640.webp",
+          "deliverySha256": "1c9f736cdc37d96ad38486d8f18d63fcbc40736817102eb5709efa69e4492332",
+          "deliveryBytes": 54684,
+          "dimensions": [
+            640,
+            359
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/06/IMG_0606-2.w960.webp",
+          "deliverySha256": "e70719597876ba3b8328d5aed017786aa9ba6ea428842476e00d5e963bc89a3f",
+          "deliveryBytes": 109986,
+          "dimensions": [
+            960,
+            538
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/06/IMG_0606-2.w1280.webp",
+          "deliverySha256": "ad216d96f371a8e91f9cd0ec5f0be4dd6a6b59d3b4f65a6dcaa788939020a937",
+          "deliveryBytes": 178886,
+          "dimensions": [
+            1280,
+            717
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/06/IMG_0610-1.png",
+      "delivery": "/assets/images/2025/06/IMG_0610-1.webp",
+      "sourceSha256": "7ee924b66426052c2535e3d58829d08cd3bab3dc224629be84f4f762124d45e0",
+      "deliverySha256": "3863271a94aa46dd4825fd7fe5138b09bb5e2ee7466a09eb8af2b0b6837abdf7",
+      "sourceBytes": 2159665,
+      "deliveryBytes": 321132,
+      "dimensions": [
+        1456,
+        816
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/emberpetal-springs.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/06/IMG_0610-1.w320.webp",
+          "deliverySha256": "39b32db2e59e8345e91d94a083f57296df1f701aa14b85cbc3b2102779af0fdf",
+          "deliveryBytes": 18264,
+          "dimensions": [
+            320,
+            179
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/06/IMG_0610-1.w640.webp",
+          "deliverySha256": "43790eb23a6c746768a76969dbd07782187f87d283542911f0d7d1969010e8de",
+          "deliveryBytes": 66848,
+          "dimensions": [
+            640,
+            359
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/06/IMG_0610-1.w960.webp",
+          "deliverySha256": "27d1f1069e1077ec587181dee8140e0f8d7247382c9693cc802f5416238b3284",
+          "deliveryBytes": 145304,
+          "dimensions": [
+            960,
+            538
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/06/IMG_0610-1.w1280.webp",
+          "deliverySha256": "0275ab244a3172c78b3fdae95250a3dda1df88649d7549306aae5348e3184b48",
+          "deliveryBytes": 247232,
+          "dimensions": [
+            1280,
+            717
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/06/IMG_0625.png",
+      "delivery": "/assets/images/2025/06/IMG_0625.webp",
+      "sourceSha256": "80372408c748bae51423cc39fbc01e6d4d31d953e5649913c28690e00cb9f569",
+      "deliverySha256": "8a1cd975ed3c3d175d4392e9c9928ba7f6bc384cba4e3b101396765ad777813e",
+      "sourceBytes": 2282346,
+      "deliveryBytes": 385044,
+      "dimensions": [
+        1456,
+        816
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/the-vintners-respite.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/06/IMG_0625.w320.webp",
+          "deliverySha256": "3ccde4eaf4fd2784b72de8a6920d67ddd233e2e2cf16740c59103b9b70ef9a34",
+          "deliveryBytes": 24354,
+          "dimensions": [
+            320,
+            179
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/06/IMG_0625.w640.webp",
+          "deliverySha256": "88eea82230d55db4e4b249d678b79ca00e398c9e82b6827faa051cdb8078ac68",
+          "deliveryBytes": 89296,
+          "dimensions": [
+            640,
+            359
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/06/IMG_0625.w960.webp",
+          "deliverySha256": "82bcfece3f0885c7dc25c968633f845e69c345c9ad8cf658dddd6900c6ac16ec",
+          "deliveryBytes": 186714,
+          "dimensions": [
+            960,
+            538
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/06/IMG_0625.w1280.webp",
+          "deliverySha256": "7a2d3f6ecb27b7663032fdd615ea07c04f71a9ae9158e8cfdff85f5ff78e4ad2",
+          "deliveryBytes": 304990,
+          "dimensions": [
+            1280,
+            717
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/06/IMG_0628.jpeg",
+      "delivery": "/assets/images/2025/06/IMG_0628.jpeg",
+      "sourceSha256": "057dbf5edbe38cbd4c2f27152bf6d18e4a514718eaf9c3dc7f142a0d706691eb",
+      "deliverySha256": "057dbf5edbe38cbd4c2f27152bf6d18e4a514718eaf9c3dc7f142a0d706691eb",
+      "sourceBytes": 196409,
+      "deliveryBytes": 196409,
+      "dimensions": [
+        1200,
+        852
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/pages/the-wildemount-gazette.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/06/IMG_0628.w320.webp",
+          "deliverySha256": "73722b5e6f157981c09643571f2eacf939af01174d4e6e9c1f2aba848865742d",
+          "deliveryBytes": 22778,
+          "dimensions": [
+            320,
+            227
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/06/IMG_0628.w640.webp",
+          "deliverySha256": "f2ded34e1713b94ae2c6eb1faefccac383679838d84bdbdcaba16afc2257c062",
+          "deliveryBytes": 83362,
+          "dimensions": [
+            640,
+            454
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/06/IMG_0628.w960.webp",
+          "deliverySha256": "b53c4d2efb6d01bf841e66888de929a2b16ae2efd3b06662774d5d8ee99a6d7f",
+          "deliveryBytes": 175266,
+          "dimensions": [
+            960,
+            682
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/06/IMG_0630.png",
+      "delivery": "/assets/images/2025/06/IMG_0630.webp",
+      "sourceSha256": "b309675d06a85d30c4491a8596189ca099090ad69e6cefd4b74618ad766dab04",
+      "deliverySha256": "8626bd5372d19230cebaa096a1efbf5b03f61c0156a7ed858fe22aba5132025e",
+      "sourceBytes": 2054069,
+      "deliveryBytes": 319200,
+      "dimensions": [
+        1456,
+        816
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/the-scarlet-root.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/06/IMG_0630.w320.webp",
+          "deliverySha256": "0a9d775197a4655fe31fe556c7bdcd0883e110f1a68a457fc291fc03615ce11d",
+          "deliveryBytes": 23100,
+          "dimensions": [
+            320,
+            179
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/06/IMG_0630.w640.webp",
+          "deliverySha256": "fc383f64ea41f38c06d0e5154db15a581b79925622d5105f080ab59d87a5b238",
+          "deliveryBytes": 81358,
+          "dimensions": [
+            640,
+            359
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/06/IMG_0630.w960.webp",
+          "deliverySha256": "05a7a2fa84dbc0f531c7145219a945265108373c44bc3d24bf40b9cce94ff2ec",
+          "deliveryBytes": 159280,
+          "dimensions": [
+            960,
+            538
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/06/IMG_0630.w1280.webp",
+          "deliverySha256": "5cc074ade492b6c1fedac1a9dea9aa80e0eaa0f20a88e0ae7e05286374898063",
+          "deliveryBytes": 256838,
+          "dimensions": [
+            1280,
+            717
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/06/IMG_0631.png",
+      "delivery": "/assets/images/2025/06/IMG_0631.webp",
+      "sourceSha256": "9da3d0eea57434d90b6c019d46c4b963984054acc31815dc4a14e9198f76d228",
+      "deliverySha256": "5aeaf5b8ebc5e365a0769598e863140846785e67501d1cedd83789eea50843a6",
+      "sourceBytes": 1951379,
+      "deliveryBytes": 271628,
+      "dimensions": [
+        1456,
+        816
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/the-emberglow-atelier.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/06/IMG_0631.w320.webp",
+          "deliverySha256": "10873f9c6d61203a758713a2828e53a78eb6b577bd5412cb44db127651e4dffc",
+          "deliveryBytes": 18746,
+          "dimensions": [
+            320,
+            179
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/06/IMG_0631.w640.webp",
+          "deliverySha256": "a6dc9c32c1611c2231031574d11c82d53a12159444da4df16696835cdea38f35",
+          "deliveryBytes": 64740,
+          "dimensions": [
+            640,
+            359
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/06/IMG_0631.w960.webp",
+          "deliverySha256": "6d4812815e5fde9bd23ce86bec31698418d10599e03ed1cbb2a3b92b69e2602e",
+          "deliveryBytes": 132684,
+          "dimensions": [
+            960,
+            538
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/06/IMG_0631.w1280.webp",
+          "deliverySha256": "67245a5c05fed052b3131a791413bb1c32a7a7f7f77bb4adae8daaa7d16c4116",
+          "deliveryBytes": 215016,
+          "dimensions": [
+            1280,
+            717
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/06/IMG_0633.png",
+      "delivery": "/assets/images/2025/06/IMG_0633.webp",
+      "sourceSha256": "70bbb7686432b73a7a2dae25ff6c3d6c2a440580b3e9ae4255418f12bea58ad2",
+      "deliverySha256": "0aeb308ecb276bb845e5f7913ea9d9ae8c9cfb93c46eab83dc9527773816aedd",
+      "sourceBytes": 2061274,
+      "deliveryBytes": 304554,
+      "dimensions": [
+        1456,
+        816
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/the-invulnerable-vagrant.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/06/IMG_0633.w320.webp",
+          "deliverySha256": "7009159e7151b5a926d6457c605d11b29fc9fe42471a0d36339b1125531dc130",
+          "deliveryBytes": 22028,
+          "dimensions": [
+            320,
+            179
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/06/IMG_0633.w640.webp",
+          "deliverySha256": "15d40791be48d303cbc6ac7a3effc23c8028ac720fb1519c5d924d70593c837d",
+          "deliveryBytes": 78316,
+          "dimensions": [
+            640,
+            359
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/06/IMG_0633.w960.webp",
+          "deliverySha256": "60f32310e068d9a6a2a97060d22f0ccafa6e420de50eba643f568dc865b19aa0",
+          "deliveryBytes": 158742,
+          "dimensions": [
+            960,
+            538
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/06/IMG_0633.w1280.webp",
+          "deliverySha256": "e41e16bcee7c88ef84872aacf01b498178828139fa80ff151253f87107a0a53b",
+          "deliveryBytes": 245778,
+          "dimensions": [
+            1280,
+            717
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
           }
         }
       ]

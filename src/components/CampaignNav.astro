@@ -1,6 +1,6 @@
 ---
 import { CAMPAIGN_NAVIGATION, getAssetUrl, type CampaignId } from '../config';
-interface Props { current: 'overview' | 'rules' | 'neighborhoods' | 'people'; campaign?: CampaignId; }
+interface Props { current: 'overview' | 'rules' | 'neighborhoods' | 'people' | 'gazette'; campaign?: CampaignId; }
 const { current, campaign = 'city-of-mist' } = Astro.props;
 const { label, links } = CAMPAIGN_NAVIGATION[campaign];
 ---
