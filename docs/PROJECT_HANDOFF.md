@@ -1,16 +1,24 @@
 # Here Be Dragons / Leota Astro — thread handoff
 
-Last updated: 2026-10-04, after rich-post components step 3 (SpotifyEmbed/LinkPreview, DM Resources page). This document records project context and user decisions; it is not a new authorization to deploy, send email, or migrate the full archive. Read the user's latest request before continuing.
+Last updated: 2026-10-05, end of session after Chosen Cast/Rules and file-download cards. This document records project context and user decisions; it is not a new authorization to deploy, send email, or migrate the full archive. Read the user's latest request before continuing. **This current checkpoint takes precedence over the historical milestones below.**
 
 ## Goal and current position
 
-Port the visual appearance and used behavior of Kat's existing **Leota Ghost theme** into the existing **leota-astro Casper port**, preserving the Astro architecture and portable content. The original website is unavailable, so the reference is the supplied theme, Ghost export/media, and Kat's feedback. Kat approved the plan, then successive local implementation milestones, and said the visual result was looking great before requesting the special-content milestone.
+Port Kat's Leota Ghost theme and selected content to Astro, preserving the dark design, editable Markdown/MDX, source content and reusable components. Rich-content components, automatic gallery rows, responsive media and the migrated campaign pages are implemented. Cloudflare hosts the site; Netlify is paused. Kat confirmed live images load from R2.
 
-Historical visual checkpoint: `bffa197` on `codex/leota-visual-port`, committed and pushed to origin. This includes the City of Mist pages, demo cleanup, standalone pages collection and MDX page composition. Latest build: 35 pages, no warnings. Bulk media remains local/untracked. Image optimization and deployment cleanup remain planned, not started. Historical sections below describe earlier checkpoints; this paragraph and the latest decision take precedence for current status.
+Merged through PR #11: City of Mist pages, The Chosen overview, DM Resources, Freaky Gray Company overview/Characters, Gazette and seven associated posts, plus shared table styling and the homepage-logo/mobile-gallery QA fixes. PR #12, https://github.com/kwhite/leota-astro/pull/12, contains Chosen Cast and Rules, seven preserved PDF downloads, and reusable `FileDownload.astro` cards. Kat approved the visual result. Working branch: `codex/chosen-cast-rules`; latest implementation commit: `dc81737`. Check PR merge status and update local `main` before starting a fresh branch tomorrow.
 
-**Next proposed milestone: rich-post MDX components.** Kat wants reusable callouts, pull quotes, galleries, images, Spotify embeds and link previews instead of manually repeating HTML classes/layouts. See [rich-content-authoring-plan.md](rich-content-authoring-plan.md) for component contracts, staged sample conversion, acceptance checks and the later migration/media pipeline. Both posts and pages already load `.md`/`.mdx`; no new content architecture is needed. Start with Callout/PullQuote and the 1.8 post, then galleries/images, then Spotify and DM Resources bookmarks. Share components with pages and keep simple prose in Markdown.
+Validation: local and R2 builds produce 62 pages; media checks cover 263 responsive image occurrences, 191 full-size links and 529 delivery-file checksums. All seven public PDFs match their backup checksums and have PDF/attachment headers. File cards were checked on desktop and at 390px without horizontal page overflow. Documentation-only handoff edits do not require another build.
 
-Kat requested **planning and documentation only before stopping for the night**. Rich-post components/conversions are not implemented. These latest planning docs are uncommitted; no build is needed for this documentation-only change. Resume implementation when requested, without interpreting the plan itself as bulk-migration or deployment authorization.
+## Resume tomorrow
+
+**Discuss tags with Kat before further content migration.** She wants to prune unnecessary tags before importing more content/session summaries. Inventory current tags and source usage, then propose what to retain, consolidate or remove, including archive/navigation implications. Do not prune tags or continue bulk migration until that discussion is approved.
+
+Preserve unrelated local `package.json`/`pnpm-lock.yaml` edits, `.claude/`, and untracked original images/PDFs. Do not include these in commits. Start new work from an up-to-date `main` after checking PR #12. The local built preview has been available at `http://localhost:4322/`; check whether its server is still running in the next session.
+
+Media delivery uses bucket `leota-media` and plain-text Cloudflare build variable `MEDIA_BASE_URL=https://pub-e4d8121a5e7c42d98f03214fb5ed9720.r2.dev`. See [media-delivery.md](media-delivery.md) for preparation/upload commands. A custom media domain is still future work; the development URL is the agreed test endpoint.
+
+Content safety: omit obvious spam/nonsense and record omissions. **Do not migrate individual header/footer code-injection fields without consulting Kat first.** The later metadata inspection found one individual header injection on `people-in-the-city`: a desktop grid CSS override, not apparent spam. No individual footer injections were found; neither Chosen page had one. No injection code was migrated. Global injection settings have not been audited.
 
 ## Workspace and source material
 
@@ -42,7 +50,7 @@ No applicable AGENTS.md was found in the project/ancestor inspection. Recheck if
 
 Primary navigation: City of Mist → `/city-of-mist/`; Freaky Gray Company → `/the-freaky-gray-company/`; The Chosen → `/the-chosen/`; About → `/about/`.
 Secondary navigation: DM Resources → `/dm-resources/`; RPG Consent Checklist → `/rpg-consent-checklist/`.
-Only About is currently enabled. Preserve the other labels until their pages are ready.
+All primary navigation links and DM Resources are enabled. RPG Consent Checklist remains inactive until migrated.
 
 Logo: `/assets/images/2025/01/IMG_0489.png`; icon: `/assets/images/2024/12/IMG_0423-2.png`. The original homepage-cover file was absent from the backup, so its w2000 rendition was used under the original dated public path; details are in the baseline report.
 
@@ -263,7 +271,7 @@ Eleven new original media sources are preserved locally; 52 optimized full-size/
 
 Kat requested these two pages, then a tag-pruning discussion before further content migration. Branch `codex/chosen-cast-rules` migrates `/the-chosen-cast/` and `/general-buffy-game-info/`, enabling both navigation links. Cast retains six gallery portraits, six profiles/quotes and seven PDF downloads. Rules retains Jackie's recovered instructions and callout. Source text comparisons pass. No spam was found in these bodies and no individual header/footer injection fields were read or migrated.
 
-The absent `quest.html` questionnaire is represented by its label plus an unavailable-form note; `intro.html` now links to `/the-chosen/`. Cast's old file-card SVG decorations are replaced by ordinary labelled PDF download links with source size labels. The media pipeline now supports original PDF downloads under `/assets/files/` alongside images. R2 objects carry PDF content type and attachment disposition. All seven public PDFs match backup checksums. Eleven new delivery objects are uploaded; originals stay outside Git.
+The absent `quest.html` questionnaire is represented by its label plus an unavailable-form note; `intro.html` now links to `/the-chosen/`. Cast's PDFs use reusable file cards with title, filename, source size labels and a download icon (see refinement below). The media pipeline now supports original PDF downloads under `/assets/files/` alongside images. R2 objects carry PDF content type and attachment disposition. All seven public PDFs match backup checksums. Eleven new delivery objects are uploaded; originals stay outside Git.
 
 Local and R2 builds pass (62 pages), validating 263 responsive images, 191 full-size links and 529 delivery checksums. `chosen-cast-rules-migration.json` records source provenance and editorial notes. **Stop additional content migration here: discuss and approve the tag plan with Kat next. Do not prune tags without that discussion.**
 
