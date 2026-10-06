@@ -3,7 +3,7 @@ title: "The Vintner’s Respite"
 cover: "/assets/images/2025/06/IMG_0625.png"
 date: "2025-06-14T22:43:18.000Z"
 author: "kat"
-tags: ["Kamordah", "inns", "Wildemount"]
+tags: ["Kamordah"]
 ---
 
 <blockquote><em>“A place to be forgotten, remembered only by the taste of firefruit on your tongue.”</em><br>— <em>Traveler’s Guide to Kamordah</em></blockquote>

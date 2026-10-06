@@ -3,7 +3,7 @@ title: "The Scarlet Root"
 cover: "/assets/images/2025/06/IMG_0630.png"
 date: "2025-06-14T23:29:26.000Z"
 author: "kat"
-tags: ["Kamordah", "shops"]
+tags: ["Kamordah"]
 ---
 
 High atop the basalt ridges of Kamordah, this boutique apothecary cultivates volcanic flora in steam-warmed greenhouses. Bottles glow with bioluminescent moss, and a faint scent of scorched cedar clings to the air.

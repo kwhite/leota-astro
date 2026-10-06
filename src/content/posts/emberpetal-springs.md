@@ -3,7 +3,7 @@ title: "Fire Orchid Springs"
 cover: "/assets/images/2025/06/IMG_0610-1.png"
 date: "2025-06-14T23:46:00.000Z"
 author: "kat"
-tags: ["Kamordah", "spa"]
+tags: ["Kamordah"]
 ---
 
 Hidden in a radiant jungle ravine where volcanic heat births lush ashbloom gardens and glowing moss canopies. The air hums with warmth, floral steam, and the soft burble of enchanted springs. A vibrant, open-air spa built around steaming geothermal pools framed by obsidian stone and wild flora. Petal-strewn paths curve through natural saunas and mineral basins, while enchanted lanterns sway from vine-wrapped arches.

@@ -3,7 +3,7 @@ title: "The Red Veil"
 cover: "/assets/images/2025/06/A2C3D567-92EB-4248-AE29-2B530F343E28.png"
 date: "2025-06-14T22:33:06.000Z"
 author: "kat"
-tags: ["Kamordah", "tavern", "Wildemount"]
+tags: ["Kamordah"]
 ---
 
 <blockquote class="kg-blockquote-alt"><em>“One sip to loosen the tongue. One song to stir the soul.”</em></blockquote>

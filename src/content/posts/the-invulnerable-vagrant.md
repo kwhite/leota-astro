@@ -3,7 +3,7 @@ title: "The Invulnerable Vagrant"
 cover: "/assets/images/2025/06/IMG_0633.png"
 date: "2025-06-15T00:08:32.000Z"
 author: "kat"
-tags: ["Zadash", "shops"]
+tags: ["Zadash"]
 ---
 
 The scent of old parchment, alchemical spice, and faint ozone fills the air as you step into the Invulnerable Vagrant, where warm amber light spills from floating lanterns shaped like blinking eyes. Enchanted scrolls flutter gently overhead, and suits of armor hum softly as they shift on their racks. Shelves creak beneath the weight of mysterious relics, potions bubble in rune-etched glass, and a softly glowing glyph pulses beneath your feet with every step. Amid the arcane clutter, a trio of identical firbolg shopkeepers smiles in sync—each a projection of the inimitable Pumat Sol, who adjusts his spectacles and welcomes you with a bow and a gentle, “Well hello there, boss.”
