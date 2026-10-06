@@ -2,9 +2,9 @@
   "version": 2,
   "pillow": "12.3.0",
   "webp": "1.6.0",
-  "sourceBytes": 256589493,
-  "deliveryBytes": 66065106,
-  "variantBytes": 53758706,
+  "sourceBytes": 360001566,
+  "deliveryBytes": 84494051,
+  "variantBytes": 74769300,
   "assets": [
     {
       "source": "/assets/files/2026/02/_chase_season3_mid.pdf",
@@ -133,6 +133,393 @@
       "variants": []
     },
     {
+      "source": "/assets/images/2024/12/4FF09296-AE3B-4DE7-8940-F79634B2C82E-1.png",
+      "delivery": "/assets/images/2024/12/4FF09296-AE3B-4DE7-8940-F79634B2C82E-1.webp",
+      "sourceSha256": "22520c4c4861ba0f93939f980924502afa756308464726d85c688525f331498e",
+      "deliverySha256": "7d3948194a2c04ae1543f3444188e533609c2341874e503f1df0fcffad16d242",
+      "sourceBytes": 4785082,
+      "deliveryBytes": 810466,
+      "dimensions": [
+        1792,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/2024-12-21-session-notes.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2024/12/4FF09296-AE3B-4DE7-8940-F79634B2C82E-1.w320.webp",
+          "deliverySha256": "7554c29f01ac50097a5d51a006fdcbf1a7ec184af894fdc26d4e6ce664e8b381",
+          "deliveryBytes": 37890,
+          "dimensions": [
+            320,
+            183
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2024/12/4FF09296-AE3B-4DE7-8940-F79634B2C82E-1.w640.webp",
+          "deliverySha256": "8c58568faa4ea8f49ba295f96240b4cdc2e9f47d2a1ececbbc33f1d1131e9a49",
+          "deliveryBytes": 132442,
+          "dimensions": [
+            640,
+            366
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2024/12/4FF09296-AE3B-4DE7-8940-F79634B2C82E-1.w960.webp",
+          "deliverySha256": "6d70f620f569e259ed9f3ce5d121b12a86cc715a2046f641f2ef760e21ae257b",
+          "deliveryBytes": 274300,
+          "dimensions": [
+            960,
+            549
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2024/12/4FF09296-AE3B-4DE7-8940-F79634B2C82E-1.w1280.webp",
+          "deliverySha256": "e2b80665fb419d77ede66561769b5792471b361fb9136c3a3658d513667640e8",
+          "deliveryBytes": 443910,
+          "dimensions": [
+            1280,
+            731
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2024/12/4FF09296-AE3B-4DE7-8940-F79634B2C82E.png",
+      "delivery": "/assets/images/2024/12/4FF09296-AE3B-4DE7-8940-F79634B2C82E.webp",
+      "sourceSha256": "22520c4c4861ba0f93939f980924502afa756308464726d85c688525f331498e",
+      "deliverySha256": "7d3948194a2c04ae1543f3444188e533609c2341874e503f1df0fcffad16d242",
+      "sourceBytes": 4785082,
+      "deliveryBytes": 810466,
+      "dimensions": [
+        1792,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/2024-12-21-session-notes.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2024/12/4FF09296-AE3B-4DE7-8940-F79634B2C82E.w320.webp",
+          "deliverySha256": "7554c29f01ac50097a5d51a006fdcbf1a7ec184af894fdc26d4e6ce664e8b381",
+          "deliveryBytes": 37890,
+          "dimensions": [
+            320,
+            183
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2024/12/4FF09296-AE3B-4DE7-8940-F79634B2C82E.w640.webp",
+          "deliverySha256": "8c58568faa4ea8f49ba295f96240b4cdc2e9f47d2a1ececbbc33f1d1131e9a49",
+          "deliveryBytes": 132442,
+          "dimensions": [
+            640,
+            366
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2024/12/4FF09296-AE3B-4DE7-8940-F79634B2C82E.w960.webp",
+          "deliverySha256": "6d70f620f569e259ed9f3ce5d121b12a86cc715a2046f641f2ef760e21ae257b",
+          "deliveryBytes": 274300,
+          "dimensions": [
+            960,
+            549
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2024/12/4FF09296-AE3B-4DE7-8940-F79634B2C82E.w1280.webp",
+          "deliverySha256": "e2b80665fb419d77ede66561769b5792471b361fb9136c3a3658d513667640e8",
+          "deliveryBytes": 443910,
+          "dimensions": [
+            1280,
+            731
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2024/12/FDDE448F-2C52-43A7-A097-5F3EF864176B-1.png",
+      "delivery": "/assets/images/2024/12/FDDE448F-2C52-43A7-A097-5F3EF864176B-1.webp",
+      "sourceSha256": "569454eb98da4a2b1faae0e499c33714715acfaf0635ad0206d10202419285cd",
+      "deliverySha256": "5d62733ffaeffc7e6096781e41208c1c7d69665ea7362f592a8f826d7a1a9c46",
+      "sourceBytes": 3716398,
+      "deliveryBytes": 603458,
+      "dimensions": [
+        1792,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/2024-12-21-session-notes.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2024/12/FDDE448F-2C52-43A7-A097-5F3EF864176B-1.w320.webp",
+          "deliverySha256": "f0d05edd1fbb9abd7ea23b061a7e8621b50f2a5cd9b02185379f7d54206ae079",
+          "deliveryBytes": 23444,
+          "dimensions": [
+            320,
+            183
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2024/12/FDDE448F-2C52-43A7-A097-5F3EF864176B-1.w640.webp",
+          "deliverySha256": "4bae9c6a34f0ff93d4fcf4c5dbdccfba3bd34e7fc745bca25926ee0ce97a262a",
+          "deliveryBytes": 89434,
+          "dimensions": [
+            640,
+            366
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2024/12/FDDE448F-2C52-43A7-A097-5F3EF864176B-1.w960.webp",
+          "deliverySha256": "601f9366f6ddd543dc627c65d27b7932fe1f7f16f7ef1689e2eb1ad0dbe45f23",
+          "deliveryBytes": 199528,
+          "dimensions": [
+            960,
+            549
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2024/12/FDDE448F-2C52-43A7-A097-5F3EF864176B-1.w1280.webp",
+          "deliverySha256": "680442ab4e92e8144a495edae01743cab9b9d3f316ef01cc798b0e8dd40c09ff",
+          "deliveryBytes": 337056,
+          "dimensions": [
+            1280,
+            731
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2024/12/IMG_0416-1.jpeg",
+      "delivery": "/assets/images/2024/12/IMG_0416-1.jpeg",
+      "sourceSha256": "a63be4a12161003f2d0081f0e338a54b4352e572fdb59e76e7889c9502d3b78c",
+      "deliverySha256": "a63be4a12161003f2d0081f0e338a54b4352e572fdb59e76e7889c9502d3b78c",
+      "sourceBytes": 761190,
+      "deliveryBytes": 761190,
+      "dimensions": [
+        2000,
+        1500
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/posts/2024-12-21-session-notes.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2024/12/IMG_0416-1.w320.webp",
+          "deliverySha256": "94fabb80a04b200ca566cbabb8030a02f8ffacd5982a3c08de900193785a82a8",
+          "deliveryBytes": 24232,
+          "dimensions": [
+            320,
+            240
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2024/12/IMG_0416-1.w640.webp",
+          "deliverySha256": "ed380c648141a4993b0f4f8d3532e0819fdc904bcc8f5180e175b8700f477fc9",
+          "deliveryBytes": 102884,
+          "dimensions": [
+            640,
+            480
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2024/12/IMG_0416-1.w960.webp",
+          "deliverySha256": "332d3706bde82598c98bd5b11c67f66659efa90b4fa8ed17ddbd8c26b0b5c5cc",
+          "deliveryBytes": 309562,
+          "dimensions": [
+            960,
+            720
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2024/12/IMG_0416-1.w1280.webp",
+          "deliverySha256": "6f7992bd68f31b9fdb6de25c97577b59cd0fa06f96c356c6568cc90635ef2421",
+          "deliveryBytes": 593538,
+          "dimensions": [
+            1280,
+            960
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2024/12/IMG_0417.jpeg",
+      "delivery": "/assets/images/2024/12/IMG_0417.jpeg",
+      "sourceSha256": "dde340fab97591178020b8f533a6a44aeec936867f4dcc9ac155d62f9b95436b",
+      "deliverySha256": "dde340fab97591178020b8f533a6a44aeec936867f4dcc9ac155d62f9b95436b",
+      "sourceBytes": 55770,
+      "deliveryBytes": 55770,
+      "dimensions": [
+        1200,
+        600
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/posts/2024-12-21-session-notes.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2024/12/IMG_0417.w320.webp",
+          "deliverySha256": "4daf3e82d515c01ec75bada6359146af8c4ec0d090b1b4430790edeca616471b",
+          "deliveryBytes": 7526,
+          "dimensions": [
+            320,
+            160
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2024/12/IMG_0417.w640.webp",
+          "deliverySha256": "46ed195397d6e13fccee62e612ff5b60f8b288f59567cae104503dc2bc9b6b34",
+          "deliveryBytes": 22746,
+          "dimensions": [
+            640,
+            320
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2024/12/IMG_0417.w960.webp",
+          "deliverySha256": "2990e59dcf010f8eb59a055159fe07fa34a2e25861343d137ef92cb2f9e7f5d6",
+          "deliveryBytes": 44464,
+          "dimensions": [
+            960,
+            480
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2024/12/IMG_0418.jpeg",
+      "delivery": "/assets/images/2024/12/IMG_0418.jpeg",
+      "sourceSha256": "4d7d488abe9406384f7b1f0a1f890b497ac0733444c07ca05ead6e0471a20cf8",
+      "deliverySha256": "4d7d488abe9406384f7b1f0a1f890b497ac0733444c07ca05ead6e0471a20cf8",
+      "sourceBytes": 28586,
+      "deliveryBytes": 28586,
+      "dimensions": [
+        400,
+        400
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/posts/2024-12-21-session-notes.md"
+      ],
+      "variants": []
+    },
+    {
       "source": "/assets/images/2024/12/IMG_0423-2.png",
       "delivery": "/assets/images/2024/12/IMG_0423-2.png",
       "sourceSha256": "18a89ad1c3c3712389f1582d4bab540ad7e8e5dcaa2cdc01057369f8b480d3af",
@@ -152,6 +539,1360 @@
         "src/config.ts"
       ],
       "variants": []
+    },
+    {
+      "source": "/assets/images/2025/01/0A926A7C-0175-42A7-AB43-AD3B25815D1D-2.png",
+      "delivery": "/assets/images/2025/01/0A926A7C-0175-42A7-AB43-AD3B25815D1D-2.webp",
+      "sourceSha256": "bf92edba49ee4439949eee502cdcd76406937479a517a24153aabc807ac3f89e",
+      "deliverySha256": "0774fa9e7aa538855007ba5ef9495fa4c457dd028c85b5f54afd6c317aba559d",
+      "sourceBytes": 4500342,
+      "deliveryBytes": 621304,
+      "dimensions": [
+        1792,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/2024-12-30-session-notes.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/01/0A926A7C-0175-42A7-AB43-AD3B25815D1D-2.w320.webp",
+          "deliverySha256": "ee32af4c2672b89b9f991d24d334b29ac23b45e1974c9f1c1565ae933c95c612",
+          "deliveryBytes": 31278,
+          "dimensions": [
+            320,
+            183
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/0A926A7C-0175-42A7-AB43-AD3B25815D1D-2.w640.webp",
+          "deliverySha256": "b6c41f8812d3fd4d651c0bf6ce6dfd6bc91c1ce7b751b0fedde91ebe8b41dd20",
+          "deliveryBytes": 106208,
+          "dimensions": [
+            640,
+            366
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/0A926A7C-0175-42A7-AB43-AD3B25815D1D-2.w960.webp",
+          "deliverySha256": "12a2a3228bc7afd6181875805462a9be249de5e14cc64dd939f7bc87f12c776c",
+          "deliveryBytes": 213058,
+          "dimensions": [
+            960,
+            549
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/0A926A7C-0175-42A7-AB43-AD3B25815D1D-2.w1280.webp",
+          "deliverySha256": "b82c2e143ce2447494c91f161cf62253be4d5a9fccdf92a849c30e5977b5eca0",
+          "deliveryBytes": 351966,
+          "dimensions": [
+            1280,
+            731
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/01/0A926A7C-0175-42A7-AB43-AD3B25815D1D.png",
+      "delivery": "/assets/images/2025/01/0A926A7C-0175-42A7-AB43-AD3B25815D1D.webp",
+      "sourceSha256": "bf92edba49ee4439949eee502cdcd76406937479a517a24153aabc807ac3f89e",
+      "deliverySha256": "0774fa9e7aa538855007ba5ef9495fa4c457dd028c85b5f54afd6c317aba559d",
+      "sourceBytes": 4500342,
+      "deliveryBytes": 621304,
+      "dimensions": [
+        1792,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/2024-12-30-session-notes.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/01/0A926A7C-0175-42A7-AB43-AD3B25815D1D.w320.webp",
+          "deliverySha256": "ee32af4c2672b89b9f991d24d334b29ac23b45e1974c9f1c1565ae933c95c612",
+          "deliveryBytes": 31278,
+          "dimensions": [
+            320,
+            183
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/0A926A7C-0175-42A7-AB43-AD3B25815D1D.w640.webp",
+          "deliverySha256": "b6c41f8812d3fd4d651c0bf6ce6dfd6bc91c1ce7b751b0fedde91ebe8b41dd20",
+          "deliveryBytes": 106208,
+          "dimensions": [
+            640,
+            366
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/0A926A7C-0175-42A7-AB43-AD3B25815D1D.w960.webp",
+          "deliverySha256": "12a2a3228bc7afd6181875805462a9be249de5e14cc64dd939f7bc87f12c776c",
+          "deliveryBytes": 213058,
+          "dimensions": [
+            960,
+            549
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/0A926A7C-0175-42A7-AB43-AD3B25815D1D.w1280.webp",
+          "deliverySha256": "b82c2e143ce2447494c91f161cf62253be4d5a9fccdf92a849c30e5977b5eca0",
+          "deliveryBytes": 351966,
+          "dimensions": [
+            1280,
+            731
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/01/0E684950-F197-46C4-BA03-7A8EA83B2D0E-1.png",
+      "delivery": "/assets/images/2025/01/0E684950-F197-46C4-BA03-7A8EA83B2D0E-1.webp",
+      "sourceSha256": "8de1c03923ec5e7f4b6df89a5df04b05bf740177e180a7bb057186344d50a176",
+      "deliverySha256": "f2be73636ae965828b4dd74fd741ce57e2c9f4a20650afc74cc32d58dcf9f564",
+      "sourceBytes": 3422097,
+      "deliveryBytes": 524930,
+      "dimensions": [
+        1792,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/2025-01-25-session-notes.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/01/0E684950-F197-46C4-BA03-7A8EA83B2D0E-1.w320.webp",
+          "deliverySha256": "6b096be3cb44b3f8a9451ecc9022eb273dfdf4cfedd8ecf3ece5af5e1c397242",
+          "deliveryBytes": 22990,
+          "dimensions": [
+            320,
+            183
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/0E684950-F197-46C4-BA03-7A8EA83B2D0E-1.w640.webp",
+          "deliverySha256": "c2508f4d63a09e28bb8f7e70f0ae2094f02b2f85a08e2d2e6bc54f2047caaeb6",
+          "deliveryBytes": 79174,
+          "dimensions": [
+            640,
+            366
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/0E684950-F197-46C4-BA03-7A8EA83B2D0E-1.w960.webp",
+          "deliverySha256": "2e76a7ddc71f8fb978343b43f0ef4a5f73b3f7ac1e265e8cfb309c0c02937c7b",
+          "deliveryBytes": 164958,
+          "dimensions": [
+            960,
+            549
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/0E684950-F197-46C4-BA03-7A8EA83B2D0E-1.w1280.webp",
+          "deliverySha256": "82eafd0edb3c1d556b6595f5e35370114eb296d3b6bb14556e83fe403d831c2e",
+          "deliveryBytes": 278862,
+          "dimensions": [
+            1280,
+            731
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/01/0E684950-F197-46C4-BA03-7A8EA83B2D0E.png",
+      "delivery": "/assets/images/2025/01/0E684950-F197-46C4-BA03-7A8EA83B2D0E.webp",
+      "sourceSha256": "8de1c03923ec5e7f4b6df89a5df04b05bf740177e180a7bb057186344d50a176",
+      "deliverySha256": "f2be73636ae965828b4dd74fd741ce57e2c9f4a20650afc74cc32d58dcf9f564",
+      "sourceBytes": 3422097,
+      "deliveryBytes": 524930,
+      "dimensions": [
+        1792,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/2025-01-25-session-notes.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/01/0E684950-F197-46C4-BA03-7A8EA83B2D0E.w320.webp",
+          "deliverySha256": "6b096be3cb44b3f8a9451ecc9022eb273dfdf4cfedd8ecf3ece5af5e1c397242",
+          "deliveryBytes": 22990,
+          "dimensions": [
+            320,
+            183
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/0E684950-F197-46C4-BA03-7A8EA83B2D0E.w640.webp",
+          "deliverySha256": "c2508f4d63a09e28bb8f7e70f0ae2094f02b2f85a08e2d2e6bc54f2047caaeb6",
+          "deliveryBytes": 79174,
+          "dimensions": [
+            640,
+            366
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/0E684950-F197-46C4-BA03-7A8EA83B2D0E.w960.webp",
+          "deliverySha256": "2e76a7ddc71f8fb978343b43f0ef4a5f73b3f7ac1e265e8cfb309c0c02937c7b",
+          "deliveryBytes": 164958,
+          "dimensions": [
+            960,
+            549
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/0E684950-F197-46C4-BA03-7A8EA83B2D0E.w1280.webp",
+          "deliverySha256": "82eafd0edb3c1d556b6595f5e35370114eb296d3b6bb14556e83fe403d831c2e",
+          "deliveryBytes": 278862,
+          "dimensions": [
+            1280,
+            731
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/01/11D0DE8E-AB75-4427-9DA3-BC8DB4DC2806.png",
+      "delivery": "/assets/images/2025/01/11D0DE8E-AB75-4427-9DA3-BC8DB4DC2806.webp",
+      "sourceSha256": "3ff35d6416bb0fca2e0255b0b956c4e7cb11f493c9ec5019dd4fc83faef54c81",
+      "deliverySha256": "d6342ad15a72f01bb1a71ee1f1d6d21b9396ff1ffd8881ef844d9eeb850076ab",
+      "sourceBytes": 4740647,
+      "deliveryBytes": 763312,
+      "dimensions": [
+        1792,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/2024-12-30-session-notes.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/01/11D0DE8E-AB75-4427-9DA3-BC8DB4DC2806.w320.webp",
+          "deliverySha256": "1d20b8c57202a0b43cc07aa2cb60fabf9b4ef64fe9cc448678e7f589b2151c2c",
+          "deliveryBytes": 27780,
+          "dimensions": [
+            320,
+            183
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/11D0DE8E-AB75-4427-9DA3-BC8DB4DC2806.w640.webp",
+          "deliverySha256": "495dad1d833d5c17137b2d8292c51bbce85ccaceef948bfe8adfed92f2c3307e",
+          "deliveryBytes": 105736,
+          "dimensions": [
+            640,
+            366
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/11D0DE8E-AB75-4427-9DA3-BC8DB4DC2806.w960.webp",
+          "deliverySha256": "38a6fa16eaa80283f075c6204886f9aae7f9179780766027d9654e7716176795",
+          "deliveryBytes": 230652,
+          "dimensions": [
+            960,
+            549
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/11D0DE8E-AB75-4427-9DA3-BC8DB4DC2806.w1280.webp",
+          "deliverySha256": "1bab62f6e1e25b73a8b1000486f217ce5df3cb1ae68c98175c5e57aedbc1e9b7",
+          "deliveryBytes": 394222,
+          "dimensions": [
+            1280,
+            731
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/01/3B7432FD-527A-42CC-9C7B-C67F06E0D02F.png",
+      "delivery": "/assets/images/2025/01/3B7432FD-527A-42CC-9C7B-C67F06E0D02F.webp",
+      "sourceSha256": "6a44fb1340830e742820fe4e8c9977e1fc6dd73042144fc237850c562ce58ff9",
+      "deliverySha256": "c0716b70829511f0fcfca7767bf6671d654336093ccf21514e6cd23e1456791d",
+      "sourceBytes": 4431071,
+      "deliveryBytes": 739894,
+      "dimensions": [
+        1792,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/2025-01-25-session-notes.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/01/3B7432FD-527A-42CC-9C7B-C67F06E0D02F.w320.webp",
+          "deliverySha256": "ccf07b297648c7fd12bf7b55f86a568e075564b141be008ff3b3494acae6743d",
+          "deliveryBytes": 33436,
+          "dimensions": [
+            320,
+            183
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/3B7432FD-527A-42CC-9C7B-C67F06E0D02F.w640.webp",
+          "deliverySha256": "e220cc9ef4e73b852fa5d43ff12f805be93ac4141c9c2bd087b8731ac3fce299",
+          "deliveryBytes": 115438,
+          "dimensions": [
+            640,
+            366
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/3B7432FD-527A-42CC-9C7B-C67F06E0D02F.w960.webp",
+          "deliverySha256": "643b7c1caa6fccde018e7f270497d924e5530bfdd5cd80380101cb98f9cfe330",
+          "deliveryBytes": 243898,
+          "dimensions": [
+            960,
+            549
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/3B7432FD-527A-42CC-9C7B-C67F06E0D02F.w1280.webp",
+          "deliverySha256": "c1482a423ef05b61b742a79fc207dbad37c89c6130061d7be9eb5d208954caa9",
+          "deliveryBytes": 409466,
+          "dimensions": [
+            1280,
+            731
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/01/510D090F-744E-4626-9B14-F179EA8BD868.png",
+      "delivery": "/assets/images/2025/01/510D090F-744E-4626-9B14-F179EA8BD868.webp",
+      "sourceSha256": "b93dd6ed77f426948519afe5ec7cc56ea1271db8764d8aa7de26871266ac1a58",
+      "deliverySha256": "a62ff55c54b0b91c0ebb420da7d0b16082a17433c420859c0c987f1fe6114f48",
+      "sourceBytes": 4505879,
+      "deliveryBytes": 715154,
+      "dimensions": [
+        1792,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/2024-12-30-session-notes.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/01/510D090F-744E-4626-9B14-F179EA8BD868.w320.webp",
+          "deliverySha256": "4f5f1a85a32ce81ae976abe1c41b15bd7697096396a2332a2c627e8ed2eb90c6",
+          "deliveryBytes": 29478,
+          "dimensions": [
+            320,
+            183
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/510D090F-744E-4626-9B14-F179EA8BD868.w640.webp",
+          "deliverySha256": "32e5b654a8a6d091995a44dd64bfbafac222b406f52e9204b24c60da59a84dbc",
+          "deliveryBytes": 105282,
+          "dimensions": [
+            640,
+            366
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/510D090F-744E-4626-9B14-F179EA8BD868.w960.webp",
+          "deliverySha256": "efa0f93c0a99c0d4ee75700a9c693a7150a2790824c813d6f7187ce495f6797c",
+          "deliveryBytes": 227816,
+          "dimensions": [
+            960,
+            549
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/510D090F-744E-4626-9B14-F179EA8BD868.w1280.webp",
+          "deliverySha256": "db1cb9e1c664a27df2e65a84f9d0f5883c57e1d98e12846f9c4e8fd25c4b9c0c",
+          "deliveryBytes": 385716,
+          "dimensions": [
+            1280,
+            731
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/01/5EFD5A9A-8880-4FDE-8800-D327F72BD53A-1.png",
+      "delivery": "/assets/images/2025/01/5EFD5A9A-8880-4FDE-8800-D327F72BD53A-1.webp",
+      "sourceSha256": "93ea53d78f65b7996369ffda97878a84016410879dd770d910d8a3a446670136",
+      "deliverySha256": "f0496a8c61510024acc863a096e6465490cd7cccaa335726480b632f38f42bb9",
+      "sourceBytes": 3894472,
+      "deliveryBytes": 613050,
+      "dimensions": [
+        1792,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/2025-01-04-session-notes.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/01/5EFD5A9A-8880-4FDE-8800-D327F72BD53A-1.w320.webp",
+          "deliverySha256": "ad717e54a6092dcfc3bc2a20fb1ce2b84e07180027dc669e97250977c737078b",
+          "deliveryBytes": 20406,
+          "dimensions": [
+            320,
+            183
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/5EFD5A9A-8880-4FDE-8800-D327F72BD53A-1.w640.webp",
+          "deliverySha256": "92f469214b6b4281d3f77cd47f0c8fb0f2af7a77dde9eb84138cd85571d761c6",
+          "deliveryBytes": 74658,
+          "dimensions": [
+            640,
+            366
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/5EFD5A9A-8880-4FDE-8800-D327F72BD53A-1.w960.webp",
+          "deliverySha256": "42dc4f27e7f5653c1b5c4461411a2c7601901bd2bcc94cea5e37fbc538c3b683",
+          "deliveryBytes": 175348,
+          "dimensions": [
+            960,
+            549
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/5EFD5A9A-8880-4FDE-8800-D327F72BD53A-1.w1280.webp",
+          "deliverySha256": "debb5ea956e9eb408187adfe2388f66d3c647521e44bd307be56b5a716fd548d",
+          "deliveryBytes": 323876,
+          "dimensions": [
+            1280,
+            731
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/01/5EFD5A9A-8880-4FDE-8800-D327F72BD53A.png",
+      "delivery": "/assets/images/2025/01/5EFD5A9A-8880-4FDE-8800-D327F72BD53A.webp",
+      "sourceSha256": "93ea53d78f65b7996369ffda97878a84016410879dd770d910d8a3a446670136",
+      "deliverySha256": "f0496a8c61510024acc863a096e6465490cd7cccaa335726480b632f38f42bb9",
+      "sourceBytes": 3894472,
+      "deliveryBytes": 613050,
+      "dimensions": [
+        1792,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/2025-01-04-session-notes.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/01/5EFD5A9A-8880-4FDE-8800-D327F72BD53A.w320.webp",
+          "deliverySha256": "ad717e54a6092dcfc3bc2a20fb1ce2b84e07180027dc669e97250977c737078b",
+          "deliveryBytes": 20406,
+          "dimensions": [
+            320,
+            183
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/5EFD5A9A-8880-4FDE-8800-D327F72BD53A.w640.webp",
+          "deliverySha256": "92f469214b6b4281d3f77cd47f0c8fb0f2af7a77dde9eb84138cd85571d761c6",
+          "deliveryBytes": 74658,
+          "dimensions": [
+            640,
+            366
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/5EFD5A9A-8880-4FDE-8800-D327F72BD53A.w960.webp",
+          "deliverySha256": "42dc4f27e7f5653c1b5c4461411a2c7601901bd2bcc94cea5e37fbc538c3b683",
+          "deliveryBytes": 175348,
+          "dimensions": [
+            960,
+            549
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/5EFD5A9A-8880-4FDE-8800-D327F72BD53A.w1280.webp",
+          "deliverySha256": "debb5ea956e9eb408187adfe2388f66d3c647521e44bd307be56b5a716fd548d",
+          "deliveryBytes": 323876,
+          "dimensions": [
+            1280,
+            731
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/01/744AD6E5-E8A2-42DF-B6C0-7C74763895B3-1.png",
+      "delivery": "/assets/images/2025/01/744AD6E5-E8A2-42DF-B6C0-7C74763895B3-1.webp",
+      "sourceSha256": "423e4fa77e8661805ce951dadb3d30653b2c0d952260f42d424508ef225619da",
+      "deliverySha256": "d3b1e24cbb59a6514a9f932c6ff6dd7df9316e8c589ce6aab16ac618481a524e",
+      "sourceBytes": 4030411,
+      "deliveryBytes": 763216,
+      "dimensions": [
+        1792,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/2025-01-25-session-notes.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/01/744AD6E5-E8A2-42DF-B6C0-7C74763895B3-1.w320.webp",
+          "deliverySha256": "5d0d39f6e2744cae59f0b968423a0e8b72ed710aad2d7b54bbeb0a3f7237e0f5",
+          "deliveryBytes": 28864,
+          "dimensions": [
+            320,
+            183
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/744AD6E5-E8A2-42DF-B6C0-7C74763895B3-1.w640.webp",
+          "deliverySha256": "03e9f910ebe0534950f3887ada6b26355b6e07c46fa68d9c869d5441443f78b2",
+          "deliveryBytes": 105576,
+          "dimensions": [
+            640,
+            366
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/744AD6E5-E8A2-42DF-B6C0-7C74763895B3-1.w960.webp",
+          "deliverySha256": "4a1a728fd6d0fafa6416037d39fac84f2de607d62fae12406b602468dfa73da7",
+          "deliveryBytes": 240466,
+          "dimensions": [
+            960,
+            549
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/744AD6E5-E8A2-42DF-B6C0-7C74763895B3-1.w1280.webp",
+          "deliverySha256": "fb00e611a5b1ffe3c6708ac62ddde17ea3fddb5bb50af28bddd185ce938c8597",
+          "deliveryBytes": 417072,
+          "dimensions": [
+            1280,
+            731
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/01/744AD6E5-E8A2-42DF-B6C0-7C74763895B3.png",
+      "delivery": "/assets/images/2025/01/744AD6E5-E8A2-42DF-B6C0-7C74763895B3.webp",
+      "sourceSha256": "423e4fa77e8661805ce951dadb3d30653b2c0d952260f42d424508ef225619da",
+      "deliverySha256": "d3b1e24cbb59a6514a9f932c6ff6dd7df9316e8c589ce6aab16ac618481a524e",
+      "sourceBytes": 4030411,
+      "deliveryBytes": 763216,
+      "dimensions": [
+        1792,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/2024-01-18-session-notes.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/01/744AD6E5-E8A2-42DF-B6C0-7C74763895B3.w320.webp",
+          "deliverySha256": "5d0d39f6e2744cae59f0b968423a0e8b72ed710aad2d7b54bbeb0a3f7237e0f5",
+          "deliveryBytes": 28864,
+          "dimensions": [
+            320,
+            183
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/744AD6E5-E8A2-42DF-B6C0-7C74763895B3.w640.webp",
+          "deliverySha256": "03e9f910ebe0534950f3887ada6b26355b6e07c46fa68d9c869d5441443f78b2",
+          "deliveryBytes": 105576,
+          "dimensions": [
+            640,
+            366
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/744AD6E5-E8A2-42DF-B6C0-7C74763895B3.w960.webp",
+          "deliverySha256": "4a1a728fd6d0fafa6416037d39fac84f2de607d62fae12406b602468dfa73da7",
+          "deliveryBytes": 240466,
+          "dimensions": [
+            960,
+            549
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/744AD6E5-E8A2-42DF-B6C0-7C74763895B3.w1280.webp",
+          "deliverySha256": "fb00e611a5b1ffe3c6708ac62ddde17ea3fddb5bb50af28bddd185ce938c8597",
+          "deliveryBytes": 417072,
+          "dimensions": [
+            1280,
+            731
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/01/89B1E8DF-E9B3-4D66-8807-44F4DA5AA5F3.png",
+      "delivery": "/assets/images/2025/01/89B1E8DF-E9B3-4D66-8807-44F4DA5AA5F3.webp",
+      "sourceSha256": "c1f8f31450ad11a742648ab196bd332640d489e55919038bbe93940df656766a",
+      "deliverySha256": "4647d5ad1198fbdccbe804553fbb488432f80c988752cdcf01b4cfb65f4e4c7c",
+      "sourceBytes": 1994960,
+      "deliveryBytes": 320974,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/2024-12-30-session-notes.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/01/89B1E8DF-E9B3-4D66-8807-44F4DA5AA5F3.w320.webp",
+          "deliverySha256": "fd83f493eb6524129cb36d0bc9aba93b2d8ab78e0e8ebb0a51896b60a6ec3372",
+          "deliveryBytes": 40738,
+          "dimensions": [
+            320,
+            320
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/89B1E8DF-E9B3-4D66-8807-44F4DA5AA5F3.w640.webp",
+          "deliverySha256": "58d0a3295f46c74b4014bfe220c2a37ce3a16a21297c7766c94931579382a18d",
+          "deliveryBytes": 141352,
+          "dimensions": [
+            640,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/89B1E8DF-E9B3-4D66-8807-44F4DA5AA5F3.w960.webp",
+          "deliverySha256": "f791f7ad5f824539db411f6b3ac26c9b839c649e4417c89cf94dd77326e4b6e3",
+          "deliveryBytes": 275374,
+          "dimensions": [
+            960,
+            960
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/01/ABCEC0C4-DA29-4EA2-91E8-72E0E794946C.png",
+      "delivery": "/assets/images/2025/01/ABCEC0C4-DA29-4EA2-91E8-72E0E794946C.webp",
+      "sourceSha256": "c1f4594ccca95c2cd9ffb78dc5444028c980d6d9873d6339377337a9aacda174",
+      "deliverySha256": "27c9eff4752e7914dedd7e1dd7677a6a9051e6c25267585e6619a6859b01c324",
+      "sourceBytes": 1835856,
+      "deliveryBytes": 342630,
+      "dimensions": [
+        1024,
+        1792
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/2025-01-25-session-notes.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/01/ABCEC0C4-DA29-4EA2-91E8-72E0E794946C.w320.webp",
+          "deliverySha256": "bcd844a23ac3e571d5d01a85dfed58a06cae667d1253a3e3aded61e15cf32f20",
+          "deliveryBytes": 46062,
+          "dimensions": [
+            320,
+            560
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/ABCEC0C4-DA29-4EA2-91E8-72E0E794946C.w640.webp",
+          "deliverySha256": "783f0cd976b65bef6615667f7baa2158484f5cc00cefe4d70e55596f2a47f808",
+          "deliveryBytes": 156698,
+          "dimensions": [
+            640,
+            1120
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/ABCEC0C4-DA29-4EA2-91E8-72E0E794946C.w960.webp",
+          "deliverySha256": "c8953d61e8fd7eeb827efb919dd9690cb2c6c0755f400dcd613fcbf621002c96",
+          "deliveryBytes": 302634,
+          "dimensions": [
+            960,
+            1680
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/01/D1AA9289-4DE5-499A-9C3F-58E115959143.png",
+      "delivery": "/assets/images/2025/01/D1AA9289-4DE5-499A-9C3F-58E115959143.webp",
+      "sourceSha256": "6a4acdcea142b1a2afdf01f9c4c055f8ca1dcddef29a6caede476e28c9e7dd59",
+      "deliverySha256": "d247b32283e651653f79750db5987800cd70935de0e41e664a1571f45cb9130f",
+      "sourceBytes": 4493205,
+      "deliveryBytes": 697676,
+      "dimensions": [
+        1792,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/2024-01-18-session-notes.mdx",
+        "src/content/posts/2025-01-04-session-notes.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/01/D1AA9289-4DE5-499A-9C3F-58E115959143.w320.webp",
+          "deliverySha256": "c961dd90df4869acfbfb1ba5e2d9670fe5da2ab4ab160919bd3ce6aae71b36c2",
+          "deliveryBytes": 27670,
+          "dimensions": [
+            320,
+            183
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/D1AA9289-4DE5-499A-9C3F-58E115959143.w640.webp",
+          "deliverySha256": "0585c8ba52cb9d43fe75d968a4262955eaa85ffeae15edc73b33540e40f6b397",
+          "deliveryBytes": 104938,
+          "dimensions": [
+            640,
+            366
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/D1AA9289-4DE5-499A-9C3F-58E115959143.w960.webp",
+          "deliverySha256": "ca2e53b87a09847256d086c565056be2e709483a5bd87aaf65c2f9624f183564",
+          "deliveryBytes": 230926,
+          "dimensions": [
+            960,
+            549
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/D1AA9289-4DE5-499A-9C3F-58E115959143.w1280.webp",
+          "deliverySha256": "7a906ebe5e393f640d9a1a1d25059d154ea853983c67ac7f46ed6b8f9f0cc9fe",
+          "deliveryBytes": 382594,
+          "dimensions": [
+            1280,
+            731
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/01/D99EAD4A-2222-414A-92DD-F6B7943FCC8C.png",
+      "delivery": "/assets/images/2025/01/D99EAD4A-2222-414A-92DD-F6B7943FCC8C.webp",
+      "sourceSha256": "cf89fba0d7fc4bd57384d34df64236db3432b1551d81bad065e4f8087c004480",
+      "deliverySha256": "6acb80d2d586b93b54c68717cc5b4c3aa0ecd56365071416f6e2a24b08e6909a",
+      "sourceBytes": 2165274,
+      "deliveryBytes": 416146,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/2024-01-18-session-notes.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/01/D99EAD4A-2222-414A-92DD-F6B7943FCC8C.w320.webp",
+          "deliverySha256": "1d97bc294d8db3248ce68651d4ae9bd74cffcc10365e0755bfd97475a5a446f9",
+          "deliveryBytes": 49474,
+          "dimensions": [
+            320,
+            320
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/D99EAD4A-2222-414A-92DD-F6B7943FCC8C.w640.webp",
+          "deliverySha256": "d0bad15c2015f632b539d7d6c6630af2d82c77df6956c2c1a3205139e9823ce4",
+          "deliveryBytes": 185564,
+          "dimensions": [
+            640,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/D99EAD4A-2222-414A-92DD-F6B7943FCC8C.w960.webp",
+          "deliverySha256": "d3b67d3e9694927ecd1591cc4ed953a056b860bcecd6ad461a684f8f3cbd3505",
+          "deliveryBytes": 361692,
+          "dimensions": [
+            960,
+            960
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/01/F6841A05-1B5A-40A5-BD4C-09979DE1290C-1.png",
+      "delivery": "/assets/images/2025/01/F6841A05-1B5A-40A5-BD4C-09979DE1290C-1.webp",
+      "sourceSha256": "8ed9ba6f9b2bc01691b9a52eda884fe7d83941edbd161fd65e130d9a357e6bb1",
+      "deliverySha256": "968f443ff474089ce5142a35e647b6f314fd4e78282f007a45b3e2034bc16cbb",
+      "sourceBytes": 4537444,
+      "deliveryBytes": 713970,
+      "dimensions": [
+        1792,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/2024-01-18-session-notes.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/01/F6841A05-1B5A-40A5-BD4C-09979DE1290C-1.w320.webp",
+          "deliverySha256": "318b48fede0fcb1302af5561fb965f10776f8f70ebf8d7b15ffeadfaf666b3ad",
+          "deliveryBytes": 34044,
+          "dimensions": [
+            320,
+            183
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/F6841A05-1B5A-40A5-BD4C-09979DE1290C-1.w640.webp",
+          "deliverySha256": "9977d4cbca41774abcb42a12f7c25d20be560ada6ca87779d3a7358d057e5316",
+          "deliveryBytes": 122588,
+          "dimensions": [
+            640,
+            366
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/F6841A05-1B5A-40A5-BD4C-09979DE1290C-1.w960.webp",
+          "deliverySha256": "01c57d46fd46d3d122389dbd46fddc176b79e923e96b921719d56123e10c0ea2",
+          "deliveryBytes": 248742,
+          "dimensions": [
+            960,
+            549
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/F6841A05-1B5A-40A5-BD4C-09979DE1290C-1.w1280.webp",
+          "deliverySha256": "29eebd24526948b63b396f7625fb6816e05fd6e7d5cfaa7972417d1d1ce8b595",
+          "deliveryBytes": 400520,
+          "dimensions": [
+            1280,
+            731
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/01/F6841A05-1B5A-40A5-BD4C-09979DE1290C.png",
+      "delivery": "/assets/images/2025/01/F6841A05-1B5A-40A5-BD4C-09979DE1290C.webp",
+      "sourceSha256": "8ed9ba6f9b2bc01691b9a52eda884fe7d83941edbd161fd65e130d9a357e6bb1",
+      "deliverySha256": "968f443ff474089ce5142a35e647b6f314fd4e78282f007a45b3e2034bc16cbb",
+      "sourceBytes": 4537444,
+      "deliveryBytes": 713970,
+      "dimensions": [
+        1792,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/2024-01-18-session-notes.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/01/F6841A05-1B5A-40A5-BD4C-09979DE1290C.w320.webp",
+          "deliverySha256": "318b48fede0fcb1302af5561fb965f10776f8f70ebf8d7b15ffeadfaf666b3ad",
+          "deliveryBytes": 34044,
+          "dimensions": [
+            320,
+            183
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/F6841A05-1B5A-40A5-BD4C-09979DE1290C.w640.webp",
+          "deliverySha256": "9977d4cbca41774abcb42a12f7c25d20be560ada6ca87779d3a7358d057e5316",
+          "deliveryBytes": 122588,
+          "dimensions": [
+            640,
+            366
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/F6841A05-1B5A-40A5-BD4C-09979DE1290C.w960.webp",
+          "deliverySha256": "01c57d46fd46d3d122389dbd46fddc176b79e923e96b921719d56123e10c0ea2",
+          "deliveryBytes": 248742,
+          "dimensions": [
+            960,
+            549
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/F6841A05-1B5A-40A5-BD4C-09979DE1290C.w1280.webp",
+          "deliverySha256": "29eebd24526948b63b396f7625fb6816e05fd6e7d5cfaa7972417d1d1ce8b595",
+          "deliveryBytes": 400520,
+          "dimensions": [
+            1280,
+            731
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/01/IMG_0434.jpeg",
+      "delivery": "/assets/images/2025/01/IMG_0434.jpeg",
+      "sourceSha256": "abe000d8eaf99699212a59fe7063b7ecf58fd2b1420b8f43020a7540c77fa1a6",
+      "deliverySha256": "abe000d8eaf99699212a59fe7063b7ecf58fd2b1420b8f43020a7540c77fa1a6",
+      "sourceBytes": 35103,
+      "deliveryBytes": 35103,
+      "dimensions": [
+        369,
+        480
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/posts/2024-12-30-session-notes.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/01/IMG_0434.w320.webp",
+          "deliverySha256": "e77391c4c72d87539408358e44993af7b4c508ba79442115b0aa0ef6a7f8f0b5",
+          "deliveryBytes": 34312,
+          "dimensions": [
+            320,
+            416
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/01/IMG_0436.jpeg",
+      "delivery": "/assets/images/2025/01/IMG_0436.jpeg",
+      "sourceSha256": "95d76d09db31c2511dc45eac689b4a61651c38547ac449b324622fa17c9a1788",
+      "deliverySha256": "95d76d09db31c2511dc45eac689b4a61651c38547ac449b324622fa17c9a1788",
+      "sourceBytes": 47020,
+      "deliveryBytes": 47020,
+      "dimensions": [
+        800,
+        942
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/posts/2024-12-30-session-notes.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/01/IMG_0436.w320.webp",
+          "deliverySha256": "10b242bc9ca6d46686d41e52c93e44cd1d2da610aefc741f050e3badbd5d213e",
+          "deliveryBytes": 12822,
+          "dimensions": [
+            320,
+            377
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/IMG_0436.w640.webp",
+          "deliverySha256": "15413947dce53c5866c9aa7911412fe58e07dc195fd89aaea019867d6b96aed7",
+          "deliveryBytes": 34518,
+          "dimensions": [
+            640,
+            754
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
     },
     {
       "source": "/assets/images/2025/01/IMG_0478-1.jpeg",
@@ -333,6 +2074,80 @@
       ]
     },
     {
+      "source": "/assets/images/2025/01/IMG_1523.jpeg",
+      "delivery": "/assets/images/2025/01/IMG_1523.jpeg",
+      "sourceSha256": "91bdf4f3a5880c406f3521ab2e7880e06a35ad1ddd27ec7293b25515ec7fe51f",
+      "deliverySha256": "91bdf4f3a5880c406f3521ab2e7880e06a35ad1ddd27ec7293b25515ec7fe51f",
+      "sourceBytes": 534295,
+      "deliveryBytes": 534295,
+      "dimensions": [
+        2000,
+        2832
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/posts/2025-01-25-session-notes.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/01/IMG_1523.w320.webp",
+          "deliverySha256": "3fce7074826b4c4bcc09bfa6de88b586cb30f99c037f2f003b4e11e90c24d2b7",
+          "deliveryBytes": 41434,
+          "dimensions": [
+            320,
+            453
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/IMG_1523.w640.webp",
+          "deliverySha256": "ff3ed3a3d6e8cd6f44620d85a1271ee60a5ff61132884f4dfe34a026730f610a",
+          "deliveryBytes": 140760,
+          "dimensions": [
+            640,
+            906
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/IMG_1523.w960.webp",
+          "deliverySha256": "24929996bd921669e55bd362be1b4f48de7114acb6152f2736d8e9a4c3a9db31",
+          "deliveryBytes": 255042,
+          "dimensions": [
+            960,
+            1359
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/IMG_1523.w1280.webp",
+          "deliverySha256": "a234e4cd8f8dd072b3b3f76ad2675867a691180c00bbcbfd568b66d5d0162271",
+          "deliveryBytes": 361268,
+          "dimensions": [
+            1280,
+            1812
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
       "source": "/assets/images/2025/01/Phelan-Ahearn-1.jpeg",
       "delivery": "/assets/images/2025/01/Phelan-Ahearn-1.jpeg",
       "sourceSha256": "cf6008adc1418ffbc04d8632bb47ccce35754413f7c70f13a398dd9bb0ebf05f",
@@ -381,8 +2196,8 @@
       ]
     },
     {
-      "source": "/assets/images/2025/02/01532928-25F1-4374-AFD7-7892B0A62CA5.png",
-      "delivery": "/assets/images/2025/02/01532928-25F1-4374-AFD7-7892B0A62CA5.webp",
+      "source": "/assets/images/2025/02/01532928-25F1-4374-AFD7-7892B0A62CA5-1.png",
+      "delivery": "/assets/images/2025/02/01532928-25F1-4374-AFD7-7892B0A62CA5-1.webp",
       "sourceSha256": "60ef3480505cf23961add397b306fbede43016fb7e7cf9a96be9c728efdb0583",
       "deliverySha256": "c4c932dae13d43658ec22ad6180c1e043119478665fb9bcbf6e3e70b529d2763",
       "sourceBytes": 2494049,
@@ -400,11 +2215,11 @@
       "status": "converted",
       "reason": "quality 90 artwork",
       "usedIn": [
-        "src/content/tags/london.json"
+        "src/content/posts/voice-over-london.md"
       ],
       "variants": [
         {
-          "delivery": "/assets/images/2025/02/01532928-25F1-4374-AFD7-7892B0A62CA5.w320.webp",
+          "delivery": "/assets/images/2025/02/01532928-25F1-4374-AFD7-7892B0A62CA5-1.w320.webp",
           "deliverySha256": "85d1c8eb849374009dc06d02bc24b653f663e8c30a6e152d07e2903485638df6",
           "deliveryBytes": 22476,
           "dimensions": [
@@ -417,7 +2232,7 @@
           }
         },
         {
-          "delivery": "/assets/images/2025/02/01532928-25F1-4374-AFD7-7892B0A62CA5.w640.webp",
+          "delivery": "/assets/images/2025/02/01532928-25F1-4374-AFD7-7892B0A62CA5-1.w640.webp",
           "deliverySha256": "a8f26b132deb32fbe96ffc05b0947fcb8114ce4d469ffd7a365f843e4f0af3ad",
           "deliveryBytes": 63442,
           "dimensions": [
@@ -430,7 +2245,7 @@
           }
         },
         {
-          "delivery": "/assets/images/2025/02/01532928-25F1-4374-AFD7-7892B0A62CA5.w960.webp",
+          "delivery": "/assets/images/2025/02/01532928-25F1-4374-AFD7-7892B0A62CA5-1.w960.webp",
           "deliverySha256": "953b69dce69655d42d6ea4e03d85dd273b858c8a9c6fd3b8a53b8a7646dc7f92",
           "deliveryBytes": 116412,
           "dimensions": [
@@ -443,7 +2258,7 @@
           }
         },
         {
-          "delivery": "/assets/images/2025/02/01532928-25F1-4374-AFD7-7892B0A62CA5.w1280.webp",
+          "delivery": "/assets/images/2025/02/01532928-25F1-4374-AFD7-7892B0A62CA5-1.w1280.webp",
           "deliverySha256": "535de34348dba433165246eebd3ecf57e4fa128147d5ffba674936684ab74b3c",
           "deliveryBytes": 172350,
           "dimensions": [
@@ -458,8 +2273,393 @@
       ]
     },
     {
-      "source": "/assets/images/2025/02/569F61AC-972A-424E-B5E0-169B2822F3C1-2.png",
-      "delivery": "/assets/images/2025/02/569F61AC-972A-424E-B5E0-169B2822F3C1-2.webp",
+      "source": "/assets/images/2025/02/34C5B901-3764-4B03-82A8-5DBBFC4B7240-2.png",
+      "delivery": "/assets/images/2025/02/34C5B901-3764-4B03-82A8-5DBBFC4B7240-2.webp",
+      "sourceSha256": "618a384ad4cdaaa6e3052d147e2b705f034cc13883e718bf87bf77cc2a0d589f",
+      "deliverySha256": "4d5043f3182acb98aab44721c912c3cfd9a85bba91e4fed333405fd02066eaef",
+      "sourceBytes": 4420996,
+      "deliveryBytes": 570094,
+      "dimensions": [
+        1792,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/2025-02-01-session-notes.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/02/34C5B901-3764-4B03-82A8-5DBBFC4B7240-2.w320.webp",
+          "deliverySha256": "dc39c2a2abbd5386f1545c26af89c3a0ed17d3fe621d9297b1744530d2ed6f00",
+          "deliveryBytes": 27476,
+          "dimensions": [
+            320,
+            183
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/02/34C5B901-3764-4B03-82A8-5DBBFC4B7240-2.w640.webp",
+          "deliverySha256": "6f3b6369dd9db29f1bb5bec154a89f2a04e6031ec3b28a7a0afe25c5266fbcb8",
+          "deliveryBytes": 94148,
+          "dimensions": [
+            640,
+            366
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/02/34C5B901-3764-4B03-82A8-5DBBFC4B7240-2.w960.webp",
+          "deliverySha256": "9698334eef0ca4373b30a8a1c3a63c507e94456904ab93135a4bb6e7257eb478",
+          "deliveryBytes": 185122,
+          "dimensions": [
+            960,
+            549
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/02/34C5B901-3764-4B03-82A8-5DBBFC4B7240-2.w1280.webp",
+          "deliverySha256": "4c6f45090ec38d74ec2c3ce660de5d7988a1b6456e9b5b1ab83224be929c8e11",
+          "deliveryBytes": 301370,
+          "dimensions": [
+            1280,
+            731
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/02/34C5B901-3764-4B03-82A8-5DBBFC4B7240-3.png",
+      "delivery": "/assets/images/2025/02/34C5B901-3764-4B03-82A8-5DBBFC4B7240-3.webp",
+      "sourceSha256": "618a384ad4cdaaa6e3052d147e2b705f034cc13883e718bf87bf77cc2a0d589f",
+      "deliverySha256": "4d5043f3182acb98aab44721c912c3cfd9a85bba91e4fed333405fd02066eaef",
+      "sourceBytes": 4420996,
+      "deliveryBytes": 570094,
+      "dimensions": [
+        1792,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/2025-02-21-session-notes.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/02/34C5B901-3764-4B03-82A8-5DBBFC4B7240-3.w320.webp",
+          "deliverySha256": "dc39c2a2abbd5386f1545c26af89c3a0ed17d3fe621d9297b1744530d2ed6f00",
+          "deliveryBytes": 27476,
+          "dimensions": [
+            320,
+            183
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/02/34C5B901-3764-4B03-82A8-5DBBFC4B7240-3.w640.webp",
+          "deliverySha256": "6f3b6369dd9db29f1bb5bec154a89f2a04e6031ec3b28a7a0afe25c5266fbcb8",
+          "deliveryBytes": 94148,
+          "dimensions": [
+            640,
+            366
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/02/34C5B901-3764-4B03-82A8-5DBBFC4B7240-3.w960.webp",
+          "deliverySha256": "9698334eef0ca4373b30a8a1c3a63c507e94456904ab93135a4bb6e7257eb478",
+          "deliveryBytes": 185122,
+          "dimensions": [
+            960,
+            549
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/02/34C5B901-3764-4B03-82A8-5DBBFC4B7240-3.w1280.webp",
+          "deliverySha256": "4c6f45090ec38d74ec2c3ce660de5d7988a1b6456e9b5b1ab83224be929c8e11",
+          "deliveryBytes": 301370,
+          "dimensions": [
+            1280,
+            731
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/02/34C5B901-3764-4B03-82A8-5DBBFC4B7240.png",
+      "delivery": "/assets/images/2025/02/34C5B901-3764-4B03-82A8-5DBBFC4B7240.webp",
+      "sourceSha256": "618a384ad4cdaaa6e3052d147e2b705f034cc13883e718bf87bf77cc2a0d589f",
+      "deliverySha256": "4d5043f3182acb98aab44721c912c3cfd9a85bba91e4fed333405fd02066eaef",
+      "sourceBytes": 4420996,
+      "deliveryBytes": 570094,
+      "dimensions": [
+        1792,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/2025-02-01-session-notes.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/02/34C5B901-3764-4B03-82A8-5DBBFC4B7240.w320.webp",
+          "deliverySha256": "dc39c2a2abbd5386f1545c26af89c3a0ed17d3fe621d9297b1744530d2ed6f00",
+          "deliveryBytes": 27476,
+          "dimensions": [
+            320,
+            183
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/02/34C5B901-3764-4B03-82A8-5DBBFC4B7240.w640.webp",
+          "deliverySha256": "6f3b6369dd9db29f1bb5bec154a89f2a04e6031ec3b28a7a0afe25c5266fbcb8",
+          "deliveryBytes": 94148,
+          "dimensions": [
+            640,
+            366
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/02/34C5B901-3764-4B03-82A8-5DBBFC4B7240.w960.webp",
+          "deliverySha256": "9698334eef0ca4373b30a8a1c3a63c507e94456904ab93135a4bb6e7257eb478",
+          "deliveryBytes": 185122,
+          "dimensions": [
+            960,
+            549
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/02/34C5B901-3764-4B03-82A8-5DBBFC4B7240.w1280.webp",
+          "deliverySha256": "4c6f45090ec38d74ec2c3ce660de5d7988a1b6456e9b5b1ab83224be929c8e11",
+          "deliveryBytes": 301370,
+          "dimensions": [
+            1280,
+            731
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/02/3C691A6A-8EE5-422E-8314-69C08BFB3F4C.png",
+      "delivery": "/assets/images/2025/02/3C691A6A-8EE5-422E-8314-69C08BFB3F4C.webp",
+      "sourceSha256": "b02d0f0186769510a347e32da2e5a79cc0b41a9daecd83896829ba1a10ca8f40",
+      "deliverySha256": "359cf10d7a53fe2bee7f035b274314c18b115c0ffc31a6791fb0bc0e1e89aac2",
+      "sourceBytes": 4522505,
+      "deliveryBytes": 754096,
+      "dimensions": [
+        1792,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/2025-02-21-session-notes.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/02/3C691A6A-8EE5-422E-8314-69C08BFB3F4C.w320.webp",
+          "deliverySha256": "15d00eec5f80f2684e235be82f6eebba217428fc553b36224e1a0a1a2124a8e6",
+          "deliveryBytes": 34562,
+          "dimensions": [
+            320,
+            183
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/02/3C691A6A-8EE5-422E-8314-69C08BFB3F4C.w640.webp",
+          "deliverySha256": "633c1968bd8a5cdc84471a80e02a08ec1690a65c9ac9f7781549487fed96ce28",
+          "deliveryBytes": 124300,
+          "dimensions": [
+            640,
+            366
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/02/3C691A6A-8EE5-422E-8314-69C08BFB3F4C.w960.webp",
+          "deliverySha256": "0779556e4580512bc966b33ad48a1c8f2157a8af3daf7a506c39b8cce50e556b",
+          "deliveryBytes": 258874,
+          "dimensions": [
+            960,
+            549
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/02/3C691A6A-8EE5-422E-8314-69C08BFB3F4C.w1280.webp",
+          "deliverySha256": "fff931b1c08b71b112aeab6bb6658524bee94956067e5a6f9a0a5312287a461b",
+          "deliveryBytes": 420440,
+          "dimensions": [
+            1280,
+            731
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/02/5352B2EB-5E11-4DDB-95E8-CBD00F5C6E03.png",
+      "delivery": "/assets/images/2025/02/5352B2EB-5E11-4DDB-95E8-CBD00F5C6E03.webp",
+      "sourceSha256": "f0fde2901111bedb60e9a697418011c6946541d273f501368ecf32e278e8249a",
+      "deliverySha256": "d0651dcd18b7cbc4bec7a7a925b380ed53496131405f8f5103df94aad7fe9117",
+      "sourceBytes": 4459691,
+      "deliveryBytes": 690954,
+      "dimensions": [
+        1792,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/voice-over-daniel.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/02/5352B2EB-5E11-4DDB-95E8-CBD00F5C6E03.w320.webp",
+          "deliverySha256": "eef10a46839e54ed8ab05b08d634eed8deff77615ccfe0cb2add59f8acb0ea2b",
+          "deliveryBytes": 33108,
+          "dimensions": [
+            320,
+            183
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/02/5352B2EB-5E11-4DDB-95E8-CBD00F5C6E03.w640.webp",
+          "deliverySha256": "61851647a7703d8f8e388d011e43e380ad711f12c725c04fce1cdec68e6621f9",
+          "deliveryBytes": 113644,
+          "dimensions": [
+            640,
+            366
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/02/5352B2EB-5E11-4DDB-95E8-CBD00F5C6E03.w960.webp",
+          "deliverySha256": "5800a62b92bcfd0838302cde01b71a0e72be8b0696a649a8f9ef3f1402bd3d9f",
+          "deliveryBytes": 239164,
+          "dimensions": [
+            960,
+            549
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/02/5352B2EB-5E11-4DDB-95E8-CBD00F5C6E03.w1280.webp",
+          "deliverySha256": "4100cec53334b793758ca26705e1a3f4269ad4e8114ce2dad85b29c6d6435451",
+          "deliveryBytes": 390708,
+          "dimensions": [
+            1280,
+            731
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/02/569F61AC-972A-424E-B5E0-169B2822F3C1.png",
+      "delivery": "/assets/images/2025/02/569F61AC-972A-424E-B5E0-169B2822F3C1.webp",
       "sourceSha256": "2ebd25c2fe4a7f34bb7d3848d06385cf0bdd79a8c974d475eba51045d2c946a4",
       "deliverySha256": "f6692e2c5a1695563a7be08652da682c49277335d6a49a78f65b257c91920d15",
       "sourceBytes": 4477434,
@@ -477,11 +2677,11 @@
       "status": "converted",
       "reason": "quality 90 artwork",
       "usedIn": [
-        "src/content/tags/kevin.json"
+        "src/content/posts/voice-over-kevin.md"
       ],
       "variants": [
         {
-          "delivery": "/assets/images/2025/02/569F61AC-972A-424E-B5E0-169B2822F3C1-2.w320.webp",
+          "delivery": "/assets/images/2025/02/569F61AC-972A-424E-B5E0-169B2822F3C1.w320.webp",
           "deliverySha256": "e5d8fe5b44578b6c76612035b0360182fdb6bbdfad181998466fcfa65f38ee96",
           "deliveryBytes": 32204,
           "dimensions": [
@@ -494,7 +2694,7 @@
           }
         },
         {
-          "delivery": "/assets/images/2025/02/569F61AC-972A-424E-B5E0-169B2822F3C1-2.w640.webp",
+          "delivery": "/assets/images/2025/02/569F61AC-972A-424E-B5E0-169B2822F3C1.w640.webp",
           "deliverySha256": "f0606e9558c04bef1b5b30d78b050d0875438fe54dafabf4341ec464acaa796c",
           "deliveryBytes": 117500,
           "dimensions": [
@@ -507,7 +2707,7 @@
           }
         },
         {
-          "delivery": "/assets/images/2025/02/569F61AC-972A-424E-B5E0-169B2822F3C1-2.w960.webp",
+          "delivery": "/assets/images/2025/02/569F61AC-972A-424E-B5E0-169B2822F3C1.w960.webp",
           "deliverySha256": "2602a0b8ce17ad98a3dc3f338f7ff9a94e0f9f9cabb7c2766c1e08f04621868a",
           "deliveryBytes": 251514,
           "dimensions": [
@@ -520,7 +2720,7 @@
           }
         },
         {
-          "delivery": "/assets/images/2025/02/569F61AC-972A-424E-B5E0-169B2822F3C1-2.w1280.webp",
+          "delivery": "/assets/images/2025/02/569F61AC-972A-424E-B5E0-169B2822F3C1.w1280.webp",
           "deliverySha256": "72010141da9796088f0b5034b12a5569f0c753ecf077a66f140a0c3adaf401ed",
           "deliveryBytes": 413556,
           "dimensions": [
@@ -535,8 +2735,85 @@
       ]
     },
     {
-      "source": "/assets/images/2025/02/831AF2D6-3DC5-4377-B0DB-F4340B354696-1.png",
-      "delivery": "/assets/images/2025/02/831AF2D6-3DC5-4377-B0DB-F4340B354696-1.webp",
+      "source": "/assets/images/2025/02/7D007978-4AE2-4CC3-9EF7-ED20B4EB0310.png",
+      "delivery": "/assets/images/2025/02/7D007978-4AE2-4CC3-9EF7-ED20B4EB0310.webp",
+      "sourceSha256": "59144955025ca56c6f1759a964c09d68f71c5998406ad3f251731a469f409441",
+      "deliverySha256": "b31aaca6a69a8f574ce54bfdedfc3bfb7789a83a8ecada4b5289eedad3cda8f2",
+      "sourceBytes": 3324225,
+      "deliveryBytes": 562454,
+      "dimensions": [
+        1792,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/2025-02-01-session-notes.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/02/7D007978-4AE2-4CC3-9EF7-ED20B4EB0310.w320.webp",
+          "deliverySha256": "2dac60c260525839e4840d5fab9e16a09d959c6b1bac876f6ac08b00d1a761b5",
+          "deliveryBytes": 28460,
+          "dimensions": [
+            320,
+            183
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/02/7D007978-4AE2-4CC3-9EF7-ED20B4EB0310.w640.webp",
+          "deliverySha256": "63e47045c2839d8560fe4a61c49c8a236f1325f7797b3beef3635e3c404af5cd",
+          "deliveryBytes": 99866,
+          "dimensions": [
+            640,
+            366
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/02/7D007978-4AE2-4CC3-9EF7-ED20B4EB0310.w960.webp",
+          "deliverySha256": "406a7bb659ca224b23eb980f88989c3dffa3cd2603fd3ff147e9ab8280e278d9",
+          "deliveryBytes": 204486,
+          "dimensions": [
+            960,
+            549
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/02/7D007978-4AE2-4CC3-9EF7-ED20B4EB0310.w1280.webp",
+          "deliverySha256": "fac3b64ddaf92e9f2800e4047e10a83036d63ccb89422c7b4301086b8ab44dd7",
+          "deliveryBytes": 329668,
+          "dimensions": [
+            1280,
+            731
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/02/831AF2D6-3DC5-4377-B0DB-F4340B354696.png",
+      "delivery": "/assets/images/2025/02/831AF2D6-3DC5-4377-B0DB-F4340B354696.webp",
       "sourceSha256": "9239267ecc9824e60c2a48dc2a5896f5bb3517c62b02edd234358b40f43af063",
       "deliverySha256": "6cb4dbc8a16a1c346250afbf01252c1c6bb63e806f5e570e6dc3978a89f136c6",
       "sourceBytes": 4305312,
@@ -554,11 +2831,11 @@
       "status": "converted",
       "reason": "quality 90 artwork",
       "usedIn": [
-        "src/content/tags/sergei.json"
+        "src/content/posts/voice-over-sergei.md"
       ],
       "variants": [
         {
-          "delivery": "/assets/images/2025/02/831AF2D6-3DC5-4377-B0DB-F4340B354696-1.w320.webp",
+          "delivery": "/assets/images/2025/02/831AF2D6-3DC5-4377-B0DB-F4340B354696.w320.webp",
           "deliverySha256": "888fb324983dd02277840ecb2e1cedf44e2451365a2567244057f3de28c71fd6",
           "deliveryBytes": 29430,
           "dimensions": [
@@ -571,7 +2848,7 @@
           }
         },
         {
-          "delivery": "/assets/images/2025/02/831AF2D6-3DC5-4377-B0DB-F4340B354696-1.w640.webp",
+          "delivery": "/assets/images/2025/02/831AF2D6-3DC5-4377-B0DB-F4340B354696.w640.webp",
           "deliverySha256": "e3ad33bd571e10354e979985cabce8bbf8c87fe77ae872d2581fb8f13aaff796",
           "deliveryBytes": 104862,
           "dimensions": [
@@ -584,7 +2861,7 @@
           }
         },
         {
-          "delivery": "/assets/images/2025/02/831AF2D6-3DC5-4377-B0DB-F4340B354696-1.w960.webp",
+          "delivery": "/assets/images/2025/02/831AF2D6-3DC5-4377-B0DB-F4340B354696.w960.webp",
           "deliverySha256": "0d9f66a755260452e919d11040519177d8542d669afb81cf430f11e2019c4cf5",
           "deliveryBytes": 233672,
           "dimensions": [
@@ -597,7 +2874,7 @@
           }
         },
         {
-          "delivery": "/assets/images/2025/02/831AF2D6-3DC5-4377-B0DB-F4340B354696-1.w1280.webp",
+          "delivery": "/assets/images/2025/02/831AF2D6-3DC5-4377-B0DB-F4340B354696.w1280.webp",
           "deliverySha256": "6e875c5e63992a01f44f5e04f1306230069dbe4c2c0b4ae7734bf0fa6d1e15d4",
           "deliveryBytes": 389142,
           "dimensions": [
@@ -612,14 +2889,14 @@
       ]
     },
     {
-      "source": "/assets/images/2025/02/843B013D-8DA7-4873-A949-474F49FDA1E5.png",
-      "delivery": "/assets/images/2025/02/843B013D-8DA7-4873-A949-474F49FDA1E5.webp",
-      "sourceSha256": "f4908d5449abda2c21e3d7dd8062df0e40b82f404d80364aea796d7cee67c9df",
-      "deliverySha256": "b2ab152d14befb65212c023e21f64f82263bd91e3739d62f4ed37d52b6aa51cf",
-      "sourceBytes": 4532323,
-      "deliveryBytes": 677760,
+      "source": "/assets/images/2025/02/960612F5-169F-48C6-81C9-E361EDCB353D.png",
+      "delivery": "/assets/images/2025/02/960612F5-169F-48C6-81C9-E361EDCB353D.webp",
+      "sourceSha256": "3786d59b81dc0fe81728d0723346821bf779adb47fcb9f15cb911e49973999f4",
+      "deliverySha256": "e8c25fcda9daa6a5fc022c3d5c1eba4ca725bcfd91d0dfb317043f33fbf9ae40",
+      "sourceBytes": 2371378,
+      "deliveryBytes": 392388,
       "dimensions": [
-        1792,
+        1024,
         1024
       ],
       "transparent": false,
@@ -631,16 +2908,16 @@
       "status": "converted",
       "reason": "quality 90 artwork",
       "usedIn": [
-        "src/content/tags/maeve.json"
+        "src/content/posts/2025-02-21-session-notes.md"
       ],
       "variants": [
         {
-          "delivery": "/assets/images/2025/02/843B013D-8DA7-4873-A949-474F49FDA1E5.w320.webp",
-          "deliverySha256": "72db481c2321ea883ca71babb0dee160425bf11ab413e12504dc8b157febfe26",
-          "deliveryBytes": 30040,
+          "delivery": "/assets/images/2025/02/960612F5-169F-48C6-81C9-E361EDCB353D.w320.webp",
+          "deliverySha256": "51e43bb6e917f0b060c63272e8dc6ebaeeb396d54f8ec51d6efad7ab3c762933",
+          "deliveryBytes": 49022,
           "dimensions": [
             320,
-            183
+            320
           ],
           "settings": {
             "method": 6,
@@ -648,12 +2925,12 @@
           }
         },
         {
-          "delivery": "/assets/images/2025/02/843B013D-8DA7-4873-A949-474F49FDA1E5.w640.webp",
-          "deliverySha256": "309acde8fb3e5f230bf56b773dd78d67d81b4c54f0664d622ad5d47ac44753d1",
-          "deliveryBytes": 108414,
+          "delivery": "/assets/images/2025/02/960612F5-169F-48C6-81C9-E361EDCB353D.w640.webp",
+          "deliverySha256": "9247b9a6dae384c85d26882c1756f01536c84a846c9c227bc08a397d3e44d70c",
+          "deliveryBytes": 175926,
           "dimensions": [
             640,
-            366
+            640
           ],
           "settings": {
             "method": 6,
@@ -661,25 +2938,12 @@
           }
         },
         {
-          "delivery": "/assets/images/2025/02/843B013D-8DA7-4873-A949-474F49FDA1E5.w960.webp",
-          "deliverySha256": "bdba46aa8031478faf169127515902bf25e60b184d83b3c180a1f1816b9e0a31",
-          "deliveryBytes": 226570,
+          "delivery": "/assets/images/2025/02/960612F5-169F-48C6-81C9-E361EDCB353D.w960.webp",
+          "deliverySha256": "9b1caa776d4abef305092d98bd6f99ae510114016404a93267f133eb65d9a214",
+          "deliveryBytes": 339862,
           "dimensions": [
             960,
-            549
-          ],
-          "settings": {
-            "method": 6,
-            "quality": 90
-          }
-        },
-        {
-          "delivery": "/assets/images/2025/02/843B013D-8DA7-4873-A949-474F49FDA1E5.w1280.webp",
-          "deliverySha256": "517ec5476c839a9bdfae3fc9ae6c8cc63382f844ae58911283ab8308977e328a",
-          "deliveryBytes": 373210,
-          "dimensions": [
-            1280,
-            731
+            960
           ],
           "settings": {
             "method": 6,
@@ -753,12 +3017,12 @@
       ]
     },
     {
-      "source": "/assets/images/2025/02/B7CE18E8-AAAF-45DC-BC98-AE1B619FAF14-1.png",
-      "delivery": "/assets/images/2025/02/B7CE18E8-AAAF-45DC-BC98-AE1B619FAF14-1.webp",
-      "sourceSha256": "e9bb7753f83c7889ee9ca8d0382086745c1e1de8ac22eee45d1934e665224a75",
-      "deliverySha256": "e772cb9198e4465b4d1b5b91010aeecbc16107d4c7c14754fa8925cdd35d7295",
-      "sourceBytes": 3317760,
-      "deliveryBytes": 443232,
+      "source": "/assets/images/2025/02/A5CEA72B-4135-4099-B124-1946E2494C83.png",
+      "delivery": "/assets/images/2025/02/A5CEA72B-4135-4099-B124-1946E2494C83.webp",
+      "sourceSha256": "a80b223eefeeeacd005b105c269227a01f833389ff22facdefcc2edbf0e48b8d",
+      "deliverySha256": "059cf15427ca406dc69135d66a44f331f723f45ddba48277603556640531721f",
+      "sourceBytes": 2770774,
+      "deliveryBytes": 419038,
       "dimensions": [
         1792,
         1024
@@ -772,13 +3036,13 @@
       "status": "converted",
       "reason": "quality 90 artwork",
       "usedIn": [
-        "src/content/tags/geoffrey.json"
+        "src/content/posts/2025-02-01-session-notes.md"
       ],
       "variants": [
         {
-          "delivery": "/assets/images/2025/02/B7CE18E8-AAAF-45DC-BC98-AE1B619FAF14-1.w320.webp",
-          "deliverySha256": "67dd89d76a5ae5adfdcc48e7718dc3f80f6ce58ebd2a61314068b0a83473d195",
-          "deliveryBytes": 25206,
+          "delivery": "/assets/images/2025/02/A5CEA72B-4135-4099-B124-1946E2494C83.w320.webp",
+          "deliverySha256": "c16fcf7a09022bcf776735898efd4b20b1b0830945124bce5578fc0ae96614ac",
+          "deliveryBytes": 26966,
           "dimensions": [
             320,
             183
@@ -789,9 +3053,9 @@
           }
         },
         {
-          "delivery": "/assets/images/2025/02/B7CE18E8-AAAF-45DC-BC98-AE1B619FAF14-1.w640.webp",
-          "deliverySha256": "42c6dd1539ea2030398683d1e09adfe14b495ab516246d9e6635df5333bee411",
-          "deliveryBytes": 83688,
+          "delivery": "/assets/images/2025/02/A5CEA72B-4135-4099-B124-1946E2494C83.w640.webp",
+          "deliverySha256": "94812b47f8dcd5382b4b04c4172dd98ae6696f56b2143581fb322d88cd3f257c",
+          "deliveryBytes": 83840,
           "dimensions": [
             640,
             366
@@ -802,9 +3066,9 @@
           }
         },
         {
-          "delivery": "/assets/images/2025/02/B7CE18E8-AAAF-45DC-BC98-AE1B619FAF14-1.w960.webp",
-          "deliverySha256": "78a27df79f929079c3f0ad4f3d4c81f66ee7a5cfa8e097260c38ab02586de837",
-          "deliveryBytes": 162432,
+          "delivery": "/assets/images/2025/02/A5CEA72B-4135-4099-B124-1946E2494C83.w960.webp",
+          "deliverySha256": "f66c910d432ce208066f9c6dc78bececdc32adfbcf5a5df1caa7d711e3873c9a",
+          "deliveryBytes": 161420,
           "dimensions": [
             960,
             549
@@ -815,9 +3079,9 @@
           }
         },
         {
-          "delivery": "/assets/images/2025/02/B7CE18E8-AAAF-45DC-BC98-AE1B619FAF14-1.w1280.webp",
-          "deliverySha256": "027fea62a53ce33440f2b70ba23fb5f1b7e024103fc1c0d7de56e5653c4e8a22",
-          "deliveryBytes": 256038,
+          "delivery": "/assets/images/2025/02/A5CEA72B-4135-4099-B124-1946E2494C83.w1280.webp",
+          "deliverySha256": "f10aae58fd8a029a197469fcdfd58dbaabc2fefae9b8d324bf686dd1d175a92c",
+          "deliveryBytes": 249142,
           "dimensions": [
             1280,
             731
@@ -962,6 +3226,128 @@
           "dimensions": [
             960,
             960
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/02/DALL-E-2025-02-20-18.04.32---A-neo-noir-comic-book-style-illustration-of-the-New-Orleans-French-Quarter-at-night.-The-scene-features-empty-cobblestone-streets--historic-French-and.webp",
+      "delivery": "/assets/images/2025/02/DALL-E-2025-02-20-18.04.32---A-neo-noir-comic-book-style-illustration-of-the-New-Orleans-French-Quarter-at-night.-The-scene-features-empty-cobblestone-streets--historic-French-and.webp",
+      "sourceSha256": "a9f1a4c4752d032d8b6526f10b12db82f7f05a6731970516077a03cb3ed04702",
+      "deliverySha256": "a9f1a4c4752d032d8b6526f10b12db82f7f05a6731970516077a03cb3ed04702",
+      "sourceBytes": 389394,
+      "deliveryBytes": 389394,
+      "dimensions": [
+        1792,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/posts/2025-0215-session-notes.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/02/DALL-E-2025-02-20-18.04.32---A-neo-noir-comic-book-style-illustration-of-the-New-Orleans-French-Quarter-at-night.-The-scene-features-empty-cobblestone-streets--historic-French-and.w320.webp",
+          "deliverySha256": "70e785fb7a7967b68fe9f3dfd24c6492a547dc074e745b1d67a41d153f8d0f08",
+          "deliveryBytes": 26776,
+          "dimensions": [
+            320,
+            183
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/02/DALL-E-2025-02-20-18.04.32---A-neo-noir-comic-book-style-illustration-of-the-New-Orleans-French-Quarter-at-night.-The-scene-features-empty-cobblestone-streets--historic-French-and.w640.webp",
+          "deliverySha256": "20dfa06ae51e7ccd3b5e26c9362cc34ce75be2ef22ae5453e3df9bc0aea1a53e",
+          "deliveryBytes": 91924,
+          "dimensions": [
+            640,
+            366
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/02/DALL-E-2025-02-20-18.04.32---A-neo-noir-comic-book-style-illustration-of-the-New-Orleans-French-Quarter-at-night.-The-scene-features-empty-cobblestone-streets--historic-French-and.w960.webp",
+          "deliverySha256": "9c115a05c6692bb59c14d105f4da1e766e47ea2eb66203df7663f773fc555d42",
+          "deliveryBytes": 188224,
+          "dimensions": [
+            960,
+            549
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/02/DALL-E-2025-02-20-18.04.32---A-neo-noir-comic-book-style-illustration-of-the-New-Orleans-French-Quarter-at-night.-The-scene-features-empty-cobblestone-streets--historic-French-and.w1280.webp",
+          "deliverySha256": "2504e3ff980b6adcefae824b3b98c2d4cb9246caaa29a158cc347e4c4ae01c85",
+          "deliveryBytes": 309860,
+          "dimensions": [
+            1280,
+            731
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/02/DALL-E-2025-02-20-18.07.48---A-neo-noir-comic-book-style-portrait-of-a-sophisticated-middle-aged-woman.-She-has-an-elegant-updo-hairstyle--striking-red-lipstick--and-sharp--define.webp",
+      "delivery": "/assets/images/2025/02/DALL-E-2025-02-20-18.07.48---A-neo-noir-comic-book-style-portrait-of-a-sophisticated-middle-aged-woman.-She-has-an-elegant-updo-hairstyle--striking-red-lipstick--and-sharp--define.webp",
+      "sourceSha256": "1083bc2c0c46a69ec52ed589efd24c8caf561ff2ba8f4cfa4dc04de21f9e59e7",
+      "deliverySha256": "1083bc2c0c46a69ec52ed589efd24c8caf561ff2ba8f4cfa4dc04de21f9e59e7",
+      "sourceBytes": 213796,
+      "deliveryBytes": 213796,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/posts/2025-0215-session-notes.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/02/DALL-E-2025-02-20-18.07.48---A-neo-noir-comic-book-style-portrait-of-a-sophisticated-middle-aged-woman.-She-has-an-elegant-updo-hairstyle--striking-red-lipstick--and-sharp--define.w320.webp",
+          "deliverySha256": "c5368d40c0a0f6f265c1f8874230a8bc6eab5a44268fb1ca52b4b75c906498d2",
+          "deliveryBytes": 43004,
+          "dimensions": [
+            320,
+            320
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/02/DALL-E-2025-02-20-18.07.48---A-neo-noir-comic-book-style-portrait-of-a-sophisticated-middle-aged-woman.-She-has-an-elegant-updo-hairstyle--striking-red-lipstick--and-sharp--define.w640.webp",
+          "deliverySha256": "2ef5b4af5dfba736b10488af437a4f17e85bb051733e458d1cd3a7313dae09e3",
+          "deliveryBytes": 144494,
+          "dimensions": [
+            640,
+            640
           ],
           "settings": {
             "method": 6,
@@ -1126,6 +3512,80 @@
           "dimensions": [
             1920,
             1138
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/02/IMG_0509.jpeg",
+      "delivery": "/assets/images/2025/02/IMG_0509.jpeg",
+      "sourceSha256": "2770c7a43dad80f5670199ae466485caa52688c989fd71f498d591e7c6918a3a",
+      "deliverySha256": "2770c7a43dad80f5670199ae466485caa52688c989fd71f498d591e7c6918a3a",
+      "sourceBytes": 363641,
+      "deliveryBytes": 363641,
+      "dimensions": [
+        1792,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/posts/2025-02-01-session-notes.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/02/IMG_0509.w320.webp",
+          "deliverySha256": "39fa8a7c86d211b14e2ab26f783476018222ed10ee1bcd4c67809c56ce79f9cf",
+          "deliveryBytes": 20706,
+          "dimensions": [
+            320,
+            183
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/02/IMG_0509.w640.webp",
+          "deliverySha256": "1c0fcc8d345e6a136ce1ff2ba73cd128f58598c277ed28a66cd8904e6f376c12",
+          "deliveryBytes": 77584,
+          "dimensions": [
+            640,
+            366
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/02/IMG_0509.w960.webp",
+          "deliverySha256": "6695d0db40a2c9ba1beb8d8cab8ecc3e8f545c0fd1bfddc3f9675a6b823c474d",
+          "deliveryBytes": 169688,
+          "dimensions": [
+            960,
+            549
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/02/IMG_0509.w1280.webp",
+          "deliverySha256": "0e98cc8d5c2793755aae76b9e4051f92fcf36255d48a991ccb28066d7470ef1c",
+          "deliveryBytes": 282226,
+          "dimensions": [
+            1280,
+            731
           ],
           "settings": {
             "method": 6,
@@ -6195,80 +8655,6 @@
           "dimensions": [
             1280,
             1920
-          ],
-          "settings": {
-            "method": 6,
-            "quality": 90
-          }
-        }
-      ]
-    },
-    {
-      "source": "/assets/images/2026/06/sekhmet-1.webp",
-      "delivery": "/assets/images/2026/06/sekhmet-1.webp",
-      "sourceSha256": "ae3c64143ada8e2c593b52d78cdbd6303a7138cca466acc9f593ef53277ddf3f",
-      "deliverySha256": "ae3c64143ada8e2c593b52d78cdbd6303a7138cca466acc9f593ef53277ddf3f",
-      "sourceBytes": 101186,
-      "deliveryBytes": 101186,
-      "dimensions": [
-        2000,
-        1333
-      ],
-      "transparent": false,
-      "animated": false,
-      "settings": null,
-      "status": "retained",
-      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
-      "usedIn": [
-        "src/content/tags/wren.json"
-      ],
-      "variants": [
-        {
-          "delivery": "/assets/images/2026/06/sekhmet-1.w320.webp",
-          "deliverySha256": "7c2fb701d40cf02b10e8e41db0fb42fbc73ddd10ebed4fbed4f7eef812bb41d5",
-          "deliveryBytes": 11388,
-          "dimensions": [
-            320,
-            213
-          ],
-          "settings": {
-            "method": 6,
-            "quality": 90
-          }
-        },
-        {
-          "delivery": "/assets/images/2026/06/sekhmet-1.w640.webp",
-          "deliverySha256": "2833954f31e1180c0dd97b66b16c1c4227b2e992450d9438f3c2d4f69b5d11a7",
-          "deliveryBytes": 29990,
-          "dimensions": [
-            640,
-            427
-          ],
-          "settings": {
-            "method": 6,
-            "quality": 90
-          }
-        },
-        {
-          "delivery": "/assets/images/2026/06/sekhmet-1.w960.webp",
-          "deliverySha256": "93f070613da625ade6686790a5f22843025d266bda9afd02374bb9de320d46b6",
-          "deliveryBytes": 52876,
-          "dimensions": [
-            960,
-            640
-          ],
-          "settings": {
-            "method": 6,
-            "quality": 90
-          }
-        },
-        {
-          "delivery": "/assets/images/2026/06/sekhmet-1.w1280.webp",
-          "deliverySha256": "6065db019db0e23cb640c7084caa40ee60f49dba2fcc8c0e7e859d0a80f5daa9",
-          "deliveryBytes": 79444,
-          "dimensions": [
-            1280,
-            853
           ],
           "settings": {
             "method": 6,

@@ -92,7 +92,7 @@
     {
       "slug": "2024-12-21-session-notes",
       "title": "2024.12.21 Session Notes",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "City of Mist",
         "CoM Prologue",
@@ -102,7 +102,7 @@
     {
       "slug": "2024-12-30-session-notes",
       "title": "2024.12.30 Session Notes",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "City of Mist",
         "CoM Prologue",
@@ -121,7 +121,7 @@
     {
       "slug": "voice-over-london",
       "title": "Voice Over: London",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "City of Mist",
         "CoM Prologue"
@@ -130,7 +130,7 @@
     {
       "slug": "2025-01-04-session-notes",
       "title": "2025.01.04 Session Notes",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "City of Mist",
         "CoM Prologue",
@@ -140,7 +140,7 @@
     {
       "slug": "voice-over-sergei",
       "title": "Voice Over: Sergei",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "City of Mist",
         "CoM Prologue"
@@ -149,7 +149,7 @@
     {
       "slug": "2024-01-18-session-notes",
       "title": "2024.01.18 Session Notes",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "City of Mist",
         "CoM Prologue",
@@ -159,7 +159,7 @@
     {
       "slug": "voice-over-kevin",
       "title": "Voice Over: Kevin",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "City of Mist",
         "CoM Prologue"
@@ -168,7 +168,7 @@
     {
       "slug": "2025-01-25-session-notes",
       "title": "2025.01.25 Session Notes",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "City of Mist",
         "CoM Prologue",
@@ -178,7 +178,7 @@
     {
       "slug": "2025-02-01-session-notes",
       "title": "2025.02.01 Session Notes",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "City of Mist",
         "CoM Prologue",
@@ -188,7 +188,7 @@
     {
       "slug": "2025-0215-session-notes",
       "title": "2025.02.15 Session Notes",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "City of Mist",
         "CoM Prologue",
@@ -198,7 +198,7 @@
     {
       "slug": "voice-over-daniel",
       "title": "Voice Over: Daniel",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "City of Mist",
         "CoM Prologue"
@@ -207,7 +207,7 @@
     {
       "slug": "2025-02-21-session-notes",
       "title": "2025.02.21 Session Notes",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "City of Mist",
         "CoM Prologue",
@@ -1741,8 +1741,8 @@
   "summary": {
     "sourcePosts": 170,
     "retainedArchivePosts": 168,
-    "alreadyMigratedPosts": 12,
-    "remainingPostsToMigrate": 156,
+    "alreadyMigratedPosts": 24,
+    "remainingPostsToMigrate": 144,
     "approvedOmissions": 2,
     "untaggedRetainedPosts": [
       "1-5-when-the-cats-away"

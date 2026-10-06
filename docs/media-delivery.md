@@ -62,3 +62,9 @@ For subsequent content migrations, `--changed-since /path/to/previous-manifest.j
 ## PDF downloads
 
 Referenced PDF files under `public/assets/files/` are preserved byte-for-byte, inventoried and uploaded alongside images. They receive `application/pdf` and attachment headers on R2. The build rewrites their links with `MEDIA_BASE_URL`; remote builds exclude bundled document copies, while local builds copy validated delivery files. Images retain their existing responsive behavior. Originals remain outside Git.
+
+## City of Mist Prologue batch (2026-10-06)
+
+Optimization continues with each content batch; the full unmigrated archive is not prepared/uploaded. This batch adds 40 referenced source images (116.96 MiB), 20.40 MiB of full-size delivery images and 144 responsive variants. All 184 new objects are uploaded to R2; three representative public downloads match their checksums. Original backup/public files remain unchanged and outside Git. The current manifest covers 198 source assets and 683 delivery files (about 152 MiB including variants/PDFs). Six source assets no longer referenced after tag cleanup leave the manifest; no bucket objects are deleted.
+
+The build passes with 58 pages. Media checks validate 357 responsive occurrences, 212 full-size links and all 683 delivery checksums. See `com-prologue-migration.json` for content/media provenance.
