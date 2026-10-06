@@ -80,7 +80,7 @@ html.dark-mode .leota .site-header { background: var(--ghost-accent-color); padd
 .publication-cover { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
 .publication-intro { position: relative; text-align: center; }
 .publication-title { margin: 0; padding: 0; }
-.publication-title img { display: block; margin: auto; max-height: 120px; max-width: 60%; }
+.publication-title img { display: block; margin: auto; width: auto; height: auto; max-height: 120px; max-width: 60%; object-fit: contain; }
 .publication-description { max-width: 640px; margin: 20px auto 0; font-size: 2.4rem; line-height: 1.4; }
 .leota.home-template .post-feed { margin-top: 0; padding-top: max(4vmin, 40px); }
 .leota .post-card-excerpt { font-family: var(--font-body), sans-serif; }
