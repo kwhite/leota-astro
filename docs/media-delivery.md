@@ -9,12 +9,12 @@ That initial delivery set was 52.19 MiB instead of 202.47 MiB, a 74.2% reduction
 Set the **build environment variable** `MEDIA_BASE_URL` to:
 
 ```
-https://pub-e4d8121a5e7c42d98f03214fb5ed9720.r2.dev
+https://media.herebedragons.club
 ```
 
 This is a public address and does not need encryption. The existing build/deploy commands remain `pnpm build` and `npx wrangler deploy`. The build uses the tracked manifest to rewrite image references, including feeds and lightbox links, and excludes image copies from the site artifact. A fresh checkout can build with this variable without restoring local source images.
 
-Use the R2 development URL for this test. Before public launch, connect a custom media domain and change the same build variable; the development endpoint has rate limits and is not intended for production. No R2 credentials belong in the site build.
+The custom domain is connected directly to bucket `leota-media`. Keep the original r2.dev endpoint enabled during rollout so existing deployments continue working. No R2 credentials belong in the site build.
 
 ## Updating media
 
@@ -107,3 +107,7 @@ Adds 23 covers (45,892,639 source bytes; 4,462,010 full-size delivery bytes), 92
 City of Mist Characters and RPG Consent Checklist add 25 local image sources and 85 active delivery files, uploaded to R2 after checksum validation. The manifest now covers 462 source assets and 1,805 delivery files, totaling 289,680,515 bytes (about 276.3 MiB, including responsive variants). Original Unsplash covers remain external. The R2 production build passes with 219 pages; responsive-media checks verify 1,626 responsive occurrences and 691 full-size links. See `remaining-pages-migration.json` and `link-audit.json` for audit scope and remaining live checks.
 
 Kat’s replacement checklist header (`candela.png`, 1,481,222 bytes) is delivered as a 137,372-byte quality-90 WebP plus four responsive variants. All five public files match their checksums. The former header’s four bucket objects and local site copies were removed at her request; the source backup is untouched.
+
+## Custom media domain (2026-10-06)
+
+Kat connected `media.herebedragons.club` to `leota-media`. The manifest default and saved Cloudflare production build variable now use `https://media.herebedragons.club`. The 219-page build, internal-link audit and all 1,805 local delivery-file checksums pass. Header, responsive image and PDF downloads through the custom domain match checksums; PDF attachment headers pass. No objects were moved or re-uploaded. Merge the media-domain PR to roll out the repository default; keep the old r2.dev endpoint enabled until the resulting deployment is verified.
