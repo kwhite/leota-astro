@@ -40,8 +40,9 @@ const isoDate = articleDate ? new Date(articleDate).toISOString() : undefined;
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
 <!-- Fonts -->
-<Font cssVariable="--font-heading" preload />
-<Font cssVariable="--font-body" preload />
+<!-- Prioritize the article title and body; other faces load when used. -->
+<Font cssVariable="--font-heading" preload={[{ weight: 800, style: 'normal', subset: 'latin' }]} />
+<Font cssVariable="--font-body" preload={[{ weight: 400, style: 'normal', subset: 'latin' }]} />
 
 <!-- LCP Image Preloads -->
 {type === 'article' && image && (
