@@ -216,3 +216,7 @@ Open decisions raised this session, not yet resolved:
 ## Git state (2026-10-04, end of session)
 
 PRs #1 and #2 from `codex/leota-visual-port` are merged into `main`; that branch has been deleted locally and on GitHub. Earlier references to it as the working branch are historical. The final docs commit was moved to `docs/authoring-plan-updates` for its own PR. Going forward, start each piece of work on a new branch from an up-to-date `main`. Still uncommitted locally: the `js-yaml` bump, `.claude/launch.json` and bulk media.
+
+## Latest enhancement: automatic gallery rows (2026-10-05)
+
+On `codex/automatic-gallery-rows`, Gallery accepts a flat `images` list and groups three per row, splitting a final four into two rows of two. Explicit `rows` remain an override. Session Notes and DM Resources use flat lists with identical rendered output. Authoring guide updated; grouping counts zero through ten verified; production build: 36 pages. Kat approved committing this enhancement and opening a PR. Automatic image dimensions, link-preview helper and per-image captions remain planned.

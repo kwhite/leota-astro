@@ -72,7 +72,8 @@ Rows of images that share a height within each row, with the shared image viewer
 
 | Prop | Required | Notes |
 | --- | --- | --- |
-| `rows` | yes | A list of rows, each a list of images. Even a single row needs the double brackets: `rows={[[ ... ]]}`. |
+| `images` | unless using `rows` | A flat list of images, grouped automatically in source order. |
+| `rows` | no | Overrides `images` with explicit grouping. Each row is a list: `rows={[[ ... ]]}`. |
 | `caption` | no | Plain-text caption under the gallery. |
 | `size` | no | `"wide"` (default, like Ghost), `"full"` or `"regular"` (reading-column width). |
 
@@ -83,19 +84,15 @@ import Gallery from '../../components/Gallery.astro';
 
 <Gallery
   caption="Capt. Billbog Marrow and First Mate Byrne"
-  rows={[
-    [
+  images={[
       { image: "/assets/images/2025/03/billbog.png", alt: "Capt. Billbog Marrow", width: 1024, height: 1024 },
       { image: "/assets/images/2025/03/byrne.png", alt: "First Mate Byrne", width: 1024, height: 1024 },
-    ],
-    [
       { image: "/assets/images/2025/03/ship.png", alt: "The Quick Fortune", width: 1456, height: 816 },
-    ],
   ]}
 />
 ```
 
-Ghost galleries use two or three images per row; keep the original grouping when converting. A row given as a flat list (single brackets) stops the build with a message saying so.
+Automatic rows use up to three images. If that would leave one image on the last row, the last four become two rows of two: four images → 2 + 2; seven → 3 + 2 + 2. One or two images form a single row. Use `rows` to preserve a deliberate source grouping; existing explicit rows keep their layout. Empty galleries or a row given as a flat list stop the build with a clear message.
 
 ## ContentImage
 
