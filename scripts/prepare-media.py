@@ -77,10 +77,34 @@ def main():
                 'status': 'converted' if convert else 'retained',
                 'reason': ('lossless transparency' if transparent else 'quality 90 artwork') if convert else 'existing format, animation, favicon compatibility, or conversion not smaller',
                 'usedIn': sorted(usages)})
+        # Generate smaller candidates from originals, never from a lossy delivery file.
+        variants = []
+        if not animated and source.suffix.lower() in {'.png', '.jpg', '.jpeg', '.webp'} and '/thumbnail/' not in url and '/icon/' not in url and url != '/assets/images/2024/12/IMG_0423-2.png':
+            with Image.open(source) as original:
+                image = ImageOps.exif_transpose(original).convert('RGBA' if transparent else 'RGB')
+                for width in (320, 640, 960, 1280, 1920):
+                    if width >= image.width:
+                        continue
+                    height = max(1, round(image.height * width / image.width))
+                    variant_url = str(Path(url).with_suffix(f'.w{width}.webp'))
+                    if variant_url in refs or variant_url in destinations:
+                        raise ValueError(f'Variant name collision: {variant_url}')
+                    destinations.add(variant_url)
+                    variant_path = OUT / variant_url.lstrip('/')
+                    cached = next((v for v in (old or {}).get('variants', []) if v['delivery'] == variant_url), None)
+                    if not (cached and cached.get('settings') == settings and old['sourceSha256'] == source_sha and variant_path.exists() and sha(variant_path) == cached['deliverySha256']):
+                        image.resize((width, height), Image.Resampling.LANCZOS).save(variant_path, 'WEBP', **settings)
+                    with Image.open(variant_path) as check:
+                        check.load()
+                        assert check.size == (width, height)
+                    if variant_path.stat().st_size < dest.stat().st_size:
+                        variants.append({'delivery': variant_url, 'deliverySha256': sha(variant_path), 'deliveryBytes': variant_path.stat().st_size, 'dimensions': [width, height], 'settings': settings})
+        assets[-1]['variants'] = variants
         print(f'{len(assets)}/{len(refs)} {url}', flush=True)
-    report = {'version': 1, 'pillow': Image.__version__, 'webp': features.version('webp'),
+    report = {'version': 2, 'pillow': Image.__version__, 'webp': features.version('webp'),
         'sourceBytes': sum(a['sourceBytes'] for a in assets),
-        'deliveryBytes': sum(a['deliveryBytes'] for a in assets), 'assets': assets}
+        'deliveryBytes': sum(a['deliveryBytes'] for a in assets),
+        'variantBytes': sum(v['deliveryBytes'] for a in assets for v in a['variants']), 'assets': assets}
     if previous_report.get('publicDevelopmentUrl'):
         report['publicDevelopmentUrl'] = previous_report['publicDevelopmentUrl']
     MANIFEST.write_text(json.dumps(report, indent=2) + '\n')

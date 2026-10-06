@@ -80,7 +80,7 @@ html.dark-mode .leota .site-header { background: var(--ghost-accent-color); padd
 .publication-cover { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
 .publication-intro { position: relative; text-align: center; }
 .publication-title { margin: 0; padding: 0; }
-.publication-title img { display: block; margin: auto; max-height: 120px; max-width: 60%; }
+.publication-title img { display: block; margin: auto; width: auto; height: auto; max-height: 120px; max-width: 60%; object-fit: contain; }
 .publication-description { max-width: 640px; margin: 20px auto 0; font-size: 2.4rem; line-height: 1.4; }
 .leota.home-template .post-feed { margin-top: 0; padding-top: max(4vmin, 40px); }
 .leota .post-card-excerpt { font-family: var(--font-body), sans-serif; }
@@ -321,6 +321,12 @@ html.dark-mode .leota .post-card-excerpt {
 .lightbox-caption { flex-shrink: 0; max-width: 900px; max-height: 20dvh; overflow: auto; padding-top: 16px; font-size: 1.4rem; line-height: 1.4; text-align: center; }
 @media (max-width: 800px) {
     .leota-content blockquote.kg-blockquote-alt { font-size: 1.4em; padding-inline: 2em; }
+}
+/* Stack composed gallery rows on phones; inline flex ratios only apply on desktop. */
+@media (max-width: 700px) {
+    .leota-content .kg-gallery-row { display: grid; grid-template-columns: minmax(0, 1fr); }
+    .leota-content .kg-gallery-image a { height: auto; }
+    .leota-content .kg-gallery-image img { height: auto; }
 }
 @media (max-width: 600px) {
     .leota-content blockquote.kg-blockquote-alt { font-size: 1.2em; padding-inline: 1.75em; }

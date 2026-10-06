@@ -1,6 +1,6 @@
 # Image optimization in the migration workflow
 
-Status: current-site rollout implemented locally on 2026-10-05; see `media-delivery.md` and `media-delivery-manifest.json`. Archive migration and responsive variants remain planned. Originally added after checkpoint `4f512c7` on 2026-10-04.
+Status: current-site rollout implemented locally on 2026-10-05; see `media-delivery.md` and `media-delivery-manifest.json`. Archive migration remains planned; current-site responsive variants are implemented on `codex/responsive-media`. Originally added after checkpoint `4f512c7` on 2026-10-04.
 
 ## Outcome
 
