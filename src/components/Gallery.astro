@@ -1,5 +1,6 @@
 ---
 import { getAssetUrl } from '../config';
+import { galleryRows } from '../utils/gallery';
 interface GalleryImage {
     image: string;
     alt: string;
@@ -8,11 +9,18 @@ interface GalleryImage {
     fullSize?: string;
 }
 interface Props {
-    rows: GalleryImage[][];
+    images?: GalleryImage[];
+    rows?: GalleryImage[][];
     size?: 'regular' | 'wide' | 'full';
     caption?: string;
 }
-const { rows, size = 'wide', caption } = Astro.props;
+const { images, rows: explicitRows, size = 'wide', caption } = Astro.props;
+// Explicit rows override automatic grouping for deliberately composed galleries.
+if (explicitRows === undefined && (!Array.isArray(images) || images.length === 0)) {
+    throw new Error('Gallery needs a non-empty images list or explicit rows.');
+}
+const rows = explicitRows ?? galleryRows(images!);
+if (!Array.isArray(rows) || rows.length === 0) throw new Error('Gallery rows must be a non-empty list of rows.');
 // Plain captions use the prop; formatted captions use the component body.
 const hasCaption = !!caption || Astro.slots.has('default');
 rows.forEach((row, index) => {
