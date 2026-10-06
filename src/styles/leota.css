@@ -236,6 +236,7 @@ html.dark-mode .leota .post-card-excerpt {
 .leota .post-card.no-image { justify-content: center; }
 .leota .feed-pagination { display: flex; flex-wrap: wrap; justify-content: center; gap: 24px; padding: 36px 0; font-size: 1.5rem; }
 .leota .feed-pagination a { color: #fff; }
+.leota .feed-pagination[hidden] { display: none; }
 
 /* Archive summaries match Leota's large introductory card, outside the feed
    so loading another page cannot duplicate the archive heading. */
