@@ -1,5 +1,6 @@
 # Astro build artifacts and cache
 dist/
+.media-delivery/
 .astro/
 
 # Dependencies

@@ -6,7 +6,7 @@ Last updated: 2026-10-04, after rich-post components step 3 (SpotifyEmbed/LinkPr
 
 Port the visual appearance and used behavior of Kat's existing **Leota Ghost theme** into the existing **leota-astro Casper port**, preserving the Astro architecture and portable content. The original website is unavailable, so the reference is the supplied theme, Ghost export/media, and Kat's feedback. Kat approved the plan, then successive local implementation milestones, and said the visual result was looking great before requesting the special-content milestone.
 
-Current checkpoint: `bffa197` on `codex/leota-visual-port`, committed and pushed to origin. This includes the City of Mist pages, demo cleanup, standalone pages collection and MDX page composition. Latest build: 35 pages, no warnings. Bulk media remains local/untracked. Image optimization and deployment cleanup remain planned, not started. Historical sections below describe earlier checkpoints; this paragraph and the latest decision take precedence for current status.
+Historical visual checkpoint: `bffa197` on `codex/leota-visual-port`, committed and pushed to origin. This includes the City of Mist pages, demo cleanup, standalone pages collection and MDX page composition. Latest build: 35 pages, no warnings. Bulk media remains local/untracked. Image optimization and deployment cleanup remain planned, not started. Historical sections below describe earlier checkpoints; this paragraph and the latest decision take precedence for current status.
 
 **Next proposed milestone: rich-post MDX components.** Kat wants reusable callouts, pull quotes, galleries, images, Spotify embeds and link previews instead of manually repeating HTML classes/layouts. See [rich-content-authoring-plan.md](rich-content-authoring-plan.md) for component contracts, staged sample conversion, acceptance checks and the later migration/media pipeline. Both posts and pages already load `.md`/`.mdx`; no new content architecture is needed. Start with Callout/PullQuote and the 1.8 post, then galleries/images, then Spotify and DM Resources bookmarks. Share components with pages and keep simple prose in Markdown.
 
@@ -57,7 +57,7 @@ Keep Astro, its collections, route patterns, client router, package manager, and
 - Media convention: `public/assets/images/YYYY/MM/file` → `/assets/images/YYYY/MM/file`. Preserve filenames and hierarchy.
 - Roughly 3.8GB of media is unsuitable for ordinary Git. Bulk-media ignore/storage/sync decisions remain unresolved; dated media is currently untracked and not broadly ignored. Do not mass-stage it, introduce LFS, or delete it without a scoped plan.
 - No full archive migration, production deployment, DNS/AWS changes, or subscriber/email activation has been performed or authorized by these milestones.
-- Eventual hosting preference is **AWS S3 + CloudFront**, not Cloudflare Pages.
+- Current hosting choice is **Cloudflare Workers Static Assets + R2**; the older AWS preference is superseded.
 - Future email-from-the-same-content is desired; Mailgun is already used with Ghost. Subscriber management and sending workflow remain undecided. Do not activate sending or add speculative newsletter fields.
 
 ## Work completed
@@ -220,3 +220,10 @@ PRs #1 and #2 from `codex/leota-visual-port` are merged into `main`; that branch
 ## Latest enhancement: automatic gallery rows (2026-10-05)
 
 On `codex/automatic-gallery-rows`, Gallery accepts a flat `images` list and groups three per row, splitting a final four into two rows of two. Explicit `rows` remain an override. Session Notes and DM Resources use flat lists with identical rendered output. Authoring guide updated; grouping counts zero through ten verified; production build: 36 pages. Kat approved committing this enhancement and opening a PR. Automatic image dimensions, link-preview helper and per-image captions remain planned.
+
+
+## Latest checkpoint: R2 media delivery (2026-10-05)
+
+Main includes the gallery-row and Cloudflare deployment work and The Chosen migration. Kat approved the image pilot and current-site rollout. Branch `codex/media-optimization-pilot` prepares 117 referenced images: 72 PNGs converted, 45 retained; 202.47 MiB becomes 52.19 MiB (74.2% smaller). All 117 delivery objects have been uploaded to `leota-media`; representative public downloads match their checksums. Originals and archive media remain untouched and outside this commit.
+
+The build rewrites image references using the tracked manifest and excludes image copies when `MEDIA_BASE_URL` is set. Before merging/deploying this branch, set that Cloudflare **build variable** to `https://pub-e4d8121a5e7c42d98f03214fb5ed9720.r2.dev` (plain text). See [media-delivery.md](media-delivery.md) for preparation, upload, local previews, and remaining work. Custom media domain and responsive variants remain future work. The existing package/lockfile changes and `.claude/` are unrelated and preserved.
