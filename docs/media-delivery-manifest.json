@@ -1,0 +1,2588 @@
+{
+  "version": 1,
+  "pillow": "12.3.0",
+  "webp": "1.6.0",
+  "sourceBytes": 212308355,
+  "deliveryBytes": 54723747,
+  "assets": [
+    {
+      "source": "/assets/images/2024/12/IMG_0423-2.png",
+      "delivery": "/assets/images/2024/12/IMG_0423-2.png",
+      "sourceSha256": "18a89ad1c3c3712389f1582d4bab540ad7e8e5dcaa2cdc01057369f8b480d3af",
+      "deliverySha256": "18a89ad1c3c3712389f1582d4bab540ad7e8e5dcaa2cdc01057369f8b480d3af",
+      "sourceBytes": 76839,
+      "deliveryBytes": 76839,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "transparent": true,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/config.ts"
+      ]
+    },
+    {
+      "source": "/assets/images/2025/01/IMG_0489.png",
+      "delivery": "/assets/images/2025/01/IMG_0489.webp",
+      "sourceSha256": "532562d2a91322f4840546447000a9ce2ecbde6f4f906ddfea3b801d0d959042",
+      "deliverySha256": "414e64eac027e19b3d349cd4ad314d0b8dd860fb51de498c5d1a5e0e279abacd",
+      "sourceBytes": 62747,
+      "deliveryBytes": 29060,
+      "dimensions": [
+        752,
+        752
+      ],
+      "transparent": true,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "lossless": true,
+        "exact": true
+      },
+      "status": "converted",
+      "reason": "lossless transparency",
+      "usedIn": [
+        "src/config.ts"
+      ]
+    },
+    {
+      "source": "/assets/images/2025/02/01532928-25F1-4374-AFD7-7892B0A62CA5.png",
+      "delivery": "/assets/images/2025/02/01532928-25F1-4374-AFD7-7892B0A62CA5.webp",
+      "sourceSha256": "60ef3480505cf23961add397b306fbede43016fb7e7cf9a96be9c728efdb0583",
+      "deliverySha256": "c4c932dae13d43658ec22ad6180c1e043119478665fb9bcbf6e3e70b529d2763",
+      "sourceBytes": 2494049,
+      "deliveryBytes": 284732,
+      "dimensions": [
+        1792,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/tags/london.json"
+      ]
+    },
+    {
+      "source": "/assets/images/2025/02/569F61AC-972A-424E-B5E0-169B2822F3C1-2.png",
+      "delivery": "/assets/images/2025/02/569F61AC-972A-424E-B5E0-169B2822F3C1-2.webp",
+      "sourceSha256": "2ebd25c2fe4a7f34bb7d3848d06385cf0bdd79a8c974d475eba51045d2c946a4",
+      "deliverySha256": "f6692e2c5a1695563a7be08652da682c49277335d6a49a78f65b257c91920d15",
+      "sourceBytes": 4477434,
+      "deliveryBytes": 741614,
+      "dimensions": [
+        1792,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/tags/kevin.json"
+      ]
+    },
+    {
+      "source": "/assets/images/2025/02/831AF2D6-3DC5-4377-B0DB-F4340B354696-1.png",
+      "delivery": "/assets/images/2025/02/831AF2D6-3DC5-4377-B0DB-F4340B354696-1.webp",
+      "sourceSha256": "9239267ecc9824e60c2a48dc2a5896f5bb3517c62b02edd234358b40f43af063",
+      "deliverySha256": "6cb4dbc8a16a1c346250afbf01252c1c6bb63e806f5e570e6dc3978a89f136c6",
+      "sourceBytes": 4305312,
+      "deliveryBytes": 713904,
+      "dimensions": [
+        1792,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/tags/sergei.json"
+      ]
+    },
+    {
+      "source": "/assets/images/2025/02/843B013D-8DA7-4873-A949-474F49FDA1E5.png",
+      "delivery": "/assets/images/2025/02/843B013D-8DA7-4873-A949-474F49FDA1E5.webp",
+      "sourceSha256": "f4908d5449abda2c21e3d7dd8062df0e40b82f404d80364aea796d7cee67c9df",
+      "deliverySha256": "b2ab152d14befb65212c023e21f64f82263bd91e3739d62f4ed37d52b6aa51cf",
+      "sourceBytes": 4532323,
+      "deliveryBytes": 677760,
+      "dimensions": [
+        1792,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/tags/maeve.json"
+      ]
+    },
+    {
+      "source": "/assets/images/2025/02/B7CE18E8-AAAF-45DC-BC98-AE1B619FAF14-1.png",
+      "delivery": "/assets/images/2025/02/B7CE18E8-AAAF-45DC-BC98-AE1B619FAF14-1.webp",
+      "sourceSha256": "e9bb7753f83c7889ee9ca8d0382086745c1e1de8ac22eee45d1934e665224a75",
+      "deliverySha256": "e772cb9198e4465b4d1b5b91010aeecbc16107d4c7c14754fa8925cdd35d7295",
+      "sourceBytes": 3317760,
+      "deliveryBytes": 443232,
+      "dimensions": [
+        1792,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/tags/geoffrey.json"
+      ]
+    },
+    {
+      "source": "/assets/images/2025/02/B7CE18E8-AAAF-45DC-BC98-AE1B619FAF14.png",
+      "delivery": "/assets/images/2025/02/B7CE18E8-AAAF-45DC-BC98-AE1B619FAF14.webp",
+      "sourceSha256": "e9bb7753f83c7889ee9ca8d0382086745c1e1de8ac22eee45d1934e665224a75",
+      "deliverySha256": "e772cb9198e4465b4d1b5b91010aeecbc16107d4c7c14754fa8925cdd35d7295",
+      "sourceBytes": 3317760,
+      "deliveryBytes": 443232,
+      "dimensions": [
+        1792,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/geoffrey-voice-over.md"
+      ]
+    },
+    {
+      "source": "/assets/images/2025/02/F52E1EB6-D107-4A47-B9B9-2456700F13A2-1.png",
+      "delivery": "/assets/images/2025/02/F52E1EB6-D107-4A47-B9B9-2456700F13A2-1.webp",
+      "sourceSha256": "1710facd7eb01d299d3c54594ba8535b337d85db60c0d9cb15ac3389dea37470",
+      "deliverySha256": "d85a309548f2a9b472476ea7f5cbf375b14c7e03348a1bfec0f0e2289aa492c4",
+      "sourceBytes": 3627738,
+      "deliveryBytes": 378740,
+      "dimensions": [
+        1792,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/dm-resources.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/2025/02/IMG_0502.jpeg",
+      "delivery": "/assets/images/2025/02/IMG_0502.jpeg",
+      "sourceSha256": "e839ecb006950be81597bcb0693c43436e302bd2f9332948d6909b315d55c17e",
+      "deliverySha256": "e839ecb006950be81597bcb0693c43436e302bd2f9332948d6909b315d55c17e",
+      "sourceBytes": 154237,
+      "deliveryBytes": 154237,
+      "dimensions": [
+        1977,
+        1172
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/tags/city-of-mist.json"
+      ]
+    },
+    {
+      "source": "/assets/images/2025/03/granted3609_dnd_style_a_stocky_human_male_mariner_--v_6.1_e1868e4b-4422-4d5c-a575-7358089afee1-1.png",
+      "delivery": "/assets/images/2025/03/granted3609_dnd_style_a_stocky_human_male_mariner_--v_6.1_e1868e4b-4422-4d5c-a575-7358089afee1-1.webp",
+      "sourceSha256": "a458248aa64a9a5d655939296ca0c66ade7708e1053b5f1a7595b33c37013f46",
+      "deliverySha256": "67d2e8a45afbd855454f5b989729dc057e257d97a5ab93d560b3faec48fb5e60",
+      "sourceBytes": 1179575,
+      "deliveryBytes": 143648,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/2025-03-29-session-notes.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/2025/03/jeroenfm_dd_15th_century_tiefling_ship_crewman_--v_6.1_76ac8b4a-6305-4261-ae1b-b71f898a180e-1.png",
+      "delivery": "/assets/images/2025/03/jeroenfm_dd_15th_century_tiefling_ship_crewman_--v_6.1_76ac8b4a-6305-4261-ae1b-b71f898a180e-1.webp",
+      "sourceSha256": "6df541026940d56ae6484b9655054439f3db072ee4fe13e87c91cc64ef4efe65",
+      "deliverySha256": "6f751314dc1fc0fc5fea47492b55c7a3bc54547c8d6cde40e63475f3122d9f71",
+      "sourceBytes": 1548363,
+      "deliveryBytes": 169690,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/2025-03-29-session-notes.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/2025/03/musetta._A_dynamic_wide_angle_fantasy_image_of_a_wrecked_scho_7fe3cb9f-6c99-46a9-b917-5e1579966fea_0.png",
+      "delivery": "/assets/images/2025/03/musetta._A_dynamic_wide_angle_fantasy_image_of_a_wrecked_scho_7fe3cb9f-6c99-46a9-b917-5e1579966fea_0.webp",
+      "sourceSha256": "052fed97d094a0cbbbef9fcd7eaf8307194c3df9785b4df3150be521cd2f32a5",
+      "deliverySha256": "95537cab54edc0ef76dd68f0e7fc032cca2c00ae7905df506d6de399e8997843",
+      "sourceBytes": 2151912,
+      "deliveryBytes": 293450,
+      "dimensions": [
+        1456,
+        816
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/2025-03-29-session-notes.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/2025/04/5emagic-membership-card-patreon.png",
+      "delivery": "/assets/images/2025/04/5emagic-membership-card-patreon.webp",
+      "sourceSha256": "f94267549b6524a47adaf8a442ecfc693ad010b9c6bc63d1e09f4a89f9146ff1",
+      "deliverySha256": "d7506594474d61b65d61b9e103235d5bf4fe6b20415c49d4e47f5f295fa05184",
+      "sourceBytes": 1345331,
+      "deliveryBytes": 894444,
+      "dimensions": [
+        1890,
+        3360
+      ],
+      "transparent": true,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "lossless": true,
+        "exact": true
+      },
+      "status": "converted",
+      "reason": "lossless transparency",
+      "usedIn": [
+        "src/content/pages/dm-resources.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/2025/04/boroughbound-membership-card-patreon.png",
+      "delivery": "/assets/images/2025/04/boroughbound-membership-card-patreon.webp",
+      "sourceSha256": "6b9229d85d142270fd01d6af730879116b976f55f98869d2e13f131853e3ac3f",
+      "deliverySha256": "c9351f95630afd4300282943784d91a5b90654f46303eac98b4b79c144ae9540",
+      "sourceBytes": 898556,
+      "deliveryBytes": 512578,
+      "dimensions": [
+        1890,
+        3360
+      ],
+      "transparent": true,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "lossless": true,
+        "exact": true
+      },
+      "status": "converted",
+      "reason": "lossless transparency",
+      "usedIn": [
+        "src/content/pages/dm-resources.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/2025/04/czepeku-membership-card-patreon.png",
+      "delivery": "/assets/images/2025/04/czepeku-membership-card-patreon.webp",
+      "sourceSha256": "0473d4bef0ca77a07be360a2d33c806236614970e6e954f4c13e04115f0ec82c",
+      "deliverySha256": "7aa4da8e9980aa14e50cf7d1794bd1a2566e7b1f3c527bbbe5ceb591e511cb71",
+      "sourceBytes": 4322055,
+      "deliveryBytes": 2908376,
+      "dimensions": [
+        1890,
+        3360
+      ],
+      "transparent": true,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "lossless": true,
+        "exact": true
+      },
+      "status": "converted",
+      "reason": "lossless transparency",
+      "usedIn": [
+        "src/content/pages/dm-resources.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/2025/04/czepekuscenes-membership-card-patreon.png",
+      "delivery": "/assets/images/2025/04/czepekuscenes-membership-card-patreon.webp",
+      "sourceSha256": "eccca9522e4f7b32d7d1305ee9252e31f785d30c4b99f06729cdcee939a65049",
+      "deliverySha256": "f3c040329786633d7918aee08e3019a6c63bf40e51b7a77f77cf0ee9f654a3ec",
+      "sourceBytes": 3393409,
+      "deliveryBytes": 2291690,
+      "dimensions": [
+        1890,
+        3360
+      ],
+      "transparent": true,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "lossless": true,
+        "exact": true
+      },
+      "status": "converted",
+      "reason": "lossless transparency",
+      "usedIn": [
+        "src/content/pages/dm-resources.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/2025/04/hitpointpress-membership-card-patreon.png",
+      "delivery": "/assets/images/2025/04/hitpointpress-membership-card-patreon.webp",
+      "sourceSha256": "d5e69efb631be0756651456818f8ebda6d221b539dfe6a81e8e84ceeb6117896",
+      "deliverySha256": "e90099456bac7d5e03ef94c05088ee79201d9a0004ff78035ec3c294772007c5",
+      "sourceBytes": 2580196,
+      "deliveryBytes": 1768946,
+      "dimensions": [
+        1890,
+        3360
+      ],
+      "transparent": true,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "lossless": true,
+        "exact": true
+      },
+      "status": "converted",
+      "reason": "lossless transparency",
+      "usedIn": [
+        "src/content/pages/dm-resources.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/2025/04/jamesrpgart-membership-card-patreon.png",
+      "delivery": "/assets/images/2025/04/jamesrpgart-membership-card-patreon.webp",
+      "sourceSha256": "b84be7a78cba2a720cc2de232a2f39d196c36cdf90507a144a6b5ad9893f1cbd",
+      "deliverySha256": "423bf6f644e7afb1f0b8aa6694b95fd50feb45153b4ad1ecd9c88ba7ec8a741f",
+      "sourceBytes": 1653689,
+      "deliveryBytes": 1131390,
+      "dimensions": [
+        1890,
+        3360
+      ],
+      "transparent": true,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "lossless": true,
+        "exact": true
+      },
+      "status": "converted",
+      "reason": "lossless transparency",
+      "usedIn": [
+        "src/content/pages/dm-resources.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/2025/04/kibblestasty-membership-card-patreon.png",
+      "delivery": "/assets/images/2025/04/kibblestasty-membership-card-patreon.webp",
+      "sourceSha256": "964a34aa9082b405c8826315eeddbfabc24a0973f6a3ce9161325523bbfdc422",
+      "deliverySha256": "851b210369099080aa7ec37a48e0152b40eb753bca0a676d8c881317b5bb5508",
+      "sourceBytes": 2985731,
+      "deliveryBytes": 1713990,
+      "dimensions": [
+        1890,
+        3360
+      ],
+      "transparent": true,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "lossless": true,
+        "exact": true
+      },
+      "status": "converted",
+      "reason": "lossless transparency",
+      "usedIn": [
+        "src/content/pages/dm-resources.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/2025/04/thegriffonssaddlebag-membership-card-patreon.png",
+      "delivery": "/assets/images/2025/04/thegriffonssaddlebag-membership-card-patreon.webp",
+      "sourceSha256": "b227b833150a416e146a5d904cdbf34f1e1bfac1ebac98abba36823e49211875",
+      "deliverySha256": "07ea31ef9013713b52305abbcd2c5687fe3f68ecca3442ab9f71aa324a819242",
+      "sourceBytes": 4337626,
+      "deliveryBytes": 3032902,
+      "dimensions": [
+        1890,
+        3360
+      ],
+      "transparent": true,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "lossless": true,
+        "exact": true
+      },
+      "status": "converted",
+      "reason": "lossless transparency",
+      "usedIn": [
+        "src/content/pages/dm-resources.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/2025/04/tomcartos-membership-card-patreon.png",
+      "delivery": "/assets/images/2025/04/tomcartos-membership-card-patreon.webp",
+      "sourceSha256": "4e6f9a625e77a6894a11deb8b8229990cadebad0ca3f36bbabd2df405ce1144a",
+      "deliverySha256": "56d799ab2fba3ebc8fda825d4a1b6e549fa07ac3ecbc2b1cfd7b3e58369b9b25",
+      "sourceBytes": 3539329,
+      "deliveryBytes": 2279696,
+      "dimensions": [
+        1890,
+        3360
+      ],
+      "transparent": true,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "lossless": true,
+        "exact": true
+      },
+      "status": "converted",
+      "reason": "lossless transparency",
+      "usedIn": [
+        "src/content/pages/dm-resources.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/2026/02/chase.png",
+      "delivery": "/assets/images/2026/02/chase.webp",
+      "sourceSha256": "d725c657a39fd6d7ada7efa6577583de94f4013bdedc793c4e727d7e00505622",
+      "deliverySha256": "1ff3a97ac67fa1fe3babfad94d1d6d444669494f59140ff19928594af775c615",
+      "sourceBytes": 118039,
+      "deliveryBytes": 19006,
+      "dimensions": [
+        200,
+        282
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/the-chosen.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/2026/02/deaver.png",
+      "delivery": "/assets/images/2026/02/deaver.webp",
+      "sourceSha256": "51128f23b8b2cb1bfe60ddafef08d045e1507dcc5106dface4c6a3166f62c736",
+      "deliverySha256": "c4f7658e4bd73437a3cdb7f899bbc39272ae1bcf302c65bcd1629655c217a779",
+      "sourceBytes": 129464,
+      "deliveryBytes": 86492,
+      "dimensions": [
+        200,
+        282
+      ],
+      "transparent": true,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "lossless": true,
+        "exact": true
+      },
+      "status": "converted",
+      "reason": "lossless transparency",
+      "usedIn": [
+        "src/content/pages/the-chosen.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/2026/02/gabe.png",
+      "delivery": "/assets/images/2026/02/gabe.webp",
+      "sourceSha256": "6a1ee73de44f85ae45fc93153e51a8d59d729897b62d6480a53080e6fcecf468",
+      "deliverySha256": "2a89c21d18a7095b1c608847d5a4a14595fbae4de3d30b71b8151b33b8c48a03",
+      "sourceBytes": 119112,
+      "deliveryBytes": 19072,
+      "dimensions": [
+        200,
+        282
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/the-chosen.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/2026/02/geoff.png",
+      "delivery": "/assets/images/2026/02/geoff.webp",
+      "sourceSha256": "19190b9004518813bb535c5063668a2aa0b4816c78c2cbbffbcec69b902db1c0",
+      "deliverySha256": "c1838eb56b5ab79efb5d4d55de5aaad3d01a042962e89b71e40a2dadc345b899",
+      "sourceBytes": 120158,
+      "deliveryBytes": 79256,
+      "dimensions": [
+        200,
+        282
+      ],
+      "transparent": true,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "lossless": true,
+        "exact": true
+      },
+      "status": "converted",
+      "reason": "lossless transparency",
+      "usedIn": [
+        "src/content/pages/the-chosen.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/2026/02/raveena.png",
+      "delivery": "/assets/images/2026/02/raveena.webp",
+      "sourceSha256": "6bcb58246047668555b65dca54eafa7deb3c0a7e15d07613290f2af2c30b48ed",
+      "deliverySha256": "ff0ac73ea661d12be53913a412422c021892d5cc829f27adcd5f3db0a33b9d68",
+      "sourceBytes": 122346,
+      "deliveryBytes": 79886,
+      "dimensions": [
+        200,
+        282
+      ],
+      "transparent": true,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "lossless": true,
+        "exact": true
+      },
+      "status": "converted",
+      "reason": "lossless transparency",
+      "usedIn": [
+        "src/content/pages/the-chosen.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/2026/02/stefan.png",
+      "delivery": "/assets/images/2026/02/stefan.webp",
+      "sourceSha256": "3506ebd0fce5a344e7f97eb565f270e5831640f5c57de8716a81bb4a6cdaad76",
+      "deliverySha256": "38305ebb2a46b68dfbaf0a53d0646b0fa51adb113ddcbdc3fc607015f063d360",
+      "sourceBytes": 130210,
+      "deliveryBytes": 86024,
+      "dimensions": [
+        200,
+        282
+      ],
+      "transparent": true,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "lossless": true,
+        "exact": true
+      },
+      "status": "converted",
+      "reason": "lossless transparency",
+      "usedIn": [
+        "src/content/pages/the-chosen.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/2026/05/cillian-tennant.png",
+      "delivery": "/assets/images/2026/05/cillian-tennant.webp",
+      "sourceSha256": "576c833f9f9c90a69f58409ca59c6a61ce54a32c99ce686954dbf023abeb9729",
+      "deliverySha256": "bffb25dd8a09fb5c927145d26aa16048fb9ed85fcf4ace822010a80d2093b7e7",
+      "sourceBytes": 6837593,
+      "deliveryBytes": 535764,
+      "dimensions": [
+        1792,
+        2688
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/people-in-the-city.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/2026/05/city-of-mist-map.jpg",
+      "delivery": "/assets/images/2026/05/city-of-mist-map.jpg",
+      "sourceSha256": "78071a940c667bef0b784e8909a1452412d787b654dbb6ba3ca4fadef7693a5b",
+      "deliverySha256": "78071a940c667bef0b784e8909a1452412d787b654dbb6ba3ca4fadef7693a5b",
+      "sourceBytes": 606840,
+      "deliveryBytes": 606840,
+      "dimensions": [
+        2000,
+        1550
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/pages/neighborhoods-in-the-city.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/2026/05/city-of-mist.png",
+      "delivery": "/assets/images/2026/05/city-of-mist.webp",
+      "sourceSha256": "ff2df2fb58a3d49454b06a226ba2e0cca8a7537bed094f0115ebb9a0c1d0a94c",
+      "deliverySha256": "1e2c988a6b2d83b0c52cdd08f3249b1dec417ca58a2d0a88170193642a68431d",
+      "sourceBytes": 1746984,
+      "deliveryBytes": 267974,
+      "dimensions": [
+        1904,
+        640
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/com-system-modifications.md"
+      ]
+    },
+    {
+      "source": "/assets/images/2026/05/daniel1.png",
+      "delivery": "/assets/images/2026/05/daniel1.webp",
+      "sourceSha256": "b49966be98afff606dc2ade5cb6149d61fa1066afaad728e0ff9a671c85cc5bf",
+      "deliverySha256": "eb2c549e42f99619cc2ea71e41d44dd8cbebe69d220a732910cf0d76e099c47c",
+      "sourceBytes": 5287326,
+      "deliveryBytes": 240430,
+      "dimensions": [
+        1792,
+        2688
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/people-in-the-city.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/2026/05/desktop740.jpg",
+      "delivery": "/assets/images/2026/05/desktop740.jpg",
+      "sourceSha256": "560a0170ff789701470c7fb5783fc1d23b65ccd0e0298e595e3d98dc167dff9a",
+      "deliverySha256": "560a0170ff789701470c7fb5783fc1d23b65ccd0e0298e595e3d98dc167dff9a",
+      "sourceBytes": 47774,
+      "deliveryBytes": 47774,
+      "dimensions": [
+        740,
+        555
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/pages/the-chosen.mdx",
+        "src/content/tags/the-chosen.json"
+      ]
+    },
+    {
+      "source": "/assets/images/2026/05/geoffrey1.png",
+      "delivery": "/assets/images/2026/05/geoffrey1.webp",
+      "sourceSha256": "2bc51d46cd57524f2979a1acc485021f9a2b490a1836b0f15705e2d454597667",
+      "deliverySha256": "8a8cfaa1b141a89008fd906b4993e1eb59101709f3eb13341a3234956096186d",
+      "sourceBytes": 7081870,
+      "deliveryBytes": 778594,
+      "dimensions": [
+        1792,
+        2688
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/people-in-the-city.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/2026/05/isabella-aguilar.png",
+      "delivery": "/assets/images/2026/05/isabella-aguilar.webp",
+      "sourceSha256": "925bc95f2436ecd0b1c5661a787b1501c47fe8bafcddccdc118b1b2e1a6635aa",
+      "deliverySha256": "5cc2fd9b95e3fd4658beb21339a6094e51a11e417a077c2ef7143ec7b03f68f9",
+      "sourceBytes": 5766688,
+      "deliveryBytes": 490378,
+      "dimensions": [
+        1792,
+        2688
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/people-in-the-city.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/2026/05/london1.png",
+      "delivery": "/assets/images/2026/05/london1.webp",
+      "sourceSha256": "0e720b3e4da50d850ed225d7e355b131a9c69f0cae72faf564c1df798cd3a44c",
+      "deliverySha256": "4cce3a6ab0abe2717276c1f1d79df882366b6850ceaffe9d709ccbc8aa09a2f0",
+      "sourceBytes": 5613542,
+      "deliveryBytes": 249328,
+      "dimensions": [
+        1792,
+        2688
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/people-in-the-city.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/2026/05/look-a-dragon-4.png",
+      "delivery": "/assets/images/2026/05/look-a-dragon-4.webp",
+      "sourceSha256": "ff1be9a7025a9a2726a154526e919bcc8b52c1d5f1d633af90f05a7f261ce5f3",
+      "deliverySha256": "06a2dd668a4fe4297d44b50d2b41fe4c689bb8a90591be7f72a9420874005cea",
+      "sourceBytes": 2028523,
+      "deliveryBytes": 281254,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/tags/arc-2.json"
+      ]
+    },
+    {
+      "source": "/assets/images/2026/05/maeve1.png",
+      "delivery": "/assets/images/2026/05/maeve1.webp",
+      "sourceSha256": "8e84cbbced191509ef0d4413179916783500cf5bc13d03b0d76f89461db79d5b",
+      "deliverySha256": "e18c226081237d0f6f9ccd0a768c34b593b997226a251d4a39763c24a67d3d46",
+      "sourceBytes": 6599617,
+      "deliveryBytes": 498376,
+      "dimensions": [
+        1792,
+        2688
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/people-in-the-city.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/2026/05/musetta._35mm_film_photography_cinematic_medium_shot_single_w_dae01c57-cbea-4cf5-99c5-a494a4b5c811_3.png",
+      "delivery": "/assets/images/2026/05/musetta._35mm_film_photography_cinematic_medium_shot_single_w_dae01c57-cbea-4cf5-99c5-a494a4b5c811_3.webp",
+      "sourceSha256": "c4c1bf4db1e3981e903e33f2794c078f0a462d9bdfc354b456d46a64a665b2b8",
+      "deliverySha256": "1ebfdb269040f4e0506298d13194494226fa0418acf2e46766a6eef517e4aaf0",
+      "sourceBytes": 2005349,
+      "deliveryBytes": 310716,
+      "dimensions": [
+        1456,
+        816
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/neighborhoods-in-the-city.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/2026/05/musetta._35mm_film_photography_cinematic_wide_elevated_shot_c_a21fcb87-978d-46b9-b98b-b11f98645082_2.png",
+      "delivery": "/assets/images/2026/05/musetta._35mm_film_photography_cinematic_wide_elevated_shot_c_a21fcb87-978d-46b9-b98b-b11f98645082_2.webp",
+      "sourceSha256": "f3bcda4d06d8b166b49f581ddb6505856f2c79fe26c2eb5942605ea5281f3308",
+      "deliverySha256": "4e1d3d0d2a8c41a3ca3e9291b3995d2dff4f5cc537415bdb6b92bceb2171f780",
+      "sourceBytes": 1561192,
+      "deliveryBytes": 163826,
+      "dimensions": [
+        1456,
+        816
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/neighborhoods-in-the-city.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/2026/05/musetta._35mm_film_photography_cinematic_wide_shot_Black_urba_4cf3320b-7549-4f24-b967-52bb4b627069_2.png",
+      "delivery": "/assets/images/2026/05/musetta._35mm_film_photography_cinematic_wide_shot_Black_urba_4cf3320b-7549-4f24-b967-52bb4b627069_2.webp",
+      "sourceSha256": "312caf6089f4fb004a3e6aef4b2cd890b41a59728b464175b57818c8c9e5bd6b",
+      "deliverySha256": "4b88f2dac3ce3fcbcdfa26a72ddb0777b70db9ae6ddfe899044ee0bc388335a5",
+      "sourceBytes": 1641665,
+      "deliveryBytes": 169958,
+      "dimensions": [
+        1456,
+        816
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/neighborhoods-in-the-city.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/2026/05/musetta._35mm_film_photography_cinematic_wide_shot_Chinatown__22805d23-8287-4367-9c9a-156b18a51605_3.png",
+      "delivery": "/assets/images/2026/05/musetta._35mm_film_photography_cinematic_wide_shot_Chinatown__22805d23-8287-4367-9c9a-156b18a51605_3.webp",
+      "sourceSha256": "367a8908e6e92e6938dba183dccf14f81b799343b840faa091fd3708499ba7a6",
+      "deliverySha256": "49cb7a9e95250511b46fc0aa20a388d886edac056b3edec0d763f2c18fe0d1fb",
+      "sourceBytes": 1652982,
+      "deliveryBytes": 184120,
+      "dimensions": [
+        1456,
+        816
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/neighborhoods-in-the-city.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/2026/05/musetta._35mm_film_photography_cinematic_wide_shot_Gothic_rev_9386beb8-5b57-4bf5-ab4b-178d858256c7_2.png",
+      "delivery": "/assets/images/2026/05/musetta._35mm_film_photography_cinematic_wide_shot_Gothic_rev_9386beb8-5b57-4bf5-ab4b-178d858256c7_2.webp",
+      "sourceSha256": "c45a12cbd591a431a16c916cc843ac3dd1c9a68488650efb9b64c8f83eb37d68",
+      "deliverySha256": "fc13a99445028264659471a937178d84ae476b3ce72c8e861c6fdc789e80578a",
+      "sourceBytes": 1939201,
+      "deliveryBytes": 240792,
+      "dimensions": [
+        1456,
+        816
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/neighborhoods-in-the-city.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/2026/05/musetta._35mm_film_photography_cinematic_wide_shot_New_Orlean_23aa75cf-20b8-44de-8279-ab3f706c04ab_0-1.png",
+      "delivery": "/assets/images/2026/05/musetta._35mm_film_photography_cinematic_wide_shot_New_Orlean_23aa75cf-20b8-44de-8279-ab3f706c04ab_0-1.webp",
+      "sourceSha256": "b71b7b40cdcc3756c3456411f9ba93dd45d86d169f27d0008f13f3791dbdf17f",
+      "deliverySha256": "c582d3b7f35b871560a649ee709d8fc17226a2572f5dbddbc0d6f8ad94dcbe67",
+      "sourceBytes": 1989066,
+      "deliveryBytes": 316916,
+      "dimensions": [
+        1456,
+        816
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/neighborhoods-in-the-city.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/2026/05/musetta._35mm_film_photography_cinematic_wide_shot_empty_Lati_6b8278a2-84ba-436a-ab0f-db3c1791355f_0.png",
+      "delivery": "/assets/images/2026/05/musetta._35mm_film_photography_cinematic_wide_shot_empty_Lati_6b8278a2-84ba-436a-ab0f-db3c1791355f_0.webp",
+      "sourceSha256": "452d4246cf1eccb7c5ca854b870c68e3e0921d292885130764fcd0cd0828467a",
+      "deliverySha256": "e2694faea4ff9441db44da471af35e67beb255b44140ea257393b5f77afc9c7c",
+      "sourceBytes": 2080604,
+      "deliveryBytes": 319614,
+      "dimensions": [
+        1456,
+        816
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/neighborhoods-in-the-city.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/2026/05/musetta._35mm_film_photography_cinematic_wide_shot_empty_blue_3e271823-fa8b-4678-b4db-8beff8b68b3a_2.png",
+      "delivery": "/assets/images/2026/05/musetta._35mm_film_photography_cinematic_wide_shot_empty_blue_3e271823-fa8b-4678-b4db-8beff8b68b3a_2.webp",
+      "sourceSha256": "8b85f9e3168a0ba27899037880b08a2b1c23b3ac191b50b20423a862479a88c2",
+      "deliverySha256": "27f63555f6d3699e12e020f80c662ab732fa051a7ff799a8b2a2980c2fa921c7",
+      "sourceBytes": 1590792,
+      "deliveryBytes": 156700,
+      "dimensions": [
+        1456,
+        816
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/neighborhoods-in-the-city.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/2026/05/musetta._35mm_film_photography_cinematic_wide_shot_empty_neon_4f3bdda3-f361-4163-99c9-aa1ccc99d25c_2-1.png",
+      "delivery": "/assets/images/2026/05/musetta._35mm_film_photography_cinematic_wide_shot_empty_neon_4f3bdda3-f361-4163-99c9-aa1ccc99d25c_2-1.webp",
+      "sourceSha256": "51c252314eb914d2b41c8bf72ceb88649212e8716226316e7f75792b7df72d8f",
+      "deliverySha256": "90a2b77ffc95604908a1d98130056addfce8810ae26675cfcb68903b710ea8c9",
+      "sourceBytes": 1945442,
+      "deliveryBytes": 285222,
+      "dimensions": [
+        1456,
+        816
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/neighborhoods-in-the-city.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/2026/05/musetta._35mm_film_photography_cinematic_wide_shot_immaculate_317e0f32-aef4-4f68-8f6c-f883aa582c93_2.png",
+      "delivery": "/assets/images/2026/05/musetta._35mm_film_photography_cinematic_wide_shot_immaculate_317e0f32-aef4-4f68-8f6c-f883aa582c93_2.webp",
+      "sourceSha256": "03aa0ea75d1ce8fe39d0937c915c83341c974b1b166a7270b8b85f8c47914bcb",
+      "deliverySha256": "23d54eb3b15b9373a129ee1fc22844eda760d67894aceedc18e3465fcef91873",
+      "sourceBytes": 1994894,
+      "deliveryBytes": 273628,
+      "dimensions": [
+        1456,
+        816
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/neighborhoods-in-the-city.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/2026/05/musetta._35mm_film_photography_cinematic_wide_shot_vast_luxur_f4af885d-a2cd-44d3-99f8-11568fe8e0d6_1.png",
+      "delivery": "/assets/images/2026/05/musetta._35mm_film_photography_cinematic_wide_shot_vast_luxur_f4af885d-a2cd-44d3-99f8-11568fe8e0d6_1.webp",
+      "sourceSha256": "d6436848420361061d1773f87e7b8ef49580d16f1f623c85d79d51f08fb1f6e9",
+      "deliverySha256": "19aa18115d90cde31633ff84250ac3ad42f9e4ccfffc0a3db5d5ed7e92b0be04",
+      "sourceBytes": 2183496,
+      "deliveryBytes": 368338,
+      "dimensions": [
+        1456,
+        816
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/neighborhoods-in-the-city.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/2026/05/musetta._35mm_film_photography_cinematic_wide_shot_view_from__090af7a5-f6ae-4cb7-a214-7e9bb7e995a3_3.png",
+      "delivery": "/assets/images/2026/05/musetta._35mm_film_photography_cinematic_wide_shot_view_from__090af7a5-f6ae-4cb7-a214-7e9bb7e995a3_3.webp",
+      "sourceSha256": "03ea39dab94953c06cbf08e628c937ccbc5a7bc206857e07d9a171de2ef29a78",
+      "deliverySha256": "12c625f90ad7f0693833a0e0d43e356fdc34810ab1d02233e1a0ca9eabcf3adf",
+      "sourceBytes": 1921964,
+      "deliveryBytes": 267168,
+      "dimensions": [
+        1456,
+        816
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/neighborhoods-in-the-city.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/2026/05/musetta._dramatic_low_angle_looking_up_at_six_silhouetted_figur_8e265eba-592c-4a9d-8900-251bc271583a-1.png",
+      "delivery": "/assets/images/2026/05/musetta._dramatic_low_angle_looking_up_at_six_silhouetted_figur_8e265eba-592c-4a9d-8900-251bc271583a-1.webp",
+      "sourceSha256": "a041c2a3c31fcdc13ec673abd7efcfb7030c3fe5c1887026dea3df41278944b3",
+      "deliverySha256": "c65b2d26481fedb88ecf028b1bafb5f3cfd1bc8b67230ca5a73ee7bd2d3aed15",
+      "sourceBytes": 2701913,
+      "deliveryBytes": 211260,
+      "dimensions": [
+        2000,
+        672
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/city-of-mist.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/2026/05/musetta._dramatic_low_angle_looking_up_at_six_silhouetted_figur_8e265eba-592c-4a9d-8900-251bc271583a.png",
+      "delivery": "/assets/images/2026/05/musetta._dramatic_low_angle_looking_up_at_six_silhouetted_figur_8e265eba-592c-4a9d-8900-251bc271583a.webp",
+      "sourceSha256": "a041c2a3c31fcdc13ec673abd7efcfb7030c3fe5c1887026dea3df41278944b3",
+      "deliverySha256": "c65b2d26481fedb88ecf028b1bafb5f3cfd1bc8b67230ca5a73ee7bd2d3aed15",
+      "sourceBytes": 2701913,
+      "deliveryBytes": 211260,
+      "dimensions": [
+        2000,
+        672
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/config.ts"
+      ]
+    },
+    {
+      "source": "/assets/images/2026/05/musetta._six_silhouetted_figures_from_behind_on_rain-slicked__a509e987-720d-4d51-8944-4b159e3c3a48_1-1.png",
+      "delivery": "/assets/images/2026/05/musetta._six_silhouetted_figures_from_behind_on_rain-slicked__a509e987-720d-4d51-8944-4b159e3c3a48_1-1.webp",
+      "sourceSha256": "ff2df2fb58a3d49454b06a226ba2e0cca8a7537bed094f0115ebb9a0c1d0a94c",
+      "deliverySha256": "1e2c988a6b2d83b0c52cdd08f3249b1dec417ca58a2d0a88170193642a68431d",
+      "sourceBytes": 1746984,
+      "deliveryBytes": 267974,
+      "dimensions": [
+        1904,
+        640
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/neighborhoods-in-the-city.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/2026/05/musetta._six_silhouetted_figures_from_behind_on_rain-slicked__a509e987-720d-4d51-8944-4b159e3c3a48_1.png",
+      "delivery": "/assets/images/2026/05/musetta._six_silhouetted_figures_from_behind_on_rain-slicked__a509e987-720d-4d51-8944-4b159e3c3a48_1.webp",
+      "sourceSha256": "ff2df2fb58a3d49454b06a226ba2e0cca8a7537bed094f0115ebb9a0c1d0a94c",
+      "deliverySha256": "1e2c988a6b2d83b0c52cdd08f3249b1dec417ca58a2d0a88170193642a68431d",
+      "sourceBytes": 1746984,
+      "deliveryBytes": 267974,
+      "dimensions": [
+        1904,
+        640
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/people-in-the-city.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/2026/05/sofia-sandoval.png",
+      "delivery": "/assets/images/2026/05/sofia-sandoval.webp",
+      "sourceSha256": "a04e336cd967ad972048c35a3924a3e4d081ba845462e51aaae073b60748ac6c",
+      "deliverySha256": "5c8ad922c7dc99d5eb11025d809c6f9bf5e5e3bfc581e472257251433b3d37c2",
+      "sourceBytes": 7244873,
+      "deliveryBytes": 647198,
+      "dimensions": [
+        1792,
+        2688
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/people-in-the-city.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/2026/05/tio-tez.png",
+      "delivery": "/assets/images/2026/05/tio-tez.webp",
+      "sourceSha256": "df9028b75460bfe6c1f0e48250d78e9e2b98512754e7b6860455b651dbea0262",
+      "deliverySha256": "8576c4263b94df9a19d6788717b6750ba939aa262e76b16f81c03b3d906c7a9a",
+      "sourceBytes": 6732353,
+      "deliveryBytes": 473482,
+      "dimensions": [
+        1792,
+        2688
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/people-in-the-city.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/2026/05/wildemount.jpg",
+      "delivery": "/assets/images/2026/05/wildemount.jpg",
+      "sourceSha256": "28cd392e39e24ebdaa884c788df347a5fdb606d4efa80e7b8d3a5b299d5f4575",
+      "deliverySha256": "28cd392e39e24ebdaa884c788df347a5fdb606d4efa80e7b8d3a5b299d5f4575",
+      "sourceBytes": 229218,
+      "deliveryBytes": 229218,
+      "dimensions": [
+        1329,
+        930
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/tags/freaky-gray-company.json"
+      ]
+    },
+    {
+      "source": "/assets/images/2026/06/briana-short.png",
+      "delivery": "/assets/images/2026/06/briana-short.webp",
+      "sourceSha256": "c22d562726ec614c6179f0fbb07a7a05f04196b81d884cab9f8dc4bd2b8ee292",
+      "deliverySha256": "11ecbb4a3109091772e424cc26170d4d14c5285668ee616b2113f54b5b32885f",
+      "sourceBytes": 6394823,
+      "deliveryBytes": 478352,
+      "dimensions": [
+        1792,
+        2688
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/people-in-the-city.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/2026/06/coffeeshop-prologue-1.webp",
+      "delivery": "/assets/images/2026/06/coffeeshop-prologue-1.webp",
+      "sourceSha256": "242332497c6c0ccd2d88c81ab93ec2cfa7bc67e622298e4cd4bdfd3de5e86362",
+      "deliverySha256": "242332497c6c0ccd2d88c81ab93ec2cfa7bc67e622298e4cd4bdfd3de5e86362",
+      "sourceBytes": 95994,
+      "deliveryBytes": 95994,
+      "dimensions": [
+        1456,
+        816
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/tags/com-prologue.json"
+      ]
+    },
+    {
+      "source": "/assets/images/2026/06/coffeeshop-prologue2-1.webp",
+      "delivery": "/assets/images/2026/06/coffeeshop-prologue2-1.webp",
+      "sourceSha256": "faae20159e2955e10b736dd1392e2fd2cebb7e998f6ded5bc8af8bbf442811c7",
+      "deliverySha256": "faae20159e2955e10b736dd1392e2fd2cebb7e998f6ded5bc8af8bbf442811c7",
+      "sourceBytes": 65760,
+      "deliveryBytes": 65760,
+      "dimensions": [
+        1456,
+        816
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/pages/city-of-mist.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/2026/06/fadi.png",
+      "delivery": "/assets/images/2026/06/fadi.webp",
+      "sourceSha256": "1b2caf538ec48cfe771f2cd4246e4c3b11ca81e73dc544cb3c5182432c6668a4",
+      "deliverySha256": "8e4c55f45804bc27acb346eed51e77df766c7cea0a8d65afb2210f938bc4f69d",
+      "sourceBytes": 6215277,
+      "deliveryBytes": 393160,
+      "dimensions": [
+        1792,
+        2688
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/people-in-the-city.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/2026/06/jessica-hamer.png",
+      "delivery": "/assets/images/2026/06/jessica-hamer.webp",
+      "sourceSha256": "efa12c4440f670179d5d60b598cfeb22654c06f913c878b53644e2bc35dfa5ac",
+      "deliverySha256": "f3a574a956e853a3fa843f5aabc88fd40ab9064d0c7987bc0845beb89c734ddb",
+      "sourceBytes": 7301617,
+      "deliveryBytes": 658438,
+      "dimensions": [
+        1792,
+        2688
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/people-in-the-city.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/2026/06/michelle-adams.png",
+      "delivery": "/assets/images/2026/06/michelle-adams.webp",
+      "sourceSha256": "3c8b6d0e0d65f242654bd1827e9333617bf2166aa3ebc2bb6fc396d45aefd445",
+      "deliverySha256": "346d107ceceb4f5a59723afa696de26c365daa32e85445ce5b265cbc84195498",
+      "sourceBytes": 6524994,
+      "deliveryBytes": 456926,
+      "dimensions": [
+        1792,
+        2688
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/people-in-the-city.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/2026/06/sekhmet-1.webp",
+      "delivery": "/assets/images/2026/06/sekhmet-1.webp",
+      "sourceSha256": "ae3c64143ada8e2c593b52d78cdbd6303a7138cca466acc9f593ef53277ddf3f",
+      "deliverySha256": "ae3c64143ada8e2c593b52d78cdbd6303a7138cca466acc9f593ef53277ddf3f",
+      "sourceBytes": 101186,
+      "deliveryBytes": 101186,
+      "dimensions": [
+        2000,
+        1333
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/tags/wren.json"
+      ]
+    },
+    {
+      "source": "/assets/images/2026/06/wren3.png",
+      "delivery": "/assets/images/2026/06/wren3.webp",
+      "sourceSha256": "6964857dce6dbfee7d4ee35035fef826cd30323a086f4217515be04c56df7e2f",
+      "deliverySha256": "3472490b08ada1ba6a148a3f37f613d82bfe7b773b7d170ac8ab0952126abd83",
+      "sourceBytes": 9043127,
+      "deliveryBytes": 1396722,
+      "dimensions": [
+        1792,
+        2688
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/people-in-the-city.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/2026/07/Rogelio-Lopez.webp",
+      "delivery": "/assets/images/2026/07/Rogelio-Lopez.webp",
+      "sourceSha256": "2dd1be4e2ece50ecdabd0c6ac1b2c6eae93cdd5a0cafe3cfe0c6f868033b0017",
+      "deliverySha256": "2dd1be4e2ece50ecdabd0c6ac1b2c6eae93cdd5a0cafe3cfe0c6f868033b0017",
+      "sourceBytes": 461088,
+      "deliveryBytes": 461088,
+      "dimensions": [
+        1792,
+        2688
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/pages/people-in-the-city.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/2026/07/barrier.webp",
+      "delivery": "/assets/images/2026/07/barrier.webp",
+      "sourceSha256": "273ad51fbae3f9093266f563a8d05bebc7c657bc87059220423ab7ba2efe8147",
+      "deliverySha256": "273ad51fbae3f9093266f563a8d05bebc7c657bc87059220423ab7ba2efe8147",
+      "sourceBytes": 92738,
+      "deliveryBytes": 92738,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/pages/the-chosen.mdx",
+        "src/content/tags/season-3.json"
+      ]
+    },
+    {
+      "source": "/assets/images/2026/07/class-of-2007-1.webp",
+      "delivery": "/assets/images/2026/07/class-of-2007-1.webp",
+      "sourceSha256": "449e61384af509fff67b25341934e77f0dcd3f37a218c50ba9c80170039f4b3f",
+      "deliverySha256": "449e61384af509fff67b25341934e77f0dcd3f37a218c50ba9c80170039f4b3f",
+      "sourceBytes": 132958,
+      "deliveryBytes": 132958,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/pages/the-chosen.mdx",
+        "src/content/tags/season-1.json"
+      ]
+    },
+    {
+      "source": "/assets/images/2026/07/jamie2.webp",
+      "delivery": "/assets/images/2026/07/jamie2.webp",
+      "sourceSha256": "f853a425ea8e836ad518c5bc725d1b048b88869aa78ef31d95127163a83ce247",
+      "deliverySha256": "f853a425ea8e836ad518c5bc725d1b048b88869aa78ef31d95127163a83ce247",
+      "sourceBytes": 68546,
+      "deliveryBytes": 68546,
+      "dimensions": [
+        1792,
+        2688
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/pages/people-in-the-city.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/2026/07/john2.webp",
+      "delivery": "/assets/images/2026/07/john2.webp",
+      "sourceSha256": "794e9b2bc913bddd966ee18786d432e9b3ebf302e8b00c217d24b03317a5a9f6",
+      "deliverySha256": "794e9b2bc913bddd966ee18786d432e9b3ebf302e8b00c217d24b03317a5a9f6",
+      "sourceBytes": 188832,
+      "deliveryBytes": 188832,
+      "dimensions": [
+        1792,
+        2688
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/pages/people-in-the-city.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/2026/07/kevin2.webp",
+      "delivery": "/assets/images/2026/07/kevin2.webp",
+      "sourceSha256": "06e05e4aa8ca64ee62f2a2bf4c7db16f76786b0e2fd5a68aa710513a6a45a6c5",
+      "deliverySha256": "06e05e4aa8ca64ee62f2a2bf4c7db16f76786b0e2fd5a68aa710513a6a45a6c5",
+      "sourceBytes": 127754,
+      "deliveryBytes": 127754,
+      "dimensions": [
+        1792,
+        2688
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/pages/people-in-the-city.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/2026/07/la-colibri.webp",
+      "delivery": "/assets/images/2026/07/la-colibri.webp",
+      "sourceSha256": "c5fdb19024568777dbd391f5b3fb0fb5de95acb06942682bc955189328a03c52",
+      "deliverySha256": "c5fdb19024568777dbd391f5b3fb0fb5de95acb06942682bc955189328a03c52",
+      "sourceBytes": 313482,
+      "deliveryBytes": 313482,
+      "dimensions": [
+        1792,
+        2688
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/pages/people-in-the-city.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/2026/07/lanina.webp",
+      "delivery": "/assets/images/2026/07/lanina.webp",
+      "sourceSha256": "dad1d5d711a8a7c398243eac32afb6d561c0a84d1016cc4ed926735b121086a3",
+      "deliverySha256": "dad1d5d711a8a7c398243eac32afb6d561c0a84d1016cc4ed926735b121086a3",
+      "sourceBytes": 343426,
+      "deliveryBytes": 343426,
+      "dimensions": [
+        1792,
+        2688
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/pages/people-in-the-city.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/2026/07/natural-order.webp",
+      "delivery": "/assets/images/2026/07/natural-order.webp",
+      "sourceSha256": "7047e73568afd66160be16a3130bb2e98320a168a0010a53a688e8503aea09ef",
+      "deliverySha256": "7047e73568afd66160be16a3130bb2e98320a168a0010a53a688e8503aea09ef",
+      "sourceBytes": 38486,
+      "deliveryBytes": 38486,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/pages/the-chosen.mdx",
+        "src/content/tags/season-2.json"
+      ]
+    },
+    {
+      "source": "/assets/images/2026/07/sergei2.webp",
+      "delivery": "/assets/images/2026/07/sergei2.webp",
+      "sourceSha256": "cee76fcac33d8c4e876a13a019d63380a9c0c8b0202235f507ff0e8e7babfaa2",
+      "deliverySha256": "cee76fcac33d8c4e876a13a019d63380a9c0c8b0202235f507ff0e8e7babfaa2",
+      "sourceBytes": 166764,
+      "deliveryBytes": 166764,
+      "dimensions": [
+        1792,
+        2688
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/pages/people-in-the-city.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/2026/08/briana5-1.webp",
+      "delivery": "/assets/images/2026/08/briana5-1.webp",
+      "sourceSha256": "36412029d2a2b96bdd3cacbceb5affe55524f631a199c60044319476e952a2c2",
+      "deliverySha256": "36412029d2a2b96bdd3cacbceb5affe55524f631a199c60044319476e952a2c2",
+      "sourceBytes": 115846,
+      "deliveryBytes": 115846,
+      "dimensions": [
+        1376,
+        768
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/tags/com-season-1.json"
+      ]
+    },
+    {
+      "source": "/assets/images/2026/08/denver-morrison.webp",
+      "delivery": "/assets/images/2026/08/denver-morrison.webp",
+      "sourceSha256": "447f8c8e9398070c9d7eea9f0504cb32f01011da992d2c4ba2e11735b31d3c5f",
+      "deliverySha256": "447f8c8e9398070c9d7eea9f0504cb32f01011da992d2c4ba2e11735b31d3c5f",
+      "sourceBytes": 231164,
+      "deliveryBytes": 231164,
+      "dimensions": [
+        1792,
+        2688
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/pages/people-in-the-city.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/2026/08/vipcolorful-copy.png",
+      "delivery": "/assets/images/2026/08/vipcolorful-copy.webp",
+      "sourceSha256": "eb9b6851abc4c15580ca29c24dad969a86a41571691c50b398de5f64fbf07e7d",
+      "deliverySha256": "85077de5c03e453945341966ccdf6c6e23b0a4e7a08973b08b57ddafb34a216b",
+      "sourceBytes": 954958,
+      "deliveryBytes": 63368,
+      "dimensions": [
+        1456,
+        816
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/city-of-mist.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/2026/09/raz--1--1.webp",
+      "delivery": "/assets/images/2026/09/raz--1--1.webp",
+      "sourceSha256": "0e593430b2cbcb212d215f0f088a4f367a65e9316b26616c639468534599008c",
+      "deliverySha256": "0e593430b2cbcb212d215f0f088a4f367a65e9316b26616c639468534599008c",
+      "sourceBytes": 85054,
+      "deliveryBytes": 85054,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/posts/1-8-far-from-the-tree-part-2.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/2026/09/raz--1-.webp",
+      "delivery": "/assets/images/2026/09/raz--1-.webp",
+      "sourceSha256": "0e593430b2cbcb212d215f0f088a4f367a65e9316b26616c639468534599008c",
+      "deliverySha256": "0e593430b2cbcb212d215f0f088a4f367a65e9316b26616c639468534599008c",
+      "sourceBytes": 85054,
+      "deliveryBytes": 85054,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/posts/1-8-far-from-the-tree-part-2.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/advanced.jpg",
+      "delivery": "/assets/images/advanced.jpg",
+      "sourceSha256": "cd6443b25108ec1fe1db19cb6eeb92cf500aab01ac783b82be7d4adf73ec58a5",
+      "deliverySha256": "cd6443b25108ec1fe1db19cb6eeb92cf500aab01ac783b82be7d4adf73ec58a5",
+      "sourceBytes": 99911,
+      "deliveryBytes": 99911,
+      "dimensions": [
+        1400,
+        933
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/posts/advanced-markdown.md"
+      ]
+    },
+    {
+      "source": "/assets/images/bear.jpg",
+      "delivery": "/assets/images/bear.jpg",
+      "sourceSha256": "cce8094407aa1331f538a6294064059f6fe4604e5c640a048d4b8d79c8207400",
+      "deliverySha256": "cce8094407aa1331f538a6294064059f6fe4604e5c640a048d4b8d79c8207400",
+      "sourceBytes": 188562,
+      "deliveryBytes": 188562,
+      "dimensions": [
+        1080,
+        720
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/posts/a-full-and-comprehensive-style-test.md"
+      ]
+    },
+    {
+      "source": "/assets/images/ghost.png",
+      "delivery": "/assets/images/ghost.webp",
+      "sourceSha256": "12ec89cc655748d1982e0a23731485539096ac36e7fef6546e4d13eb1feb5b00",
+      "deliverySha256": "c6b497a415f7df77e061c4880e1e41309ae4f951bff619304c3825ff354428dc",
+      "sourceBytes": 5563,
+      "deliveryBytes": 918,
+      "dimensions": [
+        400,
+        400
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/authors/ghost.json"
+      ]
+    },
+    {
+      "source": "/assets/images/icon/apple-touch-icon-114x114.png",
+      "delivery": "/assets/images/icon/apple-touch-icon-114x114.png",
+      "sourceSha256": "109e495f65fb5d1660539b07facd7ba9b3d49786d49ad7d95bd7b0165ac66e73",
+      "deliverySha256": "109e495f65fb5d1660539b07facd7ba9b3d49786d49ad7d95bd7b0165ac66e73",
+      "sourceBytes": 2635,
+      "deliveryBytes": 2635,
+      "dimensions": [
+        114,
+        114
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/pages/dm-resources.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/icon/apple-touch-icon.png",
+      "delivery": "/assets/images/icon/apple-touch-icon.webp",
+      "sourceSha256": "c0ff6fefd27fdc038404672b99b55cdce02ce7c590eb10cccf405917686bd3b5",
+      "deliverySha256": "d4d6977cfaaff761f3a14d760efa88271319bbe3928aa9afc7eb75316a54b4f0",
+      "sourceBytes": 5554,
+      "deliveryBytes": 4150,
+      "dimensions": [
+        180,
+        180
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/dm-resources.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/icon/cropped-jrpglogo.001-270x270.jpg",
+      "delivery": "/assets/images/icon/cropped-jrpglogo.001-270x270.jpg",
+      "sourceSha256": "34d6ebbb3582f343887c9bfca4af795f4ba3d4a51d43675adc9e9584fb877125",
+      "deliverySha256": "34d6ebbb3582f343887c9bfca4af795f4ba3d4a51d43675adc9e9584fb877125",
+      "sourceBytes": 10774,
+      "deliveryBytes": 10774,
+      "dimensions": [
+        270,
+        270
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/pages/dm-resources.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/icon/favicon-1.ico",
+      "delivery": "/assets/images/icon/favicon-1.ico",
+      "sourceSha256": "6fa2c125251c6118b0c374e0d8849518960496bb1a6f096b8e31fc8628193ac6",
+      "deliverySha256": "6fa2c125251c6118b0c374e0d8849518960496bb1a6f096b8e31fc8628193ac6",
+      "sourceBytes": 49036,
+      "deliveryBytes": 49036,
+      "dimensions": [
+        150,
+        150
+      ],
+      "transparent": true,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/pages/dm-resources.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/icon/favicon-10.ico",
+      "delivery": "/assets/images/icon/favicon-10.ico",
+      "sourceSha256": "d5780b98a931be8b95742a020752b75ee186f5c2fa557095d4c7f32ba904f5b8",
+      "deliverySha256": "d5780b98a931be8b95742a020752b75ee186f5c2fa557095d4c7f32ba904f5b8",
+      "sourceBytes": 10787,
+      "deliveryBytes": 10787,
+      "dimensions": [
+        100,
+        100
+      ],
+      "transparent": true,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/pages/dm-resources.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/icon/favicon-152-1.png",
+      "delivery": "/assets/images/icon/favicon-152-1.webp",
+      "sourceSha256": "b1cfc0f053324a7ee417d91da8081262e11b675d1aa46e5be7ef6815336aa1d0",
+      "deliverySha256": "74a8af86fb89f12e10f25032b9b87ea4c31d2e07928a477b73a134eed6d1abce",
+      "sourceBytes": 10727,
+      "deliveryBytes": 5254,
+      "dimensions": [
+        152,
+        152
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/dm-resources.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/icon/favicon-180.png",
+      "delivery": "/assets/images/icon/favicon-180.webp",
+      "sourceSha256": "a917ecff5b6976cc9794a8a9d05b596de057008b3bd020efec19fae5282277bc",
+      "deliverySha256": "41cc016d58fbc8f15478768145743b333392cc4e077c8dc180fb55c83333d540",
+      "sourceBytes": 4267,
+      "deliveryBytes": 3154,
+      "dimensions": [
+        180,
+        180
+      ],
+      "transparent": true,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "lossless": true,
+        "exact": true
+      },
+      "status": "converted",
+      "reason": "lossless transparency",
+      "usedIn": [
+        "src/content/pages/dm-resources.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/icon/favicon-2.ico",
+      "delivery": "/assets/images/icon/favicon-2.ico",
+      "sourceSha256": "4749cdfede0deb496bea2e1965090d08f9a50a253a0fba449ece77b2d70e9d6c",
+      "deliverySha256": "4749cdfede0deb496bea2e1965090d08f9a50a253a0fba449ece77b2d70e9d6c",
+      "sourceBytes": 22222,
+      "deliveryBytes": 22222,
+      "dimensions": [
+        100,
+        100
+      ],
+      "transparent": true,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/pages/dm-resources.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/icon/favicon-3.ico",
+      "delivery": "/assets/images/icon/favicon-3.ico",
+      "sourceSha256": "67f665786375f523417e6bf5e803e63e4b136a80f2da6b1e2b0dbb9e02c118cd",
+      "deliverySha256": "67f665786375f523417e6bf5e803e63e4b136a80f2da6b1e2b0dbb9e02c118cd",
+      "sourceBytes": 17368,
+      "deliveryBytes": 17368,
+      "dimensions": [
+        100,
+        100
+      ],
+      "transparent": true,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/pages/dm-resources.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/icon/favicon-4.ico",
+      "delivery": "/assets/images/icon/favicon-4.ico",
+      "sourceSha256": "e7c01b49d7fa1df5c47eb8475b373c103be2f878c412093401b7406688e82a07",
+      "deliverySha256": "e7c01b49d7fa1df5c47eb8475b373c103be2f878c412093401b7406688e82a07",
+      "sourceBytes": 1406,
+      "deliveryBytes": 1406,
+      "dimensions": [
+        16,
+        16
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/pages/dm-resources.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/icon/favicon-5.ico",
+      "delivery": "/assets/images/icon/favicon-5.ico",
+      "sourceSha256": "190c68df3f8a5f81c728912b1632ab2c2085563cf39011e007c7f9c4197fb8fb",
+      "deliverySha256": "190c68df3f8a5f81c728912b1632ab2c2085563cf39011e007c7f9c4197fb8fb",
+      "sourceBytes": 15406,
+      "deliveryBytes": 15406,
+      "dimensions": [
+        48,
+        48
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/pages/dm-resources.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/icon/favicon-8.ico",
+      "delivery": "/assets/images/icon/favicon-8.ico",
+      "sourceSha256": "6bffcb958eb66f4a1b756e4a4b3197af5ceca023a67126cccfda19ebbd1da814",
+      "deliverySha256": "6bffcb958eb66f4a1b756e4a4b3197af5ceca023a67126cccfda19ebbd1da814",
+      "sourceBytes": 21277,
+      "deliveryBytes": 21277,
+      "dimensions": [
+        100,
+        100
+      ],
+      "transparent": true,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/pages/dm-resources.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/icon/favicon-9.ico",
+      "delivery": "/assets/images/icon/favicon-9.ico",
+      "sourceSha256": "e7c01b49d7fa1df5c47eb8475b373c103be2f878c412093401b7406688e82a07",
+      "deliverySha256": "e7c01b49d7fa1df5c47eb8475b373c103be2f878c412093401b7406688e82a07",
+      "sourceBytes": 1406,
+      "deliveryBytes": 1406,
+      "dimensions": [
+        16,
+        16
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/pages/dm-resources.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/icon/favicon.ico",
+      "delivery": "/assets/images/icon/favicon.ico",
+      "sourceSha256": "6fa2c125251c6118b0c374e0d8849518960496bb1a6f096b8e31fc8628193ac6",
+      "deliverySha256": "6fa2c125251c6118b0c374e0d8849518960496bb1a6f096b8e31fc8628193ac6",
+      "sourceBytes": 49036,
+      "deliveryBytes": 49036,
+      "dimensions": [
+        150,
+        150
+      ],
+      "transparent": true,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/pages/dm-resources.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/icon/favicon_copy.webp",
+      "delivery": "/assets/images/icon/favicon_copy.webp",
+      "sourceSha256": "b6ba8e6467c21ec300faa9265f592f33d67e9e65ac8d33352eb243671a17553a",
+      "deliverySha256": "b6ba8e6467c21ec300faa9265f592f33d67e9e65ac8d33352eb243671a17553a",
+      "sourceBytes": 912,
+      "deliveryBytes": 912,
+      "dimensions": [
+        32,
+        32
+      ],
+      "transparent": true,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/pages/dm-resources.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/icon/pwa-192.png",
+      "delivery": "/assets/images/icon/pwa-192.webp",
+      "sourceSha256": "8e255641e70f4e6fc9d0d873f506e08ce8f80dd4d15802ebe0f5b931d30e4428",
+      "deliverySha256": "2303771618c8da7b8bb2219baa2b2383c569c7aea7bd36570e083b836a2e4bbd",
+      "sourceBytes": 2079,
+      "deliveryBytes": 1144,
+      "dimensions": [
+        192,
+        192
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/dm-resources.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/john.jpg",
+      "delivery": "/assets/images/john.jpg",
+      "sourceSha256": "64c6ec036bc235b9dc4224f5823ad283cf1b02494a993253aa14f2f52ce33072",
+      "deliverySha256": "64c6ec036bc235b9dc4224f5823ad283cf1b02494a993253aa14f2f52ce33072",
+      "sourceBytes": 23542,
+      "deliveryBytes": 23542,
+      "dimensions": [
+        384,
+        383
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/authors/john.json"
+      ]
+    },
+    {
+      "source": "/assets/images/kat.png",
+      "delivery": "/assets/images/kat.webp",
+      "sourceSha256": "2ff42f2f9b263e688c81830b2c024940a80f8cfc2fe1ee9f05be2fb31306f20f",
+      "deliverySha256": "ea0b590e4e919e9468d3b8b5d5ed05cb92940d7823de28591b146034baa855db",
+      "sourceBytes": 2727344,
+      "deliveryBytes": 346992,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/authors/kat.json"
+      ]
+    },
+    {
+      "source": "/assets/images/thumbnail/-23collection-promo-card-2C.png",
+      "delivery": "/assets/images/thumbnail/-23collection-promo-card-2C.webp",
+      "sourceSha256": "bd7790cb680a4671f0e45f33285bf8a0aa2601f66e6781ec1329bed2b9dd0748",
+      "deliverySha256": "717cc7275cb6a14e393528b1a716233759e64cbefd550d81327172a95a498070",
+      "sourceBytes": 432846,
+      "deliveryBytes": 75620,
+      "dimensions": [
+        1080,
+        609
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/dm-resources.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/thumbnail/AvraeSquare.jpg",
+      "delivery": "/assets/images/thumbnail/AvraeSquare.jpg",
+      "sourceSha256": "ef0d853c9e2735bd5151396abb98d96d85262f9f854db9fb554e890c25283e9a",
+      "deliverySha256": "ef0d853c9e2735bd5151396abb98d96d85262f9f854db9fb554e890c25283e9a",
+      "sourceBytes": 221354,
+      "deliveryBytes": 221354,
+      "dimensions": [
+        2245,
+        2245
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/pages/dm-resources.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/thumbnail/C-BigBads.png",
+      "delivery": "/assets/images/thumbnail/C-BigBads.webp",
+      "sourceSha256": "4276cdeb7f0b2962e4300d25d384ad217ae7bba90a0e11b9d9c12225533095ac",
+      "deliverySha256": "8ae3a9448a637d540959bb5c25f1b579c4f9e125dd0e7bca1239223a05a0442e",
+      "sourceBytes": 7039049,
+      "deliveryBytes": 707730,
+      "dimensions": [
+        3000,
+        3000
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/dm-resources.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/thumbnail/TC_Banner-Wide.jpg",
+      "delivery": "/assets/images/thumbnail/TC_Banner-Wide.jpg",
+      "sourceSha256": "b4f00bee6b157856d79607d872d747b293b8f18ce4cbf81b41f126cd60e14b7a",
+      "deliverySha256": "b4f00bee6b157856d79607d872d747b293b8f18ce4cbf81b41f126cd60e14b7a",
+      "sourceBytes": 398063,
+      "deliveryBytes": 398063,
+      "dimensions": [
+        1500,
+        844
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/pages/dm-resources.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/thumbnail/Website.png",
+      "delivery": "/assets/images/thumbnail/Website.webp",
+      "sourceSha256": "4d37f0a53455c130c4c9403361fbb493e29b0e9dca6cd154585c7702b8424589",
+      "deliverySha256": "5e5dec58f96558ba20873ca08dcbb49764fc83df90bac605957130fdeeb119b1",
+      "sourceBytes": 18180,
+      "deliveryBytes": 12032,
+      "dimensions": [
+        544,
+        392
+      ],
+      "transparent": true,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "lossless": true,
+        "exact": true
+      },
+      "status": "converted",
+      "reason": "lossless transparency",
+      "usedIn": [
+        "src/content/pages/dm-resources.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/thumbnail/basic.jpg",
+      "delivery": "/assets/images/thumbnail/basic.jpg",
+      "sourceSha256": "7e68860db228b2fc5646ce543ed2e1d0f2d2d81b7558470b4fa06396c6223ae3",
+      "deliverySha256": "7e68860db228b2fc5646ce543ed2e1d0f2d2d81b7558470b4fa06396c6223ae3",
+      "sourceBytes": 693814,
+      "deliveryBytes": 693814,
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/pages/dm-resources.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/thumbnail/emblem-transparent-no-shadow.png",
+      "delivery": "/assets/images/thumbnail/emblem-transparent-no-shadow.webp",
+      "sourceSha256": "9d9ffe07f11fa44c1834f46b380efb3d4cd74955b130a2e2f07508e9e4cec924",
+      "deliverySha256": "762211976b821f7ae622c44c1e828a74ff4427ef4f3bc56bcb6632c3a7649673",
+      "sourceBytes": 2106095,
+      "deliveryBytes": 1437002,
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "transparent": true,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "lossless": true,
+        "exact": true
+      },
+      "status": "converted",
+      "reason": "lossless transparency",
+      "usedIn": [
+        "src/content/pages/dm-resources.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/thumbnail/hamlet-map-thumb.png",
+      "delivery": "/assets/images/thumbnail/hamlet-map-thumb.webp",
+      "sourceSha256": "10f9046f5c6f9891b1f8764a8cfb6d05a60e6467fbd886f2f04bd99ae2bcc28c",
+      "deliverySha256": "0d65d882415b854b0c5a4c4f70d4ae81b28b8f9cd427810d4546605f8a8159a0",
+      "sourceBytes": 17500,
+      "deliveryBytes": 3518,
+      "dimensions": [
+        102,
+        77
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/dm-resources.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/thumbnail/jrpgart-logo.gif",
+      "delivery": "/assets/images/thumbnail/jrpgart-logo.gif",
+      "sourceSha256": "4e0d587593b4f51a5b9061023b31d569a84b786810aed78c2c88790b07969247",
+      "deliverySha256": "4e0d587593b4f51a5b9061023b31d569a84b786810aed78c2c88790b07969247",
+      "sourceBytes": 12307464,
+      "deliveryBytes": 12307464,
+      "dimensions": [
+        410,
+        410
+      ],
+      "transparent": false,
+      "animated": true,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/pages/dm-resources.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/thumbnail/og.png",
+      "delivery": "/assets/images/thumbnail/og.webp",
+      "sourceSha256": "5d7807782c57bc40d4a10c59b6b292077d24cd1c700c6458a659f38ca2a7e788",
+      "deliverySha256": "49acd0d7a80b06963af581da3397be58fbda5761dcc3d5076e6d71026c317b01",
+      "sourceBytes": 216493,
+      "deliveryBytes": 25032,
+      "dimensions": [
+        1000,
+        1000
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/dm-resources.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/thumbnail/opengraph-image-1u4ouu.jpg",
+      "delivery": "/assets/images/thumbnail/opengraph-image-1u4ouu.jpg",
+      "sourceSha256": "2c46076a2cd05728d579536a5fe7e351d288b8486a1137b75e1fe569c78011bc",
+      "deliverySha256": "2c46076a2cd05728d579536a5fe7e351d288b8486a1137b75e1fe569c78011bc",
+      "sourceBytes": 623321,
+      "deliveryBytes": 623321,
+      "dimensions": [
+        1000,
+        523
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/pages/dm-resources.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/thumbnail/opengraph-image.png",
+      "delivery": "/assets/images/thumbnail/opengraph-image.webp",
+      "sourceSha256": "f4a46f6ea14099ba5b9b026c311599f3897a8b4cc3c768ecb5e02e9b6049e91d",
+      "deliverySha256": "cc59cb2fa57c9b1a7dce99e4e93c1bac306e9a9e73d48b3260a95ef611c659a8",
+      "sourceBytes": 1344631,
+      "deliveryBytes": 165044,
+      "dimensions": [
+        1200,
+        630
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/dm-resources.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/thumbnail/popular-name-generator-tiefling.png",
+      "delivery": "/assets/images/thumbnail/popular-name-generator-tiefling.webp",
+      "sourceSha256": "7f1a923110416a1b01975ad99ab919217f64a57695194d3dd17f8727a2fe8097",
+      "deliverySha256": "979cf5a46644d737d027acf1a856b726bf092eaa9f000b165ba35597de92c877",
+      "sourceBytes": 5396,
+      "deliveryBytes": 4336,
+      "dimensions": [
+        186,
+        200
+      ],
+      "transparent": true,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "lossless": true,
+        "exact": true
+      },
+      "status": "converted",
+      "reason": "lossless transparency",
+      "usedIn": [
+        "src/content/pages/dm-resources.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/thumbnail/share-square-shops.jpg",
+      "delivery": "/assets/images/thumbnail/share-square-shops.jpg",
+      "sourceSha256": "11c28a44336d15e9acf18f867a324d037384eb5340e6a4a7fdbe36a23a2000de",
+      "deliverySha256": "11c28a44336d15e9acf18f867a324d037384eb5340e6a4a7fdbe36a23a2000de",
+      "sourceBytes": 50401,
+      "deliveryBytes": 50401,
+      "dimensions": [
+        786,
+        411
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/pages/dm-resources.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/thumbnail/swinging-ball-trap.jpg",
+      "delivery": "/assets/images/thumbnail/swinging-ball-trap.jpg",
+      "sourceSha256": "d781aa1a0d3e23b121fba8e80358353525d15e1ee8b34baeab56e64850598569",
+      "deliverySha256": "d781aa1a0d3e23b121fba8e80358353525d15e1ee8b34baeab56e64850598569",
+      "sourceBytes": 9730,
+      "deliveryBytes": 9730,
+      "dimensions": [
+        236,
+        243
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/pages/dm-resources.mdx"
+      ]
+    },
+    {
+      "source": "/assets/images/walking.jpg",
+      "delivery": "/assets/images/walking.jpg",
+      "sourceSha256": "26e91dd99ff1e734c8fc13c52ccd240cb326faa595c9ad43a3e48fb9ce16facb",
+      "deliverySha256": "26e91dd99ff1e734c8fc13c52ccd240cb326faa595c9ad43a3e48fb9ce16facb",
+      "sourceBytes": 136334,
+      "deliveryBytes": 136334,
+      "dimensions": [
+        1200,
+        800
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/posts/advanced-markdown.md"
+      ]
+    }
+  ],
+  "publicDevelopmentUrl": "https://pub-e4d8121a5e7c42d98f03214fb5ed9720.r2.dev"
+}

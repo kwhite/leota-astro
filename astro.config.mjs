@@ -1,9 +1,10 @@
 import { defineConfig, fontProviders } from 'astro/config';
 import mdx from '@astrojs/mdx';
+import mediaDelivery from './scripts/media-build.mjs';
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [mdx()],
+  integrations: [mdx(), mediaDelivery()],
   site: process.env.SITE_URL || 'https://herebedragons.club',
   base: process.env.BASE_PATH || '/',
   markdown: {
