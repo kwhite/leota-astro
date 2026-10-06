@@ -10,13 +10,16 @@ const manifest = JSON.parse(await fs.readFile(path.join(root, 'docs/media-delive
 const endpoint = 'https://6aaee8d827f66c560264502c52a30782.r2.cloudflarestorage.com';
 const types = { '.webp': 'image/webp', '.png': 'image/png', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.gif': 'image/gif', '.ico': 'image/x-icon' };
 const prepared = [];
-for (const asset of manifest.assets) {
+const deliverySet = manifest.assets.flatMap(asset => [asset, ...(asset.variants || [])]);
+for (const asset of deliverySet) {
   const file = path.join(root, '.media-delivery', asset.delivery);
   const bytes = await fs.readFile(file);
   if (createHash('sha256').update(bytes).digest('hex') !== asset.deliverySha256) throw new Error(`Checksum mismatch: ${asset.delivery}`);
   prepared.push({ asset, file });
 }
-console.log(`Validated ${prepared.length} files, ${manifest.deliveryBytes} bytes for leota-media.`);
+console.log(`Validated ${prepared.length} files, ${manifest.deliveryBytes + (manifest.variantBytes || 0)} bytes for leota-media.`);
+const uploads = process.argv.includes('--variants-only') ? prepared.filter(({ asset }) => !manifest.assets.includes(asset)) : prepared;
+console.log(`${uploads.length} files selected for upload.`);
 if (!process.argv.includes('--apply')) {
   console.log('Dry run only. Add --apply to upload.');
 } else {
@@ -24,8 +27,8 @@ if (!process.argv.includes('--apply')) {
   let done = 0;
   let failure;
   async function worker() {
-    while (next < prepared.length && !failure) {
-      const { asset, file } = prepared[next++];
+    while (next < uploads.length && !failure) {
+      const { asset, file } = uploads[next++];
       const args = ['s3', 'cp', file, `s3://leota-media${asset.delivery}`, '--profile', 'leota-r2', '--endpoint-url', endpoint,
         '--content-type', types[path.extname(file)], '--cache-control', 'public,max-age=3600',
         '--metadata', `sha256=${asset.deliverySha256}`, '--only-show-errors', '--no-cli-pager'];
@@ -38,7 +41,7 @@ if (!process.argv.includes('--apply')) {
           child.on('close', code => code === 0 ? resolve() : reject(new Error(`${asset.delivery}: ${error}`)));
         });
         done++;
-        if (done % 20 === 0 || done === prepared.length) console.log(`Uploaded ${done}/${prepared.length}`);
+        if (done % 20 === 0 || done === uploads.length) console.log(`Uploaded ${done}/${uploads.length}`);
       } catch (error) { failure = error; }
     }
   }
