@@ -878,7 +878,7 @@
     {
       "slug": "school-daze",
       "title": "1.10 School Daze",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 1",
@@ -888,7 +888,7 @@
     {
       "slug": "city-of-demons",
       "title": "1.20 City of Demons",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 1",
@@ -898,7 +898,7 @@
     {
       "slug": "thief-in-the-knight",
       "title": "1.17 Thief in the Knight",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 1",
@@ -908,7 +908,7 @@
     {
       "slug": "return-of-the-natives",
       "title": "1.14 Return of the Natives",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 1",
@@ -918,7 +918,7 @@
     {
       "slug": "queen-bee",
       "title": "1.13 Queen Bee",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 1",
@@ -928,7 +928,7 @@
     {
       "slug": "possessed",
       "title": "1.15 Possessed",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 1",
@@ -938,7 +938,7 @@
     {
       "slug": "high-life",
       "title": "1.11 High Life",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 1",
@@ -948,7 +948,7 @@
     {
       "slug": "superman",
       "title": "1.19 Superman",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 1",
@@ -958,7 +958,7 @@
     {
       "slug": "good-friday",
       "title": "1.18 Good Friday",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 1",
@@ -968,7 +968,7 @@
     {
       "slug": "witch-trials",
       "title": "1.9 Witch Trials",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 1",
@@ -978,7 +978,7 @@
     {
       "slug": "lost-and",
       "title": "1.21 Lost And...",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 1",
@@ -988,7 +988,7 @@
     {
       "slug": "found",
       "title": "1.22 ...Found",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 1",
@@ -1444,7 +1444,7 @@
     {
       "slug": "1-1-class-of-2007",
       "title": "1.1 The Class of '07",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 1"
@@ -1453,7 +1453,7 @@
     {
       "slug": "1-3-byob",
       "title": "1.3 BYOB",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 1"
@@ -1462,7 +1462,7 @@
     {
       "slug": "1-5-atom-and-eve",
       "title": "1.5 Atom and Eve",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 1"
@@ -1471,7 +1471,7 @@
     {
       "slug": "1-8-black-magick",
       "title": "1.8 Black Magick",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 1"
@@ -1480,7 +1480,7 @@
     {
       "slug": "1-12-pretty-piece-of-flesh",
       "title": "1.12 Pretty Piece of Flesh",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 1"
@@ -1489,7 +1489,7 @@
     {
       "slug": "1-16-power-play",
       "title": "1.16 Power Play",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 1"
@@ -1498,7 +1498,7 @@
     {
       "slug": "1-2-the-campout",
       "title": "1.2 The Campout",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 1"
@@ -1507,7 +1507,7 @@
     {
       "slug": "1-4-bloody-mary",
       "title": "1.4 Bloody Mary",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 1"
@@ -1516,7 +1516,7 @@
     {
       "slug": "1-6-growing-pains",
       "title": "1.6 Growing Pains",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 1"
@@ -1525,7 +1525,7 @@
     {
       "slug": "1-7-dead-and-gone",
       "title": "1.7 Dead and Gone",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 1"
@@ -1751,8 +1751,8 @@
   "summary": {
     "sourcePosts": 170,
     "retainedArchivePosts": 168,
-    "alreadyMigratedPosts": 101,
-    "remainingPostsToMigrate": 67,
+    "alreadyMigratedPosts": 123,
+    "remainingPostsToMigrate": 45,
     "approvedOmissions": 2,
     "untaggedRetainedPosts": [
       "1-5-when-the-cats-away"

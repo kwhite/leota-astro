@@ -2,9 +2,9 @@
   "version": 2,
   "pillow": "12.3.0",
   "webp": "1.6.0",
-  "sourceBytes": 555269984,
-  "deliveryBytes": 121812481,
-  "variantBytes": 130063028,
+  "sourceBytes": 590354918,
+  "deliveryBytes": 124755105,
+  "variantBytes": 135784230,
   "assets": [
     {
       "source": "/assets/files/2026/02/_chase_season3_mid.pdf",
@@ -12073,6 +12073,83 @@
       "variants": []
     },
     {
+      "source": "/assets/images/2026/02/class-of-2007.png",
+      "delivery": "/assets/images/2026/02/class-of-2007.webp",
+      "sourceSha256": "ddbe4f6f0f92f57b299a950f4b18da2f25b69a1fda5b61eb84e2a1551b6adcd0",
+      "deliverySha256": "d84728eb5a9d31cf2b49f03c982b20a608ceb57a4734d39d167abc2cbbb2f834",
+      "sourceBytes": 1928869,
+      "deliveryBytes": 261650,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/1-1-class-of-2007.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/02/class-of-2007.w320.webp",
+          "deliverySha256": "f03fca764c9e55e7620ee81606093defcd31f16e577717ed5848d74fd7d9d688",
+          "deliveryBytes": 21568,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/class-of-2007.w640.webp",
+          "deliverySha256": "2cb3e6cf7f3155d7e83d05275d3bceb15c54808675dadb9d3b7dc1bd8c1d4bdd",
+          "deliveryBytes": 74078,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/class-of-2007.w960.webp",
+          "deliverySha256": "bdce028fa2a37a93156381b045775e15ae8443a938d7452d70c25592043669e4",
+          "deliveryBytes": 149218,
+          "dimensions": [
+            960,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/class-of-2007.w1280.webp",
+          "deliverySha256": "74ec40396b915711530e072f35833a7f0332e54927090e09a01ede252ec6bd09",
+          "deliveryBytes": 238378,
+          "dimensions": [
+            1280,
+            853
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
       "source": "/assets/images/2026/02/deaver.png",
       "delivery": "/assets/images/2026/02/deaver.webp",
       "sourceSha256": "51128f23b8b2cb1bfe60ddafef08d045e1507dcc5106dface4c6a3166f62c736",
@@ -12124,6 +12201,83 @@
       "variants": []
     },
     {
+      "source": "/assets/images/2026/02/gabewall2.png",
+      "delivery": "/assets/images/2026/02/gabewall2.webp",
+      "sourceSha256": "77334d5aec76ec07c5d416dccdb87fd7cbdae7690676b35a5094a9b57f870401",
+      "deliverySha256": "b2b5cbdeea718effe446aca0560c289d7873c2201a42db32b4a21b31e7bd06fa",
+      "sourceBytes": 1756109,
+      "deliveryBytes": 141336,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/1-8-black-magick.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/02/gabewall2.w320.webp",
+          "deliverySha256": "712877d007565994f0df427032203374f2062f996d1165b64d7ba01542ba6818",
+          "deliveryBytes": 17750,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/gabewall2.w640.webp",
+          "deliverySha256": "467ee1e0eceecdf1a49c07a31ecb35a40a3c40b08f16c30506cdf98fb2c592bc",
+          "deliveryBytes": 48066,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/gabewall2.w960.webp",
+          "deliverySha256": "78fa8a2ee8dcfa76d1d327d711c8521acd511cf512b0867b217f400bca4ff696",
+          "deliveryBytes": 90014,
+          "dimensions": [
+            960,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/gabewall2.w1280.webp",
+          "deliverySha256": "edbf1d996ef96fd401f659c82a02d59a5d46addc0201087965ed82e83d4c0b29",
+          "deliveryBytes": 132838,
+          "dimensions": [
+            1280,
+            853
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
       "source": "/assets/images/2026/02/geoff.png",
       "delivery": "/assets/images/2026/02/geoff.webp",
       "sourceSha256": "19190b9004518813bb535c5063668a2aa0b4816c78c2cbbffbcec69b902db1c0",
@@ -12148,6 +12302,776 @@
         "src/content/pages/the-chosen.mdx"
       ],
       "variants": []
+    },
+    {
+      "source": "/assets/images/2026/02/musetta._Ancient_leather-bound_book_open_on_wooden_laboratory_7d9e832f-f216-4cd3-952b-7fd0eaf51d2d_2.png",
+      "delivery": "/assets/images/2026/02/musetta._Ancient_leather-bound_book_open_on_wooden_laboratory_7d9e832f-f216-4cd3-952b-7fd0eaf51d2d_2.webp",
+      "sourceSha256": "3e67b76bab126763708b59b356d1ad1a048a0eda2544501e91cf02308a4c1948",
+      "deliverySha256": "d1cb3b56f5a4a17afabbee91d836b2b9b284a1ec7299cd4ba2177a90a52b9154",
+      "sourceBytes": 1473793,
+      "deliveryBytes": 128958,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/superman.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/02/musetta._Ancient_leather-bound_book_open_on_wooden_laboratory_7d9e832f-f216-4cd3-952b-7fd0eaf51d2d_2.w320.webp",
+          "deliverySha256": "86dbd204b70cf18b0fa00dc50006eafd7fb325d74c273377e555b953236036f3",
+          "deliveryBytes": 17024,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Ancient_leather-bound_book_open_on_wooden_laboratory_7d9e832f-f216-4cd3-952b-7fd0eaf51d2d_2.w640.webp",
+          "deliverySha256": "10a504b9ee1eda5baee7030b4cbfdc61b82f170c6bec7edbc857d4a75b75a937",
+          "deliveryBytes": 45788,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Ancient_leather-bound_book_open_on_wooden_laboratory_7d9e832f-f216-4cd3-952b-7fd0eaf51d2d_2.w960.webp",
+          "deliverySha256": "65637e139f00c2899bde4df5ce5169f6fd8dd270dcaec1c31ed9cb0d0fe11bb4",
+          "deliveryBytes": 81120,
+          "dimensions": [
+            960,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Ancient_leather-bound_book_open_on_wooden_laboratory_7d9e832f-f216-4cd3-952b-7fd0eaf51d2d_2.w1280.webp",
+          "deliverySha256": "75e11c3de7bfbf946d50759bc56a0345f7f8e5fadc07995df35553410d1fa1f0",
+          "deliveryBytes": 120218,
+          "dimensions": [
+            1280,
+            853
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/02/musetta._Beautiful_blonde_woman_in_her_early_20s_standing_wit_c717a2e2-468f-4cfe-a0b3-05f74390f44c_1.png",
+      "delivery": "/assets/images/2026/02/musetta._Beautiful_blonde_woman_in_her_early_20s_standing_wit_c717a2e2-468f-4cfe-a0b3-05f74390f44c_1.webp",
+      "sourceSha256": "f7cf1f11816f621a932251afcea2e493617b78ee2b2d9277358420e2e140713e",
+      "deliverySha256": "a23437b57072ecbd9bf1c1d2a4645a142e8f5b1e1727d9d6b116f4b927f44335",
+      "sourceBytes": 1495503,
+      "deliveryBytes": 95394,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/1-12-pretty-piece-of-flesh.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/02/musetta._Beautiful_blonde_woman_in_her_early_20s_standing_wit_c717a2e2-468f-4cfe-a0b3-05f74390f44c_1.w320.webp",
+          "deliverySha256": "ba4037bafd8be8ccaa0641114415271563ff74c51de7343a8b86c4a11f1f0d61",
+          "deliveryBytes": 12172,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Beautiful_blonde_woman_in_her_early_20s_standing_wit_c717a2e2-468f-4cfe-a0b3-05f74390f44c_1.w640.webp",
+          "deliverySha256": "df39c8fe3359548eced26fe9dac933a8cc3cb6458c27f34e5ae36ab850caa055",
+          "deliveryBytes": 32844,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Beautiful_blonde_woman_in_her_early_20s_standing_wit_c717a2e2-468f-4cfe-a0b3-05f74390f44c_1.w960.webp",
+          "deliverySha256": "088161c632b1a4102d06cc73da3d1d5eda597aadd4b8fdaf4cf7582b7aa642cc",
+          "deliveryBytes": 56636,
+          "dimensions": [
+            960,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Beautiful_blonde_woman_in_her_early_20s_standing_wit_c717a2e2-468f-4cfe-a0b3-05f74390f44c_1.w1280.webp",
+          "deliverySha256": "d7edd43ad397cdabfef5b6d3ecff205cab6c28ab80826eddfa41b43cd7a4522c",
+          "deliveryBytes": 88144,
+          "dimensions": [
+            1280,
+            853
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/02/musetta._Beautiful_young_woman_in_early_20s_with_long_smooth__c30d83bb-e9ba-4b15-a1f9-563dd4288b0f_0.png",
+      "delivery": "/assets/images/2026/02/musetta._Beautiful_young_woman_in_early_20s_with_long_smooth__c30d83bb-e9ba-4b15-a1f9-563dd4288b0f_0.webp",
+      "sourceSha256": "f88b1e73e39ae98113522a93d244692c04ec2ab811bbf15ba5298b41b513b121",
+      "deliverySha256": "e50b23567cefc8aa0d7a38e438b94e7d97170520afaa3cd1f9bc0dc4fdddb504",
+      "sourceBytes": 1706859,
+      "deliveryBytes": 127540,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/queen-bee.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/02/musetta._Beautiful_young_woman_in_early_20s_with_long_smooth__c30d83bb-e9ba-4b15-a1f9-563dd4288b0f_0.w320.webp",
+          "deliverySha256": "477cc238da3a351121da22f8962e05250e972689d36b6eb1eebda2f8de86dc67",
+          "deliveryBytes": 12184,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Beautiful_young_woman_in_early_20s_with_long_smooth__c30d83bb-e9ba-4b15-a1f9-563dd4288b0f_0.w640.webp",
+          "deliverySha256": "3fa424b220418d773784d12ff13d78afe4ae2dbd1c9a2a48558c74a95a6180fd",
+          "deliveryBytes": 33252,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Beautiful_young_woman_in_early_20s_with_long_smooth__c30d83bb-e9ba-4b15-a1f9-563dd4288b0f_0.w960.webp",
+          "deliverySha256": "c70af52caae2dc3728bb29952bbc560e4762c9621717edc5837e302e1cf8ce63",
+          "deliveryBytes": 68912,
+          "dimensions": [
+            960,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Beautiful_young_woman_in_early_20s_with_long_smooth__c30d83bb-e9ba-4b15-a1f9-563dd4288b0f_0.w1280.webp",
+          "deliverySha256": "746cfb910f09bb4f5fe60ad5f38cfcb4f9629d5b0c3cecde7c1ca0e834ea5c0b",
+          "deliveryBytes": 112430,
+          "dimensions": [
+            1280,
+            853
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/02/musetta._Black_and_white_film_noir_movie_woman_in_her_late_20_c506b746-ad86-417c-b1fe-9643c3152d46_1.png",
+      "delivery": "/assets/images/2026/02/musetta._Black_and_white_film_noir_movie_woman_in_her_late_20_c506b746-ad86-417c-b1fe-9643c3152d46_1.webp",
+      "sourceSha256": "4b58900a9dfd1bfa01d49b81ff64af177d985fc2d693e0e9f34afbfbc2d0645b",
+      "deliverySha256": "161e9a4c10dc5e64a2cf573b4ba49398012af2ca3eaecdd645f5f5fcec272e10",
+      "sourceBytes": 1252141,
+      "deliveryBytes": 93192,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/city-of-demons.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/02/musetta._Black_and_white_film_noir_movie_woman_in_her_late_20_c506b746-ad86-417c-b1fe-9643c3152d46_1.w320.webp",
+          "deliverySha256": "bd70fbf871f702e923dbadb058631029cf2c983f480e50591d8fd8260ce35b15",
+          "deliveryBytes": 12944,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Black_and_white_film_noir_movie_woman_in_her_late_20_c506b746-ad86-417c-b1fe-9643c3152d46_1.w640.webp",
+          "deliverySha256": "23dea83a88821ea8ac86de5cdf6adff90c42ea5e4193218964716f715a669b6d",
+          "deliveryBytes": 34132,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Black_and_white_film_noir_movie_woman_in_her_late_20_c506b746-ad86-417c-b1fe-9643c3152d46_1.w960.webp",
+          "deliverySha256": "70b63b8d06da9b4fa17963edbbf47f805cfa397ea8808fcd52a6af6908b861b0",
+          "deliveryBytes": 58546,
+          "dimensions": [
+            960,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Black_and_white_film_noir_movie_woman_in_her_late_20_c506b746-ad86-417c-b1fe-9643c3152d46_1.w1280.webp",
+          "deliverySha256": "8ca7bae4adef07ca5023d60cf807e45416322a9692a7d0bf79027dfaa59fa0b0",
+          "deliveryBytes": 86862,
+          "dimensions": [
+            1280,
+            853
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/02/musetta._Close-up_portrait_of_petite_woman_in_her_early_20s_w_76cca771-f84f-4162-9e25-0d9b5532428e_1.png",
+      "delivery": "/assets/images/2026/02/musetta._Close-up_portrait_of_petite_woman_in_her_early_20s_w_76cca771-f84f-4162-9e25-0d9b5532428e_1.webp",
+      "sourceSha256": "956b4cefe48b82f5af0af02ecea8af92ceb6014f74db497c96bf42d18397d6a6",
+      "deliverySha256": "8adc196c6f5eefc5c1563e85bccc8674cfd89ab90ac9be16560515d18470c569",
+      "sourceBytes": 1557786,
+      "deliveryBytes": 76018,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/good-friday.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/02/musetta._Close-up_portrait_of_petite_woman_in_her_early_20s_w_76cca771-f84f-4162-9e25-0d9b5532428e_1.w320.webp",
+          "deliverySha256": "4c5f81fd537a8caee81e092cc2ad21d388dea8a1336672d3992b4711e6f59be2",
+          "deliveryBytes": 10278,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Close-up_portrait_of_petite_woman_in_her_early_20s_w_76cca771-f84f-4162-9e25-0d9b5532428e_1.w640.webp",
+          "deliverySha256": "90bfcb0b7a75710a43f4dc0e9271145f3fe3a4d80d4fb6d48d14c8c4b9f1871a",
+          "deliveryBytes": 25678,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Close-up_portrait_of_petite_woman_in_her_early_20s_w_76cca771-f84f-4162-9e25-0d9b5532428e_1.w960.webp",
+          "deliverySha256": "721de1d23ffdee5f980abee3e6e7b1cba6e029aa1a14adc1b61dd41c9e8594bd",
+          "deliveryBytes": 42248,
+          "dimensions": [
+            960,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Close-up_portrait_of_petite_woman_in_her_early_20s_w_76cca771-f84f-4162-9e25-0d9b5532428e_1.w1280.webp",
+          "deliverySha256": "be0a8cf16af23edd1efd7846923e014ffdea6fd7c7ca64f66a63104a54df8c93",
+          "deliveryBytes": 70330,
+          "dimensions": [
+            1280,
+            853
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/02/musetta._Dark_Victorian_attic_with_large_pentagram_occult_sym_af26af2d-5258-4bad-b4bf-801cb7ac602e_1.png",
+      "delivery": "/assets/images/2026/02/musetta._Dark_Victorian_attic_with_large_pentagram_occult_sym_af26af2d-5258-4bad-b4bf-801cb7ac602e_1.webp",
+      "sourceSha256": "5e319ee21c31f8db0e2bae2d42d2689ff199e3b885a65954a0605871a47f9d0a",
+      "deliverySha256": "07dd030a9729a358cd09ba4d889cda1626e45b2885c6d49dbde428779e515328",
+      "sourceBytes": 1810426,
+      "deliveryBytes": 208248,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/1-7-dead-and-gone.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/02/musetta._Dark_Victorian_attic_with_large_pentagram_occult_sym_af26af2d-5258-4bad-b4bf-801cb7ac602e_1.w320.webp",
+          "deliverySha256": "881c6c4c2f273ae5caa5fb0a34666583265a15ad399c4a5893ef645aee68fd6c",
+          "deliveryBytes": 17366,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Dark_Victorian_attic_with_large_pentagram_occult_sym_af26af2d-5258-4bad-b4bf-801cb7ac602e_1.w640.webp",
+          "deliverySha256": "2dcf2ba3fc6f66a9859a65e6fe59f34455945c8724925552da61db33325186fe",
+          "deliveryBytes": 61216,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Dark_Victorian_attic_with_large_pentagram_occult_sym_af26af2d-5258-4bad-b4bf-801cb7ac602e_1.w960.webp",
+          "deliverySha256": "0b0f0e2277c7c47e92a15842e89b0fcf33bad84093cfb149f16de21a42823115",
+          "deliveryBytes": 121214,
+          "dimensions": [
+            960,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Dark_Victorian_attic_with_large_pentagram_occult_sym_af26af2d-5258-4bad-b4bf-801cb7ac602e_1.w1280.webp",
+          "deliverySha256": "ce0a2e3ac532bc3048186a848f7ed80a02365e5647895cf37494bf28abb40b57",
+          "deliveryBytes": 190144,
+          "dimensions": [
+            1280,
+            853
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/02/musetta._Four_teenage_girls_sitting_in_circle_in_darkened_att_61b70073-6c80-42c7-89ab-bf4e87c6a1f0_3.png",
+      "delivery": "/assets/images/2026/02/musetta._Four_teenage_girls_sitting_in_circle_in_darkened_att_61b70073-6c80-42c7-89ab-bf4e87c6a1f0_3.webp",
+      "sourceSha256": "2aca2f6b46d6e66bdbb48225d1b27125f290662818e51709dc9d9f5b718d3549",
+      "deliverySha256": "0b258a99b079d883974dd0cd446fa507341834f1f85223e626864003ff4ed8ff",
+      "sourceBytes": 1403323,
+      "deliveryBytes": 117982,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/1-4-bloody-mary.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/02/musetta._Four_teenage_girls_sitting_in_circle_in_darkened_att_61b70073-6c80-42c7-89ab-bf4e87c6a1f0_3.w320.webp",
+          "deliverySha256": "0e951e354bf6f52177d1a4507499f2d9dd32af62baa158ca9f129eeb6e033425",
+          "deliveryBytes": 13668,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Four_teenage_girls_sitting_in_circle_in_darkened_att_61b70073-6c80-42c7-89ab-bf4e87c6a1f0_3.w640.webp",
+          "deliverySha256": "1e0586f1b5c8bd2e67804c05305cfefc2143b853246c381265288bae763737ba",
+          "deliveryBytes": 39380,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Four_teenage_girls_sitting_in_circle_in_darkened_att_61b70073-6c80-42c7-89ab-bf4e87c6a1f0_3.w960.webp",
+          "deliverySha256": "a72d34087984ee5adab7aa934fb44e9f2aae4af69753369d956d2e708286aa8e",
+          "deliveryBytes": 75780,
+          "dimensions": [
+            960,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Four_teenage_girls_sitting_in_circle_in_darkened_att_61b70073-6c80-42c7-89ab-bf4e87c6a1f0_3.w1280.webp",
+          "deliverySha256": "1ddc84593b04845685afe833a2705fce1347f46804744a38469652feeb56a45e",
+          "deliveryBytes": 111634,
+          "dimensions": [
+            1280,
+            853
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/02/musetta._Humanoid_demon_with_pale_gray_skin_and_multiple_writ_3ce18f81-81ae-4c53-a3d2-1f83e08bc516_0.png",
+      "delivery": "/assets/images/2026/02/musetta._Humanoid_demon_with_pale_gray_skin_and_multiple_writ_3ce18f81-81ae-4c53-a3d2-1f83e08bc516_0.webp",
+      "sourceSha256": "560d1a381962ddeb7396c7738ae846e262047469724ca10a567c9c10218d6606",
+      "deliverySha256": "14f3b4db91c2c4fd107997d9b40a7e6cf1cb69a7471214719514cf840b097bc5",
+      "sourceBytes": 1600955,
+      "deliveryBytes": 133344,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/1-16-power-play.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/02/musetta._Humanoid_demon_with_pale_gray_skin_and_multiple_writ_3ce18f81-81ae-4c53-a3d2-1f83e08bc516_0.w320.webp",
+          "deliverySha256": "059ba1436208e145f3256965b111d2b9e448d398dc032191c72cd4847d42481c",
+          "deliveryBytes": 15784,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Humanoid_demon_with_pale_gray_skin_and_multiple_writ_3ce18f81-81ae-4c53-a3d2-1f83e08bc516_0.w640.webp",
+          "deliverySha256": "29dbd1b6d1552a7e078bcc2abf99e605a252667f2b8fddde9f88c89176e9923a",
+          "deliveryBytes": 47928,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Humanoid_demon_with_pale_gray_skin_and_multiple_writ_3ce18f81-81ae-4c53-a3d2-1f83e08bc516_0.w960.webp",
+          "deliverySha256": "547250d872aee25cc5205e627ed4a8cec69abd5e8526ca2350981796e090afb9",
+          "deliveryBytes": 83392,
+          "dimensions": [
+            960,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Humanoid_demon_with_pale_gray_skin_and_multiple_writ_3ce18f81-81ae-4c53-a3d2-1f83e08bc516_0.w1280.webp",
+          "deliverySha256": "5544376b37fcdf0995a7db0bf23f6a37c0672a74d9dbb967d77f15e1241d983b",
+          "deliveryBytes": 125048,
+          "dimensions": [
+            1280,
+            853
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/02/musetta._Humanoid_figure_completely_covered_in_living_vines_l_af4bebb1-97f5-4992-a4de-87bdfa664582_1.png",
+      "delivery": "/assets/images/2026/02/musetta._Humanoid_figure_completely_covered_in_living_vines_l_af4bebb1-97f5-4992-a4de-87bdfa664582_1.webp",
+      "sourceSha256": "6d85ff6f635cf3011c9c3ab7c47552f87f54b6dcf0d00fd68a20ad55e1a56746",
+      "deliverySha256": "e685b4ae02bb6cba9a72b09747e45e5357761e7468fd35c3f76c20401ddfa8b0",
+      "sourceBytes": 1695113,
+      "deliveryBytes": 183342,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/1-6-growing-pains.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/02/musetta._Humanoid_figure_completely_covered_in_living_vines_l_af4bebb1-97f5-4992-a4de-87bdfa664582_1.w320.webp",
+          "deliverySha256": "3e77f76d9e06016709d8c33f3d9fbc09a6dbd291fced484b5d598d59d12af46b",
+          "deliveryBytes": 17714,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Humanoid_figure_completely_covered_in_living_vines_l_af4bebb1-97f5-4992-a4de-87bdfa664582_1.w640.webp",
+          "deliverySha256": "41b186e16c6569c00d6de20bfbb77ec1d3f722f2f0024db82a727772d3f5ea79",
+          "deliveryBytes": 57288,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Humanoid_figure_completely_covered_in_living_vines_l_af4bebb1-97f5-4992-a4de-87bdfa664582_1.w960.webp",
+          "deliverySha256": "1a74b3ff1c6e8a10d373d7bc65e5edd8945f6fdd9b0c820a7446786970710791",
+          "deliveryBytes": 108452,
+          "dimensions": [
+            960,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Humanoid_figure_completely_covered_in_living_vines_l_af4bebb1-97f5-4992-a4de-87bdfa664582_1.w1280.webp",
+          "deliverySha256": "7db6057833a405a7c78037e555aaa96f3e14570ec34a49c20baebefb26c6c8a2",
+          "deliveryBytes": 167296,
+          "dimensions": [
+            1280,
+            853
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/02/musetta._Lean_intellectual_man_in_his_30s_with_thin_wire-rimm_023c7d01-4b5a-44af-a893-976a34188b9d_3.png",
+      "delivery": "/assets/images/2026/02/musetta._Lean_intellectual_man_in_his_30s_with_thin_wire-rimm_023c7d01-4b5a-44af-a893-976a34188b9d_3.webp",
+      "sourceSha256": "1d903f96a69f1756184b94cb9d4367c3b80ee1c9b85c56f729f7b2903c5bfc5a",
+      "deliverySha256": "109485b0520ed6e42084740d08609b1343479ea7dfd61e69413300520dc8e115",
+      "sourceBytes": 1491392,
+      "deliveryBytes": 76560,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/possessed.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/02/musetta._Lean_intellectual_man_in_his_30s_with_thin_wire-rimm_023c7d01-4b5a-44af-a893-976a34188b9d_3.w320.webp",
+          "deliverySha256": "06d5175cf40b928680732ffeb245f2775d8f48ec163a8b49b6de02392f237b59",
+          "deliveryBytes": 9084,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Lean_intellectual_man_in_his_30s_with_thin_wire-rimm_023c7d01-4b5a-44af-a893-976a34188b9d_3.w640.webp",
+          "deliverySha256": "dca2628b90307e9a23c157f1d8c1989b8b8c264c688b75d45219a5248ecc5057",
+          "deliveryBytes": 24106,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Lean_intellectual_man_in_his_30s_with_thin_wire-rimm_023c7d01-4b5a-44af-a893-976a34188b9d_3.w960.webp",
+          "deliverySha256": "ec47e5f6fa611f5548623fd06c340ee0bf0834eb4c898175215930ff22ee95b9",
+          "deliveryBytes": 44728,
+          "dimensions": [
+            960,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Lean_intellectual_man_in_his_30s_with_thin_wire-rimm_023c7d01-4b5a-44af-a893-976a34188b9d_3.w1280.webp",
+          "deliverySha256": "07af130c0b87000f1863472aa421d391cf511004040b4bd003e1ddd3ef36b753",
+          "deliveryBytes": 71668,
+          "dimensions": [
+            1280,
+            853
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
     },
     {
       "source": "/assets/images/2026/02/musetta._Massive_statue_of_a_towering_muscular_supernatural_s_bc195f18-064d-42ae-9a69-ee4aa3a0734f_2.png",
@@ -12215,6 +13139,776 @@
           "delivery": "/assets/images/2026/02/musetta._Massive_statue_of_a_towering_muscular_supernatural_s_bc195f18-064d-42ae-9a69-ee4aa3a0734f_2.w1280.webp",
           "deliverySha256": "64db022d7ef1f99385064e808aa289d4e3bf09b7774e0fb75be0bc941f3dea7d",
           "deliveryBytes": 176422,
+          "dimensions": [
+            1280,
+            853
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/02/musetta._Medieval_knight_in_his_30s_sitting_at_simple_wooden__491d8a62-a5bd-4a0f-88d1-71b539cc7fb4_3.png",
+      "delivery": "/assets/images/2026/02/musetta._Medieval_knight_in_his_30s_sitting_at_simple_wooden__491d8a62-a5bd-4a0f-88d1-71b539cc7fb4_3.webp",
+      "sourceSha256": "139729c5f63a77ce49eaa99ff4d613d83afca5ae8c471301068a91f5812de7cb",
+      "deliverySha256": "85d0b7b98db8d555bf93436f11bece74f77f507eb0044b06b4631f44cb7544ee",
+      "sourceBytes": 1530908,
+      "deliveryBytes": 125332,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/thief-in-the-knight.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/02/musetta._Medieval_knight_in_his_30s_sitting_at_simple_wooden__491d8a62-a5bd-4a0f-88d1-71b539cc7fb4_3.w320.webp",
+          "deliverySha256": "3fb838ce695494efcc59de7f48574e66855b27f9798ff579b9e5a4976088c55f",
+          "deliveryBytes": 16654,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Medieval_knight_in_his_30s_sitting_at_simple_wooden__491d8a62-a5bd-4a0f-88d1-71b539cc7fb4_3.w640.webp",
+          "deliverySha256": "49ba7eb2ea9a18315eeceb260c6559f79ebd88571f9498eed244a89f50c8bab6",
+          "deliveryBytes": 46798,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Medieval_knight_in_his_30s_sitting_at_simple_wooden__491d8a62-a5bd-4a0f-88d1-71b539cc7fb4_3.w960.webp",
+          "deliverySha256": "f22b1e4ef397025da46cf00fdb626e76637a979960372653d91893eb022cf6f2",
+          "deliveryBytes": 77346,
+          "dimensions": [
+            960,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Medieval_knight_in_his_30s_sitting_at_simple_wooden__491d8a62-a5bd-4a0f-88d1-71b539cc7fb4_3.w1280.webp",
+          "deliverySha256": "40ffe3d6bffcc43bf515b293fab39c04d773be581e4a4c68bf5df750426b3036",
+          "deliveryBytes": 117598,
+          "dimensions": [
+            1280,
+            853
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/02/musetta._Petite_woman_in_her_early_20s_with_long_curly_dark_h_a6d06763-8968-47d0-b981-cacf428a8006_1.png",
+      "delivery": "/assets/images/2026/02/musetta._Petite_woman_in_her_early_20s_with_long_curly_dark_h_a6d06763-8968-47d0-b981-cacf428a8006_1.webp",
+      "sourceSha256": "a7171a36ce68df4c2dd13292ef366763bc78d786c79a5f50e1e904d87976774b",
+      "deliverySha256": "536a6aa90e4ea6843cf1f01a1b0d4100b058274eac5c03f2162969ec4156ac50",
+      "sourceBytes": 1857998,
+      "deliveryBytes": 178188,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/found.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/02/musetta._Petite_woman_in_her_early_20s_with_long_curly_dark_h_a6d06763-8968-47d0-b981-cacf428a8006_1.w320.webp",
+          "deliverySha256": "cc007b2799176582b78e16795c617cfe01840ca0efab0eaba16d78cb66f437a9",
+          "deliveryBytes": 10808,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Petite_woman_in_her_early_20s_with_long_curly_dark_h_a6d06763-8968-47d0-b981-cacf428a8006_1.w640.webp",
+          "deliverySha256": "227c767bdce768824ff497acf2847f9cb882790d56f5bfe816823a10f8a3b96c",
+          "deliveryBytes": 30420,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Petite_woman_in_her_early_20s_with_long_curly_dark_h_a6d06763-8968-47d0-b981-cacf428a8006_1.w960.webp",
+          "deliverySha256": "233b54954caa7bb470479b71cc1e37fcdcd7dc0a6cb7ddb3b448356fa8ca51a9",
+          "deliveryBytes": 72264,
+          "dimensions": [
+            960,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Petite_woman_in_her_early_20s_with_long_curly_dark_h_a6d06763-8968-47d0-b981-cacf428a8006_1.w1280.webp",
+          "deliverySha256": "2d05e88a2138e16e1198369d439b308327a3ef4b79527129a5426c2a5ccb25e3",
+          "deliveryBytes": 146936,
+          "dimensions": [
+            1280,
+            853
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/02/musetta._Single_white_rabbit_sitting_on_wooden_dining_chair_a_a81b9d4e-305b-48ef-a0b5-46b860a4e71a_1.png",
+      "delivery": "/assets/images/2026/02/musetta._Single_white_rabbit_sitting_on_wooden_dining_chair_a_a81b9d4e-305b-48ef-a0b5-46b860a4e71a_1.webp",
+      "sourceSha256": "575458a2f63551dc25c79062f585f929004c9444bdb26997a2afb1382e18e1e4",
+      "deliverySha256": "d28c381732247e43f92c3caf022036f89dcd5bdab4a6ae29eb182144de2c848c",
+      "sourceBytes": 1442659,
+      "deliveryBytes": 92490,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/high-life.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/02/musetta._Single_white_rabbit_sitting_on_wooden_dining_chair_a_a81b9d4e-305b-48ef-a0b5-46b860a4e71a_1.w320.webp",
+          "deliverySha256": "52cf70b4dd83dbb603c3bcc693c355f8df7d204fa9f10507b68875060ea8ee42",
+          "deliveryBytes": 14198,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Single_white_rabbit_sitting_on_wooden_dining_chair_a_a81b9d4e-305b-48ef-a0b5-46b860a4e71a_1.w640.webp",
+          "deliverySha256": "cce18bfb344fa0e47948f444ac04beef75ac271ff669d3392ef9307aa94f5b38",
+          "deliveryBytes": 34854,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Single_white_rabbit_sitting_on_wooden_dining_chair_a_a81b9d4e-305b-48ef-a0b5-46b860a4e71a_1.w960.webp",
+          "deliverySha256": "2cd9e9818ebc1d09f8dea3f960dee4e19d877fbd4700f4e26278b16465c21913",
+          "deliveryBytes": 57504,
+          "dimensions": [
+            960,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Single_white_rabbit_sitting_on_wooden_dining_chair_a_a81b9d4e-305b-48ef-a0b5-46b860a4e71a_1.w1280.webp",
+          "deliverySha256": "64ef557a709bc79afb6bda635d1bf3a9cf3525c3330c0f2218a177f113402626",
+          "deliveryBytes": 87024,
+          "dimensions": [
+            1280,
+            853
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/02/musetta._Sorority_house_backyard_pool_party_at_night_under_at_eee28776-8ec0-40d8-bacf-82c214a0f4ff_0-1.png",
+      "delivery": "/assets/images/2026/02/musetta._Sorority_house_backyard_pool_party_at_night_under_at_eee28776-8ec0-40d8-bacf-82c214a0f4ff_0-1.webp",
+      "sourceSha256": "61d585b4ae9d9743be4578797489a9e7d020e687d5675ffca07de90cfb4ec32f",
+      "deliverySha256": "dc1aa4aeb987e3a2d2db76e4e11580e665783616551abec81be7d1ca9d4846d3",
+      "sourceBytes": 1663056,
+      "deliveryBytes": 190238,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/school-daze.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/02/musetta._Sorority_house_backyard_pool_party_at_night_under_at_eee28776-8ec0-40d8-bacf-82c214a0f4ff_0-1.w320.webp",
+          "deliverySha256": "8855fb248608c63ca1477c46ee10fe8990cfef2f97a582642785a3e475c9dc42",
+          "deliveryBytes": 20422,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Sorority_house_backyard_pool_party_at_night_under_at_eee28776-8ec0-40d8-bacf-82c214a0f4ff_0-1.w640.webp",
+          "deliverySha256": "a329aefdcca5edd1c4a98b7ee696fd98f42134fe655542f70c9074821306b80c",
+          "deliveryBytes": 64454,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Sorority_house_backyard_pool_party_at_night_under_at_eee28776-8ec0-40d8-bacf-82c214a0f4ff_0-1.w960.webp",
+          "deliverySha256": "10b0db96eefba53ac75befad7d55a74a8d7cd26bb9e45f214f4763b58a218c15",
+          "deliveryBytes": 122794,
+          "dimensions": [
+            960,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Sorority_house_backyard_pool_party_at_night_under_at_eee28776-8ec0-40d8-bacf-82c214a0f4ff_0-1.w1280.webp",
+          "deliverySha256": "a624ad17967633e54a03e54436ab2028b5482c794e9e1ca5df49e18535c3188a",
+          "deliveryBytes": 182926,
+          "dimensions": [
+            1280,
+            853
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/02/musetta._Tall_muscular_humanoid_demon_standing_7-8_feet_tall__feee28be-ee02-4536-9015-121444da3894_2.png",
+      "delivery": "/assets/images/2026/02/musetta._Tall_muscular_humanoid_demon_standing_7-8_feet_tall__feee28be-ee02-4536-9015-121444da3894_2.webp",
+      "sourceSha256": "3229d44d701c593b1c1a1524f35ba7456598bb3293558e24c6370de22ec988bf",
+      "deliverySha256": "5f5f330b75440bdf316b8c938c8c8604cabe6628e326555a3c9094ec368eed4e",
+      "sourceBytes": 1807082,
+      "deliveryBytes": 173910,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/witch-trials.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/02/musetta._Tall_muscular_humanoid_demon_standing_7-8_feet_tall__feee28be-ee02-4536-9015-121444da3894_2.w320.webp",
+          "deliverySha256": "bd04fa624d6d6112560d51a3fa440ace48a2c6ee0264455249890dbc69bb2ce6",
+          "deliveryBytes": 14990,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Tall_muscular_humanoid_demon_standing_7-8_feet_tall__feee28be-ee02-4536-9015-121444da3894_2.w640.webp",
+          "deliverySha256": "ba0ac6a6dafb26005ffb40d5af33c8741da9772c147e7a5ed596f710688f6aca",
+          "deliveryBytes": 49088,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Tall_muscular_humanoid_demon_standing_7-8_feet_tall__feee28be-ee02-4536-9015-121444da3894_2.w960.webp",
+          "deliverySha256": "d8602ee89d3efe6382cb2ff94d4437f2f0d3d29c49cb1fbdc51a7d6addc5c73e",
+          "deliveryBytes": 97954,
+          "dimensions": [
+            960,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Tall_muscular_humanoid_demon_standing_7-8_feet_tall__feee28be-ee02-4536-9015-121444da3894_2.w1280.webp",
+          "deliverySha256": "81765b3691cd2b22b7bb41b7bfad10942dfcab4013b9762437ed24c0883e1da4",
+          "deliveryBytes": 157748,
+          "dimensions": [
+            1280,
+            853
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/02/musetta._Translucent_Native_American_warrior_in_traditional_1_6fe019e0-4814-447e-9b6c-1ce15dda473f_0.png",
+      "delivery": "/assets/images/2026/02/musetta._Translucent_Native_American_warrior_in_traditional_1_6fe019e0-4814-447e-9b6c-1ce15dda473f_0.webp",
+      "sourceSha256": "e3bb1723a3333818cb94d720cba6aceaf91e0faa66ff68b97fa6f7c247ad1db1",
+      "deliverySha256": "02b18291d80d738f48401a83c1336b931941cbe25b7ff58cc67c1ddc0cb0f85f",
+      "sourceBytes": 1710959,
+      "deliveryBytes": 152708,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/1-2-the-campout.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/02/musetta._Translucent_Native_American_warrior_in_traditional_1_6fe019e0-4814-447e-9b6c-1ce15dda473f_0.w320.webp",
+          "deliverySha256": "99a535adfab4ae40778c305078b4cde23b53eb9654cd83a86d3e15791bc36131",
+          "deliveryBytes": 14140,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Translucent_Native_American_warrior_in_traditional_1_6fe019e0-4814-447e-9b6c-1ce15dda473f_0.w640.webp",
+          "deliverySha256": "b9f3571bece8d2e111f500f1908dee0ca730e1d564e805416a995cd4a0b027ce",
+          "deliveryBytes": 48224,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Translucent_Native_American_warrior_in_traditional_1_6fe019e0-4814-447e-9b6c-1ce15dda473f_0.w960.webp",
+          "deliverySha256": "8af74606fe4fa08e3cc2b10e6d2a65dc45fdb6da6c40db0fbfd7fd4f0c55f6a3",
+          "deliveryBytes": 91328,
+          "dimensions": [
+            960,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Translucent_Native_American_warrior_in_traditional_1_6fe019e0-4814-447e-9b6c-1ce15dda473f_0.w1280.webp",
+          "deliverySha256": "c52c193ec617e8dce2b0d2576eb9d58ef637df51001e4c3f89da98676bd90921",
+          "deliveryBytes": 142282,
+          "dimensions": [
+            1280,
+            853
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/02/musetta._Two_women_in_their_twenties_in_bedroom_interior_woma_ace58197-b67a-41ac-a24f-fe5d5134653e_0-1.png",
+      "delivery": "/assets/images/2026/02/musetta._Two_women_in_their_twenties_in_bedroom_interior_woma_ace58197-b67a-41ac-a24f-fe5d5134653e_0-1.webp",
+      "sourceSha256": "dd267a79c4eedea8e4bcdd530d24317e850573efd0503fd91472d223d1e5f82b",
+      "deliverySha256": "45f544f294f509e04a3502dc230a3d380deae09478792d5c11545872a9384a42",
+      "sourceBytes": 1481481,
+      "deliveryBytes": 110476,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/return-of-the-natives.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/02/musetta._Two_women_in_their_twenties_in_bedroom_interior_woma_ace58197-b67a-41ac-a24f-fe5d5134653e_0-1.w320.webp",
+          "deliverySha256": "d1644408c505266aa3e5325c6ab12b04e4070bad96a16caa6cf1072a85f80fa7",
+          "deliveryBytes": 17026,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Two_women_in_their_twenties_in_bedroom_interior_woma_ace58197-b67a-41ac-a24f-fe5d5134653e_0-1.w640.webp",
+          "deliverySha256": "bb4423a8ec820b3965d9122875843109d3bba3109f0f9223e049c31516ad0138",
+          "deliveryBytes": 43304,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Two_women_in_their_twenties_in_bedroom_interior_woma_ace58197-b67a-41ac-a24f-fe5d5134653e_0-1.w960.webp",
+          "deliverySha256": "95615ace5c9741c6578feabf130d5150e083cf737f4e527b48d3c1f6481bbeda",
+          "deliveryBytes": 72392,
+          "dimensions": [
+            960,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Two_women_in_their_twenties_in_bedroom_interior_woma_ace58197-b67a-41ac-a24f-fe5d5134653e_0-1.w1280.webp",
+          "deliverySha256": "65330e4b91e7c6c5eae80baf175ee8e6ae684612194f8811e80a3dab1ebd1d19",
+          "deliveryBytes": 104368,
+          "dimensions": [
+            1280,
+            853
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/02/musetta._Woman_in_her_late_20s_with_blonde_bob_haircut_square_098337c0-cfe1-4dd4-95fd-3c12dfeb6a66_3.png",
+      "delivery": "/assets/images/2026/02/musetta._Woman_in_her_late_20s_with_blonde_bob_haircut_square_098337c0-cfe1-4dd4-95fd-3c12dfeb6a66_3.webp",
+      "sourceSha256": "881b6d632b7877ac300e36cf472977939c82b6365abfd525e4313586c4d90294",
+      "deliverySha256": "bcc3fee2747ca7fc83ae48fc23e743ff34185f7e2aa47a46530fd5db45b7ef59",
+      "sourceBytes": 1350062,
+      "deliveryBytes": 91098,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/lost-and.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/02/musetta._Woman_in_her_late_20s_with_blonde_bob_haircut_square_098337c0-cfe1-4dd4-95fd-3c12dfeb6a66_3.w320.webp",
+          "deliverySha256": "c58c3110079473361d96b54abbc67bfefa2777df1cba96cbab8eeb33077947fb",
+          "deliveryBytes": 13772,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Woman_in_her_late_20s_with_blonde_bob_haircut_square_098337c0-cfe1-4dd4-95fd-3c12dfeb6a66_3.w640.webp",
+          "deliverySha256": "2fb93c32aa2c3615d6fbf54a34ab2d1b1609eb2642f96e7c0ff50f150e4f0a4a",
+          "deliveryBytes": 35050,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Woman_in_her_late_20s_with_blonde_bob_haircut_square_098337c0-cfe1-4dd4-95fd-3c12dfeb6a66_3.w960.webp",
+          "deliverySha256": "ba0d3eaa9b020426275164c2e1221aec9e4c585f0006aff4a08847836a3fefa2",
+          "deliveryBytes": 60244,
+          "dimensions": [
+            960,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Woman_in_her_late_20s_with_blonde_bob_haircut_square_098337c0-cfe1-4dd4-95fd-3c12dfeb6a66_3.w1280.webp",
+          "deliverySha256": "4fc6ff8482cfe258ea7b3babfbfcd474694bfb5b6cad129eab68c5266f157574",
+          "deliveryBytes": 86032,
+          "dimensions": [
+            1280,
+            853
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/02/musetta._Young_man_in_early-to-mid_20s_with_dark_tousled_mess_a3bcc232-b221-44b5-bdfa-4eeb58313045_1.png",
+      "delivery": "/assets/images/2026/02/musetta._Young_man_in_early-to-mid_20s_with_dark_tousled_mess_a3bcc232-b221-44b5-bdfa-4eeb58313045_1.webp",
+      "sourceSha256": "f97fe8394dc671e5bd250a9cb595f855f6b3c21ff7687a157e371ec9fdfa35d7",
+      "deliverySha256": "13ab560e0590f0477ed36606bf1dceb1ea261b52103f5a6301ec7c92272a8a94",
+      "sourceBytes": 1480250,
+      "deliveryBytes": 82950,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/1-3-byob.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/02/musetta._Young_man_in_early-to-mid_20s_with_dark_tousled_mess_a3bcc232-b221-44b5-bdfa-4eeb58313045_1.w320.webp",
+          "deliverySha256": "b5fe632603681e942c3c83c54630d6e682969b6fa212075e23ea67e0302a677e",
+          "deliveryBytes": 12858,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Young_man_in_early-to-mid_20s_with_dark_tousled_mess_a3bcc232-b221-44b5-bdfa-4eeb58313045_1.w640.webp",
+          "deliverySha256": "28d060a731011f191fd20c28f9aeb49ab4ca8b8f29c268ec3ea33e9727e71c45",
+          "deliveryBytes": 30912,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Young_man_in_early-to-mid_20s_with_dark_tousled_mess_a3bcc232-b221-44b5-bdfa-4eeb58313045_1.w960.webp",
+          "deliverySha256": "bb0ffe4697c452b2515d424148eeee2fadc1fb4ab821575a8e71aaa6c7584bb9",
+          "deliveryBytes": 52108,
+          "dimensions": [
+            960,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Young_man_in_early-to-mid_20s_with_dark_tousled_mess_a3bcc232-b221-44b5-bdfa-4eeb58313045_1.w1280.webp",
+          "deliverySha256": "4b071d74cdb5e082cfec813a391614666f1fad6c0e9f898189876a86f0e8cf34",
+          "deliveryBytes": 77828,
+          "dimensions": [
+            1280,
+            853
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/02/musetta._Young_petite_latina_woman_in_her_early_20s_with_long_ffad400f-f205-4a21-abe8-bde1e10f2a7a_3.png",
+      "delivery": "/assets/images/2026/02/musetta._Young_petite_latina_woman_in_her_early_20s_with_long_ffad400f-f205-4a21-abe8-bde1e10f2a7a_3.webp",
+      "sourceSha256": "785e1e7c8a89f940c7069a53443cce22f48112cc9031d9efc889c4b2c68e3c7c",
+      "deliverySha256": "d172d4fc75f6c8df9bdf4424f493f16010d9844e3fb9c2f883fd64eeb794a81c",
+      "sourceBytes": 1588210,
+      "deliveryBytes": 101670,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/1-5-atom-and-eve.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/02/musetta._Young_petite_latina_woman_in_her_early_20s_with_long_ffad400f-f205-4a21-abe8-bde1e10f2a7a_3.w320.webp",
+          "deliverySha256": "d7185c102b3056fd1bde224efbae3e1c2203450676b6b83a35110f9b50de7410",
+          "deliveryBytes": 13076,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Young_petite_latina_woman_in_her_early_20s_with_long_ffad400f-f205-4a21-abe8-bde1e10f2a7a_3.w640.webp",
+          "deliverySha256": "43f5f8645a43a2078d713e6ec4c3b8dd79e6369c571f71cd19a8d005a7d50cac",
+          "deliveryBytes": 33684,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Young_petite_latina_woman_in_her_early_20s_with_long_ffad400f-f205-4a21-abe8-bde1e10f2a7a_3.w960.webp",
+          "deliverySha256": "c86faa191ea1e16a9ec425ef4e889f86ae5fb20aed330f5fa35bd171fb492b48",
+          "deliveryBytes": 58722,
+          "dimensions": [
+            960,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/02/musetta._Young_petite_latina_woman_in_her_early_20s_with_long_ffad400f-f205-4a21-abe8-bde1e10f2a7a_3.w1280.webp",
+          "deliverySha256": "d490f52c98be0d1501b3356cfdda361c004cb4d6c9bb247137e9f16ceb1e603f",
+          "deliveryBytes": 94530,
           "dimensions": [
             1280,
             853
