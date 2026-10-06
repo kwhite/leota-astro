@@ -219,7 +219,7 @@
     {
       "slug": "legends-awaken",
       "title": "Legends Awaken",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "Freaky Gray Company",
         "Arc 2"
@@ -228,7 +228,7 @@
     {
       "slug": "2025-03-01-session-notes",
       "title": "2025.03.01 Session Notes",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "Freaky Gray Company",
         "Arc 2",
@@ -238,7 +238,7 @@
     {
       "slug": "2025-03-22-session-notes",
       "title": "2025.03.22 Session Notes",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "Freaky Gray Company",
         "Arc 2",
@@ -258,7 +258,7 @@
     {
       "slug": "2025-04-05-session-notes",
       "title": "2025.04.05 Session Notes",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "Freaky Gray Company",
         "Arc 2",
@@ -268,7 +268,7 @@
     {
       "slug": "2025-04-18-session-notes",
       "title": "2025.04.18 Session Notes",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "Freaky Gray Company",
         "Arc 2",
@@ -278,7 +278,7 @@
     {
       "slug": "2025-05-03-session-notes",
       "title": "2025.05.03 Session Notes",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "Freaky Gray Company",
         "Arc 2",
@@ -288,7 +288,7 @@
     {
       "slug": "2025-05-25-session-notes",
       "title": "2025.05.25 Session Notes",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "Freaky Gray Company",
         "Arc 2",
@@ -298,7 +298,7 @@
     {
       "slug": "2025-06-01-session-notes",
       "title": "2025.06.01 Session Notes",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "Freaky Gray Company",
         "Arc 2",
@@ -308,7 +308,7 @@
     {
       "slug": "2025-06-08-session-notes",
       "title": "2025.06.08 Session Notes",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "Freaky Gray Company",
         "Arc 2",
@@ -374,7 +374,7 @@
     {
       "slug": "2025-06-14-session-notes",
       "title": "2025.06.14 Session Notes",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "Freaky Gray Company",
         "Arc 2",
@@ -384,7 +384,7 @@
     {
       "slug": "2025-06-28-session-notes",
       "title": "2025.06.28 Session Notes",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "Freaky Gray Company",
         "Arc 2",
@@ -394,7 +394,7 @@
     {
       "slug": "2025-07-26-session-notes",
       "title": "2025.07.26 Session Notes",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "Freaky Gray Company",
         "Arc 2",
@@ -404,7 +404,7 @@
     {
       "slug": "2025-08-09-session-notes",
       "title": "2025.08.09 Session Notes",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "Freaky Gray Company",
         "Arc 2",
@@ -414,7 +414,7 @@
     {
       "slug": "2025-08-15-session-notes",
       "title": "2025.08.15 Session Notes",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "Freaky Gray Company",
         "Arc 2",
@@ -424,7 +424,7 @@
     {
       "slug": "2025-09-01-session-notes",
       "title": "2025.09.01 Session Notes",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "Freaky Gray Company",
         "Arc 2",
@@ -434,7 +434,7 @@
     {
       "slug": "2025-09-06-session-notes",
       "title": "2025.09.06 Session Notes",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "Freaky Gray Company",
         "Arc 2",
@@ -444,7 +444,7 @@
     {
       "slug": "2025-09-14-session-notes",
       "title": "2025.09.14 Session Notes",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "Freaky Gray Company",
         "Arc 2",
@@ -454,7 +454,7 @@
     {
       "slug": "2025-09-28-session-notes",
       "title": "2025.09.28 Session Notes",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "Freaky Gray Company",
         "Arc 2",
@@ -464,7 +464,7 @@
     {
       "slug": "2025-10-08-session-notes",
       "title": "2025.10.08 Session Notes",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "Freaky Gray Company",
         "Arc 2",
@@ -474,7 +474,7 @@
     {
       "slug": "2025-12-27-session-notes",
       "title": "2025.12.27 Session Notes",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "Freaky Gray Company",
         "Arc 2",
@@ -484,7 +484,7 @@
     {
       "slug": "2026-01-03-session-notes",
       "title": "2026.01.03 Session Notes",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "Freaky Gray Company",
         "Arc 2",
@@ -858,7 +858,7 @@
     {
       "slug": "2026-01-24-session-notes",
       "title": "2026.01.24 Session Notes",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "Freaky Gray Company",
         "Arc 2",
@@ -868,7 +868,7 @@
     {
       "slug": "2026-01-31-beneath-the-charcoal-palace",
       "title": "2026.01.31: Beneath the Charcoal Palace",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "Freaky Gray Company",
         "Arc 2",
@@ -1534,7 +1534,7 @@
     {
       "slug": "2026-02-20-eleven-fifty-nine",
       "title": "2026.02.20: Eleven Fifty-Nine",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "Freaky Gray Company",
         "Arc 2",
@@ -1544,7 +1544,7 @@
     {
       "slug": "2026-02-28-the-museum-at-the-end-of-the-hall",
       "title": "2026.02.28: The End of the Hall",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "Freaky Gray Company",
         "Arc 2",
@@ -1554,7 +1554,7 @@
     {
       "slug": "2026-03-07-happy-travels",
       "title": "2026.03.07: \"Happy Travels...\"",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "Freaky Gray Company",
         "Arc 2",
@@ -1564,7 +1564,7 @@
     {
       "slug": "burn-on-your-own-terms",
       "title": "2026.04.18: Burn on Your Own Terms",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "Freaky Gray Company",
         "Arc 2",
@@ -1574,7 +1574,7 @@
     {
       "slug": "2026-04-25-the-reckoning",
       "title": "2026-04-25: The  Reckoning",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "Freaky Gray Company",
         "Arc 2",
@@ -1751,8 +1751,8 @@
   "summary": {
     "sourcePosts": 170,
     "retainedArchivePosts": 168,
-    "alreadyMigratedPosts": 73,
-    "remainingPostsToMigrate": 95,
+    "alreadyMigratedPosts": 101,
+    "remainingPostsToMigrate": 67,
     "approvedOmissions": 2,
     "untaggedRetainedPosts": [
       "1-5-when-the-cats-away"
