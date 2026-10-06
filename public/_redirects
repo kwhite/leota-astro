@@ -1,0 +1,5 @@
+# Former format tags consolidate into Session Recaps.
+/tag/session-notes /tag/session-recaps/ 301
+/tag/session-notes/* /tag/session-recaps/:splat 301
+/tag/session-recap /tag/session-recaps/ 301
+/tag/session-recap/* /tag/session-recaps/:splat 301

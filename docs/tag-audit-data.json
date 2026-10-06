@@ -1,0 +1,4336 @@
+{
+  "date": "2026-10-06",
+  "counts": {
+    "sourceTags": 42,
+    "sourcePublishedPosts": 170,
+    "currentMetadata": 33,
+    "currentPosts": 12,
+    "sourceTagAssignments": 898
+  },
+  "tags": [
+    {
+      "name": "News",
+      "ghostSlug": "news",
+      "astroSlug": "news",
+      "visibility": "public",
+      "sourcePublishedPosts": 0,
+      "sourcePublishedPages": 0,
+      "sourceDraftPages": 0,
+      "currentPosts": 0,
+      "currentPrimaryPosts": 0,
+      "hasCurrentMetadata": false,
+      "campaigns": {
+        "City of Mist": 0,
+        "Freaky Gray Company": 0,
+        "The Chosen": 0
+      },
+      "samplePosts": [],
+      "sourceDescription": null,
+      "currentFiles": [],
+      "sourceFirstPublicPosts": 0,
+      "currentMetadataRouteExists": false,
+      "sourceFirstAssignedPosts": 0
+    },
+    {
+      "name": "City of Mist",
+      "ghostSlug": "cityofmist",
+      "astroSlug": "city-of-mist",
+      "visibility": "public",
+      "sourcePublishedPosts": 25,
+      "sourcePublishedPages": 2,
+      "sourceDraftPages": 0,
+      "currentPosts": 2,
+      "currentPrimaryPosts": 2,
+      "hasCurrentMetadata": true,
+      "campaigns": {
+        "City of Mist": 25,
+        "Freaky Gray Company": 0,
+        "The Chosen": 0
+      },
+      "samplePosts": [
+        {
+          "title": "2024.12.21 Session Notes",
+          "slug": "2024-12-21-session-notes"
+        },
+        {
+          "title": "2024.12.30 Session Notes",
+          "slug": "2024-12-30-session-notes"
+        },
+        {
+          "title": "Voice Over: Geoffrey",
+          "slug": "geoffrey-voice-over"
+        },
+        {
+          "title": "Voice Over: London",
+          "slug": "voice-over-london"
+        }
+      ],
+      "sourceDescription": "The lives of a group of strangers are forever changed when an incident in a coffee shop leaves them with powers they cannot explain.",
+      "currentFiles": [
+        "1-8-far-from-the-tree-part-2.mdx",
+        "geoffrey-voice-over.md"
+      ],
+      "sourceFirstPublicPosts": 25,
+      "currentMetadataRouteExists": true,
+      "sourceFirstAssignedPosts": 25
+    },
+    {
+      "name": "Session Notes",
+      "ghostSlug": "session-notes",
+      "astroSlug": "session-notes",
+      "visibility": "public",
+      "sourcePublishedPosts": 41,
+      "sourcePublishedPages": 0,
+      "sourceDraftPages": 0,
+      "currentPosts": 2,
+      "currentPrimaryPosts": 0,
+      "hasCurrentMetadata": true,
+      "campaigns": {
+        "City of Mist": 12,
+        "Freaky Gray Company": 29,
+        "The Chosen": 0
+      },
+      "samplePosts": [
+        {
+          "title": "2024.12.21 Session Notes",
+          "slug": "2024-12-21-session-notes"
+        },
+        {
+          "title": "2024.12.30 Session Notes",
+          "slug": "2024-12-30-session-notes"
+        },
+        {
+          "title": "2025.01.04 Session Notes",
+          "slug": "2025-01-04-session-notes"
+        },
+        {
+          "title": "2024.01.18 Session Notes",
+          "slug": "2024-01-18-session-notes"
+        }
+      ],
+      "sourceDescription": null,
+      "currentFiles": [
+        "1-8-far-from-the-tree-part-2.mdx",
+        "2025-03-29-session-notes.mdx"
+      ],
+      "sourceFirstPublicPosts": 0,
+      "currentMetadataRouteExists": true,
+      "sourceFirstAssignedPosts": 0
+    },
+    {
+      "name": "Daniel",
+      "ghostSlug": "daniel",
+      "astroSlug": "daniel",
+      "visibility": "public",
+      "sourcePublishedPosts": 15,
+      "sourcePublishedPages": 0,
+      "sourceDraftPages": 0,
+      "currentPosts": 0,
+      "currentPrimaryPosts": 0,
+      "hasCurrentMetadata": false,
+      "campaigns": {
+        "City of Mist": 14,
+        "Freaky Gray Company": 0,
+        "The Chosen": 0
+      },
+      "samplePosts": [
+        {
+          "title": "2024.12.21 Session Notes",
+          "slug": "2024-12-21-session-notes"
+        },
+        {
+          "title": "2024.12.30 Session Notes",
+          "slug": "2024-12-30-session-notes"
+        },
+        {
+          "title": "2025.01.04 Session Notes",
+          "slug": "2025-01-04-session-notes"
+        },
+        {
+          "title": "2024.01.18 Session Notes",
+          "slug": "2024-01-18-session-notes"
+        }
+      ],
+      "sourceDescription": null,
+      "currentFiles": [],
+      "sourceFirstPublicPosts": 1,
+      "currentMetadataRouteExists": false,
+      "sourceFirstAssignedPosts": 1
+    },
+    {
+      "name": "Geoffrey",
+      "ghostSlug": "geoffrey",
+      "astroSlug": "geoffrey",
+      "visibility": "public",
+      "sourcePublishedPosts": 13,
+      "sourcePublishedPages": 0,
+      "sourceDraftPages": 0,
+      "currentPosts": 1,
+      "currentPrimaryPosts": 0,
+      "hasCurrentMetadata": true,
+      "campaigns": {
+        "City of Mist": 12,
+        "Freaky Gray Company": 0,
+        "The Chosen": 0
+      },
+      "samplePosts": [
+        {
+          "title": "Voice Over: Geoffrey",
+          "slug": "geoffrey-voice-over"
+        },
+        {
+          "title": "2025.02.01 Session Notes",
+          "slug": "2025-02-01-session-notes"
+        },
+        {
+          "title": "2025.02.21 Session Notes",
+          "slug": "2025-02-21-session-notes"
+        },
+        {
+          "title": "1.1 Discord",
+          "slug": "1-1-discord"
+        }
+      ],
+      "sourceDescription": null,
+      "currentFiles": [
+        "geoffrey-voice-over.md"
+      ],
+      "sourceFirstPublicPosts": 0,
+      "currentMetadataRouteExists": true,
+      "sourceFirstAssignedPosts": 0
+    },
+    {
+      "name": "London",
+      "ghostSlug": "london",
+      "astroSlug": "london",
+      "visibility": "public",
+      "sourcePublishedPosts": 18,
+      "sourcePublishedPages": 0,
+      "sourceDraftPages": 0,
+      "currentPosts": 1,
+      "currentPrimaryPosts": 0,
+      "hasCurrentMetadata": true,
+      "campaigns": {
+        "City of Mist": 17,
+        "Freaky Gray Company": 0,
+        "The Chosen": 0
+      },
+      "samplePosts": [
+        {
+          "title": "2024.12.21 Session Notes",
+          "slug": "2024-12-21-session-notes"
+        },
+        {
+          "title": "2024.12.30 Session Notes",
+          "slug": "2024-12-30-session-notes"
+        },
+        {
+          "title": "Voice Over: London",
+          "slug": "voice-over-london"
+        },
+        {
+          "title": "2025.01.04 Session Notes",
+          "slug": "2025-01-04-session-notes"
+        }
+      ],
+      "sourceDescription": null,
+      "currentFiles": [
+        "1-8-far-from-the-tree-part-2.mdx"
+      ],
+      "sourceFirstPublicPosts": 0,
+      "currentMetadataRouteExists": true,
+      "sourceFirstAssignedPosts": 0
+    },
+    {
+      "name": "Maeve",
+      "ghostSlug": "maeve",
+      "astroSlug": "maeve",
+      "visibility": "public",
+      "sourcePublishedPosts": 12,
+      "sourcePublishedPages": 0,
+      "sourceDraftPages": 0,
+      "currentPosts": 1,
+      "currentPrimaryPosts": 0,
+      "hasCurrentMetadata": true,
+      "campaigns": {
+        "City of Mist": 11,
+        "Freaky Gray Company": 0,
+        "The Chosen": 0
+      },
+      "samplePosts": [
+        {
+          "title": "2025.02.01 Session Notes",
+          "slug": "2025-02-01-session-notes"
+        },
+        {
+          "title": "2025.02.21 Session Notes",
+          "slug": "2025-02-21-session-notes"
+        },
+        {
+          "title": "1.1 Discord",
+          "slug": "1-1-discord"
+        },
+        {
+          "title": "1.1.2 Discord, cont.",
+          "slug": "1-1-2-discord-contin"
+        }
+      ],
+      "sourceDescription": null,
+      "currentFiles": [
+        "1-8-far-from-the-tree-part-2.mdx"
+      ],
+      "sourceFirstPublicPosts": 0,
+      "currentMetadataRouteExists": true,
+      "sourceFirstAssignedPosts": 0
+    },
+    {
+      "name": "Kevin",
+      "ghostSlug": "kevin",
+      "astroSlug": "kevin",
+      "visibility": "public",
+      "sourcePublishedPosts": 20,
+      "sourcePublishedPages": 0,
+      "sourceDraftPages": 0,
+      "currentPosts": 1,
+      "currentPrimaryPosts": 0,
+      "hasCurrentMetadata": true,
+      "campaigns": {
+        "City of Mist": 19,
+        "Freaky Gray Company": 0,
+        "The Chosen": 0
+      },
+      "samplePosts": [
+        {
+          "title": "2024.12.21 Session Notes",
+          "slug": "2024-12-21-session-notes"
+        },
+        {
+          "title": "2024.12.30 Session Notes",
+          "slug": "2024-12-30-session-notes"
+        },
+        {
+          "title": "2025.01.04 Session Notes",
+          "slug": "2025-01-04-session-notes"
+        },
+        {
+          "title": "2024.01.18 Session Notes",
+          "slug": "2024-01-18-session-notes"
+        }
+      ],
+      "sourceDescription": null,
+      "currentFiles": [
+        "1-8-far-from-the-tree-part-2.mdx"
+      ],
+      "sourceFirstPublicPosts": 0,
+      "currentMetadataRouteExists": true,
+      "sourceFirstAssignedPosts": 0
+    },
+    {
+      "name": "Sergei",
+      "ghostSlug": "sergei",
+      "astroSlug": "sergei",
+      "visibility": "public",
+      "sourcePublishedPosts": 17,
+      "sourcePublishedPages": 0,
+      "sourceDraftPages": 0,
+      "currentPosts": 1,
+      "currentPrimaryPosts": 0,
+      "hasCurrentMetadata": true,
+      "campaigns": {
+        "City of Mist": 16,
+        "Freaky Gray Company": 0,
+        "The Chosen": 0
+      },
+      "samplePosts": [
+        {
+          "title": "2024.12.21 Session Notes",
+          "slug": "2024-12-21-session-notes"
+        },
+        {
+          "title": "2024.12.30 Session Notes",
+          "slug": "2024-12-30-session-notes"
+        },
+        {
+          "title": "2025.01.04 Session Notes",
+          "slug": "2025-01-04-session-notes"
+        },
+        {
+          "title": "Voice Over: Sergei",
+          "slug": "voice-over-sergei"
+        }
+      ],
+      "sourceDescription": null,
+      "currentFiles": [
+        "1-8-far-from-the-tree-part-2.mdx"
+      ],
+      "sourceFirstPublicPosts": 0,
+      "currentMetadataRouteExists": true,
+      "sourceFirstAssignedPosts": 0
+    },
+    {
+      "name": "Cody",
+      "ghostSlug": "cody",
+      "astroSlug": "cody",
+      "visibility": "public",
+      "sourcePublishedPosts": 2,
+      "sourcePublishedPages": 0,
+      "sourceDraftPages": 0,
+      "currentPosts": 0,
+      "currentPrimaryPosts": 0,
+      "hasCurrentMetadata": false,
+      "campaigns": {
+        "City of Mist": 2,
+        "Freaky Gray Company": 0,
+        "The Chosen": 0
+      },
+      "samplePosts": [
+        {
+          "title": "2025.02.01 Session Notes",
+          "slug": "2025-02-01-session-notes"
+        },
+        {
+          "title": "2025.02.21 Session Notes",
+          "slug": "2025-02-21-session-notes"
+        }
+      ],
+      "sourceDescription": null,
+      "currentFiles": [],
+      "sourceFirstPublicPosts": 0,
+      "currentMetadataRouteExists": false,
+      "sourceFirstAssignedPosts": 0
+    },
+    {
+      "name": "Phelan",
+      "ghostSlug": "phelan",
+      "astroSlug": "phelan",
+      "visibility": "public",
+      "sourcePublishedPosts": 28,
+      "sourcePublishedPages": 1,
+      "sourceDraftPages": 0,
+      "currentPosts": 1,
+      "currentPrimaryPosts": 0,
+      "hasCurrentMetadata": true,
+      "campaigns": {
+        "City of Mist": 0,
+        "Freaky Gray Company": 28,
+        "The Chosen": 0
+      },
+      "samplePosts": [
+        {
+          "title": "2025.03.01 Session Notes",
+          "slug": "2025-03-01-session-notes"
+        },
+        {
+          "title": "2025.03.22 Session Notes",
+          "slug": "2025-03-22-session-notes"
+        },
+        {
+          "title": "2025.03.29 Session Notes",
+          "slug": "2025-03-29-session-notes"
+        },
+        {
+          "title": "2025.04.05 Session Notes",
+          "slug": "2025-04-05-session-notes"
+        }
+      ],
+      "sourceDescription": null,
+      "currentFiles": [
+        "2025-03-29-session-notes.mdx"
+      ],
+      "sourceFirstPublicPosts": 0,
+      "currentMetadataRouteExists": true,
+      "sourceFirstAssignedPosts": 0
+    },
+    {
+      "name": "Khoraka",
+      "ghostSlug": "khoraka",
+      "astroSlug": "khoraka",
+      "visibility": "public",
+      "sourcePublishedPosts": 28,
+      "sourcePublishedPages": 1,
+      "sourceDraftPages": 0,
+      "currentPosts": 1,
+      "currentPrimaryPosts": 0,
+      "hasCurrentMetadata": true,
+      "campaigns": {
+        "City of Mist": 0,
+        "Freaky Gray Company": 28,
+        "The Chosen": 0
+      },
+      "samplePosts": [
+        {
+          "title": "2025.03.01 Session Notes",
+          "slug": "2025-03-01-session-notes"
+        },
+        {
+          "title": "2025.03.22 Session Notes",
+          "slug": "2025-03-22-session-notes"
+        },
+        {
+          "title": "2025.03.29 Session Notes",
+          "slug": "2025-03-29-session-notes"
+        },
+        {
+          "title": "2025.04.05 Session Notes",
+          "slug": "2025-04-05-session-notes"
+        }
+      ],
+      "sourceDescription": null,
+      "currentFiles": [
+        "2025-03-29-session-notes.mdx"
+      ],
+      "sourceFirstPublicPosts": 0,
+      "currentMetadataRouteExists": true,
+      "sourceFirstAssignedPosts": 0
+    },
+    {
+      "name": "Snow",
+      "ghostSlug": "snow",
+      "astroSlug": "snow",
+      "visibility": "public",
+      "sourcePublishedPosts": 29,
+      "sourcePublishedPages": 1,
+      "sourceDraftPages": 0,
+      "currentPosts": 1,
+      "currentPrimaryPosts": 0,
+      "hasCurrentMetadata": true,
+      "campaigns": {
+        "City of Mist": 0,
+        "Freaky Gray Company": 29,
+        "The Chosen": 0
+      },
+      "samplePosts": [
+        {
+          "title": "2025.03.01 Session Notes",
+          "slug": "2025-03-01-session-notes"
+        },
+        {
+          "title": "2025.03.22 Session Notes",
+          "slug": "2025-03-22-session-notes"
+        },
+        {
+          "title": "2025.03.29 Session Notes",
+          "slug": "2025-03-29-session-notes"
+        },
+        {
+          "title": "2025.04.05 Session Notes",
+          "slug": "2025-04-05-session-notes"
+        }
+      ],
+      "sourceDescription": null,
+      "currentFiles": [
+        "2025-03-29-session-notes.mdx"
+      ],
+      "sourceFirstPublicPosts": 0,
+      "currentMetadataRouteExists": true,
+      "sourceFirstAssignedPosts": 0
+    },
+    {
+      "name": "Ferric",
+      "ghostSlug": "ferric",
+      "astroSlug": "ferric",
+      "visibility": "public",
+      "sourcePublishedPosts": 28,
+      "sourcePublishedPages": 1,
+      "sourceDraftPages": 0,
+      "currentPosts": 1,
+      "currentPrimaryPosts": 0,
+      "hasCurrentMetadata": true,
+      "campaigns": {
+        "City of Mist": 0,
+        "Freaky Gray Company": 28,
+        "The Chosen": 0
+      },
+      "samplePosts": [
+        {
+          "title": "2025.03.01 Session Notes",
+          "slug": "2025-03-01-session-notes"
+        },
+        {
+          "title": "2025.03.22 Session Notes",
+          "slug": "2025-03-22-session-notes"
+        },
+        {
+          "title": "2025.03.29 Session Notes",
+          "slug": "2025-03-29-session-notes"
+        },
+        {
+          "title": "2025.04.05 Session Notes",
+          "slug": "2025-04-05-session-notes"
+        }
+      ],
+      "sourceDescription": null,
+      "currentFiles": [
+        "2025-03-29-session-notes.mdx"
+      ],
+      "sourceFirstPublicPosts": 0,
+      "currentMetadataRouteExists": true,
+      "sourceFirstAssignedPosts": 0
+    },
+    {
+      "name": "D&D",
+      "ghostSlug": "dnd",
+      "astroSlug": "d&d",
+      "visibility": "public",
+      "sourcePublishedPosts": 28,
+      "sourcePublishedPages": 2,
+      "sourceDraftPages": 0,
+      "currentPosts": 1,
+      "currentPrimaryPosts": 0,
+      "hasCurrentMetadata": true,
+      "campaigns": {
+        "City of Mist": 0,
+        "Freaky Gray Company": 28,
+        "The Chosen": 0
+      },
+      "samplePosts": [
+        {
+          "title": "Legends Awaken",
+          "slug": "legends-awaken"
+        },
+        {
+          "title": "2025.03.01 Session Notes",
+          "slug": "2025-03-01-session-notes"
+        },
+        {
+          "title": "2025.03.22 Session Notes",
+          "slug": "2025-03-22-session-notes"
+        },
+        {
+          "title": "2025.03.29 Session Notes",
+          "slug": "2025-03-29-session-notes"
+        }
+      ],
+      "sourceDescription": null,
+      "currentFiles": [
+        "2025-03-29-session-notes.mdx"
+      ],
+      "sourceFirstPublicPosts": 0,
+      "currentMetadataRouteExists": true,
+      "sourceFirstAssignedPosts": 0
+    },
+    {
+      "name": "Freaky Gray Company",
+      "ghostSlug": "fgc",
+      "astroSlug": "freaky-gray-company",
+      "visibility": "public",
+      "sourcePublishedPosts": 66,
+      "sourcePublishedPages": 1,
+      "sourceDraftPages": 0,
+      "currentPosts": 1,
+      "currentPrimaryPosts": 1,
+      "hasCurrentMetadata": true,
+      "campaigns": {
+        "City of Mist": 0,
+        "Freaky Gray Company": 66,
+        "The Chosen": 0
+      },
+      "samplePosts": [
+        {
+          "title": "Legends Awaken",
+          "slug": "legends-awaken"
+        },
+        {
+          "title": "2025.03.01 Session Notes",
+          "slug": "2025-03-01-session-notes"
+        },
+        {
+          "title": "2025.03.22 Session Notes",
+          "slug": "2025-03-22-session-notes"
+        },
+        {
+          "title": "2025.03.29 Session Notes",
+          "slug": "2025-03-29-session-notes"
+        }
+      ],
+      "sourceDescription": "Welcome to Wildemount. This continent is divided both by jagged terrain and political powers. Our intrepid heroes are recovering from a little bout of saving the continent… only to be confronted by their own mysterious pasts.",
+      "currentFiles": [
+        "2025-03-29-session-notes.mdx"
+      ],
+      "sourceFirstPublicPosts": 65,
+      "currentMetadataRouteExists": true,
+      "sourceFirstAssignedPosts": 63
+    },
+    {
+      "name": "John",
+      "ghostSlug": "john",
+      "astroSlug": "john",
+      "visibility": "public",
+      "sourcePublishedPosts": 13,
+      "sourcePublishedPages": 0,
+      "sourceDraftPages": 0,
+      "currentPosts": 1,
+      "currentPrimaryPosts": 0,
+      "hasCurrentMetadata": true,
+      "campaigns": {
+        "City of Mist": 12,
+        "Freaky Gray Company": 0,
+        "The Chosen": 0
+      },
+      "samplePosts": [
+        {
+          "title": "2025.02.01 Session Notes",
+          "slug": "2025-02-01-session-notes"
+        },
+        {
+          "title": "2025.02.21 Session Notes",
+          "slug": "2025-02-21-session-notes"
+        },
+        {
+          "title": "1.1 Discord",
+          "slug": "1-1-discord"
+        },
+        {
+          "title": "1.1.2 Discord, cont.",
+          "slug": "1-1-2-discord-contin"
+        }
+      ],
+      "sourceDescription": null,
+      "currentFiles": [
+        "1-8-far-from-the-tree-part-2.mdx"
+      ],
+      "sourceFirstPublicPosts": 0,
+      "currentMetadataRouteExists": true,
+      "sourceFirstAssignedPosts": 0
+    },
+    {
+      "name": "Erash",
+      "ghostSlug": "erash",
+      "astroSlug": "erash",
+      "visibility": "public",
+      "sourcePublishedPosts": 30,
+      "sourcePublishedPages": 1,
+      "sourceDraftPages": 0,
+      "currentPosts": 1,
+      "currentPrimaryPosts": 0,
+      "hasCurrentMetadata": true,
+      "campaigns": {
+        "City of Mist": 0,
+        "Freaky Gray Company": 30,
+        "The Chosen": 0
+      },
+      "samplePosts": [
+        {
+          "title": "Legends Awaken",
+          "slug": "legends-awaken"
+        },
+        {
+          "title": "2025.03.01 Session Notes",
+          "slug": "2025-03-01-session-notes"
+        },
+        {
+          "title": "2025.03.22 Session Notes",
+          "slug": "2025-03-22-session-notes"
+        },
+        {
+          "title": "2025.03.29 Session Notes",
+          "slug": "2025-03-29-session-notes"
+        }
+      ],
+      "sourceDescription": null,
+      "currentFiles": [
+        "2025-03-29-session-notes.mdx"
+      ],
+      "sourceFirstPublicPosts": 0,
+      "currentMetadataRouteExists": true,
+      "sourceFirstAssignedPosts": 0
+    },
+    {
+      "name": "Kamordah",
+      "ghostSlug": "kamordah",
+      "astroSlug": "kamordah",
+      "visibility": "public",
+      "sourcePublishedPosts": 5,
+      "sourcePublishedPages": 0,
+      "sourceDraftPages": 0,
+      "currentPosts": 5,
+      "currentPrimaryPosts": 5,
+      "hasCurrentMetadata": true,
+      "campaigns": {
+        "City of Mist": 0,
+        "Freaky Gray Company": 0,
+        "The Chosen": 0
+      },
+      "samplePosts": [
+        {
+          "title": "The Red Veil",
+          "slug": "the-red-veil"
+        },
+        {
+          "title": "The Vintner’s Respite",
+          "slug": "the-vintners-respite"
+        },
+        {
+          "title": "The Scarlet Root",
+          "slug": "the-scarlet-root"
+        },
+        {
+          "title": "The Emberglow Atelier",
+          "slug": "the-emberglow-atelier"
+        }
+      ],
+      "sourceDescription": null,
+      "currentFiles": [
+        "emberpetal-springs.md",
+        "the-emberglow-atelier.md",
+        "the-red-veil.md",
+        "the-scarlet-root.md",
+        "the-vintners-respite.md"
+      ],
+      "sourceFirstPublicPosts": 5,
+      "currentMetadataRouteExists": true,
+      "sourceFirstAssignedPosts": 5
+    },
+    {
+      "name": "tavern",
+      "ghostSlug": "tavern",
+      "astroSlug": "tavern",
+      "visibility": "public",
+      "sourcePublishedPosts": 1,
+      "sourcePublishedPages": 0,
+      "sourceDraftPages": 0,
+      "currentPosts": 1,
+      "currentPrimaryPosts": 0,
+      "hasCurrentMetadata": true,
+      "campaigns": {
+        "City of Mist": 0,
+        "Freaky Gray Company": 0,
+        "The Chosen": 0
+      },
+      "samplePosts": [
+        {
+          "title": "The Red Veil",
+          "slug": "the-red-veil"
+        }
+      ],
+      "sourceDescription": null,
+      "currentFiles": [
+        "the-red-veil.md"
+      ],
+      "sourceFirstPublicPosts": 0,
+      "currentMetadataRouteExists": true,
+      "sourceFirstAssignedPosts": 0
+    },
+    {
+      "name": "Wildemount",
+      "ghostSlug": "wildemount",
+      "astroSlug": "wildemount",
+      "visibility": "public",
+      "sourcePublishedPosts": 2,
+      "sourcePublishedPages": 1,
+      "sourceDraftPages": 0,
+      "currentPosts": 2,
+      "currentPrimaryPosts": 0,
+      "hasCurrentMetadata": true,
+      "campaigns": {
+        "City of Mist": 0,
+        "Freaky Gray Company": 0,
+        "The Chosen": 0
+      },
+      "samplePosts": [
+        {
+          "title": "The Red Veil",
+          "slug": "the-red-veil"
+        },
+        {
+          "title": "The Vintner’s Respite",
+          "slug": "the-vintners-respite"
+        }
+      ],
+      "sourceDescription": null,
+      "currentFiles": [
+        "the-red-veil.md",
+        "the-vintners-respite.md"
+      ],
+      "sourceFirstPublicPosts": 0,
+      "currentMetadataRouteExists": true,
+      "sourceFirstAssignedPosts": 0
+    },
+    {
+      "name": "inns",
+      "ghostSlug": "inns",
+      "astroSlug": "inns",
+      "visibility": "public",
+      "sourcePublishedPosts": 1,
+      "sourcePublishedPages": 0,
+      "sourceDraftPages": 0,
+      "currentPosts": 1,
+      "currentPrimaryPosts": 0,
+      "hasCurrentMetadata": true,
+      "campaigns": {
+        "City of Mist": 0,
+        "Freaky Gray Company": 0,
+        "The Chosen": 0
+      },
+      "samplePosts": [
+        {
+          "title": "The Vintner’s Respite",
+          "slug": "the-vintners-respite"
+        }
+      ],
+      "sourceDescription": null,
+      "currentFiles": [
+        "the-vintners-respite.md"
+      ],
+      "sourceFirstPublicPosts": 0,
+      "currentMetadataRouteExists": true,
+      "sourceFirstAssignedPosts": 0
+    },
+    {
+      "name": "shop",
+      "ghostSlug": "shop",
+      "astroSlug": "shop",
+      "visibility": "public",
+      "sourcePublishedPosts": 0,
+      "sourcePublishedPages": 0,
+      "sourceDraftPages": 0,
+      "currentPosts": 0,
+      "currentPrimaryPosts": 0,
+      "hasCurrentMetadata": false,
+      "campaigns": {
+        "City of Mist": 0,
+        "Freaky Gray Company": 0,
+        "The Chosen": 0
+      },
+      "samplePosts": [],
+      "sourceDescription": null,
+      "currentFiles": [],
+      "sourceFirstPublicPosts": 0,
+      "currentMetadataRouteExists": false,
+      "sourceFirstAssignedPosts": 0
+    },
+    {
+      "name": "shops",
+      "ghostSlug": "shops",
+      "astroSlug": "shops",
+      "visibility": "public",
+      "sourcePublishedPosts": 3,
+      "sourcePublishedPages": 0,
+      "sourceDraftPages": 0,
+      "currentPosts": 3,
+      "currentPrimaryPosts": 0,
+      "hasCurrentMetadata": true,
+      "campaigns": {
+        "City of Mist": 0,
+        "Freaky Gray Company": 0,
+        "The Chosen": 0
+      },
+      "samplePosts": [
+        {
+          "title": "The Scarlet Root",
+          "slug": "the-scarlet-root"
+        },
+        {
+          "title": "The Emberglow Atelier",
+          "slug": "the-emberglow-atelier"
+        },
+        {
+          "title": "The Invulnerable Vagrant",
+          "slug": "the-invulnerable-vagrant"
+        }
+      ],
+      "sourceDescription": null,
+      "currentFiles": [
+        "the-emberglow-atelier.md",
+        "the-invulnerable-vagrant.md",
+        "the-scarlet-root.md"
+      ],
+      "sourceFirstPublicPosts": 0,
+      "currentMetadataRouteExists": true,
+      "sourceFirstAssignedPosts": 0
+    },
+    {
+      "name": "spa",
+      "ghostSlug": "spa",
+      "astroSlug": "spa",
+      "visibility": "public",
+      "sourcePublishedPosts": 2,
+      "sourcePublishedPages": 0,
+      "sourceDraftPages": 0,
+      "currentPosts": 2,
+      "currentPrimaryPosts": 0,
+      "hasCurrentMetadata": true,
+      "campaigns": {
+        "City of Mist": 0,
+        "Freaky Gray Company": 0,
+        "The Chosen": 0
+      },
+      "samplePosts": [
+        {
+          "title": "Fire Orchid Springs",
+          "slug": "emberpetal-springs"
+        },
+        {
+          "title": "The Steamed Buns",
+          "slug": "the-steamed-buns"
+        }
+      ],
+      "sourceDescription": null,
+      "currentFiles": [
+        "emberpetal-springs.md",
+        "the-steamed-buns.md"
+      ],
+      "sourceFirstPublicPosts": 0,
+      "currentMetadataRouteExists": true,
+      "sourceFirstAssignedPosts": 0
+    },
+    {
+      "name": "Zadash",
+      "ghostSlug": "zadash",
+      "astroSlug": "zadash",
+      "visibility": "public",
+      "sourcePublishedPosts": 2,
+      "sourcePublishedPages": 0,
+      "sourceDraftPages": 0,
+      "currentPosts": 2,
+      "currentPrimaryPosts": 2,
+      "hasCurrentMetadata": true,
+      "campaigns": {
+        "City of Mist": 0,
+        "Freaky Gray Company": 0,
+        "The Chosen": 0
+      },
+      "samplePosts": [
+        {
+          "title": "The Invulnerable Vagrant",
+          "slug": "the-invulnerable-vagrant"
+        },
+        {
+          "title": "The Steamed Buns",
+          "slug": "the-steamed-buns"
+        }
+      ],
+      "sourceDescription": null,
+      "currentFiles": [
+        "the-invulnerable-vagrant.md",
+        "the-steamed-buns.md"
+      ],
+      "sourceFirstPublicPosts": 2,
+      "currentMetadataRouteExists": true,
+      "sourceFirstAssignedPosts": 2
+    },
+    {
+      "name": "Valgara",
+      "ghostSlug": "valgara",
+      "astroSlug": "valgara",
+      "visibility": "public",
+      "sourcePublishedPosts": 18,
+      "sourcePublishedPages": 0,
+      "sourceDraftPages": 0,
+      "currentPosts": 0,
+      "currentPrimaryPosts": 0,
+      "hasCurrentMetadata": false,
+      "campaigns": {
+        "City of Mist": 0,
+        "Freaky Gray Company": 18,
+        "The Chosen": 0
+      },
+      "samplePosts": [
+        {
+          "title": "2025.06.14 Session Notes",
+          "slug": "2025-06-14-session-notes"
+        },
+        {
+          "title": "2025.06.28 Session Notes",
+          "slug": "2025-06-28-session-notes"
+        },
+        {
+          "title": "2025.07.26 Session Notes",
+          "slug": "2025-07-26-session-notes"
+        },
+        {
+          "title": "2025.08.09 Session Notes",
+          "slug": "2025-08-09-session-notes"
+        }
+      ],
+      "sourceDescription": null,
+      "currentFiles": [],
+      "sourceFirstPublicPosts": 0,
+      "currentMetadataRouteExists": false,
+      "sourceFirstAssignedPosts": 0
+    },
+    {
+      "name": "#Import 2026-01-12 15:50",
+      "ghostSlug": "hash-import-2026-01-12-15-50",
+      "astroSlug": "#import-2026-01-12-15:50",
+      "visibility": "internal",
+      "sourcePublishedPosts": 38,
+      "sourcePublishedPages": 0,
+      "sourceDraftPages": 0,
+      "currentPosts": 0,
+      "currentPrimaryPosts": 0,
+      "hasCurrentMetadata": false,
+      "campaigns": {
+        "City of Mist": 0,
+        "Freaky Gray Company": 34,
+        "The Chosen": 0
+      },
+      "samplePosts": [
+        {
+          "title": "The Hag's Observations",
+          "slug": "the-hag-s-observations"
+        },
+        {
+          "title": "A Nightmare Revealed",
+          "slug": "a-nightmare-revealed"
+        },
+        {
+          "title": "Into the Woods",
+          "slug": "into-the-woods"
+        },
+        {
+          "title": "The Bone Orchard",
+          "slug": "the-bone-orchard"
+        }
+      ],
+      "sourceDescription": null,
+      "currentFiles": [],
+      "sourceFirstPublicPosts": 0,
+      "currentMetadataRouteExists": false,
+      "sourceFirstAssignedPosts": 7
+    },
+    {
+      "name": "The Chosen",
+      "ghostSlug": "the-chosen",
+      "astroSlug": "the-chosen",
+      "visibility": "public",
+      "sourcePublishedPosts": 67,
+      "sourcePublishedPages": 2,
+      "sourceDraftPages": 0,
+      "currentPosts": 0,
+      "currentPrimaryPosts": 0,
+      "hasCurrentMetadata": true,
+      "campaigns": {
+        "City of Mist": 0,
+        "Freaky Gray Company": 0,
+        "The Chosen": 67
+      },
+      "samplePosts": [
+        {
+          "title": "1.10 School Daze",
+          "slug": "school-daze"
+        },
+        {
+          "title": "1.20 City of Demons",
+          "slug": "city-of-demons"
+        },
+        {
+          "title": "1.17 Thief in the Knight",
+          "slug": "thief-in-the-knight"
+        },
+        {
+          "title": "1.14 Return of the Natives",
+          "slug": "return-of-the-natives"
+        }
+      ],
+      "sourceDescription": "When supernatural threats converge on McKennitt University, a group of college students must save the world from multiple apocalypses while navigating heritage, romance, loss, and betrayal. Three seasons, three world-ending crises, and one unbreakable bond forged in the literal fires of Armageddon.\n* Test Episode\n<ul>\n<li>Another test episode</li>\n</ul>",
+      "currentFiles": [],
+      "sourceFirstPublicPosts": 67,
+      "currentMetadataRouteExists": true,
+      "sourceFirstAssignedPosts": 67
+    },
+    {
+      "name": "Session Recap",
+      "ghostSlug": "session-recap",
+      "astroSlug": "session-recap",
+      "visibility": "public",
+      "sourcePublishedPosts": 54,
+      "sourcePublishedPages": 0,
+      "sourceDraftPages": 0,
+      "currentPosts": 0,
+      "currentPrimaryPosts": 0,
+      "hasCurrentMetadata": false,
+      "campaigns": {
+        "City of Mist": 0,
+        "Freaky Gray Company": 1,
+        "The Chosen": 53
+      },
+      "samplePosts": [
+        {
+          "title": "1.10 School Daze",
+          "slug": "school-daze"
+        },
+        {
+          "title": "1.20 City of Demons",
+          "slug": "city-of-demons"
+        },
+        {
+          "title": "1.17 Thief in the Knight",
+          "slug": "thief-in-the-knight"
+        },
+        {
+          "title": "1.14 Return of the Natives",
+          "slug": "return-of-the-natives"
+        }
+      ],
+      "sourceDescription": "Session summaries and recaps from various campaigns",
+      "currentFiles": [],
+      "sourceFirstPublicPosts": 0,
+      "currentMetadataRouteExists": false,
+      "sourceFirstAssignedPosts": 0
+    },
+    {
+      "name": "Campaign 2003",
+      "ghostSlug": "campaign-2003",
+      "astroSlug": "campaign-2003",
+      "visibility": "public",
+      "sourcePublishedPosts": 52,
+      "sourcePublishedPages": 0,
+      "sourceDraftPages": 0,
+      "currentPosts": 0,
+      "currentPrimaryPosts": 0,
+      "hasCurrentMetadata": false,
+      "campaigns": {
+        "City of Mist": 0,
+        "Freaky Gray Company": 0,
+        "The Chosen": 52
+      },
+      "samplePosts": [
+        {
+          "title": "1.10 School Daze",
+          "slug": "school-daze"
+        },
+        {
+          "title": "1.20 City of Demons",
+          "slug": "city-of-demons"
+        },
+        {
+          "title": "1.17 Thief in the Knight",
+          "slug": "thief-in-the-knight"
+        },
+        {
+          "title": "1.14 Return of the Natives",
+          "slug": "return-of-the-natives"
+        }
+      ],
+      "sourceDescription": "Sessions from the 2003 gaming era",
+      "currentFiles": [],
+      "sourceFirstPublicPosts": 0,
+      "currentMetadataRouteExists": false,
+      "sourceFirstAssignedPosts": 0
+    },
+    {
+      "name": "#Import 2026-02-02 16:14",
+      "ghostSlug": "hash-import-2026-02-02-16-14",
+      "astroSlug": "#import-2026-02-02-16:14",
+      "visibility": "internal",
+      "sourcePublishedPosts": 0,
+      "sourcePublishedPages": 0,
+      "sourceDraftPages": 0,
+      "currentPosts": 0,
+      "currentPrimaryPosts": 0,
+      "hasCurrentMetadata": false,
+      "campaigns": {
+        "City of Mist": 0,
+        "Freaky Gray Company": 0,
+        "The Chosen": 0
+      },
+      "samplePosts": [],
+      "sourceDescription": null,
+      "currentFiles": [],
+      "sourceFirstPublicPosts": 0,
+      "currentMetadataRouteExists": false,
+      "sourceFirstAssignedPosts": 0
+    },
+    {
+      "name": "Season 1",
+      "ghostSlug": "season-1",
+      "astroSlug": "season-1",
+      "visibility": "public",
+      "sourcePublishedPosts": 22,
+      "sourcePublishedPages": 0,
+      "sourceDraftPages": 0,
+      "currentPosts": 0,
+      "currentPrimaryPosts": 0,
+      "hasCurrentMetadata": true,
+      "campaigns": {
+        "City of Mist": 0,
+        "Freaky Gray Company": 0,
+        "The Chosen": 22
+      },
+      "samplePosts": [
+        {
+          "title": "1.10 School Daze",
+          "slug": "school-daze"
+        },
+        {
+          "title": "1.20 City of Demons",
+          "slug": "city-of-demons"
+        },
+        {
+          "title": "1.17 Thief in the Knight",
+          "slug": "thief-in-the-knight"
+        },
+        {
+          "title": "1.14 Return of the Natives",
+          "slug": "return-of-the-natives"
+        }
+      ],
+      "sourceDescription": "Two priestesses of the demon Zolor are intent on bringing him back to consume souls in the unsuspecting town of McKennit. A group of students at Phillipi College is the only one who can stop them, while battling a powerful group of vampires known as the Alumni... as well as themselves.",
+      "currentFiles": [],
+      "sourceFirstPublicPosts": 0,
+      "currentMetadataRouteExists": true,
+      "sourceFirstAssignedPosts": 0
+    },
+    {
+      "name": "Season 2",
+      "ghostSlug": "season-2",
+      "astroSlug": "season-2",
+      "visibility": "public",
+      "sourcePublishedPosts": 22,
+      "sourcePublishedPages": 0,
+      "sourceDraftPages": 0,
+      "currentPosts": 0,
+      "currentPrimaryPosts": 0,
+      "hasCurrentMetadata": true,
+      "campaigns": {
+        "City of Mist": 0,
+        "Freaky Gray Company": 0,
+        "The Chosen": 22
+      },
+      "samplePosts": [
+        {
+          "title": "2.12 A Father's Love",
+          "slug": "a-fathers-love"
+        },
+        {
+          "title": "2.20 Catalyst",
+          "slug": "catalyst"
+        },
+        {
+          "title": "2.16 Ring of Power",
+          "slug": "ring-of-power"
+        },
+        {
+          "title": "2.11 The Chain is Broken",
+          "slug": "the-chain-is-broken"
+        }
+      ],
+      "sourceDescription": "The Scoobies learn the true story -- and the true cost -- of the Boyd-Townsend family's rise to power. When the town's foundation is shaken, the solution lies with a most unlikely ally.",
+      "currentFiles": [],
+      "sourceFirstPublicPosts": 0,
+      "currentMetadataRouteExists": true,
+      "sourceFirstAssignedPosts": 0
+    },
+    {
+      "name": "Season 3",
+      "ghostSlug": "season-3",
+      "astroSlug": "season-3",
+      "visibility": "public",
+      "sourcePublishedPosts": 23,
+      "sourcePublishedPages": 0,
+      "sourceDraftPages": 0,
+      "currentPosts": 0,
+      "currentPrimaryPosts": 0,
+      "hasCurrentMetadata": true,
+      "campaigns": {
+        "City of Mist": 0,
+        "Freaky Gray Company": 0,
+        "The Chosen": 23
+      },
+      "samplePosts": [
+        {
+          "title": "3.14 Initiation",
+          "slug": "initiation"
+        },
+        {
+          "title": "3.2 Toxic",
+          "slug": "toxic"
+        },
+        {
+          "title": "3.3 Code Blue",
+          "slug": "code-blue"
+        },
+        {
+          "title": "3.4 Slayer",
+          "slug": "slayer"
+        }
+      ],
+      "sourceDescription": "After three years of manipulation by the enigmatic Bannon, the Scoobies discover they've been pawns in a sinister plan to build an army and unleash an apocalypse. As friends fall to darkness and holy ground is desecrated, the crew must navigate devastating bargains, terrible secrets, and the weight of prophecy. Their final confrontation will determine whether they can break free from Bannon's control—and whether the price of freedom is one they can bear to pay.",
+      "currentFiles": [],
+      "sourceFirstPublicPosts": 0,
+      "currentMetadataRouteExists": true,
+      "sourceFirstAssignedPosts": 0
+    },
+    {
+      "name": "#Import 2026-02-02 16:43",
+      "ghostSlug": "hash-import-2026-02-02-16-43",
+      "astroSlug": "#import-2026-02-02-16:43",
+      "visibility": "internal",
+      "sourcePublishedPosts": 0,
+      "sourcePublishedPages": 0,
+      "sourceDraftPages": 0,
+      "currentPosts": 0,
+      "currentPrimaryPosts": 0,
+      "hasCurrentMetadata": false,
+      "campaigns": {
+        "City of Mist": 0,
+        "Freaky Gray Company": 0,
+        "The Chosen": 0
+      },
+      "samplePosts": [],
+      "sourceDescription": null,
+      "currentFiles": [],
+      "sourceFirstPublicPosts": 0,
+      "currentMetadataRouteExists": false,
+      "sourceFirstAssignedPosts": 0
+    },
+    {
+      "name": "#Import 2026-02-02 16:54",
+      "ghostSlug": "hash-import-2026-02-02-16-54",
+      "astroSlug": "#import-2026-02-02-16:54",
+      "visibility": "internal",
+      "sourcePublishedPosts": 52,
+      "sourcePublishedPages": 0,
+      "sourceDraftPages": 0,
+      "currentPosts": 0,
+      "currentPrimaryPosts": 0,
+      "hasCurrentMetadata": false,
+      "campaigns": {
+        "City of Mist": 0,
+        "Freaky Gray Company": 0,
+        "The Chosen": 52
+      },
+      "samplePosts": [
+        {
+          "title": "1.10 School Daze",
+          "slug": "school-daze"
+        },
+        {
+          "title": "1.20 City of Demons",
+          "slug": "city-of-demons"
+        },
+        {
+          "title": "1.17 Thief in the Knight",
+          "slug": "thief-in-the-knight"
+        },
+        {
+          "title": "1.14 Return of the Natives",
+          "slug": "return-of-the-natives"
+        }
+      ],
+      "sourceDescription": null,
+      "currentFiles": [],
+      "sourceFirstPublicPosts": 0,
+      "currentMetadataRouteExists": false,
+      "sourceFirstAssignedPosts": 0
+    },
+    {
+      "name": "Arc 1",
+      "ghostSlug": "c1-a1",
+      "astroSlug": "arc-1",
+      "visibility": "public",
+      "sourcePublishedPosts": 37,
+      "sourcePublishedPages": 0,
+      "sourceDraftPages": 0,
+      "currentPosts": 0,
+      "currentPrimaryPosts": 0,
+      "hasCurrentMetadata": true,
+      "campaigns": {
+        "City of Mist": 0,
+        "Freaky Gray Company": 37,
+        "The Chosen": 0
+      },
+      "samplePosts": [
+        {
+          "title": "The Hag's Observations",
+          "slug": "the-hag-s-observations"
+        },
+        {
+          "title": "A Nightmare Revealed",
+          "slug": "a-nightmare-revealed"
+        },
+        {
+          "title": "Into the Woods",
+          "slug": "into-the-woods"
+        },
+        {
+          "title": "The Bone Orchard",
+          "slug": "the-bone-orchard"
+        }
+      ],
+      "sourceDescription": "A misfit band of adventurers takes on the mysterious forces behind the sickening Savalirwood.",
+      "currentFiles": [],
+      "sourceFirstPublicPosts": 1,
+      "currentMetadataRouteExists": true,
+      "sourceFirstAssignedPosts": 0
+    },
+    {
+      "name": "Arc 2",
+      "ghostSlug": "c1-a2",
+      "astroSlug": "arc-2",
+      "visibility": "public",
+      "sourcePublishedPosts": 29,
+      "sourcePublishedPages": 0,
+      "sourceDraftPages": 0,
+      "currentPosts": 1,
+      "currentPrimaryPosts": 0,
+      "hasCurrentMetadata": true,
+      "campaigns": {
+        "City of Mist": 0,
+        "Freaky Gray Company": 29,
+        "The Chosen": 0
+      },
+      "samplePosts": [
+        {
+          "title": "Legends Awaken",
+          "slug": "legends-awaken"
+        },
+        {
+          "title": "2025.03.01 Session Notes",
+          "slug": "2025-03-01-session-notes"
+        },
+        {
+          "title": "2025.03.22 Session Notes",
+          "slug": "2025-03-22-session-notes"
+        },
+        {
+          "title": "2025.03.29 Session Notes",
+          "slug": "2025-03-29-session-notes"
+        }
+      ],
+      "sourceDescription": "Our intrepid heroes are recovering from a little bout of saving the continent… only to be confronted by their own mysterious pasts.",
+      "currentFiles": [
+        "2025-03-29-session-notes.mdx"
+      ],
+      "sourceFirstPublicPosts": 0,
+      "currentMetadataRouteExists": true,
+      "sourceFirstAssignedPosts": 0
+    },
+    {
+      "name": "CoM Season 1",
+      "ghostSlug": "com-season-1",
+      "astroSlug": "com-season-1",
+      "visibility": "public",
+      "sourcePublishedPosts": 12,
+      "sourcePublishedPages": 0,
+      "sourceDraftPages": 0,
+      "currentPosts": 1,
+      "currentPrimaryPosts": 0,
+      "hasCurrentMetadata": true,
+      "campaigns": {
+        "City of Mist": 12,
+        "Freaky Gray Company": 0,
+        "The Chosen": 0
+      },
+      "samplePosts": [
+        {
+          "title": "1.1 Discord",
+          "slug": "1-1-discord"
+        },
+        {
+          "title": "1.1.2 Discord, cont.",
+          "slug": "1-1-2-discord-contin"
+        },
+        {
+          "title": "1.2 Chopping Block",
+          "slug": "1-2-chopping-block"
+        },
+        {
+          "title": "1.2.2 Chopping Block, cont.",
+          "slug": "1-2-2-chopping-block-cont"
+        }
+      ],
+      "sourceDescription": null,
+      "currentFiles": [
+        "1-8-far-from-the-tree-part-2.mdx"
+      ],
+      "sourceFirstPublicPosts": 0,
+      "currentMetadataRouteExists": true,
+      "sourceFirstAssignedPosts": 0
+    },
+    {
+      "name": "CoM Prologue",
+      "ghostSlug": "com-prologue",
+      "astroSlug": "com-prologue",
+      "visibility": "public",
+      "sourcePublishedPosts": 13,
+      "sourcePublishedPages": 0,
+      "sourceDraftPages": 0,
+      "currentPosts": 1,
+      "currentPrimaryPosts": 0,
+      "hasCurrentMetadata": true,
+      "campaigns": {
+        "City of Mist": 13,
+        "Freaky Gray Company": 0,
+        "The Chosen": 0
+      },
+      "samplePosts": [
+        {
+          "title": "2024.12.21 Session Notes",
+          "slug": "2024-12-21-session-notes"
+        },
+        {
+          "title": "2024.12.30 Session Notes",
+          "slug": "2024-12-30-session-notes"
+        },
+        {
+          "title": "Voice Over: Geoffrey",
+          "slug": "geoffrey-voice-over"
+        },
+        {
+          "title": "Voice Over: London",
+          "slug": "voice-over-london"
+        }
+      ],
+      "sourceDescription": "The lives of a group of strangers are forever changed when an incident in a coffee shop leaves them with powers they cannot explain.",
+      "currentFiles": [
+        "geoffrey-voice-over.md"
+      ],
+      "sourceFirstPublicPosts": 0,
+      "currentMetadataRouteExists": true,
+      "sourceFirstAssignedPosts": 0
+    },
+    {
+      "name": "Wren",
+      "ghostSlug": "wren",
+      "astroSlug": "wren",
+      "visibility": "public",
+      "sourcePublishedPosts": 11,
+      "sourcePublishedPages": 0,
+      "sourceDraftPages": 0,
+      "currentPosts": 1,
+      "currentPrimaryPosts": 0,
+      "hasCurrentMetadata": true,
+      "campaigns": {
+        "City of Mist": 10,
+        "Freaky Gray Company": 0,
+        "The Chosen": 0
+      },
+      "samplePosts": [
+        {
+          "title": "1.1.2 Discord, cont.",
+          "slug": "1-1-2-discord-contin"
+        },
+        {
+          "title": "1.2 Chopping Block",
+          "slug": "1-2-chopping-block"
+        },
+        {
+          "title": "1.2.2 Chopping Block, cont.",
+          "slug": "1-2-2-chopping-block-cont"
+        },
+        {
+          "title": "1.4 Bad Apples",
+          "slug": "1-4-bad-apples"
+        }
+      ],
+      "sourceDescription": null,
+      "currentFiles": [
+        "1-8-far-from-the-tree-part-2.mdx"
+      ],
+      "sourceFirstPublicPosts": 0,
+      "currentMetadataRouteExists": true,
+      "sourceFirstAssignedPosts": 0
+    },
+    {
+      "name": "fiction",
+      "ghostSlug": null,
+      "astroSlug": "fiction",
+      "visibility": null,
+      "sourcePublishedPosts": 0,
+      "sourcePublishedPages": 0,
+      "sourceDraftPages": 0,
+      "currentPosts": 0,
+      "currentPrimaryPosts": 0,
+      "hasCurrentMetadata": true,
+      "campaigns": {
+        "City of Mist": 0,
+        "Freaky Gray Company": 0,
+        "The Chosen": 0
+      },
+      "samplePosts": [],
+      "sourceDescription": null,
+      "currentFiles": [],
+      "sourceFirstPublicPosts": 0,
+      "currentMetadataRouteExists": true,
+      "sourceFirstAssignedPosts": 0
+    },
+    {
+      "name": "getting-started",
+      "ghostSlug": null,
+      "astroSlug": "getting-started",
+      "visibility": null,
+      "sourcePublishedPosts": 0,
+      "sourcePublishedPages": 0,
+      "sourceDraftPages": 0,
+      "currentPosts": 0,
+      "currentPrimaryPosts": 0,
+      "hasCurrentMetadata": true,
+      "campaigns": {
+        "City of Mist": 0,
+        "Freaky Gray Company": 0,
+        "The Chosen": 0
+      },
+      "samplePosts": [],
+      "sourceDescription": null,
+      "currentFiles": [],
+      "sourceFirstPublicPosts": 0,
+      "currentMetadataRouteExists": true,
+      "sourceFirstAssignedPosts": 0
+    },
+    {
+      "name": "Getting started",
+      "ghostSlug": null,
+      "astroSlug": "getting-started",
+      "visibility": null,
+      "sourcePublishedPosts": 0,
+      "sourcePublishedPages": 0,
+      "sourceDraftPages": 0,
+      "currentPosts": 1,
+      "currentPrimaryPosts": 1,
+      "hasCurrentMetadata": false,
+      "campaigns": {
+        "City of Mist": 0,
+        "Freaky Gray Company": 0,
+        "The Chosen": 0
+      },
+      "samplePosts": [],
+      "sourceDescription": null,
+      "currentFiles": [
+        "advanced-markdown.md"
+      ],
+      "sourceFirstPublicPosts": 0,
+      "currentMetadataRouteExists": true,
+      "sourceFirstAssignedPosts": 0
+    }
+  ],
+  "sourceTagLinks": [
+    {
+      "type": "post",
+      "title": "2024.12.21 Session Notes",
+      "slug": "2024-12-21-session-notes",
+      "target": "daniel/"
+    },
+    {
+      "type": "post",
+      "title": "2024.12.21 Session Notes",
+      "slug": "2024-12-21-session-notes",
+      "target": "kevin/"
+    },
+    {
+      "type": "post",
+      "title": "2024.12.21 Session Notes",
+      "slug": "2024-12-21-session-notes",
+      "target": "london/"
+    },
+    {
+      "type": "post",
+      "title": "2024.12.21 Session Notes",
+      "slug": "2024-12-21-session-notes",
+      "target": "sergei/"
+    },
+    {
+      "type": "post",
+      "title": "2024.12.21 Session Notes",
+      "slug": "2024-12-21-session-notes",
+      "target": "daniel/"
+    },
+    {
+      "type": "post",
+      "title": "2024.12.21 Session Notes",
+      "slug": "2024-12-21-session-notes",
+      "target": "kevin/"
+    },
+    {
+      "type": "post",
+      "title": "2024.12.21 Session Notes",
+      "slug": "2024-12-21-session-notes",
+      "target": "london/"
+    },
+    {
+      "type": "post",
+      "title": "2024.12.21 Session Notes",
+      "slug": "2024-12-21-session-notes",
+      "target": "sergei/"
+    },
+    {
+      "type": "post",
+      "title": "2024.12.30 Session Notes",
+      "slug": "2024-12-30-session-notes",
+      "target": "daniel/"
+    },
+    {
+      "type": "post",
+      "title": "2024.12.30 Session Notes",
+      "slug": "2024-12-30-session-notes",
+      "target": "kevin/"
+    },
+    {
+      "type": "post",
+      "title": "2024.12.30 Session Notes",
+      "slug": "2024-12-30-session-notes",
+      "target": "london/"
+    },
+    {
+      "type": "post",
+      "title": "2024.12.30 Session Notes",
+      "slug": "2024-12-30-session-notes",
+      "target": "sergei/"
+    },
+    {
+      "type": "post",
+      "title": "2024.12.30 Session Notes",
+      "slug": "2024-12-30-session-notes",
+      "target": "daniel/"
+    },
+    {
+      "type": "post",
+      "title": "2024.12.30 Session Notes",
+      "slug": "2024-12-30-session-notes",
+      "target": "kevin/"
+    },
+    {
+      "type": "post",
+      "title": "2024.12.30 Session Notes",
+      "slug": "2024-12-30-session-notes",
+      "target": "london/"
+    },
+    {
+      "type": "post",
+      "title": "2025.01.04 Session Notes",
+      "slug": "2025-01-04-session-notes",
+      "target": "daniel/"
+    },
+    {
+      "type": "post",
+      "title": "2025.01.04 Session Notes",
+      "slug": "2025-01-04-session-notes",
+      "target": "kevin/"
+    },
+    {
+      "type": "post",
+      "title": "2025.01.04 Session Notes",
+      "slug": "2025-01-04-session-notes",
+      "target": "london/"
+    },
+    {
+      "type": "post",
+      "title": "2025.01.04 Session Notes",
+      "slug": "2025-01-04-session-notes",
+      "target": "sergei/"
+    },
+    {
+      "type": "post",
+      "title": "2024.01.18 Session Notes",
+      "slug": "2024-01-18-session-notes",
+      "target": "daniel/"
+    },
+    {
+      "type": "post",
+      "title": "2024.01.18 Session Notes",
+      "slug": "2024-01-18-session-notes",
+      "target": "kevin/"
+    },
+    {
+      "type": "post",
+      "title": "2024.01.18 Session Notes",
+      "slug": "2024-01-18-session-notes",
+      "target": "london/"
+    },
+    {
+      "type": "post",
+      "title": "2024.01.18 Session Notes",
+      "slug": "2024-01-18-session-notes",
+      "target": "sergei/"
+    },
+    {
+      "type": "page",
+      "title": "The Freaky Gray Company",
+      "slug": "fgc-characters",
+      "target": "fgc/"
+    },
+    {
+      "type": "post",
+      "title": "2025.01.25 Session Notes",
+      "slug": "2025-01-25-session-notes",
+      "target": "daniel/"
+    },
+    {
+      "type": "post",
+      "title": "2025.01.25 Session Notes",
+      "slug": "2025-01-25-session-notes",
+      "target": "kevin/"
+    },
+    {
+      "type": "post",
+      "title": "2025.01.25 Session Notes",
+      "slug": "2025-01-25-session-notes",
+      "target": "london/"
+    },
+    {
+      "type": "post",
+      "title": "2025.01.25 Session Notes",
+      "slug": "2025-01-25-session-notes",
+      "target": "sergei/"
+    },
+    {
+      "type": "post",
+      "title": "2025.02.01 Session Notes",
+      "slug": "2025-02-01-session-notes",
+      "target": "geoffrey/"
+    },
+    {
+      "type": "post",
+      "title": "2025.02.15 Session Notes",
+      "slug": "2025-0215-session-notes",
+      "target": "daniel/"
+    },
+    {
+      "type": "post",
+      "title": "2025.02.15 Session Notes",
+      "slug": "2025-0215-session-notes",
+      "target": "london/"
+    },
+    {
+      "type": "post",
+      "title": "2025.02.15 Session Notes",
+      "slug": "2025-0215-session-notes",
+      "target": "kevin/"
+    },
+    {
+      "type": "post",
+      "title": "2025.02.15 Session Notes",
+      "slug": "2025-0215-session-notes",
+      "target": "sergei/"
+    },
+    {
+      "type": "post",
+      "title": "2025.02.21 Session Notes",
+      "slug": "2025-02-21-session-notes",
+      "target": "cody/"
+    },
+    {
+      "type": "post",
+      "title": "2025.02.21 Session Notes",
+      "slug": "2025-02-21-session-notes",
+      "target": "daniel/"
+    },
+    {
+      "type": "post",
+      "title": "2025.02.21 Session Notes",
+      "slug": "2025-02-21-session-notes",
+      "target": "geoffrey/"
+    },
+    {
+      "type": "post",
+      "title": "2025.02.21 Session Notes",
+      "slug": "2025-02-21-session-notes",
+      "target": "john/"
+    },
+    {
+      "type": "post",
+      "title": "2025.02.21 Session Notes",
+      "slug": "2025-02-21-session-notes",
+      "target": "kevin/"
+    },
+    {
+      "type": "post",
+      "title": "2025.02.21 Session Notes",
+      "slug": "2025-02-21-session-notes",
+      "target": "london/"
+    },
+    {
+      "type": "post",
+      "title": "2025.02.21 Session Notes",
+      "slug": "2025-02-21-session-notes",
+      "target": "maeve/"
+    },
+    {
+      "type": "post",
+      "title": "2025.02.21 Session Notes",
+      "slug": "2025-02-21-session-notes",
+      "target": "sergei/"
+    },
+    {
+      "type": "page",
+      "title": "The Wildemount Gazette",
+      "slug": "the-wildemount-gazette",
+      "target": "fgc/"
+    },
+    {
+      "type": "page",
+      "title": "The Wildemount Gazette",
+      "slug": "the-wildemount-gazette",
+      "target": "kamordah/"
+    },
+    {
+      "type": "page",
+      "title": "The Wildemount Gazette",
+      "slug": "the-wildemount-gazette",
+      "target": "zadash/"
+    },
+    {
+      "type": "page",
+      "title": "The Cast",
+      "slug": "the-chosen-cast",
+      "target": "the-chosen/"
+    },
+    {
+      "type": "page",
+      "title": "The Chosen",
+      "slug": "the-chosen",
+      "target": "the-chosen/"
+    },
+    {
+      "type": "page",
+      "title": "The Chosen",
+      "slug": "the-chosen",
+      "target": "season-1/"
+    },
+    {
+      "type": "page",
+      "title": "The Chosen",
+      "slug": "the-chosen",
+      "target": "season-2/"
+    },
+    {
+      "type": "page",
+      "title": "The Chosen",
+      "slug": "the-chosen",
+      "target": "season-3/"
+    },
+    {
+      "type": "page",
+      "title": "General Buffy Game Info",
+      "slug": "general-buffy-game-info",
+      "target": "the-chosen/"
+    },
+    {
+      "type": "page",
+      "title": "City of Mist",
+      "slug": "city-of-mist",
+      "target": "cityofmist/"
+    },
+    {
+      "type": "page",
+      "title": "City of Mist",
+      "slug": "city-of-mist",
+      "target": "com-prologue/"
+    },
+    {
+      "type": "page",
+      "title": "City of Mist",
+      "slug": "city-of-mist",
+      "target": "com-season-1/"
+    },
+    {
+      "type": "page",
+      "title": "The Freaky Gray Company",
+      "slug": "the-freaky-gray-company",
+      "target": "fgc/"
+    },
+    {
+      "type": "page",
+      "title": "The Freaky Gray Company",
+      "slug": "the-freaky-gray-company",
+      "target": "c1-a1,c1-a2"
+    },
+    {
+      "type": "page",
+      "title": "People in The City",
+      "slug": "people-in-the-city",
+      "target": "cityofmist/"
+    },
+    {
+      "type": "page",
+      "title": "Navigating The City",
+      "slug": "neighborhoods-in-the-city",
+      "target": "cityofmist/"
+    },
+    {
+      "type": "page",
+      "title": "Modified System",
+      "slug": "com-system-modifications",
+      "target": "cityofmist/"
+    }
+  ],
+  "sourcePostTagSets": [
+    {
+      "title": "2024.12.21 Session Notes",
+      "slug": "2024-12-21-session-notes",
+      "tags": [
+        "City of Mist",
+        "CoM Prologue",
+        "Session Notes",
+        "Daniel",
+        "Sergei",
+        "Kevin",
+        "London"
+      ],
+      "firstPublicTag": "City of Mist"
+    },
+    {
+      "title": "2024.12.30 Session Notes",
+      "slug": "2024-12-30-session-notes",
+      "tags": [
+        "City of Mist",
+        "CoM Prologue",
+        "Session Notes",
+        "London",
+        "Kevin",
+        "Sergei",
+        "Daniel"
+      ],
+      "firstPublicTag": "City of Mist"
+    },
+    {
+      "title": "Voice Over: Geoffrey",
+      "slug": "geoffrey-voice-over",
+      "tags": [
+        "City of Mist",
+        "CoM Prologue",
+        "Geoffrey"
+      ],
+      "firstPublicTag": "City of Mist"
+    },
+    {
+      "title": "Voice Over: London",
+      "slug": "voice-over-london",
+      "tags": [
+        "City of Mist",
+        "CoM Prologue",
+        "London"
+      ],
+      "firstPublicTag": "City of Mist"
+    },
+    {
+      "title": "2025.01.04 Session Notes",
+      "slug": "2025-01-04-session-notes",
+      "tags": [
+        "City of Mist",
+        "CoM Prologue",
+        "Daniel",
+        "Kevin",
+        "London",
+        "Sergei",
+        "Session Notes"
+      ],
+      "firstPublicTag": "City of Mist"
+    },
+    {
+      "title": "Voice Over: Sergei",
+      "slug": "voice-over-sergei",
+      "tags": [
+        "City of Mist",
+        "CoM Prologue",
+        "Sergei"
+      ],
+      "firstPublicTag": "City of Mist"
+    },
+    {
+      "title": "2024.01.18 Session Notes",
+      "slug": "2024-01-18-session-notes",
+      "tags": [
+        "City of Mist",
+        "CoM Prologue",
+        "Daniel",
+        "Kevin",
+        "London",
+        "Sergei",
+        "Session Notes"
+      ],
+      "firstPublicTag": "City of Mist"
+    },
+    {
+      "title": "Voice Over: Kevin",
+      "slug": "voice-over-kevin",
+      "tags": [
+        "City of Mist",
+        "CoM Prologue",
+        "Kevin"
+      ],
+      "firstPublicTag": "City of Mist"
+    },
+    {
+      "title": "2025.01.25 Session Notes",
+      "slug": "2025-01-25-session-notes",
+      "tags": [
+        "City of Mist",
+        "CoM Prologue",
+        "Daniel",
+        "Kevin",
+        "London",
+        "Sergei",
+        "Session Notes"
+      ],
+      "firstPublicTag": "City of Mist"
+    },
+    {
+      "title": "2025.02.01 Session Notes",
+      "slug": "2025-02-01-session-notes",
+      "tags": [
+        "City of Mist",
+        "CoM Prologue",
+        "Session Notes",
+        "Cody",
+        "Geoffrey",
+        "John",
+        "Maeve"
+      ],
+      "firstPublicTag": "City of Mist"
+    },
+    {
+      "title": "2025.02.15 Session Notes",
+      "slug": "2025-0215-session-notes",
+      "tags": [
+        "City of Mist",
+        "CoM Prologue",
+        "CoM Prologue",
+        "Session Notes",
+        "Daniel",
+        "Kevin",
+        "London",
+        "Sergei"
+      ],
+      "firstPublicTag": "City of Mist"
+    },
+    {
+      "title": "Voice Over: Daniel",
+      "slug": "voice-over-daniel",
+      "tags": [
+        "City of Mist",
+        "CoM Prologue",
+        "Daniel"
+      ],
+      "firstPublicTag": "City of Mist"
+    },
+    {
+      "title": "2025.02.21 Session Notes",
+      "slug": "2025-02-21-session-notes",
+      "tags": [
+        "City of Mist",
+        "CoM Prologue",
+        "Session Notes",
+        "Daniel",
+        "Geoffrey",
+        "John",
+        "Kevin",
+        "London",
+        "Maeve",
+        "Sergei",
+        "Cody"
+      ],
+      "firstPublicTag": "City of Mist"
+    },
+    {
+      "title": "Legends Awaken",
+      "slug": "legends-awaken",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "Erash",
+        "D&D"
+      ],
+      "firstPublicTag": "Freaky Gray Company"
+    },
+    {
+      "title": "2025.03.01 Session Notes",
+      "slug": "2025-03-01-session-notes",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "D&D",
+        "Erash",
+        "Ferric",
+        "Khoraka",
+        "Phelan",
+        "Snow",
+        "Session Notes"
+      ],
+      "firstPublicTag": "Freaky Gray Company"
+    },
+    {
+      "title": "2025.03.22 Session Notes",
+      "slug": "2025-03-22-session-notes",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "D&D",
+        "Session Notes",
+        "Erash",
+        "Ferric",
+        "Khoraka",
+        "Phelan",
+        "Snow"
+      ],
+      "firstPublicTag": "Freaky Gray Company"
+    },
+    {
+      "title": "2025.03.29 Session Notes",
+      "slug": "2025-03-29-session-notes",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "D&D",
+        "Erash",
+        "Ferric",
+        "Khoraka",
+        "Phelan",
+        "Snow",
+        "Session Notes"
+      ],
+      "firstPublicTag": "Freaky Gray Company"
+    },
+    {
+      "title": "2025.04.05 Session Notes",
+      "slug": "2025-04-05-session-notes",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "Arc 2",
+        "D&D",
+        "Session Notes",
+        "Erash",
+        "Ferric",
+        "Khoraka",
+        "Phelan",
+        "Snow"
+      ],
+      "firstPublicTag": "Freaky Gray Company"
+    },
+    {
+      "title": "2025.04.18 Session Notes",
+      "slug": "2025-04-18-session-notes",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "D&D",
+        "Session Notes",
+        "Erash",
+        "Ferric",
+        "Khoraka",
+        "Phelan",
+        "Snow"
+      ],
+      "firstPublicTag": "Freaky Gray Company"
+    },
+    {
+      "title": "2025.05.03 Session Notes",
+      "slug": "2025-05-03-session-notes",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "D&D",
+        "Erash",
+        "Ferric",
+        "Khoraka",
+        "Phelan",
+        "Snow",
+        "Session Notes"
+      ],
+      "firstPublicTag": "Freaky Gray Company"
+    },
+    {
+      "title": "2025.05.25 Session Notes",
+      "slug": "2025-05-25-session-notes",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "D&D",
+        "Erash",
+        "Ferric",
+        "Khoraka",
+        "Phelan",
+        "Session Notes",
+        "Snow"
+      ],
+      "firstPublicTag": "Freaky Gray Company"
+    },
+    {
+      "title": "2025.06.01 Session Notes",
+      "slug": "2025-06-01-session-notes",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "D&D",
+        "Erash",
+        "Ferric",
+        "Khoraka",
+        "Phelan",
+        "Session Notes",
+        "Snow"
+      ],
+      "firstPublicTag": "Freaky Gray Company"
+    },
+    {
+      "title": "2025.06.08 Session Notes",
+      "slug": "2025-06-08-session-notes",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "D&D",
+        "Erash",
+        "Ferric",
+        "Khoraka",
+        "Phelan",
+        "Snow",
+        "Session Notes"
+      ],
+      "firstPublicTag": "Freaky Gray Company"
+    },
+    {
+      "title": "The Red Veil",
+      "slug": "the-red-veil",
+      "tags": [
+        "Kamordah",
+        "tavern",
+        "Wildemount"
+      ],
+      "firstPublicTag": "Kamordah"
+    },
+    {
+      "title": "The Vintner’s Respite",
+      "slug": "the-vintners-respite",
+      "tags": [
+        "Kamordah",
+        "inns",
+        "Wildemount"
+      ],
+      "firstPublicTag": "Kamordah"
+    },
+    {
+      "title": "The Scarlet Root",
+      "slug": "the-scarlet-root",
+      "tags": [
+        "Kamordah",
+        "shops"
+      ],
+      "firstPublicTag": "Kamordah"
+    },
+    {
+      "title": "The Emberglow Atelier",
+      "slug": "the-emberglow-atelier",
+      "tags": [
+        "Kamordah",
+        "shops"
+      ],
+      "firstPublicTag": "Kamordah"
+    },
+    {
+      "title": "Fire Orchid Springs",
+      "slug": "emberpetal-springs",
+      "tags": [
+        "Kamordah",
+        "spa"
+      ],
+      "firstPublicTag": "Kamordah"
+    },
+    {
+      "title": "The Invulnerable Vagrant",
+      "slug": "the-invulnerable-vagrant",
+      "tags": [
+        "Zadash",
+        "shops"
+      ],
+      "firstPublicTag": "Zadash"
+    },
+    {
+      "title": "The Steamed Buns",
+      "slug": "the-steamed-buns",
+      "tags": [
+        "Zadash",
+        "spa"
+      ],
+      "firstPublicTag": "Zadash"
+    },
+    {
+      "title": "2025.06.14 Session Notes",
+      "slug": "2025-06-14-session-notes",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "D&D",
+        "Erash",
+        "Ferric",
+        "Khoraka",
+        "Phelan",
+        "Snow",
+        "Valgara",
+        "Session Notes"
+      ],
+      "firstPublicTag": "Freaky Gray Company"
+    },
+    {
+      "title": "2025.06.28 Session Notes",
+      "slug": "2025-06-28-session-notes",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "D&D",
+        "Erash",
+        "Ferric",
+        "Khoraka",
+        "Phelan",
+        "Snow",
+        "Valgara",
+        "Session Notes"
+      ],
+      "firstPublicTag": "Freaky Gray Company"
+    },
+    {
+      "title": "2025.07.26 Session Notes",
+      "slug": "2025-07-26-session-notes",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "D&D",
+        "Erash",
+        "Ferric",
+        "Phelan",
+        "Snow",
+        "Valgara",
+        "Session Notes"
+      ],
+      "firstPublicTag": "Freaky Gray Company"
+    },
+    {
+      "title": "2025.08.09 Session Notes",
+      "slug": "2025-08-09-session-notes",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "D&D",
+        "Erash",
+        "Ferric",
+        "Khoraka",
+        "Phelan",
+        "Snow",
+        "Session Notes",
+        "Valgara"
+      ],
+      "firstPublicTag": "Freaky Gray Company"
+    },
+    {
+      "title": "2025.08.15 Session Notes",
+      "slug": "2025-08-15-session-notes",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "D&D",
+        "Erash",
+        "Ferric",
+        "Khoraka",
+        "Phelan",
+        "Snow",
+        "Valgara",
+        "Session Notes"
+      ],
+      "firstPublicTag": "Freaky Gray Company"
+    },
+    {
+      "title": "2025.09.01 Session Notes",
+      "slug": "2025-09-01-session-notes",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "D&D",
+        "Erash",
+        "Ferric",
+        "Khoraka",
+        "Phelan",
+        "Snow",
+        "Valgara",
+        "Session Notes"
+      ],
+      "firstPublicTag": "Freaky Gray Company"
+    },
+    {
+      "title": "2025.09.06 Session Notes",
+      "slug": "2025-09-06-session-notes",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "D&D",
+        "Erash",
+        "Ferric",
+        "Khoraka",
+        "Phelan",
+        "Snow",
+        "Valgara",
+        "Session Notes"
+      ],
+      "firstPublicTag": "Freaky Gray Company"
+    },
+    {
+      "title": "2025.09.14 Session Notes",
+      "slug": "2025-09-14-session-notes",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "D&D",
+        "Erash",
+        "Ferric",
+        "Khoraka",
+        "Phelan",
+        "Snow",
+        "Valgara",
+        "Session Notes"
+      ],
+      "firstPublicTag": "Freaky Gray Company"
+    },
+    {
+      "title": "2025.09.28 Session Notes",
+      "slug": "2025-09-28-session-notes",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "D&D",
+        "Erash",
+        "Khoraka",
+        "Phelan",
+        "Snow",
+        "Valgara",
+        "Session Notes"
+      ],
+      "firstPublicTag": "Freaky Gray Company"
+    },
+    {
+      "title": "2025.10.08 Session Notes",
+      "slug": "2025-10-08-session-notes",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "D&D",
+        "Erash",
+        "Ferric",
+        "Khoraka",
+        "Phelan",
+        "Snow",
+        "Valgara",
+        "Session Notes"
+      ],
+      "firstPublicTag": "Freaky Gray Company"
+    },
+    {
+      "title": "2025.12.27 Session Notes",
+      "slug": "2025-12-27-session-notes",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "D&D",
+        "Erash",
+        "Ferric",
+        "Khoraka",
+        "Phelan",
+        "Snow",
+        "Session Notes"
+      ],
+      "firstPublicTag": "Freaky Gray Company"
+    },
+    {
+      "title": "2026.01.03 Session Notes",
+      "slug": "2026-01-03-session-notes",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "Erash",
+        "Ferric",
+        "Khoraka",
+        "D&D",
+        "Phelan",
+        "Snow",
+        "Session Notes",
+        "Valgara"
+      ],
+      "firstPublicTag": "Freaky Gray Company"
+    },
+    {
+      "title": "The Hag's Observations",
+      "slug": "the-hag-s-observations",
+      "tags": [
+        "Freaky Gray Company",
+        "Freaky Gray Company",
+        "Arc 1",
+        "#Import 2026-01-12 15:50"
+      ],
+      "firstPublicTag": "Freaky Gray Company"
+    },
+    {
+      "title": "A Nightmare Revealed",
+      "slug": "a-nightmare-revealed",
+      "tags": [
+        "Freaky Gray Company",
+        "#Import 2026-01-12 15:50",
+        "Arc 1"
+      ],
+      "firstPublicTag": "Freaky Gray Company"
+    },
+    {
+      "title": "Into the Woods",
+      "slug": "into-the-woods",
+      "tags": [
+        "Freaky Gray Company",
+        "#Import 2026-01-12 15:50",
+        "Arc 1"
+      ],
+      "firstPublicTag": "Freaky Gray Company"
+    },
+    {
+      "title": "The Bone Orchard",
+      "slug": "the-bone-orchard",
+      "tags": [
+        "Freaky Gray Company",
+        "#Import 2026-01-12 15:50",
+        "Arc 1"
+      ],
+      "firstPublicTag": "Freaky Gray Company"
+    },
+    {
+      "title": "A New Calling",
+      "slug": "a-new-calling",
+      "tags": [
+        "Freaky Gray Company",
+        "#Import 2026-01-12 15:50",
+        "Arc 1"
+      ],
+      "firstPublicTag": "Freaky Gray Company"
+    },
+    {
+      "title": "Respite",
+      "slug": "respite",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1",
+        "#Import 2026-01-12 15:50"
+      ],
+      "firstPublicTag": "Freaky Gray Company"
+    },
+    {
+      "title": "Groundskeepers",
+      "slug": "groundskeepers",
+      "tags": [
+        "Freaky Gray Company",
+        "#Import 2026-01-12 15:50",
+        "Arc 1"
+      ],
+      "firstPublicTag": "Freaky Gray Company"
+    },
+    {
+      "title": "Feolinn Shops, Eateries & Entertainment",
+      "slug": "feolinn-shops-eateries-entertainment",
+      "tags": [
+        "#Import 2026-01-12 15:50"
+      ],
+      "firstPublicTag": null
+    },
+    {
+      "title": "The Vampire Rose",
+      "slug": "the-vampire-rose",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1",
+        "#Import 2026-01-12 15:50"
+      ],
+      "firstPublicTag": "Freaky Gray Company"
+    },
+    {
+      "title": "Homecoming",
+      "slug": "homecoming",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1",
+        "#Import 2026-01-12 15:50"
+      ],
+      "firstPublicTag": "Freaky Gray Company"
+    },
+    {
+      "title": "The Lazy DM’s Guide",
+      "slug": "the-lazy-dm-s-guide",
+      "tags": [
+        "#Import 2026-01-12 15:50",
+        "Arc 1",
+        "Freaky Gray Company",
+        "D&D",
+        "Erash",
+        "Ferric",
+        "Khoraka",
+        "Snow",
+        "Session Notes"
+      ],
+      "firstPublicTag": "Arc 1"
+    },
+    {
+      "title": "C1E27: At The River",
+      "slug": "c1e27-at-the-river",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1",
+        "#Import 2026-01-12 15:50"
+      ],
+      "firstPublicTag": "Freaky Gray Company"
+    },
+    {
+      "title": "Ferric: Divination",
+      "slug": "ferric-divination",
+      "tags": [
+        "Freaky Gray Company",
+        "#Import 2026-01-12 15:50",
+        "Arc 1"
+      ],
+      "firstPublicTag": "Freaky Gray Company"
+    },
+    {
+      "title": "C1E26: New Friends",
+      "slug": "c1e26-new-friends",
+      "tags": [
+        "Freaky Gray Company",
+        "#Import 2026-01-12 15:50",
+        "Arc 1"
+      ],
+      "firstPublicTag": "Freaky Gray Company"
+    },
+    {
+      "title": "C1E25: Rescue",
+      "slug": "c1e25-rescue",
+      "tags": [
+        "Freaky Gray Company",
+        "#Import 2026-01-12 15:50",
+        "Arc 1"
+      ],
+      "firstPublicTag": "Freaky Gray Company"
+    },
+    {
+      "title": "C1E24: A Plan, Revised",
+      "slug": "c1e24-a-plan-revised",
+      "tags": [
+        "Freaky Gray Company",
+        "#Import 2026-01-12 15:50",
+        "Arc 1"
+      ],
+      "firstPublicTag": "Freaky Gray Company"
+    },
+    {
+      "title": "C1E23: Swagger",
+      "slug": "c1e23-swagger",
+      "tags": [
+        "Freaky Gray Company",
+        "#Import 2026-01-12 15:50",
+        "Arc 1"
+      ],
+      "firstPublicTag": "Freaky Gray Company"
+    },
+    {
+      "title": "C1E22: A call for help",
+      "slug": "c1e22-a-call-for-help",
+      "tags": [
+        "Freaky Gray Company",
+        "#Import 2026-01-12 15:50",
+        "Arc 1"
+      ],
+      "firstPublicTag": "Freaky Gray Company"
+    },
+    {
+      "title": "C1E21: Traces",
+      "slug": "c1e21-traces",
+      "tags": [
+        "Freaky Gray Company",
+        "Freaky Gray Company",
+        "#Import 2026-01-12 15:50",
+        "Arc 1"
+      ],
+      "firstPublicTag": "Freaky Gray Company"
+    },
+    {
+      "title": "C1E20: Of Frogs and Family",
+      "slug": "c1e20-of-frogs-and-family",
+      "tags": [
+        "Freaky Gray Company",
+        "#Import 2026-01-12 15:50",
+        "Arc 1"
+      ],
+      "firstPublicTag": "Freaky Gray Company"
+    },
+    {
+      "title": "C1E19: Quoraska",
+      "slug": "c1e19-quoraska",
+      "tags": [
+        "Freaky Gray Company",
+        "#Import 2026-01-12 15:50",
+        "Arc 1"
+      ],
+      "firstPublicTag": "Freaky Gray Company"
+    },
+    {
+      "title": "C1E18: Beyond the City Gates",
+      "slug": "c1e18-beyond-the-city-gates",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ],
+      "firstPublicTag": "Freaky Gray Company"
+    },
+    {
+      "title": "Quicksliver Cabaret",
+      "slug": "quicksliver-cabaret",
+      "tags": [
+        "#Import 2026-01-12 15:50"
+      ],
+      "firstPublicTag": null
+    },
+    {
+      "title": "C1E17: Connections",
+      "slug": "c1e17-connections",
+      "tags": [
+        "#Import 2026-01-12 15:50",
+        "Freaky Gray Company",
+        "Arc 1"
+      ],
+      "firstPublicTag": "Freaky Gray Company"
+    },
+    {
+      "title": "Erash’s First Dream",
+      "slug": "erash-s-first-dream",
+      "tags": [
+        "#Import 2026-01-12 15:50",
+        "Freaky Gray Company",
+        "Arc 1"
+      ],
+      "firstPublicTag": "Freaky Gray Company"
+    },
+    {
+      "title": "A Battle of Wits",
+      "slug": "a-battle-of-wits",
+      "tags": [
+        "Freaky Gray Company",
+        "#Import 2026-01-12 15:50",
+        "Arc 1"
+      ],
+      "firstPublicTag": "Freaky Gray Company"
+    },
+    {
+      "title": "Khoraka’s Second Dream",
+      "slug": "khoraka-s-second-dream",
+      "tags": [
+        "Freaky Gray Company",
+        "#Import 2026-01-12 15:50",
+        "Arc 1"
+      ],
+      "firstPublicTag": "Freaky Gray Company"
+    },
+    {
+      "title": "C1E16: Illuminations",
+      "slug": "c1e16-illuminations",
+      "tags": [
+        "Freaky Gray Company",
+        "#Import 2026-01-12 15:50",
+        "Arc 1"
+      ],
+      "firstPublicTag": "Freaky Gray Company"
+    },
+    {
+      "title": "Steamed Buns",
+      "slug": "steamed-buns",
+      "tags": [
+        "#Import 2026-01-12 15:50"
+      ],
+      "firstPublicTag": null
+    },
+    {
+      "title": "C1E15: Homeward Bound",
+      "slug": "c1e15-homeward-bound",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1",
+        "#Import 2026-01-12 15:50"
+      ],
+      "firstPublicTag": "Freaky Gray Company"
+    },
+    {
+      "title": "The Invulnerable Vagrant",
+      "slug": "the-invulnerable-vagrant-2",
+      "tags": [
+        "#Import 2026-01-12 15:50"
+      ],
+      "firstPublicTag": null
+    },
+    {
+      "title": "C1E14:  A Complicated Relationship",
+      "slug": "c1e14-a-complicated-relationship",
+      "tags": [
+        "Freaky Gray Company",
+        "#Import 2026-01-12 15:50",
+        "Arc 1"
+      ],
+      "firstPublicTag": "Freaky Gray Company"
+    },
+    {
+      "title": "C1E14:  Quarry, Lost and Found",
+      "slug": "c1e14-quarry-lost-and-found",
+      "tags": [
+        "Freaky Gray Company",
+        "#Import 2026-01-12 15:50",
+        "Arc 1"
+      ],
+      "firstPublicTag": "Freaky Gray Company"
+    },
+    {
+      "title": "C1E13:  To Grandmother’s House",
+      "slug": "c1e13-to-grandmother-s-house",
+      "tags": [
+        "Freaky Gray Company",
+        "#Import 2026-01-12 15:50",
+        "Arc 1"
+      ],
+      "firstPublicTag": "Freaky Gray Company"
+    },
+    {
+      "title": "C1E12:  Swamp Things",
+      "slug": "c1e12-swamp-things",
+      "tags": [
+        "Freaky Gray Company",
+        "#Import 2026-01-12 15:50",
+        "Arc 1"
+      ],
+      "firstPublicTag": "Freaky Gray Company"
+    },
+    {
+      "title": "C1E11: Labenda Awaits",
+      "slug": "c1e11-labenda-awaits",
+      "tags": [
+        "Freaky Gray Company",
+        "#Import 2026-01-12 15:50",
+        "Arc 1"
+      ],
+      "firstPublicTag": "Freaky Gray Company"
+    },
+    {
+      "title": "C1E10:  With Great Haste",
+      "slug": "c1e10-with-great-haste",
+      "tags": [
+        "Freaky Gray Company",
+        "Freaky Gray Company",
+        "#Import 2026-01-12 15:50",
+        "Arc 1"
+      ],
+      "firstPublicTag": "Freaky Gray Company"
+    },
+    {
+      "title": "C1E9:  Building a Mystery",
+      "slug": "c1e9-building-a-mystery",
+      "tags": [
+        "Freaky Gray Company",
+        "Freaky Gray Company",
+        "#Import 2026-01-12 15:50",
+        "Arc 1"
+      ],
+      "firstPublicTag": "Freaky Gray Company"
+    },
+    {
+      "title": "C1E8: Elinore's Plea",
+      "slug": "c1e8-elinore-s-plea",
+      "tags": [
+        "Freaky Gray Company",
+        "#Import 2026-01-12 15:50",
+        "Arc 1"
+      ],
+      "firstPublicTag": "Freaky Gray Company"
+    },
+    {
+      "title": "C1E1-7: Original Session Notes",
+      "slug": "c1e1-7-original-session-notes",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ],
+      "firstPublicTag": "Freaky Gray Company"
+    },
+    {
+      "title": "2023-01-14: Things get Weird",
+      "slug": "2022-01-14-things-get-weird",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ],
+      "firstPublicTag": "Freaky Gray Company"
+    },
+    {
+      "title": "2026.01.24 Session Notes",
+      "slug": "2026-01-24-session-notes",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "D&D",
+        "Erash",
+        "Ferric",
+        "Khoraka",
+        "Phelan",
+        "Session Notes",
+        "Snow",
+        "Valgara"
+      ],
+      "firstPublicTag": "Freaky Gray Company"
+    },
+    {
+      "title": "2026.01.31: Beneath the Charcoal Palace",
+      "slug": "2026-01-31-beneath-the-charcoal-palace",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "D&D",
+        "Erash",
+        "Ferric",
+        "Khoraka",
+        "Phelan",
+        "Snow",
+        "Valgara",
+        "Session Notes"
+      ],
+      "firstPublicTag": "Freaky Gray Company"
+    },
+    {
+      "title": "1.10 School Daze",
+      "slug": "school-daze",
+      "tags": [
+        "The Chosen",
+        "Season 1",
+        "Session Recap",
+        "Campaign 2003",
+        "#Import 2026-02-02 16:54"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "1.20 City of Demons",
+      "slug": "city-of-demons",
+      "tags": [
+        "The Chosen",
+        "Season 1",
+        "Session Recap",
+        "Campaign 2003",
+        "#Import 2026-02-02 16:54"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "1.17 Thief in the Knight",
+      "slug": "thief-in-the-knight",
+      "tags": [
+        "The Chosen",
+        "Season 1",
+        "Session Recap",
+        "Campaign 2003",
+        "#Import 2026-02-02 16:54"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "1.14 Return of the Natives",
+      "slug": "return-of-the-natives",
+      "tags": [
+        "The Chosen",
+        "Season 1",
+        "Session Recap",
+        "Campaign 2003",
+        "#Import 2026-02-02 16:54"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "1.13 Queen Bee",
+      "slug": "queen-bee",
+      "tags": [
+        "The Chosen",
+        "Season 1",
+        "Session Recap",
+        "Campaign 2003",
+        "#Import 2026-02-02 16:54"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "1.15 Possessed",
+      "slug": "possessed",
+      "tags": [
+        "The Chosen",
+        "Season 1",
+        "Session Recap",
+        "Campaign 2003",
+        "#Import 2026-02-02 16:54"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "1.11 High Life",
+      "slug": "high-life",
+      "tags": [
+        "The Chosen",
+        "Season 1",
+        "Session Recap",
+        "Campaign 2003",
+        "#Import 2026-02-02 16:54"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "1.19 Superman",
+      "slug": "superman",
+      "tags": [
+        "The Chosen",
+        "Season 1",
+        "Session Recap",
+        "Campaign 2003",
+        "#Import 2026-02-02 16:54"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "1.18 Good Friday",
+      "slug": "good-friday",
+      "tags": [
+        "The Chosen",
+        "Season 1",
+        "Session Recap",
+        "Campaign 2003",
+        "#Import 2026-02-02 16:54"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "1.9 Witch Trials",
+      "slug": "witch-trials",
+      "tags": [
+        "The Chosen",
+        "Season 1",
+        "Session Recap",
+        "Campaign 2003",
+        "#Import 2026-02-02 16:54"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "1.21 Lost And...",
+      "slug": "lost-and",
+      "tags": [
+        "The Chosen",
+        "Season 1",
+        "Session Recap",
+        "Campaign 2003",
+        "#Import 2026-02-02 16:54"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "1.22 ...Found",
+      "slug": "found",
+      "tags": [
+        "The Chosen",
+        "Season 1",
+        "Session Recap",
+        "Campaign 2003",
+        "#Import 2026-02-02 16:54"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "2.12 A Father's Love",
+      "slug": "a-fathers-love",
+      "tags": [
+        "The Chosen",
+        "Season 2",
+        "Session Recap",
+        "Campaign 2003",
+        "#Import 2026-02-02 16:54"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "2.20 Catalyst",
+      "slug": "catalyst",
+      "tags": [
+        "The Chosen",
+        "Season 2",
+        "Session Recap",
+        "Campaign 2003",
+        "#Import 2026-02-02 16:54"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "2.16 Ring of Power",
+      "slug": "ring-of-power",
+      "tags": [
+        "The Chosen",
+        "Season 2",
+        "Session Recap",
+        "Campaign 2003",
+        "#Import 2026-02-02 16:54"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "2.11 The Chain is Broken",
+      "slug": "the-chain-is-broken",
+      "tags": [
+        "The Chosen",
+        "Season 2",
+        "Session Recap",
+        "Campaign 2003",
+        "#Import 2026-02-02 16:54"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "2.21 Election",
+      "slug": "election",
+      "tags": [
+        "The Chosen",
+        "Season 2",
+        "Session Recap",
+        "Campaign 2003",
+        "#Import 2026-02-02 16:54"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "2.15 Luck O' The Irish",
+      "slug": "luck-o-the-irish",
+      "tags": [
+        "The Chosen",
+        "Season 2",
+        "Session Recap",
+        "Campaign 2003",
+        "#Import 2026-02-02 16:54"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "2.18 Do Over",
+      "slug": "do-over",
+      "tags": [
+        "The Chosen",
+        "Season 2",
+        "Session Recap",
+        "Campaign 2003",
+        "#Import 2026-02-02 16:54"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "2.10 Family Jewels",
+      "slug": "family-jewels",
+      "tags": [
+        "The Chosen",
+        "Season 2",
+        "Session Recap",
+        "Campaign 2003",
+        "#Import 2026-02-02 16:54"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "2.5 Play It Again",
+      "slug": "play-it-again",
+      "tags": [
+        "The Chosen",
+        "Season 2",
+        "Session Recap",
+        "Campaign 2003",
+        "#Import 2026-02-02 16:54"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "2.6 Hail to the Victors",
+      "slug": "hail-to-the-victors",
+      "tags": [
+        "The Chosen",
+        "Season 2",
+        "Session Recap",
+        "Campaign 2003",
+        "#Import 2026-02-02 16:54"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "2.3 Mostly Dead",
+      "slug": "mostly-dead",
+      "tags": [
+        "The Chosen",
+        "Season 2",
+        "Session Recap",
+        "Campaign 2003",
+        "#Import 2026-02-02 16:54"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "2.22 Incumbent",
+      "slug": "incumbent",
+      "tags": [
+        "The Chosen",
+        "Season 2",
+        "Session Recap",
+        "Campaign 2003",
+        "#Import 2026-02-02 16:54"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "2.4 Hunting House",
+      "slug": "hunting-house",
+      "tags": [
+        "The Chosen",
+        "Season 2",
+        "Session Recap",
+        "Campaign 2003",
+        "#Import 2026-02-02 16:54"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "2.8 Spa Kids",
+      "slug": "tranquility",
+      "tags": [
+        "The Chosen",
+        "Season 2",
+        "Session Recap",
+        "Campaign 2003",
+        "#Import 2026-02-02 16:54"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "2.2 Modern Times",
+      "slug": "modern-times",
+      "tags": [
+        "The Chosen",
+        "Season 2",
+        "Session Recap",
+        "Campaign 2003",
+        "#Import 2026-02-02 16:54"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "2.19 Mirror, Mirror",
+      "slug": "mirror-mirror",
+      "tags": [
+        "The Chosen",
+        "Season 2",
+        "Session Recap",
+        "Campaign 2003",
+        "#Import 2026-02-02 16:54"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "2.13 The Demon in Me",
+      "slug": "the-demon-in-me",
+      "tags": [
+        "The Chosen",
+        "Season 2",
+        "Session Recap",
+        "Campaign 2003",
+        "#Import 2026-02-02 16:54"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "2.9 Something Wicked? This Way. Come.",
+      "slug": "something-wicked",
+      "tags": [
+        "The Chosen",
+        "Season 2",
+        "Session Recap",
+        "Campaign 2003",
+        "#Import 2026-02-02 16:54"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "2.1 The Natural Order of Things",
+      "slug": "the-natural-order-of-things",
+      "tags": [
+        "The Chosen",
+        "Season 2",
+        "Session Recap",
+        "Campaign 2003",
+        "#Import 2026-02-02 16:54"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "2.14 The Not-So-Hard Way",
+      "slug": "the-not-so-hard-way",
+      "tags": [
+        "The Chosen",
+        "Season 2",
+        "Session Recap",
+        "Campaign 2003",
+        "#Import 2026-02-02 16:54"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "2.7 Visions of Grandeur",
+      "slug": "visions-of-grandeur",
+      "tags": [
+        "The Chosen",
+        "Season 2",
+        "Session Recap",
+        "Campaign 2003",
+        "#Import 2026-02-02 16:54"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "3.14 Initiation",
+      "slug": "initiation",
+      "tags": [
+        "The Chosen",
+        "Season 3",
+        "Session Recap",
+        "Campaign 2003",
+        "#Import 2026-02-02 16:54"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "3.2 Toxic",
+      "slug": "toxic",
+      "tags": [
+        "The Chosen",
+        "Season 3",
+        "Session Recap",
+        "Campaign 2003",
+        "#Import 2026-02-02 16:54"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "3.3 Code Blue",
+      "slug": "code-blue",
+      "tags": [
+        "The Chosen",
+        "Season 3",
+        "Session Recap",
+        "Campaign 2003",
+        "#Import 2026-02-02 16:54"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "3.4 Slayer",
+      "slug": "slayer",
+      "tags": [
+        "The Chosen",
+        "Season 3",
+        "Session Recap",
+        "Campaign 2003",
+        "#Import 2026-02-02 16:54"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "3.5 Forest of the Dead",
+      "slug": "forest-of-the-dead",
+      "tags": [
+        "The Chosen",
+        "Season 3",
+        "Session Recap",
+        "Campaign 2003",
+        "#Import 2026-02-02 16:54"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "3.11 WWW",
+      "slug": "www",
+      "tags": [
+        "The Chosen",
+        "Season 3",
+        "Session Recap",
+        "Campaign 2003",
+        "#Import 2026-02-02 16:54"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "3.7 Parent's Night",
+      "slug": "parents-night",
+      "tags": [
+        "The Chosen",
+        "Season 3",
+        "Session Recap",
+        "Campaign 2003",
+        "#Import 2026-02-02 16:54"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "3.8 Jaded",
+      "slug": "jaded",
+      "tags": [
+        "The Chosen",
+        "Season 3",
+        "Session Recap",
+        "Campaign 2003",
+        "#Import 2026-02-02 16:54"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "3.9 The Call, Part One",
+      "slug": "the-call-pt-1",
+      "tags": [
+        "The Chosen",
+        "Season 3",
+        "Session Recap",
+        "Campaign 2003",
+        "#Import 2026-02-02 16:54"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "3.10 The Call, Part Two",
+      "slug": "the-call-pt-2",
+      "tags": [
+        "The Chosen",
+        "Season 3",
+        "Session Recap",
+        "Campaign 2003",
+        "#Import 2026-02-02 16:54"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "3.17 Corrupted",
+      "slug": "corrupted",
+      "tags": [
+        "The Chosen",
+        "Season 3",
+        "Session Recap",
+        "Campaign 2003",
+        "#Import 2026-02-02 16:54"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "3.19 A.U.T.S.D.",
+      "slug": "autsd",
+      "tags": [
+        "The Chosen",
+        "Season 3",
+        "Session Recap",
+        "Campaign 2003",
+        "#Import 2026-02-02 16:54"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "3.13 Sleepwalker",
+      "slug": "sleepwalker",
+      "tags": [
+        "The Chosen",
+        "Season 3",
+        "Session Recap",
+        "Campaign 2003",
+        "#Import 2026-02-02 16:54"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "3.12 Two Steps Forward",
+      "slug": "two-steps-forward",
+      "tags": [
+        "The Chosen",
+        "Season 3",
+        "Session Recap",
+        "Campaign 2003",
+        "#Import 2026-02-02 16:54"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "3.18 Sanctuary",
+      "slug": "sanctuary",
+      "tags": [
+        "The Chosen",
+        "Season 3",
+        "Session Recap",
+        "Campaign 2003",
+        "#Import 2026-02-02 16:54"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "3.21 Beautiful Day",
+      "slug": "beautiful-day",
+      "tags": [
+        "The Chosen",
+        "Season 3",
+        "Session Recap",
+        "Campaign 2003",
+        "#Import 2026-02-02 16:54"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "3.22 The Answer, Part I",
+      "slug": "the-answer-pt-1",
+      "tags": [
+        "The Chosen",
+        "Season 3",
+        "Session Recap",
+        "Campaign 2003",
+        "#Import 2026-02-02 16:54"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "3.20 Armageddon",
+      "slug": "armageddon",
+      "tags": [
+        "The Chosen",
+        "Season 3",
+        "Session Recap",
+        "Campaign 2003",
+        "#Import 2026-02-02 16:54"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "3.1 Something Old, Something New",
+      "slug": "3-1-something-old-something-new",
+      "tags": [
+        "The Chosen",
+        "Session Recap",
+        "Season 3"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "3.15 Dead End",
+      "slug": "3-15-dead-end",
+      "tags": [
+        "The Chosen",
+        "Season 3"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "3.16 Anger Management",
+      "slug": "3-16-anger-management",
+      "tags": [
+        "The Chosen",
+        "Season 3"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "2.17 Things Fall Apart",
+      "slug": "2-17-things-fall-apart",
+      "tags": [
+        "The Chosen",
+        "Season 2"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "3.6 Static",
+      "slug": "3-6-static",
+      "tags": [
+        "The Chosen",
+        "Season 3"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "3.23 The Answer, Part 2",
+      "slug": "3-23-the-answer-part-2",
+      "tags": [
+        "The Chosen",
+        "Season 3",
+        "Session Recap",
+        "Campaign 2003",
+        "#Import 2026-02-02 16:54"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "1.1 The Class of '07",
+      "slug": "1-1-class-of-2007",
+      "tags": [
+        "The Chosen",
+        "Season 1"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "1.3 BYOB",
+      "slug": "1-3-byob",
+      "tags": [
+        "The Chosen",
+        "Season 1"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "1.5 Atom and Eve",
+      "slug": "1-5-atom-and-eve",
+      "tags": [
+        "The Chosen",
+        "Season 1"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "1.8 Black Magick",
+      "slug": "1-8-black-magick",
+      "tags": [
+        "The Chosen",
+        "Season 1"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "1.12 Pretty Piece of Flesh",
+      "slug": "1-12-pretty-piece-of-flesh",
+      "tags": [
+        "The Chosen",
+        "Season 1"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "1.16 Power Play",
+      "slug": "1-16-power-play",
+      "tags": [
+        "The Chosen",
+        "Season 1"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "1.2 The Campout",
+      "slug": "1-2-the-campout",
+      "tags": [
+        "The Chosen",
+        "Season 1"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "1.4 Bloody Mary",
+      "slug": "1-4-bloody-mary",
+      "tags": [
+        "The Chosen",
+        "Season 1"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "1.6 Growing Pains",
+      "slug": "1-6-growing-pains",
+      "tags": [
+        "The Chosen",
+        "Season 1"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "1.7 Dead and Gone",
+      "slug": "1-7-dead-and-gone",
+      "tags": [
+        "The Chosen",
+        "Season 1"
+      ],
+      "firstPublicTag": "The Chosen"
+    },
+    {
+      "title": "2026.02.20: Eleven Fifty-Nine",
+      "slug": "2026-02-20-eleven-fifty-nine",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "D&D",
+        "Erash",
+        "Ferric",
+        "Khoraka",
+        "Phelan",
+        "Snow",
+        "Valgara",
+        "Session Notes"
+      ],
+      "firstPublicTag": "Freaky Gray Company"
+    },
+    {
+      "title": "2026.02.28: The End of the Hall",
+      "slug": "2026-02-28-the-museum-at-the-end-of-the-hall",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "Session Notes",
+        "Erash",
+        "Ferric",
+        "Khoraka",
+        "Phelan",
+        "Snow",
+        "Valgara"
+      ],
+      "firstPublicTag": "Freaky Gray Company"
+    },
+    {
+      "title": "2026.03.07: \"Happy Travels...\"",
+      "slug": "2026-03-07-happy-travels",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "Erash",
+        "Ferric",
+        "Khoraka",
+        "Phelan",
+        "Snow",
+        "Valgara",
+        "Session Notes"
+      ],
+      "firstPublicTag": "Freaky Gray Company"
+    },
+    {
+      "title": "2026.04.18: Burn on Your Own Terms",
+      "slug": "burn-on-your-own-terms",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "Session Notes",
+        "D&D",
+        "Erash",
+        "Ferric",
+        "Khoraka",
+        "Phelan",
+        "Session Recap",
+        "Snow",
+        "Valgara"
+      ],
+      "firstPublicTag": "Freaky Gray Company"
+    },
+    {
+      "title": "2026-04-25: The  Reckoning",
+      "slug": "2026-04-25-the-reckoning",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "D&D",
+        "Erash",
+        "Ferric",
+        "Khoraka",
+        "Phelan",
+        "Snow",
+        "Valgara",
+        "Session Notes"
+      ],
+      "firstPublicTag": "Freaky Gray Company"
+    },
+    {
+      "title": "1.1 Discord",
+      "slug": "1-1-discord",
+      "tags": [
+        "City of Mist",
+        "Daniel",
+        "Geoffrey",
+        "John",
+        "Kevin",
+        "Maeve",
+        "CoM Season 1"
+      ],
+      "firstPublicTag": "City of Mist"
+    },
+    {
+      "title": "1.1.2 Discord, cont.",
+      "slug": "1-1-2-discord-contin",
+      "tags": [
+        "City of Mist",
+        "CoM Season 1",
+        "Geoffrey",
+        "John",
+        "Kevin",
+        "Maeve",
+        "Wren"
+      ],
+      "firstPublicTag": "City of Mist"
+    },
+    {
+      "title": "1.2 Chopping Block",
+      "slug": "1-2-chopping-block",
+      "tags": [
+        "City of Mist",
+        "CoM Season 1",
+        "Geoffrey",
+        "John",
+        "Kevin",
+        "London",
+        "Wren"
+      ],
+      "firstPublicTag": "City of Mist"
+    },
+    {
+      "title": "1.2.2 Chopping Block, cont.",
+      "slug": "1-2-2-chopping-block-cont",
+      "tags": [
+        "City of Mist",
+        "CoM Season 1",
+        "Geoffrey",
+        "John",
+        "Kevin",
+        "London",
+        "Wren"
+      ],
+      "firstPublicTag": "City of Mist"
+    },
+    {
+      "title": "1.3 Gravity",
+      "slug": "1-3-gravity",
+      "tags": [
+        "City of Mist",
+        "CoM Season 1",
+        "Daniel",
+        "Geoffrey",
+        "Kevin",
+        "London",
+        "Sergei"
+      ],
+      "firstPublicTag": "City of Mist"
+    },
+    {
+      "title": "1.4 Bad Apples",
+      "slug": "1-4-bad-apples",
+      "tags": [
+        "City of Mist",
+        "CoM Season 1",
+        "Daniel",
+        "Geoffrey",
+        "Kevin",
+        "Maeve",
+        "Sergei",
+        "Wren"
+      ],
+      "firstPublicTag": "City of Mist"
+    },
+    {
+      "title": "1.5 When the Cat's Away (Original)",
+      "slug": "1-5-when-the-cats-away",
+      "tags": [
+        "Daniel",
+        "Geoffrey",
+        "John",
+        "Kevin",
+        "London",
+        "Maeve",
+        "Sergei",
+        "Wren"
+      ],
+      "firstPublicTag": "Daniel"
+    },
+    {
+      "title": "1.6 The Killing Fields",
+      "slug": "1-6-the-killing-fields",
+      "tags": [
+        "City of Mist",
+        "CoM Season 1",
+        "Daniel",
+        "Geoffrey",
+        "John",
+        "Kevin",
+        "London",
+        "Maeve",
+        "Sergei",
+        "Wren"
+      ],
+      "firstPublicTag": "City of Mist"
+    },
+    {
+      "title": "1.7 Far from the Tree, Part 1",
+      "slug": "1-7-far-from-the-tree-part-1",
+      "tags": [
+        "City of Mist",
+        "CoM Season 1",
+        "John",
+        "London",
+        "Maeve",
+        "Sergei",
+        "Wren",
+        "Session Notes"
+      ],
+      "firstPublicTag": "City of Mist"
+    },
+    {
+      "title": "1.8 Far from the Tree, Part 2",
+      "slug": "1-8-far-from-the-tree-part-2",
+      "tags": [
+        "City of Mist",
+        "CoM Season 1",
+        "John",
+        "Kevin",
+        "London",
+        "Maeve",
+        "Sergei",
+        "Wren",
+        "Session Notes"
+      ],
+      "firstPublicTag": "City of Mist"
+    },
+    {
+      "title": "1.9 Far from the Tree, Part 3",
+      "slug": "1-9-far-from-the-tree-part-3",
+      "tags": [
+        "City of Mist",
+        "CoM Season 1",
+        "John",
+        "London",
+        "Maeve",
+        "Sergei",
+        "Wren",
+        "Kevin",
+        "Session Notes"
+      ],
+      "firstPublicTag": "City of Mist"
+    },
+    {
+      "title": "1.5 When the Cat's Away",
+      "slug": "1-5-when-the-cats-away-summary",
+      "tags": [
+        "City of Mist",
+        "CoM Season 1",
+        "Daniel",
+        "Geoffrey",
+        "John",
+        "Kevin",
+        "London",
+        "Maeve",
+        "Sergei",
+        "Wren"
+      ],
+      "firstPublicTag": "City of Mist"
+    },
+    {
+      "title": "1.10 Queen of the Night",
+      "slug": "1-10-queen-of-the-night",
+      "tags": [
+        "City of Mist",
+        "CoM Season 1",
+        "Daniel",
+        "Geoffrey",
+        "John",
+        "Kevin",
+        "London",
+        "Maeve",
+        "Sergei",
+        "Wren",
+        "Session Notes"
+      ],
+      "firstPublicTag": "City of Mist"
+    }
+  ],
+  "currentPostTagSets": [
+    {
+      "title": "1.8 Far from the Tree, Part 2",
+      "slug": "1-8-far-from-the-tree-part-2",
+      "tags": [
+        "City of Mist",
+        "CoM Season 1",
+        "John",
+        "Kevin",
+        "London",
+        "Maeve",
+        "Sergei",
+        "Wren",
+        "Session Notes"
+      ]
+    },
+    {
+      "title": "2025.03.29 Session Notes",
+      "slug": "2025-03-29-session-notes",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "D&D",
+        "Erash",
+        "Ferric",
+        "Khoraka",
+        "Phelan",
+        "Snow",
+        "Session Notes"
+      ]
+    },
+    {
+      "title": "A Full and Comprehensive Style Test",
+      "slug": "a-full-and-comprehensive-style-test",
+      "tags": []
+    },
+    {
+      "title": "Advanced Markdown tips",
+      "slug": "advanced-markdown",
+      "tags": [
+        "Getting started"
+      ]
+    },
+    {
+      "title": "Fire Orchid Springs",
+      "slug": "emberpetal-springs",
+      "tags": [
+        "Kamordah",
+        "spa"
+      ]
+    },
+    {
+      "title": "Voice Over: Geoffrey",
+      "slug": "geoffrey-voice-over",
+      "tags": [
+        "City of Mist",
+        "CoM Prologue",
+        "Geoffrey"
+      ]
+    },
+    {
+      "title": "The Emberglow Atelier",
+      "slug": "the-emberglow-atelier",
+      "tags": [
+        "Kamordah",
+        "shops"
+      ]
+    },
+    {
+      "title": "The Invulnerable Vagrant",
+      "slug": "the-invulnerable-vagrant",
+      "tags": [
+        "Zadash",
+        "shops"
+      ]
+    },
+    {
+      "title": "The Red Veil",
+      "slug": "the-red-veil",
+      "tags": [
+        "Kamordah",
+        "tavern",
+        "Wildemount"
+      ]
+    },
+    {
+      "title": "The Scarlet Root",
+      "slug": "the-scarlet-root",
+      "tags": [
+        "Kamordah",
+        "shops"
+      ]
+    },
+    {
+      "title": "The Steamed Buns",
+      "slug": "the-steamed-buns",
+      "tags": [
+        "Zadash",
+        "spa"
+      ]
+    },
+    {
+      "title": "The Vintner’s Respite",
+      "slug": "the-vintners-respite",
+      "tags": [
+        "Kamordah",
+        "inns",
+        "Wildemount"
+      ]
+    }
+  ],
+  "duplicateAssignments": [
+    {
+      "title": "2025.02.15 Session Notes",
+      "slug": "2025-0215-session-notes",
+      "duplicateTags": [
+        "CoM Prologue"
+      ]
+    },
+    {
+      "title": "2025.04.05 Session Notes",
+      "slug": "2025-04-05-session-notes",
+      "duplicateTags": [
+        "Arc 2"
+      ]
+    },
+    {
+      "title": "The Hag's Observations",
+      "slug": "the-hag-s-observations",
+      "duplicateTags": [
+        "Freaky Gray Company"
+      ]
+    },
+    {
+      "title": "C1E21: Traces",
+      "slug": "c1e21-traces",
+      "duplicateTags": [
+        "Freaky Gray Company"
+      ]
+    },
+    {
+      "title": "C1E10:  With Great Haste",
+      "slug": "c1e10-with-great-haste",
+      "duplicateTags": [
+        "Freaky Gray Company"
+      ]
+    },
+    {
+      "title": "C1E9:  Building a Mystery",
+      "slug": "c1e9-building-a-mystery",
+      "duplicateTags": [
+        "Freaky Gray Company"
+      ]
+    }
+  ],
+  "proposalGroups": {
+    "navigation_keep": [
+      "City of Mist",
+      "Freaky Gray Company",
+      "The Chosen",
+      "CoM Prologue",
+      "CoM Season 1",
+      "Arc 1",
+      "Arc 2",
+      "Season 1",
+      "Season 2",
+      "Season 3",
+      "Kamordah",
+      "Zadash"
+    ],
+    "characters_discuss": [
+      "Daniel",
+      "Geoffrey",
+      "London",
+      "Maeve",
+      "Kevin",
+      "Sergei",
+      "Cody",
+      "John",
+      "Wren",
+      "Phelan",
+      "Khoraka",
+      "Snow",
+      "Ferric",
+      "Erash",
+      "Valgara"
+    ],
+    "format_discuss": [
+      "Session Notes",
+      "Session Recap"
+    ],
+    "broad_discuss": [
+      "D&D",
+      "Wildemount",
+      "Campaign 2003"
+    ],
+    "venue_discuss": [
+      "tavern",
+      "inns",
+      "shop",
+      "shops",
+      "spa"
+    ],
+    "omit_candidates": [
+      "#Import 2026-01-12 15:50",
+      "#Import 2026-02-02 16:14",
+      "#Import 2026-02-02 16:43",
+      "#Import 2026-02-02 16:54",
+      "News"
+    ]
+  }
+}
