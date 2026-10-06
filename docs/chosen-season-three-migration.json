@@ -1,0 +1,886 @@
+{
+  "batch": "The Chosen Season 3",
+  "spamScan": "Omitted 27 unrelated shopping-spam paragraphs across 19 posts after reviewing body text and links. Individual injection fields not read or migrated.",
+  "posts": [
+    {
+      "slug": "initiation",
+      "sourceId": "69812b311c553405dce94a24",
+      "title": "3.14 Initiation",
+      "publishedAt": "2006-04-27T00:00:00.000Z",
+      "tags": [
+        "The Chosen",
+        "Season 3",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "b2718bb8c9c0a089c5ff258850393cdaace7581eb55fe172c16d67df11b2b0bf",
+      "file": "src/content/posts/initiation.md",
+      "omittedParagraphs": 1,
+      "omissions": [
+        {
+          "paragraphIndex": 60,
+          "sha256": "5e9aedac858aa97f8b1092d30ce38a1de01882d4c115d0a29a0385ab5cbd3054",
+          "reason": "Unrelated shopping spam"
+        }
+      ],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 0,
+      "downloads": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "toxic",
+      "sourceId": "69812b311c553405dce94a25",
+      "title": "3.2 Toxic",
+      "publishedAt": "2005-12-09T01:00:00.000Z",
+      "tags": [
+        "The Chosen",
+        "Season 3",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "88de0e9a0ca2aebe059072e0faaa688c3992a76458d4df08d43ccc4ab8d9d361",
+      "file": "src/content/posts/toxic.md",
+      "omittedParagraphs": 0,
+      "omissions": [],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 0,
+      "downloads": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "code-blue",
+      "sourceId": "69812b311c553405dce94a26",
+      "title": "3.3 Code Blue",
+      "publishedAt": "2005-12-11T01:00:00.000Z",
+      "tags": [
+        "The Chosen",
+        "Season 3",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "e2edcff4acd9e94006492522b432af64e52769b06e1d76ba166286e845e88f1f",
+      "file": "src/content/posts/code-blue.md",
+      "omittedParagraphs": 2,
+      "omissions": [
+        {
+          "paragraphIndex": 31,
+          "sha256": "8a913aef8b11703ed67fd0b6a0402c94ba1a0f89833bf12014db42969ec01bad",
+          "reason": "Unrelated shopping spam"
+        },
+        {
+          "paragraphIndex": 32,
+          "sha256": "8fa7bcffa7806625916ca145c21841decf1801d4bc6bedb0c613498ded07132c",
+          "reason": "Unrelated shopping spam"
+        }
+      ],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 0,
+      "downloads": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "slayer",
+      "sourceId": "69812b311c553405dce94a27",
+      "title": "3.4 Slayer",
+      "publishedAt": "2005-12-18T01:00:00.000Z",
+      "tags": [
+        "The Chosen",
+        "Season 3",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "290ed982b9398ff644f62006c60a3d9c0e4554c00ad76668e6bfe623b0c5357e",
+      "file": "src/content/posts/slayer.md",
+      "omittedParagraphs": 1,
+      "omissions": [
+        {
+          "paragraphIndex": 39,
+          "sha256": "2579434124f998b2142c86f2f75a7247f24b5792e2c91a6ee0cdb0b3ae0d1779",
+          "reason": "Unrelated shopping spam"
+        }
+      ],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 0,
+      "downloads": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "forest-of-the-dead",
+      "sourceId": "69812b311c553405dce94a28",
+      "title": "3.5 Forest of the Dead",
+      "publishedAt": "2005-12-26T01:00:00.000Z",
+      "tags": [
+        "The Chosen",
+        "Season 3",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "0300e5d940817cc98117230bc48417214b167da61cd53443445855e7806fb8eb",
+      "file": "src/content/posts/forest-of-the-dead.md",
+      "omittedParagraphs": 2,
+      "omissions": [
+        {
+          "paragraphIndex": 30,
+          "sha256": "62a6c7e514c63b9452c10cf8f8805d30a255ea751828371fb5886001aebf99af",
+          "reason": "Unrelated shopping spam"
+        },
+        {
+          "paragraphIndex": 33,
+          "sha256": "36182edcc4def9b4c73c7c774cc7587553ea08a3867d7bac26c3896aeb731407",
+          "reason": "Unrelated shopping spam"
+        }
+      ],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 0,
+      "downloads": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "www",
+      "sourceId": "69812b311c553405dce94a29",
+      "title": "3.11 WWW",
+      "publishedAt": "2006-03-23T01:00:00.000Z",
+      "tags": [
+        "The Chosen",
+        "Season 3",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "7f5a88991dec6b00ee54cd87a02b9ce7c17d1d457f7f43c592e7871aec197dd9",
+      "file": "src/content/posts/www.md",
+      "omittedParagraphs": 1,
+      "omissions": [
+        {
+          "paragraphIndex": 18,
+          "sha256": "d64ea1830e6a0f3969af3232a271347e647bbca6f541db0cfc73197dfd627e7f",
+          "reason": "Unrelated shopping spam"
+        }
+      ],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 0,
+      "downloads": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "parents-night",
+      "sourceId": "69812b311c553405dce94a2a",
+      "title": "3.7 Parent's Night",
+      "publishedAt": "2006-02-01T01:00:00.000Z",
+      "tags": [
+        "The Chosen",
+        "Season 3",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "e51f2a6e33fa614857e77975f57fa57069e2d24f6e7948124dfeec320fd6049c",
+      "file": "src/content/posts/parents-night.md",
+      "omittedParagraphs": 2,
+      "omissions": [
+        {
+          "paragraphIndex": 36,
+          "sha256": "4d2ae94e490a2b9f7a87961a712280c2ba34876b5f13a4be43457666ecffd18c",
+          "reason": "Unrelated shopping spam"
+        },
+        {
+          "paragraphIndex": 37,
+          "sha256": "f8892edb072cd5969d1d8d047c3a656b11a1ae5dc708a3a484cf5705fcaa2b01",
+          "reason": "Unrelated shopping spam"
+        }
+      ],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 0,
+      "downloads": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "jaded",
+      "sourceId": "69812b311c553405dce94a2b",
+      "title": "3.8 Jaded",
+      "publishedAt": "2006-02-03T01:00:00.000Z",
+      "tags": [
+        "The Chosen",
+        "Season 3",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "5b13ab90aa6fc51e769ef6b9f7ccf799676553e73234e9f59e9af8774233db0b",
+      "file": "src/content/posts/jaded.md",
+      "omittedParagraphs": 1,
+      "omissions": [
+        {
+          "paragraphIndex": 45,
+          "sha256": "218013ddbb1da6e256c98362cc0760b26567fe8f0d5ac0ad33fe95c2a02686f8",
+          "reason": "Unrelated shopping spam"
+        }
+      ],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 0,
+      "downloads": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "the-call-pt-1",
+      "sourceId": "69812b311c553405dce94a2c",
+      "title": "3.9 The Call, Part One",
+      "publishedAt": "2006-02-16T01:00:00.000Z",
+      "tags": [
+        "The Chosen",
+        "Season 3",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "f544ef1ee4762cb2567e5fee3b041f94229a57c10f70ae21ccc94875d3d76a43",
+      "file": "src/content/posts/the-call-pt-1.md",
+      "omittedParagraphs": 1,
+      "omissions": [
+        {
+          "paragraphIndex": 26,
+          "sha256": "5c350f4b5ef8cdd97e5b194d77be80f1c70b4106c970fd69b877c7419e9c9a97",
+          "reason": "Unrelated shopping spam"
+        }
+      ],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 0,
+      "downloads": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "the-call-pt-2",
+      "sourceId": "69812b311c553405dce94a2d",
+      "title": "3.10 The Call, Part Two",
+      "publishedAt": "2006-03-21T01:00:00.000Z",
+      "tags": [
+        "The Chosen",
+        "Season 3",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "57e3f93a2ce93f1ce368f78e99d977f4c905da83ee8d03ce3c2133c07a6d9531",
+      "file": "src/content/posts/the-call-pt-2.md",
+      "omittedParagraphs": 2,
+      "omissions": [
+        {
+          "paragraphIndex": 29,
+          "sha256": "dbe861da416659ff4899ce09ec19260d1c93cd3fbb1ae433ec5c000dff366833",
+          "reason": "Unrelated shopping spam"
+        },
+        {
+          "paragraphIndex": 31,
+          "sha256": "1c591d664a085b71593c0b8139bd3273cb2d5692539fe46d1fd917320083df9a",
+          "reason": "Unrelated shopping spam"
+        }
+      ],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 0,
+      "downloads": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "corrupted",
+      "sourceId": "69812b311c553405dce94a2e",
+      "title": "3.17 Corrupted",
+      "publishedAt": "2006-05-18T00:00:00.000Z",
+      "tags": [
+        "The Chosen",
+        "Season 3",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "45ac15347f25e6ed4f7c04833e6de48905bad73e59277669e5f0e5e0e8c9feb0",
+      "file": "src/content/posts/corrupted.md",
+      "omittedParagraphs": 1,
+      "omissions": [
+        {
+          "paragraphIndex": 88,
+          "sha256": "5f5c4d82b119fe433d361ac6f7aa0b6b1e318661ff1591676f10c54afb61f6cd",
+          "reason": "Unrelated shopping spam"
+        }
+      ],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 0,
+      "downloads": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "autsd",
+      "sourceId": "69812b311c553405dce94a2f",
+      "title": "3.19 A.U.T.S.D.",
+      "publishedAt": "2006-07-12T00:00:00.000Z",
+      "tags": [
+        "The Chosen",
+        "Season 3",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "ef87f8e834ff8c6f24a2f5638775c804a7ddf2378ccf861ee6959c04061ceb0b",
+      "file": "src/content/posts/autsd.md",
+      "omittedParagraphs": 0,
+      "omissions": [],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 0,
+      "downloads": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "sleepwalker",
+      "sourceId": "69812b311c553405dce94a30",
+      "title": "3.13 Sleepwalker",
+      "publishedAt": "2006-04-16T00:00:00.000Z",
+      "tags": [
+        "The Chosen",
+        "Season 3",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "9dda9bc6e44923c32b0fd0c937d6f809feb42458a7f9e12771ff1a8c5c38a344",
+      "file": "src/content/posts/sleepwalker.md",
+      "omittedParagraphs": 0,
+      "omissions": [],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 0,
+      "downloads": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "two-steps-forward",
+      "sourceId": "69812b311c553405dce94a31",
+      "title": "3.12 Two Steps Forward",
+      "publishedAt": "2006-04-06T00:00:00.000Z",
+      "tags": [
+        "The Chosen",
+        "Season 3",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "03b4eca42ba250c8eaaf5742722b8d8bf825691e4fcbbefe4bd57e98dc5a1a88",
+      "file": "src/content/posts/two-steps-forward.md",
+      "omittedParagraphs": 2,
+      "omissions": [
+        {
+          "paragraphIndex": 29,
+          "sha256": "11a050cc6be65cded64b6dc70ee46dcdb36c3ff59cea7a45dada5d900c9c834e",
+          "reason": "Unrelated shopping spam"
+        },
+        {
+          "paragraphIndex": 31,
+          "sha256": "4ee14ddf3fee0144cdac089598484f7b023c4cbcee2361c8e10e20ab7d60ed10",
+          "reason": "Unrelated shopping spam"
+        }
+      ],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 0,
+      "downloads": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "sanctuary",
+      "sourceId": "69812b311c553405dce94a32",
+      "title": "3.18 Sanctuary",
+      "publishedAt": "2006-06-30T00:00:00.000Z",
+      "tags": [
+        "The Chosen",
+        "Season 3",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "b28e661fb90a948331d3d55370b554a09a8117d15e30a0052742b57f764d2850",
+      "file": "src/content/posts/sanctuary.md",
+      "omittedParagraphs": 1,
+      "omissions": [
+        {
+          "paragraphIndex": 28,
+          "sha256": "f33f37dee5b4d2c01729c640b78c36a6abd694fdf7bb2440c1f2d96e8f51ef9f",
+          "reason": "Unrelated shopping spam"
+        }
+      ],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 0,
+      "downloads": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "beautiful-day",
+      "sourceId": "69812b311c553405dce94a33",
+      "title": "3.21 Beautiful Day",
+      "publishedAt": "2006-08-06T00:00:00.000Z",
+      "tags": [
+        "The Chosen",
+        "Season 3",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "be31ef01c1b2c13ad1d842d603c68914598febb66db8ed8152a1c2a58ef65ae5",
+      "file": "src/content/posts/beautiful-day.md",
+      "omittedParagraphs": 2,
+      "omissions": [
+        {
+          "paragraphIndex": 38,
+          "sha256": "64cb06f6514a4d17367e189bb3b4a8430f496fee424eba8be50998f5dab01447",
+          "reason": "Unrelated shopping spam"
+        },
+        {
+          "paragraphIndex": 39,
+          "sha256": "94b983472dcdf5b5b060bdd35e5b9edded1398a71880e15e04d756370089b54e",
+          "reason": "Unrelated shopping spam"
+        }
+      ],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 0,
+      "downloads": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "the-answer-pt-1",
+      "sourceId": "69812b311c553405dce94a34",
+      "title": "3.22 The Answer, Part I",
+      "publishedAt": "2006-08-09T00:00:00.000Z",
+      "tags": [
+        "The Chosen",
+        "Season 3",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "aa7f2c450cff7479903548c35d19f2b7f7c5e1ec881bc26cd8c62fc3ce1288db",
+      "file": "src/content/posts/the-answer-pt-1.md",
+      "omittedParagraphs": 0,
+      "omissions": [],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 0,
+      "downloads": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "armageddon",
+      "sourceId": "69812b311c553405dce94a35",
+      "title": "3.20 Armageddon",
+      "publishedAt": "2006-07-13T00:00:00.000Z",
+      "tags": [
+        "The Chosen",
+        "Season 3",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "46352265d8289de891c8b0f9aa8e5bef1c0e0c21ad7ce6eff1c586299664b84a",
+      "file": "src/content/posts/armageddon.md",
+      "omittedParagraphs": 2,
+      "omissions": [
+        {
+          "paragraphIndex": 49,
+          "sha256": "84b6f325122365c7ed690fc2a01090c45d9aea89844e22194f37eeb796856b68",
+          "reason": "Unrelated shopping spam"
+        },
+        {
+          "paragraphIndex": 51,
+          "sha256": "928073cab20990a53ab5b84df8df34e2f8c10b66514fa746b8c762910ddb4703",
+          "reason": "Unrelated shopping spam"
+        }
+      ],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 0,
+      "downloads": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "3-1-something-old-something-new",
+      "sourceId": "698188281c553405dce94c23",
+      "title": "3.1 Something Old, Something New",
+      "publishedAt": "2005-12-06T06:00:00.000Z",
+      "tags": [
+        "The Chosen",
+        "Session Recaps",
+        "Season 3"
+      ],
+      "sourceHtmlSha256": "dc6e1efd1e233a83382fd4f901922f0b7dbc14dfe86f80522017d115634e20ea",
+      "file": "src/content/posts/3-1-something-old-something-new.md",
+      "omittedParagraphs": 1,
+      "omissions": [
+        {
+          "paragraphIndex": 27,
+          "sha256": "800a6836c75b7067fe6b0076c622de30d67a0085b7d90eab6d53bf2668c2eb74",
+          "reason": "Unrelated shopping spam"
+        }
+      ],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 0,
+      "downloads": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "3-15-dead-end",
+      "sourceId": "698265f61c553405dce94cfe",
+      "title": "3.15 Dead End",
+      "publishedAt": "2006-04-28T05:00:00.000Z",
+      "tags": [
+        "The Chosen",
+        "Season 3"
+      ],
+      "sourceHtmlSha256": "5186f5e05dcbce107c982b25552e797a4c2c049da048111dd312e5905f5a8470",
+      "file": "src/content/posts/3-15-dead-end.md",
+      "omittedParagraphs": 1,
+      "omissions": [
+        {
+          "paragraphIndex": 22,
+          "sha256": "82f4c504a39fa6275f143975ed876dc0fbfb5803b75fd5195e37a0ad5323b3db",
+          "reason": "Unrelated shopping spam"
+        }
+      ],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 0,
+      "downloads": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "3-16-anger-management",
+      "sourceId": "698266871c553405dce94d0f",
+      "title": "3.16 Anger Management",
+      "publishedAt": "2006-05-02T05:00:00.000Z",
+      "tags": [
+        "The Chosen",
+        "Season 3"
+      ],
+      "sourceHtmlSha256": "99b923e1aa7d1187c9c241749050ca1f9de42fe799556627f0e4edc58d03af84",
+      "file": "src/content/posts/3-16-anger-management.mdx",
+      "omittedParagraphs": 2,
+      "omissions": [
+        {
+          "paragraphIndex": 51,
+          "sha256": "7114241a20249c1a1d01f7f29bbfdd273d52ba5cdf3168fbb6d3c36c5f620c19",
+          "reason": "Unrelated shopping spam"
+        },
+        {
+          "paragraphIndex": 53,
+          "sha256": "bdf9f7284fd27e757e32c8061f72bf491f65c7db329064cf4f8106a9a8028411",
+          "reason": "Unrelated shopping spam"
+        }
+      ],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 0,
+      "downloads": 1,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "3-6-static",
+      "sourceId": "698552531c553405dce94f1b",
+      "title": "3.6 Static",
+      "publishedAt": "2006-01-14T06:00:00.000Z",
+      "tags": [
+        "The Chosen",
+        "Season 3"
+      ],
+      "sourceHtmlSha256": "874ce153a74b639087d595c3a13ad89d39d39120ea09a598b8d5fa4dfe457c39",
+      "file": "src/content/posts/3-6-static.md",
+      "omittedParagraphs": 1,
+      "omissions": [
+        {
+          "paragraphIndex": 20,
+          "sha256": "948555a8b67a448fbcc64e67626bcdeb2ca64dd46e4ad970e9e029d24bcc6ad6",
+          "reason": "Unrelated shopping spam"
+        }
+      ],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 0,
+      "downloads": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "3-23-the-answer-part-2",
+      "sourceId": "69855ad51c553405dce94f7e",
+      "title": "3.23 The Answer, Part 2",
+      "publishedAt": "2006-08-12T05:00:00.000Z",
+      "tags": [
+        "The Chosen",
+        "Season 3",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "e08695948cbb119bf0bd23a7ec1e69c90651ede96026730b8c74b6e9f378439d",
+      "file": "src/content/posts/3-23-the-answer-part-2.md",
+      "omittedParagraphs": 1,
+      "omissions": [
+        {
+          "paragraphIndex": 2,
+          "sha256": "39fe3abea4f7b04af7b1bb04e09f8fabd13b76948e70f217062e16a7397f87b4",
+          "reason": "Unrelated shopping spam"
+        }
+      ],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 0,
+      "downloads": 0,
+      "embeds": 0,
+      "callouts": 0
+    }
+  ],
+  "media": [
+    {
+      "source": "/assets/images/2026/02/musetta._An_ornate_Tibetan_ceremonial_plate_with_intricate_go_966f27ed-a20c-4a41-8aa6-df093aae3cc5_3.png",
+      "sourceSha256": "5312d6d925a2dd8721a368930034e9dbec7b44b9715c7cac17dc846b235c499d",
+      "sourceBytes": 1731616
+    },
+    {
+      "source": "/assets/images/2026/02/ChatGPT-Image-Feb-8--2026--10_53_12-PM.png",
+      "sourceSha256": "87fcf7d35100721ab4730176da283244400bf2e3551c1dde7677654474aa3299",
+      "sourceBytes": 2559108
+    },
+    {
+      "source": "/assets/images/2026/02/ChatGPT-Image-Feb-8--2026--11_26_36-PM.png",
+      "sourceSha256": "e92ca1b286767d4731a27634ad176d33da099e5f3432b02dd16897fb6d9c1083",
+      "sourceBytes": 2072652
+    },
+    {
+      "source": "/assets/images/2026/02/musetta._Young_man_in_his_20s_with_dark_hair_wearing_preppy_c_4a5113c8-0788-4510-ac41-14d9dcc2cc9a_0.png",
+      "sourceSha256": "5dd37fb590bb23199dae1db1183b9a9330b18dd755617557c6c52c3e4f1d5d84",
+      "sourceBytes": 1722699
+    },
+    {
+      "source": "/assets/images/2026/02/ChatGPT-Image-Feb-6--2026--11_47_09-PM.png",
+      "sourceSha256": "2954a74cea78a1a525cf4e3366b3658a1ea23297ca54ee957c50aac62c32cc44",
+      "sourceBytes": 2268815
+    },
+    {
+      "source": "/assets/images/2026/02/ChatGPT-Image-Feb-6--2026--11_18_26-PM.png",
+      "sourceSha256": "6bcbe534bfa289cff1d800d4f2a5d3956074970f8070a90ca2ea2b8aa4cb873c",
+      "sourceBytes": 3076541
+    },
+    {
+      "source": "/assets/images/2026/02/ChatGPT-Image-Feb-8--2026--04_48_57-PM.png",
+      "sourceSha256": "9913ce5dc50fbcb3c53f83126fdfc0ec8511029581c191243159e4b7bea601dd",
+      "sourceBytes": 2482103
+    },
+    {
+      "source": "/assets/images/2026/02/ChatGPT-Image-Feb-8--2026--11_10_40-PM.png",
+      "sourceSha256": "5c1460d33a618082eaf4eb7aba8db199fabdbca930180557dfa39d6b9b25fe80",
+      "sourceBytes": 2022038
+    },
+    {
+      "source": "/assets/images/2026/02/ChatGPT-Image-Feb-8--2026--08_23_24-PM.png",
+      "sourceSha256": "64d29f0b3a178d9d2e890098d8b42e6c7735a265effdbe1e7a091643154acc78",
+      "sourceBytes": 2330033
+    },
+    {
+      "source": "/assets/images/2026/02/musetta._ultra-realistic_view_of_an_old_cemetery_at_night_wit_7f5e082f-330f-4ff3-a9e3-7eaf3ea02de1_0.png",
+      "sourceSha256": "bb6bab7ebfca0005fff004fa666c91690f3e4309231f2415c22ae7d536c39f13",
+      "sourceBytes": 1803502
+    },
+    {
+      "source": "/assets/images/2026/02/musetta._View_looking_down_from_inside_a_remote_isolated_rust_445d17b3-6651-47d6-8373-e73e1f511156_3.png",
+      "sourceSha256": "73bde0acbc1de20ea76c95dac389dc1074178724dae76ed4ccdc58d45939bbcd",
+      "sourceBytes": 1602565
+    },
+    {
+      "source": "/assets/images/2026/02/ChatGPT-Image-Feb-8--2026--09_55_56-PM.png",
+      "sourceSha256": "8336575eaf8a0ce7815364008579abc76c153edca0c7035da948927f4567ad8b",
+      "sourceBytes": 2133530
+    },
+    {
+      "source": "/assets/images/2026/02/musetta._A_young_Katy_Rose_plays_the_role_of_a_beautiful_blon_fa66e009-4a11-4b77-9055-6fc399ad4b6f_3.png",
+      "sourceSha256": "b50a38172f82d5f6ac4f8f891380ecc80c371d18cae162fe73e2d51a4f4e41d1",
+      "sourceBytes": 1386015
+    },
+    {
+      "source": "/assets/images/2026/02/musetta._Four_college-aged_vampires_Raven_the_weirdly_intense_e31a4434-5565-4527-94e7-8be90f44d58c_0-1.png",
+      "sourceSha256": "34327b5812cfac39620f704feead6e7ffaba195257a13834bf926fd3ff37a470",
+      "sourceBytes": 1587411
+    },
+    {
+      "source": "/assets/images/2026/02/musetta._Wide_aerial_landscape_photograph_of_small_New_Englan_c59ef1c4-13c8-4cf8-b1a8-fe4395052810_3.png",
+      "sourceSha256": "5b40c2081daae1e8ff54c9c12b3ce9ecbd268b967db24d4478d12138bf66c71f",
+      "sourceBytes": 1821672
+    },
+    {
+      "source": "/assets/images/2026/02/musetta._httpss.mj.runNUgTHNw-imQ_Film_still_of_a_wide_angle__daaf239a-7eb1-4568-9674-b749e907b501_2.png",
+      "sourceSha256": "3190e0f064b8a8d6bcf9fb5023a7d3b524972dfe5347629d4d6ca0d5c56e3b50",
+      "sourceBytes": 1483387
+    },
+    {
+      "source": "/assets/images/2026/02/ChatGPT-Image-Feb-8--2026--05_52_52-PM-1.png",
+      "sourceSha256": "cb9befb875b9b4196983204c63c5c80afaf4bafe86871459c3ad75c537791448",
+      "sourceBytes": 2735093
+    },
+    {
+      "source": "/assets/images/2026/02/musetta._A_beautiful_young_latina_woman_from_the_referennce_i_cceca8f7-015f-495b-b34a-b0dbf0db3745_0.png",
+      "sourceSha256": "505abec0e3d6955ee40091d5e425a26461e2c4f8e239b9179dbd61e39917e220",
+      "sourceBytes": 1726397
+    },
+    {
+      "source": "/assets/images/2026/02/musetta._Tight_angled_shot_of_a_young_womans_torso_her_should_32b4c3b5-21b3-4ca4-8031-a1f1d92834ef_2.png",
+      "sourceSha256": "c3d60e4b5b143004c77a469e395ad025c721c64c697e1dfc080743f05407cf66",
+      "sourceBytes": 1569432
+    },
+    {
+      "source": "/assets/images/2026/02/musetta._A_well-dressed_gunslinger_in_a_black_hat_sits_at_a_p_34833a93-aaa8-4567-93b0-1095bc58992d_3.png",
+      "sourceSha256": "152900d599c8753f41fb3f06620739cb8857fc7a2017508b503e049049046fc2",
+      "sourceBytes": 1268615
+    },
+    {
+      "source": "/assets/images/2026/02/ChatGPT-Image-Feb-7--2026--04_41_22-PM.png",
+      "sourceSha256": "2d90171ec09ef678774632ce20989a42ec564239318c7ff2b0a7818bff380b43",
+      "sourceBytes": 1880041
+    },
+    {
+      "source": "/assets/images/2026/02/ChatGPT-Image-Feb-7--2026--03_25_23-PM.png",
+      "sourceSha256": "385ae6fa6784be2f33b09a3571ac77f8d5faef91f1d5b47584c0c4d0df94e6b3",
+      "sourceBytes": 2406202
+    },
+    {
+      "source": "/assets/images/2026/02/ChatGPT-Image-Feb-8--2026--07_58_51-PM.png",
+      "sourceSha256": "7ee6c08973c9352e437525030dfdcf32d4940ddd66cf7e68ce2e622f0855be4a",
+      "sourceBytes": 2223172
+    },
+    {
+      "source": "/assets/files/2026/02/ceremony.pdf",
+      "sourceSha256": "dd0ae7b4063c747c1d8fec8a2f657a49ba5d6ce12007ab097f621db0fddcd74f",
+      "sourceBytes": 44531
+    }
+  ],
+  "editorialNotes": [
+    "Source titles, slugs, dates, approved tag order and OOC/Gallery commentary retained. The original finale missing-notes notice is preserved; no lost summary invented. The PDF card uses the existing FileDownload component, retaining caption/display filename; alternate quotes retain HTML. Literal asterisk scene breaks are escaped to preserve their presentation. Source download-icon SVG/style text excluded from comparison; all visible card metadata preserved. Original backup, PDF and source images remain unchanged."
+  ],
+  "pdfTextScan": [
+    {
+      "source": "/assets/files/2026/02/ceremony.pdf",
+      "pages": 2,
+      "extractedTextCharacters": 3373,
+      "spamMatches": []
+    }
+  ],
+  "validation": {
+    "buildPages": 217,
+    "sourceBodiesPreservedAfterRecordedOmissions": 23,
+    "sceneSeparatorsPreserved": 160,
+    "literalAsteriskBreaksPreserved": 14,
+    "headingsPreserved": true,
+    "alternateBlockquotesPreserved": 5,
+    "pdfCardsPreserved": 1,
+    "pdfFilesByteIdentical": 1,
+    "pdfTextScanPages": 2,
+    "responsiveImageOccurrences": 1599,
+    "fullSizeLinks": 663,
+    "deliveryChecksums": 1720,
+    "xmlFiles": 19,
+    "seasonArchivePostLinks": 23,
+    "campaignPaginationVerified": true,
+    "homepageFilterPreserved": true,
+    "finaleMissingNotesNoticePreserved": true,
+    "allRetainedSourceRoutesBuilt": 168,
+    "approvedSourceOmissions": 2,
+    "remainingSourcePosts": 0
+  },
+  "mediaDelivery": {
+    "newAssets": 24,
+    "newImages": 23,
+    "newPdfs": 1,
+    "sourceBytes": 45937170,
+    "imageSourceBytes": 45892639,
+    "imageFullSizeDeliveryBytes": 4462010,
+    "pdfBytes": 44531,
+    "fullSizeDeliveryBytes": 4506541,
+    "responsiveVariants": 92,
+    "totalAssets": 437,
+    "totalDeliveryFiles": 1720,
+    "deletedObjects": 0,
+    "uploadedObjects": 116,
+    "publicDeliveryChecksumsVerified": [
+      "/assets/files/2026/02/ceremony.pdf",
+      "/assets/images/2026/02/ChatGPT-Image-Feb-6--2026--11_18_26-PM.webp",
+      "/assets/images/2026/02/musetta._ultra-realistic_view_of_an_old_cemetery_at_night_wit_7f5e082f-330f-4ff3-a9e3-7eaf3ea02de1_0.webp",
+      "/assets/images/2026/02/ChatGPT-Image-Feb-8--2026--11_26_36-PM.w320.webp"
+    ],
+    "pdfAttachmentHeadersVerified": 1
+  }
+}
