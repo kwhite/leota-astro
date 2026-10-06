@@ -149,6 +149,11 @@ html.dark-mode .leota .site-footer { background: var(--color-darkmode); padding-
 .leota-content table th { color: #fff; font-weight: 700; }
 .leota-content figcaption { font-size: 1.4rem; color: var(--color-secondary-text); text-align: center; }
 .leota-content hr { border: 0; border-top: 1px solid #424242; }
+.leota-content .leota-disclosure { padding: 20px 24px; border: 1px solid #424242; border-radius: 8px; }
+.leota-content .leota-disclosure > summary { cursor: pointer; font-weight: 700; }
+.leota-content .leota-disclosure[open] > summary { margin-bottom: 20px; }
+.leota-content .leota-disclosure > div > :first-child { margin-top: 0; }
+.leota-content .leota-disclosure > div > :last-child { margin-bottom: 0; }
 .leota-recent { border-top: 1px solid #303234; padding-block: max(6.4vmin, 40px); }
 .leota-recent-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 40px; }
 .leota-recent-grid .post-card { margin: 0; min-width: 0; }
