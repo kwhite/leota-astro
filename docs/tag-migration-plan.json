@@ -1,0 +1,1845 @@
+{
+  "date": "2026-10-06",
+  "status": "Approved core cleanup; remaining optional categories pending",
+  "canonicalFormatTag": "Session Recaps",
+  "homepageFilter": "CoM Season 1",
+  "preserveBackupExport": true,
+  "retainTags": [
+    "City of Mist",
+    "Freaky Gray Company",
+    "The Chosen",
+    "CoM Prologue",
+    "CoM Season 1",
+    "Arc 1",
+    "Arc 2",
+    "Season 1",
+    "Season 2",
+    "Season 3",
+    "Kamordah",
+    "Zadash",
+    "Session Recaps",
+    "Feolinn"
+  ],
+  "omitTags": [
+    "#Import 2026-01-12 15:50",
+    "#Import 2026-02-02 16:14",
+    "#Import 2026-02-02 16:43",
+    "#Import 2026-02-02 16:54",
+    "Cody",
+    "Daniel",
+    "Erash",
+    "Ferric",
+    "Geoffrey",
+    "John",
+    "Kevin",
+    "Khoraka",
+    "London",
+    "Maeve",
+    "News",
+    "Phelan",
+    "Sergei",
+    "Snow",
+    "Valgara",
+    "Wren",
+    "shop"
+  ],
+  "renameTags": {
+    "Session Notes": "Session Recaps",
+    "Session Recap": "Session Recaps"
+  },
+  "pendingTags": [
+    "D&D",
+    "Wildemount",
+    "Campaign 2003",
+    "tavern",
+    "inns",
+    "shops",
+    "spa"
+  ],
+  "postOverrides": {
+    "feolinn-shops-eateries-entertainment": {
+      "action": "migrate",
+      "tags": [
+        "Feolinn"
+      ],
+      "reason": "Approved Gazette location"
+    },
+    "quicksliver-cabaret": {
+      "action": "migrate",
+      "tags": [
+        "Zadash"
+      ],
+      "reason": "Approved Gazette classification; preserve existing source slug"
+    },
+    "steamed-buns": {
+      "action": "omit",
+      "replacement": "/the-steamed-buns/",
+      "reason": "User confirmed recreated version supersedes import-marker entry"
+    },
+    "the-invulnerable-vagrant-2": {
+      "action": "omit",
+      "replacement": "/the-invulnerable-vagrant/",
+      "reason": "User confirmed recreated version supersedes import-marker entry"
+    },
+    "1-5-when-the-cats-away": {
+      "action": "migrate",
+      "tags": [],
+      "reason": "Retain original direct-link target; intentionally no campaign or season tags",
+      "linkedFrom": "/1-5-when-the-cats-away-summary/",
+      "campaignOrChronologyInference": false
+    }
+  },
+  "sourcePostPlan": [
+    {
+      "slug": "2024-12-21-session-notes",
+      "title": "2024.12.21 Session Notes",
+      "action": "migrate",
+      "tags": [
+        "City of Mist",
+        "CoM Prologue",
+        "Session Recaps"
+      ]
+    },
+    {
+      "slug": "2024-12-30-session-notes",
+      "title": "2024.12.30 Session Notes",
+      "action": "migrate",
+      "tags": [
+        "City of Mist",
+        "CoM Prologue",
+        "Session Recaps"
+      ]
+    },
+    {
+      "slug": "geoffrey-voice-over",
+      "title": "Voice Over: Geoffrey",
+      "action": "retain-existing",
+      "tags": [
+        "City of Mist",
+        "CoM Prologue"
+      ]
+    },
+    {
+      "slug": "voice-over-london",
+      "title": "Voice Over: London",
+      "action": "migrate",
+      "tags": [
+        "City of Mist",
+        "CoM Prologue"
+      ]
+    },
+    {
+      "slug": "2025-01-04-session-notes",
+      "title": "2025.01.04 Session Notes",
+      "action": "migrate",
+      "tags": [
+        "City of Mist",
+        "CoM Prologue",
+        "Session Recaps"
+      ]
+    },
+    {
+      "slug": "voice-over-sergei",
+      "title": "Voice Over: Sergei",
+      "action": "migrate",
+      "tags": [
+        "City of Mist",
+        "CoM Prologue"
+      ]
+    },
+    {
+      "slug": "2024-01-18-session-notes",
+      "title": "2024.01.18 Session Notes",
+      "action": "migrate",
+      "tags": [
+        "City of Mist",
+        "CoM Prologue",
+        "Session Recaps"
+      ]
+    },
+    {
+      "slug": "voice-over-kevin",
+      "title": "Voice Over: Kevin",
+      "action": "migrate",
+      "tags": [
+        "City of Mist",
+        "CoM Prologue"
+      ]
+    },
+    {
+      "slug": "2025-01-25-session-notes",
+      "title": "2025.01.25 Session Notes",
+      "action": "migrate",
+      "tags": [
+        "City of Mist",
+        "CoM Prologue",
+        "Session Recaps"
+      ]
+    },
+    {
+      "slug": "2025-02-01-session-notes",
+      "title": "2025.02.01 Session Notes",
+      "action": "migrate",
+      "tags": [
+        "City of Mist",
+        "CoM Prologue",
+        "Session Recaps"
+      ]
+    },
+    {
+      "slug": "2025-0215-session-notes",
+      "title": "2025.02.15 Session Notes",
+      "action": "migrate",
+      "tags": [
+        "City of Mist",
+        "CoM Prologue",
+        "Session Recaps"
+      ]
+    },
+    {
+      "slug": "voice-over-daniel",
+      "title": "Voice Over: Daniel",
+      "action": "migrate",
+      "tags": [
+        "City of Mist",
+        "CoM Prologue"
+      ]
+    },
+    {
+      "slug": "2025-02-21-session-notes",
+      "title": "2025.02.21 Session Notes",
+      "action": "migrate",
+      "tags": [
+        "City of Mist",
+        "CoM Prologue",
+        "Session Recaps"
+      ]
+    },
+    {
+      "slug": "legends-awaken",
+      "title": "Legends Awaken",
+      "action": "migrate",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "D&D"
+      ]
+    },
+    {
+      "slug": "2025-03-01-session-notes",
+      "title": "2025.03.01 Session Notes",
+      "action": "migrate",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "D&D",
+        "Session Recaps"
+      ]
+    },
+    {
+      "slug": "2025-03-22-session-notes",
+      "title": "2025.03.22 Session Notes",
+      "action": "migrate",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "D&D",
+        "Session Recaps"
+      ]
+    },
+    {
+      "slug": "2025-03-29-session-notes",
+      "title": "2025.03.29 Session Notes",
+      "action": "retain-existing",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "D&D",
+        "Session Recaps"
+      ]
+    },
+    {
+      "slug": "2025-04-05-session-notes",
+      "title": "2025.04.05 Session Notes",
+      "action": "migrate",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "D&D",
+        "Session Recaps"
+      ]
+    },
+    {
+      "slug": "2025-04-18-session-notes",
+      "title": "2025.04.18 Session Notes",
+      "action": "migrate",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "D&D",
+        "Session Recaps"
+      ]
+    },
+    {
+      "slug": "2025-05-03-session-notes",
+      "title": "2025.05.03 Session Notes",
+      "action": "migrate",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "D&D",
+        "Session Recaps"
+      ]
+    },
+    {
+      "slug": "2025-05-25-session-notes",
+      "title": "2025.05.25 Session Notes",
+      "action": "migrate",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "D&D",
+        "Session Recaps"
+      ]
+    },
+    {
+      "slug": "2025-06-01-session-notes",
+      "title": "2025.06.01 Session Notes",
+      "action": "migrate",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "D&D",
+        "Session Recaps"
+      ]
+    },
+    {
+      "slug": "2025-06-08-session-notes",
+      "title": "2025.06.08 Session Notes",
+      "action": "migrate",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "D&D",
+        "Session Recaps"
+      ]
+    },
+    {
+      "slug": "the-red-veil",
+      "title": "The Red Veil",
+      "action": "retain-existing",
+      "tags": [
+        "Kamordah",
+        "tavern",
+        "Wildemount"
+      ]
+    },
+    {
+      "slug": "the-vintners-respite",
+      "title": "The Vintner’s Respite",
+      "action": "retain-existing",
+      "tags": [
+        "Kamordah",
+        "inns",
+        "Wildemount"
+      ]
+    },
+    {
+      "slug": "the-scarlet-root",
+      "title": "The Scarlet Root",
+      "action": "retain-existing",
+      "tags": [
+        "Kamordah",
+        "shops"
+      ]
+    },
+    {
+      "slug": "the-emberglow-atelier",
+      "title": "The Emberglow Atelier",
+      "action": "retain-existing",
+      "tags": [
+        "Kamordah",
+        "shops"
+      ]
+    },
+    {
+      "slug": "emberpetal-springs",
+      "title": "Fire Orchid Springs",
+      "action": "retain-existing",
+      "tags": [
+        "Kamordah",
+        "spa"
+      ]
+    },
+    {
+      "slug": "the-invulnerable-vagrant",
+      "title": "The Invulnerable Vagrant",
+      "action": "retain-existing",
+      "tags": [
+        "Zadash",
+        "shops"
+      ]
+    },
+    {
+      "slug": "the-steamed-buns",
+      "title": "The Steamed Buns",
+      "action": "retain-existing",
+      "tags": [
+        "Zadash",
+        "spa"
+      ]
+    },
+    {
+      "slug": "2025-06-14-session-notes",
+      "title": "2025.06.14 Session Notes",
+      "action": "migrate",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "D&D",
+        "Session Recaps"
+      ]
+    },
+    {
+      "slug": "2025-06-28-session-notes",
+      "title": "2025.06.28 Session Notes",
+      "action": "migrate",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "D&D",
+        "Session Recaps"
+      ]
+    },
+    {
+      "slug": "2025-07-26-session-notes",
+      "title": "2025.07.26 Session Notes",
+      "action": "migrate",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "D&D",
+        "Session Recaps"
+      ]
+    },
+    {
+      "slug": "2025-08-09-session-notes",
+      "title": "2025.08.09 Session Notes",
+      "action": "migrate",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "D&D",
+        "Session Recaps"
+      ]
+    },
+    {
+      "slug": "2025-08-15-session-notes",
+      "title": "2025.08.15 Session Notes",
+      "action": "migrate",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "D&D",
+        "Session Recaps"
+      ]
+    },
+    {
+      "slug": "2025-09-01-session-notes",
+      "title": "2025.09.01 Session Notes",
+      "action": "migrate",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "D&D",
+        "Session Recaps"
+      ]
+    },
+    {
+      "slug": "2025-09-06-session-notes",
+      "title": "2025.09.06 Session Notes",
+      "action": "migrate",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "D&D",
+        "Session Recaps"
+      ]
+    },
+    {
+      "slug": "2025-09-14-session-notes",
+      "title": "2025.09.14 Session Notes",
+      "action": "migrate",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "D&D",
+        "Session Recaps"
+      ]
+    },
+    {
+      "slug": "2025-09-28-session-notes",
+      "title": "2025.09.28 Session Notes",
+      "action": "migrate",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "D&D",
+        "Session Recaps"
+      ]
+    },
+    {
+      "slug": "2025-10-08-session-notes",
+      "title": "2025.10.08 Session Notes",
+      "action": "migrate",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "D&D",
+        "Session Recaps"
+      ]
+    },
+    {
+      "slug": "2025-12-27-session-notes",
+      "title": "2025.12.27 Session Notes",
+      "action": "migrate",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "D&D",
+        "Session Recaps"
+      ]
+    },
+    {
+      "slug": "2026-01-03-session-notes",
+      "title": "2026.01.03 Session Notes",
+      "action": "migrate",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "D&D",
+        "Session Recaps"
+      ]
+    },
+    {
+      "slug": "the-hag-s-observations",
+      "title": "The Hag's Observations",
+      "action": "migrate",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ]
+    },
+    {
+      "slug": "a-nightmare-revealed",
+      "title": "A Nightmare Revealed",
+      "action": "migrate",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ]
+    },
+    {
+      "slug": "into-the-woods",
+      "title": "Into the Woods",
+      "action": "migrate",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ]
+    },
+    {
+      "slug": "the-bone-orchard",
+      "title": "The Bone Orchard",
+      "action": "migrate",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ]
+    },
+    {
+      "slug": "a-new-calling",
+      "title": "A New Calling",
+      "action": "migrate",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ]
+    },
+    {
+      "slug": "respite",
+      "title": "Respite",
+      "action": "migrate",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ]
+    },
+    {
+      "slug": "groundskeepers",
+      "title": "Groundskeepers",
+      "action": "migrate",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ]
+    },
+    {
+      "slug": "feolinn-shops-eateries-entertainment",
+      "title": "Feolinn Shops, Eateries & Entertainment",
+      "action": "migrate",
+      "tags": [
+        "Feolinn"
+      ]
+    },
+    {
+      "slug": "the-vampire-rose",
+      "title": "The Vampire Rose",
+      "action": "migrate",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ]
+    },
+    {
+      "slug": "homecoming",
+      "title": "Homecoming",
+      "action": "migrate",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ]
+    },
+    {
+      "slug": "the-lazy-dm-s-guide",
+      "title": "The Lazy DM’s Guide",
+      "action": "migrate",
+      "tags": [
+        "Arc 1",
+        "Freaky Gray Company",
+        "D&D",
+        "Session Recaps"
+      ]
+    },
+    {
+      "slug": "c1e27-at-the-river",
+      "title": "C1E27: At The River",
+      "action": "migrate",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ]
+    },
+    {
+      "slug": "ferric-divination",
+      "title": "Ferric: Divination",
+      "action": "migrate",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ]
+    },
+    {
+      "slug": "c1e26-new-friends",
+      "title": "C1E26: New Friends",
+      "action": "migrate",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ]
+    },
+    {
+      "slug": "c1e25-rescue",
+      "title": "C1E25: Rescue",
+      "action": "migrate",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ]
+    },
+    {
+      "slug": "c1e24-a-plan-revised",
+      "title": "C1E24: A Plan, Revised",
+      "action": "migrate",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ]
+    },
+    {
+      "slug": "c1e23-swagger",
+      "title": "C1E23: Swagger",
+      "action": "migrate",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ]
+    },
+    {
+      "slug": "c1e22-a-call-for-help",
+      "title": "C1E22: A call for help",
+      "action": "migrate",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ]
+    },
+    {
+      "slug": "c1e21-traces",
+      "title": "C1E21: Traces",
+      "action": "migrate",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ]
+    },
+    {
+      "slug": "c1e20-of-frogs-and-family",
+      "title": "C1E20: Of Frogs and Family",
+      "action": "migrate",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ]
+    },
+    {
+      "slug": "c1e19-quoraska",
+      "title": "C1E19: Quoraska",
+      "action": "migrate",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ]
+    },
+    {
+      "slug": "c1e18-beyond-the-city-gates",
+      "title": "C1E18: Beyond the City Gates",
+      "action": "migrate",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ]
+    },
+    {
+      "slug": "quicksliver-cabaret",
+      "title": "Quicksliver Cabaret",
+      "action": "migrate",
+      "tags": [
+        "Zadash"
+      ]
+    },
+    {
+      "slug": "c1e17-connections",
+      "title": "C1E17: Connections",
+      "action": "migrate",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ]
+    },
+    {
+      "slug": "erash-s-first-dream",
+      "title": "Erash’s First Dream",
+      "action": "migrate",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ]
+    },
+    {
+      "slug": "a-battle-of-wits",
+      "title": "A Battle of Wits",
+      "action": "migrate",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ]
+    },
+    {
+      "slug": "khoraka-s-second-dream",
+      "title": "Khoraka’s Second Dream",
+      "action": "migrate",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ]
+    },
+    {
+      "slug": "c1e16-illuminations",
+      "title": "C1E16: Illuminations",
+      "action": "migrate",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ]
+    },
+    {
+      "slug": "steamed-buns",
+      "title": "Steamed Buns",
+      "action": "omit",
+      "tags": [],
+      "replacement": "/the-steamed-buns/"
+    },
+    {
+      "slug": "c1e15-homeward-bound",
+      "title": "C1E15: Homeward Bound",
+      "action": "migrate",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ]
+    },
+    {
+      "slug": "the-invulnerable-vagrant-2",
+      "title": "The Invulnerable Vagrant",
+      "action": "omit",
+      "tags": [],
+      "replacement": "/the-invulnerable-vagrant/"
+    },
+    {
+      "slug": "c1e14-a-complicated-relationship",
+      "title": "C1E14:  A Complicated Relationship",
+      "action": "migrate",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ]
+    },
+    {
+      "slug": "c1e14-quarry-lost-and-found",
+      "title": "C1E14:  Quarry, Lost and Found",
+      "action": "migrate",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ]
+    },
+    {
+      "slug": "c1e13-to-grandmother-s-house",
+      "title": "C1E13:  To Grandmother’s House",
+      "action": "migrate",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ]
+    },
+    {
+      "slug": "c1e12-swamp-things",
+      "title": "C1E12:  Swamp Things",
+      "action": "migrate",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ]
+    },
+    {
+      "slug": "c1e11-labenda-awaits",
+      "title": "C1E11: Labenda Awaits",
+      "action": "migrate",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ]
+    },
+    {
+      "slug": "c1e10-with-great-haste",
+      "title": "C1E10:  With Great Haste",
+      "action": "migrate",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ]
+    },
+    {
+      "slug": "c1e9-building-a-mystery",
+      "title": "C1E9:  Building a Mystery",
+      "action": "migrate",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ]
+    },
+    {
+      "slug": "c1e8-elinore-s-plea",
+      "title": "C1E8: Elinore's Plea",
+      "action": "migrate",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ]
+    },
+    {
+      "slug": "c1e1-7-original-session-notes",
+      "title": "C1E1-7: Original Session Notes",
+      "action": "migrate",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ]
+    },
+    {
+      "slug": "2022-01-14-things-get-weird",
+      "title": "2023-01-14: Things get Weird",
+      "action": "migrate",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ]
+    },
+    {
+      "slug": "2026-01-24-session-notes",
+      "title": "2026.01.24 Session Notes",
+      "action": "migrate",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "D&D",
+        "Session Recaps"
+      ]
+    },
+    {
+      "slug": "2026-01-31-beneath-the-charcoal-palace",
+      "title": "2026.01.31: Beneath the Charcoal Palace",
+      "action": "migrate",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "D&D",
+        "Session Recaps"
+      ]
+    },
+    {
+      "slug": "school-daze",
+      "title": "1.10 School Daze",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 1",
+        "Session Recaps",
+        "Campaign 2003"
+      ]
+    },
+    {
+      "slug": "city-of-demons",
+      "title": "1.20 City of Demons",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 1",
+        "Session Recaps",
+        "Campaign 2003"
+      ]
+    },
+    {
+      "slug": "thief-in-the-knight",
+      "title": "1.17 Thief in the Knight",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 1",
+        "Session Recaps",
+        "Campaign 2003"
+      ]
+    },
+    {
+      "slug": "return-of-the-natives",
+      "title": "1.14 Return of the Natives",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 1",
+        "Session Recaps",
+        "Campaign 2003"
+      ]
+    },
+    {
+      "slug": "queen-bee",
+      "title": "1.13 Queen Bee",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 1",
+        "Session Recaps",
+        "Campaign 2003"
+      ]
+    },
+    {
+      "slug": "possessed",
+      "title": "1.15 Possessed",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 1",
+        "Session Recaps",
+        "Campaign 2003"
+      ]
+    },
+    {
+      "slug": "high-life",
+      "title": "1.11 High Life",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 1",
+        "Session Recaps",
+        "Campaign 2003"
+      ]
+    },
+    {
+      "slug": "superman",
+      "title": "1.19 Superman",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 1",
+        "Session Recaps",
+        "Campaign 2003"
+      ]
+    },
+    {
+      "slug": "good-friday",
+      "title": "1.18 Good Friday",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 1",
+        "Session Recaps",
+        "Campaign 2003"
+      ]
+    },
+    {
+      "slug": "witch-trials",
+      "title": "1.9 Witch Trials",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 1",
+        "Session Recaps",
+        "Campaign 2003"
+      ]
+    },
+    {
+      "slug": "lost-and",
+      "title": "1.21 Lost And...",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 1",
+        "Session Recaps",
+        "Campaign 2003"
+      ]
+    },
+    {
+      "slug": "found",
+      "title": "1.22 ...Found",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 1",
+        "Session Recaps",
+        "Campaign 2003"
+      ]
+    },
+    {
+      "slug": "a-fathers-love",
+      "title": "2.12 A Father's Love",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 2",
+        "Session Recaps",
+        "Campaign 2003"
+      ]
+    },
+    {
+      "slug": "catalyst",
+      "title": "2.20 Catalyst",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 2",
+        "Session Recaps",
+        "Campaign 2003"
+      ]
+    },
+    {
+      "slug": "ring-of-power",
+      "title": "2.16 Ring of Power",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 2",
+        "Session Recaps",
+        "Campaign 2003"
+      ]
+    },
+    {
+      "slug": "the-chain-is-broken",
+      "title": "2.11 The Chain is Broken",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 2",
+        "Session Recaps",
+        "Campaign 2003"
+      ]
+    },
+    {
+      "slug": "election",
+      "title": "2.21 Election",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 2",
+        "Session Recaps",
+        "Campaign 2003"
+      ]
+    },
+    {
+      "slug": "luck-o-the-irish",
+      "title": "2.15 Luck O' The Irish",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 2",
+        "Session Recaps",
+        "Campaign 2003"
+      ]
+    },
+    {
+      "slug": "do-over",
+      "title": "2.18 Do Over",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 2",
+        "Session Recaps",
+        "Campaign 2003"
+      ]
+    },
+    {
+      "slug": "family-jewels",
+      "title": "2.10 Family Jewels",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 2",
+        "Session Recaps",
+        "Campaign 2003"
+      ]
+    },
+    {
+      "slug": "play-it-again",
+      "title": "2.5 Play It Again",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 2",
+        "Session Recaps",
+        "Campaign 2003"
+      ]
+    },
+    {
+      "slug": "hail-to-the-victors",
+      "title": "2.6 Hail to the Victors",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 2",
+        "Session Recaps",
+        "Campaign 2003"
+      ]
+    },
+    {
+      "slug": "mostly-dead",
+      "title": "2.3 Mostly Dead",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 2",
+        "Session Recaps",
+        "Campaign 2003"
+      ]
+    },
+    {
+      "slug": "incumbent",
+      "title": "2.22 Incumbent",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 2",
+        "Session Recaps",
+        "Campaign 2003"
+      ]
+    },
+    {
+      "slug": "hunting-house",
+      "title": "2.4 Hunting House",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 2",
+        "Session Recaps",
+        "Campaign 2003"
+      ]
+    },
+    {
+      "slug": "tranquility",
+      "title": "2.8 Spa Kids",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 2",
+        "Session Recaps",
+        "Campaign 2003"
+      ]
+    },
+    {
+      "slug": "modern-times",
+      "title": "2.2 Modern Times",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 2",
+        "Session Recaps",
+        "Campaign 2003"
+      ]
+    },
+    {
+      "slug": "mirror-mirror",
+      "title": "2.19 Mirror, Mirror",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 2",
+        "Session Recaps",
+        "Campaign 2003"
+      ]
+    },
+    {
+      "slug": "the-demon-in-me",
+      "title": "2.13 The Demon in Me",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 2",
+        "Session Recaps",
+        "Campaign 2003"
+      ]
+    },
+    {
+      "slug": "something-wicked",
+      "title": "2.9 Something Wicked? This Way. Come.",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 2",
+        "Session Recaps",
+        "Campaign 2003"
+      ]
+    },
+    {
+      "slug": "the-natural-order-of-things",
+      "title": "2.1 The Natural Order of Things",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 2",
+        "Session Recaps",
+        "Campaign 2003"
+      ]
+    },
+    {
+      "slug": "the-not-so-hard-way",
+      "title": "2.14 The Not-So-Hard Way",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 2",
+        "Session Recaps",
+        "Campaign 2003"
+      ]
+    },
+    {
+      "slug": "visions-of-grandeur",
+      "title": "2.7 Visions of Grandeur",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 2",
+        "Session Recaps",
+        "Campaign 2003"
+      ]
+    },
+    {
+      "slug": "initiation",
+      "title": "3.14 Initiation",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 3",
+        "Session Recaps",
+        "Campaign 2003"
+      ]
+    },
+    {
+      "slug": "toxic",
+      "title": "3.2 Toxic",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 3",
+        "Session Recaps",
+        "Campaign 2003"
+      ]
+    },
+    {
+      "slug": "code-blue",
+      "title": "3.3 Code Blue",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 3",
+        "Session Recaps",
+        "Campaign 2003"
+      ]
+    },
+    {
+      "slug": "slayer",
+      "title": "3.4 Slayer",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 3",
+        "Session Recaps",
+        "Campaign 2003"
+      ]
+    },
+    {
+      "slug": "forest-of-the-dead",
+      "title": "3.5 Forest of the Dead",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 3",
+        "Session Recaps",
+        "Campaign 2003"
+      ]
+    },
+    {
+      "slug": "www",
+      "title": "3.11 WWW",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 3",
+        "Session Recaps",
+        "Campaign 2003"
+      ]
+    },
+    {
+      "slug": "parents-night",
+      "title": "3.7 Parent's Night",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 3",
+        "Session Recaps",
+        "Campaign 2003"
+      ]
+    },
+    {
+      "slug": "jaded",
+      "title": "3.8 Jaded",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 3",
+        "Session Recaps",
+        "Campaign 2003"
+      ]
+    },
+    {
+      "slug": "the-call-pt-1",
+      "title": "3.9 The Call, Part One",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 3",
+        "Session Recaps",
+        "Campaign 2003"
+      ]
+    },
+    {
+      "slug": "the-call-pt-2",
+      "title": "3.10 The Call, Part Two",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 3",
+        "Session Recaps",
+        "Campaign 2003"
+      ]
+    },
+    {
+      "slug": "corrupted",
+      "title": "3.17 Corrupted",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 3",
+        "Session Recaps",
+        "Campaign 2003"
+      ]
+    },
+    {
+      "slug": "autsd",
+      "title": "3.19 A.U.T.S.D.",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 3",
+        "Session Recaps",
+        "Campaign 2003"
+      ]
+    },
+    {
+      "slug": "sleepwalker",
+      "title": "3.13 Sleepwalker",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 3",
+        "Session Recaps",
+        "Campaign 2003"
+      ]
+    },
+    {
+      "slug": "two-steps-forward",
+      "title": "3.12 Two Steps Forward",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 3",
+        "Session Recaps",
+        "Campaign 2003"
+      ]
+    },
+    {
+      "slug": "sanctuary",
+      "title": "3.18 Sanctuary",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 3",
+        "Session Recaps",
+        "Campaign 2003"
+      ]
+    },
+    {
+      "slug": "beautiful-day",
+      "title": "3.21 Beautiful Day",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 3",
+        "Session Recaps",
+        "Campaign 2003"
+      ]
+    },
+    {
+      "slug": "the-answer-pt-1",
+      "title": "3.22 The Answer, Part I",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 3",
+        "Session Recaps",
+        "Campaign 2003"
+      ]
+    },
+    {
+      "slug": "armageddon",
+      "title": "3.20 Armageddon",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 3",
+        "Session Recaps",
+        "Campaign 2003"
+      ]
+    },
+    {
+      "slug": "3-1-something-old-something-new",
+      "title": "3.1 Something Old, Something New",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Session Recaps",
+        "Season 3"
+      ]
+    },
+    {
+      "slug": "3-15-dead-end",
+      "title": "3.15 Dead End",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 3"
+      ]
+    },
+    {
+      "slug": "3-16-anger-management",
+      "title": "3.16 Anger Management",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 3"
+      ]
+    },
+    {
+      "slug": "2-17-things-fall-apart",
+      "title": "2.17 Things Fall Apart",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 2"
+      ]
+    },
+    {
+      "slug": "3-6-static",
+      "title": "3.6 Static",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 3"
+      ]
+    },
+    {
+      "slug": "3-23-the-answer-part-2",
+      "title": "3.23 The Answer, Part 2",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 3",
+        "Session Recaps",
+        "Campaign 2003"
+      ]
+    },
+    {
+      "slug": "1-1-class-of-2007",
+      "title": "1.1 The Class of '07",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 1"
+      ]
+    },
+    {
+      "slug": "1-3-byob",
+      "title": "1.3 BYOB",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 1"
+      ]
+    },
+    {
+      "slug": "1-5-atom-and-eve",
+      "title": "1.5 Atom and Eve",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 1"
+      ]
+    },
+    {
+      "slug": "1-8-black-magick",
+      "title": "1.8 Black Magick",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 1"
+      ]
+    },
+    {
+      "slug": "1-12-pretty-piece-of-flesh",
+      "title": "1.12 Pretty Piece of Flesh",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 1"
+      ]
+    },
+    {
+      "slug": "1-16-power-play",
+      "title": "1.16 Power Play",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 1"
+      ]
+    },
+    {
+      "slug": "1-2-the-campout",
+      "title": "1.2 The Campout",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 1"
+      ]
+    },
+    {
+      "slug": "1-4-bloody-mary",
+      "title": "1.4 Bloody Mary",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 1"
+      ]
+    },
+    {
+      "slug": "1-6-growing-pains",
+      "title": "1.6 Growing Pains",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 1"
+      ]
+    },
+    {
+      "slug": "1-7-dead-and-gone",
+      "title": "1.7 Dead and Gone",
+      "action": "migrate",
+      "tags": [
+        "The Chosen",
+        "Season 1"
+      ]
+    },
+    {
+      "slug": "2026-02-20-eleven-fifty-nine",
+      "title": "2026.02.20: Eleven Fifty-Nine",
+      "action": "migrate",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "D&D",
+        "Session Recaps"
+      ]
+    },
+    {
+      "slug": "2026-02-28-the-museum-at-the-end-of-the-hall",
+      "title": "2026.02.28: The End of the Hall",
+      "action": "migrate",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "Session Recaps"
+      ]
+    },
+    {
+      "slug": "2026-03-07-happy-travels",
+      "title": "2026.03.07: \"Happy Travels...\"",
+      "action": "migrate",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "Session Recaps"
+      ]
+    },
+    {
+      "slug": "burn-on-your-own-terms",
+      "title": "2026.04.18: Burn on Your Own Terms",
+      "action": "migrate",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "Session Recaps",
+        "D&D"
+      ]
+    },
+    {
+      "slug": "2026-04-25-the-reckoning",
+      "title": "2026-04-25: The  Reckoning",
+      "action": "migrate",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "D&D",
+        "Session Recaps"
+      ]
+    },
+    {
+      "slug": "1-1-discord",
+      "title": "1.1 Discord",
+      "action": "migrate",
+      "tags": [
+        "City of Mist",
+        "CoM Season 1"
+      ]
+    },
+    {
+      "slug": "1-1-2-discord-contin",
+      "title": "1.1.2 Discord, cont.",
+      "action": "migrate",
+      "tags": [
+        "City of Mist",
+        "CoM Season 1"
+      ]
+    },
+    {
+      "slug": "1-2-chopping-block",
+      "title": "1.2 Chopping Block",
+      "action": "migrate",
+      "tags": [
+        "City of Mist",
+        "CoM Season 1"
+      ]
+    },
+    {
+      "slug": "1-2-2-chopping-block-cont",
+      "title": "1.2.2 Chopping Block, cont.",
+      "action": "migrate",
+      "tags": [
+        "City of Mist",
+        "CoM Season 1"
+      ]
+    },
+    {
+      "slug": "1-3-gravity",
+      "title": "1.3 Gravity",
+      "action": "migrate",
+      "tags": [
+        "City of Mist",
+        "CoM Season 1"
+      ]
+    },
+    {
+      "slug": "1-4-bad-apples",
+      "title": "1.4 Bad Apples",
+      "action": "migrate",
+      "tags": [
+        "City of Mist",
+        "CoM Season 1"
+      ]
+    },
+    {
+      "slug": "1-5-when-the-cats-away",
+      "title": "1.5 When the Cat's Away (Original)",
+      "action": "migrate",
+      "tags": []
+    },
+    {
+      "slug": "1-6-the-killing-fields",
+      "title": "1.6 The Killing Fields",
+      "action": "migrate",
+      "tags": [
+        "City of Mist",
+        "CoM Season 1"
+      ]
+    },
+    {
+      "slug": "1-7-far-from-the-tree-part-1",
+      "title": "1.7 Far from the Tree, Part 1",
+      "action": "migrate",
+      "tags": [
+        "City of Mist",
+        "CoM Season 1",
+        "Session Recaps"
+      ]
+    },
+    {
+      "slug": "1-8-far-from-the-tree-part-2",
+      "title": "1.8 Far from the Tree, Part 2",
+      "action": "retain-existing",
+      "tags": [
+        "City of Mist",
+        "CoM Season 1",
+        "Session Recaps"
+      ]
+    },
+    {
+      "slug": "1-9-far-from-the-tree-part-3",
+      "title": "1.9 Far from the Tree, Part 3",
+      "action": "migrate",
+      "tags": [
+        "City of Mist",
+        "CoM Season 1",
+        "Session Recaps"
+      ]
+    },
+    {
+      "slug": "1-5-when-the-cats-away-summary",
+      "title": "1.5 When the Cat's Away",
+      "action": "migrate",
+      "tags": [
+        "City of Mist",
+        "CoM Season 1"
+      ]
+    },
+    {
+      "slug": "1-10-queen-of-the-night",
+      "title": "1.10 Queen of the Night",
+      "action": "migrate",
+      "tags": [
+        "City of Mist",
+        "CoM Season 1",
+        "Session Recaps"
+      ]
+    }
+  ],
+  "linkHandling": {
+    "removedCharacterTagLinks": "Replace with plain character names during migration; retain text",
+    "omittedPostLinks": "Use approved replacement routes; preserve legacy slugs via redirects during migration",
+    "feolinnGazetteLink": "Add when its source content is migrated",
+    "renamedFormatArchives": [
+      {
+        "from": "/tag/session-notes/",
+        "to": "/tag/session-recaps/",
+        "status": "Static archive/feed redirects implemented"
+      },
+      {
+        "from": "/tag/session-recap/",
+        "to": "/tag/session-recaps/",
+        "status": "Static archive/feed redirects implemented"
+      }
+    ]
+  },
+  "legacySlugChanges": [
+    {
+      "tag": "City of Mist",
+      "from": "/tag/cityofmist/",
+      "to": "/tag/city-of-mist/"
+    },
+    {
+      "tag": "D&D",
+      "from": "/tag/dnd/",
+      "to": "/tag/d&d/"
+    },
+    {
+      "tag": "Freaky Gray Company",
+      "from": "/tag/fgc/",
+      "to": "/tag/freaky-gray-company/"
+    },
+    {
+      "tag": "Arc 1",
+      "from": "/tag/c1-a1/",
+      "to": "/tag/arc-1/"
+    },
+    {
+      "tag": "Arc 2",
+      "from": "/tag/c1-a2/",
+      "to": "/tag/arc-2/"
+    }
+  ],
+  "summary": {
+    "sourcePosts": 170,
+    "retainedArchivePosts": 168,
+    "alreadyMigratedPosts": 10,
+    "remainingPostsToMigrate": 158,
+    "approvedOmissions": 2,
+    "untaggedRetainedPosts": [
+      "1-5-when-the-cats-away"
+    ]
+  }
+}

@@ -1,24 +1,30 @@
 # Here Be Dragons / Leota Astro — thread handoff
 
-Last updated: 2026-10-05, end of session after Chosen Cast/Rules and file-download cards. This document records project context and user decisions; it is not a new authorization to deploy, send email, or migrate the full archive. Read the user's latest request before continuing. **This current checkpoint takes precedence over the historical milestones below.**
+Last updated: 2026-10-06, after the approved tag cleanup. This document records project context and user decisions; it is not authorization to deploy, send email, or migrate the full archive. **This current checkpoint takes precedence over the historical milestones below.**
 
 ## Goal and current position
 
-Port Kat's Leota Ghost theme and selected content to Astro, preserving the dark design, editable Markdown/MDX, source content and reusable components. Rich-content components, automatic gallery rows, responsive media and the migrated campaign pages are implemented. Cloudflare hosts the site; Netlify is paused. Kat confirmed live images load from R2.
+Port Kat's Leota Ghost theme and selected content to Astro, preserving the dark design, editable Markdown/MDX, source content and reusable components. Cloudflare hosts the site; Netlify is paused. Kat confirmed live images load from R2.
 
-Merged through PR #11: City of Mist pages, The Chosen overview, DM Resources, Freaky Gray Company overview/Characters, Gazette and seven associated posts, plus shared table styling and the homepage-logo/mobile-gallery QA fixes. PR #12, https://github.com/kwhite/leota-astro/pull/12, contains Chosen Cast and Rules, seven preserved PDF downloads, and reusable `FileDownload.astro` cards. Kat approved the visual result. Working branch: `codex/chosen-cast-rules`; latest implementation commit: `dc81737`. Check PR merge status and update local `main` before starting a fresh branch tomorrow.
+Main includes PRs #12–#15: Chosen Cast/Rules and PDF download cards, portable R2 media, automatic Markdown image lightboxes, and the pending dependency updates. Current branch `codex/tag-migration-cleanup` contains the approved tag cleanup and migration plan, prepared for PR review. Check its merge status before starting another branch from updated `main`.
 
-Validation: local and R2 builds produce 62 pages; media checks cover 263 responsive image occurrences, 191 full-size links and 529 delivery-file checksums. All seven public PDFs match their backup checksums and have PDF/attachment headers. File cards were checked on desktop and at 390px without horizontal page overflow. Documentation-only handoff edits do not require another build.
+Kat approved retaining campaigns, chronology and Gazette locations, removing character tags, and consolidating Session Notes/Session Recap into **Session Recaps**. Current post metadata and tag archives reflect this choice; the homepage remains filtered by CoM Season 1. Static 301 rules for former format archives are bundled in `public/_redirects`; Cloudflare runtime behavior remains to be checked after deployment.
 
-## Resume tomorrow
+Validation: the current R2 production build passes with 49 pages (previously 62). Media checks cover 232 responsive-image occurrences, 165 full-size links and 529 delivery-file checksums. Retained navigation archives and the Session Recaps archive/feed were verified, along with the migration plan and bundled redirects. Documentation-only edits do not require another build.
 
-**Discuss tags with Kat before further content migration.** She wants to prune unnecessary tags before importing more content/session summaries. Inventory current tags and source usage, then propose what to retain, consolidate or remove, including archive/navigation implications. Do not prune tags or continue bulk migration until that discussion is approved.
+## Next session
 
-Preserve unrelated local `package.json`/`pnpm-lock.yaml` edits, `.claude/`, and untracked original images/PDFs. Do not include these in commits. Start new work from an up-to-date `main` after checking PR #12. The local built preview has been available at `http://localhost:4322/`; check whether its server is still running in the next session.
+Review/merge the tag-cleanup PR, then agree on the next migration scope with Kat. No bulk migration has begun. Read [tag-migration-decisions.md](tag-migration-decisions.md) and [tag-migration-plan.json](tag-migration-plan.json): of 170 source posts, ten already exist, 158 remain to migrate, and two imported duplicates are approved omissions. Feolinn becomes a Gazette location during migration; Quicksliver Cabaret belongs under Zadash. Preserve the untagged 1.5 Original and its direct link from the revised post.
 
-Media delivery uses bucket `leota-media` and plain-text Cloudflare build variable `MEDIA_BASE_URL=https://pub-e4d8121a5e7c42d98f03214fb5ed9720.r2.dev`. See [media-delivery.md](media-delivery.md) for preparation/upload commands. A custom media domain is still future work; the development URL is the agreed test endpoint.
+D&D, Wildemount, Campaign 2003, venue-type categories and the Getting started sample remain pending and preserved. Do not infer a decision to prune them. The audit documents describe the pre-cleanup inventory; the decisions and migration plan describe the approved outcome.
 
-Content safety: omit obvious spam/nonsense and record omissions. **Do not migrate individual header/footer code-injection fields without consulting Kat first.** The later metadata inspection found one individual header injection on `people-in-the-city`: a desktop grid CSS override, not apparent spam. No individual footer injections were found; neither Chosen page had one. No injection code was migrated. Global injection settings have not been audited.
+Authoring decisions: retain the succinct `Callout` component; alternate blockquotes use HTML, ordinary quotes use Markdown. Standalone Markdown images now open the lightbox without affecting explicit wide/full layout options. This does not authorize bulk conversion of component usages.
+
+Dependency changes are committed in merged PR #15. Preserve unrelated `.claude/` and untracked original images/PDFs; do not mass-stage them. The local preview has used `http://localhost:4322/`; check whether its server is still running.
+
+Media delivery uses bucket `leota-media` and `MEDIA_BASE_URL=https://pub-e4d8121a5e7c42d98f03214fb5ed9720.r2.dev`. R2 is the default; an optional optimized offline cache is supported. See [media-delivery.md](media-delivery.md). A custom media domain remains future work.
+
+Content safety: omit obvious spam/nonsense and record omissions. **Do not migrate individual header/footer code-injection fields without consulting Kat first.** Earlier inspection found a desktop-grid header override on `people-in-the-city`; it was not migrated. Global injection settings have not been audited. The source backup remains untouched.
 
 ## Workspace and source material
 
@@ -293,3 +299,15 @@ Kat reviewed a Markdown/HTML conversion of the 1.8 post and chose to retain `Cal
 ## Automatic Markdown image lightbox (2026-10-06)
 
 Kat approved lightbox links for standalone Markdown images while preserving explicit wide/full layouts. `scripts/markdown-image-lightbox.mjs` runs through the existing Sätteri Markdown/MDX processor, registered in `astro.config.mjs`. The matching `@astrojs/markdown-satteri` 0.4.2 is now a direct dependency; Astro/MDX versions remain unchanged. Top-level paragraphs containing one public-root or HTTP(S) Markdown image become regular-width image cards with full-size links, lazy loading and alt-based viewer captions. Inline/linked/nested images, relative file imports, existing HTML and components are untouched. Documentation explains opt-out and special layouts. `node scripts/tests/markdown-image-lightbox.mjs` checks both rendering pipelines and exceptions. Temporary built posts verified feeds, browser opening, adjacent navigation, Escape/focus return and 900/1200/full-width layouts; fixtures were removed afterward.
+
+## Tag audit for discussion (2026-10-06)
+
+Kat requested a tag inventory before pruning as part of migration. `tag-audit.md` and `tag-audit-data.json` record all 42 Ghost tags (38 public/four internal), 33 current metadata records, source/current usage, navigation dependencies, legacy-slug differences, duplicate assignments and classification exceptions. The proposed navigation minimum is 12 tags; the biggest optional group is 15 character tags. Session Notes/Session Recap, venue types and broader context tags remain discussion items. No tags, content metadata, archive routes or filters have been changed, and no pruning/consolidation decision is approved yet.
+
+## Approved tag cleanup (2026-10-06)
+
+Kat approved retaining campaigns/chronology/locations, removing character tags, and combining Session Notes and Session Recap into Session Recaps. Existing character references/metadata and unused fiction metadata are removed; homepage remains CoM Season 1. `tag-migration-decisions.md` and `tag-migration-plan.json` record 170 source-post outcomes: ten already migrated, 158 remaining and two approved duplicate omissions. Feolinn gets its own Gazette location during migration; Quicksliver Cabaret goes under Zadash. Import-marker Steamed Buns and Invulnerable Vagrant are omitted in favor of recreated routes. Keep 1.5 Original at its existing direct-link destination without campaign/season inference; after character removal it is untagged. Backup is untouched. Remaining broad/venue categories and the Getting started sample category are pending. This approves the taxonomy/exclusions, not bulk import of all 158 remaining posts.
+
+### Canonical format name
+
+Kat chose Recaps rather than Notes: use `Session Recaps` (`/tag/session-recaps/`) as the canonical format tag. Both source Session Notes and Session Recap map to it. Current post titles/slugs and the CoM Season 1 homepage filter are unchanged. Prepared static redirect rules preserve both former format archive paths and their feed/pagination suffixes; runtime verification awaits deployment.
