@@ -2,9 +2,9 @@
   "version": 2,
   "pillow": "12.3.0",
   "webp": "1.6.0",
-  "sourceBytes": 384257173,
-  "deliveryBytes": 89587093,
-  "variantBytes": 82029064,
+  "sourceBytes": 387331395,
+  "deliveryBytes": 89897587,
+  "variantBytes": 82573750,
   "assets": [
     {
       "source": "/assets/files/2026/02/_chase_season3_mid.pdf",
@@ -5594,6 +5594,70 @@
       ]
     },
     {
+      "source": "/assets/images/2026/01/powerful_flamingo_11677_A_powerful_still_life._A_vintage_handhe_386a2189-19bf-4e7c-a0a3-d2033e4747d9.png",
+      "delivery": "/assets/images/2026/01/powerful_flamingo_11677_A_powerful_still_life._A_vintage_handhe_386a2189-19bf-4e7c-a0a3-d2033e4747d9.webp",
+      "sourceSha256": "735af3aaf14eb0d30bfed353f0ef848249e8f7870418dff6c653a9e435be060c",
+      "deliverySha256": "640b66a7a064e97c55fccd28dda98a6a2db4ff093071ad8005d9d06404d9c11f",
+      "sourceBytes": 1410999,
+      "deliveryBytes": 160392,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/2022-01-14-things-get-weird.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/01/powerful_flamingo_11677_A_powerful_still_life._A_vintage_handhe_386a2189-19bf-4e7c-a0a3-d2033e4747d9.w320.webp",
+          "deliverySha256": "8798b5926a058a02426cf97f92e3765e86cee427b5b3d4aaa8bfec0029b7af43",
+          "deliveryBytes": 29500,
+          "dimensions": [
+            320,
+            320
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/01/powerful_flamingo_11677_A_powerful_still_life._A_vintage_handhe_386a2189-19bf-4e7c-a0a3-d2033e4747d9.w640.webp",
+          "deliverySha256": "dd78346cd5d6ed01bde750a3f291f75b6e1afe8f43b685485dc6cf7282a14d2e",
+          "deliveryBytes": 82196,
+          "dimensions": [
+            640,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/01/powerful_flamingo_11677_A_powerful_still_life._A_vintage_handhe_386a2189-19bf-4e7c-a0a3-d2033e4747d9.w960.webp",
+          "deliverySha256": "09cae4762f95f1d7e2138151d5e62610508a74be26002fb382c6541282e8e224",
+          "deliveryBytes": 146204,
+          "dimensions": [
+            960,
+            960
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
       "source": "/assets/images/2026/02/chase.png",
       "delivery": "/assets/images/2026/02/chase.webp",
       "sourceSha256": "d725c657a39fd6d7ada7efa6577583de94f4013bdedc793c4e727d7e00505622",
@@ -7871,6 +7935,83 @@
           "dimensions": [
             1280,
             430
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/05/musetta._super_tight_closeup_of_the_eerie_eyes_of_an_evil_dem_2d87ce94-35b5-470d-b394-12eff58fc148_0-1.png",
+      "delivery": "/assets/images/2026/05/musetta._super_tight_closeup_of_the_eerie_eyes_of_an_evil_dem_2d87ce94-35b5-470d-b394-12eff58fc148_0-1.webp",
+      "sourceSha256": "93ac85350633033bddb1b76f9fc5d5c391690ef8b3d9222eca3a77e7227f5d6e",
+      "deliverySha256": "0c7522cd23605d34fe909c214c1cc4e94049ee951e813e94a79fd4c7437dfc7b",
+      "sourceBytes": 1663223,
+      "deliveryBytes": 150102,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/the-hag-s-observations.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/05/musetta._super_tight_closeup_of_the_eerie_eyes_of_an_evil_dem_2d87ce94-35b5-470d-b394-12eff58fc148_0-1.w320.webp",
+          "deliverySha256": "6b5090d5cb3d93c22106a162234094381767c3b1b2ec47df8831252361a2c200",
+          "deliveryBytes": 12018,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/05/musetta._super_tight_closeup_of_the_eerie_eyes_of_an_evil_dem_2d87ce94-35b5-470d-b394-12eff58fc148_0-1.w640.webp",
+          "deliverySha256": "7c3869499c9faa6b6b19deeb1663b207c6925e689fac01fc5b827b5e1091d812",
+          "deliveryBytes": 46870,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/05/musetta._super_tight_closeup_of_the_eerie_eyes_of_an_evil_dem_2d87ce94-35b5-470d-b394-12eff58fc148_0-1.w960.webp",
+          "deliverySha256": "de8477cec16a8b339a77e4a0f2c770404c978c29950934e27e9a81462c2a251c",
+          "deliveryBytes": 89746,
+          "dimensions": [
+            960,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/05/musetta._super_tight_closeup_of_the_eerie_eyes_of_an_evil_dem_2d87ce94-35b5-470d-b394-12eff58fc148_0-1.w1280.webp",
+          "deliverySha256": "42cbe5e3c641e748c3cfdd524160079e4e96dc11c49bffcc11bd33f67319cee5",
+          "deliveryBytes": 138152,
+          "dimensions": [
+            1280,
+            853
           ],
           "settings": {
             "method": 6,

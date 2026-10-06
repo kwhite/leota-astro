@@ -1,22 +1,24 @@
 # Here Be Dragons / Leota Astro — thread handoff
 
-Last updated: 2026-10-06, after migrating City of Mist Season One. This document records project context and user decisions; it is not authorization to deploy, send email, or migrate the full archive. **This current checkpoint takes precedence over the historical milestones below.**
+Last updated: 2026-10-06, after migrating Freaky Gray Company Arc 1. This document records project context and user decisions; it is not authorization to deploy, send email, or migrate the full archive. **This current checkpoint takes precedence over the historical milestones below.**
 
 ## Goal and current position
 
 Port Kat's Leota Ghost theme and selected content to Astro, preserving the dark design, editable Markdown/MDX, source content and reusable components. Cloudflare hosts the site; Netlify is paused. Kat confirmed live images load from R2.
 
-Main includes PRs #12–#19: Chosen Cast/Rules and PDF download cards, portable R2 media, automatic Markdown image lightboxes, dependency updates, the approved tag cleanup, the finished Gazette, and the City of Mist Prologue. Current branch `codex/city-of-mist-season-one` migrates 11 Season One recaps and the untagged 1.5 Original, prepared for PR review. Check its merge status before starting another branch from updated `main`.
+Main includes PRs #12–#20: Chosen Cast/Rules and PDF download cards, portable R2 media, automatic Markdown image lightboxes, dependency updates, approved tag cleanup, the finished Gazette, and City of Mist through Season One. Current branch `codex/freaky-gray-company-arc-one` migrates 37 Arc 1 posts, prepared for PR review. Check its merge status before starting another branch from updated `main`.
 
 Kat approved retaining campaigns, chronology and Gazette locations, removing character, venue and broad/context tags, and consolidating Session Notes/Session Recap into **Session Recaps**. Current post metadata and tag archives reflect this choice; the homepage remains filtered by CoM Season 1. Static 301 rules for former format archives are bundled in `public/_redirects`; Cloudflare runtime behavior remains to be checked after deployment.
 
-Validation: the current R2 production build passes with 71 pages. Media checks cover 503 responsive-image occurrences, 274 full-size links and 870 delivery-file checksums. Retained navigation archives and the Session Recaps archive/feed were verified, along with the migration plan and bundled redirects. Documentation-only edits do not require another build.
+Validation: the current R2 production build passes with 111 pages. Media checks cover 665 responsive-image occurrences, 354 full-size links and 879 delivery-file checksums. Retained navigation archives and the Session Recaps archive/feed were verified, along with the migration plan and bundled redirects. Documentation-only edits do not require another build.
 
 ## Next session
 
-Review/merge the Season One PR. City of Mist is now migrated through all currently published chapters. Next campaign batch: Freaky Gray Company, split by arc (start with Arc 1). Use a fresh branch from updated main after merge. Kat approved separate branches/PRs per reviewable season or arc. Migration proceeds in scoped batches. Read [tag-migration-decisions.md](tag-migration-decisions.md) and [tag-migration-plan.json](tag-migration-plan.json): of 170 source posts, 36 already exist, 132 remain to migrate, and two imported duplicates are approved omissions. Feolinn is now a Gazette location; Quicksliver Cabaret is migrated under Zadash. Preserve the untagged 1.5 Original and its direct link from the revised post.
+Review/merge the Arc 1 PR. City of Mist is migrated through all currently published chapters. Next batch: Freaky Gray Company Arc 2 (28 remaining campaign posts). Use a fresh branch from updated main after merge. Kat approved separate branches/PRs per reviewable season or arc. Read [tag-migration-decisions.md](tag-migration-decisions.md) and [tag-migration-plan.json](tag-migration-plan.json): of 170 source posts, 73 already exist, 95 remain to migrate, and two imported duplicates are approved omissions. Feolinn is a Gazette location; Quicksliver Cabaret is under Zadash and its Return to Summary destination now exists. Preserve the untagged 1.5 Original and its direct link from the revised post.
 
 D&D, Wildemount, Campaign 2003 and venue-type categories are approved removals. Wildemount can be added back later if needed. The Getting started sample remains preserved. The audit documents describe the pre-cleanup inventory; the decisions and migration plan describe the approved outcome.
+
+Gallery prefixes are intentional OOC commentary shorthand and must remain (Kat confirmed).
 
 Authoring decisions: retain the succinct `Callout` component; alternate blockquotes use HTML, ordinary quotes use Markdown. Standalone Markdown images now open the lightbox without affecting explicit wide/full layout options. This does not authorize bulk conversion of component usages.
 
@@ -33,7 +35,7 @@ Content safety: omit obvious spam/nonsense and record omissions. **Do not migrat
 - Original user-supplied project brief: `/Users/kat/Desktop/CODEX_CONTEXT.md`
 - Backup root (relocated): `/Users/kat/Library/CloudStorage/Dropbox/Gaming/Website Backups/here be dragons backup`
 - Export: `game-notes-summaries.ghost.2026-10-03-19-02-04.json` inside that backup root
-- Extracted media: `ghost-media-backup-2026-10-03` inside that backup root
+- Media archive: `ghost-media-backup-2026-10-03.tar.gz` inside that backup root (a plain tar despite the filename). Extract only files referenced by the current batch; the earlier extracted directory is no longer present.
 - Backup includes `routes.yaml`, useful for the original homepage filter/routing.
 - Review screenshots: `/Users/kat/.codex/visualizations/2026/10/04/01a10893-1321-7802-bf00-5bafb3c65e10/`, in baseline/milestone-two/milestone-three/milestone-four directories.
 
@@ -329,3 +331,12 @@ Migrated 11 remaining tagged recaps plus 1.5 Original; 1.8 already existed. Orig
 All 12 posts retain Callout in MDX (68 callouts total); prose/ordinary quotes and 36 body images use Markdown. Preserved ten Spotify embeds, alternate HTML quotes, scene-break rules, underlines and the family-tree code block. Two exported toggles use native HTML details/summary with scoped styling. No unrelated spam found in the body scan; no injection fields read or migrated. `com-season-one-migration.json` records provenance and verification.
 
 47 new image sources: 23.13 MiB original → 4.86 MiB full-size delivery, plus 140 responsive variants. All 187 new files uploaded to R2, three representative public checksums verified; originals/backup unchanged. Build passes with 71 pages. All 12 source bodies and image/embed/callout/disclosure counts checked; internal links, chapter links, homepage, archives and XML feeds verified. Disclosure mouse/keyboard, Markdown lightbox/Escape focus-return and 390px overflow checks pass. Current manifest contains 245 source assets and 870 delivery files.
+
+
+## Freaky Gray Company Arc 1 batch (2026-10-06)
+
+All 37 Arc 1 posts use plain Markdown; the one alternate blockquote retains HTML. Source titles, dates, ordered tags and legitimate external links are preserved. The `2022-01-14-things-get-weird` source slug has a 2023 title; this mismatch is retained pending an explicit editorial correction. Literal numbering in a flattened source paragraph is escaped to preserve presentation.
+
+Four unrelated shopping-spam paragraphs were omitted: two each from Connections and Erash's First Dream. Paragraph hashes/reasons and original body hashes are recorded in [fgc-arc-one-migration.json](fgc-arc-one-migration.json); the backup is unchanged. Source injection fields were not read or migrated. Elinore's legacy `/elinores-plea/` link now targets `/c1e8-elinore-s-plea/`, with exact 301 aliases prepared. Connections restores the Cabaret's Return to Summary destination.
+
+Two new covers were optimized, with seven responsive variants; all nine new objects were uploaded to R2 and both public covers match checksums. The current manifest covers 247 source assets and 879 delivery files. Production build: 111 pages. Media validation: 665 responsive occurrences, 354 full-size links and 879 checksums. All 37 built article bodies match source text after the documented spam omissions; internal article links, XML feeds and Arc 1/campaign pagination were verified.

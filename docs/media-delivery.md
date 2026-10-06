@@ -72,3 +72,8 @@ The build passes with 58 pages. Media checks validate 357 responsive occurrences
 ## City of Mist Season One batch (2026-10-06)
 
 Adds 47 referenced source images (23.13 MiB), 4.86 MiB of full-size delivery images and 140 responsive variants. All 187 new objects uploaded to R2; three representative public downloads match their checksums. Current manifest covers 245 source assets and 870 delivery files. Build: 71 pages; media checks cover 503 responsive occurrences, 274 full-size links and 870 checksums. Original files remain untouched and outside Git.
+
+
+## Freaky Gray Company Arc 1 batch (2026-10-06)
+
+Adds two cover images (3,074,222 source bytes), 310,494 bytes of full-size delivery images and seven responsive variants. All nine new objects uploaded to R2; both public cover downloads match checksums. Current manifest covers 247 source assets and 879 delivery files. Build: 111 pages; media checks cover 665 responsive occurrences, 354 full-size links and 879 checksums. Original files remain unchanged and outside Git; no bucket objects were deleted.

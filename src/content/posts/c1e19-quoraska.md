@@ -1,0 +1,19 @@
+---
+title: "C1E19: Quoraska"
+date: "2022-04-13T22:10:23.000Z"
+author: "kat"
+tags: ["Freaky Gray Company", "Arc 1"]
+description: "A hunting trip turns into a river adventure, leading to a surprising potential employer."
+---
+
+The FGC heads south from the Wyun Gates into the twisting chasm of the Wyun Gorge. This is wartime, and there's not much traffic in and out. The party camps along the side of the road for the night, and the next morning, they opt to go hunting to find some real food for once. Phelan stays with the camp while Snow, Khoraka, Ferric, and Erash take off into the dense, tangled, verdant canopy of the Quoraska Jungle.
+
+Welcome to the Jungle...The jungle feels familiar to Snow – different plants and animals, same drill. She scouts ahead as they travel deeper into the jungle. In the midst of the tangled roots, they find a rudimentary path that appears to be made by humanoid feet. Following the path while watching the surrounding area for game, Snow discovers a hut wtih a small makeshift dock and a thatched boat pulled up alongside.
+
+The inhabitant introduces himself as Manu, an advertising-challenged river guide who can take visitors up and down the large, idle river in the middle of the jungle. After a brief encounter with his pet [Kamadan](https://www.dndbeyond.com/monsters/33044-kamadan) Pearly, Manu offers to guide them to the Tabaxi clan areas on the southwestern edge of the jungle. He also identifies them as adventuring sorts, and asks if they might be interested in doing a favor for a friend... in exchange for some coin, of course. They readily agree, also acknowledging his admonition not to get too hung up on appearances. With a promise of waterfalls, tabaxi, and a job, the party uses Sending to let Phelan know he should meet them with the horses and carriages in Nicodranas, at a place Manu tells them is decent: The Wayward Lull. They climb aboard the Floating Hippo and make their way South under the dense shelter of the jungle.
+
+They make their way to a ruined temple-like building that is the dwelling place of Melusine, a beautiful woman with a monstrous form who passed her unique heritage on to her children. Betrayed  by her husband who mocked her publicly after breaking their agreement about her time alone on Saturdays, when her true form manifests, she fled Nicodranas and hid here. Years have passed, and her story has fallen into legend, her family left behind. But Melusine has started having visions that her five children may be in danger, and she would like them to know her whereabouts and come to see her so that she may speak with them again... and warn them of what she's seen. She asks the FGC if they would take on such a task, and the answer is yes. There's no definite timeline to her request, as the dread she's experiencing lacks the intensity of an immediate threat.
+
+Having met with Melusine, the climb back aboard the Floating Hippo and continue south towards the tabaxi clans. Khoraka takes the opportunity one evening to ask Manu about other temples in the area, specifically one that might have a gold inlayed circle or the statue from his dream. While Manu has never been inside, he notes the location of two other ruins he knows of that are somewhat accessible from the river that may be of interest. He notes them on the map Echo gave to Snow to help her find her way to the Blustering Bay clan, Echo's home.
+
+What you know about Quoraska and the environs so far.About five days into their journey, the river flattens out and coasts towards the edge of the jungle treeline. Manu delivers them to Raska's Edge, a treetop Tabaxi colony, before taking his leave. Snow's presence and the package for Blustering Bay gain them entrance, and they're hoisted up via a platform list into the clustered canopy settlement.
