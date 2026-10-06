@@ -3,7 +3,6 @@ title: "2023-01-14: Things get Weird"
 date: "2023-01-14T06:00:00.000Z"
 author: "kat"
 tags: ["Freaky Gray Company", "Arc 1"]
-cover: "/assets/images/2026/01/powerful_flamingo_11677_A_powerful_still_life._A_vintage_handhe_386a2189-19bf-4e7c-a0a3-d2033e4747d9.png"
 description: "With Khoraka and Phelan missing, the FGC try to put together the pieces of recent events."
 ---
 

@@ -762,7 +762,44 @@
       "callouts": 0
     }
   ],
-  "media": [
+  "editorialNotes": [
+    "Preserve source titles, slugs and dates, including the 2023 title on the 2022-01-14-things-get-weird source slug. Gallery prefixes remain intentional OOC shorthand. Four unrelated shopping spam paragraphs omitted; campaign prose and legitimate external links retained. Corrected Elinore legacy body link to the migrated canonical slug; added redirects. Connections restores the Cabaret Return to Summary destination.",
+    "Kat requested omission of the only two Arc 1 covers for consistency. Both full-size optimized files and all seven variants deleted from R2; original backup/public images retained."
+  ],
+  "mediaDelivery": {
+    "newAssets": 0,
+    "responsiveVariants": 0,
+    "previouslyUploadedObjects": 9,
+    "deletedObjects": 9,
+    "totalAssets": 245,
+    "totalDeliveryFiles": 870,
+    "deletionReason": "User requested removal of both Arc 1 covers and their optimized bucket versions",
+    "deletedDeliveryPaths": [
+      "/assets/images/2026/01/powerful_flamingo_11677_A_powerful_still_life._A_vintage_handhe_386a2189-19bf-4e7c-a0a3-d2033e4747d9.webp",
+      "/assets/images/2026/01/powerful_flamingo_11677_A_powerful_still_life._A_vintage_handhe_386a2189-19bf-4e7c-a0a3-d2033e4747d9.w320.webp",
+      "/assets/images/2026/01/powerful_flamingo_11677_A_powerful_still_life._A_vintage_handhe_386a2189-19bf-4e7c-a0a3-d2033e4747d9.w640.webp",
+      "/assets/images/2026/01/powerful_flamingo_11677_A_powerful_still_life._A_vintage_handhe_386a2189-19bf-4e7c-a0a3-d2033e4747d9.w960.webp",
+      "/assets/images/2026/05/musetta._super_tight_closeup_of_the_eerie_eyes_of_an_evil_dem_2d87ce94-35b5-470d-b394-12eff58fc148_0-1.webp",
+      "/assets/images/2026/05/musetta._super_tight_closeup_of_the_eerie_eyes_of_an_evil_dem_2d87ce94-35b5-470d-b394-12eff58fc148_0-1.w320.webp",
+      "/assets/images/2026/05/musetta._super_tight_closeup_of_the_eerie_eyes_of_an_evil_dem_2d87ce94-35b5-470d-b394-12eff58fc148_0-1.w640.webp",
+      "/assets/images/2026/05/musetta._super_tight_closeup_of_the_eerie_eyes_of_an_evil_dem_2d87ce94-35b5-470d-b394-12eff58fc148_0-1.w960.webp",
+      "/assets/images/2026/05/musetta._super_tight_closeup_of_the_eerie_eyes_of_an_evil_dem_2d87ce94-35b5-470d-b394-12eff58fc148_0-1.w1280.webp"
+    ]
+  },
+  "validation": {
+    "buildPages": 111,
+    "sourceBodiesPreservedAfterRecordedOmissions": 37,
+    "responsiveImageOccurrences": 657,
+    "fullSizeLinks": 354,
+    "deliveryChecksums": 870,
+    "internalBodyLinks": 4,
+    "xmlFiles": 15,
+    "campaignPagination": true,
+    "arcPagination": true,
+    "homepageFilterPreserved": true,
+    "cabaretReturnLinkRestored": true
+  },
+  "omittedSourceCovers": [
     {
       "source": "/assets/images/2026/05/musetta._super_tight_closeup_of_the_eerie_eyes_of_an_evil_dem_2d87ce94-35b5-470d-b394-12eff58fc148_0-1.png",
       "sourceSha256": "93ac85350633033bddb1b76f9fc5d5c391690ef8b3d9222eca3a77e7227f5d6e",
@@ -774,31 +811,5 @@
       "sourceBytes": 1410999
     }
   ],
-  "editorialNotes": [
-    "Preserve source titles, slugs and dates, including the 2023 title on the 2022-01-14-things-get-weird source slug. Gallery prefixes remain intentional OOC shorthand. Four unrelated shopping spam paragraphs omitted; campaign prose and legitimate external links retained. Corrected Elinore legacy body link to the migrated canonical slug; added redirects. Connections restores the Cabaret Return to Summary destination."
-  ],
-  "mediaDelivery": {
-    "newAssets": 2,
-    "sourceBytes": 3074222,
-    "fullSizeDeliveryBytes": 310494,
-    "responsiveVariants": 7,
-    "uploadedObjects": 9,
-    "deletedObjects": 0,
-    "publicCoverChecksumsVerified": 2,
-    "totalAssets": 247,
-    "totalDeliveryFiles": 879
-  },
-  "validation": {
-    "buildPages": 111,
-    "sourceBodiesPreservedAfterRecordedOmissions": 37,
-    "responsiveImageOccurrences": 665,
-    "fullSizeLinks": 354,
-    "deliveryChecksums": 879,
-    "internalBodyLinks": 4,
-    "xmlFiles": 15,
-    "campaignPagination": true,
-    "arcPagination": true,
-    "homepageFilterPreserved": true,
-    "cabaretReturnLinkRestored": true
-  }
+  "media": []
 }

@@ -10,7 +10,7 @@ Main includes PRs #12–#20: Chosen Cast/Rules and PDF download cards, portable 
 
 Kat approved retaining campaigns, chronology and Gazette locations, removing character, venue and broad/context tags, and consolidating Session Notes/Session Recap into **Session Recaps**. Current post metadata and tag archives reflect this choice; the homepage remains filtered by CoM Season 1. Static 301 rules for former format archives are bundled in `public/_redirects`; Cloudflare runtime behavior remains to be checked after deployment.
 
-Validation: the current R2 production build passes with 111 pages. Media checks cover 665 responsive-image occurrences, 354 full-size links and 879 delivery-file checksums. Retained navigation archives and the Session Recaps archive/feed were verified, along with the migration plan and bundled redirects. Documentation-only edits do not require another build.
+Validation: the current R2 production build passes with 111 pages. Media checks cover 657 responsive-image occurrences, 354 full-size links and 870 delivery-file checksums. Retained navigation archives and the Session Recaps archive/feed were verified, along with the migration plan and bundled redirects. Documentation-only edits do not require another build.
 
 ## Next session
 
@@ -339,4 +339,4 @@ All 37 Arc 1 posts use plain Markdown; the one alternate blockquote retains HTML
 
 Four unrelated shopping-spam paragraphs were omitted: two each from Connections and Erash's First Dream. Paragraph hashes/reasons and original body hashes are recorded in [fgc-arc-one-migration.json](fgc-arc-one-migration.json); the backup is unchanged. Source injection fields were not read or migrated. Elinore's legacy `/elinores-plea/` link now targets `/c1e8-elinore-s-plea/`, with exact 301 aliases prepared. Connections restores the Cabaret's Return to Summary destination.
 
-Two new covers were optimized, with seven responsive variants; all nine new objects were uploaded to R2 and both public covers match checksums. The current manifest covers 247 source assets and 879 delivery files. Production build: 111 pages. Media validation: 665 responsive occurrences, 354 full-size links and 879 checksums. All 37 built article bodies match source text after the documented spam omissions; internal article links, XML feeds and Arc 1/campaign pagination were verified.
+Kat requested removal of the only two Arc 1 covers for consistency. Both covers are omitted; their two optimized full-size images and seven variants were deleted from R2 (nine confirmed deletions). Original backup/public images remain intact. The current manifest covers 245 source assets and 870 delivery files. Production build: 111 pages. Media validation: 657 responsive occurrences, 354 full-size links and 870 checksums. All 37 built article bodies match source text after the documented spam omissions; internal article links, XML feeds and Arc 1/campaign pagination were verified.

@@ -3,7 +3,6 @@ title: "The Hag's Observations"
 date: "2023-01-02T22:10:02.000Z"
 author: "kat"
 tags: ["Freaky Gray Company", "Arc 1"]
-cover: "/assets/images/2026/05/musetta._super_tight_closeup_of_the_eerie_eyes_of_an_evil_dem_2d87ce94-35b5-470d-b394-12eff58fc148_0-1.png"
 description: "She's a real charmer. Get it?"
 ---
 
