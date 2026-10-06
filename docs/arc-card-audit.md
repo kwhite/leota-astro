@@ -19,5 +19,5 @@ Freaky Gray Company now uses two explicit `ContentBanner` calls in its overview 
 - Card images are decorative (`alt=""`, as in the export). Set `alt` on a card if it ever needs a description.
 - Overlay: the export carries no per-card setting, so the default stays at the old fixed `#0007` (`overlay` 0.467). `overlay` and `overlayColor` now adjust it per card.
 - Season tag archives exist but have no posts until the summaries are migrated; they show a short "on their way" note.
-- Chosen Cast and The Rules pages are not migrated; their campaign-nav links are inactive.
+- Chosen Cast and The Rules pages are migrated on `codex/chosen-cast-rules`; their campaign-nav links are enabled.
 - Cast gallery alt text is the first name from the image filename (the export had none).

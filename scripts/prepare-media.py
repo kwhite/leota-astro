@@ -12,7 +12,7 @@ from PIL import Image, ImageOps, features
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / '.media-delivery'
 MANIFEST = ROOT / 'docs/media-delivery-manifest.json'
-PATTERN = re.compile(r'(?:/)?assets/images/[^\s\x22\x27<>\)\}\]]+\.(?:png|jpe?g|webp|gif|ico|svg)')
+PATTERN = re.compile(r'(?:/)?assets/(?:images|files)/[^\s\x22\x27<>\)\}\]]+\.(?:png|jpe?g|webp|gif|ico|svg|pdf)')
 
 def sha(path):
     return hashlib.sha256(path.read_bytes()).hexdigest()
@@ -33,6 +33,17 @@ def main():
         if not source.is_file():
             raise ValueError(f'Missing source: {url}')
         source_sha = sha(source)
+        if source.suffix.lower() == '.pdf':
+            dest = OUT / url.lstrip('/')
+            dest.parent.mkdir(parents=True, exist_ok=True)
+            dest.write_bytes(source.read_bytes())
+            assets.append({'source': url, 'delivery': url, 'sourceSha256': source_sha,
+                'deliverySha256': sha(dest), 'sourceBytes': source.stat().st_size,
+                'deliveryBytes': dest.stat().st_size, 'dimensions': None,
+                'transparent': False, 'animated': False, 'settings': None,
+                'status': 'retained', 'reason': 'original PDF download', 'usedIn': sorted(usages), 'variants': []})
+            print(f'{len(assets)}/{len(refs)} {url}', flush=True)
+            continue
         with Image.open(source) as im:
             dimensions = list(im.size)
             animated = getattr(im, 'n_frames', 1) > 1

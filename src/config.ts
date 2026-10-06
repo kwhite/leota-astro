@@ -53,8 +53,8 @@ export const CAMPAIGN_NAVIGATION = {
     label: 'The Chosen',
     links: [
       { id: 'overview', label: 'Overview', href: '/the-chosen/', available: true },
-      { id: 'cast', label: 'Cast', href: '/the-chosen-cast/', available: false },
-      { id: 'rules', label: 'The Rules', href: '/general-buffy-game-info/', available: false },
+      { id: 'cast', label: 'Cast', href: '/the-chosen-cast/', available: true },
+      { id: 'rules', label: 'The Rules', href: '/general-buffy-game-info/', available: true },
       { id: 'summaries', label: 'Season Summaries', href: '/tag/the-chosen/', available: true },
     ],
   },

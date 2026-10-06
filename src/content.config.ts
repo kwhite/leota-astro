@@ -60,7 +60,7 @@ const pages = defineCollection({
     title: z.string(), cover: z.string().nullable().optional(),
     description: z.string().optional(), sourceId: z.string().optional(),
     campaign: z.enum(['city-of-mist', 'the-chosen', 'freaky-gray-company']).default('city-of-mist'),
-    campaignSection: z.enum(['overview', 'rules', 'neighborhoods', 'people', 'gazette']).optional(),
+    campaignSection: z.enum(['overview', 'rules', 'neighborhoods', 'people', 'gazette', 'cast']).optional(),
     chapters: z.array(z.object({ chapter: z.string(), title: z.string(), href: z.string().nullable() })).default([]),
     people: z.array(z.object({
       name: z.string(), mythos: z.string().nullable(), mythosStruck: z.boolean(),
