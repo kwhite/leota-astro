@@ -18,7 +18,6 @@ tags:
 ---
 
 import Callout from '../../components/Callout.astro';
-import PullQuote from '../../components/PullQuote.astro';
 
 Ordinary Markdown continues here.
 ```
@@ -56,15 +55,17 @@ We need to decide if we are staying tonight.
 
 Without the inner blank lines, MDX treats the body as a single line of text and Markdown paragraphs or lists will not form.
 
-## PullQuote
+## Alternate blockquotes
 
-Large centered serif quote, for the alternate quote style. Ordinary quotations stay as Markdown `>` blockquotes.
+Ordinary quotations stay as Markdown `>` blockquotes. Use HTML for the alternate centered serif presentation, in either Markdown or MDX:
 
-```mdx
-<PullQuote>This was your tank.</PullQuote>
+```html
+<blockquote class="kg-blockquote-alt">This was your tank.</blockquote>
 ```
 
-Multi-paragraph pull quotes use the same blank-line block form as callouts.
+Use HTML `<em>`, `<strong>` and `<p>` tags for formatting within these blocks. No component import is needed. The existing `PullQuote` component remains available for compatibility, but HTML is the preferred authoring pattern.
+
+Callouts continue to use `Callout` for succinct markup and Markdown formatting inside their bodies; posts using it remain `.mdx`.
 
 ## Gallery
 
@@ -93,6 +94,26 @@ import Gallery from '../../components/Gallery.astro';
 ```
 
 Automatic rows use up to three images. If that would leave one image on the last row, the last four become two rows of two: four images → 2 + 2; seven → 3 + 2 + 2. One or two images form a single row. Use `rows` to preserve a deliberate source grouping; existing explicit rows keep their layout. Empty galleries or a row given as a flat list stop the build with a clear message.
+
+## Ordinary Markdown images
+
+A standalone Markdown image automatically gets a lightbox link in both `.md` and `.mdx`:
+
+```md
+![Rasputin in the dining hall](/assets/images/2026/09/raz--1--1.webp)
+```
+
+Use the existing `/assets/images/…` public paths or an `https://…` image URL. Relative file imports are left to Astro's image handling and are not automatically linked by this enhancement.
+
+These images use the regular reading-column width. Alt text becomes the viewer caption; no visible caption is added. Consecutive standalone images join one viewer sequence, without becoming a gallery. The full-size link works without JavaScript, and the media pipeline still supplies optimized URLs and responsive variants.
+
+Images within prose, lists, blockquotes, components or other wrappers are unchanged. An image already linked with `[![alt](image)](destination)` keeps its destination. Existing HTML figures, Galleries and ContentImage calls retain their layout and viewer behavior. Use HTML or ContentImage for visible captions, downloads, and wide/full layouts.
+
+To show a standalone image without the viewer, use plain HTML outside an image-card wrapper:
+
+```html
+<img src="/assets/images/2026/09/raz--1--1.webp" alt="Rasputin in the dining hall" loading="lazy" />
+```
 
 ## ContentImage
 

@@ -1,6 +1,8 @@
 import { defineConfig, fontProviders } from 'astro/config';
 import mdx from '@astrojs/mdx';
 import mediaDelivery from './scripts/media-build.mjs';
+import { satteri } from '@astrojs/markdown-satteri';
+import markdownImageLightbox from './scripts/markdown-image-lightbox.mjs';
 
 // https://astro.build/config
 export default defineConfig({
@@ -8,6 +10,7 @@ export default defineConfig({
   site: process.env.SITE_URL || 'https://herebedragons.club',
   base: process.env.BASE_PATH || '/',
   markdown: {
+    processor: satteri({ hastPlugins: [markdownImageLightbox] }),
     shikiConfig: {
       themes: {
         light: 'github-light',
