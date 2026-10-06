@@ -8,7 +8,7 @@ Confirmed by Kat on 2026-10-06. The inventory in `tag-audit.md` describes the pr
 - Remove all 15 source character tags. Current character metadata and references are removed; People/Cast pages and prose are unchanged.
 - Combine Session Notes and Session Recap into Session Recaps, preserving order and deduplicating mapped tags. This combines existing assignments rather than inventing missing classifications. The homepage is not changed back to the format tag.
 - Omit internal import markers, unused News and singular shop, and the empty fiction template tag. Import provenance stays in the audit/migration records.
-- D&D, Wildemount, Campaign 2003 and the used venue-type tags remain unchanged pending Kat's decision. The Getting started sample tag also remains unchanged.
+- Remove D&D, Wildemount, Campaign 2003 and all venue-type tags (tavern, inns, shops, spa). Gazette posts retain their location tags. Wildemount can be reintroduced if it becomes useful; no setting tag is needed now. The Getting started sample tag remains unchanged.
 
 ## Specific source-post decisions
 
@@ -22,6 +22,6 @@ These exclusions remove the obsolete entries from the planned migration, not fro
 
 ## Links and validation
 
-Source character-tag links must preserve their visible names when their archive destinations are removed. Record legacy mappings for retained/renamed tags and omitted duplicate slugs during migration; prepared static rules redirect old Session Notes/Session Recap archive paths to Session Recaps (runtime verification awaits deployment). Other legacy redirects remain migration work; no bulk post imports have been applied.
+Source links to removed character, venue and context tags must preserve their visible text when their archive destinations are removed. Record legacy mappings for retained/renamed tags and omitted duplicate slugs during migration; prepared static rules redirect old Session Notes/Session Recap archive paths to Session Recaps (runtime verification awaits deployment). Other legacy redirects remain migration work; no bulk post imports have been applied.
 
-Current homepage/card primary tags and campaign/Gazette links remain unchanged. Production build passes with 49 pages (previously 62): 13 tag archive pages and 12 tag feeds were removed. Media checks pass for 232 responsive image occurrences, 165 full-size links and 529 delivery checksums. Retained archives, the homepage filter and XML feeds were checked. No new publication posts have been imported.
+Current homepage/card primary tags and campaign/Gazette links remain unchanged. Production build passes with 43 pages (previously 62): 19 tag archive pages and 18 tag feeds were removed. Media checks pass for 216 responsive image occurrences, 153 full-size links and 529 delivery checksums. Retained archives, the homepage filter and XML feeds were checked. No new publication posts have been imported.

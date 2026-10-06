@@ -6,17 +6,17 @@ Last updated: 2026-10-06, after the approved tag cleanup. This document records 
 
 Port Kat's Leota Ghost theme and selected content to Astro, preserving the dark design, editable Markdown/MDX, source content and reusable components. Cloudflare hosts the site; Netlify is paused. Kat confirmed live images load from R2.
 
-Main includes PRs #12–#15: Chosen Cast/Rules and PDF download cards, portable R2 media, automatic Markdown image lightboxes, and the pending dependency updates. Current branch `codex/tag-migration-cleanup` contains the approved tag cleanup and migration plan, prepared for PR review. Check its merge status before starting another branch from updated `main`.
+Main includes PRs #12–#16: Chosen Cast/Rules and PDF download cards, portable R2 media, automatic Markdown image lightboxes, dependency updates, and the initial character/format tag cleanup. Current branch `codex/venue-context-tag-cleanup` contains the approved tag cleanup and migration plan, prepared for PR review. Check its merge status before starting another branch from updated `main`.
 
-Kat approved retaining campaigns, chronology and Gazette locations, removing character tags, and consolidating Session Notes/Session Recap into **Session Recaps**. Current post metadata and tag archives reflect this choice; the homepage remains filtered by CoM Season 1. Static 301 rules for former format archives are bundled in `public/_redirects`; Cloudflare runtime behavior remains to be checked after deployment.
+Kat approved retaining campaigns, chronology and Gazette locations, removing character, venue and broad/context tags, and consolidating Session Notes/Session Recap into **Session Recaps**. Current post metadata and tag archives reflect this choice; the homepage remains filtered by CoM Season 1. Static 301 rules for former format archives are bundled in `public/_redirects`; Cloudflare runtime behavior remains to be checked after deployment.
 
-Validation: the current R2 production build passes with 49 pages (previously 62). Media checks cover 232 responsive-image occurrences, 165 full-size links and 529 delivery-file checksums. Retained navigation archives and the Session Recaps archive/feed were verified, along with the migration plan and bundled redirects. Documentation-only edits do not require another build.
+Validation: the current R2 production build passes with 43 pages (previously 62). Media checks cover 216 responsive-image occurrences, 153 full-size links and 529 delivery-file checksums. Retained navigation archives and the Session Recaps archive/feed were verified, along with the migration plan and bundled redirects. Documentation-only edits do not require another build.
 
 ## Next session
 
 Review/merge the tag-cleanup PR, then agree on the next migration scope with Kat. No bulk migration has begun. Read [tag-migration-decisions.md](tag-migration-decisions.md) and [tag-migration-plan.json](tag-migration-plan.json): of 170 source posts, ten already exist, 158 remain to migrate, and two imported duplicates are approved omissions. Feolinn becomes a Gazette location during migration; Quicksliver Cabaret belongs under Zadash. Preserve the untagged 1.5 Original and its direct link from the revised post.
 
-D&D, Wildemount, Campaign 2003, venue-type categories and the Getting started sample remain pending and preserved. Do not infer a decision to prune them. The audit documents describe the pre-cleanup inventory; the decisions and migration plan describe the approved outcome.
+D&D, Wildemount, Campaign 2003 and venue-type categories are approved removals. Wildemount can be added back later if needed. The Getting started sample remains preserved. The audit documents describe the pre-cleanup inventory; the decisions and migration plan describe the approved outcome.
 
 Authoring decisions: retain the succinct `Callout` component; alternate blockquotes use HTML, ordinary quotes use Markdown. Standalone Markdown images now open the lightbox without affecting explicit wide/full layout options. This does not authorize bulk conversion of component usages.
 
@@ -306,7 +306,7 @@ Kat requested a tag inventory before pruning as part of migration. `tag-audit.md
 
 ## Approved tag cleanup (2026-10-06)
 
-Kat approved retaining campaigns/chronology/locations, removing character tags, and combining Session Notes and Session Recap into Session Recaps. Existing character references/metadata and unused fiction metadata are removed; homepage remains CoM Season 1. `tag-migration-decisions.md` and `tag-migration-plan.json` record 170 source-post outcomes: ten already migrated, 158 remaining and two approved duplicate omissions. Feolinn gets its own Gazette location during migration; Quicksliver Cabaret goes under Zadash. Import-marker Steamed Buns and Invulnerable Vagrant are omitted in favor of recreated routes. Keep 1.5 Original at its existing direct-link destination without campaign/season inference; after character removal it is untagged. Backup is untouched. Remaining broad/venue categories and the Getting started sample category are pending. This approves the taxonomy/exclusions, not bulk import of all 158 remaining posts.
+Kat approved retaining campaigns/chronology/locations, removing character tags, and combining Session Notes and Session Recap into Session Recaps. Existing character references/metadata and unused fiction metadata are removed; homepage remains CoM Season 1. `tag-migration-decisions.md` and `tag-migration-plan.json` record 170 source-post outcomes: ten already migrated, 158 remaining and two approved duplicate omissions. Feolinn gets its own Gazette location during migration; Quicksliver Cabaret goes under Zadash. Import-marker Steamed Buns and Invulnerable Vagrant are omitted in favor of recreated routes. Keep 1.5 Original at its existing direct-link destination without campaign/season inference; after character removal it is untagged. Backup is untouched. Broad/context and venue categories are also approved removals; the Getting started sample remains preserved. This approves the taxonomy/exclusions, not bulk import of all 158 remaining posts.
 
 ### Canonical format name
 

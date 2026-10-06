@@ -3,7 +3,7 @@ title: "The Emberglow Atelier"
 cover: "/assets/images/2025/06/IMG_0631.png"
 date: "2025-06-14T23:39:57.000Z"
 author: "kat"
-tags: ["Kamordah", "shops"]
+tags: ["Kamordah"]
 ---
 
 Tucked into the volcanic cliffs above Kamordah, the Emberglow Atelier radiates warmth and arcane allure. Emberlight flickers across obsidian shelves lined with enchanted rings, cloaks, and glowing curios. Steam curls from floor vents, scenting the air with scorched cinnamon and old magic.

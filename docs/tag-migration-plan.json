@@ -1,6 +1,6 @@
 {
   "date": "2026-10-06",
-  "status": "Approved core cleanup; remaining optional categories pending",
+  "status": "Approved taxonomy cleanup; bulk migration not started",
   "canonicalFormatTag": "Session Recaps",
   "homepageFilter": "CoM Season 1",
   "preserveBackupExport": true,
@@ -41,13 +41,7 @@
     "Snow",
     "Valgara",
     "Wren",
-    "shop"
-  ],
-  "renameTags": {
-    "Session Notes": "Session Recaps",
-    "Session Recap": "Session Recaps"
-  },
-  "pendingTags": [
+    "shop",
     "D&D",
     "Wildemount",
     "Campaign 2003",
@@ -56,6 +50,11 @@
     "shops",
     "spa"
   ],
+  "renameTags": {
+    "Session Notes": "Session Recaps",
+    "Session Recap": "Session Recaps"
+  },
+  "pendingTags": [],
   "postOverrides": {
     "feolinn-shops-eateries-entertainment": {
       "action": "migrate",
@@ -221,8 +220,7 @@
       "action": "migrate",
       "tags": [
         "Freaky Gray Company",
-        "Arc 2",
-        "D&D"
+        "Arc 2"
       ]
     },
     {
@@ -232,7 +230,6 @@
       "tags": [
         "Freaky Gray Company",
         "Arc 2",
-        "D&D",
         "Session Recaps"
       ]
     },
@@ -243,7 +240,6 @@
       "tags": [
         "Freaky Gray Company",
         "Arc 2",
-        "D&D",
         "Session Recaps"
       ]
     },
@@ -254,7 +250,6 @@
       "tags": [
         "Freaky Gray Company",
         "Arc 2",
-        "D&D",
         "Session Recaps"
       ]
     },
@@ -265,7 +260,6 @@
       "tags": [
         "Freaky Gray Company",
         "Arc 2",
-        "D&D",
         "Session Recaps"
       ]
     },
@@ -276,7 +270,6 @@
       "tags": [
         "Freaky Gray Company",
         "Arc 2",
-        "D&D",
         "Session Recaps"
       ]
     },
@@ -287,7 +280,6 @@
       "tags": [
         "Freaky Gray Company",
         "Arc 2",
-        "D&D",
         "Session Recaps"
       ]
     },
@@ -298,7 +290,6 @@
       "tags": [
         "Freaky Gray Company",
         "Arc 2",
-        "D&D",
         "Session Recaps"
       ]
     },
@@ -309,7 +300,6 @@
       "tags": [
         "Freaky Gray Company",
         "Arc 2",
-        "D&D",
         "Session Recaps"
       ]
     },
@@ -320,7 +310,6 @@
       "tags": [
         "Freaky Gray Company",
         "Arc 2",
-        "D&D",
         "Session Recaps"
       ]
     },
@@ -329,19 +318,15 @@
       "title": "The Red Veil",
       "action": "retain-existing",
       "tags": [
-        "Kamordah",
-        "tavern",
-        "Wildemount"
+        "Kamordah"
       ]
     },
     {
       "slug": "the-vintners-respite",
-      "title": "The Vintner’s Respite",
+      "title": "The Vintner\u2019s Respite",
       "action": "retain-existing",
       "tags": [
-        "Kamordah",
-        "inns",
-        "Wildemount"
+        "Kamordah"
       ]
     },
     {
@@ -349,8 +334,7 @@
       "title": "The Scarlet Root",
       "action": "retain-existing",
       "tags": [
-        "Kamordah",
-        "shops"
+        "Kamordah"
       ]
     },
     {
@@ -358,8 +342,7 @@
       "title": "The Emberglow Atelier",
       "action": "retain-existing",
       "tags": [
-        "Kamordah",
-        "shops"
+        "Kamordah"
       ]
     },
     {
@@ -367,8 +350,7 @@
       "title": "Fire Orchid Springs",
       "action": "retain-existing",
       "tags": [
-        "Kamordah",
-        "spa"
+        "Kamordah"
       ]
     },
     {
@@ -376,8 +358,7 @@
       "title": "The Invulnerable Vagrant",
       "action": "retain-existing",
       "tags": [
-        "Zadash",
-        "shops"
+        "Zadash"
       ]
     },
     {
@@ -385,8 +366,7 @@
       "title": "The Steamed Buns",
       "action": "retain-existing",
       "tags": [
-        "Zadash",
-        "spa"
+        "Zadash"
       ]
     },
     {
@@ -396,7 +376,6 @@
       "tags": [
         "Freaky Gray Company",
         "Arc 2",
-        "D&D",
         "Session Recaps"
       ]
     },
@@ -407,7 +386,6 @@
       "tags": [
         "Freaky Gray Company",
         "Arc 2",
-        "D&D",
         "Session Recaps"
       ]
     },
@@ -418,7 +396,6 @@
       "tags": [
         "Freaky Gray Company",
         "Arc 2",
-        "D&D",
         "Session Recaps"
       ]
     },
@@ -429,7 +406,6 @@
       "tags": [
         "Freaky Gray Company",
         "Arc 2",
-        "D&D",
         "Session Recaps"
       ]
     },
@@ -440,7 +416,6 @@
       "tags": [
         "Freaky Gray Company",
         "Arc 2",
-        "D&D",
         "Session Recaps"
       ]
     },
@@ -451,7 +426,6 @@
       "tags": [
         "Freaky Gray Company",
         "Arc 2",
-        "D&D",
         "Session Recaps"
       ]
     },
@@ -462,7 +436,6 @@
       "tags": [
         "Freaky Gray Company",
         "Arc 2",
-        "D&D",
         "Session Recaps"
       ]
     },
@@ -473,7 +446,6 @@
       "tags": [
         "Freaky Gray Company",
         "Arc 2",
-        "D&D",
         "Session Recaps"
       ]
     },
@@ -484,7 +456,6 @@
       "tags": [
         "Freaky Gray Company",
         "Arc 2",
-        "D&D",
         "Session Recaps"
       ]
     },
@@ -495,7 +466,6 @@
       "tags": [
         "Freaky Gray Company",
         "Arc 2",
-        "D&D",
         "Session Recaps"
       ]
     },
@@ -506,7 +476,6 @@
       "tags": [
         "Freaky Gray Company",
         "Arc 2",
-        "D&D",
         "Session Recaps"
       ]
     },
@@ -517,7 +486,6 @@
       "tags": [
         "Freaky Gray Company",
         "Arc 2",
-        "D&D",
         "Session Recaps"
       ]
     },
@@ -612,12 +580,11 @@
     },
     {
       "slug": "the-lazy-dm-s-guide",
-      "title": "The Lazy DM’s Guide",
+      "title": "The Lazy DM\u2019s Guide",
       "action": "migrate",
       "tags": [
         "Arc 1",
         "Freaky Gray Company",
-        "D&D",
         "Session Recaps"
       ]
     },
@@ -739,7 +706,7 @@
     },
     {
       "slug": "erash-s-first-dream",
-      "title": "Erash’s First Dream",
+      "title": "Erash\u2019s First Dream",
       "action": "migrate",
       "tags": [
         "Freaky Gray Company",
@@ -757,7 +724,7 @@
     },
     {
       "slug": "khoraka-s-second-dream",
-      "title": "Khoraka’s Second Dream",
+      "title": "Khoraka\u2019s Second Dream",
       "action": "migrate",
       "tags": [
         "Freaky Gray Company",
@@ -816,7 +783,7 @@
     },
     {
       "slug": "c1e13-to-grandmother-s-house",
-      "title": "C1E13:  To Grandmother’s House",
+      "title": "C1E13:  To Grandmother\u2019s House",
       "action": "migrate",
       "tags": [
         "Freaky Gray Company",
@@ -893,7 +860,6 @@
       "tags": [
         "Freaky Gray Company",
         "Arc 2",
-        "D&D",
         "Session Recaps"
       ]
     },
@@ -904,7 +870,6 @@
       "tags": [
         "Freaky Gray Company",
         "Arc 2",
-        "D&D",
         "Session Recaps"
       ]
     },
@@ -915,8 +880,7 @@
       "tags": [
         "The Chosen",
         "Season 1",
-        "Session Recaps",
-        "Campaign 2003"
+        "Session Recaps"
       ]
     },
     {
@@ -926,8 +890,7 @@
       "tags": [
         "The Chosen",
         "Season 1",
-        "Session Recaps",
-        "Campaign 2003"
+        "Session Recaps"
       ]
     },
     {
@@ -937,8 +900,7 @@
       "tags": [
         "The Chosen",
         "Season 1",
-        "Session Recaps",
-        "Campaign 2003"
+        "Session Recaps"
       ]
     },
     {
@@ -948,8 +910,7 @@
       "tags": [
         "The Chosen",
         "Season 1",
-        "Session Recaps",
-        "Campaign 2003"
+        "Session Recaps"
       ]
     },
     {
@@ -959,8 +920,7 @@
       "tags": [
         "The Chosen",
         "Season 1",
-        "Session Recaps",
-        "Campaign 2003"
+        "Session Recaps"
       ]
     },
     {
@@ -970,8 +930,7 @@
       "tags": [
         "The Chosen",
         "Season 1",
-        "Session Recaps",
-        "Campaign 2003"
+        "Session Recaps"
       ]
     },
     {
@@ -981,8 +940,7 @@
       "tags": [
         "The Chosen",
         "Season 1",
-        "Session Recaps",
-        "Campaign 2003"
+        "Session Recaps"
       ]
     },
     {
@@ -992,8 +950,7 @@
       "tags": [
         "The Chosen",
         "Season 1",
-        "Session Recaps",
-        "Campaign 2003"
+        "Session Recaps"
       ]
     },
     {
@@ -1003,8 +960,7 @@
       "tags": [
         "The Chosen",
         "Season 1",
-        "Session Recaps",
-        "Campaign 2003"
+        "Session Recaps"
       ]
     },
     {
@@ -1014,8 +970,7 @@
       "tags": [
         "The Chosen",
         "Season 1",
-        "Session Recaps",
-        "Campaign 2003"
+        "Session Recaps"
       ]
     },
     {
@@ -1025,8 +980,7 @@
       "tags": [
         "The Chosen",
         "Season 1",
-        "Session Recaps",
-        "Campaign 2003"
+        "Session Recaps"
       ]
     },
     {
@@ -1036,8 +990,7 @@
       "tags": [
         "The Chosen",
         "Season 1",
-        "Session Recaps",
-        "Campaign 2003"
+        "Session Recaps"
       ]
     },
     {
@@ -1047,8 +1000,7 @@
       "tags": [
         "The Chosen",
         "Season 2",
-        "Session Recaps",
-        "Campaign 2003"
+        "Session Recaps"
       ]
     },
     {
@@ -1058,8 +1010,7 @@
       "tags": [
         "The Chosen",
         "Season 2",
-        "Session Recaps",
-        "Campaign 2003"
+        "Session Recaps"
       ]
     },
     {
@@ -1069,8 +1020,7 @@
       "tags": [
         "The Chosen",
         "Season 2",
-        "Session Recaps",
-        "Campaign 2003"
+        "Session Recaps"
       ]
     },
     {
@@ -1080,8 +1030,7 @@
       "tags": [
         "The Chosen",
         "Season 2",
-        "Session Recaps",
-        "Campaign 2003"
+        "Session Recaps"
       ]
     },
     {
@@ -1091,8 +1040,7 @@
       "tags": [
         "The Chosen",
         "Season 2",
-        "Session Recaps",
-        "Campaign 2003"
+        "Session Recaps"
       ]
     },
     {
@@ -1102,8 +1050,7 @@
       "tags": [
         "The Chosen",
         "Season 2",
-        "Session Recaps",
-        "Campaign 2003"
+        "Session Recaps"
       ]
     },
     {
@@ -1113,8 +1060,7 @@
       "tags": [
         "The Chosen",
         "Season 2",
-        "Session Recaps",
-        "Campaign 2003"
+        "Session Recaps"
       ]
     },
     {
@@ -1124,8 +1070,7 @@
       "tags": [
         "The Chosen",
         "Season 2",
-        "Session Recaps",
-        "Campaign 2003"
+        "Session Recaps"
       ]
     },
     {
@@ -1135,8 +1080,7 @@
       "tags": [
         "The Chosen",
         "Season 2",
-        "Session Recaps",
-        "Campaign 2003"
+        "Session Recaps"
       ]
     },
     {
@@ -1146,8 +1090,7 @@
       "tags": [
         "The Chosen",
         "Season 2",
-        "Session Recaps",
-        "Campaign 2003"
+        "Session Recaps"
       ]
     },
     {
@@ -1157,8 +1100,7 @@
       "tags": [
         "The Chosen",
         "Season 2",
-        "Session Recaps",
-        "Campaign 2003"
+        "Session Recaps"
       ]
     },
     {
@@ -1168,8 +1110,7 @@
       "tags": [
         "The Chosen",
         "Season 2",
-        "Session Recaps",
-        "Campaign 2003"
+        "Session Recaps"
       ]
     },
     {
@@ -1179,8 +1120,7 @@
       "tags": [
         "The Chosen",
         "Season 2",
-        "Session Recaps",
-        "Campaign 2003"
+        "Session Recaps"
       ]
     },
     {
@@ -1190,8 +1130,7 @@
       "tags": [
         "The Chosen",
         "Season 2",
-        "Session Recaps",
-        "Campaign 2003"
+        "Session Recaps"
       ]
     },
     {
@@ -1201,8 +1140,7 @@
       "tags": [
         "The Chosen",
         "Season 2",
-        "Session Recaps",
-        "Campaign 2003"
+        "Session Recaps"
       ]
     },
     {
@@ -1212,8 +1150,7 @@
       "tags": [
         "The Chosen",
         "Season 2",
-        "Session Recaps",
-        "Campaign 2003"
+        "Session Recaps"
       ]
     },
     {
@@ -1223,8 +1160,7 @@
       "tags": [
         "The Chosen",
         "Season 2",
-        "Session Recaps",
-        "Campaign 2003"
+        "Session Recaps"
       ]
     },
     {
@@ -1234,8 +1170,7 @@
       "tags": [
         "The Chosen",
         "Season 2",
-        "Session Recaps",
-        "Campaign 2003"
+        "Session Recaps"
       ]
     },
     {
@@ -1245,8 +1180,7 @@
       "tags": [
         "The Chosen",
         "Season 2",
-        "Session Recaps",
-        "Campaign 2003"
+        "Session Recaps"
       ]
     },
     {
@@ -1256,8 +1190,7 @@
       "tags": [
         "The Chosen",
         "Season 2",
-        "Session Recaps",
-        "Campaign 2003"
+        "Session Recaps"
       ]
     },
     {
@@ -1267,8 +1200,7 @@
       "tags": [
         "The Chosen",
         "Season 2",
-        "Session Recaps",
-        "Campaign 2003"
+        "Session Recaps"
       ]
     },
     {
@@ -1278,8 +1210,7 @@
       "tags": [
         "The Chosen",
         "Season 3",
-        "Session Recaps",
-        "Campaign 2003"
+        "Session Recaps"
       ]
     },
     {
@@ -1289,8 +1220,7 @@
       "tags": [
         "The Chosen",
         "Season 3",
-        "Session Recaps",
-        "Campaign 2003"
+        "Session Recaps"
       ]
     },
     {
@@ -1300,8 +1230,7 @@
       "tags": [
         "The Chosen",
         "Season 3",
-        "Session Recaps",
-        "Campaign 2003"
+        "Session Recaps"
       ]
     },
     {
@@ -1311,8 +1240,7 @@
       "tags": [
         "The Chosen",
         "Season 3",
-        "Session Recaps",
-        "Campaign 2003"
+        "Session Recaps"
       ]
     },
     {
@@ -1322,8 +1250,7 @@
       "tags": [
         "The Chosen",
         "Season 3",
-        "Session Recaps",
-        "Campaign 2003"
+        "Session Recaps"
       ]
     },
     {
@@ -1333,8 +1260,7 @@
       "tags": [
         "The Chosen",
         "Season 3",
-        "Session Recaps",
-        "Campaign 2003"
+        "Session Recaps"
       ]
     },
     {
@@ -1344,8 +1270,7 @@
       "tags": [
         "The Chosen",
         "Season 3",
-        "Session Recaps",
-        "Campaign 2003"
+        "Session Recaps"
       ]
     },
     {
@@ -1355,8 +1280,7 @@
       "tags": [
         "The Chosen",
         "Season 3",
-        "Session Recaps",
-        "Campaign 2003"
+        "Session Recaps"
       ]
     },
     {
@@ -1366,8 +1290,7 @@
       "tags": [
         "The Chosen",
         "Season 3",
-        "Session Recaps",
-        "Campaign 2003"
+        "Session Recaps"
       ]
     },
     {
@@ -1377,8 +1300,7 @@
       "tags": [
         "The Chosen",
         "Season 3",
-        "Session Recaps",
-        "Campaign 2003"
+        "Session Recaps"
       ]
     },
     {
@@ -1388,8 +1310,7 @@
       "tags": [
         "The Chosen",
         "Season 3",
-        "Session Recaps",
-        "Campaign 2003"
+        "Session Recaps"
       ]
     },
     {
@@ -1399,8 +1320,7 @@
       "tags": [
         "The Chosen",
         "Season 3",
-        "Session Recaps",
-        "Campaign 2003"
+        "Session Recaps"
       ]
     },
     {
@@ -1410,8 +1330,7 @@
       "tags": [
         "The Chosen",
         "Season 3",
-        "Session Recaps",
-        "Campaign 2003"
+        "Session Recaps"
       ]
     },
     {
@@ -1421,8 +1340,7 @@
       "tags": [
         "The Chosen",
         "Season 3",
-        "Session Recaps",
-        "Campaign 2003"
+        "Session Recaps"
       ]
     },
     {
@@ -1432,8 +1350,7 @@
       "tags": [
         "The Chosen",
         "Season 3",
-        "Session Recaps",
-        "Campaign 2003"
+        "Session Recaps"
       ]
     },
     {
@@ -1443,8 +1360,7 @@
       "tags": [
         "The Chosen",
         "Season 3",
-        "Session Recaps",
-        "Campaign 2003"
+        "Session Recaps"
       ]
     },
     {
@@ -1454,8 +1370,7 @@
       "tags": [
         "The Chosen",
         "Season 3",
-        "Session Recaps",
-        "Campaign 2003"
+        "Session Recaps"
       ]
     },
     {
@@ -1465,8 +1380,7 @@
       "tags": [
         "The Chosen",
         "Season 3",
-        "Session Recaps",
-        "Campaign 2003"
+        "Session Recaps"
       ]
     },
     {
@@ -1522,8 +1436,7 @@
       "tags": [
         "The Chosen",
         "Season 3",
-        "Session Recaps",
-        "Campaign 2003"
+        "Session Recaps"
       ]
     },
     {
@@ -1623,7 +1536,6 @@
       "tags": [
         "Freaky Gray Company",
         "Arc 2",
-        "D&D",
         "Session Recaps"
       ]
     },
@@ -1654,8 +1566,7 @@
       "tags": [
         "Freaky Gray Company",
         "Arc 2",
-        "Session Recaps",
-        "D&D"
+        "Session Recaps"
       ]
     },
     {
@@ -1665,7 +1576,6 @@
       "tags": [
         "Freaky Gray Company",
         "Arc 2",
-        "D&D",
         "Session Recaps"
       ]
     },
@@ -1803,18 +1713,14 @@
         "to": "/tag/session-recaps/",
         "status": "Static archive/feed redirects implemented"
       }
-    ]
+    ],
+    "removedCategoryTagLinks": "Replace removed venue/context archive links with their visible text during migration"
   },
   "legacySlugChanges": [
     {
       "tag": "City of Mist",
       "from": "/tag/cityofmist/",
       "to": "/tag/city-of-mist/"
-    },
-    {
-      "tag": "D&D",
-      "from": "/tag/dnd/",
-      "to": "/tag/d&d/"
     },
     {
       "tag": "Freaky Gray Company",
