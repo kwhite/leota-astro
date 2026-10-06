@@ -91,3 +91,8 @@ All 496 new Arc 2 delivery files are uploaded to R2; three representative public
 Adds 22 source covers (33.46 MiB), 2.81 MiB of full-size delivery images and 88 responsive variants. Current manifest: 377 source assets and 1,476 delivery files. Build: 167 pages; media checks cover 1,188 responsive occurrences, 548 full-size links and 1,476 checksums. Original backup/public images remain unchanged; no bucket objects are deleted. See `chosen-season-one-migration.json` for provenance and upload verification.
 
 All 110 new Season 1 delivery files are uploaded to R2; three representative public downloads match SHA-256 checksums.
+
+
+## The Chosen Season 2 batch (2026-10-06)
+
+Adds 23 images (40,225,134 source bytes; 3,594,116 full-size delivery bytes), 13 unchanged PDFs (675,497 bytes) and 92 responsive variants. All 128 new objects uploaded to R2. All 13 public PDFs and three representative image downloads match checksums; PDF content types and attachment headers verified. Manifest: 413 source assets and 1,604 delivery files. Build: 191 pages; media checks cover 1,390 responsive occurrences, 610 full-size links and 1,604 checksums. Originals remain unchanged; no bucket objects deleted.

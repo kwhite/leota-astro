@@ -998,7 +998,7 @@
     {
       "slug": "a-fathers-love",
       "title": "2.12 A Father's Love",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 2",
@@ -1008,7 +1008,7 @@
     {
       "slug": "catalyst",
       "title": "2.20 Catalyst",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 2",
@@ -1018,7 +1018,7 @@
     {
       "slug": "ring-of-power",
       "title": "2.16 Ring of Power",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 2",
@@ -1028,7 +1028,7 @@
     {
       "slug": "the-chain-is-broken",
       "title": "2.11 The Chain is Broken",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 2",
@@ -1038,7 +1038,7 @@
     {
       "slug": "election",
       "title": "2.21 Election",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 2",
@@ -1048,7 +1048,7 @@
     {
       "slug": "luck-o-the-irish",
       "title": "2.15 Luck O' The Irish",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 2",
@@ -1058,7 +1058,7 @@
     {
       "slug": "do-over",
       "title": "2.18 Do Over",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 2",
@@ -1068,7 +1068,7 @@
     {
       "slug": "family-jewels",
       "title": "2.10 Family Jewels",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 2",
@@ -1078,7 +1078,7 @@
     {
       "slug": "play-it-again",
       "title": "2.5 Play It Again",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 2",
@@ -1088,7 +1088,7 @@
     {
       "slug": "hail-to-the-victors",
       "title": "2.6 Hail to the Victors",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 2",
@@ -1098,7 +1098,7 @@
     {
       "slug": "mostly-dead",
       "title": "2.3 Mostly Dead",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 2",
@@ -1108,7 +1108,7 @@
     {
       "slug": "incumbent",
       "title": "2.22 Incumbent",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 2",
@@ -1118,7 +1118,7 @@
     {
       "slug": "hunting-house",
       "title": "2.4 Hunting House",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 2",
@@ -1128,7 +1128,7 @@
     {
       "slug": "tranquility",
       "title": "2.8 Spa Kids",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 2",
@@ -1138,7 +1138,7 @@
     {
       "slug": "modern-times",
       "title": "2.2 Modern Times",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 2",
@@ -1148,7 +1148,7 @@
     {
       "slug": "mirror-mirror",
       "title": "2.19 Mirror, Mirror",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 2",
@@ -1158,7 +1158,7 @@
     {
       "slug": "the-demon-in-me",
       "title": "2.13 The Demon in Me",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 2",
@@ -1168,7 +1168,7 @@
     {
       "slug": "something-wicked",
       "title": "2.9 Something Wicked? This Way. Come.",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 2",
@@ -1178,7 +1178,7 @@
     {
       "slug": "the-natural-order-of-things",
       "title": "2.1 The Natural Order of Things",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 2",
@@ -1188,7 +1188,7 @@
     {
       "slug": "the-not-so-hard-way",
       "title": "2.14 The Not-So-Hard Way",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 2",
@@ -1198,7 +1198,7 @@
     {
       "slug": "visions-of-grandeur",
       "title": "2.7 Visions of Grandeur",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 2",
@@ -1416,7 +1416,7 @@
     {
       "slug": "2-17-things-fall-apart",
       "title": "2.17 Things Fall Apart",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "The Chosen",
         "Season 2"
@@ -1751,8 +1751,8 @@
   "summary": {
     "sourcePosts": 170,
     "retainedArchivePosts": 168,
-    "alreadyMigratedPosts": 123,
-    "remainingPostsToMigrate": 45,
+    "alreadyMigratedPosts": 145,
+    "remainingPostsToMigrate": 23,
     "approvedOmissions": 2,
     "untaggedRetainedPosts": [
       "1-5-when-the-cats-away"
