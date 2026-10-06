@@ -279,3 +279,5 @@ Local and R2 builds pass (62 pages), validating 263 responsive images, 191 full-
 ### Chosen file-card refinement
 
 Kat requested visual distinction for the PDF links. `FileDownload.astro` restores the exported file-card treatment with title, filename, size, download icon, hover and visible keyboard focus. All seven Cast downloads use it. Local theme CSS had no file-card rules; this is an Astro implementation based on the available export markup. Desktop appearance and phone-width overflow verified; R2 links remain unchanged.
+
+Cast source cleanup: removed five invisible Unicode line separators (U+2028) after character names in headings. Ordinary LF line endings and the final newline were already correct; visible text is unchanged.
