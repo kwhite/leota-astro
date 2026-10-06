@@ -22,7 +22,7 @@ export default function mediaDelivery() {
             if (entry.isDirectory()) await checkSources(file);
             else if (/\.(md|mdx|json|ts|astro|css)$/.test(entry.name)) {
               const source = await fs.readFile(file, 'utf8');
-              const refs = source.match(/\/?assets\/images\/[^\s"'<>\)\}\]]+\.(?:png|jpe?g|webp|gif|ico|svg)/g) || [];
+              const refs = source.match(/\/?assets\/(?:images|files)\/[^\s"'<>\)\}\]]+\.(?:png|jpe?g|webp|gif|ico|svg|pdf)/g) || [];
               for (const ref of refs) {
                 if (!knownSources.has(`/${ref.replace(/^\//, '')}`)) throw new Error(`Media manifest missing ${ref}; run scripts/prepare-media.py and upload the delivery files before publishing.`);
               }
@@ -82,6 +82,7 @@ export default function mediaDelivery() {
         await rewrite(output);
         // Astro copies all public images: exclude sources and unused archive files.
         await fs.rm(path.join(output, 'assets/images'), { recursive: true, force: true });
+        await fs.rm(path.join(output, 'assets/files'), { recursive: true, force: true });
         for (const [url, bytes] of files) {
           const dest = path.join(output, url);
           await fs.mkdir(path.dirname(dest), { recursive: true });

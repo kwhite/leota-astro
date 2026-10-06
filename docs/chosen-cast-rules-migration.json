@@ -1,0 +1,111 @@
+{
+  "pages": [
+    {
+      "slug": "the-chosen-cast",
+      "sourceId": "69823d581c553405dce94c46",
+      "sourceHtmlSha256": "5c23b8f5d2720dbccb6060e65246ad338595ba0a309e37c32d4eb037bca9986f"
+    },
+    {
+      "slug": "general-buffy-game-info",
+      "sourceId": "69ed55fcbc4b0c9eb25a5664",
+      "sourceHtmlSha256": "91a054bcfa3205b0b26fa1b8e013e030d7a42fb308db4fd7e48c486a1d605008"
+    }
+  ],
+  "media": [
+    {
+      "url": "/assets/images/2026/04/desktop740.jpg",
+      "source": "images/2026/04/desktop740.jpg",
+      "bytes": 47774,
+      "sha256": "560a0170ff789701470c7fb5783fc1d23b65ccd0e0298e595e3d98dc167dff9a"
+    },
+    {
+      "url": "/assets/images/2026/02/gabe.png",
+      "source": "images/2026/02/gabe.png",
+      "bytes": 119112,
+      "sha256": "6a1ee73de44f85ae45fc93153e51a8d59d729897b62d6480a53080e6fcecf468"
+    },
+    {
+      "url": "/assets/images/2026/02/chase.png",
+      "source": "images/2026/02/chase.png",
+      "bytes": 118039,
+      "sha256": "d725c657a39fd6d7ada7efa6577583de94f4013bdedc793c4e727d7e00505622"
+    },
+    {
+      "url": "/assets/images/2026/02/stefan.png",
+      "source": "images/2026/02/stefan.png",
+      "bytes": 130210,
+      "sha256": "3506ebd0fce5a344e7f97eb565f270e5831640f5c57de8716a81bb4a6cdaad76"
+    },
+    {
+      "url": "/assets/images/2026/02/raveena.png",
+      "source": "images/2026/02/raveena.png",
+      "bytes": 122346,
+      "sha256": "6bcb58246047668555b65dca54eafa7deb3c0a7e15d07613290f2af2c30b48ed"
+    },
+    {
+      "url": "/assets/images/2026/02/deaver.png",
+      "source": "images/2026/02/deaver.png",
+      "bytes": 129464,
+      "sha256": "51128f23b8b2cb1bfe60ddafef08d045e1507dcc5106dface4c6a3166f62c736"
+    },
+    {
+      "url": "/assets/images/2026/02/geoff.png",
+      "source": "images/2026/02/geoff.png",
+      "bytes": 120158,
+      "sha256": "19190b9004518813bb535c5063668a2aa0b4816c78c2cbbffbcec69b902db1c0"
+    },
+    {
+      "url": "/assets/images/2026/05/desktop740-1.jpg",
+      "source": "images/2026/05/desktop740-1.jpg",
+      "bytes": 47705,
+      "sha256": "2fbf1a964c7463d97f832c3013ee4c6eb42f42ae05fec2f45fd4feda35439130"
+    },
+    {
+      "url": "/assets/files/2026/02/_gabe_season3_start.pdf",
+      "source": "files/2026/02/_gabe_season3_start.pdf",
+      "bytes": 268944,
+      "sha256": "9949900b5a7929d81d9b99c3fae4b1d9e243699754e18644430d899b786a82b1"
+    },
+    {
+      "url": "/assets/files/2026/02/deaver_season3_start.pdf",
+      "source": "files/2026/02/deaver_season3_start.pdf",
+      "bytes": 757179,
+      "sha256": "0d4a08f69ca49087509743daf523977282bca614c2f5905972929be057478734"
+    },
+    {
+      "url": "/assets/files/2026/02/stefan_season3_mid.pdf",
+      "source": "files/2026/02/stefan_season3_mid.pdf",
+      "bytes": 419243,
+      "sha256": "10a49794ed0d689f098a14513e682182d6ffe6e6ceb47aa83d285a6580d98672"
+    },
+    {
+      "url": "/assets/files/2026/02/geoff_season3_mid.pdf",
+      "source": "files/2026/02/geoff_season3_mid.pdf",
+      "bytes": 758597,
+      "sha256": "120367f60308abe9deb362c104b4c7262db8b0f556623cf8faff95a9fd21823d"
+    },
+    {
+      "url": "/assets/files/2026/02/_chase_season3_mid.pdf",
+      "source": "files/2026/02/_chase_season3_mid.pdf",
+      "bytes": 933502,
+      "sha256": "8fe95bb993980a16992349777afdbc0896ae4a3209a73f14ac6e9c33af934d48"
+    },
+    {
+      "url": "/assets/files/2026/02/raveena_season2_start.pdf",
+      "source": "files/2026/02/raveena_season2_start.pdf",
+      "bytes": 242055,
+      "sha256": "8f6be644d34aa64c3fcc49c7eade087ca6454719c3ffe3c24137d742eabfcbae"
+    },
+    {
+      "url": "/assets/files/2026/02/veenaletters.pdf",
+      "source": "files/2026/02/veenaletters.pdf",
+      "bytes": 113830,
+      "sha256": "29b10b39206fc929dab619bc77b1c2d2dce384079bec7bb8926be7816d87b893"
+    }
+  ],
+  "notes": [
+    "No individual header/footer injection fields migrated.",
+    "quest.html is absent from the export; its label is preserved as unavailable text. intro.html maps to /the-chosen/.",
+    "File-card SVG decoration replaced by ordinary accessible PDF download links."
+  ]
+}

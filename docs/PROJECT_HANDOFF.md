@@ -257,3 +257,12 @@ Branch `codex/wildemount-gazette` migrates the Gazette landing page, enables its
 Five unrelated shopping paragraphs were omitted with Kat's explicit approval. `gazette-migration-manifest.json` records omissions, source article IDs/checksums, table counts and media provenance. No individual header/footer code-injection fields are migrated. Text, tables and original non-spam links were compared against the rendered output for all seven posts. Tables retain their item names, prices and game links, including source inaccuracies for later editorial review. Fire Orchid Springs retains the original `/emberpetal-springs/` slug.
 
 Eleven new original media sources are preserved locally; 52 optimized full-size/variant objects are uploaded to R2. Build: 60 pages; responsive checks validate 259 image occurrences, 174 full-size links and 518 file checksums. Mobile inventory table stays inside the reading column and scrolls horizontally without page overflow. Existing dependency edits and bulk originals remain excluded.
+
+
+## The Chosen Cast and Rules (2026-10-05)
+
+Kat requested these two pages, then a tag-pruning discussion before further content migration. Branch `codex/chosen-cast-rules` migrates `/the-chosen-cast/` and `/general-buffy-game-info/`, enabling both navigation links. Cast retains six gallery portraits, six profiles/quotes and seven PDF downloads. Rules retains Jackie's recovered instructions and callout. Source text comparisons pass. No spam was found in these bodies and no individual header/footer injection fields were read or migrated.
+
+The absent `quest.html` questionnaire is represented by its label plus an unavailable-form note; `intro.html` now links to `/the-chosen/`. Cast's old file-card SVG decorations are replaced by ordinary labelled PDF download links with source size labels. The media pipeline now supports original PDF downloads under `/assets/files/` alongside images. R2 objects carry PDF content type and attachment disposition. All seven public PDFs match backup checksums. Eleven new delivery objects are uploaded; originals stay outside Git.
+
+Local and R2 builds pass (62 pages), validating 263 responsive images, 191 full-size links and 529 delivery checksums. `chosen-cast-rules-migration.json` records source provenance and editorial notes. **Stop additional content migration here: discuss and approve the tag plan with Kat next. Do not prune tags without that discussion.**

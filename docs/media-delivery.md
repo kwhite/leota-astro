@@ -41,3 +41,7 @@ For a rollout that only adds responsive files, `node scripts/upload-media.mjs --
 Native sizing reference: [MDN image sizes](https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/sizes). The new files add storage; they reduce bytes downloaded per image rather than shrinking the entire bucket.
 
 For subsequent content migrations, `--changed-since /path/to/previous-manifest.json` uploads only delivery paths whose checksums differ from that previous manifest. Save the baseline before preparing media; this option assumes that baseline was already uploaded. All local files are still validated.
+
+## PDF downloads
+
+Referenced PDF files under `public/assets/files/` are preserved byte-for-byte, inventoried and uploaded alongside images. They receive `application/pdf` and attachment headers on R2. The build rewrites their links with `MEDIA_BASE_URL`; remote builds exclude bundled document copies, while local builds copy validated delivery files. Images retain their existing responsive behavior. Originals remain outside Git.

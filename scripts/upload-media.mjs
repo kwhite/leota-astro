@@ -8,7 +8,7 @@ import { spawn } from 'node:child_process';
 const root = fileURLToPath(new URL('../', import.meta.url));
 const manifest = JSON.parse(await fs.readFile(path.join(root, 'docs/media-delivery-manifest.json'), 'utf8'));
 const endpoint = 'https://6aaee8d827f66c560264502c52a30782.r2.cloudflarestorage.com';
-const types = { '.webp': 'image/webp', '.png': 'image/png', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.gif': 'image/gif', '.ico': 'image/x-icon' };
+const types = { '.webp': 'image/webp', '.png': 'image/png', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.gif': 'image/gif', '.ico': 'image/x-icon', '.pdf': 'application/pdf' };
 const prepared = [];
 const deliverySet = manifest.assets.flatMap(asset => [asset, ...(asset.variants || [])]);
 for (const asset of deliverySet) {
@@ -41,6 +41,7 @@ if (!process.argv.includes('--apply')) {
       const args = ['s3', 'cp', file, `s3://leota-media${asset.delivery}`, '--profile', 'leota-r2', '--endpoint-url', endpoint,
         '--content-type', types[path.extname(file)], '--cache-control', 'public,max-age=3600',
         '--metadata', `sha256=${asset.deliverySha256}`, '--only-show-errors', '--no-cli-pager'];
+      if (path.extname(file) === '.pdf') args.push('--content-disposition', `attachment; filename="${path.basename(file)}"`);
       try {
         await new Promise((resolve, reject) => {
           const child = spawn('aws', args, { stdio: ['ignore', 'ignore', 'pipe'] });

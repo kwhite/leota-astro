@@ -2,10 +2,136 @@
   "version": 2,
   "pillow": "12.3.0",
   "webp": "1.6.0",
-  "sourceBytes": 253000664,
-  "deliveryBytes": 62476277,
-  "variantBytes": 53724394,
+  "sourceBytes": 256589493,
+  "deliveryBytes": 66065106,
+  "variantBytes": 53758706,
   "assets": [
+    {
+      "source": "/assets/files/2026/02/_chase_season3_mid.pdf",
+      "delivery": "/assets/files/2026/02/_chase_season3_mid.pdf",
+      "sourceSha256": "8fe95bb993980a16992349777afdbc0896ae4a3209a73f14ac6e9c33af934d48",
+      "deliverySha256": "8fe95bb993980a16992349777afdbc0896ae4a3209a73f14ac6e9c33af934d48",
+      "sourceBytes": 933502,
+      "deliveryBytes": 933502,
+      "dimensions": null,
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "original PDF download",
+      "usedIn": [
+        "src/content/pages/the-chosen-cast.mdx"
+      ],
+      "variants": []
+    },
+    {
+      "source": "/assets/files/2026/02/_gabe_season3_start.pdf",
+      "delivery": "/assets/files/2026/02/_gabe_season3_start.pdf",
+      "sourceSha256": "9949900b5a7929d81d9b99c3fae4b1d9e243699754e18644430d899b786a82b1",
+      "deliverySha256": "9949900b5a7929d81d9b99c3fae4b1d9e243699754e18644430d899b786a82b1",
+      "sourceBytes": 268944,
+      "deliveryBytes": 268944,
+      "dimensions": null,
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "original PDF download",
+      "usedIn": [
+        "src/content/pages/the-chosen-cast.mdx"
+      ],
+      "variants": []
+    },
+    {
+      "source": "/assets/files/2026/02/deaver_season3_start.pdf",
+      "delivery": "/assets/files/2026/02/deaver_season3_start.pdf",
+      "sourceSha256": "0d4a08f69ca49087509743daf523977282bca614c2f5905972929be057478734",
+      "deliverySha256": "0d4a08f69ca49087509743daf523977282bca614c2f5905972929be057478734",
+      "sourceBytes": 757179,
+      "deliveryBytes": 757179,
+      "dimensions": null,
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "original PDF download",
+      "usedIn": [
+        "src/content/pages/the-chosen-cast.mdx"
+      ],
+      "variants": []
+    },
+    {
+      "source": "/assets/files/2026/02/geoff_season3_mid.pdf",
+      "delivery": "/assets/files/2026/02/geoff_season3_mid.pdf",
+      "sourceSha256": "120367f60308abe9deb362c104b4c7262db8b0f556623cf8faff95a9fd21823d",
+      "deliverySha256": "120367f60308abe9deb362c104b4c7262db8b0f556623cf8faff95a9fd21823d",
+      "sourceBytes": 758597,
+      "deliveryBytes": 758597,
+      "dimensions": null,
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "original PDF download",
+      "usedIn": [
+        "src/content/pages/the-chosen-cast.mdx"
+      ],
+      "variants": []
+    },
+    {
+      "source": "/assets/files/2026/02/raveena_season2_start.pdf",
+      "delivery": "/assets/files/2026/02/raveena_season2_start.pdf",
+      "sourceSha256": "8f6be644d34aa64c3fcc49c7eade087ca6454719c3ffe3c24137d742eabfcbae",
+      "deliverySha256": "8f6be644d34aa64c3fcc49c7eade087ca6454719c3ffe3c24137d742eabfcbae",
+      "sourceBytes": 242055,
+      "deliveryBytes": 242055,
+      "dimensions": null,
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "original PDF download",
+      "usedIn": [
+        "src/content/pages/the-chosen-cast.mdx"
+      ],
+      "variants": []
+    },
+    {
+      "source": "/assets/files/2026/02/stefan_season3_mid.pdf",
+      "delivery": "/assets/files/2026/02/stefan_season3_mid.pdf",
+      "sourceSha256": "10a49794ed0d689f098a14513e682182d6ffe6e6ceb47aa83d285a6580d98672",
+      "deliverySha256": "10a49794ed0d689f098a14513e682182d6ffe6e6ceb47aa83d285a6580d98672",
+      "sourceBytes": 419243,
+      "deliveryBytes": 419243,
+      "dimensions": null,
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "original PDF download",
+      "usedIn": [
+        "src/content/pages/the-chosen-cast.mdx"
+      ],
+      "variants": []
+    },
+    {
+      "source": "/assets/files/2026/02/veenaletters.pdf",
+      "delivery": "/assets/files/2026/02/veenaletters.pdf",
+      "sourceSha256": "29b10b39206fc929dab619bc77b1c2d2dce384079bec7bb8926be7816d87b893",
+      "deliverySha256": "29b10b39206fc929dab619bc77b1c2d2dce384079bec7bb8926be7816d87b893",
+      "sourceBytes": 113830,
+      "deliveryBytes": 113830,
+      "dimensions": null,
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "original PDF download",
+      "usedIn": [
+        "src/content/pages/the-chosen-cast.mdx"
+      ],
+      "variants": []
+    },
     {
       "source": "/assets/images/2024/12/IMG_0423-2.png",
       "delivery": "/assets/images/2024/12/IMG_0423-2.png",
@@ -3027,6 +3153,7 @@
       "status": "converted",
       "reason": "quality 90 artwork",
       "usedIn": [
+        "src/content/pages/the-chosen-cast.mdx",
         "src/content/pages/the-chosen.mdx"
       ],
       "variants": []
@@ -3052,6 +3179,7 @@
       "status": "converted",
       "reason": "lossless transparency",
       "usedIn": [
+        "src/content/pages/the-chosen-cast.mdx",
         "src/content/pages/the-chosen.mdx"
       ],
       "variants": []
@@ -3076,6 +3204,7 @@
       "status": "converted",
       "reason": "quality 90 artwork",
       "usedIn": [
+        "src/content/pages/the-chosen-cast.mdx",
         "src/content/pages/the-chosen.mdx"
       ],
       "variants": []
@@ -3101,6 +3230,7 @@
       "status": "converted",
       "reason": "lossless transparency",
       "usedIn": [
+        "src/content/pages/the-chosen-cast.mdx",
         "src/content/pages/the-chosen.mdx"
       ],
       "variants": []
@@ -3126,6 +3256,7 @@
       "status": "converted",
       "reason": "lossless transparency",
       "usedIn": [
+        "src/content/pages/the-chosen-cast.mdx",
         "src/content/pages/the-chosen.mdx"
       ],
       "variants": []
@@ -3151,9 +3282,45 @@
       "status": "converted",
       "reason": "lossless transparency",
       "usedIn": [
+        "src/content/pages/the-chosen-cast.mdx",
         "src/content/pages/the-chosen.mdx"
       ],
       "variants": []
+    },
+    {
+      "source": "/assets/images/2026/04/desktop740.jpg",
+      "delivery": "/assets/images/2026/04/desktop740.jpg",
+      "sourceSha256": "560a0170ff789701470c7fb5783fc1d23b65ccd0e0298e595e3d98dc167dff9a",
+      "deliverySha256": "560a0170ff789701470c7fb5783fc1d23b65ccd0e0298e595e3d98dc167dff9a",
+      "sourceBytes": 47774,
+      "deliveryBytes": 47774,
+      "dimensions": [
+        740,
+        555
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/pages/general-buffy-game-info.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/04/desktop740.w320.webp",
+          "deliverySha256": "cc4948e59e6b54e02f010720c02eb92d6eb5ea7b2a336b2fd1bd522f2b57707c",
+          "deliveryBytes": 16868,
+          "dimensions": [
+            320,
+            240
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
     },
     {
       "source": "/assets/images/2026/05/cillian-tennant.png",
@@ -3452,6 +3619,41 @@
           "dimensions": [
             1280,
             1920
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/05/desktop740-1.jpg",
+      "delivery": "/assets/images/2026/05/desktop740-1.jpg",
+      "sourceSha256": "2fbf1a964c7463d97f832c3013ee4c6eb42f42ae05fec2f45fd4feda35439130",
+      "deliverySha256": "2fbf1a964c7463d97f832c3013ee4c6eb42f42ae05fec2f45fd4feda35439130",
+      "sourceBytes": 47705,
+      "deliveryBytes": 47705,
+      "dimensions": [
+        740,
+        555
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/pages/the-chosen-cast.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/05/desktop740-1.w320.webp",
+          "deliverySha256": "ee921383eb3474f8ab84233378949e3a0de8a6159c4a8e61a58cbd75f900ee04",
+          "deliveryBytes": 17444,
+          "dimensions": [
+            320,
+            240
           ],
           "settings": {
             "method": 6,
