@@ -1,0 +1,10 @@
+---
+import { getEntry, render } from 'astro:content';
+import PageLayout from '../layouts/PageLayout.astro';
+const page = await getEntry('pages', 'rpg-consent-checklist');
+if (!page) throw new Error('Missing page content: rpg-consent-checklist');
+const { Content } = await render(page);
+---
+<PageLayout title={page.data.title} cover={page.data.cover} description={page.data.description} subclass="campaign-page">
+    <Content />
+</PageLayout>

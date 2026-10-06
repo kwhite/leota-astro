@@ -37,6 +37,7 @@ export const CAMPAIGN_NAVIGATION = {
       { id: 'rules', label: 'Rules', href: '/com-system-modifications/', available: true },
       { id: 'neighborhoods', label: 'Neighborhoods', href: '/neighborhoods-in-the-city/', available: true },
       { id: 'people', label: 'People', href: '/people-in-the-city/', available: true },
+      { id: 'cast', label: 'Characters', href: '/city-of-mist-characters/', available: true },
       { id: 'summaries', label: 'Session Summaries', href: '/tag/city-of-mist/', available: true },
     ],
   },
@@ -63,7 +64,7 @@ export type CampaignId = keyof typeof CAMPAIGN_NAVIGATION;
 
 export const SECONDARY_NAVIGATION = [
   { label: 'DM Resources', href: '/dm-resources/', available: true },
-  { label: 'RPG Consent Checklist', href: '/rpg-consent-checklist/', available: false },
+  { label: 'RPG Consent Checklist', href: '/rpg-consent-checklist/', available: true },
 ];
 
 /**

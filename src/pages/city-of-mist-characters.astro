@@ -1,0 +1,12 @@
+---
+import { getEntry, render } from 'astro:content';
+import PageLayout from '../layouts/PageLayout.astro';
+import CampaignNav from '../components/CampaignNav.astro';
+const page = await getEntry('pages', 'city-of-mist-characters');
+if (!page) throw new Error('Missing page content: city-of-mist-characters');
+const { Content } = await render(page);
+---
+<PageLayout title={page.data.title} cover={page.data.cover} description={page.data.description} subclass="campaign-page">
+    {page.data.campaignSection && <CampaignNav current={page.data.campaignSection} campaign={page.data.campaign} />}
+    <Content />
+</PageLayout>
