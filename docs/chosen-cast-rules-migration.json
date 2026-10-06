@@ -106,6 +106,6 @@
   "notes": [
     "No individual header/footer injection fields migrated.",
     "quest.html is absent from the export; its label is preserved as unavailable text. intro.html maps to /the-chosen/.",
-    "File-card SVG decoration replaced by ordinary accessible PDF download links."
+    "Original file-card structure is represented by reusable FileDownload cards with title, filename, size and download icon."
   ]
 }

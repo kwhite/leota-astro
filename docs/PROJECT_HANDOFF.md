@@ -266,3 +266,8 @@ Kat requested these two pages, then a tag-pruning discussion before further cont
 The absent `quest.html` questionnaire is represented by its label plus an unavailable-form note; `intro.html` now links to `/the-chosen/`. Cast's old file-card SVG decorations are replaced by ordinary labelled PDF download links with source size labels. The media pipeline now supports original PDF downloads under `/assets/files/` alongside images. R2 objects carry PDF content type and attachment disposition. All seven public PDFs match backup checksums. Eleven new delivery objects are uploaded; originals stay outside Git.
 
 Local and R2 builds pass (62 pages), validating 263 responsive images, 191 full-size links and 529 delivery checksums. `chosen-cast-rules-migration.json` records source provenance and editorial notes. **Stop additional content migration here: discuss and approve the tag plan with Kat next. Do not prune tags without that discussion.**
+
+
+### Chosen file-card refinement
+
+Kat requested visual distinction for the PDF links. `FileDownload.astro` restores the exported file-card treatment with title, filename, size, download icon, hover and visible keyboard focus. All seven Cast downloads use it. Local theme CSS had no file-card rules; this is an Astro implementation based on the available export markup. Desktop appearance and phone-width overflow verified; R2 links remain unchanged.
