@@ -96,9 +96,9 @@
       "callouts": 0
     },
     {
-      "slug": "2024-01-18-session-notes",
+      "slug": "2025-01-18-session-notes",
       "sourceId": "678d31535299ad039dcd6428",
-      "title": "2024.01.18 Session Notes",
+      "title": "2025.01.18 Session Notes",
       "publishedAt": "2025-01-19T19:56:00.000Z",
       "tags": [
         "City of Mist",
@@ -106,13 +106,15 @@
         "Session Recaps"
       ],
       "sourceHtmlSha256": "6a99809dc525eb8b039c8997da06cbc1ee11e325d5eb4d78e6da003d596c5f2e",
-      "file": "src/content/posts/2024-01-18-session-notes.mdx",
+      "file": "src/content/posts/2025-01-18-session-notes.mdx",
       "omittedParagraphs": 0,
       "removedArchiveLinks": 4,
       "removedBrokenLinks": 0,
       "images": 4,
       "embeds": 1,
-      "callouts": 1
+      "callouts": 1,
+      "sourceSlug": "2024-01-18-session-notes",
+      "sourceTitle": "2024.01.18 Session Notes"
     },
     {
       "slug": "voice-over-kevin",
@@ -435,7 +437,7 @@
     }
   ],
   "editorialNotes": [
-    "Preserved source title/slug 2024-01-18-session-notes despite its 2025 publication date. Removed exported /404/ character links but kept names. Source content spelling/inaccuracies retained.",
+    "Kat approved correcting the January 18 recap title and route to 2025; preserve the original source identity in this record and redirect its old URL. Removed exported /404/ character links but kept names. Other source spelling/inaccuracies retained.",
     "Repaired malformed exported list nesting without dropping text. Captions use linked HTML figures; uncaptioned image cards retain their source structure. Only two posts need MDX for Callout; other prose is Markdown with HTML embeds/alternate quotes."
   ],
   "validation": {
