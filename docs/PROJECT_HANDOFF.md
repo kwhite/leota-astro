@@ -243,3 +243,17 @@ Kat requested the next campaign migration and replacement of custom Ghost arc te
 Characters preserve the two source gallery rows, six individual images, six exact D&D Beyond destinations, bookmark copy and captions. Gallery names were reconciled visually with the individual portraits (gallery order differs from section order). Gazette remains inactive; session summaries are a separate migration and archives currently use the existing empty-state message. Content stays editable in MDX using shared components.
 
 `fgc-media-sources.json` inventories 28 referenced backup sources, one already in the prior manifest. Preparation adds 27 full-size delivery files and 33 responsive candidates; these 60 new objects are uploaded to R2 without replacing prior objects. Build: 45 pages, with 189 responsive-image occurrences, 143 full-size links and 466 delivery checksums validated. Bulk sources, unrelated dependency edits and `.claude/` stay outside this commit.
+
+
+## Migration content safety preference (2026-10-05)
+
+Kat reports that the Ghost site was hacked multiple times. Omit obvious nonsense/spam from content migrations and record omissions for review. Do not migrate any individual page/post header or footer code-injection fields without consulting Kat first. This applies to subsequent migrations as well. Gazette work reads body HTML and relevant content metadata only; individual injection fields are not copied or executed.
+
+
+## Gazette and associated posts (2026-10-05)
+
+Branch `codex/wildemount-gazette` migrates the Gazette landing page, enables its FGC navigation link, and imports seven published posts linked through its Kamordah and Zadash archives (five and two respectively). Original post slugs, titles, dates, author and tags are retained. Gazette uses the existing campaign nav; posts remain posts and appear in their location/category archives and feeds. Homepage's session-note filter is unchanged.
+
+Five unrelated shopping paragraphs were omitted with Kat's explicit approval. `gazette-migration-manifest.json` records omissions, source article IDs/checksums, table counts and media provenance. No individual header/footer code-injection fields are migrated. Text, tables and original non-spam links were compared against the rendered output for all seven posts. Tables retain their item names, prices and game links, including source inaccuracies for later editorial review. Fire Orchid Springs retains the original `/emberpetal-springs/` slug.
+
+Eleven new original media sources are preserved locally; 52 optimized full-size/variant objects are uploaded to R2. Build: 60 pages; responsive checks validate 259 image occurrences, 174 full-size links and 518 file checksums. Mobile inventory table stays inside the reading column and scrolls horizontally without page overflow. Existing dependency edits and bulk originals remain excluded.

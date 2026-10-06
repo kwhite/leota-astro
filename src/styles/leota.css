@@ -144,7 +144,9 @@ html.dark-mode .leota .site-footer { background: var(--color-darkmode); padding-
 .leota-content iframe[src*="open.spotify.com/embed"] { border-radius: 12px; overflow: hidden; }
 .leota-content pre { max-width: 100%; overflow-x: auto; padding: 20px; font-size: 1.4rem; background: #0d0f12; border-radius: 5px; }
 .leota-content :not(pre) > code { padding: .15em .4em; font-size: .9em; background: #000; border-radius: .25em; }
-.leota-content table { display: block; max-width: 100%; overflow-x: auto; }
+.leota-content table { display: block; width: 100%; max-width: 100%; overflow-x: auto; border-collapse: collapse; font-size: 1.7rem; }
+.leota-content table :is(th,td) { padding: 12px 16px; border-bottom: 1px solid #424242; text-align: left; }
+.leota-content table th { color: #fff; font-weight: 700; }
 .leota-content figcaption { font-size: 1.4rem; color: var(--color-secondary-text); text-align: center; }
 .leota-content hr { border: 0; border-top: 1px solid #424242; }
 .leota-recent { border-top: 1px solid #303234; padding-block: max(6.4vmin, 40px); }
@@ -347,7 +349,4 @@ html.dark-mode .leota .post-card-excerpt {
 .campaign-page .district-description > p + p { margin-top: 24px; }
 .campaign-page .district-description > p:empty { display: none; }
 .campaign-page .migration-note { font-size: 1.5rem; color: var(--color-secondary-text); }
-.campaign-page table { width: 100%; border-collapse: collapse; font-size: 1.7rem; }
-.campaign-page :is(th,td) { padding: 12px 16px; border-bottom: 1px solid #424242; text-align: left; }
-.campaign-page th { color: #fff; font-weight: 700; }
 .campaign-page .content-banner + .district-description { margin-top: 28px; }
