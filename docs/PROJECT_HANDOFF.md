@@ -1,20 +1,22 @@
 # Here Be Dragons / Leota Astro — thread handoff
 
-Last updated: 2026-10-06, after migrating Freaky Gray Company Arc 1. This document records project context and user decisions; it is not authorization to deploy, send email, or migrate the full archive. **This current checkpoint takes precedence over the historical milestones below.**
+Last updated: 2026-10-06, after migrating Freaky Gray Company Arc 2. This document records project context and user decisions; it is not authorization to deploy, send email, or migrate the full archive. **This current checkpoint takes precedence over the historical milestones below.**
 
 ## Goal and current position
 
 Port Kat's Leota Ghost theme and selected content to Astro, preserving the dark design, editable Markdown/MDX, source content and reusable components. Cloudflare hosts the site; Netlify is paused. Kat confirmed live images load from R2.
 
-Main includes PRs #12–#20: Chosen Cast/Rules and PDF download cards, portable R2 media, automatic Markdown image lightboxes, dependency updates, approved tag cleanup, the finished Gazette, and City of Mist through Season One. Current branch `codex/freaky-gray-company-arc-one` migrates 37 Arc 1 posts, prepared for PR review. Check its merge status before starting another branch from updated `main`.
+Main includes PRs #12–#21: Chosen Cast/Rules and PDF download cards, portable R2 media, automatic Markdown image lightboxes, dependency updates, approved tag cleanup, the finished Gazette, City of Mist through Season One, and Freaky Gray Company Arc 1. Current branch `codex/freaky-gray-company-arc-two` migrates all 28 remaining Freaky Gray Company posts, prepared for PR review. Check its merge status before starting another branch from updated `main`.
 
 Kat approved retaining campaigns, chronology and Gazette locations, removing character, venue and broad/context tags, and consolidating Session Notes/Session Recap into **Session Recaps**. Current post metadata and tag archives reflect this choice; the homepage remains filtered by CoM Season 1. Static 301 rules for former format archives are bundled in `public/_redirects`; Cloudflare runtime behavior remains to be checked after deployment.
 
-Validation: the current R2 production build passes with 111 pages. Media checks cover 657 responsive-image occurrences, 354 full-size links and 870 delivery-file checksums. Retained navigation archives and the Session Recaps archive/feed were verified, along with the migration plan and bundled redirects. Documentation-only edits do not require another build.
+Validation: the current R2 production build passes with 144 pages. Media checks cover 999 responsive-image occurrences, 502 full-size links and 1,366 delivery-file checksums. Retained navigation archives and the Session Recaps archive/feed were verified, along with the migration plan and bundled redirects. Documentation-only edits do not require another build.
 
 ## Next session
 
-Review/merge the Arc 1 PR. City of Mist is migrated through all currently published chapters. Next batch: Freaky Gray Company Arc 2 (28 remaining campaign posts). Use a fresh branch from updated main after merge. Kat approved separate branches/PRs per reviewable season or arc. Read [tag-migration-decisions.md](tag-migration-decisions.md) and [tag-migration-plan.json](tag-migration-plan.json): of 170 source posts, 73 already exist, 95 remain to migrate, and two imported duplicates are approved omissions. Feolinn is a Gazette location; Quicksliver Cabaret is under Zadash and its Return to Summary destination now exists. Preserve the untagged 1.5 Original and its direct link from the revised post.
+Review/merge the Arc 2 PR. City of Mist and Freaky Gray Company are now migrated through all currently published posts. Next batch: The Chosen Season 1 (22 posts), followed by Season 2 (22) and Season 3 (23). Use a fresh branch from updated main after merge. Kat approved separate branches/PRs per reviewable season or arc. Read [tag-migration-decisions.md](tag-migration-decisions.md) and [tag-migration-plan.json](tag-migration-plan.json): of 170 source posts, 101 already exist, 67 remain to migrate, and two imported duplicates are approved omissions. Feolinn is a Gazette location; Quicksliver Cabaret is under Zadash and its Return to Summary destination exists. Preserve the untagged 1.5 Original and its direct link from the revised post.
+
+Kat plans to clean up Arc 1 headings/callouts another time; defer that editorial work. Arc 1's two covers were removed at her request for consistency. Arc 2 uses covers throughout, so its source covers are retained.
 
 D&D, Wildemount, Campaign 2003 and venue-type categories are approved removals. Wildemount can be added back later if needed. The Getting started sample remains preserved. The audit documents describe the pre-cleanup inventory; the decisions and migration plan describe the approved outcome.
 
@@ -22,7 +24,7 @@ Gallery prefixes are intentional OOC commentary shorthand and must remain (Kat c
 
 Authoring decisions: retain the succinct `Callout` component; alternate blockquotes use HTML, ordinary quotes use Markdown. Standalone Markdown images now open the lightbox without affecting explicit wide/full layout options. This does not authorize bulk conversion of component usages.
 
-Dependency changes are committed in merged PR #15. Preserve unrelated `.claude/` and untracked original images/PDFs; do not mass-stage them. The local preview has used `http://localhost:4322/`; check whether its server is still running.
+Dependency changes are committed in merged PR #15. Preserve unrelated `.claude/` and untracked original images/PDFs; do not mass-stage them. The current Astro dev daemon reports `http://localhost:4335/`; check its status before starting another server.
 
 Media delivery uses bucket `leota-media` and `MEDIA_BASE_URL=https://pub-e4d8121a5e7c42d98f03214fb5ed9720.r2.dev`. R2 is the default; an optional optimized offline cache is supported. See [media-delivery.md](media-delivery.md). A custom media domain remains future work.
 
@@ -343,3 +345,14 @@ Kat requested removal of the only two Arc 1 covers for consistency. Both covers 
 
 
 Arc 1 review follow-up: listing pagination is hidden while infinite scroll is active, including after the final page has been appended. Manual links reappear on a loading failure and remain available for direct visits to a final paginated route or without JavaScript. This shared behavior applies to homepage, tag and author listings. Regression checks: `node scripts/tests/infinite-scroll.mjs` covers completed loading, failure fallback after a successful append, and direct final-page navigation. Production build remains 111 pages.
+
+
+## Freaky Gray Company Arc 2 batch (2026-10-06)
+
+Migrates all 28 remaining campaign posts: 17 Markdown files and 11 MDX files for existing Callout usages. All four tables use Markdown; three galleries retain HTML, wide layout, image ratios, captions and linked lightboxes. Twenty yellow callouts, five alternate quotes, the Spotify embed and Gallery/OOC headings are preserved. Source title/slug/date spelling remains intact. No obvious unrelated spam found in the body/link scan; no source injection fields were read or migrated. Arc 1 editorial cleanup remains deferred to Kat.
+
+All 28 built article bodies match source text; all 82 body images and the formatted structures were verified. Production build: 144 pages. Media checks: 999 responsive occurrences, 502 full-size links and 1,366 delivery checksums. XML feeds, homepage filter, Arc 2 and campaign pagination pass. The December 27 mixed-size gallery and its five-image lightbox were checked in the local browser. See [fgc-arc-two-migration.json](fgc-arc-two-migration.json) for source/media provenance and validation.
+
+This batch prepares 110 referenced source images (171,012,811 bytes), 32,225,388 bytes of full-size delivery files and 386 responsive variants. Original source images and archive remain unchanged. The manifest now covers 355 source assets and 1,366 delivery files. No bucket objects are deleted.
+
+All 496 new Arc 2 delivery files are uploaded to R2; three representative public downloads (optimized PNG artwork, retained JPEG and responsive variant) match their delivery checksums. June 8 table/callout presentation also checked in the local browser.

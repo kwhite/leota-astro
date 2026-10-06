@@ -18,7 +18,7 @@ Confirmed by Kat on 2026-10-06. The inventory in `tag-audit.md` describes the pr
 - `the-invulnerable-vagrant-2`: omit the import-marker version in favor of existing `/the-invulnerable-vagrant/`.
 - `1-5-when-the-cats-away`: retain the original article and direct-link destination from `/1-5-when-the-cats-away-summary/`. It intentionally has no campaign or chronology tag; do not infer them. After character-tag removal it has no tags. Preserve the source body/link relationship. Its untagged status alone would not hide it from global feeds or recent-post suggestions; review those listing implications when the original is migrated.
 
-These exclusions remove the obsolete entries from the planned migration, not from the untouched archival backup. The plan covers 170 source posts: 73 already migrated, 95 remaining, and two approved omissions.
+These exclusions remove the obsolete entries from the planned migration, not from the untouched archival backup. The plan covers 170 source posts: 101 already migrated, 67 remaining, and two approved omissions.
 
 ## Links and validation
 

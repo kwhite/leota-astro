@@ -1,0 +1,1209 @@
+{
+  "batch": "Freaky Gray Company Arc 2",
+  "spamScan": "Reviewed all selected bodies and external links; no unrelated spam found. Individual injection fields not read or migrated.",
+  "posts": [
+    {
+      "slug": "legends-awaken",
+      "sourceId": "67bb7c0e5299ad039dcd68d8",
+      "title": "Legends Awaken",
+      "publishedAt": "2025-02-23T20:01:08.000Z",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2"
+      ],
+      "sourceHtmlSha256": "5a402221f013c7aa4a63871ebe5e15475b9e78743f57067f86274c265d47243c",
+      "file": "src/content/posts/legends-awaken.md",
+      "omittedParagraphs": 0,
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "2025-03-01-session-notes",
+      "sourceId": "67c7521c5299ad039dcd6915",
+      "title": "2025.03.01 Session Notes",
+      "publishedAt": "2025-03-04T20:50:48.000Z",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "204c668a8f3f075960d9fd1869edd257035467cbb5fdf31c641f3d8f41f7cf76",
+      "file": "src/content/posts/2025-03-01-session-notes.mdx",
+      "omittedParagraphs": 0,
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 1,
+      "embeds": 0,
+      "callouts": 2
+    },
+    {
+      "slug": "2025-03-22-session-notes",
+      "sourceId": "67e844795299ad039dcd69ac",
+      "title": "2025.03.22 Session Notes",
+      "publishedAt": "2025-03-29T19:11:01.000Z",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "97dabe435e5810a34c919ae5446b48b161e90edd41ee50eee84d6711354b1b30",
+      "file": "src/content/posts/2025-03-22-session-notes.md",
+      "omittedParagraphs": 0,
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 2,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "2025-04-05-session-notes",
+      "sourceId": "67f2c70f5299ad039dcd6a52",
+      "title": "2025.04.05 Session Notes",
+      "publishedAt": "2025-04-06T20:59:23.000Z",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "031e29dd5de181ff6a82721102372f411bc35dae07601d251ba3697078e707be",
+      "file": "src/content/posts/2025-04-05-session-notes.md",
+      "omittedParagraphs": 0,
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 1,
+      "galleries": 0,
+      "images": 3,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "2025-04-18-session-notes",
+      "sourceId": "6803ca4b5299ad039dcd6b17",
+      "title": "2025.04.18 Session Notes",
+      "publishedAt": "2025-04-19T23:16:44.000Z",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "be630cb687e5b3536b5c28b5f62604d468f757d9ee8280fee33288936aa5a637",
+      "file": "src/content/posts/2025-04-18-session-notes.md",
+      "omittedParagraphs": 0,
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 5,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "2025-05-03-session-notes",
+      "sourceId": "6817aa385299ad039dcd6c11",
+      "title": "2025.05.03 Session Notes",
+      "publishedAt": "2025-05-07T21:42:58.000Z",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "8ca909c92689e9c7dc3eb0290151eb872f560508f16d8ff8d08ea3f91113631e",
+      "file": "src/content/posts/2025-05-03-session-notes.mdx",
+      "omittedParagraphs": 0,
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 4,
+      "embeds": 0,
+      "callouts": 4
+    },
+    {
+      "slug": "2025-05-25-session-notes",
+      "sourceId": "6835e478e13df905d908b331",
+      "title": "2025.05.25 Session Notes",
+      "publishedAt": "2025-05-29T15:22:51.000Z",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "fe85de891eb5d3ef6fbe32502f88c6fb2fbff109aaf8c2ab3490ea051347c0c8",
+      "file": "src/content/posts/2025-05-25-session-notes.mdx",
+      "omittedParagraphs": 0,
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 4,
+      "embeds": 0,
+      "callouts": 3
+    },
+    {
+      "slug": "2025-06-01-session-notes",
+      "sourceId": "684337dbe13df905d908b4ad",
+      "title": "2025.06.01 Session Notes",
+      "publishedAt": "2025-06-08T01:53:50.000Z",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "2b637ba73efef965e4e9bf2d50c7ea686682a84c49c770d81942274cb80d60b6",
+      "file": "src/content/posts/2025-06-01-session-notes.mdx",
+      "omittedParagraphs": 0,
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 7,
+      "embeds": 0,
+      "callouts": 1
+    },
+    {
+      "slug": "2025-06-08-session-notes",
+      "sourceId": "684af217e13df905d908b57b",
+      "title": "2025.06.08 Session Notes",
+      "publishedAt": "2025-06-12T17:55:17.000Z",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "c3cc206b464183780b165ead11d163d2ca8daca10191415dcdb03e3ff137ec82",
+      "file": "src/content/posts/2025-06-08-session-notes.mdx",
+      "omittedParagraphs": 0,
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 1,
+      "galleries": 0,
+      "images": 6,
+      "embeds": 0,
+      "callouts": 2
+    },
+    {
+      "slug": "2025-06-14-session-notes",
+      "sourceId": "6855caefe13df905d908b7b1",
+      "title": "2025.06.14 Session Notes",
+      "publishedAt": "2025-06-20T22:54:25.000Z",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "8b302c78daccba7be3edbeaeaf094e780e0290d907655f54ecbab361d3ef4c71",
+      "file": "src/content/posts/2025-06-14-session-notes.mdx",
+      "omittedParagraphs": 0,
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 2,
+      "galleries": 0,
+      "images": 3,
+      "embeds": 0,
+      "callouts": 1
+    },
+    {
+      "slug": "2025-06-28-session-notes",
+      "sourceId": "6862aa15e13df905d908b88f",
+      "title": "2025.06.28 Session Notes",
+      "publishedAt": "2025-07-08T13:14:31.000Z",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "ed10a6a1ccb28239cccd2d81b894e458a84bfd6ad6a49f8d949b6a40be5c79dc",
+      "file": "src/content/posts/2025-06-28-session-notes.mdx",
+      "omittedParagraphs": 0,
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 1,
+      "embeds": 0,
+      "callouts": 2
+    },
+    {
+      "slug": "2025-07-26-session-notes",
+      "sourceId": "688fc9691c553405dce93cbd",
+      "title": "2025.07.26 Session Notes",
+      "publishedAt": "2025-08-03T20:58:53.000Z",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "f84558a80fcb488e1599946c11e54faa9b33964f7d4b3893fe032cc253c86e9f",
+      "file": "src/content/posts/2025-07-26-session-notes.md",
+      "omittedParagraphs": 0,
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "2025-08-09-session-notes",
+      "sourceId": "689bb5291c553405dce93d14",
+      "title": "2025.08.09 Session Notes",
+      "publishedAt": "2025-08-13T02:11:53.000Z",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "83f6da58b6e7504b37018e2c83a4ebf1f782ab78e9fd28f93fec34e781ff2ed8",
+      "file": "src/content/posts/2025-08-09-session-notes.md",
+      "omittedParagraphs": 0,
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 3,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "2025-08-15-session-notes",
+      "sourceId": "68a51c3a1c553405dce93dce",
+      "title": "2025.08.15 Session Notes",
+      "publishedAt": "2025-08-21T02:14:04.000Z",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "9f6f30463819019666cad9948d8d2f01a8ed8534f0b3ea75a7ac81fa8915bd69",
+      "file": "src/content/posts/2025-08-15-session-notes.md",
+      "omittedParagraphs": 0,
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 2,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "2025-09-01-session-notes",
+      "sourceId": "68bb3ed91c553405dce93e9f",
+      "title": "2025.09.01 Session Notes",
+      "publishedAt": "2025-09-06T19:28:22.000Z",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "d51c732f6ef54f2acd03fa96426fda3adff6b130da38b9c581832b70e9bf97b9",
+      "file": "src/content/posts/2025-09-01-session-notes.md",
+      "omittedParagraphs": 0,
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 1,
+      "images": 6,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "2025-09-06-session-notes",
+      "sourceId": "68bdf4341c553405dce93f6f",
+      "title": "2025.09.06 Session Notes",
+      "publishedAt": "2025-09-09T19:03:12.000Z",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "cc369d8a6276014fecfadd05bf68960ec4badee6e0164590e120dd7dc42c90f0",
+      "file": "src/content/posts/2025-09-06-session-notes.mdx",
+      "omittedParagraphs": 0,
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 1,
+      "images": 8,
+      "embeds": 1,
+      "callouts": 1
+    },
+    {
+      "slug": "2025-09-14-session-notes",
+      "sourceId": "68c6e9541c553405dce940e2",
+      "title": "2025.09.14 Session Notes",
+      "publishedAt": "2025-09-14T22:26:38.000Z",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "30cbc301c52c38611bd08a4c752dd147c8ff167a59e1dd03ede76694c923d0f2",
+      "file": "src/content/posts/2025-09-14-session-notes.mdx",
+      "omittedParagraphs": 0,
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 2,
+      "embeds": 0,
+      "callouts": 1
+    },
+    {
+      "slug": "2025-09-28-session-notes",
+      "sourceId": "68e157171c553405dce9429d",
+      "title": "2025.09.28 Session Notes",
+      "publishedAt": "2025-10-04T17:45:08.000Z",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "7cb94e852cbbae3066b4990e610f98b2f570ff03e396df2561f7ccb68d602557",
+      "file": "src/content/posts/2025-09-28-session-notes.md",
+      "omittedParagraphs": 0,
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 1,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "2025-10-08-session-notes",
+      "sourceId": "68ff9a4a1c553405dce942e5",
+      "title": "2025.10.08 Session Notes",
+      "publishedAt": "2025-11-06T16:05:09.000Z",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "80e075862d11adfcc860e0365da92cca3e5d4bead6f40db74375e22e9ef1798a",
+      "file": "src/content/posts/2025-10-08-session-notes.md",
+      "omittedParagraphs": 0,
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 1,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "2025-12-27-session-notes",
+      "sourceId": "695161281c553405dce943ba",
+      "title": "2025.12.27 Session Notes",
+      "publishedAt": "2025-12-29T00:55:30.000Z",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "7c0935e54646e825aee17822d7c2fa9e4accefdfc3fb3d4d28cd536519b56eeb",
+      "file": "src/content/posts/2025-12-27-session-notes.mdx",
+      "omittedParagraphs": 0,
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 1,
+      "images": 8,
+      "embeds": 0,
+      "callouts": 1
+    },
+    {
+      "slug": "2026-01-03-session-notes",
+      "sourceId": "6960706f1c553405dce9446f",
+      "title": "2026.01.03 Session Notes",
+      "publishedAt": "2026-01-10T20:17:36.000Z",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "b2f9d590d283d516ad47ba69dd4cc3200d0401e74917bee1a5af9844d83baf9c",
+      "file": "src/content/posts/2026-01-03-session-notes.md",
+      "omittedParagraphs": 0,
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 1,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "2026-01-24-session-notes",
+      "sourceId": "6976dc2c1c553405dce94619",
+      "title": "2026.01.24 Session Notes",
+      "publishedAt": "2026-01-26T22:01:14.000Z",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "dc0e78d7a7f60c86d5f1206b7118eda05c814b3c55b92b1af632e135643d9718",
+      "file": "src/content/posts/2026-01-24-session-notes.md",
+      "omittedParagraphs": 0,
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 4,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "2026-01-31-beneath-the-charcoal-palace",
+      "sourceId": "697f825d1c553405dce94722",
+      "title": "2026.01.31: Beneath the Charcoal Palace",
+      "publishedAt": "2026-02-02T03:41:33.000Z",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "1827cb11c49d3614ee8d43e13966cae7c2ce2be25964b863b97f709402b9c21e",
+      "file": "src/content/posts/2026-01-31-beneath-the-charcoal-palace.mdx",
+      "omittedParagraphs": 0,
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 0,
+      "embeds": 0,
+      "callouts": 2
+    },
+    {
+      "slug": "2026-02-20-eleven-fifty-nine",
+      "sourceId": "6999d839e471ce03aaf3a2e7",
+      "title": "2026.02.20: Eleven Fifty-Nine",
+      "publishedAt": "2026-02-22T14:35:03.000Z",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "f5a4e9ad44d1dcd1d792f0e87320f67db723dca7a6632fab369a7cb1e9c2d46e",
+      "file": "src/content/posts/2026-02-20-eleven-fifty-nine.md",
+      "omittedParagraphs": 0,
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "2026-02-28-the-museum-at-the-end-of-the-hall",
+      "sourceId": "69a3c602bc4b0c9eb25a526d",
+      "title": "2026.02.28: The End of the Hall",
+      "publishedAt": "2026-03-05T03:57:15.000Z",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "7572afb6a3daf5d5f55960c7fd9fbf5320c5df0c84c0ebe5a42d67db42a700ee",
+      "file": "src/content/posts/2026-02-28-the-museum-at-the-end-of-the-hall.md",
+      "omittedParagraphs": 0,
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "2026-03-07-happy-travels",
+      "sourceId": "69acff1fbc4b0c9eb25a531c",
+      "title": "2026.03.07: \"Happy Travels...\"",
+      "publishedAt": "2026-03-26T02:29:24.000Z",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "99f19331e0e4e9fb9332f114ae65dac95b9220ab72392a512eeb99f9cb33444c",
+      "file": "src/content/posts/2026-03-07-happy-travels.md",
+      "omittedParagraphs": 0,
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 1,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "burn-on-your-own-terms",
+      "sourceId": "69e45cb2bc4b0c9eb25a5582",
+      "title": "2026.04.18: Burn on Your Own Terms",
+      "publishedAt": "2026-04-26T23:21:17.000Z",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "49b04a3793a919ec0f7c038ef640b1a7ba76fdcde07549755eb2ea5e70613ef6",
+      "file": "src/content/posts/burn-on-your-own-terms.md",
+      "omittedParagraphs": 0,
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 5,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "2026-04-25-the-reckoning",
+      "sourceId": "69ed91e2bc4b0c9eb25a567f",
+      "title": "2026-04-25: The  Reckoning",
+      "publishedAt": "2026-05-01T21:30:59.000Z",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 2",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "7d80fba663b566cd5fb1b0f347cafc4be1aa237333081121aa65ec8968210e80",
+      "file": "src/content/posts/2026-04-25-the-reckoning.md",
+      "omittedParagraphs": 0,
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 4,
+      "embeds": 0,
+      "callouts": 0
+    }
+  ],
+  "media": [
+    {
+      "source": "/assets/images/2026/04/musetta._A_large_prolate_spheroid-shaped_crystal_orb_sitting__ab071556-f33d-472b-bdda-56073d5b03de_1.png",
+      "sourceSha256": "406fe59e2b31d76237d4c8dad13fc7d6b402a6104b77fddc1b7e11c98de3ed91",
+      "sourceBytes": 1453120
+    },
+    {
+      "source": "/assets/images/2026/04/musetta._An_ancient_arched_stone_doorway_carved_with_glowing__0238a16a-94f2-46f6-90cf-f8366c57c684_1-1.png",
+      "sourceSha256": "c3e499f4551582efa1edd8f164eb2cfe5a9d296f9a6fa6e5753ce5f579eee7af",
+      "sourceBytes": 2003381
+    },
+    {
+      "source": "/assets/images/2026/04/0_0.png",
+      "sourceSha256": "b377ad6e12c0e511afcc861f81f1b75e3bb54a15e441ba5633a82aec99f1b096",
+      "sourceBytes": 2003266
+    },
+    {
+      "source": "/assets/images/2026/04/0_1.png",
+      "sourceSha256": "bce3afc02f4c57d21b7bb9a5fc0b34cd9fb43f991d9d0f7f28d5af8e9b4d13fd",
+      "sourceBytes": 2140271
+    },
+    {
+      "source": "/assets/images/2026/04/musetta._dragon_claw_--ar_32_--raw_--stylize_0_--v_7_5454db06-f73f-4da9-be8e-cb86b91c976c_0--1--1.png",
+      "sourceSha256": "ff1be9a7025a9a2726a154526e919bcc8b52c1d5f1d633af90f05a7f261ce5f3",
+      "sourceBytes": 2028523
+    },
+    {
+      "source": "/assets/images/2026/04/musetta._dragon_claw_--ar_32_--raw_--stylize_0_--v_7_5454db06-f73f-4da9-be8e-cb86b91c976c_0--1-.png",
+      "sourceSha256": "ff1be9a7025a9a2726a154526e919bcc8b52c1d5f1d633af90f05a7f261ce5f3",
+      "sourceBytes": 2028523
+    },
+    {
+      "source": "/assets/images/2026/04/0_2.png",
+      "sourceSha256": "e3cf68e19e07fade5a8f0066b1cf12ef6beae9305e4b5f55094026160ed39317",
+      "sourceBytes": 1196209
+    },
+    {
+      "source": "/assets/images/2026/04/musetta._View_up_from_street_level_of_a_gargantuan_red_dragon_24e7c180-3183-449e-87c7-8fb84dd2e338_3-1.png",
+      "sourceSha256": "2872357a54e9196e12ad8240944d53772a09e43ec99bdea689bfd42bc542a295",
+      "sourceBytes": 2029724
+    },
+    {
+      "source": "/assets/images/2026/04/musetta._vast_stone_pillars_in_a_green_field_sense_of_serenit_6b92ed6a-b2c6-4767-b784-c3005ac03c37_1.png",
+      "sourceSha256": "b7e79828eb1767fe3c386471cd25be084b1c8861827f5688b753274596cdd89c",
+      "sourceBytes": 1744577
+    },
+    {
+      "source": "/assets/images/2026/04/musetta._An_ancient_arched_stone_doorway_carved_with_glowing__0238a16a-94f2-46f6-90cf-f8366c57c684_1.png",
+      "sourceSha256": "c3e499f4551582efa1edd8f164eb2cfe5a9d296f9a6fa6e5753ce5f579eee7af",
+      "sourceBytes": 2003381
+    },
+    {
+      "source": "/assets/images/2026/04/musetta._A_narrow_winding_street_through_a_vast_middle_easter_af9e11fe-febc-465a-bd19-c1b8a8f711ac_1.png",
+      "sourceSha256": "12ea7045ef5288a444a2c71a834589a7a0647da7773944cafcaf65ee5a083d8e",
+      "sourceBytes": 1982170
+    },
+    {
+      "source": "/assets/images/2026/02/musetta._Massive_statue_of_a_towering_muscular_supernatural_s_bc195f18-064d-42ae-9a69-ee4aa3a0734f_2.png",
+      "sourceSha256": "f06aaf5780756216d97ce8b958523518f4d1332a9af86b2ecbe66b4c3680e031",
+      "sourceBytes": 1863356
+    },
+    {
+      "source": "/assets/images/2026/02/statue-puzzle.png",
+      "sourceSha256": "783b856baf7c18f2be61846118a9b7d4e70ed2b58a41b7668337f5e7eaea2b3e",
+      "sourceBytes": 1783498
+    },
+    {
+      "source": "/assets/images/2026/01/IMG_0853.jpeg",
+      "sourceSha256": "4ddf91505529398e34419bba39cd4d7aa32f18594b46c6f5063135c0d7b408b8",
+      "sourceBytes": 221067
+    },
+    {
+      "source": "/assets/images/2026/01/IMG_0858.jpeg",
+      "sourceSha256": "bc7367c3080553cd6132788912265cf0115c78b620f1536622ba365e39f5955c",
+      "sourceBytes": 215491
+    },
+    {
+      "source": "/assets/images/2026/01/IMG_0855.jpeg",
+      "sourceSha256": "3e5a2bd7c3c32ad9cf3cffe3f4c1b63dfd700c60ebdddafb051b9eb3fbb578d9",
+      "sourceBytes": 80974
+    },
+    {
+      "source": "/assets/images/2026/01/IMG_0847.jpeg",
+      "sourceSha256": "cb09a5f9e118b59f460d55dbcef1f246be7c545e67250c12e28355b8f0e227e6",
+      "sourceBytes": 418846
+    },
+    {
+      "source": "/assets/images/2026/01/Alexander_a_hyper-realistic_point-of-view_shot_from_just_outsid_97450b1e-9b2b-4c8c-a5ae-174ede0d190e.png",
+      "sourceSha256": "caffe6bbf406c04e4bc1b9c38155ac6a576c59bd58ed65c0720ced977d0f0c00",
+      "sourceBytes": 4859235
+    },
+    {
+      "source": "/assets/images/2026/01/IMG_0854.jpeg",
+      "sourceSha256": "53bb56f58877100d521fa4c0655d47759299b422ecb0731cf15ffbda3e6e90b9",
+      "sourceBytes": 229046
+    },
+    {
+      "source": "/assets/images/2026/01/IMG_0846.jpeg",
+      "sourceSha256": "fc9d1a6bbc941248539c89dd2dfbb6d3d1177dcf6b8725dcdf73e62bfdc53821",
+      "sourceBytes": 202894
+    },
+    {
+      "source": "/assets/images/2026/03/musetta._Zariel_a_powerful_arch_demon_wearing_black_leather_a_480cfbff-17b0-4d48-a436-5595d13698c2_1.png",
+      "sourceSha256": "1b86d2af6b327807041f8a35dee17b085d901ba68664e223ea9b043e1617686e",
+      "sourceBytes": 2141045
+    },
+    {
+      "source": "/assets/images/2026/03/musetta._A_black_obsidian_flagstone_dungeon_floor_tiled_ancie_311e1783-e09c-482d-8830-7bc7b4eb23e3_1.png",
+      "sourceSha256": "98725e0c252f9b16165ae77c61eb4542f000f8a97b0058bcec79658ef94668ae",
+      "sourceBytes": 1877099
+    },
+    {
+      "source": "/assets/images/2026/03/musetta._A_beholder_monster_in_a_long_room_lined_with_six_ped_285deb34-33bb-4528-8c5f-8635acefd908_0.png",
+      "sourceSha256": "ea0ff0dba5f52cda56a3bfb457f040648a6d98ca36d55465591b09a30fd087dc",
+      "sourceBytes": 1390502
+    },
+    {
+      "source": "/assets/images/2025/09/IMG_0702.jpeg",
+      "sourceSha256": "8518c2e62072e3c0fb8eb86dc15291f3f37f714a6731b063ab452642a5f1280f",
+      "sourceBytes": 222577
+    },
+    {
+      "source": "/assets/images/2025/09/IMG_9107.jpeg",
+      "sourceSha256": "787c9c4369afa1314c0ce1a3353f180f91b48e6eb846f1b1bf052f70b4d00b65",
+      "sourceBytes": 205238
+    },
+    {
+      "source": "/assets/images/2025/09/IMG_0697.jpeg",
+      "sourceSha256": "73ec3fe7929eb2e07731eb954b20c833a0bf526abd15a09fb3f373f8d126ae59",
+      "sourceBytes": 179414
+    },
+    {
+      "source": "/assets/images/2025/09/High-Forger-Zhadrel-Coalvein-1.jpeg",
+      "sourceSha256": "17f8e9fe390be32c198cf4170f584889ec3ad94691dad3fd6e890a2c7220fa90",
+      "sourceBytes": 139203
+    },
+    {
+      "source": "/assets/images/2025/09/IMG_0749.png",
+      "sourceSha256": "4d1f38994e0542e39f0b496113d952977f47e9012bac5560e0b0553f75b8842e",
+      "sourceBytes": 600897
+    },
+    {
+      "source": "/assets/images/2025/09/Velthara-1.jpeg",
+      "sourceSha256": "e347ccd62d8f5c88daf9c024f91f481951d215866d4d9c35e00b1cf9d18dea50",
+      "sourceBytes": 146482
+    },
+    {
+      "source": "/assets/images/2025/09/IMG_0730.jpeg",
+      "sourceSha256": "d3d949fa26358e184c5ace844afe4bc791d5831d9081c7f7a9b7498a407f4134",
+      "sourceBytes": 240803
+    },
+    {
+      "source": "/assets/images/2025/09/IMG_0712.png",
+      "sourceSha256": "e659be71cd5023f64826660d7ceb4a692344c508dc21e8a1ecbfd4cf95394581",
+      "sourceBytes": 1960368
+    },
+    {
+      "source": "/assets/images/2025/09/IMG_0731.jpeg",
+      "sourceSha256": "5d5072a7865d38c8bf55a533d2ee473c3b50e948be82c12d5bebbd1e0604ca89",
+      "sourceBytes": 147682
+    },
+    {
+      "source": "/assets/images/2025/09/IMG_0709.png",
+      "sourceSha256": "496fdce41ce4e7b842795a38310c3d6c6bf94142d6dba8542d751569b128662e",
+      "sourceBytes": 1616817
+    },
+    {
+      "source": "/assets/images/2025/09/IMG_0707.jpeg",
+      "sourceSha256": "9480f4d86d7bdb19d162383115e0f9022c0c8590a14c09da08f7125bf8d56588",
+      "sourceBytes": 206199
+    },
+    {
+      "source": "/assets/images/2025/09/IMG_0714.png",
+      "sourceSha256": "d0b38b0671698ed8e93b36d9fbf66c40a2b80f00f77ed2bc8a91f50314f4c813",
+      "sourceBytes": 2012267
+    },
+    {
+      "source": "/assets/images/2025/09/Kharzum-1.jpeg",
+      "sourceSha256": "88e8cc324e55a12fe3f13b490d80e78b6a6dd82db55004268c3347b845e07045",
+      "sourceBytes": 146550
+    },
+    {
+      "source": "/assets/images/2025/09/IMG_0667.jpeg",
+      "sourceSha256": "f8e686e8b7bd63b0e8294e417625dd63c2a6df4cdc2667d15c3667df42e5a801",
+      "sourceBytes": 193265
+    },
+    {
+      "source": "/assets/images/2025/09/IMG_0713.jpeg",
+      "sourceSha256": "057569f1562cb330d6aa8f6e7f325a9131d2bb5a8dd206b8822372625f195c26",
+      "sourceBytes": 109799
+    },
+    {
+      "source": "/assets/images/2025/09/IMG_0706.jpeg",
+      "sourceSha256": "36d1856e864965476b71b32ba5b2945e4aedccde8b8692a5a1f74a3a0bd0abbb",
+      "sourceBytes": 127149
+    },
+    {
+      "source": "/assets/images/2025/09/IMG_0710.png",
+      "sourceSha256": "f00d2edbdbafd364d03a55b391e00313a31b37d2529006dcb4f7c25528f7902d",
+      "sourceBytes": 859814
+    },
+    {
+      "source": "/assets/images/2025/09/IMG_0702-1.jpeg",
+      "sourceSha256": "8518c2e62072e3c0fb8eb86dc15291f3f37f714a6731b063ab452642a5f1280f",
+      "sourceBytes": 222577
+    },
+    {
+      "source": "/assets/images/2025/09/IMG_0711.png",
+      "sourceSha256": "0ac22e55033872f50b07eadd73a1a348a7ef1f2e3b1f070cc6959e9e97e4c2ce",
+      "sourceBytes": 1360054
+    },
+    {
+      "source": "/assets/images/2025/12/IMG_0829.jpeg",
+      "sourceSha256": "cf25164cfceb02b5d0c097a506b0f0002eb829b2751f6426a99c02a325ede63c",
+      "sourceBytes": 378452
+    },
+    {
+      "source": "/assets/images/2025/12/IMG_1608.jpeg",
+      "sourceSha256": "1c82712c941026769b02ad5de807986a1c4c114eb16500c74c5a8ce89ff54aea",
+      "sourceBytes": 187434
+    },
+    {
+      "source": "/assets/images/2025/12/IMG_0818.jpeg",
+      "sourceSha256": "858d104aab505ae823071388bbd7d3756dd6e8e4d8d47172b4cb4d42bd4258de",
+      "sourceBytes": 161354
+    },
+    {
+      "source": "/assets/images/2025/12/IMG_6041.jpeg",
+      "sourceSha256": "7730aa347f081aa8f0dc2092c0f4691bd8ea23f3e182e5eb802a8728e87e5517",
+      "sourceBytes": 128851
+    },
+    {
+      "source": "/assets/images/2025/12/IMG_0831.jpeg",
+      "sourceSha256": "36dcc93c7adb5d05595535cffe0de5d69df399fd94b502930304a03186fb3fbf",
+      "sourceBytes": 33075
+    },
+    {
+      "source": "/assets/images/2025/12/IMG_9128.jpeg",
+      "sourceSha256": "d4a9182bf48beeba3bf089ebf5679bd2aac1fa659446cb1c2a11904818bbdf8a",
+      "sourceBytes": 309313
+    },
+    {
+      "source": "/assets/images/2025/12/IMG_9128-1.jpeg",
+      "sourceSha256": "d4a9182bf48beeba3bf089ebf5679bd2aac1fa659446cb1c2a11904818bbdf8a",
+      "sourceBytes": 309313
+    },
+    {
+      "source": "/assets/images/2025/12/IMG_5330.jpeg",
+      "sourceSha256": "aeef88be98fd513ebb51bfd17c1312411d8fe5efb9fc6ebcf890a23a4ff2a1cc",
+      "sourceBytes": 149432
+    },
+    {
+      "source": "/assets/images/2025/12/IMG_0831-1.jpeg",
+      "sourceSha256": "36dcc93c7adb5d05595535cffe0de5d69df399fd94b502930304a03186fb3fbf",
+      "sourceBytes": 33075
+    },
+    {
+      "source": "/assets/images/2025/12/IMG_0825.png",
+      "sourceSha256": "a3d30f33532e5482a1e89f724e44650c23c1b68e6880663626588bb417de86a3",
+      "sourceBytes": 2126630
+    },
+    {
+      "source": "/assets/images/2025/10/IMG_0771.png",
+      "sourceSha256": "4e8577977fefd3eb41a3210c877a03e4a00176a1b9cf53a837a2b0e283544c22",
+      "sourceBytes": 595673
+    },
+    {
+      "source": "/assets/images/2025/10/IMG_0770.png",
+      "sourceSha256": "bf0ea509968ca42a26e0788cb70cddb2af3e138078204dcf82e4a3b9bbde04d6",
+      "sourceBytes": 1870942
+    },
+    {
+      "source": "/assets/images/2025/10/musetta._an_astral_void_afterlife_between_worlds_consciousnes_a8fb163b-31c5-48f0-846f-2ff75fe22dc6_2.png",
+      "sourceSha256": "fad57281e289ca2388b9e2d90c7d6410f7992eae8501205333c1ccec4c388434",
+      "sourceBytes": 1999086
+    },
+    {
+      "source": "/assets/images/2025/04/xarzith-kitril3.png",
+      "sourceSha256": "03f87cc9e3396a29ab19830a559df83248ed3f7d6115b3c7d93168cbe96c2067",
+      "sourceBytes": 2122868
+    },
+    {
+      "source": "/assets/images/2025/04/musetta._High_fantasy_style_image_of_a_schooner_at_night_unde_5293f3eb-1125-441e-a8cb-298b95413c63_2.png",
+      "sourceSha256": "46b6b522909eb877933ef1a5ebf8a36f9310a1621c4296ce982598ce0e3744a3",
+      "sourceBytes": 1933499
+    },
+    {
+      "source": "/assets/images/2025/04/3C07A2A8-CFE7-40BA-8A8B-F77CCA667DD4.png",
+      "sourceSha256": "40b9b68c0f795dcbfc0873b7eeaa93076ddeb63de5c2f7d6a137c1c6bd09d895",
+      "sourceBytes": 2845788
+    },
+    {
+      "source": "/assets/images/2025/04/CFE483DC-66CE-4C5E-853C-FCA75182CE07.png",
+      "sourceSha256": "8e67da920089f73a5f72e51268e096b17b47cc376806f1e33851a206b370fece",
+      "sourceBytes": 2534147
+    },
+    {
+      "source": "/assets/images/2025/04/IMG_1968.png",
+      "sourceSha256": "001154eb32eecd412132518235db722110a40fbed5c0fe2c687b03d96930ff3e",
+      "sourceBytes": 2086867
+    },
+    {
+      "source": "/assets/images/2025/04/tantalusdm_a_painting_of_a_schooner_sailing_on_the_ocean_--ar_3_e8246318-8524-453c-8b80-0e66b99e32d9.png",
+      "sourceSha256": "6732d69007fd281d3b76642f38754f3b6110b854b23f1f33a329e5a8f8eebe29",
+      "sourceBytes": 2223368
+    },
+    {
+      "source": "/assets/images/2025/04/Sea-cave-1.png",
+      "sourceSha256": "27021fd181b393f4965f4a05017edbbf8efafad4f074c3be508e0aa6ade54fa2",
+      "sourceBytes": 2206236
+    },
+    {
+      "source": "/assets/images/2025/04/IMG_0579.jpeg",
+      "sourceSha256": "d52c1fa675c5de9df4ef70be7b0ff70f2857e809c2f2c1db491af012a05780b8",
+      "sourceBytes": 338120
+    },
+    {
+      "source": "/assets/images/2025/04/musetta._Cozy_fantasy_cliffside_dwelling_of_a_retired_cleric__66d647de-19bf-4bda-a29a-83b0fbf71569_0.png",
+      "sourceSha256": "001154eb32eecd412132518235db722110a40fbed5c0fe2c687b03d96930ff3e",
+      "sourceBytes": 2086867
+    },
+    {
+      "source": "/assets/images/2025/04/98F87BC7-16EB-49B9-837C-AC731207A925.png",
+      "sourceSha256": "bac4e089fda0c8fc71affdf4a4656d17f0386dfa7e3da8dab8fa2a68f60e4829",
+      "sourceBytes": 2781233
+    },
+    {
+      "source": "/assets/images/2025/02/u7178828134_High_fantasy_style_image_of_a_country_manor_house_bd5c93be-c817-4c7b-83cd-6319d5e484dc_0.png",
+      "sourceSha256": "829d11e4a26ecff4cf52ee76d21bce091b1ee3721f96c55e51539e76dfca0252",
+      "sourceBytes": 1604850
+    },
+    {
+      "source": "/assets/images/2025/05/musetta._A_cozy_and_elegant_inn_lobby_with_polished_dark_wood_de1c4b86-86d4-44bf-afac-85b28658ff1e_3.png",
+      "sourceSha256": "bbd5f53d9c8af3fd9b2129a8c7074bb058a16cac33f40d381212113966b5aa59",
+      "sourceBytes": 2161608
+    },
+    {
+      "source": "/assets/images/2025/05/musetta._an_underground_shrine_in_a_call_cave_softly_lit_in_a_095f6897-2fcf-4a62-9502-24e50db7542f_0.png",
+      "sourceSha256": "0207cae46e8825caa4ed18f0c0de25929cd11361d3e0c0cac14daa63d9400f7d",
+      "sourceBytes": 2228412
+    },
+    {
+      "source": "/assets/images/2025/05/musetta._an_underground_shrine_in_a_call_cave_softly_lit_in_a_095f6897-2fcf-4a62-9502-24e50db7542f_0-1.png",
+      "sourceSha256": "0207cae46e8825caa4ed18f0c0de25929cd11361d3e0c0cac14daa63d9400f7d",
+      "sourceBytes": 2228412
+    },
+    {
+      "source": "/assets/images/2025/05/musetta._DD_high_fantasy_style_image_of_two_frost_giants_figh_c56c0deb-135f-4515-b8fb-7fb54d2ee929_1.png",
+      "sourceSha256": "b401f53bad807008897e379431273665246994eaca918356b09a8be66b8fcd74",
+      "sourceBytes": 2308484
+    },
+    {
+      "source": "/assets/images/2025/05/inn.png",
+      "sourceSha256": "712c9ea3456e2cfd1a800fcb95b68347bbd86a307fa95744bf881f5fc15ca5f3",
+      "sourceBytes": 2032039
+    },
+    {
+      "source": "/assets/images/2025/05/musetta._A_large_solitary_barren_tree_sits_at_the_bottom_of_a_557e5116-f48f-4fad-bacb-8010703a3469_0.png",
+      "sourceSha256": "1f72cb91b3cd3467ce064156a6c204175ec4d51b9f99a74cb81c6a353fd405f3",
+      "sourceBytes": 2339058
+    },
+    {
+      "source": "/assets/images/2025/05/emmi.png",
+      "sourceSha256": "3245a057f4adc216c3e0ca7bf03a5195073519fe16f7c61187a6ee684eeabe81",
+      "sourceBytes": 857168
+    },
+    {
+      "source": "/assets/images/2025/05/musetta._Disembodied_huge_glowing_yellow_reptilian_eyes_gaze__85cf30f4-c9f9-4f48-b06e-0a09b697b6f8_0.png",
+      "sourceSha256": "ebc1fccbc38051b66445c49e95d4cd1d260b1e535f7a72ac3f75c6247adb1ab4",
+      "sourceBytes": 2006392
+    },
+    {
+      "source": "/assets/images/2025/05/musetta._fantasy_clifftop_monastery_perched_above_a_rocky_dry_1189f615-bdd8-4571-9eab-3773d6cd26e7_0.png",
+      "sourceSha256": "78dc1e5fabcc77d5badb5d8cc2cac2f1df3a59b5175103a1b2affe27e119aa2d",
+      "sourceBytes": 2378387
+    },
+    {
+      "source": "/assets/images/2025/05/musetta._Cozy_fantasy_cliffside_dwelling_of_a_retired_cleric__66d647de-19bf-4bda-a29a-83b0fbf71569_0.png",
+      "sourceSha256": "001154eb32eecd412132518235db722110a40fbed5c0fe2c687b03d96930ff3e",
+      "sourceBytes": 2086867
+    },
+    {
+      "source": "/assets/images/2025/06/IMG_0607.png",
+      "sourceSha256": "bbd5f53d9c8af3fd9b2129a8c7074bb058a16cac33f40d381212113966b5aa59",
+      "sourceBytes": 2161608
+    },
+    {
+      "source": "/assets/images/2025/06/IMG_0637-1.jpeg",
+      "sourceSha256": "7bedbf16038d7aa69293554a290a338b4f2dbd76e25c1623b455fa2266770339",
+      "sourceBytes": 102066
+    },
+    {
+      "source": "/assets/images/2025/06/IMG_0636.png",
+      "sourceSha256": "5b5a5ef8275205f79e2f1885e7beafb36f1443672744ed7f0fd72c55f0f05b18",
+      "sourceBytes": 2494558
+    },
+    {
+      "source": "/assets/images/2025/06/IMG_0611.png",
+      "sourceSha256": "d1dd3adf5e6928ec20a657ed15527d076d644214809de5a55644d625c78d2ef1",
+      "sourceBytes": 2108131
+    },
+    {
+      "source": "/assets/images/2025/06/IMG_0602.png",
+      "sourceSha256": "3ca2d52696ae89b3d52e4e3df7a4ae01e10d34917ccffcb785df823fc9880aa8",
+      "sourceBytes": 2128477
+    },
+    {
+      "source": "/assets/images/2025/06/IMG_0610.png",
+      "sourceSha256": "7ee924b66426052c2535e3d58829d08cd3bab3dc224629be84f4f762124d45e0",
+      "sourceBytes": 2159665
+    },
+    {
+      "source": "/assets/images/2025/06/IMG_0612.png",
+      "sourceSha256": "c29437b21aa790018b827012c0e51a562bd9ae8285918a18e73b785fa5e18cfc",
+      "sourceBytes": 1849365
+    },
+    {
+      "source": "/assets/images/2025/06/IMG_0636-1.png",
+      "sourceSha256": "5b5a5ef8275205f79e2f1885e7beafb36f1443672744ed7f0fd72c55f0f05b18",
+      "sourceBytes": 2494558
+    },
+    {
+      "source": "/assets/images/2025/06/C8DEAA28-935E-496E-8211-318438BF03FC.png",
+      "sourceSha256": "337edea07b77c4adfa01f9f4b46e37dcea7639813bd517a98aa7c6f27ab260e1",
+      "sourceBytes": 2598513
+    },
+    {
+      "source": "/assets/images/2025/06/IMG_0611-1.png",
+      "sourceSha256": "d1dd3adf5e6928ec20a657ed15527d076d644214809de5a55644d625c78d2ef1",
+      "sourceBytes": 2108131
+    },
+    {
+      "source": "/assets/images/2025/06/9B6121D5-E42C-4241-9B33-27CC2C4D71F9.png",
+      "sourceSha256": "502bd1825ea7b430a053e5d5df5fb6c5fcfac9f6bbeabb0d4e39b6d851b9e437",
+      "sourceBytes": 2506775
+    },
+    {
+      "source": "/assets/images/2025/06/musetta._Wide_angle_image_of_a_curving_hallway_with_arched_ce_f01d14fc-4d00-4f8c-8b6d-caf7a853dd2e_0.png",
+      "sourceSha256": "a0fb47305d131c85aea72586e09c60d3a7e92bd9278546d2d369d4d43df72dfc",
+      "sourceBytes": 2129463
+    },
+    {
+      "source": "/assets/images/2025/06/IMG_0613.png",
+      "sourceSha256": "153860f14036bef92431e54e884b5c3866712617eb09ff1b2725a91e5ea9bda7",
+      "sourceBytes": 2038373
+    },
+    {
+      "source": "/assets/images/2025/06/IMG_0639.png",
+      "sourceSha256": "bec3261119f83ed2e974bb278db5e4a416e28e90b2acb219ad541c6adc5ddb79",
+      "sourceBytes": 8477511
+    },
+    {
+      "source": "/assets/images/2025/06/IMG_0604.png",
+      "sourceSha256": "939a458835850bb34fb457083a0a65dce5bed23643bf464ca1a476364544073c",
+      "sourceBytes": 2008989
+    },
+    {
+      "source": "/assets/images/2025/06/IMG_0615.jpeg",
+      "sourceSha256": "7ee0bacf88c6c9159fae87b84761bd87b6e709bb411014bc7e693f9a81ff837c",
+      "sourceBytes": 240700
+    },
+    {
+      "source": "/assets/images/2025/06/1672807A-B150-448B-90DB-F006CB4AC05F-2.png",
+      "sourceSha256": "25b215879816ae5f2472c1c34de6d90993f536723c12e8d526cc306d24e10674",
+      "sourceBytes": 2725713
+    },
+    {
+      "source": "/assets/images/2025/06/IMG_0606.png",
+      "sourceSha256": "4bf2c3cbb4161143ce65ddd2b390e5c410de48a326134681d277a99c4d4d0f9c",
+      "sourceBytes": 1800465
+    },
+    {
+      "source": "/assets/images/2025/06/IMG_0602-1.png",
+      "sourceSha256": "3ca2d52696ae89b3d52e4e3df7a4ae01e10d34917ccffcb785df823fc9880aa8",
+      "sourceBytes": 2128477
+    },
+    {
+      "source": "/assets/images/2025/06/IMG_0606-1.png",
+      "sourceSha256": "4bf2c3cbb4161143ce65ddd2b390e5c410de48a326134681d277a99c4d4d0f9c",
+      "sourceBytes": 1800465
+    },
+    {
+      "source": "/assets/images/2025/03/IMG_0568-1.png",
+      "sourceSha256": "0b828fadc7be703e5b27d7c5a16aae48558cddc0412f1f46e13e55f489676a6a",
+      "sourceBytes": 1898883
+    },
+    {
+      "source": "/assets/images/2025/03/IMG_0568.png",
+      "sourceSha256": "0b828fadc7be703e5b27d7c5a16aae48558cddc0412f1f46e13e55f489676a6a",
+      "sourceBytes": 1898883
+    },
+    {
+      "source": "/assets/images/2025/03/u7178828134_a_DD_fantasy_style_scene_featuring_a_small_camp_i_4f1b2e62-b1f7-4e33-9ff2-f4809c3f2695_3.png",
+      "sourceSha256": "8c83318bff174497ebd175a946613810f2bf9f8e478961044e9c52c4151eaba1",
+      "sourceBytes": 2456617
+    },
+    {
+      "source": "/assets/images/2025/03/IMG_0563.png",
+      "sourceSha256": "b9b6690d6d0e1f2dc9b9335bd82af3372712c9441ed4641f83b03c14c9210955",
+      "sourceBytes": 1926851
+    },
+    {
+      "source": "/assets/images/2025/03/image.png",
+      "sourceSha256": "399e40d5da5923d4724c9557b081d4277b77b56af1869d6c48ad31b7eba34966",
+      "sourceBytes": 2369181
+    },
+    {
+      "source": "/assets/images/2025/07/IMG_0641.png",
+      "sourceSha256": "cd96f2ecad4d2c7838c2bd6c6b48b20ff6749fb5656c374b554ba6d28f7bb049",
+      "sourceBytes": 6035912
+    },
+    {
+      "source": "/assets/images/2025/08/IMG_0666-1.png",
+      "sourceSha256": "087740e44ae7b9138f7cecf350a7693c3515c91826973f17ae22e3e4165ab4d1",
+      "sourceBytes": 1940945
+    },
+    {
+      "source": "/assets/images/2025/08/IMG_0666.png",
+      "sourceSha256": "087740e44ae7b9138f7cecf350a7693c3515c91826973f17ae22e3e4165ab4d1",
+      "sourceBytes": 1940945
+    },
+    {
+      "source": "/assets/images/2025/08/twins-dammos-malus.png",
+      "sourceSha256": "6623891cefa533c2b9084652dbacfd57c5303040c4da5bd83585c84883569969",
+      "sourceBytes": 1766140
+    },
+    {
+      "source": "/assets/images/2025/08/IMG_0664-1.jpeg",
+      "sourceSha256": "a99a2219b15d40dffaab6dbb07a0368d62869480aefc05eb0b68eeb93161972e",
+      "sourceBytes": 237394
+    },
+    {
+      "source": "/assets/images/2025/08/cob-gates.png",
+      "sourceSha256": "0e96f62c20aebb2bf04e9c9dd4bebac016503ed9ad537555e7f2d21c227c2716",
+      "sourceBytes": 2139872
+    },
+    {
+      "source": "/assets/images/2025/08/IMG_0667.jpeg",
+      "sourceSha256": "f8e686e8b7bd63b0e8294e417625dd63c2a6df4cdc2667d15c3667df42e5a801",
+      "sourceBytes": 193265
+    },
+    {
+      "source": "/assets/images/2025/08/al-tasim.png",
+      "sourceSha256": "25a03b04e4e7e6b044bba039e4140e733e2a119dfba265f2ffa7e343c15e6b89",
+      "sourceBytes": 1664503
+    },
+    {
+      "source": "/assets/images/2025/08/IMG_0656.jpeg",
+      "sourceSha256": "0a1de7ebf1ab099f45375483704d35bfc0ca3954a19bd2c3f44880f6b13862bd",
+      "sourceBytes": 214764
+    }
+  ],
+  "editorialNotes": [
+    "Source titles, dates, slugs and ordered tags are preserved, including Session Notes wording. Gallery prefixes and The Gallery headings remain intentional OOC commentary shorthand. All four tables use Markdown; galleries, captions, alternate quotes and Spotify embed retain HTML. Yellow callouts use the retained Callout component. No obvious shopping spam or unrelated links found. Original backup and source media remain unchanged."
+  ],
+  "validation": {
+    "buildPages": 144,
+    "sourceBodiesPreserved": 28,
+    "bodyImageCountsPreserved": 82,
+    "tablesPreserved": 4,
+    "galleriesPreserved": 3,
+    "yellowCalloutsPreserved": 20,
+    "spotifyEmbedPreserved": 1,
+    "responsiveImageOccurrences": 999,
+    "fullSizeLinks": 502,
+    "deliveryChecksums": 1366,
+    "xmlFiles": 15,
+    "campaignPagination": true,
+    "arcPagination": true,
+    "homepageFilterPreserved": true,
+    "galleryLightboxBrowserCheck": "December 27 gallery opens a five-image viewer with caption and closes correctly; narrow gallery layout inspected.",
+    "tableAndCalloutBrowserCheck": "June 8 Markdown fire-resistance table and yellow callout inspected in local browser."
+  },
+  "mediaDelivery": {
+    "newAssets": 110,
+    "sourceBytes": 171012811,
+    "fullSizeDeliveryBytes": 32225388,
+    "responsiveVariants": 386,
+    "totalAssets": 355,
+    "totalDeliveryFiles": 1366,
+    "deletedObjects": 0,
+    "uploadedObjects": 496,
+    "publicDeliveryChecksumsVerified": [
+      "/assets/images/2025/02/u7178828134_High_fantasy_style_image_of_a_country_manor_house_bd5c93be-c817-4c7b-83cd-6319d5e484dc_0.webp",
+      "/assets/images/2025/04/IMG_0579.jpeg",
+      "/assets/images/2026/04/musetta._vast_stone_pillars_in_a_green_field_sense_of_serenit_6b92ed6a-b2c6-4767-b784-c3005ac03c37_1.w320.webp"
+    ]
+  }
+}

@@ -77,3 +77,10 @@ Adds 47 referenced source images (23.13 MiB), 4.86 MiB of full-size delivery ima
 ## Freaky Gray Company Arc 1 batch (2026-10-06)
 
 Kat requested removal of both Arc 1 covers for consistency. The two optimized full-size files and seven responsive variants were deleted from R2 (nine confirmed deletions); the covers are absent from article metadata and the delivery manifest. Original backup/public images remain intact. Current manifest: 245 source assets and 870 delivery files. Build: 111 pages; media checks cover 657 responsive occurrences, 354 full-size links and 870 checksums.
+
+
+## Freaky Gray Company Arc 2 batch (2026-10-06)
+
+Adds 110 referenced source images (163.09 MiB), 30.73 MiB of full-size delivery images and 386 responsive variants. Current manifest: 355 source assets and 1,366 delivery files. Production build: 144 pages; media checks cover 999 responsive occurrences, 502 full-size links and 1,366 checksums. Original backup/public files remain unchanged; no bucket objects are deleted. See `fgc-arc-two-migration.json` for upload and public checksum verification.
+
+All 496 new Arc 2 delivery files are uploaded to R2; three representative public downloads match SHA-256 checksums.
