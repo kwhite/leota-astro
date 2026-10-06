@@ -18,7 +18,16 @@ for (const asset of deliverySet) {
   prepared.push({ asset, file });
 }
 console.log(`Validated ${prepared.length} files, ${manifest.deliveryBytes + (manifest.variantBytes || 0)} bytes for leota-media.`);
-const uploads = process.argv.includes('--variants-only') ? prepared.filter(({ asset }) => !manifest.assets.includes(asset)) : prepared;
+const baselineIndex = process.argv.indexOf('--changed-since');
+let baseline;
+if (baselineIndex >= 0) {
+  if (!process.argv[baselineIndex + 1]) throw new Error('--changed-since needs a manifest file.');
+  baseline = JSON.parse(await fs.readFile(process.argv[baselineIndex + 1], 'utf8'));
+}
+const priorFiles = new Map((baseline?.assets || []).flatMap(asset => [asset, ...(asset.variants || [])]).map(asset => [asset.delivery, asset.deliverySha256]));
+const uploads = prepared.filter(({ asset }) =>
+  (!process.argv.includes('--variants-only') || !manifest.assets.includes(asset)) &&
+  (!baseline || priorFiles.get(asset.delivery) !== asset.deliverySha256));
 console.log(`${uploads.length} files selected for upload.`);
 if (!process.argv.includes('--apply')) {
   console.log('Dry run only. Add --apply to upload.');

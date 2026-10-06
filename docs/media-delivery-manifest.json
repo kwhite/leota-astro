@@ -2,9 +2,9 @@
   "version": 2,
   "pillow": "12.3.0",
   "webp": "1.6.0",
-  "sourceBytes": 212308355,
-  "deliveryBytes": 54723747,
-  "variantBytes": 45710212,
+  "sourceBytes": 228888957,
+  "deliveryBytes": 58978362,
+  "variantBytes": 48786110,
   "assets": [
     {
       "source": "/assets/images/2024/12/IMG_0423-2.png",
@@ -24,6 +24,145 @@
       "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
       "usedIn": [
         "src/config.ts"
+      ],
+      "variants": []
+    },
+    {
+      "source": "/assets/images/2025/01/IMG_0478-1.jpeg",
+      "delivery": "/assets/images/2025/01/IMG_0478-1.jpeg",
+      "sourceSha256": "20b52122340a6f27cc03e941d684481b4bf80fc18da24ad4bed1914e89af29d2",
+      "deliverySha256": "20b52122340a6f27cc03e941d684481b4bf80fc18da24ad4bed1914e89af29d2",
+      "sourceBytes": 66339,
+      "deliveryBytes": 66339,
+      "dimensions": [
+        752,
+        610
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/pages/fgc-characters.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/01/IMG_0478-1.w320.webp",
+          "deliverySha256": "1b0086f3db89e3e44410f4311c5147647531a47ee8804e3a4e5bc4e092e68c65",
+          "deliveryBytes": 25632,
+          "dimensions": [
+            320,
+            260
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/IMG_0478-1.w640.webp",
+          "deliverySha256": "df4d607917e2804602cc9f9cfeef0f1d4b2c883cd435f498f203b842a02f2d7c",
+          "deliveryBytes": 61416,
+          "dimensions": [
+            640,
+            519
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/01/IMG_0480-1.jpeg",
+      "delivery": "/assets/images/2025/01/IMG_0480-1.jpeg",
+      "sourceSha256": "8b8beb7a88700b89e4d0badcadfb3b53d79f675b8c938b35071a40241d0d17e1",
+      "deliverySha256": "8b8beb7a88700b89e4d0badcadfb3b53d79f675b8c938b35071a40241d0d17e1",
+      "sourceBytes": 59438,
+      "deliveryBytes": 59438,
+      "dimensions": [
+        564,
+        704
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/pages/fgc-characters.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/01/IMG_0480-1.w320.webp",
+          "deliverySha256": "a280b114e8153f0ff9afedc2bd6da87e70e39f366e2b7d0960bcdc1ac97cc430",
+          "deliveryBytes": 31422,
+          "dimensions": [
+            320,
+            399
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/01/IMG_0484-1.jpeg",
+      "delivery": "/assets/images/2025/01/IMG_0484-1.jpeg",
+      "sourceSha256": "c2f968f45b3bacfcfaba22635c0d699330d21c1c011bb7282f20b6d05983aa4f",
+      "deliverySha256": "c2f968f45b3bacfcfaba22635c0d699330d21c1c011bb7282f20b6d05983aa4f",
+      "sourceBytes": 69281,
+      "deliveryBytes": 69281,
+      "dimensions": [
+        640,
+        914
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/pages/fgc-characters.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/01/IMG_0484-1.w320.webp",
+          "deliverySha256": "8c1bd8cec9bb8ece82498b019570ca3d2f4e9f4209a899202aa3e0c0d6376013",
+          "deliveryBytes": 31520,
+          "dimensions": [
+            320,
+            457
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/01/IMG_0485-1.webp",
+      "delivery": "/assets/images/2025/01/IMG_0485-1.webp",
+      "sourceSha256": "c2ef3fced83001a58a35117b5a8e5c57343b46b636cf7a15550fc11c4c9ae715",
+      "deliverySha256": "c2ef3fced83001a58a35117b5a8e5c57343b46b636cf7a15550fc11c4c9ae715",
+      "sourceBytes": 152378,
+      "deliveryBytes": 152378,
+      "dimensions": [
+        500,
+        803
+      ],
+      "transparent": true,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/pages/fgc-characters.mdx"
       ],
       "variants": []
     },
@@ -63,6 +202,54 @@
             "method": 6,
             "lossless": true,
             "exact": true
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/01/Phelan-Ahearn-1.jpeg",
+      "delivery": "/assets/images/2025/01/Phelan-Ahearn-1.jpeg",
+      "sourceSha256": "cf6008adc1418ffbc04d8632bb47ccce35754413f7c70f13a398dd9bb0ebf05f",
+      "deliverySha256": "cf6008adc1418ffbc04d8632bb47ccce35754413f7c70f13a398dd9bb0ebf05f",
+      "sourceBytes": 71344,
+      "deliveryBytes": 71344,
+      "dimensions": [
+        736,
+        849
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/pages/fgc-characters.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/01/Phelan-Ahearn-1.w320.webp",
+          "deliverySha256": "c0d8e4f8d2d66f63227067e1a10c45bc6782cee442a0bd163606d9b21cdc87c6",
+          "deliveryBytes": 25026,
+          "dimensions": [
+            320,
+            369
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/Phelan-Ahearn-1.w640.webp",
+          "deliverySha256": "e3a466dce42958006cd0adc6b38384bedaa1bf6b95536a190d39cd39df14693a",
+          "deliveryBytes": 66572,
+          "dimensions": [
+            640,
+            738
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
           }
         }
       ]
@@ -376,6 +563,70 @@
       ]
     },
     {
+      "source": "/assets/images/2025/02/A47C30F9-2A72-42C3-B154-6350DD350F2B.png",
+      "delivery": "/assets/images/2025/02/A47C30F9-2A72-42C3-B154-6350DD350F2B.webp",
+      "sourceSha256": "03e4a0fce4caa33e186a5a716646f1cc2d75382f245d8573bcda4322836e8bae",
+      "deliverySha256": "1c6d9120b1e873c40765e319b6c85c9f8b2d24758aad0d27dae43d8859424488",
+      "sourceBytes": 2709830,
+      "deliveryBytes": 338784,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/fgc-characters.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/02/A47C30F9-2A72-42C3-B154-6350DD350F2B.w320.webp",
+          "deliverySha256": "9c90a725baaecd57e554c4453f5c234f42b2ad4d8114eaaa592847a73900b0a4",
+          "deliveryBytes": 47548,
+          "dimensions": [
+            320,
+            320
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/02/A47C30F9-2A72-42C3-B154-6350DD350F2B.w640.webp",
+          "deliverySha256": "07f795b20b3de9a5193f43d143118312452d936d5fabfbb4eb04df1b024fd6ef",
+          "deliveryBytes": 154470,
+          "dimensions": [
+            640,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/02/A47C30F9-2A72-42C3-B154-6350DD350F2B.w960.webp",
+          "deliverySha256": "6c073562281b5437080325d4bcc20f9fe7c9d5a81d9e17b011c4c8317c1b47cb",
+          "deliveryBytes": 285492,
+          "dimensions": [
+            960,
+            960
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
       "source": "/assets/images/2025/02/B7CE18E8-AAAF-45DC-BC98-AE1B619FAF14-1.png",
       "delivery": "/assets/images/2025/02/B7CE18E8-AAAF-45DC-BC98-AE1B619FAF14-1.webp",
       "sourceSha256": "e9bb7753f83c7889ee9ca8d0382086745c1e1de8ac22eee45d1934e665224a75",
@@ -521,6 +772,70 @@
           "dimensions": [
             1280,
             731
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/02/D97E67F0-56A9-4DCC-8990-4C09EDA59106.png",
+      "delivery": "/assets/images/2025/02/D97E67F0-56A9-4DCC-8990-4C09EDA59106.webp",
+      "sourceSha256": "0b0a11b4c60dd005042b8935a944f65dc2473f9afabebb445f04ed75123a3b65",
+      "deliverySha256": "2877b5e797dcf36c7b1112f71281b6aa8b1a5a3734fb473f498d1bb76f95234c",
+      "sourceBytes": 2267971,
+      "deliveryBytes": 316872,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/fgc-characters.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/02/D97E67F0-56A9-4DCC-8990-4C09EDA59106.w320.webp",
+          "deliverySha256": "835aa156ead3e9ef34da0542c0bc4fb2d116dac44fb736ddf239a90fefcf12db",
+          "deliveryBytes": 41108,
+          "dimensions": [
+            320,
+            320
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/02/D97E67F0-56A9-4DCC-8990-4C09EDA59106.w640.webp",
+          "deliverySha256": "c2617123946e8a3dbaacc340f29d16bdde43a255cb23df7dc9660986b17c11a3",
+          "deliveryBytes": 137652,
+          "dimensions": [
+            640,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/02/D97E67F0-56A9-4DCC-8990-4C09EDA59106.w960.webp",
+          "deliverySha256": "974dfb4a55d92f0d5af47d94fffbe1fc98237c40137c42067af6b05f44c89940",
+          "deliveryBytes": 264258,
+          "dimensions": [
+            960,
+            960
           ],
           "settings": {
             "method": 6,
@@ -685,6 +1000,166 @@
           "dimensions": [
             1920,
             1138
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/02/IMG_0552.jpeg",
+      "delivery": "/assets/images/2025/02/IMG_0552.jpeg",
+      "sourceSha256": "d9606d5ddf52e326a4c57b621903869bc20a37d613d84e4bd947d62e3c6b9cbd",
+      "deliverySha256": "d9606d5ddf52e326a4c57b621903869bc20a37d613d84e4bd947d62e3c6b9cbd",
+      "sourceBytes": 203872,
+      "deliveryBytes": 203872,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/pages/fgc-characters.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/02/IMG_0552.w320.webp",
+          "deliverySha256": "ba3c9dc4d8e8d30c20d7fbf3c8b6fdd0e1f84816010fa1eb484971dedfe87c0a",
+          "deliveryBytes": 38862,
+          "dimensions": [
+            320,
+            320
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/02/IMG_0552.w640.webp",
+          "deliverySha256": "9ce149e15f73ccce6b048b775201137f1fd847809b5de35a86745b541363dbf0",
+          "deliveryBytes": 139938,
+          "dimensions": [
+            640,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/02/IMG_0553.jpeg",
+      "delivery": "/assets/images/2025/02/IMG_0553.jpeg",
+      "sourceSha256": "759fcbe0e50f0dbe6af8bfb54cf563963d9bc8bcade0d2019e38e150e437ee2a",
+      "deliverySha256": "759fcbe0e50f0dbe6af8bfb54cf563963d9bc8bcade0d2019e38e150e437ee2a",
+      "sourceBytes": 170355,
+      "deliveryBytes": 170355,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/pages/fgc-characters.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/02/IMG_0553.w320.webp",
+          "deliverySha256": "53883f48ceda62850cd2de978aa22a99175378bd892569ad3322651a8e22ff9e",
+          "deliveryBytes": 29588,
+          "dimensions": [
+            320,
+            320
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/02/IMG_0553.w640.webp",
+          "deliverySha256": "f0628d7569cc634e6cf3e592747c99b8639e472c448dfa31fe3860ded0fd6258",
+          "deliveryBytes": 108182,
+          "dimensions": [
+            640,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/02/u7178828134_A_high_fantasy_photorealistic_image_of_a_female_w_daf1960d-7050-4929-9942-1d1ac88179a3_1.png",
+      "delivery": "/assets/images/2025/02/u7178828134_A_high_fantasy_photorealistic_image_of_a_female_w_daf1960d-7050-4929-9942-1d1ac88179a3_1.webp",
+      "sourceSha256": "e1f5889a2c8e7e741f09e78a857c219e96036a385e223d0790bb4e4f58f2573f",
+      "deliverySha256": "a6c4e345d2d48afa0aa5f039048b8e473f3935412742c9c7f9ab24e49d3f5c3e",
+      "sourceBytes": 1739752,
+      "deliveryBytes": 189720,
+      "dimensions": [
+        1232,
+        928
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/fgc-characters.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/02/u7178828134_A_high_fantasy_photorealistic_image_of_a_female_w_daf1960d-7050-4929-9942-1d1ac88179a3_1.w320.webp",
+          "deliverySha256": "0a4ddf2c3ec30e352a63c2dcf1a7d11a62870056f2166def309059cc2e070ef5",
+          "deliveryBytes": 19318,
+          "dimensions": [
+            320,
+            241
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/02/u7178828134_A_high_fantasy_photorealistic_image_of_a_female_w_daf1960d-7050-4929-9942-1d1ac88179a3_1.w640.webp",
+          "deliverySha256": "1643090af4b7d07c6ff97f5ebcfdfb91cedcc11b4e4e2aee1fe33a10a861797c",
+          "deliveryBytes": 59814,
+          "dimensions": [
+            640,
+            482
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/02/u7178828134_A_high_fantasy_photorealistic_image_of_a_female_w_daf1960d-7050-4929-9942-1d1ac88179a3_1.w960.webp",
+          "deliverySha256": "b0bf866596360adc7d570e52ba518087ff6f837a6b2b28192b104688ddec3544",
+          "deliveryBytes": 122332,
+          "dimensions": [
+            960,
+            723
           ],
           "settings": {
             "method": 6,
@@ -1637,6 +2112,97 @@
       ]
     },
     {
+      "source": "/assets/images/2025/07/musetta._generate_a_portrait_style_image_of_this_character_in_229eba30-8587-454a-8b77-17c3eeb79b98_0.png",
+      "delivery": "/assets/images/2025/07/musetta._generate_a_portrait_style_image_of_this_character_in_229eba30-8587-454a-8b77-17c3eeb79b98_0.webp",
+      "sourceSha256": "5903fbc2996c2b55031a2f2b7a94c8f5a892ad8bb7b7ac2951b1214fe1e4f2b8",
+      "deliverySha256": "e358f9f127bf358269c6f22cd67dcb16fe2a60b22129f0e543f48ab64dd243e3",
+      "sourceBytes": 1575657,
+      "deliveryBytes": 154458,
+      "dimensions": [
+        928,
+        1232
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/fgc-characters.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/07/musetta._generate_a_portrait_style_image_of_this_character_in_229eba30-8587-454a-8b77-17c3eeb79b98_0.w320.webp",
+          "deliverySha256": "c298774bff57322f7be05eb612ca9d54f5ebdc916a467b05a8581ba4f4215e59",
+          "deliveryBytes": 27760,
+          "dimensions": [
+            320,
+            425
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/07/musetta._generate_a_portrait_style_image_of_this_character_in_229eba30-8587-454a-8b77-17c3eeb79b98_0.w640.webp",
+          "deliverySha256": "c090506d3047a5c4ec173a8314f304bf8c2ffb9382988a0c7c2faf9021ad2280",
+          "deliveryBytes": 89786,
+          "dimensions": [
+            640,
+            850
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/07/valgara.png",
+      "delivery": "/assets/images/2025/07/valgara.webp",
+      "sourceSha256": "737d1dc957769f14808b13c0fbd57502f568f22e47c3669e8df6d06a7fb2b108",
+      "deliverySha256": "93d36cdb39ab7a06ff8d474a3148680d0867cb642cca22840be3fc3e7b7e6d96",
+      "sourceBytes": 844357,
+      "deliveryBytes": 446220,
+      "dimensions": [
+        681,
+        983
+      ],
+      "transparent": true,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "lossless": true,
+        "exact": true
+      },
+      "status": "converted",
+      "reason": "lossless transparency",
+      "usedIn": [
+        "src/content/pages/fgc-characters.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/07/valgara.w320.webp",
+          "deliverySha256": "d288eb1e30f1aea8e50f2b7c4eb6bcb1eefca0980659fad0dd12eda5fea03457",
+          "deliveryBytes": 143074,
+          "dimensions": [
+            320,
+            462
+          ],
+          "settings": {
+            "method": 6,
+            "lossless": true,
+            "exact": true
+          }
+        }
+      ]
+    },
+    {
       "source": "/assets/images/2026/02/chase.png",
       "delivery": "/assets/images/2026/02/chase.webp",
       "sourceSha256": "d725c657a39fd6d7ada7efa6577583de94f4013bdedc793c4e727d7e00505622",
@@ -2376,6 +2942,7 @@
       "status": "converted",
       "reason": "quality 90 artwork",
       "usedIn": [
+        "src/content/pages/the-freaky-gray-company.mdx",
         "src/content/tags/arc-2.json"
       ],
       "variants": [
@@ -2420,6 +2987,83 @@
         },
         {
           "delivery": "/assets/images/2026/05/look-a-dragon-4.w1280.webp",
+          "deliverySha256": "1af8cd75fef1e3f54f497c57197c029b138081630876d2f4b093cce14f8054b0",
+          "deliveryBytes": 255964,
+          "dimensions": [
+            1280,
+            853
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/05/look-a-dragon.png",
+      "delivery": "/assets/images/2026/05/look-a-dragon.webp",
+      "sourceSha256": "ff1be9a7025a9a2726a154526e919bcc8b52c1d5f1d633af90f05a7f261ce5f3",
+      "deliverySha256": "06a2dd668a4fe4297d44b50d2b41fe4c689bb8a90591be7f72a9420874005cea",
+      "sourceBytes": 2028523,
+      "deliveryBytes": 281254,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/fgc-characters.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/05/look-a-dragon.w320.webp",
+          "deliverySha256": "46e080bc7f7eddc3bafa572fc38fbed6a5284c51a224c9b2c22fd9b46552ad9b",
+          "deliveryBytes": 23048,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/05/look-a-dragon.w640.webp",
+          "deliverySha256": "9247fbdd5ca8cd5c367f77c7500ca649228b7d6033967b867714c51ecc9b74bf",
+          "deliveryBytes": 82928,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/05/look-a-dragon.w960.webp",
+          "deliverySha256": "e22e7021d0f10f4a9dd2ac86900d3c0a4040b25e6de61b79bc5bdb77e686d08c",
+          "deliveryBytes": 168690,
+          "dimensions": [
+            960,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/05/look-a-dragon.w1280.webp",
           "deliverySha256": "1af8cd75fef1e3f54f497c57197c029b138081630876d2f4b093cce14f8054b0",
           "deliveryBytes": 255964,
           "dimensions": [
@@ -3769,6 +4413,84 @@
       ]
     },
     {
+      "source": "/assets/images/2026/05/musetta._super_tight_closeup_of_the_eerie_eyes_of_an_evil_dem_2d87ce94-35b5-470d-b394-12eff58fc148_0.png",
+      "delivery": "/assets/images/2026/05/musetta._super_tight_closeup_of_the_eerie_eyes_of_an_evil_dem_2d87ce94-35b5-470d-b394-12eff58fc148_0.webp",
+      "sourceSha256": "93ac85350633033bddb1b76f9fc5d5c391690ef8b3d9222eca3a77e7227f5d6e",
+      "deliverySha256": "0c7522cd23605d34fe909c214c1cc4e94049ee951e813e94a79fd4c7437dfc7b",
+      "sourceBytes": 1663223,
+      "deliveryBytes": 150102,
+      "dimensions": [
+        1344,
+        896
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/the-freaky-gray-company.mdx",
+        "src/content/tags/arc-1.json"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/05/musetta._super_tight_closeup_of_the_eerie_eyes_of_an_evil_dem_2d87ce94-35b5-470d-b394-12eff58fc148_0.w320.webp",
+          "deliverySha256": "6b5090d5cb3d93c22106a162234094381767c3b1b2ec47df8831252361a2c200",
+          "deliveryBytes": 12018,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/05/musetta._super_tight_closeup_of_the_eerie_eyes_of_an_evil_dem_2d87ce94-35b5-470d-b394-12eff58fc148_0.w640.webp",
+          "deliverySha256": "7c3869499c9faa6b6b19deeb1663b207c6925e689fac01fc5b827b5e1091d812",
+          "deliveryBytes": 46870,
+          "dimensions": [
+            640,
+            427
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/05/musetta._super_tight_closeup_of_the_eerie_eyes_of_an_evil_dem_2d87ce94-35b5-470d-b394-12eff58fc148_0.w960.webp",
+          "deliverySha256": "de8477cec16a8b339a77e4a0f2c770404c978c29950934e27e9a81462c2a251c",
+          "deliveryBytes": 89746,
+          "dimensions": [
+            960,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/05/musetta._super_tight_closeup_of_the_eerie_eyes_of_an_evil_dem_2d87ce94-35b5-470d-b394-12eff58fc148_0.w1280.webp",
+          "deliverySha256": "42cbe5e3c641e748c3cfdd524160079e4e96dc11c49bffcc11bd33f67319cee5",
+          "deliveryBytes": 138152,
+          "dimensions": [
+            1280,
+            853
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
       "source": "/assets/images/2026/05/sofia-sandoval.png",
       "delivery": "/assets/images/2026/05/sofia-sandoval.webp",
       "sourceSha256": "a04e336cd967ad972048c35a3924a3e4d081ba845462e51aaae073b60748ac6c",
@@ -3914,6 +4636,67 @@
           "dimensions": [
             1280,
             1920
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/05/wildemount-1.jpg",
+      "delivery": "/assets/images/2026/05/wildemount-1.jpg",
+      "sourceSha256": "28cd392e39e24ebdaa884c788df347a5fdb606d4efa80e7b8d3a5b299d5f4575",
+      "deliverySha256": "28cd392e39e24ebdaa884c788df347a5fdb606d4efa80e7b8d3a5b299d5f4575",
+      "sourceBytes": 229218,
+      "deliveryBytes": 229218,
+      "dimensions": [
+        1329,
+        930
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/pages/the-freaky-gray-company.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/05/wildemount-1.w320.webp",
+          "deliverySha256": "ff997c9100b13456070146c6058dc39082f6f24e29ecfac2395fc494bdce8c33",
+          "deliveryBytes": 28480,
+          "dimensions": [
+            320,
+            224
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/05/wildemount-1.w640.webp",
+          "deliverySha256": "353bf0dfb2e6688e3efe19d7ea88d3bc45596f071e1ebb5fc45ddcf816f39798",
+          "deliveryBytes": 95586,
+          "dimensions": [
+            640,
+            448
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/05/wildemount-1.w960.webp",
+          "deliverySha256": "8842f6d873628d4d6b80e4b3dcb3c0a1809893f07375f07c9ac4e560ec9ec3bc",
+          "deliveryBytes": 183646,
+          "dimensions": [
+            960,
+            672
           ],
           "settings": {
             "method": 6,
@@ -5811,6 +6594,30 @@
       "variants": []
     },
     {
+      "source": "/assets/images/icon/favicon-1.png",
+      "delivery": "/assets/images/icon/favicon-1.webp",
+      "sourceSha256": "be6cef0757496a21bd8028cec4bc6886e16a2ad5f3c82ece11270883518a2485",
+      "deliverySha256": "6e51cf5d7b19b6ead65a4c44ecbb99b6f5328d155374693fc0515ef575e1a316",
+      "sourceBytes": 4710,
+      "deliveryBytes": 726,
+      "dimensions": [
+        32,
+        32
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/fgc-characters.mdx"
+      ],
+      "variants": []
+    },
+    {
       "source": "/assets/images/icon/favicon-10.ico",
       "delivery": "/assets/images/icon/favicon-10.ico",
       "sourceSha256": "d5780b98a931be8b95742a020752b75ee186f5c2fa557095d4c7f32ba904f5b8",
@@ -5902,6 +6709,30 @@
       "variants": []
     },
     {
+      "source": "/assets/images/icon/favicon-2.png",
+      "delivery": "/assets/images/icon/favicon-2.webp",
+      "sourceSha256": "be6cef0757496a21bd8028cec4bc6886e16a2ad5f3c82ece11270883518a2485",
+      "deliverySha256": "6e51cf5d7b19b6ead65a4c44ecbb99b6f5328d155374693fc0515ef575e1a316",
+      "sourceBytes": 4710,
+      "deliveryBytes": 726,
+      "dimensions": [
+        32,
+        32
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/fgc-characters.mdx"
+      ],
+      "variants": []
+    },
+    {
       "source": "/assets/images/icon/favicon-3.ico",
       "delivery": "/assets/images/icon/favicon-3.ico",
       "sourceSha256": "67f665786375f523417e6bf5e803e63e4b136a80f2da6b1e2b0dbb9e02c118cd",
@@ -5919,6 +6750,30 @@
       "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
       "usedIn": [
         "src/content/pages/dm-resources.mdx"
+      ],
+      "variants": []
+    },
+    {
+      "source": "/assets/images/icon/favicon-3.png",
+      "delivery": "/assets/images/icon/favicon-3.webp",
+      "sourceSha256": "be6cef0757496a21bd8028cec4bc6886e16a2ad5f3c82ece11270883518a2485",
+      "deliverySha256": "6e51cf5d7b19b6ead65a4c44ecbb99b6f5328d155374693fc0515ef575e1a316",
+      "sourceBytes": 4710,
+      "deliveryBytes": 726,
+      "dimensions": [
+        32,
+        32
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/fgc-characters.mdx"
       ],
       "variants": []
     },
@@ -5944,6 +6799,30 @@
       "variants": []
     },
     {
+      "source": "/assets/images/icon/favicon-4.png",
+      "delivery": "/assets/images/icon/favicon-4.webp",
+      "sourceSha256": "be6cef0757496a21bd8028cec4bc6886e16a2ad5f3c82ece11270883518a2485",
+      "deliverySha256": "6e51cf5d7b19b6ead65a4c44ecbb99b6f5328d155374693fc0515ef575e1a316",
+      "sourceBytes": 4710,
+      "deliveryBytes": 726,
+      "dimensions": [
+        32,
+        32
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/fgc-characters.mdx"
+      ],
+      "variants": []
+    },
+    {
       "source": "/assets/images/icon/favicon-5.ico",
       "delivery": "/assets/images/icon/favicon-5.ico",
       "sourceSha256": "190c68df3f8a5f81c728912b1632ab2c2085563cf39011e007c7f9c4197fb8fb",
@@ -5961,6 +6840,30 @@
       "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
       "usedIn": [
         "src/content/pages/dm-resources.mdx"
+      ],
+      "variants": []
+    },
+    {
+      "source": "/assets/images/icon/favicon-5.png",
+      "delivery": "/assets/images/icon/favicon-5.webp",
+      "sourceSha256": "be6cef0757496a21bd8028cec4bc6886e16a2ad5f3c82ece11270883518a2485",
+      "deliverySha256": "6e51cf5d7b19b6ead65a4c44ecbb99b6f5328d155374693fc0515ef575e1a316",
+      "sourceBytes": 4710,
+      "deliveryBytes": 726,
+      "dimensions": [
+        32,
+        32
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/fgc-characters.mdx"
       ],
       "variants": []
     },
@@ -6024,6 +6927,30 @@
       "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
       "usedIn": [
         "src/content/pages/dm-resources.mdx"
+      ],
+      "variants": []
+    },
+    {
+      "source": "/assets/images/icon/favicon.png",
+      "delivery": "/assets/images/icon/favicon.webp",
+      "sourceSha256": "be6cef0757496a21bd8028cec4bc6886e16a2ad5f3c82ece11270883518a2485",
+      "deliverySha256": "6e51cf5d7b19b6ead65a4c44ecbb99b6f5328d155374693fc0515ef575e1a316",
+      "sourceBytes": 4710,
+      "deliveryBytes": 726,
+      "dimensions": [
+        32,
+        32
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/fgc-characters.mdx"
       ],
       "variants": []
     },
@@ -6374,6 +7301,150 @@
       "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
       "usedIn": [
         "src/content/pages/dm-resources.mdx"
+      ],
+      "variants": []
+    },
+    {
+      "source": "/assets/images/thumbnail/og-monsters-1.png",
+      "delivery": "/assets/images/thumbnail/og-monsters-1.webp",
+      "sourceSha256": "0745722c8faf293a071910be24dd059e8b637b387c69b8c9a927b20df1fd25cf",
+      "deliverySha256": "5a705f266aa111dee64d6d7287600781b644b65a6360db72b6c65f88b7f9d58e",
+      "sourceBytes": 450134,
+      "deliveryBytes": 225104,
+      "dimensions": [
+        1200,
+        630
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/fgc-characters.mdx"
+      ],
+      "variants": []
+    },
+    {
+      "source": "/assets/images/thumbnail/og-monsters-2.png",
+      "delivery": "/assets/images/thumbnail/og-monsters-2.webp",
+      "sourceSha256": "0745722c8faf293a071910be24dd059e8b637b387c69b8c9a927b20df1fd25cf",
+      "deliverySha256": "5a705f266aa111dee64d6d7287600781b644b65a6360db72b6c65f88b7f9d58e",
+      "sourceBytes": 450134,
+      "deliveryBytes": 225104,
+      "dimensions": [
+        1200,
+        630
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/fgc-characters.mdx"
+      ],
+      "variants": []
+    },
+    {
+      "source": "/assets/images/thumbnail/og-monsters-3.png",
+      "delivery": "/assets/images/thumbnail/og-monsters-3.webp",
+      "sourceSha256": "0745722c8faf293a071910be24dd059e8b637b387c69b8c9a927b20df1fd25cf",
+      "deliverySha256": "5a705f266aa111dee64d6d7287600781b644b65a6360db72b6c65f88b7f9d58e",
+      "sourceBytes": 450134,
+      "deliveryBytes": 225104,
+      "dimensions": [
+        1200,
+        630
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/fgc-characters.mdx"
+      ],
+      "variants": []
+    },
+    {
+      "source": "/assets/images/thumbnail/og-monsters-4.png",
+      "delivery": "/assets/images/thumbnail/og-monsters-4.webp",
+      "sourceSha256": "0745722c8faf293a071910be24dd059e8b637b387c69b8c9a927b20df1fd25cf",
+      "deliverySha256": "5a705f266aa111dee64d6d7287600781b644b65a6360db72b6c65f88b7f9d58e",
+      "sourceBytes": 450134,
+      "deliveryBytes": 225104,
+      "dimensions": [
+        1200,
+        630
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/fgc-characters.mdx"
+      ],
+      "variants": []
+    },
+    {
+      "source": "/assets/images/thumbnail/og-monsters-5.png",
+      "delivery": "/assets/images/thumbnail/og-monsters-5.webp",
+      "sourceSha256": "0745722c8faf293a071910be24dd059e8b637b387c69b8c9a927b20df1fd25cf",
+      "deliverySha256": "5a705f266aa111dee64d6d7287600781b644b65a6360db72b6c65f88b7f9d58e",
+      "sourceBytes": 450134,
+      "deliveryBytes": 225104,
+      "dimensions": [
+        1200,
+        630
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/fgc-characters.mdx"
+      ],
+      "variants": []
+    },
+    {
+      "source": "/assets/images/thumbnail/og-monsters.png",
+      "delivery": "/assets/images/thumbnail/og-monsters.webp",
+      "sourceSha256": "0745722c8faf293a071910be24dd059e8b637b387c69b8c9a927b20df1fd25cf",
+      "deliverySha256": "5a705f266aa111dee64d6d7287600781b644b65a6360db72b6c65f88b7f9d58e",
+      "sourceBytes": 450134,
+      "deliveryBytes": 225104,
+      "dimensions": [
+        1200,
+        630
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/fgc-characters.mdx"
       ],
       "variants": []
     },

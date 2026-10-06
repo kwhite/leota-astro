@@ -12,7 +12,7 @@ Arc and season cards are Ghost v2 header cards. They use the existing `ContentBa
 
 All 17 cards have a `#000` background and a white heading. No card uses `full` width, left alignment, or a second button. The only variant `ContentBanner` lacked was the white button, now `buttonStyle="light"`.
 
-Freaky Gray Company is out of scope for now: its page will be updated to match the other two campaigns, so its old tag-teaser block (filled in by a script not present in the export) is not being ported.
+Freaky Gray Company now uses two explicit `ContentBanner` calls in its overview MDX. The exported teaser requested `c1-a1,c1-a2`; their tag metadata supplies the titles, descriptions and artwork. Buttons link to the current name-based archives `/tag/arc-1/` and `/tag/arc-2/`. No Ghost client script is retained.
 
 ## Follow-ups
 

@@ -17,7 +17,7 @@ Kat requested **planning and documentation only before stopping for the night**.
 - Target: `/Users/kat/Sites/leota-astro`
 - Reference Ghost theme: `/Users/kat/Sites/Leota` (not a Git repository)
 - Original user-supplied project brief: `/Users/kat/Desktop/CODEX_CONTEXT.md`
-- Backup root: `/Users/kat/Downloads/here be dragons backup`
+- Backup root (relocated): `/Users/kat/Library/CloudStorage/Dropbox/Gaming/Website Backups/here be dragons backup`
 - Export: `game-notes-summaries.ghost.2026-10-03-19-02-04.json` inside that backup root
 - Extracted media: `ghost-media-backup-2026-10-03` inside that backup root
 - Backup includes `routes.yaml`, useful for the original homepage filter/routing.
@@ -234,3 +234,12 @@ The build rewrites image references using the tracked manifest and excludes imag
 Kat merged PR #8, confirmed the live site pulls from R2, paused Netlify, and requested responsive sizes. Branch `codex/responsive-media` adds 289 smaller WebP objects for 79 current assets (43.59 MiB additional storage). Widths are 320/640/960/1280/1920, strictly below the original width; only candidates smaller than the full-size file are offered. Full-size checksums/dimensions and originals are unchanged. All variants are uploaded to R2; the existing Cloudflare build variable is sufficient.
 
 Local and R2 builds pass with 42 pages. Checks cover 170 responsive image occurrences, 125 full-size anchors and 406 file checksums. Browser inspection confirms portraits use 640px candidates at 280px desktop and 348px phone display widths; the lightbox retains the full-size image and caption. Median size reduction for the largest available candidate at 640px or below is 76% against its full-size delivery asset, not a measured whole-page saving. CSS backgrounds, feeds, social metadata, animation and archive migration retain their previous behavior. See `media-delivery.md`.
+
+
+## Freaky Gray Company migration (2026-10-05)
+
+Kat requested the next campaign migration and replacement of custom Ghost arc teasers with `ContentBanner`. Branch `codex/freaky-gray-company` adds editable `the-freaky-gray-company.mdx` and `fgc-characters.mdx`, matching routes, campaign navigation, and Arc 1 metadata. Main navigation now enables FGC. The overview preserves exported prose; both banners use exported tag names, descriptions and feature images, with current name-based archive destinations `/tag/arc-1/` and `/tag/arc-2/`. The Ghost script-backed `data-tag="c1-a1,c1-a2"` block is removed.
+
+Characters preserve the two source gallery rows, six individual images, six exact D&D Beyond destinations, bookmark copy and captions. Gallery names were reconciled visually with the individual portraits (gallery order differs from section order). Gazette remains inactive; session summaries are a separate migration and archives currently use the existing empty-state message. Content stays editable in MDX using shared components.
+
+`fgc-media-sources.json` inventories 28 referenced backup sources, one already in the prior manifest. Preparation adds 27 full-size delivery files and 33 responsive candidates; these 60 new objects are uploaded to R2 without replacing prior objects. Build: 45 pages, with 189 responsive-image occurrences, 143 full-size links and 466 delivery checksums validated. Bulk sources, unrelated dependency edits and `.claude/` stay outside this commit.

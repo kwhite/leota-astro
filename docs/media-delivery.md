@@ -39,3 +39,5 @@ The preparation manifest includes each smaller candidate's path, checksum, byte 
 For a rollout that only adds responsive files, `node scripts/upload-media.mjs --variants-only --apply` uploads candidates without replacing the existing full-size objects. Normal uploads include both. After either local or R2 builds, run `node scripts/tests/responsive-media.mjs` with the same `MEDIA_BASE_URL` setting as the build to validate candidates and full-size links.
 
 Native sizing reference: [MDN image sizes](https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/sizes). The new files add storage; they reduce bytes downloaded per image rather than shrinking the entire bucket.
+
+For subsequent content migrations, `--changed-since /path/to/previous-manifest.json` uploads only delivery paths whose checksums differ from that previous manifest. Save the baseline before preparing media; this option assumes that baseline was already uploaded. All local files are still validated.
