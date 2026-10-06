@@ -1,0 +1,461 @@
+{
+  "batch": "City of Mist Prologue",
+  "spamScan": "Reviewed all selected bodies and external links; no unrelated spam found. Individual injection fields not read or migrated.",
+  "posts": [
+    {
+      "slug": "2024-12-21-session-notes",
+      "sourceId": "67684f4b96b6c61f2a74e3d5",
+      "title": "2024.12.21 Session Notes",
+      "publishedAt": "2024-12-23T00:15:49.000Z",
+      "tags": [
+        "City of Mist",
+        "CoM Prologue",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "108ec635f095d01fbd7c0a6a00bfad23ab48278f78ffe89e8dda804ffde4ea36",
+      "file": "src/content/posts/2024-12-21-session-notes.md",
+      "omittedParagraphs": 0,
+      "removedArchiveLinks": 8,
+      "removedBrokenLinks": 0,
+      "images": 5,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "2024-12-30-session-notes",
+      "sourceId": "676ee615129b71338ac896eb",
+      "title": "2024.12.30 Session Notes",
+      "publishedAt": "2025-01-03T21:43:22.000Z",
+      "tags": [
+        "City of Mist",
+        "CoM Prologue",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "3a29edcd6c5080708da5b2100c3e449df912623b55297f296c5de08f2f071364",
+      "file": "src/content/posts/2024-12-30-session-notes.md",
+      "omittedParagraphs": 0,
+      "removedArchiveLinks": 7,
+      "removedBrokenLinks": 0,
+      "images": 6,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "voice-over-london",
+      "sourceId": "67783335129b71338ac8972d",
+      "title": "Voice Over: London",
+      "publishedAt": "2024-12-22T18:59:00.000Z",
+      "tags": [
+        "City of Mist",
+        "CoM Prologue"
+      ],
+      "sourceHtmlSha256": "9f4fefe5ea9e96de4924251619aabe7a27504e4256c598772f27d8737c0caa28",
+      "file": "src/content/posts/voice-over-london.md",
+      "omittedParagraphs": 0,
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "images": 0,
+      "embeds": 1,
+      "callouts": 0
+    },
+    {
+      "slug": "2025-01-04-session-notes",
+      "sourceId": "6779d7b15299ad039dcd6339",
+      "title": "2025.01.04 Session Notes",
+      "publishedAt": "2025-01-05T21:42:54.000Z",
+      "tags": [
+        "City of Mist",
+        "CoM Prologue",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "2ffcfd02a8e70588c6571b8a096019bbd623cc8f8094d9e1f3b71f5797b7258f",
+      "file": "src/content/posts/2025-01-04-session-notes.md",
+      "omittedParagraphs": 0,
+      "removedArchiveLinks": 4,
+      "removedBrokenLinks": 0,
+      "images": 2,
+      "embeds": 1,
+      "callouts": 0
+    },
+    {
+      "slug": "voice-over-sergei",
+      "sourceId": "6779db4f5299ad039dcd6345",
+      "title": "Voice Over: Sergei",
+      "publishedAt": "2025-01-05T16:09:29.000Z",
+      "tags": [
+        "City of Mist",
+        "CoM Prologue"
+      ],
+      "sourceHtmlSha256": "7ad3a5b534d3a90dac1d034f09d3b9b60d8618ab7a699849d81b05a69eaafb46",
+      "file": "src/content/posts/voice-over-sergei.md",
+      "omittedParagraphs": 0,
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "images": 0,
+      "embeds": 1,
+      "callouts": 0
+    },
+    {
+      "slug": "2025-01-18-session-notes",
+      "sourceId": "678d31535299ad039dcd6428",
+      "title": "2025.01.18 Session Notes",
+      "publishedAt": "2025-01-19T19:56:00.000Z",
+      "tags": [
+        "City of Mist",
+        "CoM Prologue",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "6a99809dc525eb8b039c8997da06cbc1ee11e325d5eb4d78e6da003d596c5f2e",
+      "file": "src/content/posts/2025-01-18-session-notes.mdx",
+      "omittedParagraphs": 0,
+      "removedArchiveLinks": 4,
+      "removedBrokenLinks": 0,
+      "images": 4,
+      "embeds": 1,
+      "callouts": 1,
+      "sourceSlug": "2024-01-18-session-notes",
+      "sourceTitle": "2024.01.18 Session Notes"
+    },
+    {
+      "slug": "voice-over-kevin",
+      "sourceId": "678d318d5299ad039dcd642e",
+      "title": "Voice Over: Kevin",
+      "publishedAt": "2025-01-19T17:10:13.000Z",
+      "tags": [
+        "City of Mist",
+        "CoM Prologue"
+      ],
+      "sourceHtmlSha256": "6c1e3f9b77615cd55c5a0002bff832caac869e1c41a36883fa01e1f0b6a0981f",
+      "file": "src/content/posts/voice-over-kevin.md",
+      "omittedParagraphs": 0,
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "images": 0,
+      "embeds": 1,
+      "callouts": 0
+    },
+    {
+      "slug": "2025-01-25-session-notes",
+      "sourceId": "6796d78f5299ad039dcd656e",
+      "title": "2025.01.25 Session Notes",
+      "publishedAt": "2025-01-28T01:29:34.000Z",
+      "tags": [
+        "City of Mist",
+        "CoM Prologue",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "9599858bd3ff8b5c0c120143ab9e9a3660739d8dfd16db8a631a5576e5da2d92",
+      "file": "src/content/posts/2025-01-25-session-notes.mdx",
+      "omittedParagraphs": 0,
+      "removedArchiveLinks": 4,
+      "removedBrokenLinks": 0,
+      "images": 5,
+      "embeds": 1,
+      "callouts": 2
+    },
+    {
+      "slug": "2025-02-01-session-notes",
+      "sourceId": "67b0ba1a5299ad039dcd66a3",
+      "title": "2025.02.01 Session Notes",
+      "publishedAt": "2025-02-02T16:00:00.000Z",
+      "tags": [
+        "City of Mist",
+        "CoM Prologue",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "d452e406d5c3ef5455c709e8e734eef940975c3db28f37b0473f2d8aacba264e",
+      "file": "src/content/posts/2025-02-01-session-notes.md",
+      "omittedParagraphs": 0,
+      "removedArchiveLinks": 1,
+      "removedBrokenLinks": 3,
+      "images": 4,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "2025-0215-session-notes",
+      "sourceId": "67b7c0ee5299ad039dcd6741",
+      "title": "2025.02.15 Session Notes",
+      "publishedAt": "2025-02-21T00:20:16.000Z",
+      "tags": [
+        "City of Mist",
+        "CoM Prologue",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "c32e6fe0a90f9b26897382f37a5e6a2d545d59056ecf8f60db56adca4a64ab72",
+      "file": "src/content/posts/2025-0215-session-notes.md",
+      "omittedParagraphs": 0,
+      "removedArchiveLinks": 4,
+      "removedBrokenLinks": 0,
+      "images": 1,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "voice-over-daniel",
+      "sourceId": "67b958e85299ad039dcd67ac",
+      "title": "Voice Over: Daniel",
+      "publishedAt": "2025-02-22T05:10:20.000Z",
+      "tags": [
+        "City of Mist",
+        "CoM Prologue"
+      ],
+      "sourceHtmlSha256": "0b12ce14da28a4a8bfe595b65040a7541399b43bca4b7319eefcc16d953bebcf",
+      "file": "src/content/posts/voice-over-daniel.md",
+      "omittedParagraphs": 0,
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "images": 0,
+      "embeds": 1,
+      "callouts": 0
+    },
+    {
+      "slug": "2025-02-21-session-notes",
+      "sourceId": "67b95d415299ad039dcd67cd",
+      "title": "2025.02.21 Session Notes",
+      "publishedAt": "2025-02-22T05:55:24.000Z",
+      "tags": [
+        "City of Mist",
+        "CoM Prologue",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "741b0994ef604e5084c2f46ebeb9aa09a00c9f575858d87d2ea41233b2c0ef13",
+      "file": "src/content/posts/2025-02-21-session-notes.md",
+      "omittedParagraphs": 0,
+      "removedArchiveLinks": 8,
+      "removedBrokenLinks": 0,
+      "images": 2,
+      "embeds": 0,
+      "callouts": 0
+    }
+  ],
+  "media": [
+    {
+      "source": "/assets/images/2024/12/IMG_0418.jpeg",
+      "sourceSha256": "4d7d488abe9406384f7b1f0a1f890b497ac0733444c07ca05ead6e0471a20cf8",
+      "sourceBytes": 28586
+    },
+    {
+      "source": "/assets/images/2024/12/IMG_0416-1.jpeg",
+      "sourceSha256": "a63be4a12161003f2d0081f0e338a54b4352e572fdb59e76e7889c9502d3b78c",
+      "sourceBytes": 761190
+    },
+    {
+      "source": "/assets/images/2024/12/IMG_0417.jpeg",
+      "sourceSha256": "dde340fab97591178020b8f533a6a44aeec936867f4dcc9ac155d62f9b95436b",
+      "sourceBytes": 55770
+    },
+    {
+      "source": "/assets/images/2024/12/4FF09296-AE3B-4DE7-8940-F79634B2C82E.png",
+      "sourceSha256": "22520c4c4861ba0f93939f980924502afa756308464726d85c688525f331498e",
+      "sourceBytes": 4785082
+    },
+    {
+      "source": "/assets/images/2024/12/4FF09296-AE3B-4DE7-8940-F79634B2C82E-1.png",
+      "sourceSha256": "22520c4c4861ba0f93939f980924502afa756308464726d85c688525f331498e",
+      "sourceBytes": 4785082
+    },
+    {
+      "source": "/assets/images/2024/12/FDDE448F-2C52-43A7-A097-5F3EF864176B-1.png",
+      "sourceSha256": "569454eb98da4a2b1faae0e499c33714715acfaf0635ad0206d10202419285cd",
+      "sourceBytes": 3716398
+    },
+    {
+      "source": "/assets/images/2025/02/DALL-E-2025-02-20-18.04.32---A-neo-noir-comic-book-style-illustration-of-the-New-Orleans-French-Quarter-at-night.-The-scene-features-empty-cobblestone-streets--historic-French-and.webp",
+      "sourceSha256": "a9f1a4c4752d032d8b6526f10b12db82f7f05a6731970516077a03cb3ed04702",
+      "sourceBytes": 389394
+    },
+    {
+      "source": "/assets/images/2025/02/7D007978-4AE2-4CC3-9EF7-ED20B4EB0310.png",
+      "sourceSha256": "59144955025ca56c6f1759a964c09d68f71c5998406ad3f251731a469f409441",
+      "sourceBytes": 3324225
+    },
+    {
+      "source": "/assets/images/2025/02/5352B2EB-5E11-4DDB-95E8-CBD00F5C6E03.png",
+      "sourceSha256": "f0fde2901111bedb60e9a697418011c6946541d273f501368ecf32e278e8249a",
+      "sourceBytes": 4459691
+    },
+    {
+      "source": "/assets/images/2025/02/A5CEA72B-4135-4099-B124-1946E2494C83.png",
+      "sourceSha256": "a80b223eefeeeacd005b105c269227a01f833389ff22facdefcc2edbf0e48b8d",
+      "sourceBytes": 2770774
+    },
+    {
+      "source": "/assets/images/2025/02/960612F5-169F-48C6-81C9-E361EDCB353D.png",
+      "sourceSha256": "3786d59b81dc0fe81728d0723346821bf779adb47fcb9f15cb911e49973999f4",
+      "sourceBytes": 2371378
+    },
+    {
+      "source": "/assets/images/2025/02/3C691A6A-8EE5-422E-8314-69C08BFB3F4C.png",
+      "sourceSha256": "b02d0f0186769510a347e32da2e5a79cc0b41a9daecd83896829ba1a10ca8f40",
+      "sourceBytes": 4522505
+    },
+    {
+      "source": "/assets/images/2025/02/34C5B901-3764-4B03-82A8-5DBBFC4B7240-3.png",
+      "sourceSha256": "618a384ad4cdaaa6e3052d147e2b705f034cc13883e718bf87bf77cc2a0d589f",
+      "sourceBytes": 4420996
+    },
+    {
+      "source": "/assets/images/2025/02/IMG_0509.jpeg",
+      "sourceSha256": "2770c7a43dad80f5670199ae466485caa52688c989fd71f498d591e7c6918a3a",
+      "sourceBytes": 363641
+    },
+    {
+      "source": "/assets/images/2025/02/DALL-E-2025-02-20-18.07.48---A-neo-noir-comic-book-style-portrait-of-a-sophisticated-middle-aged-woman.-She-has-an-elegant-updo-hairstyle--striking-red-lipstick--and-sharp--define.webp",
+      "sourceSha256": "1083bc2c0c46a69ec52ed589efd24c8caf561ff2ba8f4cfa4dc04de21f9e59e7",
+      "sourceBytes": 213796
+    },
+    {
+      "source": "/assets/images/2025/02/34C5B901-3764-4B03-82A8-5DBBFC4B7240.png",
+      "sourceSha256": "618a384ad4cdaaa6e3052d147e2b705f034cc13883e718bf87bf77cc2a0d589f",
+      "sourceBytes": 4420996
+    },
+    {
+      "source": "/assets/images/2025/02/01532928-25F1-4374-AFD7-7892B0A62CA5-1.png",
+      "sourceSha256": "60ef3480505cf23961add397b306fbede43016fb7e7cf9a96be9c728efdb0583",
+      "sourceBytes": 2494049
+    },
+    {
+      "source": "/assets/images/2025/02/831AF2D6-3DC5-4377-B0DB-F4340B354696.png",
+      "sourceSha256": "9239267ecc9824e60c2a48dc2a5896f5bb3517c62b02edd234358b40f43af063",
+      "sourceBytes": 4305312
+    },
+    {
+      "source": "/assets/images/2025/02/34C5B901-3764-4B03-82A8-5DBBFC4B7240-2.png",
+      "sourceSha256": "618a384ad4cdaaa6e3052d147e2b705f034cc13883e718bf87bf77cc2a0d589f",
+      "sourceBytes": 4420996
+    },
+    {
+      "source": "/assets/images/2025/02/569F61AC-972A-424E-B5E0-169B2822F3C1.png",
+      "sourceSha256": "2ebd25c2fe4a7f34bb7d3848d06385cf0bdd79a8c974d475eba51045d2c946a4",
+      "sourceBytes": 4477434
+    },
+    {
+      "source": "/assets/images/2025/01/744AD6E5-E8A2-42DF-B6C0-7C74763895B3-1.png",
+      "sourceSha256": "423e4fa77e8661805ce951dadb3d30653b2c0d952260f42d424508ef225619da",
+      "sourceBytes": 4030411
+    },
+    {
+      "source": "/assets/images/2025/01/D99EAD4A-2222-414A-92DD-F6B7943FCC8C.png",
+      "sourceSha256": "cf89fba0d7fc4bd57384d34df64236db3432b1551d81bad065e4f8087c004480",
+      "sourceBytes": 2165274
+    },
+    {
+      "source": "/assets/images/2025/01/5EFD5A9A-8880-4FDE-8800-D327F72BD53A.png",
+      "sourceSha256": "93ea53d78f65b7996369ffda97878a84016410879dd770d910d8a3a446670136",
+      "sourceBytes": 3894472
+    },
+    {
+      "source": "/assets/images/2025/01/IMG_1523.jpeg",
+      "sourceSha256": "91bdf4f3a5880c406f3521ab2e7880e06a35ad1ddd27ec7293b25515ec7fe51f",
+      "sourceBytes": 534295
+    },
+    {
+      "source": "/assets/images/2025/01/0E684950-F197-46C4-BA03-7A8EA83B2D0E.png",
+      "sourceSha256": "8de1c03923ec5e7f4b6df89a5df04b05bf740177e180a7bb057186344d50a176",
+      "sourceBytes": 3422097
+    },
+    {
+      "source": "/assets/images/2025/01/D1AA9289-4DE5-499A-9C3F-58E115959143.png",
+      "sourceSha256": "6a4acdcea142b1a2afdf01f9c4c055f8ca1dcddef29a6caede476e28c9e7dd59",
+      "sourceBytes": 4493205
+    },
+    {
+      "source": "/assets/images/2025/01/IMG_0436.jpeg",
+      "sourceSha256": "95d76d09db31c2511dc45eac689b4a61651c38547ac449b324622fa17c9a1788",
+      "sourceBytes": 47020
+    },
+    {
+      "source": "/assets/images/2025/01/11D0DE8E-AB75-4427-9DA3-BC8DB4DC2806.png",
+      "sourceSha256": "3ff35d6416bb0fca2e0255b0b956c4e7cb11f493c9ec5019dd4fc83faef54c81",
+      "sourceBytes": 4740647
+    },
+    {
+      "source": "/assets/images/2025/01/F6841A05-1B5A-40A5-BD4C-09979DE1290C.png",
+      "sourceSha256": "8ed9ba6f9b2bc01691b9a52eda884fe7d83941edbd161fd65e130d9a357e6bb1",
+      "sourceBytes": 4537444
+    },
+    {
+      "source": "/assets/images/2025/01/5EFD5A9A-8880-4FDE-8800-D327F72BD53A-1.png",
+      "sourceSha256": "93ea53d78f65b7996369ffda97878a84016410879dd770d910d8a3a446670136",
+      "sourceBytes": 3894472
+    },
+    {
+      "source": "/assets/images/2025/01/D1AA9289-4DE5-499A-9C3F-58E115959143.png",
+      "sourceSha256": "6a4acdcea142b1a2afdf01f9c4c055f8ca1dcddef29a6caede476e28c9e7dd59",
+      "sourceBytes": 4493205
+    },
+    {
+      "source": "/assets/images/2025/01/510D090F-744E-4626-9B14-F179EA8BD868.png",
+      "sourceSha256": "b93dd6ed77f426948519afe5ec7cc56ea1271db8764d8aa7de26871266ac1a58",
+      "sourceBytes": 4505879
+    },
+    {
+      "source": "/assets/images/2025/01/ABCEC0C4-DA29-4EA2-91E8-72E0E794946C.png",
+      "sourceSha256": "c1f4594ccca95c2cd9ffb78dc5444028c980d6d9873d6339377337a9aacda174",
+      "sourceBytes": 1835856
+    },
+    {
+      "source": "/assets/images/2025/01/0A926A7C-0175-42A7-AB43-AD3B25815D1D-2.png",
+      "sourceSha256": "bf92edba49ee4439949eee502cdcd76406937479a517a24153aabc807ac3f89e",
+      "sourceBytes": 4500342
+    },
+    {
+      "source": "/assets/images/2025/01/89B1E8DF-E9B3-4D66-8807-44F4DA5AA5F3.png",
+      "sourceSha256": "c1f8f31450ad11a742648ab196bd332640d489e55919038bbe93940df656766a",
+      "sourceBytes": 1994960
+    },
+    {
+      "source": "/assets/images/2025/01/0A926A7C-0175-42A7-AB43-AD3B25815D1D.png",
+      "sourceSha256": "bf92edba49ee4439949eee502cdcd76406937479a517a24153aabc807ac3f89e",
+      "sourceBytes": 4500342
+    },
+    {
+      "source": "/assets/images/2025/01/0E684950-F197-46C4-BA03-7A8EA83B2D0E-1.png",
+      "sourceSha256": "8de1c03923ec5e7f4b6df89a5df04b05bf740177e180a7bb057186344d50a176",
+      "sourceBytes": 3422097
+    },
+    {
+      "source": "/assets/images/2025/01/3B7432FD-527A-42CC-9C7B-C67F06E0D02F.png",
+      "sourceSha256": "6a44fb1340830e742820fe4e8c9977e1fc6dd73042144fc237850c562ce58ff9",
+      "sourceBytes": 4431071
+    },
+    {
+      "source": "/assets/images/2025/01/IMG_0434.jpeg",
+      "sourceSha256": "abe000d8eaf99699212a59fe7063b7ecf58fd2b1420b8f43020a7540c77fa1a6",
+      "sourceBytes": 35103
+    },
+    {
+      "source": "/assets/images/2025/01/744AD6E5-E8A2-42DF-B6C0-7C74763895B3.png",
+      "sourceSha256": "423e4fa77e8661805ce951dadb3d30653b2c0d952260f42d424508ef225619da",
+      "sourceBytes": 4030411
+    },
+    {
+      "source": "/assets/images/2025/01/F6841A05-1B5A-40A5-BD4C-09979DE1290C-1.png",
+      "sourceSha256": "8ed9ba6f9b2bc01691b9a52eda884fe7d83941edbd161fd65e130d9a357e6bb1",
+      "sourceBytes": 4537444
+    }
+  ],
+  "editorialNotes": [
+    "Kat approved correcting the January 18 recap title and route to 2025; preserve the original source identity in this record and redirect its old URL. Removed exported /404/ character links but kept names. Other source spelling/inaccuracies retained.",
+    "Repaired malformed exported list nesting without dropping text. Captions use linked HTML figures; uncaptioned image cards retain their source structure. Only two posts need MDX for Callout; other prose is Markdown with HTML embeds/alternate quotes."
+  ],
+  "validation": {
+    "pages": 58,
+    "responsiveImages": 357,
+    "fullSizeLinks": 212,
+    "deliveryChecksums": 683,
+    "sourceBodyComparison": "All 12 built article bodies match source text with whitespace/typography normalized; image, embed and callout counts checked.",
+    "spamOmissions": 0,
+    "publicR2Checksums": 3
+  },
+  "mediaDelivery": {
+    "newSources": 40,
+    "sourceBytes": 122640137,
+    "fullSizeDeliveryBytes": 21391373,
+    "responsiveVariants": 144,
+    "newUploadedObjects": 184,
+    "existingSourceAssetsNoLongerReferenced": 6,
+    "bucketDeletions": 0
+  }
+}

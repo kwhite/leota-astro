@@ -3,3 +3,7 @@
 /tag/session-notes/* /tag/session-recaps/:splat 301
 /tag/session-recap /tag/session-recaps/ 301
 /tag/session-recap/* /tag/session-recaps/:splat 301
+
+# Correct the January 18 recap year.
+/2024-01-18-session-notes /2025-01-18-session-notes/ 301
+/2024-01-18-session-notes/ /2025-01-18-session-notes/ 301
