@@ -1,22 +1,24 @@
 # Here Be Dragons / Leota Astro — thread handoff
 
-Last updated: 2026-10-06, after migrating The Chosen Season 3. This document records project context and user decisions; it is not authorization to deploy, send email, or migrate the full archive. **This current checkpoint takes precedence over the historical milestones below.**
+Last updated: 2026-10-06, after the remaining published pages and internal link audit. This document records project context and user decisions; it is not authorization to deploy or send email. **This current checkpoint takes precedence over historical milestones below.**
 
 ## Goal and current position
 
-Port Kat's Leota Ghost theme and selected content to Astro, preserving the dark design, editable Markdown/MDX, source content and reusable components. Cloudflare hosts the site; Netlify is paused. Kat confirmed live images load from R2.
+Port Kat's Leota Ghost theme and content to Astro, preserving the dark design, editable Markdown/MDX, source content and reusable components. Cloudflare hosts the site; Netlify is paused. Kat confirmed live images load from R2.
 
-Main includes PRs #12–#24: Chosen Cast/Rules and PDF download cards, portable R2 media, automatic Markdown image lightboxes, dependency updates, approved tag cleanup, the finished Gazette, City of Mist through Season One, both Freaky Gray Company arcs, and The Chosen Seasons 1–2. Current branch `codex/the-chosen-season-three` migrates all 23 Season 3 posts, prepared for PR review. Check its merge status before starting another branch from updated `main`.
+Main includes PRs #12–#25, completing all 168 retained source posts. Current branch `codex/remaining-pages-and-link-audit` adds the final two published pages: City of Mist Characters (Markdown/HTML galleries) and RPG Consent Checklist (Markdown prose plus an interactive Astro form). The checklist footer link is enabled and City of Mist navigation now includes Characters. All 14 published source pages have destination files/routes. The Quote Napkin is the sole draft and remains unpublished; do not publish it without Kat's instruction.
 
-Kat approved retaining campaigns, chronology and Gazette locations, removing character, venue and broad/context tags, and consolidating Session Notes/Session Recap into **Session Recaps**. Current post metadata and tag archives reflect this choice; the homepage remains filtered by CoM Season 1. Static 301 rules for former format archives are bundled in `public/_redirects`; Cloudflare runtime behavior remains to be checked after deployment.
+Kat approved retaining campaigns, chronology and Gazette locations; removing character, venue and broad/context tags; and consolidating Session Notes/Session Recap into **Session Recaps**. The homepage remains filtered by CoM Season 1. All 168 retained source posts are migrated; the two approved obsolete imported duplicates are the only omissions from the 170 published-post export. Preserve the untagged 1.5 Original and its direct link from the revised post.
 
-Validation: the current R2 production build passes with 217 pages. Media checks cover 1,599 responsive-image occurrences, 663 full-size links and 1,720 delivery-file checksums. Retained navigation archives and the Session Recaps archive/feed were verified, along with the migration plan and bundled redirects. Documentation-only edits do not require another build.
+Validation: the production build passes with 219 pages (220 HTML files including the 404 page). The final audit checks 5,252 internal anchor-link occurrences and 123 redirect samples, with no missing routes/fragments or redirect targets. Renamed campaign/arc archives, duplicate imports, and old Ghost RSS/pagination URLs now have bundled 301 redirects. See [link-audit.json](link-audit.json) and [remaining-pages-migration.json](remaining-pages-migration.json). External destinations are inventoried rather than exhaustively fetched; Cloudflare runtime redirect behavior still needs post-deployment verification.
+
+Media checks cover 1,626 responsive-image occurrences, 691 full-size links and 1,804 delivery-file checksums, across 462 source assets. The final pages add 25 local image sources and 84 optimized delivery files uploaded to R2. Original external Unsplash covers remain external.
+
+Checklist validation covers desktop/mobile layout, keyboard selection, optional custom topics, partial-row validation, add/remove/clear/reset, and Astro navigation initialization. All 58 static topic groups and original field names/values are preserved. The existing Formspree endpoint and disabled campaign context fields remain unchanged. No responses were submitted; receipt/email delivery remains untested.
 
 ## Next session
 
-Review/merge The Chosen Season 3 PR. The source-post migration is now complete in this branch: all 168 retained posts have destination files; the two obsolete imported duplicates are the only approved omissions from the 170-post export. No source posts remain pending. City of Mist, Freaky Gray Company and The Chosen are migrated through their published archives. Read [tag-migration-decisions.md](tag-migration-decisions.md) and [tag-migration-plan.json](tag-migration-plan.json) for mappings and omissions.
-
-Next suggested work after merge: a final cross-archive link/redirect review and an audit of any remaining source pages (the RPG Consent Checklist navigation remains inactive). This is separate from the completed source-post batches and from Kat's deferred editorial cleanup. Do not claim the entire site migration/deployment audit is complete. Feolinn is a Gazette location; Quicksliver Cabaret is under Zadash and its Return to Summary destination exists. Preserve the untagged 1.5 Original and its direct link from the revised post.
+Review/merge the remaining-pages PR, then verify deployed routes, redirects and the form delivery with Kat if desired. Published content migration is complete in this branch; this is not a claim that external links, global code-injection settings, or deployment have all been audited. Source backups remain untouched. Read [tag-migration-decisions.md](tag-migration-decisions.md) and [tag-migration-plan.json](tag-migration-plan.json) for mappings and omissions.
 
 Kat plans to clean up Arc 1 headings/callouts another time; defer that editorial work. Arc 1's two covers were removed at her request for consistency. Arc 2 uses covers throughout, so its source covers are retained.
 
@@ -62,7 +64,7 @@ No applicable AGENTS.md was found in the project/ancestor inspection. Recheck if
 
 Primary navigation: City of Mist → `/city-of-mist/`; Freaky Gray Company → `/the-freaky-gray-company/`; The Chosen → `/the-chosen/`; About → `/about/`.
 Secondary navigation: DM Resources → `/dm-resources/`; RPG Consent Checklist → `/rpg-consent-checklist/`.
-All primary navigation links and DM Resources are enabled. RPG Consent Checklist remains inactive until migrated.
+All primary and secondary navigation links are enabled, including RPG Consent Checklist.
 
 Logo: `/assets/images/2025/01/IMG_0489.png`; icon: `/assets/images/2024/12/IMG_0423-2.png`. The original homepage-cover file was absent from the backup, so its w2000 rendition was used under the original dated public path; details are in the baseline report.
 

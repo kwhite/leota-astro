@@ -1,8 +1,8 @@
 # Current-site media delivery
 
-The approved rollout covers the 117 images referenced by current site content, not the full Ghost archive. PNG artwork uses quality-90 WebP; transparent PNGs use exact lossless WebP. Existing JPEG/WebP, animation and favicon assets are retained, and conversions larger than their source are discarded. Original files remain untouched.
+The initial rollout covered 117 images. The completed published-content migration now references 462 source assets (see the latest batch below). PNG artwork uses quality-90 WebP; transparent PNGs use exact lossless WebP. Existing JPEG/WebP, animation and favicon assets are retained, and conversions larger than their source are discarded. Original files remain untouched.
 
-The delivery set is 52.19 MiB instead of 202.47 MiB, a 74.2% reduction. The animated `jrpgart-logo.gif` accounts for 11.74 MiB and remains unchanged. Responsive WebP candidates are generated at 320, 640, 960, 1280 and 1920 pixels wide, only below each original width and only when smaller than its full-size delivery file. Animated assets remain unchanged.
+That initial delivery set was 52.19 MiB instead of 202.47 MiB, a 74.2% reduction. The animated `jrpgart-logo.gif` accounts for 11.74 MiB and remains unchanged. Responsive WebP candidates are generated at 320, 640, 960, 1280 and 1920 pixels wide, only below each original width and only when smaller than its full-size delivery file. Animated assets remain unchanged.
 
 ## Cloudflare setup before deployment
 
@@ -101,3 +101,7 @@ Adds 23 images (40,225,134 source bytes; 3,594,116 full-size delivery bytes), 13
 ## The Chosen Season 3 batch (2026-10-06)
 
 Adds 23 covers (45,892,639 source bytes; 4,462,010 full-size delivery bytes), 92 responsive variants and one unchanged PDF (44,531 bytes). All 116 new objects uploaded to R2; the public PDF and three representative image downloads match SHA-256 checksums. PDF content type and attachment headers verified. Manifest: 437 source assets and 1,720 delivery files (about 270 MiB). Build: 217 pages; media checks cover 1,599 responsive occurrences, 663 full-size links and 1,720 checksums. Original files remain unchanged; no bucket objects deleted.
+
+## Final published pages (2026-10-06)
+
+City of Mist Characters and RPG Consent Checklist add 25 local image sources and 84 delivery files, uploaded to R2 after checksum validation. The manifest now covers 462 source assets and 1,804 delivery files, totaling 289,960,049 bytes (about 276.5 MiB, including responsive variants). Original Unsplash covers remain external. The R2 production build passes with 219 pages; responsive-media checks verify 1,626 responsive occurrences and 691 full-size links. See `remaining-pages-migration.json` and `link-audit.json` for audit scope and remaining live checks.

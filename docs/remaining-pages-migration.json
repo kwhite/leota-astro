@@ -1,0 +1,149 @@
+{
+  "date": "2026-10-06",
+  "publishedSourcePages": 14,
+  "publishedPagesMigrated": [
+    {
+      "slug": "about",
+      "sourceId": "67682d3d8ca61b05ca1132bf",
+      "file": "src/content/pages/about.md",
+      "sourceHtmlSha256": "25156eb793e10492bfc27df5de08ebc2554b2527ccce7129d515eab852a09096"
+    },
+    {
+      "slug": "city-of-mist-characters",
+      "sourceId": "67788021129b71338ac8986c",
+      "file": "src/content/pages/city-of-mist-characters.md",
+      "sourceHtmlSha256": "5770935825f36b302e3b1de44d68ffe5e13fc414710273783698adcbb1437b3b"
+    },
+    {
+      "slug": "fgc-characters",
+      "sourceId": "67955ac35299ad039dcd6514",
+      "file": "src/content/pages/fgc-characters.mdx",
+      "sourceHtmlSha256": "829ffbf6f730317c37e6010f95683c5afb89caa611822710d331da0f9479372e"
+    },
+    {
+      "slug": "dm-resources",
+      "sourceId": "67ba03875299ad039dcd6889",
+      "file": "src/content/pages/dm-resources.mdx",
+      "sourceHtmlSha256": "39a9c624639196ba872a071ef22fed31edfcced457b391317afd7a32317eb6fb"
+    },
+    {
+      "slug": "the-wildemount-gazette",
+      "sourceId": "684e02dde13df905d908b702",
+      "file": "src/content/pages/the-wildemount-gazette.md",
+      "sourceHtmlSha256": "cd59b44601cb9ba887ef18bd8542ce96d0e0e0c626e16cc7ee3a05e6893c735c"
+    },
+    {
+      "slug": "rpg-consent-checklist",
+      "sourceId": "68d414281c553405dce941a5",
+      "file": "src/content/pages/rpg-consent-checklist.mdx",
+      "sourceHtmlSha256": "69493cbd4fa70379dcf7481842a9028dce86a9b9c1f87158e74163b73accb856"
+    },
+    {
+      "slug": "the-chosen-cast",
+      "sourceId": "69823d581c553405dce94c46",
+      "file": "src/content/pages/the-chosen-cast.mdx",
+      "sourceHtmlSha256": "5c23b8f5d2720dbccb6060e65246ad338595ba0a309e37c32d4eb037bca9986f"
+    },
+    {
+      "slug": "the-chosen",
+      "sourceId": "6994e681e471ce03aaf3a2b4",
+      "file": "src/content/pages/the-chosen.mdx",
+      "sourceHtmlSha256": "d7c4f9112794be2d8e3f6f5df15ec8a0aa46e78ca027d66c6454dca1f52ddbc0"
+    },
+    {
+      "slug": "general-buffy-game-info",
+      "sourceId": "69ed55fcbc4b0c9eb25a5664",
+      "file": "src/content/pages/general-buffy-game-info.md",
+      "sourceHtmlSha256": "91a054bcfa3205b0b26fa1b8e013e030d7a42fb308db4fd7e48c486a1d605008"
+    },
+    {
+      "slug": "city-of-mist",
+      "sourceId": "69f90e85f5443903a79af7b8",
+      "file": "src/content/pages/city-of-mist.mdx",
+      "sourceHtmlSha256": "f42ff6b40a393bdfe394c7f179061e70e937c93ac6bc804b0d2183bd66c20625"
+    },
+    {
+      "slug": "the-freaky-gray-company",
+      "sourceId": "69fea5f3f5443903a79af8b0",
+      "file": "src/content/pages/the-freaky-gray-company.mdx",
+      "sourceHtmlSha256": "af92cc463d42a848c337c72ec7b464aa7b59de4a3e547d0e0d97c05dd1914869"
+    },
+    {
+      "slug": "people-in-the-city",
+      "sourceId": "69fff31df5443903a79af929",
+      "file": "src/content/pages/people-in-the-city.mdx",
+      "sourceHtmlSha256": "91fbbf3d9c892d097c00fb8a0aac6f548341fc0fe14d18a28333eb4e40489b43"
+    },
+    {
+      "slug": "neighborhoods-in-the-city",
+      "sourceId": "69fff7d6f5443903a79af943",
+      "file": "src/content/pages/neighborhoods-in-the-city.mdx",
+      "sourceHtmlSha256": "879ed28ae182733d4cb08391191f40a581799da3d03f23541723a8a8969e8518"
+    },
+    {
+      "slug": "com-system-modifications",
+      "sourceId": "6a0a04574804e803a62ed13d",
+      "file": "src/content/pages/com-system-modifications.md",
+      "sourceHtmlSha256": "e6ba8174f3ca77caca45a20d513bbe0674372b5d1459c9a750d0e817d63ca869"
+    }
+  ],
+  "newPages": [
+    "city-of-mist-characters",
+    "rpg-consent-checklist"
+  ],
+  "unpublishedDrafts": [
+    {
+      "slug": "quote-napkin",
+      "status": "draft",
+      "decision": "Remain unpublished; not migrated into the public collection."
+    }
+  ],
+  "spamReview": "Reviewed both remaining published page bodies and external destinations; no unrelated spam found. Individual/global injection fields excluded.",
+  "consentChecklist": {
+    "staticTopicGroups": 58,
+    "sourceFieldsAndRadioValuesPreserved": true,
+    "destination": "Existing Formspree endpoint preserved",
+    "customTopicChanges": [
+      "Empty rows optional; entered topics require a rating; a chosen rating requires a topic.",
+      "Add/remove/clear and form reset work after Astro page navigation.",
+      "Accessible full radio labels, visible keyboard focus, dark styles scoped to the checklist.",
+      "No-JavaScript additional-topic textarea retained."
+    ],
+    "validation": [
+      "Desktop and 390px mobile layout; no horizontal page overflow.",
+      "Blank/partial/complete custom-row validation, keyboard selection, add/remove/clear/reset, navigation reinitialization.",
+      "No form responses submitted; Formspree receipt/delivery not tested."
+    ]
+  },
+  "auditScope": {
+    "links": "All built HTML anchor hrefs and fragment targets; all bundled redirect destinations and representative archive/feed wildcard destinations.",
+    "legacyRoutes": "Renamed format/campaign/arc tags, duplicate imports, corrected recap year, Elinore alias, Ghost RSS and existing paginated archive URLs.",
+    "limitations": [
+      "External links inventoried, not exhaustively network checked.",
+      "Cloudflare redirect runtime behavior requires post-deployment verification.",
+      "Global code injection/account settings not audited; deferred Arc 1 editorial cleanup unchanged."
+    ]
+  },
+  "media": {
+    "newSourceImages": 25,
+    "newDeliveryFilesUploaded": 84,
+    "manifestSourceAssets": 462,
+    "deliveryFilesChecksumVerified": 1804,
+    "publicR2SamplesChecksumVerified": 3,
+    "galleryImages": 24,
+    "galleryFigures": 10,
+    "sourceBackupsUntouched": true
+  },
+  "validation": {
+    "buildPages": 219,
+    "builtHtmlFilesIncluding404": 220,
+    "internalAnchorLinkOccurrences": 5252,
+    "redirectSamples": 123,
+    "linkFailures": 0,
+    "responsiveImageOccurrences": 1626,
+    "fullSizeLinks": 691,
+    "markdownLightboxRegression": "passed",
+    "infiniteScrollRegression": "passed",
+    "sourcePageCoverage": "14 of 14 published pages; draft remains unpublished"
+  }
+}

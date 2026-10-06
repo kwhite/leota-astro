@@ -2,9 +2,9 @@
   "version": 2,
   "pillow": "12.3.0",
   "webp": "1.6.0",
-  "sourceBytes": 677192719,
-  "deliveryBytes": 133531259,
-  "variantBytes": 149615184,
+  "sourceBytes": 685243712,
+  "deliveryBytes": 136578601,
+  "variantBytes": 153381448,
   "assets": [
     {
       "source": "/assets/files/2026/02/Mirror-Mirror---Intro-Sequence-2.pdf",
@@ -1101,6 +1101,70 @@
       ]
     },
     {
+      "source": "/assets/images/2025/01/103EFCFB-F287-4B68-953D-E8529B63767F.png",
+      "delivery": "/assets/images/2025/01/103EFCFB-F287-4B68-953D-E8529B63767F.webp",
+      "sourceSha256": "cbcf28cfb7d0730b3cd1551b8862643408ed306ae56e6f05f2942813389f961d",
+      "deliverySha256": "15e5112caa058070a57102f84c674501a6183fc4af15a3f9bcd85ecc15de6a30",
+      "sourceBytes": 436765,
+      "deliveryBytes": 70702,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/city-of-mist-characters.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/01/103EFCFB-F287-4B68-953D-E8529B63767F.w320.webp",
+          "deliverySha256": "cab6c66cad7d19152a6c1a04d2f190ac7d0faeddfefe8acdf4fa281cdc347c38",
+          "deliveryBytes": 15678,
+          "dimensions": [
+            320,
+            320
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/103EFCFB-F287-4B68-953D-E8529B63767F.w640.webp",
+          "deliverySha256": "3c1ef0d74ad3ade5318a6f42746050177a15294a5e1c628c3dbf6c872b021e6b",
+          "deliveryBytes": 37876,
+          "dimensions": [
+            640,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/103EFCFB-F287-4B68-953D-E8529B63767F.w960.webp",
+          "deliverySha256": "5f6c1897fe5edd527848f36c4d599bf8b9aa43e2fd671960fd1a2c2081c9966e",
+          "deliveryBytes": 63940,
+          "dimensions": [
+            960,
+            960
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
       "source": "/assets/images/2025/01/11D0DE8E-AB75-4427-9DA3-BC8DB4DC2806.png",
       "delivery": "/assets/images/2025/01/11D0DE8E-AB75-4427-9DA3-BC8DB4DC2806.webp",
       "sourceSha256": "3ff35d6416bb0fca2e0255b0b956c4e7cb11f493c9ec5019dd4fc83faef54c81",
@@ -1486,6 +1550,70 @@
       ]
     },
     {
+      "source": "/assets/images/2025/01/6BE850C1-9AB8-45CD-9037-3AA2A5BA5441.png",
+      "delivery": "/assets/images/2025/01/6BE850C1-9AB8-45CD-9037-3AA2A5BA5441.webp",
+      "sourceSha256": "86f160dd156d3e71e307f8efd5d3869337af06c27f64e702cbefd15314729ccb",
+      "deliverySha256": "0ba3f26dcf93aa4f1937873622de893ecf261ecaab1c687571d3ab7cbdc457d8",
+      "sourceBytes": 361809,
+      "deliveryBytes": 49872,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/city-of-mist-characters.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/01/6BE850C1-9AB8-45CD-9037-3AA2A5BA5441.w320.webp",
+          "deliverySha256": "5a132fa9377090ded338be19d74297ca7a2097e640a5960141d31e38459f47ec",
+          "deliveryBytes": 13114,
+          "dimensions": [
+            320,
+            320
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/6BE850C1-9AB8-45CD-9037-3AA2A5BA5441.w640.webp",
+          "deliverySha256": "b1468579818c67991a2bb2e179364c55e6dbc08e47d0ecd98ac24ff113bb3f64",
+          "deliveryBytes": 30330,
+          "dimensions": [
+            640,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/6BE850C1-9AB8-45CD-9037-3AA2A5BA5441.w960.webp",
+          "deliverySha256": "466a9757ac0d74b37c141afe8580555408692cab86ace57367d0d4e413d1e28d",
+          "deliveryBytes": 46744,
+          "dimensions": [
+            960,
+            960
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
       "source": "/assets/images/2025/01/744AD6E5-E8A2-42DF-B6C0-7C74763895B3-1.png",
       "delivery": "/assets/images/2025/01/744AD6E5-E8A2-42DF-B6C0-7C74763895B3-1.webp",
       "sourceSha256": "423e4fa77e8661805ce951dadb3d30653b2c0d952260f42d424508ef225619da",
@@ -1704,6 +1832,70 @@
       ]
     },
     {
+      "source": "/assets/images/2025/01/938EB158-C31C-48CD-8CDB-741711C63EDC.png",
+      "delivery": "/assets/images/2025/01/938EB158-C31C-48CD-8CDB-741711C63EDC.webp",
+      "sourceSha256": "fd57eb1b40ea56ab10680816f79e3bf35a24d9a8b3a179e5e4305043be53fc8c",
+      "deliverySha256": "04e830b797d482746a2bcce5642ae662fa600e1cb2e8cfce2d94f9781af7c1be",
+      "sourceBytes": 617316,
+      "deliveryBytes": 97704,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/city-of-mist-characters.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/01/938EB158-C31C-48CD-8CDB-741711C63EDC.w320.webp",
+          "deliverySha256": "5faf49417d22394a7819f6b7f22c4e60851e463dc1a3c2bc587cef506549de40",
+          "deliveryBytes": 22706,
+          "dimensions": [
+            320,
+            320
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/938EB158-C31C-48CD-8CDB-741711C63EDC.w640.webp",
+          "deliverySha256": "6682574fde66dad0b3e00d58d28ac52983f22f14e81aa1306b3fb809d349c716",
+          "deliveryBytes": 58318,
+          "dimensions": [
+            640,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/938EB158-C31C-48CD-8CDB-741711C63EDC.w960.webp",
+          "deliverySha256": "c59edd06f01fe3163e4b37a19fa331cc9088a84574d017e43e04a718bd36bce5",
+          "deliveryBytes": 90868,
+          "dimensions": [
+            960,
+            960
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
       "source": "/assets/images/2025/01/ABCEC0C4-DA29-4EA2-91E8-72E0E794946C.png",
       "delivery": "/assets/images/2025/01/ABCEC0C4-DA29-4EA2-91E8-72E0E794946C.webp",
       "sourceSha256": "c1f4594ccca95c2cd9ffb78dc5444028c980d6d9873d6339377337a9aacda174",
@@ -1759,6 +1951,169 @@
           "dimensions": [
             960,
             1680
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/01/B1868276-7F56-4797-A573-6FD606A238C5.png",
+      "delivery": "/assets/images/2025/01/B1868276-7F56-4797-A573-6FD606A238C5.webp",
+      "sourceSha256": "b3d6260d5dbbe5fbfae88746ff5159c9e0b13dc7808d730e922ee37d09cce826",
+      "deliverySha256": "ffa29b92e09498b63a0bcc7877b9e7aa552ce93e039726af1e603d43967e8591",
+      "sourceBytes": 293858,
+      "deliveryBytes": 45682,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/city-of-mist-characters.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/01/B1868276-7F56-4797-A573-6FD606A238C5.w320.webp",
+          "deliverySha256": "f06e46f35f9afd4fb3e70f981825028086344fd61f78b8a714a72b12b159609c",
+          "deliveryBytes": 13112,
+          "dimensions": [
+            320,
+            320
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/B1868276-7F56-4797-A573-6FD606A238C5.w640.webp",
+          "deliverySha256": "7f6e5694df4e87d3f365abaa8224fcea455b11746ec99da780a896dc1c96ebb3",
+          "deliveryBytes": 28858,
+          "dimensions": [
+            640,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/B1868276-7F56-4797-A573-6FD606A238C5.w960.webp",
+          "deliverySha256": "98cfd1c823b4015c584f194f5409c86ce6a1bc9bb2d3b251d1f05a210f756e05",
+          "deliveryBytes": 43968,
+          "dimensions": [
+            960,
+            960
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/01/C349F3BE-074E-44CE-90EF-8AA8CB89A0EC.png",
+      "delivery": "/assets/images/2025/01/C349F3BE-074E-44CE-90EF-8AA8CB89A0EC.webp",
+      "sourceSha256": "cc8b346a263d6fb72704f0b5e8d1a4dae09c7e11c4ea5ff512de7599d6722831",
+      "deliverySha256": "71680e341c517ab2297e084650398311c09633586edcd910883e75ee5caf75cf",
+      "sourceBytes": 517561,
+      "deliveryBytes": 83996,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/city-of-mist-characters.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/01/C349F3BE-074E-44CE-90EF-8AA8CB89A0EC.w320.webp",
+          "deliverySha256": "1671b70a5eca4a286939b9d8a9087413e9d5d497089e730330ff0c1112a6a27b",
+          "deliveryBytes": 18604,
+          "dimensions": [
+            320,
+            320
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/C349F3BE-074E-44CE-90EF-8AA8CB89A0EC.w640.webp",
+          "deliverySha256": "a9b923e7a698762415c3b70a753a6cc9895e572302e8f6399db70e482913316f",
+          "deliveryBytes": 47894,
+          "dimensions": [
+            640,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/C349F3BE-074E-44CE-90EF-8AA8CB89A0EC.w960.webp",
+          "deliverySha256": "d7aca2b1592742dd85180242bd218a83167543e446660b483e207777d8b32722",
+          "deliveryBytes": 77570,
+          "dimensions": [
+            960,
+            960
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/01/COM-Sergei.jpg",
+      "delivery": "/assets/images/2025/01/COM-Sergei.jpg",
+      "sourceSha256": "d96e82a6cbd574043625fc8543a46a6fecac767da6d6b71e6a6d0cece7239b7e",
+      "deliverySha256": "d96e82a6cbd574043625fc8543a46a6fecac767da6d6b71e6a6d0cece7239b7e",
+      "sourceBytes": 104279,
+      "deliveryBytes": 104279,
+      "dimensions": [
+        512,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/pages/city-of-mist-characters.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/01/COM-Sergei.w320.webp",
+          "deliverySha256": "179835343bded2037f7c83b4946c5b2b64cb43f7c8ef47990cd35a598b742253",
+          "deliveryBytes": 67162,
+          "dimensions": [
+            320,
+            640
           ],
           "settings": {
             "method": 6,
@@ -1901,6 +2256,111 @@
           "dimensions": [
             960,
             960
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/01/DALL-E-2025-01-04-13.41.05---Create-two-realistic-images-of-identical-twins.-The-first-twin-is-a-physicist--sitting-confidently-behind-a-computer-in-a-modern-lab-with-books--white-10.jpeg",
+      "delivery": "/assets/images/2025/01/DALL-E-2025-01-04-13.41.05---Create-two-realistic-images-of-identical-twins.-The-first-twin-is-a-physicist--sitting-confidently-behind-a-computer-in-a-modern-lab-with-books--white-10.jpeg",
+      "sourceSha256": "c5f84c7a21cee79d4123f10fef7d3fcf5d5087ce60284e4f8080bc36ac134501",
+      "deliverySha256": "c5f84c7a21cee79d4123f10fef7d3fcf5d5087ce60284e4f8080bc36ac134501",
+      "sourceBytes": 95112,
+      "deliveryBytes": 95112,
+      "dimensions": [
+        508,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/pages/city-of-mist-characters.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/01/DALL-E-2025-01-04-13.41.05---Create-two-realistic-images-of-identical-twins.-The-first-twin-is-a-physicist--sitting-confidently-behind-a-computer-in-a-modern-lab-with-books--white-10.w320.webp",
+          "deliverySha256": "b139e2f9a8fb9c289105b08290c2a8824d28f1272b6c85b4d5cfccf879ec1a24",
+          "deliveryBytes": 62498,
+          "dimensions": [
+            320,
+            645
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/01/DALL-E-2025-01-04-13.41.05---Create-two-realistic-images-of-identical-twins.-The-first-twin-is-a-physicist--sitting-confidently-behind-a-computer-in-a-modern-lab-with-books--white-8.jpeg",
+      "delivery": "/assets/images/2025/01/DALL-E-2025-01-04-13.41.05---Create-two-realistic-images-of-identical-twins.-The-first-twin-is-a-physicist--sitting-confidently-behind-a-computer-in-a-modern-lab-with-books--white-8.jpeg",
+      "sourceSha256": "c5f84c7a21cee79d4123f10fef7d3fcf5d5087ce60284e4f8080bc36ac134501",
+      "deliverySha256": "c5f84c7a21cee79d4123f10fef7d3fcf5d5087ce60284e4f8080bc36ac134501",
+      "sourceBytes": 95112,
+      "deliveryBytes": 95112,
+      "dimensions": [
+        508,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/pages/city-of-mist-characters.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/01/DALL-E-2025-01-04-13.41.05---Create-two-realistic-images-of-identical-twins.-The-first-twin-is-a-physicist--sitting-confidently-behind-a-computer-in-a-modern-lab-with-books--white-8.w320.webp",
+          "deliverySha256": "b139e2f9a8fb9c289105b08290c2a8824d28f1272b6c85b4d5cfccf879ec1a24",
+          "deliveryBytes": 62498,
+          "dimensions": [
+            320,
+            645
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/01/DALL-E-2025-01-04-13.41.05---Create-two-realistic-images-of-identical-twins.-The-first-twin-is-a-physicist--sitting-confidently-behind-a-computer-in-a-modern-lab-with-books--white-9.jpeg",
+      "delivery": "/assets/images/2025/01/DALL-E-2025-01-04-13.41.05---Create-two-realistic-images-of-identical-twins.-The-first-twin-is-a-physicist--sitting-confidently-behind-a-computer-in-a-modern-lab-with-books--white-9.jpeg",
+      "sourceSha256": "d96e82a6cbd574043625fc8543a46a6fecac767da6d6b71e6a6d0cece7239b7e",
+      "deliverySha256": "d96e82a6cbd574043625fc8543a46a6fecac767da6d6b71e6a6d0cece7239b7e",
+      "sourceBytes": 104279,
+      "deliveryBytes": 104279,
+      "dimensions": [
+        512,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/pages/city-of-mist-characters.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/01/DALL-E-2025-01-04-13.41.05---Create-two-realistic-images-of-identical-twins.-The-first-twin-is-a-physicist--sitting-confidently-behind-a-computer-in-a-modern-lab-with-books--white-9.w320.webp",
+          "deliverySha256": "179835343bded2037f7c83b4946c5b2b64cb43f7c8ef47990cd35a598b742253",
+          "deliveryBytes": 67162,
+          "dimensions": [
+            320,
+            640
           ],
           "settings": {
             "method": 6,
@@ -2064,6 +2524,268 @@
       ]
     },
     {
+      "source": "/assets/images/2025/01/FACE43A8-80E1-4619-9F67-14D36FB6D9EC.png",
+      "delivery": "/assets/images/2025/01/FACE43A8-80E1-4619-9F67-14D36FB6D9EC.webp",
+      "sourceSha256": "7b8d1bd21914bb9bffe88dea78e2194c3bec590d548f96ea3c41c451eb8af3d3",
+      "deliverySha256": "da3fe421a8394e355d4740c1330b80e9fd39c603cad0411105c39947caaae2c8",
+      "sourceBytes": 422093,
+      "deliveryBytes": 79096,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/city-of-mist-characters.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/01/FACE43A8-80E1-4619-9F67-14D36FB6D9EC.w320.webp",
+          "deliverySha256": "1c5ed9f9e599714198da884fb5b23ce8a55dbbc300ff4ad08ca5235889d496cf",
+          "deliveryBytes": 18754,
+          "dimensions": [
+            320,
+            320
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/FACE43A8-80E1-4619-9F67-14D36FB6D9EC.w640.webp",
+          "deliverySha256": "aea2a6c074ba88e74ba17399a8b91b074488300575e79b9755a1b91bba9751db",
+          "deliveryBytes": 44124,
+          "dimensions": [
+            640,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/FACE43A8-80E1-4619-9F67-14D36FB6D9EC.w960.webp",
+          "deliverySha256": "6642a05ea3bf9a3c4f506a2f6c32292735ef3dd5a7f92442211de8cf4627c4d1",
+          "deliveryBytes": 71952,
+          "dimensions": [
+            960,
+            960
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/01/FAD489F2-0A7D-4950-9EFB-6EF454379EAB-1.png",
+      "delivery": "/assets/images/2025/01/FAD489F2-0A7D-4950-9EFB-6EF454379EAB-1.webp",
+      "sourceSha256": "908eb7dc3936f5876cf4579d6585cba23f7a3b06a8f412323a6d01baac852b9e",
+      "deliverySha256": "a4dc0d85462ae64a370cc36c65d06efd2b285dbdc4afe851e5d95b34b988d7f7",
+      "sourceBytes": 677141,
+      "deliveryBytes": 115698,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/city-of-mist-characters.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/01/FAD489F2-0A7D-4950-9EFB-6EF454379EAB-1.w320.webp",
+          "deliverySha256": "b2310d48aa400a6a86949f6657be2774133184356d7ded6f9838b8f22ed009df",
+          "deliveryBytes": 26058,
+          "dimensions": [
+            320,
+            320
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/FAD489F2-0A7D-4950-9EFB-6EF454379EAB-1.w640.webp",
+          "deliverySha256": "5cddad9b95e963f244c00ab59bd49d821291161b19a76a0852241ba1c479b2b9",
+          "deliveryBytes": 67972,
+          "dimensions": [
+            640,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/FAD489F2-0A7D-4950-9EFB-6EF454379EAB-1.w960.webp",
+          "deliverySha256": "79329b67dbdd711e37ec3dc02bcbee925cd410a9146ae681cc6ff8e155818ed5",
+          "deliveryBytes": 106446,
+          "dimensions": [
+            960,
+            960
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/01/FE5FA5BD-1A79-4FEF-911E-B32C180B1DD5-1.png",
+      "delivery": "/assets/images/2025/01/FE5FA5BD-1A79-4FEF-911E-B32C180B1DD5-1.webp",
+      "sourceSha256": "18d9c03a81a7b793e038c09a150486c926b65a83b87699634e0128cd5bd301f6",
+      "deliverySha256": "bb87066f3e8f8292bb296f6da455bb4f38684af452ac52142b8863155d450561",
+      "sourceBytes": 515242,
+      "deliveryBytes": 97942,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/city-of-mist-characters.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/01/FE5FA5BD-1A79-4FEF-911E-B32C180B1DD5-1.w320.webp",
+          "deliverySha256": "49f9a6756d71a2c20278b6c2f28f0d33dad68c43c00587a2b2f134002b5fb953",
+          "deliveryBytes": 14536,
+          "dimensions": [
+            320,
+            320
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/FE5FA5BD-1A79-4FEF-911E-B32C180B1DD5-1.w640.webp",
+          "deliverySha256": "2d2f376c737a9d367f4ecabafdd43bf023d9407b84209bdc312e6f9d2b63d1d8",
+          "deliveryBytes": 45656,
+          "dimensions": [
+            640,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/FE5FA5BD-1A79-4FEF-911E-B32C180B1DD5-1.w960.webp",
+          "deliverySha256": "14f54dc0760a1c500de9585fe65db01793daac4c8431891e8927132ffe26ca28",
+          "deliveryBytes": 86686,
+          "dimensions": [
+            960,
+            960
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/01/Geoffrey-1.webp",
+      "delivery": "/assets/images/2025/01/Geoffrey-1.webp",
+      "sourceSha256": "68486c0ed42c674a946496856e6c600918aef45afa6c8bf1322a3f61a2e24824",
+      "deliverySha256": "68486c0ed42c674a946496856e6c600918aef45afa6c8bf1322a3f61a2e24824",
+      "sourceBytes": 44908,
+      "deliveryBytes": 44908,
+      "dimensions": [
+        745,
+        497
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/pages/city-of-mist-characters.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/01/Geoffrey-1.w320.webp",
+          "deliverySha256": "4da355929e022acd8aa8d413374ff043f336b5bae0a7b9085795d271ed82ffd6",
+          "deliveryBytes": 19922,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/01/Geoffrey.webp",
+      "delivery": "/assets/images/2025/01/Geoffrey.webp",
+      "sourceSha256": "68486c0ed42c674a946496856e6c600918aef45afa6c8bf1322a3f61a2e24824",
+      "deliverySha256": "68486c0ed42c674a946496856e6c600918aef45afa6c8bf1322a3f61a2e24824",
+      "sourceBytes": 44908,
+      "deliveryBytes": 44908,
+      "dimensions": [
+        745,
+        497
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/pages/city-of-mist-characters.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/01/Geoffrey.w320.webp",
+          "deliverySha256": "4da355929e022acd8aa8d413374ff043f336b5bae0a7b9085795d271ed82ffd6",
+          "deliveryBytes": 19922,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
       "source": "/assets/images/2025/01/IMG_0434.jpeg",
       "delivery": "/assets/images/2025/01/IMG_0434.jpeg",
       "sourceSha256": "abe000d8eaf99699212a59fe7063b7ecf58fd2b1420b8f43020a7540c77fa1a6",
@@ -2138,6 +2860,424 @@
           "dimensions": [
             640,
             754
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/01/IMG_0448-1.jpeg",
+      "delivery": "/assets/images/2025/01/IMG_0448-1.jpeg",
+      "sourceSha256": "6616e58e48bd54040f8000feda76836fa51c5d36139c6cee67772ff872562076",
+      "deliverySha256": "6616e58e48bd54040f8000feda76836fa51c5d36139c6cee67772ff872562076",
+      "sourceBytes": 455124,
+      "deliveryBytes": 455124,
+      "dimensions": [
+        2000,
+        2500
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/pages/city-of-mist-characters.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/01/IMG_0448-1.w320.webp",
+          "deliverySha256": "d9b87daa12aa7298bc87cfb6ab675902836426843b889d9e736c65e5ec7f7fc6",
+          "deliveryBytes": 26994,
+          "dimensions": [
+            320,
+            400
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/IMG_0448-1.w640.webp",
+          "deliverySha256": "1054305a32b50533f872830c82ae53d488699208b358ccf340cfe14f791ace69",
+          "deliveryBytes": 93872,
+          "dimensions": [
+            640,
+            800
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/IMG_0448-1.w960.webp",
+          "deliverySha256": "9a8f936dd0453a8d4cacbd782143423fd86e6001780f9e26de608860a44ad4e8",
+          "deliveryBytes": 187034,
+          "dimensions": [
+            960,
+            1200
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/IMG_0448-1.w1280.webp",
+          "deliverySha256": "46d695ee105d2465965b718948ec51916007bb9b34e3ff52bc33d7a0b150d0a3",
+          "deliveryBytes": 295476,
+          "dimensions": [
+            1280,
+            1600
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/01/IMG_0448.jpeg",
+      "delivery": "/assets/images/2025/01/IMG_0448.jpeg",
+      "sourceSha256": "6616e58e48bd54040f8000feda76836fa51c5d36139c6cee67772ff872562076",
+      "deliverySha256": "6616e58e48bd54040f8000feda76836fa51c5d36139c6cee67772ff872562076",
+      "sourceBytes": 455124,
+      "deliveryBytes": 455124,
+      "dimensions": [
+        2000,
+        2500
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/pages/city-of-mist-characters.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/01/IMG_0448.w320.webp",
+          "deliverySha256": "d9b87daa12aa7298bc87cfb6ab675902836426843b889d9e736c65e5ec7f7fc6",
+          "deliveryBytes": 26994,
+          "dimensions": [
+            320,
+            400
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/IMG_0448.w640.webp",
+          "deliverySha256": "1054305a32b50533f872830c82ae53d488699208b358ccf340cfe14f791ace69",
+          "deliveryBytes": 93872,
+          "dimensions": [
+            640,
+            800
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/IMG_0448.w960.webp",
+          "deliverySha256": "9a8f936dd0453a8d4cacbd782143423fd86e6001780f9e26de608860a44ad4e8",
+          "deliveryBytes": 187034,
+          "dimensions": [
+            960,
+            1200
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/IMG_0448.w1280.webp",
+          "deliverySha256": "46d695ee105d2465965b718948ec51916007bb9b34e3ff52bc33d7a0b150d0a3",
+          "deliveryBytes": 295476,
+          "dimensions": [
+            1280,
+            1600
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/01/IMG_0456-2.jpeg",
+      "delivery": "/assets/images/2025/01/IMG_0456-2.jpeg",
+      "sourceSha256": "aaa3a9891af40a02377159c8af1b402273561c7dfe4019183508e95f584fb798",
+      "deliverySha256": "aaa3a9891af40a02377159c8af1b402273561c7dfe4019183508e95f584fb798",
+      "sourceBytes": 122134,
+      "deliveryBytes": 122134,
+      "dimensions": [
+        1927,
+        1914
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/pages/city-of-mist-characters.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/01/IMG_0456-2.w320.webp",
+          "deliverySha256": "f757bc768e17679f96f4f9cf536f0fdd683ff52619023c31f1f589a5776f60a7",
+          "deliveryBytes": 11216,
+          "dimensions": [
+            320,
+            318
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/IMG_0456-2.w640.webp",
+          "deliverySha256": "f1595a788b82909bb0f0e2e68c00904bb9f955c7d9c285eefa9e470318b51fd3",
+          "deliveryBytes": 26778,
+          "dimensions": [
+            640,
+            636
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/IMG_0456-2.w960.webp",
+          "deliverySha256": "8aa9f55d9fa68f960bd8c2a6bc2d59d5084ea991f97fd586140d16be02001202",
+          "deliveryBytes": 44298,
+          "dimensions": [
+            960,
+            954
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/IMG_0456-2.w1280.webp",
+          "deliverySha256": "387a263851b75ef74ecc43917d79307b23d49f0b9bf182e84bb91b71e981aa95",
+          "deliveryBytes": 62844,
+          "dimensions": [
+            1280,
+            1271
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/IMG_0456-2.w1920.webp",
+          "deliverySha256": "d092034139d614712653298c5b6aa86b0c406f512723d6963cb2936f9cbe0906",
+          "deliveryBytes": 105272,
+          "dimensions": [
+            1920,
+            1907
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/01/IMG_0456-3.jpeg",
+      "delivery": "/assets/images/2025/01/IMG_0456-3.jpeg",
+      "sourceSha256": "aaa3a9891af40a02377159c8af1b402273561c7dfe4019183508e95f584fb798",
+      "deliverySha256": "aaa3a9891af40a02377159c8af1b402273561c7dfe4019183508e95f584fb798",
+      "sourceBytes": 122134,
+      "deliveryBytes": 122134,
+      "dimensions": [
+        1927,
+        1914
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/pages/city-of-mist-characters.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/01/IMG_0456-3.w320.webp",
+          "deliverySha256": "f757bc768e17679f96f4f9cf536f0fdd683ff52619023c31f1f589a5776f60a7",
+          "deliveryBytes": 11216,
+          "dimensions": [
+            320,
+            318
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/IMG_0456-3.w640.webp",
+          "deliverySha256": "f1595a788b82909bb0f0e2e68c00904bb9f955c7d9c285eefa9e470318b51fd3",
+          "deliveryBytes": 26778,
+          "dimensions": [
+            640,
+            636
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/IMG_0456-3.w960.webp",
+          "deliverySha256": "8aa9f55d9fa68f960bd8c2a6bc2d59d5084ea991f97fd586140d16be02001202",
+          "deliveryBytes": 44298,
+          "dimensions": [
+            960,
+            954
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/IMG_0456-3.w1280.webp",
+          "deliverySha256": "387a263851b75ef74ecc43917d79307b23d49f0b9bf182e84bb91b71e981aa95",
+          "deliveryBytes": 62844,
+          "dimensions": [
+            1280,
+            1271
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/IMG_0456-3.w1920.webp",
+          "deliverySha256": "d092034139d614712653298c5b6aa86b0c406f512723d6963cb2936f9cbe0906",
+          "deliveryBytes": 105272,
+          "dimensions": [
+            1920,
+            1907
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/01/IMG_0458-1.jpeg",
+      "delivery": "/assets/images/2025/01/IMG_0458-1.jpeg",
+      "sourceSha256": "8a4b23f5fa2de6d327c743d274a92acefbe3fc0b766d4c972996661786afb39a",
+      "deliverySha256": "8a4b23f5fa2de6d327c743d274a92acefbe3fc0b766d4c972996661786afb39a",
+      "sourceBytes": 137116,
+      "deliveryBytes": 137116,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/pages/city-of-mist-characters.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/01/IMG_0458-1.w320.webp",
+          "deliverySha256": "3ba160bbbb22a382398c5ee767bfc84638db740b3cf05871531a43ec8639e1d2",
+          "deliveryBytes": 26978,
+          "dimensions": [
+            320,
+            320
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/IMG_0458-1.w640.webp",
+          "deliverySha256": "1ac6ce412d6073f81473c5e4080efb59af6d48c94f7d72be481087ac235f3946",
+          "deliveryBytes": 86064,
+          "dimensions": [
+            640,
+            640
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/01/IMG_0458.jpeg",
+      "delivery": "/assets/images/2025/01/IMG_0458.jpeg",
+      "sourceSha256": "8a4b23f5fa2de6d327c743d274a92acefbe3fc0b766d4c972996661786afb39a",
+      "deliverySha256": "8a4b23f5fa2de6d327c743d274a92acefbe3fc0b766d4c972996661786afb39a",
+      "sourceBytes": 137116,
+      "deliveryBytes": 137116,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/pages/city-of-mist-characters.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/01/IMG_0458.w320.webp",
+          "deliverySha256": "3ba160bbbb22a382398c5ee767bfc84638db740b3cf05871531a43ec8639e1d2",
+          "deliveryBytes": 26978,
+          "dimensions": [
+            320,
+            320
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/01/IMG_0458.w640.webp",
+          "deliverySha256": "1ac6ce412d6073f81473c5e4080efb59af6d48c94f7d72be481087ac235f3946",
+          "deliveryBytes": 86064,
+          "dimensions": [
+            640,
+            640
           ],
           "settings": {
             "method": 6,
@@ -2400,6 +3540,76 @@
       ]
     },
     {
+      "source": "/assets/images/2025/01/IMG_7770-1.jpeg",
+      "delivery": "/assets/images/2025/01/IMG_7770-1.jpeg",
+      "sourceSha256": "8b30c267998972ce53b227f4ad87f6dbb979db3d40af0d4264e225556f1a66d1",
+      "deliverySha256": "8b30c267998972ce53b227f4ad87f6dbb979db3d40af0d4264e225556f1a66d1",
+      "sourceBytes": 27985,
+      "deliveryBytes": 27985,
+      "dimensions": [
+        612,
+        408
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/pages/city-of-mist-characters.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/01/IMG_7770-1.w320.webp",
+          "deliverySha256": "77609a12352f7f09281b2f23a96355223b48926e13619770ba4b1f1d93a00fe9",
+          "deliveryBytes": 13450,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/01/IMG_7770.jpeg",
+      "delivery": "/assets/images/2025/01/IMG_7770.jpeg",
+      "sourceSha256": "8b30c267998972ce53b227f4ad87f6dbb979db3d40af0d4264e225556f1a66d1",
+      "deliverySha256": "8b30c267998972ce53b227f4ad87f6dbb979db3d40af0d4264e225556f1a66d1",
+      "sourceBytes": 27985,
+      "deliveryBytes": 27985,
+      "dimensions": [
+        612,
+        408
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/pages/city-of-mist-characters.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/01/IMG_7770.w320.webp",
+          "deliverySha256": "77609a12352f7f09281b2f23a96355223b48926e13619770ba4b1f1d93a00fe9",
+          "deliveryBytes": 13450,
+          "dimensions": [
+            320,
+            213
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
       "source": "/assets/images/2025/01/Phelan-Ahearn-1.jpeg",
       "delivery": "/assets/images/2025/01/Phelan-Ahearn-1.jpeg",
       "sourceSha256": "cf6008adc1418ffbc04d8632bb47ccce35754413f7c70f13a398dd9bb0ebf05f",
@@ -2439,6 +3649,76 @@
           "dimensions": [
             640,
             738
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/01/d46094d4e5aa0b2c39865b3950210b2f-1.jpeg",
+      "delivery": "/assets/images/2025/01/d46094d4e5aa0b2c39865b3950210b2f-1.jpeg",
+      "sourceSha256": "0323febd00462e43c1efb9efac131d02874af6d3024f8e1154201db9fcaf285a",
+      "deliverySha256": "0323febd00462e43c1efb9efac131d02874af6d3024f8e1154201db9fcaf285a",
+      "sourceBytes": 64401,
+      "deliveryBytes": 64401,
+      "dimensions": [
+        570,
+        842
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/pages/city-of-mist-characters.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/01/d46094d4e5aa0b2c39865b3950210b2f-1.w320.webp",
+          "deliverySha256": "8752fcaa0ce3e946edd4ca8867de9f9d4f8c091d3746f5e6add11801114d858d",
+          "deliveryBytes": 30860,
+          "dimensions": [
+            320,
+            473
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/01/d46094d4e5aa0b2c39865b3950210b2f.jpeg",
+      "delivery": "/assets/images/2025/01/d46094d4e5aa0b2c39865b3950210b2f.jpeg",
+      "sourceSha256": "0323febd00462e43c1efb9efac131d02874af6d3024f8e1154201db9fcaf285a",
+      "deliverySha256": "0323febd00462e43c1efb9efac131d02874af6d3024f8e1154201db9fcaf285a",
+      "sourceBytes": 64401,
+      "deliveryBytes": 64401,
+      "dimensions": [
+        570,
+        842
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/pages/city-of-mist-characters.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/01/d46094d4e5aa0b2c39865b3950210b2f.w320.webp",
+          "deliverySha256": "8752fcaa0ce3e946edd4ca8867de9f9d4f8c091d3746f5e6add11801114d858d",
+          "deliveryBytes": 30860,
+          "dimensions": [
+            320,
+            473
           ],
           "settings": {
             "method": 6,
@@ -11056,6 +12336,70 @@
           "dimensions": [
             960,
             538
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2025/09/musetta._Group_of_seven_people_of_various_sexes_heights_ages__25d8b96b-34be-4bfb-852b-7aa9a8d9e6dd_0.png",
+      "delivery": "/assets/images/2025/09/musetta._Group_of_seven_people_of_various_sexes_heights_ages__25d8b96b-34be-4bfb-852b-7aa9a8d9e6dd_0.webp",
+      "sourceSha256": "ea4c9ce1de5da11630f456b3ca709c078ad6e6bc9ee00f409d8723d585998d13",
+      "deliverySha256": "74d6f7775ee95801aab47ae50c2a35c07f4e5123e72facab7cc122516c470c37",
+      "sourceBytes": 2107090,
+      "deliveryBytes": 304532,
+      "dimensions": [
+        1232,
+        928
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/rpg-consent-checklist.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2025/09/musetta._Group_of_seven_people_of_various_sexes_heights_ages__25d8b96b-34be-4bfb-852b-7aa9a8d9e6dd_0.w320.webp",
+          "deliverySha256": "34ef38ba4052ee2e37ecc9a89b9adeb3149b6941a3633b595688e1516aa33823",
+          "deliveryBytes": 27912,
+          "dimensions": [
+            320,
+            241
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/09/musetta._Group_of_seven_people_of_various_sexes_heights_ages__25d8b96b-34be-4bfb-852b-7aa9a8d9e6dd_0.w640.webp",
+          "deliverySha256": "a7575b8ca2ccaeedf4167fec434121cc39021e4a27d419e83057d448c0360414",
+          "deliveryBytes": 111114,
+          "dimensions": [
+            640,
+            482
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2025/09/musetta._Group_of_seven_people_of_various_sexes_heights_ages__25d8b96b-34be-4bfb-852b-7aa9a8d9e6dd_0.w960.webp",
+          "deliverySha256": "984ac20270f12de75f1b848bf863e0814b1d5b2f4fc44198e8515c8d0cd3beed",
+          "deliveryBytes": 214038,
+          "dimensions": [
+            960,
+            723
           ],
           "settings": {
             "method": 6,

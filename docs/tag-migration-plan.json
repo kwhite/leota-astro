@@ -1702,7 +1702,7 @@
   ],
   "linkHandling": {
     "removedCharacterTagLinks": "Replace with plain character names during migration; retain text",
-    "omittedPostLinks": "Use approved replacement routes; preserve legacy slugs via redirects during migration",
+    "omittedPostLinks": "Use approved replacement routes; legacy duplicate slugs now have static 301 redirects.",
     "feolinnGazetteLink": "Implemented with Feolinn migration",
     "renamedFormatArchives": [
       {
@@ -1730,22 +1730,26 @@
     {
       "tag": "City of Mist",
       "from": "/tag/cityofmist/",
-      "to": "/tag/city-of-mist/"
+      "to": "/tag/city-of-mist/",
+      "status": "Static archive/feed/pagination redirects implemented"
     },
     {
       "tag": "Freaky Gray Company",
       "from": "/tag/fgc/",
-      "to": "/tag/freaky-gray-company/"
+      "to": "/tag/freaky-gray-company/",
+      "status": "Static archive/feed/pagination redirects implemented"
     },
     {
       "tag": "Arc 1",
       "from": "/tag/c1-a1/",
-      "to": "/tag/arc-1/"
+      "to": "/tag/arc-1/",
+      "status": "Static archive/feed/pagination redirects implemented"
     },
     {
       "tag": "Arc 2",
       "from": "/tag/c1-a2/",
-      "to": "/tag/arc-2/"
+      "to": "/tag/arc-2/",
+      "status": "Static archive/feed/pagination redirects implemented"
     }
   ],
   "summary": {
