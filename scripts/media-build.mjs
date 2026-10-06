@@ -10,10 +10,31 @@ export default function mediaDelivery() {
   return {
     name: 'leota-media-delivery',
     hooks: {
+      'astro:server:setup': async ({ server }) => {
+        const manifest = JSON.parse(await fs.readFile(path.join(root, 'docs/media-delivery-manifest.json'), 'utf8'));
+        const assets = new Map(manifest.assets.map(asset => [asset.source, asset]));
+        const remote = (process.env.MEDIA_BASE_URL || manifest.publicDevelopmentUrl).replace(/\/$/, '');
+        server.middlewares.use(async (req, res, next) => {
+          const asset = assets.get(req.url?.split('?')[0]);
+          if (!asset) return next();
+          try {
+            const bytes = await fs.readFile(path.join(root, '.media-delivery', asset.delivery));
+            if (hash(bytes) !== asset.deliverySha256) throw new Error('Stale media cache');
+            const ext = path.extname(asset.delivery);
+            const types = { '.webp': 'image/webp', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.png': 'image/png', '.gif': 'image/gif', '.svg': 'image/svg+xml', '.ico': 'image/x-icon', '.pdf': 'application/pdf' };
+            res.setHeader('Content-Type', types[ext] || 'application/octet-stream');
+            res.end(bytes);
+          } catch {
+            res.statusCode = 302;
+            res.setHeader('Location', remote + asset.delivery);
+            res.end();
+          }
+        });
+      },
       'astro:build:done': async ({ dir }) => {
         const manifest = JSON.parse(await fs.readFile(path.join(root, 'docs/media-delivery-manifest.json'), 'utf8'));
         const output = fileURLToPath(dir);
-        const remote = process.env.MEDIA_BASE_URL?.replace(/\/$/, '');
+        const remote = process.env.MEDIA_MODE === 'local' ? '' : (process.env.MEDIA_BASE_URL || manifest.publicDevelopmentUrl).replace(/\/$/, '');
         if (remote && new URL(remote).protocol !== 'https:') throw new Error('MEDIA_BASE_URL must use HTTPS.');
         const knownSources = new Set(manifest.assets.map(asset => asset.source));
         async function checkSources(folder) {
