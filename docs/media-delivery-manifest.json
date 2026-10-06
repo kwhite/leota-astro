@@ -2,9 +2,9 @@
   "version": 2,
   "pillow": "12.3.0",
   "webp": "1.6.0",
-  "sourceBytes": 685243712,
-  "deliveryBytes": 136578601,
-  "variantBytes": 153381448,
+  "sourceBytes": 684617844,
+  "deliveryBytes": 136411441,
+  "variantBytes": 153269074,
   "assets": [
     {
       "source": "/assets/files/2026/02/Mirror-Mirror---Intro-Sequence-2.pdf",
@@ -12336,70 +12336,6 @@
           "dimensions": [
             960,
             538
-          ],
-          "settings": {
-            "method": 6,
-            "quality": 90
-          }
-        }
-      ]
-    },
-    {
-      "source": "/assets/images/2025/09/musetta._Group_of_seven_people_of_various_sexes_heights_ages__25d8b96b-34be-4bfb-852b-7aa9a8d9e6dd_0.png",
-      "delivery": "/assets/images/2025/09/musetta._Group_of_seven_people_of_various_sexes_heights_ages__25d8b96b-34be-4bfb-852b-7aa9a8d9e6dd_0.webp",
-      "sourceSha256": "ea4c9ce1de5da11630f456b3ca709c078ad6e6bc9ee00f409d8723d585998d13",
-      "deliverySha256": "74d6f7775ee95801aab47ae50c2a35c07f4e5123e72facab7cc122516c470c37",
-      "sourceBytes": 2107090,
-      "deliveryBytes": 304532,
-      "dimensions": [
-        1232,
-        928
-      ],
-      "transparent": false,
-      "animated": false,
-      "settings": {
-        "method": 6,
-        "quality": 90
-      },
-      "status": "converted",
-      "reason": "quality 90 artwork",
-      "usedIn": [
-        "src/content/pages/rpg-consent-checklist.mdx"
-      ],
-      "variants": [
-        {
-          "delivery": "/assets/images/2025/09/musetta._Group_of_seven_people_of_various_sexes_heights_ages__25d8b96b-34be-4bfb-852b-7aa9a8d9e6dd_0.w320.webp",
-          "deliverySha256": "34ef38ba4052ee2e37ecc9a89b9adeb3149b6941a3633b595688e1516aa33823",
-          "deliveryBytes": 27912,
-          "dimensions": [
-            320,
-            241
-          ],
-          "settings": {
-            "method": 6,
-            "quality": 90
-          }
-        },
-        {
-          "delivery": "/assets/images/2025/09/musetta._Group_of_seven_people_of_various_sexes_heights_ages__25d8b96b-34be-4bfb-852b-7aa9a8d9e6dd_0.w640.webp",
-          "deliverySha256": "a7575b8ca2ccaeedf4167fec434121cc39021e4a27d419e83057d448c0360414",
-          "deliveryBytes": 111114,
-          "dimensions": [
-            640,
-            482
-          ],
-          "settings": {
-            "method": 6,
-            "quality": 90
-          }
-        },
-        {
-          "delivery": "/assets/images/2025/09/musetta._Group_of_seven_people_of_various_sexes_heights_ages__25d8b96b-34be-4bfb-852b-7aa9a8d9e6dd_0.w960.webp",
-          "deliverySha256": "984ac20270f12de75f1b848bf863e0814b1d5b2f4fc44198e8515c8d0cd3beed",
-          "deliveryBytes": 214038,
-          "dimensions": [
-            960,
-            723
           ],
           "settings": {
             "method": 6,
@@ -27122,6 +27058,83 @@
           "dimensions": [
             640,
             359
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/10/candela.png",
+      "delivery": "/assets/images/2026/10/candela.webp",
+      "sourceSha256": "e0a471627e3fa808ad94b7f8d52cfb32e1ec46c40846b219c6d9720820c9a4f7",
+      "deliverySha256": "09a0ae94a052b4efb9169a96252e1acda5036ad4aefdcf72ec3fc5f4e8b56663",
+      "sourceBytes": 1481222,
+      "deliveryBytes": 137372,
+      "dimensions": [
+        1456,
+        816
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/pages/rpg-consent-checklist.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/10/candela.w320.webp",
+          "deliverySha256": "c49b3c9888bdcf648e7ce78f5f84758774115ed2b14715cff7334f35080138ba",
+          "deliveryBytes": 12582,
+          "dimensions": [
+            320,
+            179
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/10/candela.w640.webp",
+          "deliverySha256": "58636a96c69cb5eadc010ba88e87c347a4f381f9a6af31c9b3ba9d0c3fe32ec8",
+          "deliveryBytes": 39372,
+          "dimensions": [
+            640,
+            359
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/10/candela.w960.webp",
+          "deliverySha256": "99106f5303dc1212e4b244e0fa3c1ee54737d74db35518192090427ffd037462",
+          "deliveryBytes": 75442,
+          "dimensions": [
+            960,
+            538
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/10/candela.w1280.webp",
+          "deliverySha256": "ffa8b15bfe4e5897fae2314c1169b9ddf2b5e51382c50068ffbdcd23e1c81028",
+          "deliveryBytes": 113294,
+          "dimensions": [
+            1280,
+            717
           ],
           "settings": {
             "method": 6,

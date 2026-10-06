@@ -126,13 +126,15 @@
   },
   "media": {
     "newSourceImages": 25,
-    "newDeliveryFilesUploaded": 84,
+    "newDeliveryFilesUploaded": 89,
     "manifestSourceAssets": 462,
-    "deliveryFilesChecksumVerified": 1804,
+    "deliveryFilesChecksumVerified": 1805,
     "publicR2SamplesChecksumVerified": 3,
     "galleryImages": 24,
     "galleryFigures": 10,
-    "sourceBackupsUntouched": true
+    "sourceBackupsUntouched": true,
+    "activeNewDeliveryFiles": 85,
+    "retiredDeliveryFilesDeleted": 4
   },
   "validation": {
     "buildPages": 219,
@@ -145,5 +147,14 @@
     "markdownLightboxRegression": "passed",
     "infiniteScrollRegression": "passed",
     "sourcePageCoverage": "14 of 14 published pages; draft remains unpublished"
+  },
+  "consentHeaderReplacement": {
+    "source": "User-supplied candela.png",
+    "asset": "/assets/images/2026/10/candela.png",
+    "oldImage": "Removed from current site and R2 delivery set at Kat’s request; source backup remains untouched.",
+    "sourceBytes": 1481222,
+    "deliveryBytes": 137372,
+    "responsiveVariants": 4,
+    "publicReplacementChecksumsVerified": 5
   }
 }

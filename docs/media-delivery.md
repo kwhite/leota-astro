@@ -104,4 +104,6 @@ Adds 23 covers (45,892,639 source bytes; 4,462,010 full-size delivery bytes), 92
 
 ## Final published pages (2026-10-06)
 
-City of Mist Characters and RPG Consent Checklist add 25 local image sources and 84 delivery files, uploaded to R2 after checksum validation. The manifest now covers 462 source assets and 1,804 delivery files, totaling 289,960,049 bytes (about 276.5 MiB, including responsive variants). Original Unsplash covers remain external. The R2 production build passes with 219 pages; responsive-media checks verify 1,626 responsive occurrences and 691 full-size links. See `remaining-pages-migration.json` and `link-audit.json` for audit scope and remaining live checks.
+City of Mist Characters and RPG Consent Checklist add 25 local image sources and 85 active delivery files, uploaded to R2 after checksum validation. The manifest now covers 462 source assets and 1,805 delivery files, totaling 289,680,515 bytes (about 276.3 MiB, including responsive variants). Original Unsplash covers remain external. The R2 production build passes with 219 pages; responsive-media checks verify 1,626 responsive occurrences and 691 full-size links. See `remaining-pages-migration.json` and `link-audit.json` for audit scope and remaining live checks.
+
+Kat’s replacement checklist header (`candela.png`, 1,481,222 bytes) is delivered as a 137,372-byte quality-90 WebP plus four responsive variants. All five public files match their checksums. The former header’s four bucket objects and local site copies were removed at her request; the source backup is untouched.
