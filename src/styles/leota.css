@@ -322,6 +322,12 @@ html.dark-mode .leota .post-card-excerpt {
 @media (max-width: 800px) {
     .leota-content blockquote.kg-blockquote-alt { font-size: 1.4em; padding-inline: 2em; }
 }
+/* Stack composed gallery rows on phones; inline flex ratios only apply on desktop. */
+@media (max-width: 700px) {
+    .leota-content .kg-gallery-row { display: grid; grid-template-columns: minmax(0, 1fr); }
+    .leota-content .kg-gallery-image a { height: auto; }
+    .leota-content .kg-gallery-image img { height: auto; }
+}
 @media (max-width: 600px) {
     .leota-content blockquote.kg-blockquote-alt { font-size: 1.2em; padding-inline: 1.75em; }
     .leota-content .kg-callout-card { padding: 20px; }
