@@ -1,13 +1,13 @@
 ---
 import { getAssetUrl } from '../config';
-interface Props { file: string; title: string; size?: string; }
-const { file, title, size } = Astro.props;
-const filename = file.split('/').pop();
+interface Props { file: string; title: string; size?: string; caption?: string; filename?: string; }
+const { file, title, size, caption, filename = file.split('/').pop() } = Astro.props;
 ---
 <div class="kg-card kg-file-card">
     <a class="kg-file-card-container" href={getAssetUrl(file)} download>
         <div class="kg-file-card-contents">
             <div class="kg-file-card-title">{title}</div>
+            {caption && <div class="kg-file-card-caption">{caption}</div>}
             <div class="kg-file-card-metadata"><span>{filename}</span>{size && <span>{size}</span>}</div>
         </div>
         <svg class="kg-file-card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10" /><path d="M12 6v11m-4-4 4 4 4-4" /></svg>
@@ -19,6 +19,7 @@ const filename = file.split('/').pop();
     .kg-file-card-container:focus-visible { outline: 2px solid var(--ghost-accent-color); outline-offset: 4px; }
     .kg-file-card-contents { flex: 1; min-width: 0; }
     .kg-file-card-title { font-size: 1.8rem; font-weight: 700; line-height: 1.4; }
+    .kg-file-card-caption { margin-top: 6px; font-size: 1.5rem; line-height: 1.5; color: var(--color-secondary-text); }
     .kg-file-card-metadata { display: flex; flex-wrap: wrap; gap: 4px 16px; margin-top: 8px; font-size: 1.3rem; line-height: 1.5; color: var(--color-secondary-text); overflow-wrap: anywhere; }
     .kg-file-card-icon { flex-shrink: 0; width: 36px; height: 36px; }
     @media (max-width: 600px) { .kg-file-card-container { padding: 18px; gap: 16px; } }

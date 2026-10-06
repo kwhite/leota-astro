@@ -1,0 +1,948 @@
+{
+  "batch": "The Chosen Season 2",
+  "spamScan": "Omitted 16 unrelated shopping-spam paragraphs across 15 posts after reviewing body text and links. Individual injection fields not read or migrated.",
+  "posts": [
+    {
+      "slug": "a-fathers-love",
+      "sourceId": "69812b311c553405dce94a0f",
+      "title": "2.12 A Father's Love",
+      "publishedAt": "2004-11-01T00:00:00.000Z",
+      "tags": [
+        "The Chosen",
+        "Season 2",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "72595bf790efa0bbba5ecfe7e647fce335acc141efe023c81994e58e29b9278d",
+      "file": "src/content/posts/a-fathers-love.md",
+      "omittedParagraphs": 1,
+      "omissions": [
+        {
+          "paragraphIndex": 36,
+          "sha256": "231322479262ba943509091b5e71e0057330b21f709c3b223c900a324549dc14",
+          "reason": "Unrelated shopping spam"
+        }
+      ],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 0,
+      "downloads": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "catalyst",
+      "sourceId": "69812b311c553405dce94a10",
+      "title": "2.20 Catalyst",
+      "publishedAt": "2005-01-24T00:00:00.000Z",
+      "tags": [
+        "The Chosen",
+        "Season 2",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "8876fff44427f9c2a4cbb7149d00442cf4de570821a635af5c580d30de4f99e8",
+      "file": "src/content/posts/catalyst.md",
+      "omittedParagraphs": 1,
+      "omissions": [
+        {
+          "paragraphIndex": 43,
+          "sha256": "9978069cc3f01170f2871cbf84c17fe4f5b21a5b64be806e5b14fe053a177c1b",
+          "reason": "Unrelated shopping spam"
+        }
+      ],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 0,
+      "downloads": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "ring-of-power",
+      "sourceId": "69812b311c553405dce94a11",
+      "title": "2.16 Ring of Power",
+      "publishedAt": "2004-12-12T00:00:00.000Z",
+      "tags": [
+        "The Chosen",
+        "Season 2",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "97be6efbb7911469b42947c27f7f175f8bd85c09776914bf7eec5d4982afb162",
+      "file": "src/content/posts/ring-of-power.md",
+      "omittedParagraphs": 1,
+      "omissions": [
+        {
+          "paragraphIndex": 34,
+          "sha256": "67123b81f88f385a2a1523883e35e8cfc58e7e75cb75d37e2886a001a418e81c",
+          "reason": "Unrelated shopping spam"
+        }
+      ],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 0,
+      "downloads": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "the-chain-is-broken",
+      "sourceId": "69812b311c553405dce94a12",
+      "title": "2.11 The Chain is Broken",
+      "publishedAt": "2004-10-22T23:00:00.000Z",
+      "tags": [
+        "The Chosen",
+        "Season 2",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "7fef905e03274e9a073ee1aae49ab86eb4779c71bad0842e393c91429817dc42",
+      "file": "src/content/posts/the-chain-is-broken.mdx",
+      "omittedParagraphs": 0,
+      "omissions": [],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 0,
+      "downloads": 0,
+      "embeds": 0,
+      "callouts": 1
+    },
+    {
+      "slug": "election",
+      "sourceId": "69812b311c553405dce94a13",
+      "title": "2.21 Election",
+      "publishedAt": "2005-01-25T00:00:00.000Z",
+      "tags": [
+        "The Chosen",
+        "Season 2",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "b99ba3a97f09faebf79989b7edce04146fe9ee4a7951f1f32597a6e2c9a719ad",
+      "file": "src/content/posts/election.md",
+      "omittedParagraphs": 0,
+      "omissions": [],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 0,
+      "downloads": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "luck-o-the-irish",
+      "sourceId": "69812b311c553405dce94a14",
+      "title": "2.15 Luck O' The Irish",
+      "publishedAt": "2004-12-06T00:00:00.000Z",
+      "tags": [
+        "The Chosen",
+        "Season 2",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "6b0ad2ab8efb3240132c557b97a295935523e7c22ff78d001bfd5a07a42378e3",
+      "file": "src/content/posts/luck-o-the-irish.md",
+      "omittedParagraphs": 1,
+      "omissions": [
+        {
+          "paragraphIndex": 33,
+          "sha256": "f5f03f251950d810f93cf7d4fbd59416947452dac334da4b44b1b67572f60b6f",
+          "reason": "Unrelated shopping spam"
+        }
+      ],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 0,
+      "downloads": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "do-over",
+      "sourceId": "69812b311c553405dce94a15",
+      "title": "2.18 Do Over",
+      "publishedAt": "2005-01-03T00:00:00.000Z",
+      "tags": [
+        "The Chosen",
+        "Season 2",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "1194b5009a9bdca436236a1854775aa3f9f835b21c89518596a1402edbd1dfdb",
+      "file": "src/content/posts/do-over.md",
+      "omittedParagraphs": 1,
+      "omissions": [
+        {
+          "paragraphIndex": 51,
+          "sha256": "61ca30a85624f63080c88838207d874183ee328c8b289056c531d591b06bf443",
+          "reason": "Unrelated shopping spam"
+        }
+      ],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 0,
+      "downloads": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "family-jewels",
+      "sourceId": "69812b311c553405dce94a16",
+      "title": "2.10 Family Jewels",
+      "publishedAt": "2004-10-17T23:00:00.000Z",
+      "tags": [
+        "The Chosen",
+        "Season 2",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "fbff891058ce22b2b3d27d65e154ac5388b88a7b0ed7e6b93345171dff397e45",
+      "file": "src/content/posts/family-jewels.md",
+      "omittedParagraphs": 1,
+      "omissions": [
+        {
+          "paragraphIndex": 36,
+          "sha256": "3ca926dd8fdc5d57c93ab8b60dd2ca577bc809d6daab0ee9733c43bf2f810aa9",
+          "reason": "Unrelated shopping spam"
+        }
+      ],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 0,
+      "downloads": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "play-it-again",
+      "sourceId": "69812b311c553405dce94a17",
+      "title": "2.5 Play It Again",
+      "publishedAt": "2004-08-28T23:00:00.000Z",
+      "tags": [
+        "The Chosen",
+        "Season 2",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "43ba20e711b9c532e10e3bcecaa02a5e4d8e65c4910abd13758886dff49a97a2",
+      "file": "src/content/posts/play-it-again.mdx",
+      "omittedParagraphs": 1,
+      "omissions": [
+        {
+          "paragraphIndex": 29,
+          "sha256": "fcd02afe094d6f03a616e3bf5506b422ac50120948a5a137c07f34bc4af01071",
+          "reason": "Unrelated shopping spam"
+        }
+      ],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 0,
+      "downloads": 11,
+      "embeds": 16,
+      "callouts": 1
+    },
+    {
+      "slug": "hail-to-the-victors",
+      "sourceId": "69812b311c553405dce94a18",
+      "title": "2.6 Hail to the Victors",
+      "publishedAt": "2004-09-04T23:00:00.000Z",
+      "tags": [
+        "The Chosen",
+        "Season 2",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "4babe67f5362d0ec78aa1ab4d7aff79443eb833acbbdf419fbad67488f395bcf",
+      "file": "src/content/posts/hail-to-the-victors.md",
+      "omittedParagraphs": 0,
+      "omissions": [],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 0,
+      "downloads": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "mostly-dead",
+      "sourceId": "69812b311c553405dce94a19",
+      "title": "2.3 Mostly Dead",
+      "publishedAt": "2004-08-16T23:00:00.000Z",
+      "tags": [
+        "The Chosen",
+        "Season 2",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "a8a8f555a35cbdbd66a71f9cc081b7b4add8f31344b938c686720c92d1f1c0a3",
+      "file": "src/content/posts/mostly-dead.md",
+      "omittedParagraphs": 2,
+      "omissions": [
+        {
+          "paragraphIndex": 41,
+          "sha256": "46c7a5900db9627335703947e885281f65ab5aee4945b988875c8c076d1fb5df",
+          "reason": "Unrelated shopping spam"
+        },
+        {
+          "paragraphIndex": 42,
+          "sha256": "a0a47d1112d1d13204db17424d9d9d5a02f226949a9b3d6fc2944ccd6d0b7e7d",
+          "reason": "Unrelated shopping spam"
+        }
+      ],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 0,
+      "downloads": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "incumbent",
+      "sourceId": "69812b311c553405dce94a1a",
+      "title": "2.22 Incumbent",
+      "publishedAt": "2005-01-31T00:00:00.000Z",
+      "tags": [
+        "The Chosen",
+        "Season 2",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "c08ecb423690c8d1d1ec34a4bf3f9332f6025ac0fb864e6280b0da0e22bb1e84",
+      "file": "src/content/posts/incumbent.md",
+      "omittedParagraphs": 1,
+      "omissions": [
+        {
+          "paragraphIndex": 52,
+          "sha256": "876fd9a03b4cbccd0691dc3deb3c153f0fad253844feb50eebf9710814dc4c49",
+          "reason": "Unrelated shopping spam"
+        }
+      ],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 0,
+      "downloads": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "hunting-house",
+      "sourceId": "69812b311c553405dce94a1b",
+      "title": "2.4 Hunting House",
+      "publishedAt": "2004-08-21T23:00:00.000Z",
+      "tags": [
+        "The Chosen",
+        "Season 2",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "988322ef30503d77437b49f381aa36ddf06809cbc3170f794e277f29f4079612",
+      "file": "src/content/posts/hunting-house.md",
+      "omittedParagraphs": 0,
+      "omissions": [],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 0,
+      "downloads": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "tranquility",
+      "sourceId": "69812b311c553405dce94a1c",
+      "title": "2.8 Spa Kids",
+      "publishedAt": "2004-09-26T23:00:00.000Z",
+      "tags": [
+        "The Chosen",
+        "Season 2",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "f82d0739f5ba27eb56ee591d32f424e7341a35f10959da7b36bc6ec1244aa659",
+      "file": "src/content/posts/tranquility.mdx",
+      "omittedParagraphs": 1,
+      "omissions": [
+        {
+          "paragraphIndex": 52,
+          "sha256": "7ea4a8e24960f218972c6bcf21612d964956abd3d313440153f60ce4dffae28f",
+          "reason": "Unrelated shopping spam"
+        }
+      ],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 0,
+      "downloads": 0,
+      "embeds": 0,
+      "callouts": 1
+    },
+    {
+      "slug": "modern-times",
+      "sourceId": "69812b311c553405dce94a1d",
+      "title": "2.2 Modern Times",
+      "publishedAt": "2004-08-08T23:00:00.000Z",
+      "tags": [
+        "The Chosen",
+        "Season 2",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "8404f341b6564ff16f3d3b10586862ab9216f16ab7cb005b6628b2985454f852",
+      "file": "src/content/posts/modern-times.md",
+      "omittedParagraphs": 1,
+      "omissions": [
+        {
+          "paragraphIndex": 47,
+          "sha256": "21511c1e9b941f134f4daa587b0ab861efb1ed6c6e42efd235f56bd7ab2e3513",
+          "reason": "Unrelated shopping spam"
+        }
+      ],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 0,
+      "downloads": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "mirror-mirror",
+      "sourceId": "69812b311c553405dce94a1e",
+      "title": "2.19 Mirror, Mirror",
+      "publishedAt": "2005-01-10T00:00:00.000Z",
+      "tags": [
+        "The Chosen",
+        "Season 2",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "b64cd18ab6d070d274b56b68e9b72fcacfb0e212b058bd852ddb0f22f59c65b4",
+      "file": "src/content/posts/mirror-mirror.mdx",
+      "omittedParagraphs": 1,
+      "omissions": [
+        {
+          "paragraphIndex": 66,
+          "sha256": "ebbdc59f5aca17200f43d5bbd65e804e5de5aaf8a8f678ad1b3042536d173dda",
+          "reason": "Unrelated shopping spam"
+        }
+      ],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 0,
+      "downloads": 1,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "the-demon-in-me",
+      "sourceId": "69812b311c553405dce94a1f",
+      "title": "2.13 The Demon in Me",
+      "publishedAt": "2004-11-07T00:00:00.000Z",
+      "tags": [
+        "The Chosen",
+        "Season 2",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "8759f62d4d1e148c8eca607a8595a41b3276e6493ab24b02c6d6727183043e05",
+      "file": "src/content/posts/the-demon-in-me.md",
+      "omittedParagraphs": 1,
+      "omissions": [
+        {
+          "paragraphIndex": 43,
+          "sha256": "60e7f67458fe302e2fd7b402a8249948b6490c270b4705a57645f6a73bdd9e6f",
+          "reason": "Unrelated shopping spam"
+        }
+      ],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 0,
+      "downloads": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "something-wicked",
+      "sourceId": "69812b311c553405dce94a20",
+      "title": "2.9 Something Wicked? This Way. Come.",
+      "publishedAt": "2004-10-11T23:00:00.000Z",
+      "tags": [
+        "The Chosen",
+        "Season 2",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "5ea30a201017542f261428eb121bad1df1c3b3047ee696f4993f34ea11cd9b8b",
+      "file": "src/content/posts/something-wicked.md",
+      "omittedParagraphs": 0,
+      "omissions": [],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 0,
+      "downloads": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "the-natural-order-of-things",
+      "sourceId": "69812b311c553405dce94a21",
+      "title": "2.1 The Natural Order of Things",
+      "publishedAt": "2004-07-30T23:00:00.000Z",
+      "tags": [
+        "The Chosen",
+        "Season 2",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "dfc5daf3737d19d1a436a27b48a86af5ac7e9906a401ed0b37829603a929be8d",
+      "file": "src/content/posts/the-natural-order-of-things.md",
+      "omittedParagraphs": 0,
+      "omissions": [],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 0,
+      "downloads": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "the-not-so-hard-way",
+      "sourceId": "69812b311c553405dce94a22",
+      "title": "2.14 The Not-So-Hard Way",
+      "publishedAt": "2004-11-28T01:00:00.000Z",
+      "tags": [
+        "The Chosen",
+        "Season 2",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "d6791b1a3fe35d57ebcf6be7319a22349283dd1dfc5ba4562f552802712381e6",
+      "file": "src/content/posts/the-not-so-hard-way.md",
+      "omittedParagraphs": 0,
+      "omissions": [],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 0,
+      "downloads": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "visions-of-grandeur",
+      "sourceId": "69812b311c553405dce94a23",
+      "title": "2.7 Visions of Grandeur",
+      "publishedAt": "2004-09-13T00:00:00.000Z",
+      "tags": [
+        "The Chosen",
+        "Season 2",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "897d1ca51f2588fe51e0f0e80ca8c8f489b16dcb1578115204196b5aa6c5f652",
+      "file": "src/content/posts/visions-of-grandeur.md",
+      "omittedParagraphs": 1,
+      "omissions": [
+        {
+          "paragraphIndex": 32,
+          "sha256": "eefeb3582fda999ba1b72910509d1de75fe18f38de3fac647d77fcaa2f455815",
+          "reason": "Unrelated shopping spam"
+        }
+      ],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 0,
+      "downloads": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "2-17-things-fall-apart",
+      "sourceId": "69850fb41c553405dce94e95",
+      "title": "2.17 Things Fall Apart",
+      "publishedAt": "2004-12-18T06:00:00.000Z",
+      "tags": [
+        "The Chosen",
+        "Season 2"
+      ],
+      "sourceHtmlSha256": "cc70d0a819bea8e14e43de84f6275491990335624279445113a868c380202f17",
+      "file": "src/content/posts/2-17-things-fall-apart.mdx",
+      "omittedParagraphs": 1,
+      "omissions": [
+        {
+          "paragraphIndex": 115,
+          "sha256": "f72a1dee9d25e8d2c61a1b2c0e07c55be251b31d884c7769936bcbb4193f86be",
+          "reason": "Unrelated shopping spam"
+        }
+      ],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "tables": 0,
+      "galleries": 0,
+      "images": 1,
+      "downloads": 1,
+      "embeds": 0,
+      "callouts": 0
+    }
+  ],
+  "media": [
+    {
+      "source": "/assets/images/2026/02/ChatGPT-Image-Feb-9--2026--03_23_36-PM.png",
+      "sourceSha256": "6c1cd90f2099e5ffcaf6f61a7a55a71bd8cfc5f464cca87fb46a98fa65c482a1",
+      "sourceBytes": 2306128
+    },
+    {
+      "source": "/assets/images/2026/02/musetta._YYoung_woman_in_late_20s_with_blonde_bob_haircut_and_bf67760b-00f6-4f5c-82ac-3ddb31d8f918_1.png",
+      "sourceSha256": "fb3941bf5522756c9bf3b49e50e5f2d44e5b31b5552470c32d628d64dcdc9b8a",
+      "sourceBytes": 1334585
+    },
+    {
+      "source": "/assets/images/2026/02/musetta._cinematic_image_angled_down_from_the_top_left_at_a_b_351eb776-169f-4cdf-aa8b-3f709e7c31f9_0.png",
+      "sourceSha256": "274a513017ae9d0c3a71202f1e2fbb3fcef431dd919e00d10024360476384b30",
+      "sourceBytes": 1348868
+    },
+    {
+      "source": "/assets/images/2026/02/ChatGPT-Image-Feb-9--2026--04_25_47-PM.png",
+      "sourceSha256": "3f5353077523cdc68521fba72fde4bff2cee7f92da3ff0ca44b213a79e1258db",
+      "sourceBytes": 2334035
+    },
+    {
+      "source": "/assets/images/2026/02/musetta._Couple_slow_dancing_under_string_lights_at_new_engla_8ad406c4-941a-4750-984a-2bc99284ea17_2.png",
+      "sourceSha256": "93cb4d12c8bd5761d777bf13c0d745de072c1c3ef32e89d04e75c0f3f9124986",
+      "sourceBytes": 1577778
+    },
+    {
+      "source": "/assets/images/2026/02/musetta._Woman_in_her_early_20s_with_long_wavy_dark_brown_hai_6a5abf9b-a2fb-4159-a012-6854bbe2e17e_3.png",
+      "sourceSha256": "f571efce46c7f8af0c5e777ff3a14426614944d1aabf3edb0f77f97bfafc9db0",
+      "sourceBytes": 1182542
+    },
+    {
+      "source": "/assets/images/2026/02/musetta._View_from_basement_looking_at_broken_brick_wall_with_485c51cd-42e1-4b8e-b1bc-cf4a2852bd7b_1.png",
+      "sourceSha256": "fe67e654c437a8a5c98d4d4a5301cd82bc0c42832c0bce37a64b2ec0a6e9ce01",
+      "sourceBytes": 1550234
+    },
+    {
+      "source": "/assets/images/2026/02/musetta._Close-up_of_elegant_gothic_birthday_cake_with_999_wr_53f755c4-46e8-46a7-9ae6-02455c5040ff_3.png",
+      "sourceSha256": "4810f6543bdfa7971a298f9512d4d5bc04b87e7c2e68fe378b9b45b6abd6989f",
+      "sourceBytes": 1236161
+    },
+    {
+      "source": "/assets/images/2026/02/musetta._Underground_tunnel_beneath_bell_tower_three_demon_si_624e6aad-1d2f-4bee-b3ab-b1036b48175e_0.png",
+      "sourceSha256": "8ac735aed14998cf9da2d578f6380c5c9fc8a5dafebfb50a5454f23a857a2171",
+      "sourceBytes": 1623250
+    },
+    {
+      "source": "/assets/images/2026/02/ChatGPT-Image-Feb-9--2026--11_39_11-AM.png",
+      "sourceSha256": "630cb8060205a0f3847c90f69cc06991860169830dcb2b88a45ae59b82648fb6",
+      "sourceBytes": 2329577
+    },
+    {
+      "source": "/assets/images/2026/02/musetta._Small_petting_zoo_pen_at_vintage_carnival_several_ba_93c4511f-31fa-4f4e-9bd5-022e557ba236_0.png",
+      "sourceSha256": "5e8a2831e6c4f5e96c00231f8f7d1c9ed9c9f593bd5e2f102500adb620f75716",
+      "sourceBytes": 1468128
+    },
+    {
+      "source": "/assets/images/2026/02/ChatGPT-Image-Feb-9--2026--09_31_35-PM-1.png",
+      "sourceSha256": "39ddc37f61fa9810936adb58a7d71492ec0864f9a052c60aba66ffdf923766b4",
+      "sourceBytes": 2001898
+    },
+    {
+      "source": "/assets/images/2026/02/musetta._wide-angle_atmospheric_shot_of_a_pale-skinned_man_in_57e91b61-7101-4200-9e5c-a29cefd4e9ba_2.png",
+      "sourceSha256": "13158f601e5be10be8ff6ba4f706a4d36f3cbee36415d881862578284126028c",
+      "sourceBytes": 1408999
+    },
+    {
+      "source": "/assets/images/2026/02/musetta._Playing_cards_and_small_change_are_scattered_on_a_co_07d85666-66da-4b5d-a1db-4d62ee0ce726_1.png",
+      "sourceSha256": "b8497c48ad1addda36977d592e5245e3a539d6ee6183ca9d79439e46fa39d564",
+      "sourceBytes": 1259142
+    },
+    {
+      "source": "/assets/images/2026/02/musetta._Close-up_torso_shot_of_young_man_in_mid-20s_wearing__57e9f56a-faca-4ade-b65d-7db34ac67396_1.png",
+      "sourceSha256": "b98e3f0cf28034412ab157446e03e6d4ecbb78930260849aef210503944c021b",
+      "sourceBytes": 1286460
+    },
+    {
+      "source": "/assets/images/2026/02/musetta._Close-up_of_college_football_player_wearing_helmet_f_1b9022f3-2d61-4456-9eea-d86e993131fe_3.png",
+      "sourceSha256": "9712f8c270837a27b893101ffa8162363ff85f53a8d07dd05af1cadc8ccf0fe4",
+      "sourceBytes": 1657975
+    },
+    {
+      "source": "/assets/images/2026/02/ChatGPT-Image-Feb-12--2026--12_20_14-PM.png",
+      "sourceSha256": "8f4dd344c099db7589594cd15a2397a32e7e505aa157d804d92465c86803d809",
+      "sourceBytes": 2916902
+    },
+    {
+      "source": "/assets/images/2026/02/musetta._Handsome_man_in_his_30s_with_dark_wavy_hair_and_clef_6e1a3f7c-bc9c-4f8c-bf4f-1774abbf5ddf_1.png",
+      "sourceSha256": "7628d6fd4be1c05d74633fef9271e739c082a64a02dcdde5adf0b7b47b935ca3",
+      "sourceBytes": 1333885
+    },
+    {
+      "source": "/assets/images/2026/02/ChatGPT-Image-Feb-10--2026--08_43_03-PM.png",
+      "sourceSha256": "4fd83b7e08b692904886c4d3db7b1f8030a55dfdced60230034a2ae6a8d20b1f",
+      "sourceBytes": 2147897
+    },
+    {
+      "source": "/assets/images/2026/02/musetta._Medical_ultrasound_screen_display_showing_tightly_pa_5c0c0115-c2d2-40ae-974a-555e991dc7c8_2.png",
+      "sourceSha256": "b6ab90b057ca51b1b05cf0491fcd1ec90b5833dbdf3b317d21ab0363dcc5b5fe",
+      "sourceBytes": 1779709
+    },
+    {
+      "source": "/assets/images/2026/02/ChatGPT-Image-Feb-10--2026--10_05_48-PM.png",
+      "sourceSha256": "725d5492c48a87c0f39a8709f9dc94415638be9497f73b145e10a2cedc954637",
+      "sourceBytes": 2587186
+    },
+    {
+      "source": "/assets/images/2026/02/musetta._Large_amethyst_geode_displayed_in_glass_museum_case__eb002497-8e7a-48f1-8a4d-0ca9731bbb92_0.png",
+      "sourceSha256": "214ee57d8c4104fcc6c3700bfcf2952bc52ae5ca901e7640c91356ee4a8f5586",
+      "sourceBytes": 1658676
+    },
+    {
+      "source": "/assets/images/2026/02/ChatGPT-Image-Feb-10--2026--11_51_20-AM.png",
+      "sourceSha256": "dd84850b8d09d89d3ed92bbf07ba03fb2321139170e727870bb72a968c7cc69b",
+      "sourceBytes": 1895119
+    },
+    {
+      "source": "/assets/files/2026/02/Play-it-Again-Walkin----After-Midnight.pdf",
+      "sourceSha256": "6b5ec8d03b9acf9878e7abcf3759006039c7ab99bbaab2452e2fdb2691570817",
+      "sourceBytes": 43316
+    },
+    {
+      "source": "/assets/files/2026/02/Play-it-Again-The-Bus-from-Amarillo-1.pdf",
+      "sourceSha256": "f263a78aeb55c5d4ecc7782f973e252d0d5c21efdfe532a0812fffc26a75f74c",
+      "sourceBytes": 44252
+    },
+    {
+      "source": "/assets/files/2026/02/Play-it-Again-Hello--Little-Girl.pdf",
+      "sourceSha256": "58f6f0821895ec38304484a84b19843449f979df92810895e849ddd94a89872c",
+      "sourceBytes": 45918
+    },
+    {
+      "source": "/assets/files/2026/02/Play-it-Again-Marian--the-Librarian.pdf",
+      "sourceSha256": "999439d8fc5533fae7df795f686fdb3e364e0280a4424d87f7ba4597fb0b166a",
+      "sourceBytes": 44053
+    },
+    {
+      "source": "/assets/files/2026/02/Play-it-Again-Hard-Knock-Life.pdf",
+      "sourceSha256": "2ae25ece9786767f1b72e874f8cb2339d11a7b838b37eff8c281fca4a4185a8c",
+      "sourceBytes": 46539
+    },
+    {
+      "source": "/assets/files/2026/02/Mirror-Mirror---Intro-Sequence-2.pdf",
+      "sourceSha256": "d17b93950796e0e66053048279043a050d5a57267a9bce37ddcd40ad9463fcba",
+      "sourceBytes": 56666
+    },
+    {
+      "source": "/assets/files/2026/02/veenaletters-1.pdf",
+      "sourceSha256": "29b10b39206fc929dab619bc77b1c2d2dce384079bec7bb8926be7816d87b893",
+      "sourceBytes": 113830
+    },
+    {
+      "source": "/assets/files/2026/02/Play-it-Again-Could-we-Start-Again--Please.pdf",
+      "sourceSha256": "0657088c90bb726fd9334b63512027deb9f97e961d0ae5953844c2cd8e7d2233",
+      "sourceBytes": 43674
+    },
+    {
+      "source": "/assets/files/2026/02/Play-it-Again-Sue-Me-Too.pdf",
+      "sourceSha256": "66e76f6ae4b6f7712940159411a12fd653b2c989282daad01a0e933db4babb29",
+      "sourceBytes": 42650
+    },
+    {
+      "source": "/assets/files/2026/02/Play-it-Again-Sound-of-Silence.pdf",
+      "sourceSha256": "d02ab3b6c6382c25f5b6b1f3ecd66d6e806a0a80e92ddfc4f6cf7d16ba7426e4",
+      "sourceBytes": 43605
+    },
+    {
+      "source": "/assets/files/2026/02/Play-it-Again-Sue-Me.pdf",
+      "sourceSha256": "07d0b854169cd5af3c01af32356a135d2e8d4574e20f75d10cbd4744c475a0ac",
+      "sourceBytes": 57983
+    },
+    {
+      "source": "/assets/files/2026/02/Play-it-Again-We-Can-Work-It-Out.pdf",
+      "sourceSha256": "c0ae5605291465275891e0287c611f343cb695a4fa963c4bfb9e1b4b47b70093",
+      "sourceBytes": 42386
+    },
+    {
+      "source": "/assets/files/2026/02/Play-it-Again-The-Telephone-Hour.pdf",
+      "sourceSha256": "ce2201d218c59397eab40f93be372bf6b385cebc9947435711fc1150f1931719",
+      "sourceBytes": 50625
+    }
+  ],
+  "editorialNotes": [
+    "Source titles, slugs, dates, approved tag order, scene separators and OOC/Gallery commentary preserved. Blue callouts and PDF cards use existing components. FileDownload now optionally preserves source captions and display filenames; existing callers retain defaults. Alternate blockquotes and Spotify embeds retain HTML. Download-icon SVG/style markup is omitted from content comparison; visible card text and PDFs are retained. Original backup and source media remain unchanged."
+  ],
+  "pdfTextScan": [
+    {
+      "source": "/assets/files/2026/02/Play-it-Again-Walkin----After-Midnight.pdf",
+      "pages": 2,
+      "extractedTextCharacters": 1027,
+      "spamMatches": []
+    },
+    {
+      "source": "/assets/files/2026/02/Play-it-Again-The-Bus-from-Amarillo-1.pdf",
+      "pages": 2,
+      "extractedTextCharacters": 1646,
+      "spamMatches": []
+    },
+    {
+      "source": "/assets/files/2026/02/Play-it-Again-Hello--Little-Girl.pdf",
+      "pages": 3,
+      "extractedTextCharacters": 1443,
+      "spamMatches": []
+    },
+    {
+      "source": "/assets/files/2026/02/Play-it-Again-Marian--the-Librarian.pdf",
+      "pages": 2,
+      "extractedTextCharacters": 1192,
+      "spamMatches": []
+    },
+    {
+      "source": "/assets/files/2026/02/Play-it-Again-Hard-Knock-Life.pdf",
+      "pages": 3,
+      "extractedTextCharacters": 1665,
+      "spamMatches": []
+    },
+    {
+      "source": "/assets/files/2026/02/Mirror-Mirror---Intro-Sequence-2.pdf",
+      "pages": 4,
+      "extractedTextCharacters": 7414,
+      "spamMatches": []
+    },
+    {
+      "source": "/assets/files/2026/02/veenaletters-1.pdf",
+      "pages": 6,
+      "extractedTextCharacters": 11560,
+      "spamMatches": []
+    },
+    {
+      "source": "/assets/files/2026/02/Play-it-Again-Could-we-Start-Again--Please.pdf",
+      "pages": 2,
+      "extractedTextCharacters": 1228,
+      "spamMatches": []
+    },
+    {
+      "source": "/assets/files/2026/02/Play-it-Again-Sue-Me-Too.pdf",
+      "pages": 2,
+      "extractedTextCharacters": 757,
+      "spamMatches": []
+    },
+    {
+      "source": "/assets/files/2026/02/Play-it-Again-Sound-of-Silence.pdf",
+      "pages": 2,
+      "extractedTextCharacters": 1253,
+      "spamMatches": []
+    },
+    {
+      "source": "/assets/files/2026/02/Play-it-Again-Sue-Me.pdf",
+      "pages": 4,
+      "extractedTextCharacters": 1940,
+      "spamMatches": []
+    },
+    {
+      "source": "/assets/files/2026/02/Play-it-Again-We-Can-Work-It-Out.pdf",
+      "pages": 2,
+      "extractedTextCharacters": 1152,
+      "spamMatches": []
+    },
+    {
+      "source": "/assets/files/2026/02/Play-it-Again-The-Telephone-Hour.pdf",
+      "pages": 6,
+      "extractedTextCharacters": 2586,
+      "spamMatches": []
+    }
+  ],
+  "validation": {
+    "buildPages": 191,
+    "sourceBodiesPreservedAfterRecordedOmissions": 22,
+    "sceneSeparatorsPreserved": 259,
+    "headingsPreserved": true,
+    "blueCalloutsPreserved": 3,
+    "alternateBlockquotesPreserved": 10,
+    "spotifyEmbedsPreserved": 16,
+    "pdfCardsPreserved": 13,
+    "bodyImagesPreserved": 1,
+    "pdfFilesByteIdentical": 13,
+    "pdfTextScanPages": 40,
+    "responsiveImageOccurrences": 1390,
+    "fullSizeLinks": 610,
+    "deliveryChecksums": 1604,
+    "xmlFiles": 18,
+    "seasonArchivePostLinks": 22,
+    "campaignPaginationVerified": true,
+    "homepageFilterPreserved": true,
+    "browserReview": "Play It Again PDF cards retain captions/display filenames and render with loaded Spotify players."
+  },
+  "mediaDelivery": {
+    "newAssets": 36,
+    "newImages": 23,
+    "newPdfs": 13,
+    "sourceBytes": 40900631,
+    "imageSourceBytes": 40225134,
+    "imageFullSizeDeliveryBytes": 3594116,
+    "pdfBytes": 675497,
+    "fullSizeDeliveryBytes": 4269613,
+    "responsiveVariants": 92,
+    "totalAssets": 413,
+    "totalDeliveryFiles": 1604,
+    "deletedObjects": 0,
+    "uploadedObjects": 128,
+    "publicDeliveryChecksumsVerified": [
+      "/assets/files/2026/02/Mirror-Mirror---Intro-Sequence-2.pdf",
+      "/assets/files/2026/02/Play-it-Again-Could-we-Start-Again--Please.pdf",
+      "/assets/files/2026/02/Play-it-Again-Hard-Knock-Life.pdf",
+      "/assets/files/2026/02/Play-it-Again-Hello--Little-Girl.pdf",
+      "/assets/files/2026/02/Play-it-Again-Marian--the-Librarian.pdf",
+      "/assets/files/2026/02/Play-it-Again-Sound-of-Silence.pdf",
+      "/assets/files/2026/02/Play-it-Again-Sue-Me-Too.pdf",
+      "/assets/files/2026/02/Play-it-Again-Sue-Me.pdf",
+      "/assets/files/2026/02/Play-it-Again-The-Bus-from-Amarillo-1.pdf",
+      "/assets/files/2026/02/Play-it-Again-The-Telephone-Hour.pdf",
+      "/assets/files/2026/02/Play-it-Again-Walkin----After-Midnight.pdf",
+      "/assets/files/2026/02/Play-it-Again-We-Can-Work-It-Out.pdf",
+      "/assets/files/2026/02/veenaletters-1.pdf",
+      "/assets/images/2026/02/ChatGPT-Image-Feb-10--2026--08_43_03-PM.webp",
+      "/assets/images/2026/02/musetta._wide-angle_atmospheric_shot_of_a_pale-skinned_man_in_57e91b61-7101-4200-9e5c-a29cefd4e9ba_2.webp",
+      "/assets/images/2026/02/musetta._Couple_slow_dancing_under_string_lights_at_new_engla_8ad406c4-941a-4750-984a-2bc99284ea17_2.w320.webp"
+    ],
+    "pdfAttachmentHeadersVerified": 13
+  }
+}
