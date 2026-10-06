@@ -1,20 +1,20 @@
 # Here Be Dragons / Leota Astro — thread handoff
 
-Last updated: 2026-10-06, after the approved tag cleanup. This document records project context and user decisions; it is not authorization to deploy, send email, or migrate the full archive. **This current checkpoint takes precedence over the historical milestones below.**
+Last updated: 2026-10-06, after finishing the Gazette migration. This document records project context and user decisions; it is not authorization to deploy, send email, or migrate the full archive. **This current checkpoint takes precedence over the historical milestones below.**
 
 ## Goal and current position
 
 Port Kat's Leota Ghost theme and selected content to Astro, preserving the dark design, editable Markdown/MDX, source content and reusable components. Cloudflare hosts the site; Netlify is paused. Kat confirmed live images load from R2.
 
-Main includes PRs #12–#16: Chosen Cast/Rules and PDF download cards, portable R2 media, automatic Markdown image lightboxes, dependency updates, and the initial character/format tag cleanup. Current branch `codex/venue-context-tag-cleanup` contains the approved tag cleanup and migration plan, prepared for PR review. Check its merge status before starting another branch from updated `main`.
+Main includes PRs #12–#17: Chosen Cast/Rules and PDF download cards, portable R2 media, automatic Markdown image lightboxes, dependency updates, and the approved tag cleanup. Current branch `codex/gazette-feolinn-cabaret` finishes the Gazette with Feolinn and Quicksliver Cabaret, prepared for PR review. Check its merge status before starting another branch from updated `main`.
 
 Kat approved retaining campaigns, chronology and Gazette locations, removing character, venue and broad/context tags, and consolidating Session Notes/Session Recap into **Session Recaps**. Current post metadata and tag archives reflect this choice; the homepage remains filtered by CoM Season 1. Static 301 rules for former format archives are bundled in `public/_redirects`; Cloudflare runtime behavior remains to be checked after deployment.
 
-Validation: the current R2 production build passes with 43 pages (previously 62). Media checks cover 216 responsive-image occurrences, 153 full-size links and 529 delivery-file checksums. Retained navigation archives and the Session Recaps archive/feed were verified, along with the migration plan and bundled redirects. Documentation-only edits do not require another build.
+Validation: the current R2 production build passes with 46 pages. Media checks cover 225 responsive-image occurrences, 159 full-size links and 529 delivery-file checksums. Retained navigation archives and the Session Recaps archive/feed were verified, along with the migration plan and bundled redirects. Documentation-only edits do not require another build.
 
 ## Next session
 
-Review/merge the tag-cleanup PR, then agree on the next migration scope with Kat. No bulk migration has begun. Read [tag-migration-decisions.md](tag-migration-decisions.md) and [tag-migration-plan.json](tag-migration-plan.json): of 170 source posts, ten already exist, 158 remain to migrate, and two imported duplicates are approved omissions. Feolinn becomes a Gazette location during migration; Quicksliver Cabaret belongs under Zadash. Preserve the untagged 1.5 Original and its direct link from the revised post.
+Review/merge the Gazette completion PR. Recommended next batch: the 23 remaining City of Mist posts; agree on scope with Kat. No bulk migration has begun. Read [tag-migration-decisions.md](tag-migration-decisions.md) and [tag-migration-plan.json](tag-migration-plan.json): of 170 source posts, 12 already exist, 156 remain to migrate, and two imported duplicates are approved omissions. Feolinn is now a Gazette location; Quicksliver Cabaret is migrated under Zadash. Preserve the untagged 1.5 Original and its direct link from the revised post.
 
 D&D, Wildemount, Campaign 2003 and venue-type categories are approved removals. Wildemount can be added back later if needed. The Getting started sample remains preserved. The audit documents describe the pre-cleanup inventory; the decisions and migration plan describe the approved outcome.
 
@@ -311,3 +311,7 @@ Kat approved retaining campaigns/chronology/locations, removing character tags, 
 ### Canonical format name
 
 Kat chose Recaps rather than Notes: use `Session Recaps` (`/tag/session-recaps/`) as the canonical format tag. Both source Session Notes and Session Recap map to it. Current post titles/slugs and the CoM Season 1 homepage filter are unchanged. Prepared static redirect rules preserve both former format archive paths and their feed/pagination suffixes; runtime verification awaits deployment.
+
+## Gazette completion (2026-10-06)
+
+Migrated `feolinn-shops-eateries-entertainment` and `quicksliver-cabaret` as standard Markdown, preserving source titles, slugs, dates and cleaned prose. Added Feolinn metadata and Gazette navigation. Restored headings/paragraphs and the Feolinn vineyard list from flattened import text. Omitted two unrelated jersey-shopping paragraphs from Feolinn and one cosplay-shopping paragraph from Cabaret; hashes and reasons are recorded in `gazette-migration-manifest.json`. No injection fields were read or migrated. Neither export includes images/cover; the Cabaret map credit has no map URL. Its preserved Return to Summary destination `/c1e17-connections/` remains pending migration. Source comparisons, archive/feed checks and browser rendering checks pass. No new media uploads are needed.

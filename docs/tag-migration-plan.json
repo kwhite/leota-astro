@@ -555,7 +555,7 @@
     {
       "slug": "feolinn-shops-eateries-entertainment",
       "title": "Feolinn Shops, Eateries & Entertainment",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "Feolinn"
       ]
@@ -690,7 +690,7 @@
     {
       "slug": "quicksliver-cabaret",
       "title": "Quicksliver Cabaret",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "Zadash"
       ]
@@ -1701,7 +1701,7 @@
   "linkHandling": {
     "removedCharacterTagLinks": "Replace with plain character names during migration; retain text",
     "omittedPostLinks": "Use approved replacement routes; preserve legacy slugs via redirects during migration",
-    "feolinnGazetteLink": "Add when its source content is migrated",
+    "feolinnGazetteLink": "Implemented with Feolinn migration",
     "renamedFormatArchives": [
       {
         "from": "/tag/session-notes/",
@@ -1741,8 +1741,8 @@
   "summary": {
     "sourcePosts": 170,
     "retainedArchivePosts": 168,
-    "alreadyMigratedPosts": 10,
-    "remainingPostsToMigrate": 158,
+    "alreadyMigratedPosts": 12,
+    "remainingPostsToMigrate": 156,
     "approvedOmissions": 2,
     "untaggedRetainedPosts": [
       "1-5-when-the-cats-away"
