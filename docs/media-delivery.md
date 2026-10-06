@@ -84,3 +84,10 @@ Kat requested removal of both Arc 1 covers for consistency. The two optimized fu
 Adds 110 referenced source images (163.09 MiB), 30.73 MiB of full-size delivery images and 386 responsive variants. Current manifest: 355 source assets and 1,366 delivery files. Production build: 144 pages; media checks cover 999 responsive occurrences, 502 full-size links and 1,366 checksums. Original backup/public files remain unchanged; no bucket objects are deleted. See `fgc-arc-two-migration.json` for upload and public checksum verification.
 
 All 496 new Arc 2 delivery files are uploaded to R2; three representative public downloads match SHA-256 checksums.
+
+
+## The Chosen Season 1 batch (2026-10-06)
+
+Adds 22 source covers (33.46 MiB), 2.81 MiB of full-size delivery images and 88 responsive variants. Current manifest: 377 source assets and 1,476 delivery files. Build: 167 pages; media checks cover 1,188 responsive occurrences, 548 full-size links and 1,476 checksums. Original backup/public images remain unchanged; no bucket objects are deleted. See `chosen-season-one-migration.json` for provenance and upload verification.
+
+All 110 new Season 1 delivery files are uploaded to R2; three representative public downloads match SHA-256 checksums.

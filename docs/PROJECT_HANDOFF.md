@@ -1,20 +1,20 @@
 # Here Be Dragons / Leota Astro — thread handoff
 
-Last updated: 2026-10-06, after migrating Freaky Gray Company Arc 2. This document records project context and user decisions; it is not authorization to deploy, send email, or migrate the full archive. **This current checkpoint takes precedence over the historical milestones below.**
+Last updated: 2026-10-06, after migrating The Chosen Season 1. This document records project context and user decisions; it is not authorization to deploy, send email, or migrate the full archive. **This current checkpoint takes precedence over the historical milestones below.**
 
 ## Goal and current position
 
 Port Kat's Leota Ghost theme and selected content to Astro, preserving the dark design, editable Markdown/MDX, source content and reusable components. Cloudflare hosts the site; Netlify is paused. Kat confirmed live images load from R2.
 
-Main includes PRs #12–#21: Chosen Cast/Rules and PDF download cards, portable R2 media, automatic Markdown image lightboxes, dependency updates, approved tag cleanup, the finished Gazette, City of Mist through Season One, and Freaky Gray Company Arc 1. Current branch `codex/freaky-gray-company-arc-two` migrates all 28 remaining Freaky Gray Company posts, prepared for PR review. Check its merge status before starting another branch from updated `main`.
+Main includes PRs #12–#22: Chosen Cast/Rules and PDF download cards, portable R2 media, automatic Markdown image lightboxes, dependency updates, approved tag cleanup, the finished Gazette, City of Mist through Season One, and both Freaky Gray Company arcs. Current branch `codex/the-chosen-season-one` migrates all 22 Season 1 posts, prepared for PR review. Check its merge status before starting another branch from updated `main`.
 
 Kat approved retaining campaigns, chronology and Gazette locations, removing character, venue and broad/context tags, and consolidating Session Notes/Session Recap into **Session Recaps**. Current post metadata and tag archives reflect this choice; the homepage remains filtered by CoM Season 1. Static 301 rules for former format archives are bundled in `public/_redirects`; Cloudflare runtime behavior remains to be checked after deployment.
 
-Validation: the current R2 production build passes with 144 pages. Media checks cover 999 responsive-image occurrences, 502 full-size links and 1,366 delivery-file checksums. Retained navigation archives and the Session Recaps archive/feed were verified, along with the migration plan and bundled redirects. Documentation-only edits do not require another build.
+Validation: the current R2 production build passes with 167 pages. Media checks cover 1,188 responsive-image occurrences, 548 full-size links and 1,476 delivery-file checksums. Retained navigation archives and the Session Recaps archive/feed were verified, along with the migration plan and bundled redirects. Documentation-only edits do not require another build.
 
 ## Next session
 
-Review/merge the Arc 2 PR. City of Mist and Freaky Gray Company are now migrated through all currently published posts. Next batch: The Chosen Season 1 (22 posts), followed by Season 2 (22) and Season 3 (23). Use a fresh branch from updated main after merge. Kat approved separate branches/PRs per reviewable season or arc. Read [tag-migration-decisions.md](tag-migration-decisions.md) and [tag-migration-plan.json](tag-migration-plan.json): of 170 source posts, 101 already exist, 67 remain to migrate, and two imported duplicates are approved omissions. Feolinn is a Gazette location; Quicksliver Cabaret is under Zadash and its Return to Summary destination exists. Preserve the untagged 1.5 Original and its direct link from the revised post.
+Review/merge The Chosen Season 1 PR. City of Mist and Freaky Gray Company are migrated through all currently published posts. Next batch: The Chosen Season 2 (22 posts), followed by Season 3 (23). Use a fresh branch from updated main after merge. Kat approved separate branches/PRs per reviewable season or arc. Read [tag-migration-decisions.md](tag-migration-decisions.md) and [tag-migration-plan.json](tag-migration-plan.json): of 170 source posts, 123 already exist, 45 remain to migrate, and two imported duplicates are approved omissions. Feolinn is a Gazette location; Quicksliver Cabaret is under Zadash and its Return to Summary destination exists. Preserve the untagged 1.5 Original and its direct link from the revised post.
 
 Kat plans to clean up Arc 1 headings/callouts another time; defer that editorial work. Arc 1's two covers were removed at her request for consistency. Arc 2 uses covers throughout, so its source covers are retained.
 
@@ -356,3 +356,16 @@ All 28 built article bodies match source text; all 82 body images and the format
 This batch prepares 110 referenced source images (171,012,811 bytes), 32,225,388 bytes of full-size delivery files and 386 responsive variants. Original source images and archive remain unchanged. The manifest now covers 355 source assets and 1,366 delivery files. No bucket objects are deleted.
 
 All 496 new Arc 2 delivery files are uploaded to R2; three representative public downloads (optimized PNG artwork, retained JPEG and responsive variant) match their delivery checksums. June 8 table/callout presentation also checked in the local browser.
+
+
+## The Chosen Season 1 batch (2026-10-06)
+
+All 22 Season 1 posts migrated: 21 plain Markdown files and one MDX file for the existing blue Callout. Source titles, slugs, dates, approved tag order, 274 scene separators and all source headings are preserved. The alternate quote and Spotify embed retain HTML; no new editorial headings or callouts were introduced. OOC/Gallery commentary remains intact.
+
+Omitted 21 unrelated shopping-spam paragraphs across 18 posts. Original HTML hashes, paragraph indices, omission hashes and reasons are recorded in [chosen-season-one-migration.json](chosen-season-one-migration.json). The legitimate Wendigo reference in The Campout remains. Source injection fields were not read or migrated. Original backup and public images remain unchanged.
+
+Validation: production build passes with 167 pages. All 22 built article bodies match the source after recorded spam omissions. Scene separator, heading, callout, alternate quote and embed counts match; all season archive links, 17 XML files and the homepage filter were verified. Media checks pass for 1,188 responsive occurrences, 548 full-size links and 1,476 delivery checksums.
+
+This batch prepares 22 source covers (35,084,934 bytes), 2,942,624 bytes of full-size delivery files and 88 responsive variants. Manifest: 377 source assets and 1,476 delivery files. No bucket objects are deleted.
+
+All 110 new Season 1 delivery files are uploaded to R2; three representative public downloads match SHA-256 checksums.
