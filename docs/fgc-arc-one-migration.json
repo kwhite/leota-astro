@@ -1,0 +1,815 @@
+{
+  "batch": "Freaky Gray Company Arc 1",
+  "spamScan": "Reviewed all 37 bodies and external links. Omitted four unrelated shopping spam paragraphs across two posts. Individual injection fields not read or migrated.",
+  "posts": [
+    {
+      "slug": "the-hag-s-observations",
+      "sourceId": "69656c931c553405dce9450f",
+      "title": "The Hag's Observations",
+      "publishedAt": "2023-01-02T22:10:02.000Z",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ],
+      "sourceHtmlSha256": "3efe742cbd9d440a1e36fceeb8f7d86d91b67e93f436ef55b0372dc04bc7715a",
+      "file": "src/content/posts/the-hag-s-observations.md",
+      "omittedParagraphs": 0,
+      "omissions": [],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "images": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "a-nightmare-revealed",
+      "sourceId": "69656c931c553405dce94510",
+      "title": "A Nightmare Revealed",
+      "publishedAt": "2023-01-01T00:25:48.000Z",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ],
+      "sourceHtmlSha256": "4008f630d4dd24e42ba7e315166cdad1bc6620efe6b79a2450282fa3c13106dc",
+      "file": "src/content/posts/a-nightmare-revealed.md",
+      "omittedParagraphs": 0,
+      "omissions": [],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "images": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "into-the-woods",
+      "sourceId": "69656c931c553405dce94511",
+      "title": "Into the Woods",
+      "publishedAt": "2023-01-01T00:19:12.000Z",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ],
+      "sourceHtmlSha256": "dfd63481eeec6a194515672ba20cd7a0fdc8ad77fc8b27b6dd9e1e2c0596a776",
+      "file": "src/content/posts/into-the-woods.md",
+      "omittedParagraphs": 0,
+      "omissions": [],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "images": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "the-bone-orchard",
+      "sourceId": "69656c931c553405dce94512",
+      "title": "The Bone Orchard",
+      "publishedAt": "2022-12-14T03:37:32.000Z",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ],
+      "sourceHtmlSha256": "3557c7d14790e3673ebf1025e895e3191767e7e73cdcec7e1d53e348077374ad",
+      "file": "src/content/posts/the-bone-orchard.md",
+      "omittedParagraphs": 0,
+      "omissions": [],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "images": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "a-new-calling",
+      "sourceId": "69656c931c553405dce94513",
+      "title": "A New Calling",
+      "publishedAt": "2022-12-14T03:33:52.000Z",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ],
+      "sourceHtmlSha256": "4fda390a37bfd6f4b0a11889a205c9ef07980d4d9bb015a00dca9ecbb9ebc843",
+      "file": "src/content/posts/a-new-calling.md",
+      "omittedParagraphs": 0,
+      "omissions": [],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "images": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "respite",
+      "sourceId": "69656c931c553405dce94514",
+      "title": "Respite",
+      "publishedAt": "2022-11-20T22:38:50.000Z",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ],
+      "sourceHtmlSha256": "e44babc6643d6af1e61448dc43d123190076b129274190a4c34fdacd190f1b91",
+      "file": "src/content/posts/respite.md",
+      "omittedParagraphs": 0,
+      "omissions": [],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "images": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "groundskeepers",
+      "sourceId": "69656c931c553405dce94515",
+      "title": "Groundskeepers",
+      "publishedAt": "2022-11-20T20:20:51.000Z",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ],
+      "sourceHtmlSha256": "f92cdc605cfa12231d8f7787a0e71ee96d81a0a3d6d5027e2e1758b4250b5ad4",
+      "file": "src/content/posts/groundskeepers.md",
+      "omittedParagraphs": 0,
+      "omissions": [],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "images": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "the-vampire-rose",
+      "sourceId": "69656c931c553405dce94517",
+      "title": "The Vampire Rose",
+      "publishedAt": "2022-10-30T17:11:06.000Z",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ],
+      "sourceHtmlSha256": "a4fb8e1a4044496f299aef4d226471fc37dfb1e5fbd1d62f3edbe029fc9d669d",
+      "file": "src/content/posts/the-vampire-rose.md",
+      "omittedParagraphs": 0,
+      "omissions": [],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "images": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "homecoming",
+      "sourceId": "69656c931c553405dce94518",
+      "title": "Homecoming",
+      "publishedAt": "2022-10-25T19:27:36.000Z",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ],
+      "sourceHtmlSha256": "b7bd5f7570230b266687d97082f0a1fe78fc70df901479688b231383d9be6895",
+      "file": "src/content/posts/homecoming.md",
+      "omittedParagraphs": 0,
+      "omissions": [],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "images": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "the-lazy-dm-s-guide",
+      "sourceId": "69656c931c553405dce94519",
+      "title": "The Lazy DM’s Guide",
+      "publishedAt": "2022-10-22T16:15:10.000Z",
+      "tags": [
+        "Arc 1",
+        "Freaky Gray Company",
+        "Session Recaps"
+      ],
+      "sourceHtmlSha256": "ea9ac48c75b4aac28a41c729af61577958d226a40310e2cc6a21d1308864fefb",
+      "file": "src/content/posts/the-lazy-dm-s-guide.md",
+      "omittedParagraphs": 0,
+      "omissions": [],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "images": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "c1e27-at-the-river",
+      "sourceId": "69656c931c553405dce9451a",
+      "title": "C1E27: At The River",
+      "publishedAt": "2022-08-14T22:59:11.000Z",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ],
+      "sourceHtmlSha256": "29a2c876f6b9d2624796930ed0fe98c02b19238ead01c1f89ed14e87c081993b",
+      "file": "src/content/posts/c1e27-at-the-river.md",
+      "omittedParagraphs": 0,
+      "omissions": [],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "images": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "ferric-divination",
+      "sourceId": "69656c931c553405dce9451b",
+      "title": "Ferric: Divination",
+      "publishedAt": "2022-08-14T20:44:16.000Z",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ],
+      "sourceHtmlSha256": "0a534a566242e1c266ba4853e8b20dcb5e3b61d7ca25b5867ef618ebb116c2e6",
+      "file": "src/content/posts/ferric-divination.md",
+      "omittedParagraphs": 0,
+      "omissions": [],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "images": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "c1e26-new-friends",
+      "sourceId": "69656c931c553405dce9451c",
+      "title": "C1E26: New Friends",
+      "publishedAt": "2022-08-08T03:21:34.000Z",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ],
+      "sourceHtmlSha256": "c62b9fa5e2b31f141df0b702288028f63ebdfd691ec712c92959668560862c8c",
+      "file": "src/content/posts/c1e26-new-friends.md",
+      "omittedParagraphs": 0,
+      "omissions": [],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "images": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "c1e25-rescue",
+      "sourceId": "69656c931c553405dce9451d",
+      "title": "C1E25: Rescue",
+      "publishedAt": "2022-08-08T03:11:47.000Z",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ],
+      "sourceHtmlSha256": "f84a3f25d006513c00671ab9f32eb56f43f2259bea0b8a3f8c79102d8f309904",
+      "file": "src/content/posts/c1e25-rescue.md",
+      "omittedParagraphs": 0,
+      "omissions": [],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "images": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "c1e24-a-plan-revised",
+      "sourceId": "69656c931c553405dce9451e",
+      "title": "C1E24: A Plan, Revised",
+      "publishedAt": "2022-07-18T02:17:10.000Z",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ],
+      "sourceHtmlSha256": "d7c2d8de32b4259e41f5a7ce0150d9033265d7d27cee6a81861cab66d9a7dbb2",
+      "file": "src/content/posts/c1e24-a-plan-revised.md",
+      "omittedParagraphs": 0,
+      "omissions": [],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "images": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "c1e23-swagger",
+      "sourceId": "69656c931c553405dce9451f",
+      "title": "C1E23: Swagger",
+      "publishedAt": "2022-06-20T23:41:35.000Z",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ],
+      "sourceHtmlSha256": "71a1b3acbbec9d26d475c19767c3e265bc4d15a7819b6082d6d3ec338e8a7ed5",
+      "file": "src/content/posts/c1e23-swagger.md",
+      "omittedParagraphs": 0,
+      "omissions": [],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "images": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "c1e22-a-call-for-help",
+      "sourceId": "69656c931c553405dce94520",
+      "title": "C1E22: A call for help",
+      "publishedAt": "2022-05-28T18:11:15.000Z",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ],
+      "sourceHtmlSha256": "45e353eeae8627a4068e8842347929399fcf821331a448b194ac13d75a77a99e",
+      "file": "src/content/posts/c1e22-a-call-for-help.md",
+      "omittedParagraphs": 0,
+      "omissions": [],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "images": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "c1e21-traces",
+      "sourceId": "69656c931c553405dce94522",
+      "title": "C1E21: Traces",
+      "publishedAt": "2022-05-17T18:34:11.000Z",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ],
+      "sourceHtmlSha256": "2684ab0e06d900f1e929f4fc6d44860cafa0f74d32d6cf97c3351d560a80e58e",
+      "file": "src/content/posts/c1e21-traces.md",
+      "omittedParagraphs": 0,
+      "omissions": [],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "images": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "c1e20-of-frogs-and-family",
+      "sourceId": "69656c931c553405dce94524",
+      "title": "C1E20: Of Frogs and Family",
+      "publishedAt": "2022-04-18T14:58:33.000Z",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ],
+      "sourceHtmlSha256": "060524dba4a0121cad81892dea8957e5d32435ec2955c7bf3a7af848b0c09d0a",
+      "file": "src/content/posts/c1e20-of-frogs-and-family.md",
+      "omittedParagraphs": 0,
+      "omissions": [],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "images": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "c1e19-quoraska",
+      "sourceId": "69656c931c553405dce94525",
+      "title": "C1E19: Quoraska",
+      "publishedAt": "2022-04-13T22:10:23.000Z",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ],
+      "sourceHtmlSha256": "469f74d29fba2a02866317703856497f97fa6a39d3ea978bda3f74dc915cf156",
+      "file": "src/content/posts/c1e19-quoraska.md",
+      "omittedParagraphs": 0,
+      "omissions": [],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "images": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "c1e18-beyond-the-city-gates",
+      "sourceId": "69656c931c553405dce94526",
+      "title": "C1E18: Beyond the City Gates",
+      "publishedAt": "2022-04-08T23:43:10.000Z",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ],
+      "sourceHtmlSha256": "e2f63922dd3dbcff3373f15c8f1fea70a44fb683ce3dca4826abfc761617080f",
+      "file": "src/content/posts/c1e18-beyond-the-city-gates.md",
+      "omittedParagraphs": 0,
+      "omissions": [],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "images": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "c1e17-connections",
+      "sourceId": "69656c931c553405dce94528",
+      "title": "C1E17: Connections",
+      "publishedAt": "2022-03-20T16:50:06.000Z",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ],
+      "sourceHtmlSha256": "5f934920357b32110b93bc1fcae7b60e0d908cc77e315d4ad49774c804a06101",
+      "file": "src/content/posts/c1e17-connections.md",
+      "omittedParagraphs": 2,
+      "omissions": [
+        {
+          "sha256": "228bb128cd2ca2d108feb474d4130d1f232d113e9ce8cc84940305b9b98aea80",
+          "reason": "Unrelated shopping spam"
+        },
+        {
+          "sha256": "b3d4abf57055b19f775006ce9c9f2863f5d437399db8ecb074edc8e5140afbff",
+          "reason": "Unrelated shopping spam"
+        }
+      ],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "images": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "erash-s-first-dream",
+      "sourceId": "69656c931c553405dce94529",
+      "title": "Erash’s First Dream",
+      "publishedAt": "2022-03-20T16:28:26.000Z",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ],
+      "sourceHtmlSha256": "750fee611598a0a2da8e551e82c66e952c778f426c4e1e5b96c5ae258645efca",
+      "file": "src/content/posts/erash-s-first-dream.md",
+      "omittedParagraphs": 2,
+      "omissions": [
+        {
+          "sha256": "f1064b2508c76beea0a39343f81f2df10ba6f86df57bbf22467d73de145fffa1",
+          "reason": "Unrelated shopping spam"
+        },
+        {
+          "sha256": "9f960df294305d8c38802efe5732afa645585dfbe74d2bdc8fd2b6fff79ec73d",
+          "reason": "Unrelated shopping spam"
+        }
+      ],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "images": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "a-battle-of-wits",
+      "sourceId": "69656c931c553405dce9452a",
+      "title": "A Battle of Wits",
+      "publishedAt": "2022-03-20T16:21:43.000Z",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ],
+      "sourceHtmlSha256": "89ef219bbc35ab41811e61f3ff14ea834c05ed0b8f55d3b2a5ec8c1eef19153f",
+      "file": "src/content/posts/a-battle-of-wits.md",
+      "omittedParagraphs": 0,
+      "omissions": [],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "images": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "khoraka-s-second-dream",
+      "sourceId": "69656c931c553405dce9452b",
+      "title": "Khoraka’s Second Dream",
+      "publishedAt": "2022-03-17T21:59:42.000Z",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ],
+      "sourceHtmlSha256": "efd4fa75768ada91c60491d135ae2ea5243e57af44d680390b39c8acffbd4197",
+      "file": "src/content/posts/khoraka-s-second-dream.md",
+      "omittedParagraphs": 0,
+      "omissions": [],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "images": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "c1e16-illuminations",
+      "sourceId": "69656c931c553405dce9452c",
+      "title": "C1E16: Illuminations",
+      "publishedAt": "2022-03-17T20:59:56.000Z",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ],
+      "sourceHtmlSha256": "5fe5c2e5abd482cdd962b9535049f9219077662efa6c94497731cd22e70d3672",
+      "file": "src/content/posts/c1e16-illuminations.md",
+      "omittedParagraphs": 0,
+      "omissions": [],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "images": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "c1e15-homeward-bound",
+      "sourceId": "69656c931c553405dce9452e",
+      "title": "C1E15: Homeward Bound",
+      "publishedAt": "2022-03-09T15:57:47.000Z",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ],
+      "sourceHtmlSha256": "3455d246c1b194ae0875aed8c6ffaad2d8d1008e281961da833d783621b74f05",
+      "file": "src/content/posts/c1e15-homeward-bound.md",
+      "omittedParagraphs": 0,
+      "omissions": [],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "images": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "c1e14-a-complicated-relationship",
+      "sourceId": "69656c931c553405dce94530",
+      "title": "C1E14:  A Complicated Relationship",
+      "publishedAt": "2022-03-01T04:00:47.000Z",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ],
+      "sourceHtmlSha256": "59fe0181ff30df576523f4db42ff249b4ca4c6ff7ec7e430193f17f90f7af493",
+      "file": "src/content/posts/c1e14-a-complicated-relationship.md",
+      "omittedParagraphs": 0,
+      "omissions": [],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "images": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "c1e14-quarry-lost-and-found",
+      "sourceId": "69656c931c553405dce94531",
+      "title": "C1E14:  Quarry, Lost and Found",
+      "publishedAt": "2022-02-28T16:33:02.000Z",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ],
+      "sourceHtmlSha256": "0276711aa67d46e99ee4f9402e9680b3b17ae49597c8cd5d5368a6d8ed1bd66d",
+      "file": "src/content/posts/c1e14-quarry-lost-and-found.md",
+      "omittedParagraphs": 0,
+      "omissions": [],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "images": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "c1e13-to-grandmother-s-house",
+      "sourceId": "69656c931c553405dce94532",
+      "title": "C1E13:  To Grandmother’s House",
+      "publishedAt": "2022-02-21T22:41:56.000Z",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ],
+      "sourceHtmlSha256": "7f55413b8797efd94711e18adce47a276035737ea6dc1586eff7daddfa6f4235",
+      "file": "src/content/posts/c1e13-to-grandmother-s-house.md",
+      "omittedParagraphs": 0,
+      "omissions": [],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "images": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "c1e12-swamp-things",
+      "sourceId": "69656c931c553405dce94533",
+      "title": "C1E12:  Swamp Things",
+      "publishedAt": "2022-02-17T03:59:27.000Z",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ],
+      "sourceHtmlSha256": "3228597fa2a8810e659406cc1f459e5caee31755de09b479bdd4e5c38b8d4f83",
+      "file": "src/content/posts/c1e12-swamp-things.md",
+      "omittedParagraphs": 0,
+      "omissions": [],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "images": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "c1e11-labenda-awaits",
+      "sourceId": "69656c931c553405dce94534",
+      "title": "C1E11: Labenda Awaits",
+      "publishedAt": "2022-02-08T02:13:59.000Z",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ],
+      "sourceHtmlSha256": "31188296cf0e1a5c477c1bc727b838e7694455844dae13afb254fdae07ed6a01",
+      "file": "src/content/posts/c1e11-labenda-awaits.md",
+      "omittedParagraphs": 0,
+      "omissions": [],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "images": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "c1e10-with-great-haste",
+      "sourceId": "69656c931c553405dce94535",
+      "title": "C1E10:  With Great Haste",
+      "publishedAt": "2022-02-02T04:10:57.000Z",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ],
+      "sourceHtmlSha256": "6d33ca0bcd5980cca471a1fa957c0aabd9927a27cd8cf2bde18bd112664fa300",
+      "file": "src/content/posts/c1e10-with-great-haste.md",
+      "omittedParagraphs": 0,
+      "omissions": [],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "images": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "c1e9-building-a-mystery",
+      "sourceId": "69656c931c553405dce94536",
+      "title": "C1E9:  Building a Mystery",
+      "publishedAt": "2022-02-01T04:22:51.000Z",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ],
+      "sourceHtmlSha256": "f06b921b2dc954db923601f18a15cdcfc5f155312c8e42f859381aec85a0b3a1",
+      "file": "src/content/posts/c1e9-building-a-mystery.md",
+      "omittedParagraphs": 0,
+      "omissions": [],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "images": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "c1e8-elinore-s-plea",
+      "sourceId": "69656c931c553405dce94538",
+      "title": "C1E8: Elinore's Plea",
+      "publishedAt": "2022-02-01T00:12:57.000Z",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ],
+      "sourceHtmlSha256": "4732efd95ec8556f69e2c94c46b7497845208e3f9fa8a0369b3d9daef5989a3f",
+      "file": "src/content/posts/c1e8-elinore-s-plea.md",
+      "omittedParagraphs": 0,
+      "omissions": [],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "images": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "c1e1-7-original-session-notes",
+      "sourceId": "69656c931c553405dce94539",
+      "title": "C1E1-7: Original Session Notes",
+      "publishedAt": "2021-10-16T19:24:00.000Z",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ],
+      "sourceHtmlSha256": "3e26d36470a7df03285aa0572c9777c1250a3626daa3d821826f5dde7ae17659",
+      "file": "src/content/posts/c1e1-7-original-session-notes.md",
+      "omittedParagraphs": 0,
+      "omissions": [],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "images": 0,
+      "embeds": 0,
+      "callouts": 0
+    },
+    {
+      "slug": "2022-01-14-things-get-weird",
+      "sourceId": "69658db51c553405dce945f8",
+      "title": "2023-01-14: Things get Weird",
+      "publishedAt": "2023-01-14T06:00:00.000Z",
+      "tags": [
+        "Freaky Gray Company",
+        "Arc 1"
+      ],
+      "sourceHtmlSha256": "59028e3c50a91186d8ec3c63c46d40f85dbd99594c81efb6c8eafa5f2630254b",
+      "file": "src/content/posts/2022-01-14-things-get-weird.md",
+      "omittedParagraphs": 0,
+      "omissions": [],
+      "removedArchiveLinks": 0,
+      "removedBrokenLinks": 0,
+      "disclosures": 0,
+      "images": 0,
+      "embeds": 0,
+      "callouts": 0
+    }
+  ],
+  "editorialNotes": [
+    "Preserve source titles, slugs and dates, including the 2023 title on the 2022-01-14-things-get-weird source slug. Gallery prefixes remain intentional OOC shorthand. Four unrelated shopping spam paragraphs omitted; campaign prose and legitimate external links retained. Corrected Elinore legacy body link to the migrated canonical slug; added redirects. Connections restores the Cabaret Return to Summary destination.",
+    "Kat requested omission of the only two Arc 1 covers for consistency. Both full-size optimized files and all seven variants deleted from R2; original backup/public images retained."
+  ],
+  "mediaDelivery": {
+    "newAssets": 0,
+    "responsiveVariants": 0,
+    "previouslyUploadedObjects": 9,
+    "deletedObjects": 9,
+    "totalAssets": 245,
+    "totalDeliveryFiles": 870,
+    "deletionReason": "User requested removal of both Arc 1 covers and their optimized bucket versions",
+    "deletedDeliveryPaths": [
+      "/assets/images/2026/01/powerful_flamingo_11677_A_powerful_still_life._A_vintage_handhe_386a2189-19bf-4e7c-a0a3-d2033e4747d9.webp",
+      "/assets/images/2026/01/powerful_flamingo_11677_A_powerful_still_life._A_vintage_handhe_386a2189-19bf-4e7c-a0a3-d2033e4747d9.w320.webp",
+      "/assets/images/2026/01/powerful_flamingo_11677_A_powerful_still_life._A_vintage_handhe_386a2189-19bf-4e7c-a0a3-d2033e4747d9.w640.webp",
+      "/assets/images/2026/01/powerful_flamingo_11677_A_powerful_still_life._A_vintage_handhe_386a2189-19bf-4e7c-a0a3-d2033e4747d9.w960.webp",
+      "/assets/images/2026/05/musetta._super_tight_closeup_of_the_eerie_eyes_of_an_evil_dem_2d87ce94-35b5-470d-b394-12eff58fc148_0-1.webp",
+      "/assets/images/2026/05/musetta._super_tight_closeup_of_the_eerie_eyes_of_an_evil_dem_2d87ce94-35b5-470d-b394-12eff58fc148_0-1.w320.webp",
+      "/assets/images/2026/05/musetta._super_tight_closeup_of_the_eerie_eyes_of_an_evil_dem_2d87ce94-35b5-470d-b394-12eff58fc148_0-1.w640.webp",
+      "/assets/images/2026/05/musetta._super_tight_closeup_of_the_eerie_eyes_of_an_evil_dem_2d87ce94-35b5-470d-b394-12eff58fc148_0-1.w960.webp",
+      "/assets/images/2026/05/musetta._super_tight_closeup_of_the_eerie_eyes_of_an_evil_dem_2d87ce94-35b5-470d-b394-12eff58fc148_0-1.w1280.webp"
+    ]
+  },
+  "validation": {
+    "buildPages": 111,
+    "sourceBodiesPreservedAfterRecordedOmissions": 37,
+    "responsiveImageOccurrences": 657,
+    "fullSizeLinks": 354,
+    "deliveryChecksums": 870,
+    "internalBodyLinks": 4,
+    "xmlFiles": 15,
+    "campaignPagination": true,
+    "arcPagination": true,
+    "homepageFilterPreserved": true,
+    "cabaretReturnLinkRestored": true
+  },
+  "omittedSourceCovers": [
+    {
+      "source": "/assets/images/2026/05/musetta._super_tight_closeup_of_the_eerie_eyes_of_an_evil_dem_2d87ce94-35b5-470d-b394-12eff58fc148_0-1.png",
+      "sourceSha256": "93ac85350633033bddb1b76f9fc5d5c391690ef8b3d9222eca3a77e7227f5d6e",
+      "sourceBytes": 1663223
+    },
+    {
+      "source": "/assets/images/2026/01/powerful_flamingo_11677_A_powerful_still_life._A_vintage_handhe_386a2189-19bf-4e7c-a0a3-d2033e4747d9.png",
+      "sourceSha256": "735af3aaf14eb0d30bfed353f0ef848249e8f7870418dff6c653a9e435be060c",
+      "sourceBytes": 1410999
+    }
+  ],
+  "media": []
+}

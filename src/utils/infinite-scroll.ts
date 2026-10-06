@@ -10,6 +10,11 @@ export function initInfiniteScroll(selector = '.post-feed') {
   let isLoading = false;
   let failed = false;
 
+  // Manual links are a fallback; appended pages are already in this listing.
+  if (currentPage < maxPages) {
+    document.querySelector<HTMLElement>('.feed-pagination')?.setAttribute('hidden', '');
+  }
+
   const infiniteScroll = async () => {
     if (isLoading || failed || currentPage >= maxPages) return;
     if (window.scrollY + window.innerHeight < document.documentElement.scrollHeight - 100) return;
@@ -28,13 +33,17 @@ export function initInfiniteScroll(selector = '.post-feed') {
       currentPage = nextPage;
       postFeed.dataset.currentPage = String(currentPage);
 
-      // Keep manual navigation accurate after loading more content.
+      // Keep the fallback accurate without showing redundant navigation.
       const pagination = document.querySelector('.feed-pagination');
       const nextPagination = documentFragment.querySelector('.feed-pagination');
-      if (pagination && nextPagination) pagination.replaceWith(nextPagination);
+      if (pagination && nextPagination) {
+        nextPagination.setAttribute('hidden', '');
+        pagination.replaceWith(nextPagination);
+      }
     } catch (error) {
       if (!controller.signal.aborted) {
         failed = true;
+        document.querySelector('.feed-pagination')?.removeAttribute('hidden');
         console.error('Error loading next page; pagination links remain available:', error);
       }
     } finally {

@@ -1,6 +1,6 @@
 {
   "date": "2026-10-06",
-  "status": "Approved taxonomy cleanup; bulk migration not started",
+  "status": "Approved taxonomy cleanup; scoped content migration in progress",
   "canonicalFormatTag": "Session Recaps",
   "homepageFilter": "CoM Season 1",
   "preserveBackupExport": true,
@@ -325,7 +325,7 @@
     },
     {
       "slug": "the-vintners-respite",
-      "title": "The Vintner\u2019s Respite",
+      "title": "The Vintner’s Respite",
       "action": "retain-existing",
       "tags": [
         "Kamordah"
@@ -494,7 +494,7 @@
     {
       "slug": "the-hag-s-observations",
       "title": "The Hag's Observations",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "Freaky Gray Company",
         "Arc 1"
@@ -503,7 +503,7 @@
     {
       "slug": "a-nightmare-revealed",
       "title": "A Nightmare Revealed",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "Freaky Gray Company",
         "Arc 1"
@@ -512,7 +512,7 @@
     {
       "slug": "into-the-woods",
       "title": "Into the Woods",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "Freaky Gray Company",
         "Arc 1"
@@ -521,7 +521,7 @@
     {
       "slug": "the-bone-orchard",
       "title": "The Bone Orchard",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "Freaky Gray Company",
         "Arc 1"
@@ -530,7 +530,7 @@
     {
       "slug": "a-new-calling",
       "title": "A New Calling",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "Freaky Gray Company",
         "Arc 1"
@@ -539,7 +539,7 @@
     {
       "slug": "respite",
       "title": "Respite",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "Freaky Gray Company",
         "Arc 1"
@@ -548,7 +548,7 @@
     {
       "slug": "groundskeepers",
       "title": "Groundskeepers",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "Freaky Gray Company",
         "Arc 1"
@@ -565,7 +565,7 @@
     {
       "slug": "the-vampire-rose",
       "title": "The Vampire Rose",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "Freaky Gray Company",
         "Arc 1"
@@ -574,7 +574,7 @@
     {
       "slug": "homecoming",
       "title": "Homecoming",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "Freaky Gray Company",
         "Arc 1"
@@ -582,8 +582,8 @@
     },
     {
       "slug": "the-lazy-dm-s-guide",
-      "title": "The Lazy DM\u2019s Guide",
-      "action": "migrate",
+      "title": "The Lazy DM’s Guide",
+      "action": "retain-existing",
       "tags": [
         "Arc 1",
         "Freaky Gray Company",
@@ -593,7 +593,7 @@
     {
       "slug": "c1e27-at-the-river",
       "title": "C1E27: At The River",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "Freaky Gray Company",
         "Arc 1"
@@ -602,7 +602,7 @@
     {
       "slug": "ferric-divination",
       "title": "Ferric: Divination",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "Freaky Gray Company",
         "Arc 1"
@@ -611,7 +611,7 @@
     {
       "slug": "c1e26-new-friends",
       "title": "C1E26: New Friends",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "Freaky Gray Company",
         "Arc 1"
@@ -620,7 +620,7 @@
     {
       "slug": "c1e25-rescue",
       "title": "C1E25: Rescue",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "Freaky Gray Company",
         "Arc 1"
@@ -629,7 +629,7 @@
     {
       "slug": "c1e24-a-plan-revised",
       "title": "C1E24: A Plan, Revised",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "Freaky Gray Company",
         "Arc 1"
@@ -638,7 +638,7 @@
     {
       "slug": "c1e23-swagger",
       "title": "C1E23: Swagger",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "Freaky Gray Company",
         "Arc 1"
@@ -647,7 +647,7 @@
     {
       "slug": "c1e22-a-call-for-help",
       "title": "C1E22: A call for help",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "Freaky Gray Company",
         "Arc 1"
@@ -656,7 +656,7 @@
     {
       "slug": "c1e21-traces",
       "title": "C1E21: Traces",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "Freaky Gray Company",
         "Arc 1"
@@ -665,7 +665,7 @@
     {
       "slug": "c1e20-of-frogs-and-family",
       "title": "C1E20: Of Frogs and Family",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "Freaky Gray Company",
         "Arc 1"
@@ -674,7 +674,7 @@
     {
       "slug": "c1e19-quoraska",
       "title": "C1E19: Quoraska",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "Freaky Gray Company",
         "Arc 1"
@@ -683,7 +683,7 @@
     {
       "slug": "c1e18-beyond-the-city-gates",
       "title": "C1E18: Beyond the City Gates",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "Freaky Gray Company",
         "Arc 1"
@@ -700,7 +700,7 @@
     {
       "slug": "c1e17-connections",
       "title": "C1E17: Connections",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "Freaky Gray Company",
         "Arc 1"
@@ -708,8 +708,8 @@
     },
     {
       "slug": "erash-s-first-dream",
-      "title": "Erash\u2019s First Dream",
-      "action": "migrate",
+      "title": "Erash’s First Dream",
+      "action": "retain-existing",
       "tags": [
         "Freaky Gray Company",
         "Arc 1"
@@ -718,7 +718,7 @@
     {
       "slug": "a-battle-of-wits",
       "title": "A Battle of Wits",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "Freaky Gray Company",
         "Arc 1"
@@ -726,8 +726,8 @@
     },
     {
       "slug": "khoraka-s-second-dream",
-      "title": "Khoraka\u2019s Second Dream",
-      "action": "migrate",
+      "title": "Khoraka’s Second Dream",
+      "action": "retain-existing",
       "tags": [
         "Freaky Gray Company",
         "Arc 1"
@@ -736,7 +736,7 @@
     {
       "slug": "c1e16-illuminations",
       "title": "C1E16: Illuminations",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "Freaky Gray Company",
         "Arc 1"
@@ -752,7 +752,7 @@
     {
       "slug": "c1e15-homeward-bound",
       "title": "C1E15: Homeward Bound",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "Freaky Gray Company",
         "Arc 1"
@@ -768,7 +768,7 @@
     {
       "slug": "c1e14-a-complicated-relationship",
       "title": "C1E14:  A Complicated Relationship",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "Freaky Gray Company",
         "Arc 1"
@@ -777,7 +777,7 @@
     {
       "slug": "c1e14-quarry-lost-and-found",
       "title": "C1E14:  Quarry, Lost and Found",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "Freaky Gray Company",
         "Arc 1"
@@ -785,8 +785,8 @@
     },
     {
       "slug": "c1e13-to-grandmother-s-house",
-      "title": "C1E13:  To Grandmother\u2019s House",
-      "action": "migrate",
+      "title": "C1E13:  To Grandmother’s House",
+      "action": "retain-existing",
       "tags": [
         "Freaky Gray Company",
         "Arc 1"
@@ -795,7 +795,7 @@
     {
       "slug": "c1e12-swamp-things",
       "title": "C1E12:  Swamp Things",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "Freaky Gray Company",
         "Arc 1"
@@ -804,7 +804,7 @@
     {
       "slug": "c1e11-labenda-awaits",
       "title": "C1E11: Labenda Awaits",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "Freaky Gray Company",
         "Arc 1"
@@ -813,7 +813,7 @@
     {
       "slug": "c1e10-with-great-haste",
       "title": "C1E10:  With Great Haste",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "Freaky Gray Company",
         "Arc 1"
@@ -822,7 +822,7 @@
     {
       "slug": "c1e9-building-a-mystery",
       "title": "C1E9:  Building a Mystery",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "Freaky Gray Company",
         "Arc 1"
@@ -831,7 +831,7 @@
     {
       "slug": "c1e8-elinore-s-plea",
       "title": "C1E8: Elinore's Plea",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "Freaky Gray Company",
         "Arc 1"
@@ -840,7 +840,7 @@
     {
       "slug": "c1e1-7-original-session-notes",
       "title": "C1E1-7: Original Session Notes",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "Freaky Gray Company",
         "Arc 1"
@@ -849,7 +849,7 @@
     {
       "slug": "2022-01-14-things-get-weird",
       "title": "2023-01-14: Things get Weird",
-      "action": "migrate",
+      "action": "retain-existing",
       "tags": [
         "Freaky Gray Company",
         "Arc 1"
@@ -1716,7 +1716,15 @@
         "status": "Static archive/feed redirects implemented"
       }
     ],
-    "removedCategoryTagLinks": "Replace removed venue/context archive links with their visible text during migration"
+    "removedCategoryTagLinks": "Replace removed venue/context archive links with their visible text during migration",
+    "legacyPostAliases": [
+      {
+        "from": "/elinores-plea/",
+        "to": "/c1e8-elinore-s-plea/",
+        "redirectStatus": 301,
+        "reason": "Legacy source body link"
+      }
+    ]
   },
   "legacySlugChanges": [
     {
@@ -1743,8 +1751,8 @@
   "summary": {
     "sourcePosts": 170,
     "retainedArchivePosts": 168,
-    "alreadyMigratedPosts": 36,
-    "remainingPostsToMigrate": 132,
+    "alreadyMigratedPosts": 73,
+    "remainingPostsToMigrate": 95,
     "approvedOmissions": 2,
     "untaggedRetainedPosts": [
       "1-5-when-the-cats-away"
