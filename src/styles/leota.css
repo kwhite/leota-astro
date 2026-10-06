@@ -92,7 +92,6 @@ html.dark-mode .leota .site-footer { background: var(--color-darkmode); padding-
 .leota .site-footer-nav { margin: 0 auto; }
 .leota .site-footer-nav a::before { content: none; }
 .leota .site-footer-nav a { margin: 0; }
-.leota .site-footer .poweredby { color: var(--color-secondary-text); }
 
 /* Article hero and content grid: derived from Leota's article-hero/gh-canvas. */
 .leota-article { padding-bottom: max(8vmin, 64px); overflow-wrap: break-word; }
