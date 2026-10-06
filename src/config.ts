@@ -24,7 +24,7 @@ export const SITE_CONFIG = {
 // Keep the original destinations recorded while their pages await migration.
 export const PRIMARY_NAVIGATION = [
   { label: 'City of Mist', href: '/city-of-mist/', available: true },
-  { label: 'Freaky Gray Company', href: '/the-freaky-gray-company/', available: false },
+  { label: 'Freaky Gray Company', href: '/the-freaky-gray-company/', available: true },
   { label: 'The Chosen', href: '/the-chosen/', available: true },
   { label: 'About', href: '/about/', available: true },
 ];
@@ -38,6 +38,15 @@ export const CAMPAIGN_NAVIGATION = {
       { id: 'neighborhoods', label: 'Neighborhoods', href: '/neighborhoods-in-the-city/', available: true },
       { id: 'people', label: 'People', href: '/people-in-the-city/', available: true },
       { id: 'summaries', label: 'Session Summaries', href: '/tag/city-of-mist/', available: true },
+    ],
+  },
+  'freaky-gray-company': {
+    label: 'Freaky Gray Company',
+    links: [
+      { id: 'overview', label: 'Overview', href: '/the-freaky-gray-company/', available: true },
+      { id: 'people', label: 'Characters', href: '/fgc-characters/', available: true },
+      { id: 'gazette', label: 'Wildemount Gazette', href: '/the-wildemount-gazette/', available: false },
+      { id: 'summaries', label: 'Session Summaries', href: '/tag/freaky-gray-company/', available: true },
     ],
   },
   'the-chosen': {

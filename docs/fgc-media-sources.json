@@ -1,0 +1,173 @@
+{
+  "note": "Original FGC overview/characters media copied unchanged from the October 3 Ghost backup; bulk files remain outside Git.",
+  "assets": [
+    {
+      "url": "/assets/images/2025/01/IMG_0478-1.jpeg",
+      "source": "images/2025/01/IMG_0478-1.jpeg",
+      "bytes": 66339,
+      "sha256": "20b52122340a6f27cc03e941d684481b4bf80fc18da24ad4bed1914e89af29d2"
+    },
+    {
+      "url": "/assets/images/2025/01/IMG_0480-1.jpeg",
+      "source": "images/2025/01/IMG_0480-1.jpeg",
+      "bytes": 59438,
+      "sha256": "8b8beb7a88700b89e4d0badcadfb3b53d79f675b8c938b35071a40241d0d17e1"
+    },
+    {
+      "url": "/assets/images/2025/01/IMG_0484-1.jpeg",
+      "source": "images/2025/01/IMG_0484-1.jpeg",
+      "bytes": 69281,
+      "sha256": "c2f968f45b3bacfcfaba22635c0d699330d21c1c011bb7282f20b6d05983aa4f"
+    },
+    {
+      "url": "/assets/images/2025/01/IMG_0485-1.webp",
+      "source": "images/2025/01/IMG_0485-1.webp",
+      "bytes": 152378,
+      "sha256": "c2ef3fced83001a58a35117b5a8e5c57343b46b636cf7a15550fc11c4c9ae715"
+    },
+    {
+      "url": "/assets/images/2025/01/Phelan-Ahearn-1.jpeg",
+      "source": "images/2025/01/Phelan-Ahearn-1.jpeg",
+      "bytes": 71344,
+      "sha256": "cf6008adc1418ffbc04d8632bb47ccce35754413f7c70f13a398dd9bb0ebf05f"
+    },
+    {
+      "url": "/assets/images/2025/02/A47C30F9-2A72-42C3-B154-6350DD350F2B.png",
+      "source": "images/2025/02/A47C30F9-2A72-42C3-B154-6350DD350F2B.png",
+      "bytes": 2709830,
+      "sha256": "03e4a0fce4caa33e186a5a716646f1cc2d75382f245d8573bcda4322836e8bae"
+    },
+    {
+      "url": "/assets/images/2025/02/D97E67F0-56A9-4DCC-8990-4C09EDA59106.png",
+      "source": "images/2025/02/D97E67F0-56A9-4DCC-8990-4C09EDA59106.png",
+      "bytes": 2267971,
+      "sha256": "0b0a11b4c60dd005042b8935a944f65dc2473f9afabebb445f04ed75123a3b65"
+    },
+    {
+      "url": "/assets/images/2025/02/IMG_0552.jpeg",
+      "source": "images/2025/02/IMG_0552.jpeg",
+      "bytes": 203872,
+      "sha256": "d9606d5ddf52e326a4c57b621903869bc20a37d613d84e4bd947d62e3c6b9cbd"
+    },
+    {
+      "url": "/assets/images/2025/02/IMG_0553.jpeg",
+      "source": "images/2025/02/IMG_0553.jpeg",
+      "bytes": 170355,
+      "sha256": "759fcbe0e50f0dbe6af8bfb54cf563963d9bc8bcade0d2019e38e150e437ee2a"
+    },
+    {
+      "url": "/assets/images/2025/02/u7178828134_A_high_fantasy_photorealistic_image_of_a_female_w_daf1960d-7050-4929-9942-1d1ac88179a3_1.png",
+      "source": "images/2025/02/u7178828134_A_high_fantasy_photorealistic_image_of_a_female_w_daf1960d-7050-4929-9942-1d1ac88179a3_1.png",
+      "bytes": 1739752,
+      "sha256": "e1f5889a2c8e7e741f09e78a857c219e96036a385e223d0790bb4e4f58f2573f"
+    },
+    {
+      "url": "/assets/images/2025/07/musetta._generate_a_portrait_style_image_of_this_character_in_229eba30-8587-454a-8b77-17c3eeb79b98_0.png",
+      "source": "images/2025/07/musetta._generate_a_portrait_style_image_of_this_character_in_229eba30-8587-454a-8b77-17c3eeb79b98_0.png",
+      "bytes": 1575657,
+      "sha256": "5903fbc2996c2b55031a2f2b7a94c8f5a892ad8bb7b7ac2951b1214fe1e4f2b8"
+    },
+    {
+      "url": "/assets/images/2025/07/valgara.png",
+      "source": "images/2025/07/valgara.png",
+      "bytes": 844357,
+      "sha256": "737d1dc957769f14808b13c0fbd57502f568f22e47c3669e8df6d06a7fb2b108"
+    },
+    {
+      "url": "/assets/images/2026/05/look-a-dragon-4.png",
+      "source": "images/2026/05/look-a-dragon-4.png",
+      "bytes": 2028523,
+      "sha256": "ff1be9a7025a9a2726a154526e919bcc8b52c1d5f1d633af90f05a7f261ce5f3"
+    },
+    {
+      "url": "/assets/images/2026/05/look-a-dragon.png",
+      "source": "images/2026/05/look-a-dragon.png",
+      "bytes": 2028523,
+      "sha256": "ff1be9a7025a9a2726a154526e919bcc8b52c1d5f1d633af90f05a7f261ce5f3"
+    },
+    {
+      "url": "/assets/images/2026/05/musetta._super_tight_closeup_of_the_eerie_eyes_of_an_evil_dem_2d87ce94-35b5-470d-b394-12eff58fc148_0.png",
+      "source": "images/2026/05/musetta._super_tight_closeup_of_the_eerie_eyes_of_an_evil_dem_2d87ce94-35b5-470d-b394-12eff58fc148_0.png",
+      "bytes": 1663223,
+      "sha256": "93ac85350633033bddb1b76f9fc5d5c391690ef8b3d9222eca3a77e7227f5d6e"
+    },
+    {
+      "url": "/assets/images/2026/05/wildemount-1.jpg",
+      "source": "images/2026/05/wildemount-1.jpg",
+      "bytes": 229218,
+      "sha256": "28cd392e39e24ebdaa884c788df347a5fdb606d4efa80e7b8d3a5b299d5f4575"
+    },
+    {
+      "url": "/assets/images/icon/favicon-1.png",
+      "source": "images/icon/favicon-1.png",
+      "bytes": 4710,
+      "sha256": "be6cef0757496a21bd8028cec4bc6886e16a2ad5f3c82ece11270883518a2485"
+    },
+    {
+      "url": "/assets/images/icon/favicon-2.png",
+      "source": "images/icon/favicon-2.png",
+      "bytes": 4710,
+      "sha256": "be6cef0757496a21bd8028cec4bc6886e16a2ad5f3c82ece11270883518a2485"
+    },
+    {
+      "url": "/assets/images/icon/favicon-3.png",
+      "source": "images/icon/favicon-3.png",
+      "bytes": 4710,
+      "sha256": "be6cef0757496a21bd8028cec4bc6886e16a2ad5f3c82ece11270883518a2485"
+    },
+    {
+      "url": "/assets/images/icon/favicon-4.png",
+      "source": "images/icon/favicon-4.png",
+      "bytes": 4710,
+      "sha256": "be6cef0757496a21bd8028cec4bc6886e16a2ad5f3c82ece11270883518a2485"
+    },
+    {
+      "url": "/assets/images/icon/favicon-5.png",
+      "source": "images/icon/favicon-5.png",
+      "bytes": 4710,
+      "sha256": "be6cef0757496a21bd8028cec4bc6886e16a2ad5f3c82ece11270883518a2485"
+    },
+    {
+      "url": "/assets/images/icon/favicon.png",
+      "source": "images/icon/favicon.png",
+      "bytes": 4710,
+      "sha256": "be6cef0757496a21bd8028cec4bc6886e16a2ad5f3c82ece11270883518a2485"
+    },
+    {
+      "url": "/assets/images/thumbnail/og-monsters-1.png",
+      "source": "images/thumbnail/og-monsters-1.png",
+      "bytes": 450134,
+      "sha256": "0745722c8faf293a071910be24dd059e8b637b387c69b8c9a927b20df1fd25cf"
+    },
+    {
+      "url": "/assets/images/thumbnail/og-monsters-2.png",
+      "source": "images/thumbnail/og-monsters-2.png",
+      "bytes": 450134,
+      "sha256": "0745722c8faf293a071910be24dd059e8b637b387c69b8c9a927b20df1fd25cf"
+    },
+    {
+      "url": "/assets/images/thumbnail/og-monsters-3.png",
+      "source": "images/thumbnail/og-monsters-3.png",
+      "bytes": 450134,
+      "sha256": "0745722c8faf293a071910be24dd059e8b637b387c69b8c9a927b20df1fd25cf"
+    },
+    {
+      "url": "/assets/images/thumbnail/og-monsters-4.png",
+      "source": "images/thumbnail/og-monsters-4.png",
+      "bytes": 450134,
+      "sha256": "0745722c8faf293a071910be24dd059e8b637b387c69b8c9a927b20df1fd25cf"
+    },
+    {
+      "url": "/assets/images/thumbnail/og-monsters-5.png",
+      "source": "images/thumbnail/og-monsters-5.png",
+      "bytes": 450134,
+      "sha256": "0745722c8faf293a071910be24dd059e8b637b387c69b8c9a927b20df1fd25cf"
+    },
+    {
+      "url": "/assets/images/thumbnail/og-monsters.png",
+      "source": "images/thumbnail/og-monsters.png",
+      "bytes": 450134,
+      "sha256": "0745722c8faf293a071910be24dd059e8b637b387c69b8c9a927b20df1fd25cf"
+    }
+  ]
+}
