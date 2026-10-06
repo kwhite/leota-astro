@@ -354,3 +354,5 @@ Migrates all 28 remaining campaign posts: 17 Markdown files and 11 MDX files for
 All 28 built article bodies match source text; all 82 body images and the formatted structures were verified. Production build: 144 pages. Media checks: 999 responsive occurrences, 502 full-size links and 1,366 delivery checksums. XML feeds, homepage filter, Arc 2 and campaign pagination pass. The December 27 mixed-size gallery and its five-image lightbox were checked in the local browser. See [fgc-arc-two-migration.json](fgc-arc-two-migration.json) for source/media provenance and validation.
 
 This batch prepares 110 referenced source images (171,012,811 bytes), 32,225,388 bytes of full-size delivery files and 386 responsive variants. Original source images and archive remain unchanged. The manifest now covers 355 source assets and 1,366 delivery files. No bucket objects are deleted.
+
+All 496 new Arc 2 delivery files are uploaded to R2; three representative public downloads (optimized PNG artwork, retained JPEG and responsive variant) match their delivery checksums. June 8 table/callout presentation also checked in the local browser.

@@ -1188,7 +1188,8 @@
     "campaignPagination": true,
     "arcPagination": true,
     "homepageFilterPreserved": true,
-    "galleryLightboxBrowserCheck": "December 27 gallery opens a five-image viewer with caption and closes correctly; narrow gallery layout inspected."
+    "galleryLightboxBrowserCheck": "December 27 gallery opens a five-image viewer with caption and closes correctly; narrow gallery layout inspected.",
+    "tableAndCalloutBrowserCheck": "June 8 Markdown fire-resistance table and yellow callout inspected in local browser."
   },
   "mediaDelivery": {
     "newAssets": 110,
@@ -1197,6 +1198,12 @@
     "responsiveVariants": 386,
     "totalAssets": 355,
     "totalDeliveryFiles": 1366,
-    "deletedObjects": 0
+    "deletedObjects": 0,
+    "uploadedObjects": 496,
+    "publicDeliveryChecksumsVerified": [
+      "/assets/images/2025/02/u7178828134_High_fantasy_style_image_of_a_country_manor_house_bd5c93be-c817-4c7b-83cd-6319d5e484dc_0.webp",
+      "/assets/images/2025/04/IMG_0579.jpeg",
+      "/assets/images/2026/04/musetta._vast_stone_pillars_in_a_green_field_sense_of_serenit_6b92ed6a-b2c6-4767-b784-c3005ac03c37_1.w320.webp"
+    ]
   }
 }
