@@ -27,7 +27,24 @@ Objects use a one-hour cache policy because their names are stable rather than c
 
 ## Local previews and validation
 
-`pnpm dev` serves original local images. For optimized local delivery, prepare media, leave `MEDIA_BASE_URL` unset, run `pnpm build`, then `pnpm preview`. The local build validates checksums and includes only manifest delivery files. For an R2 preview, set `MEDIA_BASE_URL` during the build instead.
+Fresh checkouts work online with `pnpm dev` and `pnpm build`: the manifest's public R2 URL is the default, and `MEDIA_BASE_URL` can override it. Development serves checksum-valid optimized cache files first and redirects missing/stale files to R2. Original backup files are not required.
+
+For offline media, run once while connected:
+
+```sh
+node scripts/download-media.mjs
+```
+
+This downloads only the manifest's optimized images, responsive variants and PDFs into ignored `.media-delivery/` (about 114 MiB currently). No credentials are needed. Downloads are checksum-verified; rerunning skips valid files and fetches new/changed ones. Restart development after manifest changes. Delete `.media-delivery/` whenever you no longer need the cache.
+
+For a build with bundled cached media:
+
+```sh
+MEDIA_MODE=local pnpm build
+pnpm preview
+```
+
+Local mode requires the complete cache and checks every file's checksum. This provides offline media; Astro's separate Google font integration may still require an initial connected run/cache, so a brand-new checkout is not guaranteed to build completely offline. Responsive-media validation uses the same `MEDIA_MODE` and `MEDIA_BASE_URL` settings as the build.
 
 Both local and R2 builds passed with 42 pages. Generated references and XML feeds were checked; all uploaded object names and sizes matched the manifest, and six representative public downloads matched SHA-256 checksums. The quality decision is documented in [media-optimization-pilot.md](media-optimization-pilot.md).
 

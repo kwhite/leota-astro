@@ -281,3 +281,7 @@ Local and R2 builds pass (62 pages), validating 263 responsive images, 191 full-
 Kat requested visual distinction for the PDF links. `FileDownload.astro` restores the exported file-card treatment with title, filename, size, download icon, hover and visible keyboard focus. All seven Cast downloads use it. Local theme CSS had no file-card rules; this is an Astro implementation based on the available export markup. Desktop appearance and phone-width overflow verified; R2 links remain unchanged.
 
 Cast source cleanup: removed five invisible Unicode line separators (U+2028) after character names in headings. Ordinary LF line endings and the final newline were already correct; visible text is unchanged.
+
+## Portable development media (2026-10-06)
+
+Kat approved R2 by default with an optional optimized offline cache. `pnpm dev` serves valid cached delivery files and redirects missing/stale assets to R2. `pnpm build` defaults to the manifest public URL; `MEDIA_BASE_URL` overrides it. `node scripts/download-media.mjs` downloads/checksums the 529 current delivery files (about 114 MiB), skipping valid cached files. `MEDIA_MODE=local pnpm build` explicitly bundles the cache. No original backups or credentials are required on a second machine. This covers offline media, not guaranteed first-run offline Google fonts. See media-delivery.md. Tag discussion remains next; no content/tag migration performed.

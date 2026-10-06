@@ -4,7 +4,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { createHash } from 'node:crypto';
 const manifest = JSON.parse(await fs.readFile('docs/media-delivery-manifest.json', 'utf8'));
-const remote = process.env.MEDIA_BASE_URL?.replace(/\/$/, '') || '';
+const remote = process.env.MEDIA_MODE === 'local' ? '' : (process.env.MEDIA_BASE_URL || manifest.publicDevelopmentUrl).replace(/\/$/, '');
 const files = manifest.assets.flatMap(a => [a, ...(a.variants || [])]);
 const expected = new Map(files.map(a => [remote + a.delivery, a]));
 let responsive = 0;
