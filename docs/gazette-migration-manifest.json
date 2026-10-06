@@ -92,6 +92,56 @@
       "sourceHtmlSha256": "1a17fc413b893cacb1169096155312edb94add4ae542f41bf6d79a6f8fe61f61",
       "tables": 2,
       "omittedParagraphs": 1
+    },
+    {
+      "slug": "feolinn-shops-eateries-entertainment",
+      "sourceId": "69656c931c553405dce94516",
+      "title": "Feolinn Shops, Eateries & Entertainment",
+      "tags": [
+        "Feolinn"
+      ],
+      "publishedAt": "2022-11-10T21:36:49.000Z",
+      "sourceHtmlSha256": "e2b62b850c9c8822ac8a5fd330723e2e33d41e67f6ea043259022e7442613a0a",
+      "tables": 0,
+      "omittedParagraphs": 2,
+      "omissions": [
+        {
+          "paragraphIndex": 94,
+          "reason": "Unrelated shopping spam",
+          "sha256": "4fadae51846ff2eaf981289c0d19430773a8b31a88ff0907aa18a8087ab14e29"
+        },
+        {
+          "paragraphIndex": 95,
+          "reason": "Unrelated shopping spam",
+          "sha256": "45361bd34753d1f52e4a1c671a02dbcc88088ffdc51a18fa0326a3143563d68f"
+        }
+      ],
+      "editorialNotes": [
+        "Restored heading hierarchy from standalone section/venue paragraphs. Preserved source typos and unlinked Visit/Dine/Stay labels; no missing destinations invented.",
+        "Restored the four-item vineyard list and Wharf heading hierarchy."
+      ]
+    },
+    {
+      "slug": "quicksliver-cabaret",
+      "sourceId": "69656c931c553405dce94527",
+      "title": "Quicksliver Cabaret",
+      "tags": [
+        "Zadash"
+      ],
+      "publishedAt": "2022-03-20T17:50:43.000Z",
+      "sourceHtmlSha256": "baeeb8c16037bcddce46719c3dba917ab0ecd2eeec07bbbd51b62dcf2d062024",
+      "tables": 0,
+      "omittedParagraphs": 1,
+      "omissions": [
+        {
+          "paragraphIndex": 1,
+          "reason": "Unrelated shopping spam",
+          "sha256": "e0c3a52a4663016f2fa01336764c265f6302d4470e2d577aab5cc0dd5435c775"
+        }
+      ],
+      "editorialNotes": [
+        "Restored section/performer headings and paragraph breaks from flattened import labels; preserved source title/slug spelling and prose. Return to Summary points to the original local destination, which remains pending migration. Export contains a map credit but no map image or URL; none invented."
+      ]
     }
   ],
   "omissions": [
