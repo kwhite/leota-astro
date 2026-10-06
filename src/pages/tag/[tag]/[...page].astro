@@ -19,6 +19,9 @@ export async function getStaticPaths({ paginate }: any) {
     });
   });
   
+  // Tags with a metadata record get an archive even before their posts are migrated.
+  (await getCollection('tags')).forEach(entry => tagSlugs.add(entry.data.name.toLowerCase().replace(/\s+/g, '-')));
+
   const paths: any[] = [];
   
   for (const tag of Array.from(tagSlugs)) {
@@ -74,6 +77,7 @@ const title = tagInfo?.name || capitalize(tagName);
     <main id="site-main" class="site-main outer" role="main">
         <div class="inner">
             <ArchiveHeader title={title} description={tagDescription} cover={tagCover} />
+            {page.total === 0 && <p class="archive-empty">Summaries for this collection are on their way.</p>}
             <div class="post-feed" data-current-page={page.currentPage} data-max-pages={maxPages} data-base-url={getAssetUrl(`/tag/${tag}/`)}>
                 {page.data.map((post: any) => (
                     <PostCard post={post} />

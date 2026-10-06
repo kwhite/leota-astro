@@ -1,0 +1,65 @@
+{
+  "note": "The Chosen page media copied unchanged from the Ghost media backup at original paths (cover, season card backgrounds, cast gallery). Local/untracked like other bulk media; optimization pending.",
+  "assets": [
+    {
+      "publicUrl": "/assets/images/2026/05/desktop740.jpg",
+      "source": "ghost-media-backup-2026-10-03/images/2026/05/desktop740.jpg",
+      "bytes": 47774,
+      "sha256": "560a0170ff789701470c7fb5783fc1d23b65ccd0e0298e595e3d98dc167dff9a"
+    },
+    {
+      "publicUrl": "/assets/images/2026/07/class-of-2007-1.webp",
+      "source": "ghost-media-backup-2026-10-03/images/2026/07/class-of-2007-1.webp",
+      "bytes": 132958,
+      "sha256": "449e61384af509fff67b25341934e77f0dcd3f37a218c50ba9c80170039f4b3f"
+    },
+    {
+      "publicUrl": "/assets/images/2026/07/natural-order.webp",
+      "source": "ghost-media-backup-2026-10-03/images/2026/07/natural-order.webp",
+      "bytes": 38486,
+      "sha256": "7047e73568afd66160be16a3130bb2e98320a168a0010a53a688e8503aea09ef"
+    },
+    {
+      "publicUrl": "/assets/images/2026/07/barrier.webp",
+      "source": "ghost-media-backup-2026-10-03/images/2026/07/barrier.webp",
+      "bytes": 92738,
+      "sha256": "273ad51fbae3f9093266f563a8d05bebc7c657bc87059220423ab7ba2efe8147"
+    },
+    {
+      "publicUrl": "/assets/images/2026/02/deaver.png",
+      "source": "ghost-media-backup-2026-10-03/images/2026/02/deaver.png",
+      "bytes": 129464,
+      "sha256": "51128f23b8b2cb1bfe60ddafef08d045e1507dcc5106dface4c6a3166f62c736"
+    },
+    {
+      "publicUrl": "/assets/images/2026/02/chase.png",
+      "source": "ghost-media-backup-2026-10-03/images/2026/02/chase.png",
+      "bytes": 118039,
+      "sha256": "d725c657a39fd6d7ada7efa6577583de94f4013bdedc793c4e727d7e00505622"
+    },
+    {
+      "publicUrl": "/assets/images/2026/02/gabe.png",
+      "source": "ghost-media-backup-2026-10-03/images/2026/02/gabe.png",
+      "bytes": 119112,
+      "sha256": "6a1ee73de44f85ae45fc93153e51a8d59d729897b62d6480a53080e6fcecf468"
+    },
+    {
+      "publicUrl": "/assets/images/2026/02/geoff.png",
+      "source": "ghost-media-backup-2026-10-03/images/2026/02/geoff.png",
+      "bytes": 120158,
+      "sha256": "19190b9004518813bb535c5063668a2aa0b4816c78c2cbbffbcec69b902db1c0"
+    },
+    {
+      "publicUrl": "/assets/images/2026/02/raveena.png",
+      "source": "ghost-media-backup-2026-10-03/images/2026/02/raveena.png",
+      "bytes": 122346,
+      "sha256": "6bcb58246047668555b65dca54eafa7deb3c0a7e15d07613290f2af2c30b48ed"
+    },
+    {
+      "publicUrl": "/assets/images/2026/02/stefan.png",
+      "source": "ghost-media-backup-2026-10-03/images/2026/02/stefan.png",
+      "bytes": 130210,
+      "sha256": "3506ebd0fce5a344e7f97eb565f270e5831640f5c57de8716a81bb4a6cdaad76"
+    }
+  ]
+}
