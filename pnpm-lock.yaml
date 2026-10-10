@@ -27,6 +27,9 @@ importers:
       typescript:
         specifier: ^7.0.2
         version: 7.0.2
+      ultrahtml:
+        specifier: 1.7.0
+        version: 1.7.0
 
 packages:
 
