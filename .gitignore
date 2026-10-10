@@ -33,3 +33,6 @@ pnpm-debug.log*
 
 # Local configuration files
 .npmrc
+
+# Private email configuration, previews and send history (never deploy)
+.email/
