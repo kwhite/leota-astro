@@ -5,13 +5,41 @@
     --blue: var(--ghost-accent-color);
     --color-darkmode: #151719;
     --color-secondary-text: #979797;
+    --color-text: rgba(255,255,255,.75);
+    --color-heading: #fff;
+    --color-heading-soft: rgba(255,255,255,.9);
+    --color-caption: rgba(255,255,255,.6);
+    --color-border: #424242;
+    --color-panel: #1c1f21;
+    --color-panel-hover: #24282b;
+    --color-input: #242629;
+    --color-code: #000;
+    --color-pre: #0d0f12;
+    --color-focus: #fff;
+    --color-on-accent: #fff;
     --content-width: 900px;
     --container-width: 1200px;
 }
 
 html.dark-mode { color-scheme: dark; }
-html.dark-mode body.leota {
-    color: rgba(255, 255, 255, 0.75);
+html.light-mode {
+    color-scheme: light;
+    --color-darkmode: #fff;
+    --color-text: #34383c;
+    --color-heading: #151719;
+    --color-heading-soft: #242629;
+    --color-secondary-text: #62676c;
+    --color-caption: #62676c;
+    --color-border: #c9ced3;
+    --color-panel: #f4f5f7;
+    --color-panel-hover: #e9ecf0;
+    --color-input: #f4f5f7;
+    --color-code: #eef0f3;
+    --color-pre: #f4f5f7;
+    --color-focus: #151719;
+}
+html body.leota {
+    color: var(--color-text);
     background: var(--color-darkmode);
     font-family: var(--font-body), sans-serif;
 }
@@ -19,7 +47,7 @@ html.dark-mode body.leota {
 .leota .outer { padding-inline: max(4vmin, 20px); }
 .leota .inner { max-width: var(--container-width); width: 100%; }
 .leota a:focus-visible, .leota summary:focus-visible {
-    outline: 2px solid #fff;
+    outline: 2px solid var(--color-focus);
     outline-offset: 6px;
 }
 .leota .skip-link {
@@ -28,14 +56,14 @@ html.dark-mode body.leota {
     top: 12px;
     left: 20px;
     padding: 12px 20px;
-    color: #fff;
+    color: var(--color-on-accent);
     background: var(--ghost-accent-color);
     transform: translateY(-160%);
 }
 .leota .skip-link:focus { transform: none; }
 
 /* Header: Leota's 88px navigation and logo-on-cover arrangement. */
-html.dark-mode .leota .site-header { background: var(--ghost-accent-color); padding-block: 0; }
+html .leota .site-header { background: var(--ghost-accent-color); padding-block: 0; }
 .leota .site-header::before, .leota .site-header::after { display: none; }
 .publication-nav {
     display: flex;
@@ -47,7 +75,7 @@ html.dark-mode .leota .site-header { background: var(--ghost-accent-color); padd
     font-size: 1.6rem;
     font-weight: 600;
     line-height: 1.3;
-    color: #fff;
+    color: var(--color-on-accent);
 }
 .publication-logo { display: block; flex-shrink: 0; }
 .publication-logo img { display: block; width: 40px; height: 40px; object-fit: contain; }
@@ -73,7 +101,7 @@ html.dark-mode .leota .site-header { background: var(--ghost-accent-color); padd
     display: flex;
     align-items: center;
     padding: calc(19vmin + 44px) max(4vmin, 20px) 19vmin;
-    color: #fff;
+    color: var(--color-on-accent);
     background: var(--ghost-accent-color);
 }
 .publication-navigation { position: absolute; inset: 0 0 auto; z-index: 200; }
@@ -87,7 +115,7 @@ html.dark-mode .leota .site-header { background: var(--ghost-accent-color); padd
 .leota.home-template .post-feed::before { display: none; }
 
 /* Shared footer, with publication secondary navigation. */
-html.dark-mode .leota .site-footer { background: var(--color-darkmode); padding-block: 48px; }
+html .leota .site-footer { background: var(--color-darkmode); padding-block: 48px; }
 .leota .site-footer-content { display: flex; flex-wrap: wrap; align-items: center; gap: 24px; font-size: 1.3rem; }
 .leota .site-footer-nav { margin: 0 auto; }
 .leota .site-footer-nav a::before { content: none; }
@@ -116,7 +144,7 @@ html.dark-mode .leota .site-footer { background: var(--color-darkmode); padding-
 .article-hero:not(.has-image) .article-hero-content { padding-block: max(6.4vmin, 40px); }
 .article-tag { margin: 0 0 16px; font-size: 1.6rem; font-weight: 600; }
 .article-tag a { color: var(--color-secondary-text); }
-.article-title { margin: 0; color: #fff; font-size: clamp(3.2rem, 5vw, 5.2rem); font-weight: 800; line-height: 1.05; }
+.article-title { margin: 0; color: var(--color-heading); font-size: clamp(3.2rem, 5vw, 5.2rem); font-weight: 800; line-height: 1.05; }
 .article-excerpt { margin: 20px 0 0; max-width: 720px; font-size: 2rem; line-height: 1.45; color: var(--color-secondary-text); }
 .article-hero.has-image .article-excerpt { color: rgba(255,255,255,.85); }
 .article-hero.has-image .article-tag a { color: rgba(255,255,255,.7); }
@@ -124,12 +152,12 @@ html.dark-mode .leota .site-footer { background: var(--color-darkmode); padding-
 .leota-content { font-family: var(--font-body), sans-serif; font-size: 2rem; line-height: 1.6; }
 .leota-content > * { margin: 0; }
 .leota-content > * + * { margin-top: max(3.2vmin, 24px); }
-.leota-content > :is(h1,h2,h3,h4,h5,h6) { margin: 0; color: rgba(255,255,255,.9); }
+.leota-content > :is(h1,h2,h3,h4,h5,h6) { margin: 0; color: var(--color-heading-soft); }
 .leota-content > :is(h1,h2,h3,h4,h5,h6):not(:first-child) { margin-top: 2em; }
 .leota-content > :is(h1,h2,h3,h4,h5,h6) + * { margin-top: 1.5rem; }
 .leota-content h2 { font-size: 3.2rem; line-height: 1.2; }
 .leota-content h3 { font-size: 2.8rem; line-height: 1.3; }
-.leota-content a { color: #fff; text-decoration: underline; overflow-wrap: anywhere; }
+.leota-content a { color: var(--color-heading); text-decoration: underline; overflow-wrap: anywhere; }
 .leota-content :is(ul,ol) { padding-left: 1.9em; }
 .leota-content li p { margin-block: .5em; }
 .leota-content blockquote { position: relative; padding: 0; border: 0; font-size: inherit; font-style: italic; line-height: inherit; }
@@ -141,14 +169,14 @@ html.dark-mode .leota .site-footer { background: var(--color-darkmode); padding-
 .leota-content :is(img,video) { display: block; max-width: 100%; height: auto; margin-inline: auto; }
 .leota-content iframe { display: block; max-width: 100%; border: 0; }
 .leota-content iframe[src*="open.spotify.com/embed"] { border-radius: 12px; overflow: hidden; }
-.leota-content pre { max-width: 100%; overflow-x: auto; padding: 20px; font-size: 1.4rem; background: #0d0f12; border-radius: 5px; }
-.leota-content :not(pre) > code { padding: .15em .4em; font-size: .9em; background: #000; border-radius: .25em; }
+.leota-content pre { max-width: 100%; overflow-x: auto; padding: 20px; font-size: 1.4rem; background: var(--color-pre); border-radius: 5px; }
+.leota-content :not(pre) > code { padding: .15em .4em; font-size: .9em; background: var(--color-code); border-radius: .25em; }
 .leota-content table { display: block; width: 100%; max-width: 100%; overflow-x: auto; border-collapse: collapse; font-size: 1.7rem; }
-.leota-content table :is(th,td) { padding: 12px 16px; border-bottom: 1px solid #424242; text-align: left; }
-.leota-content table th { color: #fff; font-weight: 700; }
+.leota-content table :is(th,td) { padding: 12px 16px; border-bottom: 1px solid var(--color-border); text-align: left; }
+.leota-content table th { color: var(--color-heading); font-weight: 700; }
 .leota-content figcaption { font-size: 1.4rem; color: var(--color-secondary-text); text-align: center; }
-.leota-content hr { border: 0; border-top: 1px solid #424242; }
-.leota-content .leota-disclosure { padding: 20px 24px; border: 1px solid #424242; border-radius: 8px; }
+.leota-content hr { border: 0; border-top: 1px solid var(--color-border); }
+.leota-content .leota-disclosure { padding: 20px 24px; border: 1px solid var(--color-border); border-radius: 8px; }
 .leota-content .leota-disclosure > summary { cursor: pointer; font-weight: 700; }
 .leota-content .leota-disclosure[open] > summary { margin-bottom: 20px; }
 .leota-content .leota-disclosure > div > :first-child { margin-top: 0; }
@@ -164,10 +192,10 @@ html.dark-mode .leota .site-footer { background: var(--color-darkmode); padding-
     .publication-mobile-nav { display: block; }
     .publication-mobile-nav summary { display: flex; flex-direction: column; justify-content: center; gap: 7px; width: 44px; height: 44px; cursor: pointer; list-style: none; }
     .publication-mobile-nav summary::-webkit-details-marker { display: none; }
-    .publication-mobile-nav summary span { display: block; width: 26px; height: 2px; margin-left: auto; background: #fff; }
+    .publication-mobile-nav summary span { display: block; width: 26px; height: 2px; margin-left: auto; background: currentColor; }
     .publication-mobile-nav[open] summary span:first-child { transform: translateY(4.5px) rotate(45deg); }
     .publication-mobile-nav[open] summary span:last-child { transform: translateY(-4.5px) rotate(-45deg); }
-    .leota .publication-mobile-nav .publication-links { position: absolute; inset: 100% calc(-1 * max(4vmin,20px)) auto; display: flex; flex-direction: column; align-items: flex-start; gap: 24px; padding: 28px max(4vmin,20px); background: var(--color-darkmode); box-shadow: 0 12px 20px #0004; }
+    .leota .publication-mobile-nav .publication-links { position: absolute; inset: 100% calc(-1 * max(4vmin,20px)) auto; display: flex; flex-direction: column; align-items: flex-start; gap: 24px; padding: 28px max(4vmin,20px); background: var(--ghost-accent-color); box-shadow: 0 12px 20px #0004; }
     .leota-recent-grid { gap: 24px; }
 }
 @media (max-width: 767px) {
@@ -193,8 +221,8 @@ html.dark-mode .leota .site-footer { background: var(--color-darkmode); padding-
     margin: 0;
     padding: max(4.8vmin, 36px) 0;
 }
-html.dark-mode .leota .site-main { background: var(--color-darkmode); }
-html.dark-mode .leota .post-card {
+html .leota .site-main { background: var(--color-darkmode); }
+html .leota .post-card {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -212,11 +240,11 @@ html.dark-mode .leota .post-card {
 .leota .post-card-image-link { position: relative; display: block; overflow: hidden; margin-bottom: 32px; aspect-ratio: 1 / .55; }
 .leota .post-card-image { display: block; width: 100%; height: 100%; object-fit: cover; opacity: .9; }
 .leota .post-card-content { display: flex; flex-direction: column; flex-grow: 1; }
-.leota .post-card-content-link { display: block; color: #fff; text-decoration: none; }
+.leota .post-card-content-link { display: block; color: var(--color-heading); text-decoration: none; }
 .leota .post-card-content-link:hover .post-card-title { opacity: .9; }
 .leota .post-card-tags { display: block; margin: 0 0 10px; font-size: 1.4rem; font-weight: 600; line-height: 1.2; color: var(--color-secondary-text); }
-.leota .post-card-title { margin: 0; font-size: 2.6rem; font-weight: 800; line-height: 1.2; color: #fff; }
-html.dark-mode .leota .post-card-excerpt {
+.leota .post-card-title { margin: 0; font-size: 2.6rem; font-weight: 800; line-height: 1.2; color: var(--color-heading); }
+html .leota .post-card-excerpt {
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
@@ -234,7 +262,7 @@ html.dark-mode .leota .post-card-excerpt {
 .leota .post-card-meta-length::before { content: ''; width: 2px; height: 2px; border-radius: 50%; background: currentColor; }
 .leota .post-card.no-image { justify-content: center; }
 .leota .feed-pagination { display: flex; flex-wrap: wrap; justify-content: center; gap: 24px; padding: 36px 0; font-size: 1.5rem; }
-.leota .feed-pagination a { color: #fff; }
+.leota .feed-pagination a { color: var(--color-heading); }
 .leota .feed-pagination[hidden] { display: none; }
 
 /* Archive summaries match Leota's large introductory card, outside the feed
@@ -244,17 +272,17 @@ html.dark-mode .leota .post-card-excerpt {
 .archive-image img { display: block; width: 100%; height: 100%; object-fit: cover; opacity: .9; }
 .archive-content { min-width: 0; }
 .archive-intro:not(.has-image) .archive-content { grid-column: span 2; }
-.archive-content h1 { margin: 0; color: #fff; font-size: 4.4rem; font-weight: 800; line-height: 1.05; }
+.archive-content h1 { margin: 0; color: var(--color-heading); font-size: 4.4rem; font-weight: 800; line-height: 1.05; }
 .archive-content p { margin: 16px 0 0; font-size: 1.6rem; line-height: 1.5; }
 .archive-portrait { display: block; border-radius: 50%; object-fit: cover; margin: 0 0 20px; }
 .archive-meta { margin-top: 24px; font-size: 1.5rem; }
 .archive-meta-links { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 12px; }
-.archive-meta-links a { color: #fff; }
+.archive-meta-links a { color: var(--color-heading); }
 .page-template .leota-article { padding-bottom: max(12vmin,64px); }
 .page-template .article-hero:not(.has-image) .article-hero-content { padding-block: max(12vmin,64px) max(3.2vmin,28px); }
 
 @media (min-width: 1001px) {
-    html.dark-mode .leota .post-card-large { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 4vmin; }
+    html .leota .post-card-large { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 4vmin; }
     .leota .post-feed > .post-card-large { grid-column: span 6; }
     .leota .post-card-large .post-card-image-link { grid-column: span 2; margin: 0; }
     .leota .post-card-large .post-card-content { grid-column: span 1; }
@@ -298,10 +326,10 @@ html.dark-mode .leota .post-card-excerpt {
 .leota-content :is(.kg-gallery-image,.kg-image-card) > a { display: block; cursor: zoom-in; }
 .leota-content .kg-gallery-image a { height: 100%; }
 .leota-content .kg-gallery-image img { width: 100%; height: 100%; object-fit: contain; }
-.leota-content figcaption { padding: 1.5rem 1.5rem 0; font-size: 1.3rem; line-height: 1.4; color: rgba(255,255,255,.6); }
+.leota-content figcaption { padding: 1.5rem 1.5rem 0; font-size: 1.3rem; line-height: 1.4; color: var(--color-caption); }
 .leota-content figcaption p { margin: 0; }
 .leota-content .kg-embed-card { display: flex; flex-direction: column; align-items: center; width: 100%; }
-.leota-content .kg-bookmark-card a.kg-bookmark-container { display: flex; overflow: hidden; color: #fff; text-decoration: none; background: var(--color-darkmode); border: 1px solid rgb(124 139 154 / 25%); border-radius: 6px; }
+.leota-content .kg-bookmark-card a.kg-bookmark-container { display: flex; overflow: hidden; color: var(--color-heading); text-decoration: none; background: var(--color-darkmode); border: 1px solid rgb(124 139 154 / 25%); border-radius: 6px; }
 .leota-content .kg-bookmark-content { display: flex; flex: 1 1 100%; flex-direction: column; align-items: flex-start; min-width: 0; padding: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif; }
 .leota-content .kg-bookmark-title { font-size: 15px; font-weight: 600; line-height: 1.4em; }
 .leota-content .kg-bookmark-description { display: -webkit-box; max-height: 44px; margin-top: 3px; overflow: hidden; font-size: 14px; line-height: 1.5em; opacity: .7; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
@@ -355,3 +383,13 @@ html.dark-mode .leota .post-card-excerpt {
 .campaign-page .district-description > p:empty { display: none; }
 .campaign-page .migration-note { font-size: 1.5rem; color: var(--color-secondary-text); }
 .campaign-page .content-banner + .district-description { margin-top: 28px; }
+
+/* Text on photographs and the image viewer retain their overlay palette. */
+.article-hero.has-image .article-title { color: #fff; }
+.leota .site-footer, .leota .site-footer a { color: var(--color-secondary-text); }
+.leota .site-footer a:hover { color: var(--color-heading); }
+
+.leota .publication-nav :is(a,summary):focus-visible { outline-color: var(--color-on-accent); }
+.leota .publication-header :is(a,summary):focus-visible,
+.leota .article-hero.has-image a:focus-visible,
+.leota .image-lightbox a:focus-visible { outline-color: #fff; }

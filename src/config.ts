@@ -1,6 +1,11 @@
 // Publication settings recovered from the 2026-10-03 Ghost export.
 export const SITE_CONFIG = {
   title: 'Game Notes & Summaries',
+  // Campaign presentation: publication-wide, rather than a visitor preference.
+  theme: 'dark' as 'light' | 'dark',
+  accentColor: '#572b9e',
+  accentTextColor: '#ffffff', // Use dark text with a pale accent.
+
   description: 'All the things I write down from all the games we play.',
   cover: 'assets/images/2026/05/musetta._dramatic_low_angle_looking_up_at_six_silhouetted_figur_8e265eba-592c-4a9d-8900-251bc271583a.png',
   logo: 'assets/images/2025/01/IMG_0489.png',

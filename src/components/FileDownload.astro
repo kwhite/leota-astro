@@ -14,8 +14,8 @@ const { file, title, size, caption, filename = file.split('/').pop() } = Astro.p
     </a>
 </div>
 <style>
-    .kg-file-card-container { display: flex; align-items: center; gap: 24px; padding: 22px 24px; border: 1px solid #424242; border-radius: 6px; color: #fff; background: #1c1f21; text-decoration: none; }
-    .kg-file-card-container:hover { border-color: var(--ghost-accent-color); background: #24282b; }
+    .kg-file-card-container { display: flex; align-items: center; gap: 24px; padding: 22px 24px; border: 1px solid var(--color-border); border-radius: 6px; color: var(--color-heading); background: var(--color-panel); text-decoration: none; }
+    .kg-file-card-container:hover { border-color: var(--ghost-accent-color); background: var(--color-panel-hover); }
     .kg-file-card-container:focus-visible { outline: 2px solid var(--ghost-accent-color); outline-offset: 4px; }
     .kg-file-card-contents { flex: 1; min-width: 0; }
     .kg-file-card-title { font-size: 1.8rem; font-weight: 700; line-height: 1.4; }

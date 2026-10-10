@@ -10,8 +10,8 @@ const { label, links } = CAMPAIGN_NAVIGATION[campaign];
         : <span aria-disabled="true">{link.label}</span>)}
 </nav>
 <style>
-    .campaign-nav { display: flex; flex-wrap: wrap; gap: 4px 24px; padding-block: 10px; border-block: 1px solid #424242; }
+    .campaign-nav { display: flex; flex-wrap: wrap; gap: 4px 24px; padding-block: 10px; border-block: 1px solid var(--color-border); }
     .campaign-nav a, .campaign-nav span { display: inline-flex; align-items: center; min-height: 44px; font-size: 1.2rem; font-weight: 600; letter-spacing: .02em; text-transform: uppercase; color: var(--color-secondary-text); text-decoration: none; }
-    .campaign-nav a:hover, .campaign-nav a[aria-current] { color: #fff; text-decoration: underline; text-decoration-color: #a47be0; text-underline-offset: 6px; }
+    .campaign-nav a:hover, .campaign-nav a[aria-current] { color: var(--color-heading); text-decoration: underline; text-decoration-color: var(--ghost-accent-color); text-underline-offset: 6px; }
     .campaign-nav span { opacity: .5; }
 </style>
