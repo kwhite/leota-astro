@@ -42,6 +42,14 @@ Read [post-authoring.md](docs/post-authoring.md) and [page-authoring.md](docs/pa
 
 For a change, edit the content, prepare/upload any new media, build, and inspect the affected pages. Commit the intended source and manifest files on a branch, then open a pull request into `main`. Keep drafts unpublished unless explicitly approved.
 
+## Campaign appearance
+
+Set `theme` to `'light'` or `'dark'` and `accentColor` to a CSS color in `src/config.ts`. `accentTextColor` controls text on accent backgrounds: use white for a dark accent and dark text for a pale accent. These are publication-wide settings, applied after rebuilding; there is no visitor theme toggle. The default remains dark with the current purple accent.
+
+Shared page, article, archive, bookmark, download, and checklist colors follow the theme. Cover-photo text and the image viewer keep their overlay colors; blue/yellow callouts and consent status colors keep their meaning. Email previews have their own dark layout.
+
+Check navigation, buttons, and keyboard focus contrast when choosing a new accent, then review representative pages at desktop and mobile sizes. See [campaign-appearance.md](docs/campaign-appearance.md) for examples and the review checklist.
+
 ## Media and backups
 
 The media manifest is `docs/media-delivery-manifest.json`. Content keeps its familiar `/assets/images/…` and `/assets/files/…` paths; the build maps them to optimized public delivery URLs.

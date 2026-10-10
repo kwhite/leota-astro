@@ -9,7 +9,9 @@ Page content lives in `src/content/pages/`. Use **Markdown (`.md`) for simple pa
 | `people-in-the-city.mdx` | People data in frontmatter and a movable directory component |
 | `com-system-modifications.md` | Rules prose, tables and callouts |
 | `about.md` | About title, cover and prose |
-| `dm-resources.mdx` | Intro, Patreon card gallery and link previews grouped under headings |
+| `dm-resources.mdx` | Intro and link previews grouped under headings |
+
+Campaign-wide colors and light/dark mode are publication settings rather than page frontmatter; see [campaign-appearance.md](campaign-appearance.md).
 
 ## Compose a page in the body
 

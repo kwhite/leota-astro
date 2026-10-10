@@ -37,7 +37,7 @@ const bodyClass = current === 'home' ? 'home-template' : `${current || 'page'}-t
 ---
 
 <!DOCTYPE html>
-<html lang="en" class="dark-mode">
+<html lang="en" class={`${SITE_CONFIG.theme}-mode`} style={`--ghost-accent-color: ${SITE_CONFIG.accentColor}; --color-on-accent: ${SITE_CONFIG.accentTextColor};`}>
 <head>
     <BaseHead
       title={title}

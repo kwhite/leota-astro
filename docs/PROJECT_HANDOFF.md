@@ -2,6 +2,16 @@
 
 Last updated: 2026-10-06, after the remaining published pages and internal link audit. This document records project context and user decisions; it is not authorization to deploy or send email. **This current checkpoint takes precedence over historical milestones below.**
 
+## Cleanup checkpoint (2026-10-10)
+
+PRs #27–#30 are merged: custom media domain, production workers.dev URL settings, reduced font preloads/footer cleanup, and the optional email helper plus removal of the DM Resources Patreon gallery. Earlier branch/PR instructions below are historical. The README has been rewritten for the actual project.
+
+Campaign appearance now uses `SITE_CONFIG.theme`, `accentColor`, and `accentTextColor` in `src/config.ts`. Shared styles follow light/dark palettes; the current dark/purple default is retained. Cover-photo text and image-viewer overlays retain their contrast treatments, and semantic callout/consent colors remain distinct. Email layout remains independently dark. See [campaign-appearance.md](campaign-appearance.md).
+
+Validation: light and dark production builds each pass with 219 pages. Local browser review covered the light homepage, Resources page and checklist, the checklist at 390px, and the restored dark Resources page. Existing MDX bundler warnings remain. Kat accepted the light preview. These checks do not imply exhaustive page-by-page review or contrast validation for arbitrary future accent colors. Theme changes have not been deployed during this work.
+
+Automatic Cloudflare branch builds still need dashboard confirmation. Preserve untracked original images/PDFs and local `.claude/` configuration; the bulk-original storage/sync policy remains unresolved. README security review found no credentials in that document; a repository-wide secret audit has not been performed. Deferred editorial and source-injection review items below remain applicable.
+
 ## Goal and current position
 
 Port Kat's Leota Ghost theme and content to Astro, preserving the dark design, editable Markdown/MDX, source content and reusable components. Cloudflare hosts the site; Netlify is paused. Kat confirmed live images load from R2.

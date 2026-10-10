@@ -38,4 +38,10 @@ const { people, label = 'People' } = Astro.props;
     .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
     @media (max-width: 1023px) { .people-grid { grid-template-columns: repeat(2, minmax(0,1fr)); } }
     @media (max-width: 480px) { .people-grid { grid-template-columns: 1fr; gap: 28px; } }
+    :global(html.light-mode) .person-card { background: var(--color-panel); border-color: var(--color-border); }
+    :global(html.light-mode) .person-info { border-color: var(--color-border); }
+    :global(html.light-mode) .person-info h2 { color: var(--color-heading); }
+    :global(html.light-mode) .person-mythos { color: #a51b50; }
+    :global(html.light-mode) .person-neighborhood { color: var(--color-secondary-text); }
+    :global(html.light-mode) .person-info a.person-sheet { color: #155b8b; border-color: #155b8b; }
 </style>
