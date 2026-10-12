@@ -8,7 +8,7 @@ The site stays static. Publishing, Cloudflare builds and Markdown edits never se
 pnpm email:preview 1-8-far-from-the-tree-part-2
 ```
 
-Open `.email/previews/1-8-far-from-the-tree-part-2/index.html`; `message.txt` is the plain-text alternative. All `.email` files are ignored by Git and live outside `dist`. The email uses a dark 600px layout, the full post, cover/excerpt when present and a read-online link. Interactive embeds become links; disclosures become expanded bordered panels with bold headings; galleries stack vertically. Site navigation, recent posts and lightbox controls are omitted. No Ghost tracking or unsubscribe tokens are copied. Email apps may still block remote images or alter colors. Browser preview is not inbox acceptance testing.
+Open `.email/previews/1-8-far-from-the-tree-part-2/index.html`; `message.txt` is the plain-text alternative. All `.email` files are ignored by Git and live outside `dist`. The email uses a light 600px reading layout with the site’s light-mode text colors and neutral light gray accents, the full post, cover/excerpt when present and a read-online link. Interactive embeds become links; disclosures become expanded bordered panels with bold headings; galleries stack vertically. Site navigation, recent posts and lightbox controls are omitted. No Ghost tracking or unsubscribe tokens are copied. Email apps may still block remote images or alter colors. Browser preview is not inbox acceptance testing.
 
 ## Private setup
 
