@@ -79,7 +79,7 @@ The documented Cloudflare build command is `pnpm build`; the production deploy c
 
 `SITE_URL` overrides the canonical site origin, and `BASE_PATH` overrides the root path, when a separate deployment needs them. Defaults are `https://herebedragons.club` and `/`.
 
-Preview URLs are enabled in `wrangler.jsonc`, while the production `workers.dev` URL is disabled. Automatic branch builds also require the Cloudflare dashboard’s preview/non-production branch build setting. That dashboard setting remains unverified; do not assume a pushed branch has a test URL until its build and preview URL are visible. See [Cloudflare’s branch-build documentation](https://developers.cloudflare.com/workers/ci-cd/builds/build-branches/).
+Branch previews use `npx wrangler preview` and the `previews` block in `wrangler.jsonc`; static asset settings stay at the top level. The Cloudflare dashboard’s preview branch builds are enabled. Confirm a branch's successful build and preview URL before sharing it. Version URLs are also enabled via `preview_urls`, while the production `workers.dev` URL is disabled. See [Cloudflare’s branch-build documentation](https://developers.cloudflare.com/workers/ci-cd/builds/build-branches/).
 
 ## Optional table emails
 

@@ -3,6 +3,10 @@ dist/
 .media-delivery/
 .astro/
 
+# Original media is prepared locally and uploaded to R2
+/public/assets/images/
+/public/assets/files/
+
 # Dependencies
 node_modules/
 
@@ -33,6 +37,11 @@ pnpm-debug.log*
 
 # Local configuration files
 .npmrc
+.claude/
 
 # Private email configuration, previews and send history (never deploy)
 .email/
+
+# Original media lives locally; optimized copies are uploaded to R2
+/public/assets/images/
+/public/assets/files/

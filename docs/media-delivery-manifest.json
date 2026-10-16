@@ -2,9 +2,9 @@
   "version": 2,
   "pillow": "12.3.0",
   "webp": "1.6.0",
-  "sourceBytes": 684617844,
-  "deliveryBytes": 136411441,
-  "variantBytes": 153269074,
+  "sourceBytes": 684794124,
+  "deliveryBytes": 136587721,
+  "variantBytes": 153607196,
   "assets": [
     {
       "source": "/assets/files/2026/02/Mirror-Mirror---Intro-Sequence-2.pdf",
@@ -27135,6 +27135,93 @@
           "dimensions": [
             1280,
             717
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/10/yasmin.webp",
+      "delivery": "/assets/images/2026/10/yasmin.webp",
+      "sourceSha256": "25262e8f34bb2f3c98122797544476afb3d52ab3cf927c40a4920a4bd9c4005f",
+      "deliverySha256": "25262e8f34bb2f3c98122797544476afb3d52ab3cf927c40a4920a4bd9c4005f",
+      "sourceBytes": 176280,
+      "deliveryBytes": 176280,
+      "dimensions": [
+        2912,
+        1632
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/posts/1-11-queen-of-the-night-part-2.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/10/yasmin.w320.webp",
+          "deliverySha256": "7e80ffea018ac867aa316d05c3bca52184b2274a54dd01da4b18e541d354752a",
+          "deliveryBytes": 13856,
+          "dimensions": [
+            320,
+            179
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/10/yasmin.w640.webp",
+          "deliverySha256": "ec1bf0814bee312ae9687df7367d60bacda4dc7d92a81ccb83053275b9b065ca",
+          "deliveryBytes": 34370,
+          "dimensions": [
+            640,
+            359
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/10/yasmin.w960.webp",
+          "deliverySha256": "1338a165fd7be89d996dd0891d0bedbcbb9ea42ce49916b8c66a4c6d1024f689",
+          "deliveryBytes": 58126,
+          "dimensions": [
+            960,
+            538
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/10/yasmin.w1280.webp",
+          "deliverySha256": "b3d22e1f3723b804ab9a812ffcf25514d6a63796996f75f198422fa573a214a6",
+          "deliveryBytes": 81568,
+          "dimensions": [
+            1280,
+            717
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/10/yasmin.w1920.webp",
+          "deliverySha256": "44cd1d822c3f23ceb8b0510ac444b4cec39c1a82aa76d9e6ae8a07255c6d16c2",
+          "deliveryBytes": 150202,
+          "dimensions": [
+            1920,
+            1076
           ],
           "settings": {
             "method": 6,
