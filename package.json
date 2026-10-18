@@ -20,7 +20,7 @@
     "astro": "7.4.0"
   },
   "devDependencies": {
-    "js-yaml": "^5.4.2",
+    "js-yaml": "^5.5.0",
     "typescript": "^7.0.2",
     "ultrahtml": "1.7.0"
   },
