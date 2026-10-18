@@ -1,5 +1,9 @@
 packages:
   - '.'
+# pnpm 11+ (local) reads allowBuilds; pnpm 10 (Cloudflare) reads onlyBuiltDependencies.
+allowBuilds:
+  esbuild: true
+  sharp: true
 onlyBuiltDependencies:
   - esbuild
   - sharp

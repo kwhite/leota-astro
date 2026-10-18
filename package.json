@@ -14,10 +14,10 @@
     "email:check": "node --test scripts/tests/email.mjs"
   },
   "dependencies": {
-    "@astrojs/markdown-satteri": "0.4.2",
-    "@astrojs/mdx": "^8.0.2",
+    "@astrojs/markdown-satteri": "0.4.4",
+    "@astrojs/mdx": "8.1.0",
     "@astrojs/rss": "^4.0.19",
-    "astro": "7.3.5"
+    "astro": "7.4.0"
   },
   "devDependencies": {
     "js-yaml": "^5.4.2",
