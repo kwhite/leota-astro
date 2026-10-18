@@ -26,3 +26,4 @@ minimumReleaseAgeExclude:
   - '@astrojs/telemetry@3.3.3'
 allowBuilds:
   esbuild: true
+  sharp: true
