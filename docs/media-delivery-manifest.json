@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "pillow": "12.3.0",
+  "pillow": "13.0.0",
   "webp": "1.6.0",
-  "sourceBytes": 684794124,
-  "deliveryBytes": 136587721,
-  "variantBytes": 153607196,
+  "sourceBytes": 659791108,
+  "deliveryBytes": 120106615,
+  "variantBytes": 132795738,
   "assets": [
     {
       "source": "/assets/files/2026/02/Mirror-Mirror---Intro-Sequence-2.pdf",
@@ -6005,88 +6005,6 @@
       ]
     },
     {
-      "source": "/assets/images/2025/04/5emagic-membership-card-patreon.png",
-      "delivery": "/assets/images/2025/04/5emagic-membership-card-patreon.webp",
-      "sourceSha256": "f94267549b6524a47adaf8a442ecfc693ad010b9c6bc63d1e09f4a89f9146ff1",
-      "deliverySha256": "d7506594474d61b65d61b9e103235d5bf4fe6b20415c49d4e47f5f295fa05184",
-      "sourceBytes": 1345331,
-      "deliveryBytes": 894444,
-      "dimensions": [
-        1890,
-        3360
-      ],
-      "transparent": true,
-      "animated": false,
-      "settings": {
-        "method": 6,
-        "lossless": true,
-        "exact": true
-      },
-      "status": "converted",
-      "reason": "lossless transparency",
-      "usedIn": [
-        "src/content/pages/dm-resources.mdx"
-      ],
-      "variants": [
-        {
-          "delivery": "/assets/images/2025/04/5emagic-membership-card-patreon.w320.webp",
-          "deliverySha256": "0735ea4d1c9feb891d1e5894b1559a9b5d8b8091f91b01bdb8119b8fd4ba9fad",
-          "deliveryBytes": 76160,
-          "dimensions": [
-            320,
-            569
-          ],
-          "settings": {
-            "method": 6,
-            "lossless": true,
-            "exact": true
-          }
-        },
-        {
-          "delivery": "/assets/images/2025/04/5emagic-membership-card-patreon.w640.webp",
-          "deliverySha256": "4dae6a272ed1058e78017342c131d49bcd27f42ba1b5607460113140b88413ec",
-          "deliveryBytes": 216886,
-          "dimensions": [
-            640,
-            1138
-          ],
-          "settings": {
-            "method": 6,
-            "lossless": true,
-            "exact": true
-          }
-        },
-        {
-          "delivery": "/assets/images/2025/04/5emagic-membership-card-patreon.w960.webp",
-          "deliverySha256": "fd5eeabbd6a4a91f2934de4d94ebfc86ca5a037895c198265e4c57d3c08098b7",
-          "deliveryBytes": 390262,
-          "dimensions": [
-            960,
-            1707
-          ],
-          "settings": {
-            "method": 6,
-            "lossless": true,
-            "exact": true
-          }
-        },
-        {
-          "delivery": "/assets/images/2025/04/5emagic-membership-card-patreon.w1280.webp",
-          "deliverySha256": "96875a139d32b3074fde2754e3c9e245b4c90e0bd7a66b286ab44155a800340b",
-          "deliveryBytes": 599074,
-          "dimensions": [
-            1280,
-            2276
-          ],
-          "settings": {
-            "method": 6,
-            "lossless": true,
-            "exact": true
-          }
-        }
-      ]
-    },
-    {
       "source": "/assets/images/2025/04/98F87BC7-16EB-49B9-837C-AC731207A925.png",
       "delivery": "/assets/images/2025/04/98F87BC7-16EB-49B9-837C-AC731207A925.webp",
       "sourceSha256": "bac4e089fda0c8fc71affdf4a4656d17f0386dfa7e3da8dab8fa2a68f60e4829",
@@ -6456,498 +6374,6 @@
       ]
     },
     {
-      "source": "/assets/images/2025/04/boroughbound-membership-card-patreon.png",
-      "delivery": "/assets/images/2025/04/boroughbound-membership-card-patreon.webp",
-      "sourceSha256": "6b9229d85d142270fd01d6af730879116b976f55f98869d2e13f131853e3ac3f",
-      "deliverySha256": "c9351f95630afd4300282943784d91a5b90654f46303eac98b4b79c144ae9540",
-      "sourceBytes": 898556,
-      "deliveryBytes": 512578,
-      "dimensions": [
-        1890,
-        3360
-      ],
-      "transparent": true,
-      "animated": false,
-      "settings": {
-        "method": 6,
-        "lossless": true,
-        "exact": true
-      },
-      "status": "converted",
-      "reason": "lossless transparency",
-      "usedIn": [
-        "src/content/pages/dm-resources.mdx"
-      ],
-      "variants": [
-        {
-          "delivery": "/assets/images/2025/04/boroughbound-membership-card-patreon.w320.webp",
-          "deliverySha256": "ed58e9e1f352668adb427f18609d968037e6342b851c5d2be5d3c38a5cc7e9b9",
-          "deliveryBytes": 38046,
-          "dimensions": [
-            320,
-            569
-          ],
-          "settings": {
-            "method": 6,
-            "lossless": true,
-            "exact": true
-          }
-        },
-        {
-          "delivery": "/assets/images/2025/04/boroughbound-membership-card-patreon.w640.webp",
-          "deliverySha256": "f716e0baa0b88ea7549b4e5fd6985f2e9a108cd0b3b5c1072fc2ea828abb7bdb",
-          "deliveryBytes": 115794,
-          "dimensions": [
-            640,
-            1138
-          ],
-          "settings": {
-            "method": 6,
-            "lossless": true,
-            "exact": true
-          }
-        },
-        {
-          "delivery": "/assets/images/2025/04/boroughbound-membership-card-patreon.w960.webp",
-          "deliverySha256": "86458478da1c2ad566d0cd4002d6b7c8fa1d352d25de41344bf07c792e54fe66",
-          "deliveryBytes": 217034,
-          "dimensions": [
-            960,
-            1707
-          ],
-          "settings": {
-            "method": 6,
-            "lossless": true,
-            "exact": true
-          }
-        },
-        {
-          "delivery": "/assets/images/2025/04/boroughbound-membership-card-patreon.w1280.webp",
-          "deliverySha256": "fa67088c7f424c80310295ce582e009245c9ba0e275d9bcc19143252d7c25200",
-          "deliveryBytes": 343932,
-          "dimensions": [
-            1280,
-            2276
-          ],
-          "settings": {
-            "method": 6,
-            "lossless": true,
-            "exact": true
-          }
-        }
-      ]
-    },
-    {
-      "source": "/assets/images/2025/04/czepeku-membership-card-patreon.png",
-      "delivery": "/assets/images/2025/04/czepeku-membership-card-patreon.webp",
-      "sourceSha256": "0473d4bef0ca77a07be360a2d33c806236614970e6e954f4c13e04115f0ec82c",
-      "deliverySha256": "7aa4da8e9980aa14e50cf7d1794bd1a2566e7b1f3c527bbbe5ceb591e511cb71",
-      "sourceBytes": 4322055,
-      "deliveryBytes": 2908376,
-      "dimensions": [
-        1890,
-        3360
-      ],
-      "transparent": true,
-      "animated": false,
-      "settings": {
-        "method": 6,
-        "lossless": true,
-        "exact": true
-      },
-      "status": "converted",
-      "reason": "lossless transparency",
-      "usedIn": [
-        "src/content/pages/dm-resources.mdx"
-      ],
-      "variants": [
-        {
-          "delivery": "/assets/images/2025/04/czepeku-membership-card-patreon.w320.webp",
-          "deliverySha256": "19074892e14d9ebbd85d179b877307367e35de4211d2b597fbf2edc45157b18e",
-          "deliveryBytes": 157772,
-          "dimensions": [
-            320,
-            569
-          ],
-          "settings": {
-            "method": 6,
-            "lossless": true,
-            "exact": true
-          }
-        },
-        {
-          "delivery": "/assets/images/2025/04/czepeku-membership-card-patreon.w640.webp",
-          "deliverySha256": "b5499c20d77d27c323c501f461ad77d13b644cb5d88df75b34710a8757ea66db",
-          "deliveryBytes": 544990,
-          "dimensions": [
-            640,
-            1138
-          ],
-          "settings": {
-            "method": 6,
-            "lossless": true,
-            "exact": true
-          }
-        },
-        {
-          "delivery": "/assets/images/2025/04/czepeku-membership-card-patreon.w960.webp",
-          "deliverySha256": "ee80a5d8f8ce3165b2bca5fd843f618d34ac5ea4d449991fecdf2692f9ee6aed",
-          "deliveryBytes": 1087902,
-          "dimensions": [
-            960,
-            1707
-          ],
-          "settings": {
-            "method": 6,
-            "lossless": true,
-            "exact": true
-          }
-        },
-        {
-          "delivery": "/assets/images/2025/04/czepeku-membership-card-patreon.w1280.webp",
-          "deliverySha256": "3b73b5232a7b50474c74bb229bd653ca45db513e25aa56bd215133e462521d6f",
-          "deliveryBytes": 1731060,
-          "dimensions": [
-            1280,
-            2276
-          ],
-          "settings": {
-            "method": 6,
-            "lossless": true,
-            "exact": true
-          }
-        }
-      ]
-    },
-    {
-      "source": "/assets/images/2025/04/czepekuscenes-membership-card-patreon.png",
-      "delivery": "/assets/images/2025/04/czepekuscenes-membership-card-patreon.webp",
-      "sourceSha256": "eccca9522e4f7b32d7d1305ee9252e31f785d30c4b99f06729cdcee939a65049",
-      "deliverySha256": "f3c040329786633d7918aee08e3019a6c63bf40e51b7a77f77cf0ee9f654a3ec",
-      "sourceBytes": 3393409,
-      "deliveryBytes": 2291690,
-      "dimensions": [
-        1890,
-        3360
-      ],
-      "transparent": true,
-      "animated": false,
-      "settings": {
-        "method": 6,
-        "lossless": true,
-        "exact": true
-      },
-      "status": "converted",
-      "reason": "lossless transparency",
-      "usedIn": [
-        "src/content/pages/dm-resources.mdx"
-      ],
-      "variants": [
-        {
-          "delivery": "/assets/images/2025/04/czepekuscenes-membership-card-patreon.w320.webp",
-          "deliverySha256": "db7454606d51577b88227d954d5c7bc91447c67ce97cf48032e27e3f2fa50a62",
-          "deliveryBytes": 151090,
-          "dimensions": [
-            320,
-            569
-          ],
-          "settings": {
-            "method": 6,
-            "lossless": true,
-            "exact": true
-          }
-        },
-        {
-          "delivery": "/assets/images/2025/04/czepekuscenes-membership-card-patreon.w640.webp",
-          "deliverySha256": "5742dc7d76ba55770ac89c8fb30050f20c20e5ad9da2176ef3cf05369d9aad85",
-          "deliveryBytes": 495192,
-          "dimensions": [
-            640,
-            1138
-          ],
-          "settings": {
-            "method": 6,
-            "lossless": true,
-            "exact": true
-          }
-        },
-        {
-          "delivery": "/assets/images/2025/04/czepekuscenes-membership-card-patreon.w960.webp",
-          "deliverySha256": "8f1b8bd41c5b37f6614c922f40b0c9ec0ea3ce5d68086445c5616b5f621708c8",
-          "deliveryBytes": 930408,
-          "dimensions": [
-            960,
-            1707
-          ],
-          "settings": {
-            "method": 6,
-            "lossless": true,
-            "exact": true
-          }
-        },
-        {
-          "delivery": "/assets/images/2025/04/czepekuscenes-membership-card-patreon.w1280.webp",
-          "deliverySha256": "7f5e17e6e3416e345d33ec770ea3abda77d460cd854ac150f79664755d2e3621",
-          "deliveryBytes": 1427682,
-          "dimensions": [
-            1280,
-            2276
-          ],
-          "settings": {
-            "method": 6,
-            "lossless": true,
-            "exact": true
-          }
-        }
-      ]
-    },
-    {
-      "source": "/assets/images/2025/04/hitpointpress-membership-card-patreon.png",
-      "delivery": "/assets/images/2025/04/hitpointpress-membership-card-patreon.webp",
-      "sourceSha256": "d5e69efb631be0756651456818f8ebda6d221b539dfe6a81e8e84ceeb6117896",
-      "deliverySha256": "e90099456bac7d5e03ef94c05088ee79201d9a0004ff78035ec3c294772007c5",
-      "sourceBytes": 2580196,
-      "deliveryBytes": 1768946,
-      "dimensions": [
-        1890,
-        3360
-      ],
-      "transparent": true,
-      "animated": false,
-      "settings": {
-        "method": 6,
-        "lossless": true,
-        "exact": true
-      },
-      "status": "converted",
-      "reason": "lossless transparency",
-      "usedIn": [
-        "src/content/pages/dm-resources.mdx"
-      ],
-      "variants": [
-        {
-          "delivery": "/assets/images/2025/04/hitpointpress-membership-card-patreon.w320.webp",
-          "deliverySha256": "0b90cbab6e87b605f1d1bb42bf6b60b637be35db713b50545cbdb8fa522ef291",
-          "deliveryBytes": 126506,
-          "dimensions": [
-            320,
-            569
-          ],
-          "settings": {
-            "method": 6,
-            "lossless": true,
-            "exact": true
-          }
-        },
-        {
-          "delivery": "/assets/images/2025/04/hitpointpress-membership-card-patreon.w640.webp",
-          "deliverySha256": "1d48d24d4546c5c3d90aae36b98d5ee6c6a3b716f354b27b445556435cba1ff9",
-          "deliveryBytes": 395856,
-          "dimensions": [
-            640,
-            1138
-          ],
-          "settings": {
-            "method": 6,
-            "lossless": true,
-            "exact": true
-          }
-        },
-        {
-          "delivery": "/assets/images/2025/04/hitpointpress-membership-card-patreon.w960.webp",
-          "deliverySha256": "55e9749fb34841cfae08ac75f2020af8b0d43317682736be0aecb1bcf9c329de",
-          "deliveryBytes": 722510,
-          "dimensions": [
-            960,
-            1707
-          ],
-          "settings": {
-            "method": 6,
-            "lossless": true,
-            "exact": true
-          }
-        },
-        {
-          "delivery": "/assets/images/2025/04/hitpointpress-membership-card-patreon.w1280.webp",
-          "deliverySha256": "29892d1d80e32a643b62127e9911694488b51a069b504c782c2b98aeeb6e80ec",
-          "deliveryBytes": 1090168,
-          "dimensions": [
-            1280,
-            2276
-          ],
-          "settings": {
-            "method": 6,
-            "lossless": true,
-            "exact": true
-          }
-        }
-      ]
-    },
-    {
-      "source": "/assets/images/2025/04/jamesrpgart-membership-card-patreon.png",
-      "delivery": "/assets/images/2025/04/jamesrpgart-membership-card-patreon.webp",
-      "sourceSha256": "b84be7a78cba2a720cc2de232a2f39d196c36cdf90507a144a6b5ad9893f1cbd",
-      "deliverySha256": "423bf6f644e7afb1f0b8aa6694b95fd50feb45153b4ad1ecd9c88ba7ec8a741f",
-      "sourceBytes": 1653689,
-      "deliveryBytes": 1131390,
-      "dimensions": [
-        1890,
-        3360
-      ],
-      "transparent": true,
-      "animated": false,
-      "settings": {
-        "method": 6,
-        "lossless": true,
-        "exact": true
-      },
-      "status": "converted",
-      "reason": "lossless transparency",
-      "usedIn": [
-        "src/content/pages/dm-resources.mdx"
-      ],
-      "variants": [
-        {
-          "delivery": "/assets/images/2025/04/jamesrpgart-membership-card-patreon.w320.webp",
-          "deliverySha256": "ce959deedb07ca81ab53e6fe404502b9183bcf83d62224e40f0305cfd0fabc93",
-          "deliveryBytes": 93808,
-          "dimensions": [
-            320,
-            569
-          ],
-          "settings": {
-            "method": 6,
-            "lossless": true,
-            "exact": true
-          }
-        },
-        {
-          "delivery": "/assets/images/2025/04/jamesrpgart-membership-card-patreon.w640.webp",
-          "deliverySha256": "1d6b8429eb117206007ddde0819b31227e315fa14c89b00dc2fd1d9dd002260e",
-          "deliveryBytes": 271304,
-          "dimensions": [
-            640,
-            1138
-          ],
-          "settings": {
-            "method": 6,
-            "lossless": true,
-            "exact": true
-          }
-        },
-        {
-          "delivery": "/assets/images/2025/04/jamesrpgart-membership-card-patreon.w960.webp",
-          "deliverySha256": "23833ce0ff751da7906e327dde3a9ce6609c91c92c2dcae2376a6542408c949a",
-          "deliveryBytes": 459466,
-          "dimensions": [
-            960,
-            1707
-          ],
-          "settings": {
-            "method": 6,
-            "lossless": true,
-            "exact": true
-          }
-        },
-        {
-          "delivery": "/assets/images/2025/04/jamesrpgart-membership-card-patreon.w1280.webp",
-          "deliverySha256": "7ca5db8c342b4590199cf364e3e527825368d1e510bf9bfffd3866f8a2b3dc30",
-          "deliveryBytes": 713802,
-          "dimensions": [
-            1280,
-            2276
-          ],
-          "settings": {
-            "method": 6,
-            "lossless": true,
-            "exact": true
-          }
-        }
-      ]
-    },
-    {
-      "source": "/assets/images/2025/04/kibblestasty-membership-card-patreon.png",
-      "delivery": "/assets/images/2025/04/kibblestasty-membership-card-patreon.webp",
-      "sourceSha256": "964a34aa9082b405c8826315eeddbfabc24a0973f6a3ce9161325523bbfdc422",
-      "deliverySha256": "851b210369099080aa7ec37a48e0152b40eb753bca0a676d8c881317b5bb5508",
-      "sourceBytes": 2985731,
-      "deliveryBytes": 1713990,
-      "dimensions": [
-        1890,
-        3360
-      ],
-      "transparent": true,
-      "animated": false,
-      "settings": {
-        "method": 6,
-        "lossless": true,
-        "exact": true
-      },
-      "status": "converted",
-      "reason": "lossless transparency",
-      "usedIn": [
-        "src/content/pages/dm-resources.mdx"
-      ],
-      "variants": [
-        {
-          "delivery": "/assets/images/2025/04/kibblestasty-membership-card-patreon.w320.webp",
-          "deliverySha256": "f900141ae2ed29948b48ed7d9c3a99aec2b5f958918fd12af998dc30558063bc",
-          "deliveryBytes": 120900,
-          "dimensions": [
-            320,
-            569
-          ],
-          "settings": {
-            "method": 6,
-            "lossless": true,
-            "exact": true
-          }
-        },
-        {
-          "delivery": "/assets/images/2025/04/kibblestasty-membership-card-patreon.w640.webp",
-          "deliverySha256": "44a41fc777a54b120ca30f94ae4ddc5e5b7dfa428bbd975ccd69fe39b5689d0f",
-          "deliveryBytes": 364992,
-          "dimensions": [
-            640,
-            1138
-          ],
-          "settings": {
-            "method": 6,
-            "lossless": true,
-            "exact": true
-          }
-        },
-        {
-          "delivery": "/assets/images/2025/04/kibblestasty-membership-card-patreon.w960.webp",
-          "deliverySha256": "8a0d5132d9720bd78f7a7f619aae784239c6c22a4fed470c9f3af10466447111",
-          "deliveryBytes": 686098,
-          "dimensions": [
-            960,
-            1707
-          ],
-          "settings": {
-            "method": 6,
-            "lossless": true,
-            "exact": true
-          }
-        },
-        {
-          "delivery": "/assets/images/2025/04/kibblestasty-membership-card-patreon.w1280.webp",
-          "deliverySha256": "5f94799a6c9f2334c771ba4d70afc6ce9afce2f01343fde9c54b3ec6fd6dbcca",
-          "deliveryBytes": 1065914,
-          "dimensions": [
-            1280,
-            2276
-          ],
-          "settings": {
-            "method": 6,
-            "lossless": true,
-            "exact": true
-          }
-        }
-      ]
-    },
-    {
       "source": "/assets/images/2025/04/musetta._Cozy_fantasy_cliffside_dwelling_of_a_retired_cleric__66d647de-19bf-4bda-a29a-83b0fbf71569_0.png",
       "delivery": "/assets/images/2025/04/musetta._Cozy_fantasy_cliffside_dwelling_of_a_retired_cleric__66d647de-19bf-4bda-a29a-83b0fbf71569_0.webp",
       "sourceSha256": "001154eb32eecd412132518235db722110a40fbed5c0fe2c687b03d96930ff3e",
@@ -7174,170 +6600,6 @@
           "settings": {
             "method": 6,
             "quality": 90
-          }
-        }
-      ]
-    },
-    {
-      "source": "/assets/images/2025/04/thegriffonssaddlebag-membership-card-patreon.png",
-      "delivery": "/assets/images/2025/04/thegriffonssaddlebag-membership-card-patreon.webp",
-      "sourceSha256": "b227b833150a416e146a5d904cdbf34f1e1bfac1ebac98abba36823e49211875",
-      "deliverySha256": "07ea31ef9013713b52305abbcd2c5687fe3f68ecca3442ab9f71aa324a819242",
-      "sourceBytes": 4337626,
-      "deliveryBytes": 3032902,
-      "dimensions": [
-        1890,
-        3360
-      ],
-      "transparent": true,
-      "animated": false,
-      "settings": {
-        "method": 6,
-        "lossless": true,
-        "exact": true
-      },
-      "status": "converted",
-      "reason": "lossless transparency",
-      "usedIn": [
-        "src/content/pages/dm-resources.mdx"
-      ],
-      "variants": [
-        {
-          "delivery": "/assets/images/2025/04/thegriffonssaddlebag-membership-card-patreon.w320.webp",
-          "deliverySha256": "48ced792787f0bc7445f6984b846d43e958f6a1d361bc7939d47f8403802bd06",
-          "deliveryBytes": 150336,
-          "dimensions": [
-            320,
-            569
-          ],
-          "settings": {
-            "method": 6,
-            "lossless": true,
-            "exact": true
-          }
-        },
-        {
-          "delivery": "/assets/images/2025/04/thegriffonssaddlebag-membership-card-patreon.w640.webp",
-          "deliverySha256": "2421402a7490a100a5c530e93995bc971c54ba3358ca2df8cf90b17e3406c211",
-          "deliveryBytes": 515306,
-          "dimensions": [
-            640,
-            1138
-          ],
-          "settings": {
-            "method": 6,
-            "lossless": true,
-            "exact": true
-          }
-        },
-        {
-          "delivery": "/assets/images/2025/04/thegriffonssaddlebag-membership-card-patreon.w960.webp",
-          "deliverySha256": "717757f49480cd363c38f2dba9e8efa33a5dcd69afff9c4dc316e6d915e6efd8",
-          "deliveryBytes": 1057418,
-          "dimensions": [
-            960,
-            1707
-          ],
-          "settings": {
-            "method": 6,
-            "lossless": true,
-            "exact": true
-          }
-        },
-        {
-          "delivery": "/assets/images/2025/04/thegriffonssaddlebag-membership-card-patreon.w1280.webp",
-          "deliverySha256": "48641b97ea73523ef804ef8e3460c7e5efe522ed57853031febde996c8c87c7f",
-          "deliveryBytes": 1719556,
-          "dimensions": [
-            1280,
-            2276
-          ],
-          "settings": {
-            "method": 6,
-            "lossless": true,
-            "exact": true
-          }
-        }
-      ]
-    },
-    {
-      "source": "/assets/images/2025/04/tomcartos-membership-card-patreon.png",
-      "delivery": "/assets/images/2025/04/tomcartos-membership-card-patreon.webp",
-      "sourceSha256": "4e6f9a625e77a6894a11deb8b8229990cadebad0ca3f36bbabd2df405ce1144a",
-      "deliverySha256": "56d799ab2fba3ebc8fda825d4a1b6e549fa07ac3ecbc2b1cfd7b3e58369b9b25",
-      "sourceBytes": 3539329,
-      "deliveryBytes": 2279696,
-      "dimensions": [
-        1890,
-        3360
-      ],
-      "transparent": true,
-      "animated": false,
-      "settings": {
-        "method": 6,
-        "lossless": true,
-        "exact": true
-      },
-      "status": "converted",
-      "reason": "lossless transparency",
-      "usedIn": [
-        "src/content/pages/dm-resources.mdx"
-      ],
-      "variants": [
-        {
-          "delivery": "/assets/images/2025/04/tomcartos-membership-card-patreon.w320.webp",
-          "deliverySha256": "1c3fc28aa840891d6f1ffed340488939f2fb3927202119177f2093c4d31068ae",
-          "deliveryBytes": 131614,
-          "dimensions": [
-            320,
-            569
-          ],
-          "settings": {
-            "method": 6,
-            "lossless": true,
-            "exact": true
-          }
-        },
-        {
-          "delivery": "/assets/images/2025/04/tomcartos-membership-card-patreon.w640.webp",
-          "deliverySha256": "8f6742e135e2a08277a812cf3c856689621b4eab39b02eeafde9aaae39d91a54",
-          "deliveryBytes": 436468,
-          "dimensions": [
-            640,
-            1138
-          ],
-          "settings": {
-            "method": 6,
-            "lossless": true,
-            "exact": true
-          }
-        },
-        {
-          "delivery": "/assets/images/2025/04/tomcartos-membership-card-patreon.w960.webp",
-          "deliverySha256": "42286e2124d1564fe09b3abf90856b046ed2f3791432947ac6bec0ecb5454ada",
-          "deliveryBytes": 856016,
-          "dimensions": [
-            960,
-            1707
-          ],
-          "settings": {
-            "method": 6,
-            "lossless": true,
-            "exact": true
-          }
-        },
-        {
-          "delivery": "/assets/images/2025/04/tomcartos-membership-card-patreon.w1280.webp",
-          "deliverySha256": "7882b0e3e48db75e0d8dc6ee2d78af7a628165d714fa964fd11dba31b2b95d84",
-          "deliveryBytes": 1356852,
-          "dimensions": [
-            1280,
-            2276
-          ],
-          "settings": {
-            "method": 6,
-            "lossless": true,
-            "exact": true
           }
         }
       ]
@@ -27135,6 +26397,54 @@
           "dimensions": [
             1280,
             717
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/10/fiona.webp",
+      "delivery": "/assets/images/2026/10/fiona.webp",
+      "sourceSha256": "89ebc69a7620bbde544b6227c86d2f24299adcd8864cac430a28be67bdbd30cd",
+      "deliverySha256": "89ebc69a7620bbde544b6227c86d2f24299adcd8864cac430a28be67bdbd30cd",
+      "sourceBytes": 52906,
+      "deliveryBytes": 52906,
+      "dimensions": [
+        1456,
+        816
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/posts/1-12-queen-of-the-night-part-3.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/10/fiona.w320.webp",
+          "deliverySha256": "5257e043fbf0c74a566c4841f0c5800714b183f20d47b8125f4f72420fcb3613",
+          "deliveryBytes": 13042,
+          "dimensions": [
+            320,
+            179
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/10/fiona.w640.webp",
+          "deliverySha256": "f4f21b51115fff537969b7c1774849dc31db010616abeca34c8a0e728c3f9293",
+          "deliveryBytes": 33674,
+          "dimensions": [
+            640,
+            359
           ],
           "settings": {
             "method": 6,
