@@ -2,9 +2,9 @@
   "version": 2,
   "pillow": "12.3.0",
   "webp": "1.6.0",
-  "sourceBytes": 660081652,
-  "deliveryBytes": 120397159,
-  "variantBytes": 133319210,
+  "sourceBytes": 659903842,
+  "deliveryBytes": 120219349,
+  "variantBytes": 132966628,
   "assets": [
     {
       "source": "/assets/files/2026/02/Mirror-Mirror---Intro-Sequence-2.pdf",
@@ -26454,15 +26454,15 @@
       ]
     },
     {
-      "source": "/assets/images/2026/10/marcus.webp",
-      "delivery": "/assets/images/2026/10/marcus.webp",
-      "sourceSha256": "cfce55fc274fc721816ff99a474f6dcde50279bb2e8db35598e360f1b7791a95",
-      "deliverySha256": "cfce55fc274fc721816ff99a474f6dcde50279bb2e8db35598e360f1b7791a95",
-      "sourceBytes": 265692,
-      "deliveryBytes": 265692,
+      "source": "/assets/images/2026/10/marcus2.webp",
+      "delivery": "/assets/images/2026/10/marcus2.webp",
+      "sourceSha256": "ac81c31af8d99a89e82cd09f987bd8f032793476beaac4c54dd9e0ecba910a5f",
+      "deliverySha256": "ac81c31af8d99a89e82cd09f987bd8f032793476beaac4c54dd9e0ecba910a5f",
+      "sourceBytes": 87882,
+      "deliveryBytes": 87882,
       "dimensions": [
-        2912,
-        1632
+        1674,
+        939
       ],
       "transparent": false,
       "animated": false,
@@ -26474,9 +26474,9 @@
       ],
       "variants": [
         {
-          "delivery": "/assets/images/2026/10/marcus.w320.webp",
-          "deliverySha256": "1875ebb83ce67d7b57b6dbf65f8607d9c6bf4df63ede6124262f7d43a982cd7e",
-          "deliveryBytes": 19110,
+          "delivery": "/assets/images/2026/10/marcus2.w320.webp",
+          "deliverySha256": "a76ab3394dcc94d2458e816e6d76c5f3d246581363af0560674bef103f56fc0a",
+          "deliveryBytes": 19176,
           "dimensions": [
             320,
             179
@@ -26487,9 +26487,9 @@
           }
         },
         {
-          "delivery": "/assets/images/2026/10/marcus.w640.webp",
-          "deliverySha256": "c3f1f4d53645d422fea1ab7631bdbd481da01e604fdf6258875326766105d0ed",
-          "deliveryBytes": 49516,
+          "delivery": "/assets/images/2026/10/marcus2.w640.webp",
+          "deliverySha256": "bac1c4713dbb623469798272fc22d4fe2912b09b7762a9f5a417900f88023dc5",
+          "deliveryBytes": 48572,
           "dimensions": [
             640,
             359
@@ -26500,38 +26500,12 @@
           }
         },
         {
-          "delivery": "/assets/images/2026/10/marcus.w960.webp",
-          "deliverySha256": "2b0b87da5038f2f89a270f57679163ca06acc2fb169e8b6afc69d01c9cd42ab8",
-          "deliveryBytes": 85102,
+          "delivery": "/assets/images/2026/10/marcus2.w960.webp",
+          "deliverySha256": "f1acc118bcc5ace9c094c9f9a7e6a38e9eb32b5026ba3337f40d7f9ce3bb05ba",
+          "deliveryBytes": 81678,
           "dimensions": [
             960,
             538
-          ],
-          "settings": {
-            "method": 6,
-            "quality": 90
-          }
-        },
-        {
-          "delivery": "/assets/images/2026/10/marcus.w1280.webp",
-          "deliverySha256": "18296bb0af3f41afd7d35d51d750066d352d13cadecea09575795554690161c9",
-          "deliveryBytes": 119914,
-          "dimensions": [
-            1280,
-            717
-          ],
-          "settings": {
-            "method": 6,
-            "quality": 90
-          }
-        },
-        {
-          "delivery": "/assets/images/2026/10/marcus.w1920.webp",
-          "deliverySha256": "c3c9430be030bb178b792af686eaef43106e0660ff907c150e07fe82cd01cfd3",
-          "deliveryBytes": 228366,
-          "dimensions": [
-            1920,
-            1076
           ],
           "settings": {
             "method": 6,
