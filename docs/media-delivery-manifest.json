@@ -2,9 +2,9 @@
   "version": 2,
   "pillow": "12.3.0",
   "webp": "1.6.0",
-  "sourceBytes": 659903842,
-  "deliveryBytes": 120219349,
-  "variantBytes": 132966628,
+  "sourceBytes": 659895738,
+  "deliveryBytes": 120211245,
+  "variantBytes": 132957894,
   "assets": [
     {
       "source": "/assets/files/2026/02/Mirror-Mirror---Intro-Sequence-2.pdf",
@@ -26456,10 +26456,10 @@
     {
       "source": "/assets/images/2026/10/marcus2.webp",
       "delivery": "/assets/images/2026/10/marcus2.webp",
-      "sourceSha256": "ac81c31af8d99a89e82cd09f987bd8f032793476beaac4c54dd9e0ecba910a5f",
-      "deliverySha256": "ac81c31af8d99a89e82cd09f987bd8f032793476beaac4c54dd9e0ecba910a5f",
-      "sourceBytes": 87882,
-      "deliveryBytes": 87882,
+      "sourceSha256": "ff2539c98ce72b70db706379d193c33fcf45e3f5d788f6afaa017aec211e3534",
+      "deliverySha256": "ff2539c98ce72b70db706379d193c33fcf45e3f5d788f6afaa017aec211e3534",
+      "sourceBytes": 79778,
+      "deliveryBytes": 79778,
       "dimensions": [
         1674,
         939
@@ -26475,8 +26475,8 @@
       "variants": [
         {
           "delivery": "/assets/images/2026/10/marcus2.w320.webp",
-          "deliverySha256": "a76ab3394dcc94d2458e816e6d76c5f3d246581363af0560674bef103f56fc0a",
-          "deliveryBytes": 19176,
+          "deliverySha256": "bce53356d7f6642f67575841a81e11fec13421112ecfef34a7e7c8ccb31ccea3",
+          "deliveryBytes": 18800,
           "dimensions": [
             320,
             179
@@ -26488,8 +26488,8 @@
         },
         {
           "delivery": "/assets/images/2026/10/marcus2.w640.webp",
-          "deliverySha256": "bac1c4713dbb623469798272fc22d4fe2912b09b7762a9f5a417900f88023dc5",
-          "deliveryBytes": 48572,
+          "deliverySha256": "1bc6daf0dceeaab371fa9a0f4a2db16a246b850b03f066137500ed92be15d893",
+          "deliveryBytes": 46018,
           "dimensions": [
             640,
             359
@@ -26501,8 +26501,8 @@
         },
         {
           "delivery": "/assets/images/2026/10/marcus2.w960.webp",
-          "deliverySha256": "f1acc118bcc5ace9c094c9f9a7e6a38e9eb32b5026ba3337f40d7f9ce3bb05ba",
-          "deliveryBytes": 81678,
+          "deliverySha256": "6861e0ce54f5896ea84ea34cf36a6b8b3161a544656634c5ec278c2b96745839",
+          "deliveryBytes": 75874,
           "dimensions": [
             960,
             538
