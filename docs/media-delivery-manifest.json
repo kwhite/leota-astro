@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "pillow": "12.3.0",
+  "pillow": "13.0.0",
   "webp": "1.6.0",
-  "sourceBytes": 659895738,
-  "deliveryBytes": 120211245,
-  "variantBytes": 132957894,
+  "sourceBytes": 656775172,
+  "deliveryBytes": 119974749,
+  "variantBytes": 132879320,
   "assets": [
     {
       "source": "/assets/files/2026/02/Mirror-Mirror---Intro-Sequence-2.pdf",
@@ -20263,10 +20263,10 @@
     {
       "source": "/assets/images/2026/05/maeve1.png",
       "delivery": "/assets/images/2026/05/maeve1.webp",
-      "sourceSha256": "8e84cbbced191509ef0d4413179916783500cf5bc13d03b0d76f89461db79d5b",
-      "deliverySha256": "e18c226081237d0f6f9ccd0a768c34b593b997226a251d4a39763c24a67d3d46",
-      "sourceBytes": 6599617,
-      "deliveryBytes": 498376,
+      "sourceSha256": "f6869cf619834f4da191998c90de99feed7080f2283d00ba0557051f295cbb55",
+      "deliverySha256": "f533c8e0ba571f964b2c76975765a17de1eee91a48278115fc2fe011a48a433b",
+      "sourceBytes": 3479051,
+      "deliveryBytes": 261880,
       "dimensions": [
         1792,
         2688
@@ -20285,8 +20285,8 @@
       "variants": [
         {
           "delivery": "/assets/images/2026/05/maeve1.w320.webp",
-          "deliverySha256": "6c22e2e3bc8cdf8a6af0f5b65f5b6c282f654129bfc7d2347268491925862e49",
-          "deliveryBytes": 27236,
+          "deliverySha256": "b6821abcd8042fa2baa07a0175affe0f198b1982a793b35de43bf9da00a0b9f4",
+          "deliveryBytes": 28168,
           "dimensions": [
             320,
             480
@@ -20298,8 +20298,8 @@
         },
         {
           "delivery": "/assets/images/2026/05/maeve1.w640.webp",
-          "deliverySha256": "898178a3a95d6d5bced4310e31de04eebe768885a4f5bdd55cfb3f996235987e",
-          "deliveryBytes": 70900,
+          "deliverySha256": "7db37ec226d097ce215f01e330972982aa7ebdbe22730d131759a269c01f537c",
+          "deliveryBytes": 75008,
           "dimensions": [
             640,
             960
@@ -20311,8 +20311,8 @@
         },
         {
           "delivery": "/assets/images/2026/05/maeve1.w960.webp",
-          "deliverySha256": "e7b43949e406682424bd6b4c9eeaeeabfc55a402dfba86e9225f318932536202",
-          "deliveryBytes": 138820,
+          "deliverySha256": "b93622de483557f289884a24811e2bf5f2d5381c738dad71347f937fdbbb4809",
+          "deliveryBytes": 121806,
           "dimensions": [
             960,
             1440
@@ -20324,8 +20324,8 @@
         },
         {
           "delivery": "/assets/images/2026/05/maeve1.w1280.webp",
-          "deliverySha256": "54a394d22c69c7fbca1171f207d3dbf70e473d5b707c861036886c0eae2e63f9",
-          "deliveryBytes": 243220,
+          "deliverySha256": "c39b4c5f54dbe5d5a148ec56e6e83f3f579cf9621164a509d86b321365b66c4c",
+          "deliveryBytes": 176620,
           "dimensions": [
             1280,
             1920
