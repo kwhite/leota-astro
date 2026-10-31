@@ -23,6 +23,18 @@ The custom domain is connected directly to bucket `leota-media`. Keep the origin
 3. Run `node scripts/upload-media.mjs` to inspect the upload plan, then `node scripts/upload-media.mjs --apply` to upload. The uploader uses the local AWS CLI profile `leota-r2`, validates each checksum, uploads only manifest objects, and never deletes bucket objects.
 4. Commit content, code and manifest changes after validating the build. Keep bulk originals and `.media-delivery/` outside Git. Upload before deploying references to newly added files.
 
+### Shortcut for adding or replacing images
+
+With Pillow installed (`brew install pillow`):
+
+```sh
+pnpm media:prepare
+pnpm media:upload          # dry run: lists files changed since the last commit
+pnpm media:upload --apply  # uploads them
+```
+
+Then commit the manifest. `media:prepare` prefers Homebrew's `python3`, since the system Python lacks Pillow. `media:upload` runs the uploader with `--changed-since-git`, which compares against the manifest committed at `HEAD`, so upload *before* committing. If the manifest is already committed, pass the earlier commit: `pnpm media:upload HEAD~1 --apply`.
+
 Objects use a one-hour cache policy because their names are stable rather than content-addressed. Updated objects may take that long to refresh in clients. Preparation checks source integrity and verifies output decoding, dimensions, and exact transparent-image pixels. The build rejects newly referenced media absent from the manifest.
 
 ## Local previews and validation

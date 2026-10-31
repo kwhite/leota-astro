@@ -3,7 +3,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createHash } from 'node:crypto';
-import { spawn } from 'node:child_process';
+import { execFileSync, spawn } from 'node:child_process';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
 const manifest = JSON.parse(await fs.readFile(path.join(root, 'docs/media-delivery-manifest.json'), 'utf8'));
@@ -23,6 +23,14 @@ let baseline;
 if (baselineIndex >= 0) {
   if (!process.argv[baselineIndex + 1]) throw new Error('--changed-since needs a manifest file.');
   baseline = JSON.parse(await fs.readFile(process.argv[baselineIndex + 1], 'utf8'));
+}
+// --changed-since-git [ref] compares against the manifest committed at ref (default HEAD).
+const gitIndex = process.argv.indexOf('--changed-since-git');
+if (gitIndex >= 0) {
+  const next = process.argv[gitIndex + 1];
+  const ref = next && !next.startsWith('--') ? next : 'HEAD';
+  baseline = JSON.parse(execFileSync('git', ['show', `${ref}:docs/media-delivery-manifest.json`], { cwd: root, encoding: 'utf8', maxBuffer: 64 * 1024 * 1024 }));
+  console.log(`Comparing against the manifest at ${ref}.`);
 }
 const priorFiles = new Map((baseline?.assets || []).flatMap(asset => [asset, ...(asset.variants || [])]).map(asset => [asset.delivery, asset.deliverySha256]));
 const uploads = prepared.filter(({ asset }) =>
