@@ -2,9 +2,9 @@
   "version": 2,
   "pillow": "13.0.0",
   "webp": "1.6.0",
-  "sourceBytes": 656775172,
-  "deliveryBytes": 119974749,
-  "variantBytes": 132879320,
+  "sourceBytes": 659187839,
+  "deliveryBytes": 120268459,
+  "variantBytes": 133179004,
   "assets": [
     {
       "source": "/assets/files/2026/02/Mirror-Mirror---Intro-Sequence-2.pdf",
@@ -26641,6 +26641,83 @@
           "dimensions": [
             1920,
             1076
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/11/warrens.png",
+      "delivery": "/assets/images/2026/11/warrens.webp",
+      "sourceSha256": "285b1117d4d6fa03ce4b8afe666188bb69d9150ee03d4cc74a2eb94a2f8743df",
+      "deliverySha256": "efa3607e537e903bb9a78987f823882886157016b7ec17c4201c3ce51502d4bd",
+      "sourceBytes": 2412667,
+      "deliveryBytes": 293710,
+      "dimensions": [
+        1913,
+        822
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "method": 6,
+        "quality": 90
+      },
+      "status": "converted",
+      "reason": "quality 90 artwork",
+      "usedIn": [
+        "src/content/posts/1-14-to-conquer-is-human-part-2.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/11/warrens.w320.webp",
+          "deliverySha256": "bbf62352d92f036c98c469fdbde6faf3ef75c57e667d93f62fa3a066afe8cd07",
+          "deliveryBytes": 11274,
+          "dimensions": [
+            320,
+            138
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/warrens.w640.webp",
+          "deliverySha256": "8486443bb4cccbf7fb8c1293004f9fedcb7ff52912ffe5c60ede158239bdf6a1",
+          "deliveryBytes": 41826,
+          "dimensions": [
+            640,
+            275
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/warrens.w960.webp",
+          "deliverySha256": "3621313d64ad0ccb09a0505ad2348e1393ed8678f03c22b7c78ab1ae3ea7fe6a",
+          "deliveryBytes": 91606,
+          "dimensions": [
+            960,
+            413
+          ],
+          "settings": {
+            "method": 6,
+            "quality": 90
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/warrens.w1280.webp",
+          "deliverySha256": "b778e2478f4f656f26a922c1abb6843505f486da21926fb9e9cf1c217266b732",
+          "deliveryBytes": 154978,
+          "dimensions": [
+            1280,
+            550
           ],
           "settings": {
             "method": 6,
