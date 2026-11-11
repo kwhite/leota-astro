@@ -1,11 +1,16 @@
 """Prepare only referenced site media; never overwrite public or backup sources.
 
 Run with Python/Pillow: python3 scripts/prepare-media.py
+Lossy WebP needs libwebp's cwebp (brew install webp) for sharp YUV conversion,
+which Pillow does not expose; transparent images stay lossless via Pillow.
 Outputs ignored .media-delivery/ and a tracked delivery manifest.
 """
 import hashlib
 import json
 import re
+import shutil
+import subprocess
+import tempfile
 from pathlib import Path
 from PIL import Image, ImageOps, features
 
@@ -13,6 +18,24 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / '.media-delivery'
 MANIFEST = ROOT / 'docs/media-delivery-manifest.json'
 PATTERN = re.compile(r'(?:/)?assets/(?:images|files)/[^\s\x22\x27<>\)\}\]]+\.(?:png|jpe?g|webp|gif|ico|svg|pdf)')
+
+# Opaque artwork: high quality plus sharp RGB->YUV conversion, which keeps
+# colour edges crisp instead of smearing them with 4:2:0 chroma subsampling.
+LOSSY = {'encoder': 'cwebp', 'method': 6, 'quality': 95, 'sharpYuv': True}
+LOSSLESS = {'method': 6, 'lossless': True, 'exact': True}
+CWEBP = shutil.which('cwebp') or '/opt/homebrew/bin/cwebp'
+
+def save_webp(image, dest, settings, icc=None):
+    if settings.get('encoder') != 'cwebp':
+        image.save(dest, 'WEBP', icc_profile=icc, **settings)
+        return
+    if not Path(CWEBP).exists():
+        raise SystemExit('cwebp not found; install it with: brew install webp')
+    with tempfile.NamedTemporaryFile(suffix='.png') as tmp:
+        image.save(tmp.name, 'PNG', compress_level=1, icc_profile=icc)
+        subprocess.run([CWEBP, '-quiet', '-m', str(settings['method']), '-q', str(settings['quality']),
+            *(['-sharp_yuv'] if settings.get('sharpYuv') else []), '-metadata', 'icc',
+            tmp.name, '-o', str(dest)], check=True)
 
 def sha(path):
     return hashlib.sha256(path.read_bytes()).hexdigest()
@@ -51,7 +74,8 @@ def main():
             # Keep favicon PNG as a deliberate compatibility exception.
             convert = source.suffix.lower() == '.png' and not animated
             convert = convert and url != '/assets/images/2024/12/IMG_0423-2.png'
-            settings = {'method': 6, 'lossless': True, 'exact': True} if transparent else {'method': 6, 'quality': 90}
+            icc = im.info.get('icc_profile')
+            settings = LOSSLESS if transparent else LOSSY
             delivery = str(Path(url).with_suffix('.webp')) if convert else url
             if convert and delivery in refs:
                 delivery = str(Path(url).with_suffix('.optimized.webp'))
@@ -65,7 +89,7 @@ def main():
             if not unchanged:
                 if convert:
                     image = ImageOps.exif_transpose(im).convert('RGBA' if transparent else 'RGB')
-                    image.save(dest, 'WEBP', **settings)
+                    save_webp(image, dest, settings, icc)
                     with Image.open(dest) as check:
                         check.load()
                         assert check.size == image.size
@@ -86,7 +110,7 @@ def main():
                 'deliveryBytes': dest.stat().st_size, 'dimensions': dimensions,
                 'transparent': transparent, 'animated': animated, 'settings': settings if convert else None,
                 'status': 'converted' if convert else 'retained',
-                'reason': ('lossless transparency' if transparent else 'quality 90 artwork') if convert else 'existing format, animation, favicon compatibility, or conversion not smaller',
+                'reason': ('lossless transparency' if transparent else 'quality 95 sharp-YUV artwork') if convert else 'existing format, animation, favicon compatibility, or conversion not smaller',
                 'usedIn': sorted(usages)})
         # Generate smaller candidates from originals, never from a lossy delivery file.
         variants = []
@@ -104,7 +128,7 @@ def main():
                     variant_path = OUT / variant_url.lstrip('/')
                     cached = next((v for v in (old or {}).get('variants', []) if v['delivery'] == variant_url), None)
                     if not (cached and cached.get('settings') == settings and old['sourceSha256'] == source_sha and variant_path.exists() and sha(variant_path) == cached['deliverySha256']):
-                        image.resize((width, height), Image.Resampling.LANCZOS).save(variant_path, 'WEBP', **settings)
+                        save_webp(image.resize((width, height), Image.Resampling.LANCZOS), variant_path, settings, icc)
                     with Image.open(variant_path) as check:
                         check.load()
                         assert check.size == (width, height)
