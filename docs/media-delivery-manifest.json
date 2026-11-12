@@ -2,9 +2,9 @@
   "version": 2,
   "pillow": "13.0.0",
   "webp": "1.6.0",
-  "sourceBytes": 662816495,
-  "deliveryBytes": 159351129,
-  "variantBytes": 182193766,
+  "sourceBytes": 664374606,
+  "deliveryBytes": 159562321,
+  "variantBytes": 182537944,
   "assets": [
     {
       "source": "/assets/files/2026/02/Mirror-Mirror---Intro-Sequence-2.pdf",
@@ -28248,6 +28248,93 @@
           "delivery": "/assets/images/2026/11/reinforcements.w1280.webp",
           "deliverySha256": "824935cf771554b0029f0a67c6c2acf3aa4e45d240eed446ecd4b57b152d0620",
           "deliveryBytes": 233036,
+          "dimensions": [
+            1280,
+            717
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/11/reinforcements2.png",
+      "delivery": "/assets/images/2026/11/reinforcements2.webp",
+      "sourceSha256": "4d7db30c7075c9a1bc9786e64bd8408f28867ac967aac75fc7b7ca1f910a6493",
+      "deliverySha256": "9e5d22f4e837f6b521fe9b2aa52c2f078da67c9618864a155ec3576cb385a6b9",
+      "sourceBytes": 1558111,
+      "deliveryBytes": 211192,
+      "dimensions": [
+        1456,
+        816
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "encoder": "cwebp",
+        "method": 6,
+        "quality": 95,
+        "sharpYuv": true
+      },
+      "status": "converted",
+      "reason": "quality 95 sharp-YUV artwork",
+      "usedIn": [
+        "src/content/posts/1-15-kings-of-the-day-part-1.mdx"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/11/reinforcements2.w320.webp",
+          "deliverySha256": "b23df4c9cb2afa28b9e8a3e4e8fa86e4a9f03e6de683a8e73d4e73dd335df86a",
+          "deliveryBytes": 16912,
+          "dimensions": [
+            320,
+            179
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/reinforcements2.w640.webp",
+          "deliverySha256": "18a971162fd1958c9064bb33e76886d6f841466fdd6e5e9fef4cec32f4c965d3",
+          "deliveryBytes": 53950,
+          "dimensions": [
+            640,
+            359
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/reinforcements2.w960.webp",
+          "deliverySha256": "cdc2f554441d430943fdc213dbed0503cdb7e3226ec4d15e3f8319c636875951",
+          "deliveryBytes": 108796,
+          "dimensions": [
+            960,
+            538
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/reinforcements2.w1280.webp",
+          "deliverySha256": "3c2e79c9fdf8101bdd4a5183f807149a7270d5b28a02d582dc89c0e357dcebf2",
+          "deliveryBytes": 164520,
           "dimensions": [
             1280,
             717
