@@ -22,7 +22,7 @@ The layout resolves one skin per page (`resolveSkin` in `src/config.ts`) and set
 
 1. **Campaign pages** pass their `campaign` frontmatter (`src/content/pages/*.md`) to the layout, and get that campaign's skin.
 2. **Posts** are matched by tag: the first tag that equals a campaign's `tag` picks the campaign. Tags compare as archive slugs, so `Rite and Riot` and `rite-and-riot` are the same.
-3. **Tag archives** use the campaign whose `tag` they are.
+3. **Tag archives** use the campaign whose `tag` they are. Other archives (seasons, arcs) use the campaign their posts belong to, when every post agrees; archives spanning campaigns, such as Session Recaps, use the default.
 4. **Everything else** (home, About, Resources, untagged posts) uses `SITE_CONFIG.skin`, currently `com` because City of Mist is the current campaign.
 
 Each campaign in `CAMPAIGN_NAVIGATION` names its skin and archive tag:

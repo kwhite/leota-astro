@@ -102,12 +102,30 @@ export function campaignForTag(tag: string): CampaignId | undefined {
     .find(id => CAMPAIGN_NAVIGATION[id].tag === slug);
 }
 
+/** The campaign a post belongs to: the one matching the earliest of its tags. */
+export function campaignForPost(tags: readonly string[]): CampaignId | undefined {
+  return tags.map(campaignForTag).find(Boolean);
+}
+
+/**
+ * The campaign a tag archive belongs to: the campaign named by the tag itself, or
+ * else the one campaign all of its posts belong to, so season and arc archives such
+ * as "Season 1" follow their campaign. An archive that spans campaigns (such as
+ * "Session Recaps") belongs to none and uses the site default.
+ */
+export function campaignForArchive(tag: string, postTags: readonly (readonly string[])[]): CampaignId | undefined {
+  const own = campaignForTag(tag);
+  if (own) return own;
+  const found = new Set(postTags.map(campaignForPost).filter(Boolean));
+  return found.size === 1 ? [...found][0] : undefined;
+}
+
 /**
  * Which skin a page wears: its campaign's when it names one; otherwise the campaign
  * matching the earliest of its tags (a post's primary tag wins); otherwise the default.
  */
 export function resolveSkin({ campaign, tags = [] }: { campaign?: CampaignId; tags?: readonly string[] } = {}): SkinId {
-  const id = campaign ?? tags.map(campaignForTag).find(Boolean);
+  const id = campaign ?? campaignForPost(tags);
   return id ? CAMPAIGN_NAVIGATION[id].skin : SITE_CONFIG.skin;
 }
 
