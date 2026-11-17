@@ -2,13 +2,14 @@
 import BaseHead from '../components/BaseHead.astro';
 import SubscribeModal from '../components/SubscribeModal.astro';
 import Navigation from '../components/Navigation.astro';
-import { SITE_CONFIG, getAssetUrl } from '../config';
+import { SITE_CONFIG, SKINS, getAssetUrl, resolveSkin, type CampaignId } from '../config';
 import { ClientRouter } from 'astro:transitions';
 
 // Import CSS stylesheets so Astro bundles them
 import '../styles/global.css';
 import '../styles/screen.css';
 import '../styles/leota.css';
+import '../styles/skins/blades.css';
 
 interface Props {
   title?: string;
@@ -19,6 +20,8 @@ interface Props {
   tags?: string[];
   author?: string;
   current?: string;
+  /** The campaign this page belongs to; posts are matched by their tags instead. */
+  campaign?: CampaignId;
 }
 
 const {
@@ -30,14 +33,18 @@ const {
   tags = [],
   author,
   current,
+  campaign,
 } = Astro.props;
+
+const skin = resolveSkin({ campaign, tags });
+const { theme, accentColor, accentTextColor } = SKINS[skin];
 
 const currentYear = new Date().getFullYear();
 const bodyClass = current === 'home' ? 'home-template' : `${current || 'page'}-template`;
 ---
 
 <!DOCTYPE html>
-<html lang="en" class={`${SITE_CONFIG.theme}-mode`} style={`--ghost-accent-color: ${SITE_CONFIG.accentColor}; --color-on-accent: ${SITE_CONFIG.accentTextColor};`}>
+<html lang="en" data-skin={skin} class={`${theme}-mode`} style={`--ghost-accent-color: ${accentColor}; --color-on-accent: ${accentTextColor};`}>
 <head>
     <BaseHead
       title={title}
@@ -47,6 +54,7 @@ const bodyClass = current === 'home' ? 'home-template' : `${current || 'page'}-t
       articleDate={articleDate}
       tags={tags}
       author={author}
+      skin={skin}
     />
     <ClientRouter />
 </head>

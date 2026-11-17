@@ -1,10 +1,19 @@
+// Site skins: a palette plus a type pairing, selected per campaign. Each skin sets the
+// light/dark base, the accent, and the text color used on accent backgrounds (the
+// site does not pick a contrasting color for you). Skin-specific CSS lives in
+// src/styles/skins/<id>.css, scoped to html[data-skin="<id>"].
+export const SKINS = {
+  leota: { label: 'Leota (dark purple)', theme: 'dark', accentColor: '#572b9e', accentTextColor: '#ffffff' },
+  blades: { label: 'Blades in the Dark', theme: 'dark', accentColor: '#ff5a1f', accentTextColor: '#0e0e0e' },
+} as const satisfies Record<string, { label: string; theme: 'light' | 'dark'; accentColor: string; accentTextColor: string }>;
+export type SkinId = keyof typeof SKINS;
+
 // Publication settings recovered from the 2026-10-03 Ghost export.
 export const SITE_CONFIG = {
   title: 'Game Notes & Summaries',
-  // Campaign presentation: publication-wide, rather than a visitor preference.
-  theme: 'dark' as 'light' | 'dark',
-  accentColor: '#572b9e',
-  accentTextColor: '#ffffff', // Use dark text with a pale accent.
+  // Default skin for pages that belong to no campaign (home, About, untagged posts).
+  // Campaigns choose their own skin in CAMPAIGN_NAVIGATION; palettes live in SKINS.
+  skin: 'leota' as SkinId,
 
   description: 'All the things I write down from all the games we play.',
   cover: 'assets/images/2026/05/musetta._dramatic_low_angle_looking_up_at_six_silhouetted_figur_8e265eba-592c-4a9d-8900-251bc271583a.png',
@@ -28,6 +37,7 @@ export const SITE_CONFIG = {
 
 // Keep the original destinations recorded while their pages await migration.
 export const PRIMARY_NAVIGATION = [
+  { label: 'Blades in the Dark', href: '/tag/rite-and-riot/', available: true },
   { label: 'City of Mist', href: '/city-of-mist/', available: true },
   { label: 'Freaky Gray Company', href: '/the-freaky-gray-company/', available: true },
   { label: 'The Chosen', href: '/the-chosen/', available: true },
@@ -36,6 +46,8 @@ export const PRIMARY_NAVIGATION = [
 // Section links for campaign landing pages; unavailable sections render inactive until migrated.
 export const CAMPAIGN_NAVIGATION = {
   'city-of-mist': {
+    skin: 'leota',
+    tag: 'city-of-mist',
     label: 'City of Mist',
     links: [
       { id: 'overview', label: 'Overview', href: '/city-of-mist/', available: true },
@@ -47,6 +59,8 @@ export const CAMPAIGN_NAVIGATION = {
     ],
   },
   'freaky-gray-company': {
+    skin: 'leota',
+    tag: 'freaky-gray-company',
     label: 'Freaky Gray Company',
     links: [
       { id: 'overview', label: 'Overview', href: '/the-freaky-gray-company/', available: true },
@@ -56,6 +70,8 @@ export const CAMPAIGN_NAVIGATION = {
     ],
   },
   'the-chosen': {
+    skin: 'leota',
+    tag: 'the-chosen',
     label: 'The Chosen',
     links: [
       { id: 'overview', label: 'Overview', href: '/the-chosen/', available: true },
@@ -64,8 +80,35 @@ export const CAMPAIGN_NAVIGATION = {
       { id: 'summaries', label: 'Season Summaries', href: '/tag/the-chosen/', available: true },
     ],
   },
-} as const;
+  'rite-and-riot': {
+    skin: 'blades',
+    tag: 'rite-and-riot',
+    label: 'Blades in the Dark',
+    links: [
+      { id: 'summaries', label: 'Session Summaries', href: '/tag/rite-and-riot/', available: true },
+    ],
+  },
+} as const satisfies Record<string, { skin: SkinId; tag: string; label: string; links: readonly unknown[] }>;
 export type CampaignId = keyof typeof CAMPAIGN_NAVIGATION;
+
+/** Tag names and slugs compare the way tag archive URLs are built. */
+export const tagSlug = (tag: string) => tag.toLowerCase().replace(/\s+/g, '-');
+
+/** The campaign whose archive tag matches, if any. */
+export function campaignForTag(tag: string): CampaignId | undefined {
+  const slug = tagSlug(tag);
+  return (Object.keys(CAMPAIGN_NAVIGATION) as CampaignId[])
+    .find(id => CAMPAIGN_NAVIGATION[id].tag === slug);
+}
+
+/**
+ * Which skin a page wears: its campaign's when it names one; otherwise the campaign
+ * matching the earliest of its tags (a post's primary tag wins); otherwise the default.
+ */
+export function resolveSkin({ campaign, tags = [] }: { campaign?: CampaignId; tags?: readonly string[] } = {}): SkinId {
+  const id = campaign ?? tags.map(campaignForTag).find(Boolean);
+  return id ? CAMPAIGN_NAVIGATION[id].skin : SITE_CONFIG.skin;
+}
 
 export const SECONDARY_NAVIGATION = [
   { label: 'DM Resources', href: '/dm-resources/', available: true },

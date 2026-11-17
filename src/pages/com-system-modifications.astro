@@ -7,7 +7,7 @@ if (!page) throw new Error('Missing page content: com-system-modifications');
 const frontmatter = page.data;
 const { Content } = await render(page);
 ---
-<PageLayout title={frontmatter.title} cover={frontmatter.cover} description={frontmatter.description} subclass="campaign-page">
+<PageLayout title={frontmatter.title} cover={frontmatter.cover} description={frontmatter.description} campaign={frontmatter.campaign} subclass="campaign-page">
     {frontmatter.campaignSection && <CampaignNav current={frontmatter.campaignSection} />}
     <Content />
 </PageLayout>

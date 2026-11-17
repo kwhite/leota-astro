@@ -1,47 +1,69 @@
 # Campaign appearance
 
-Campaign presentation is controlled in `src/config.ts`, under `SITE_CONFIG`. It applies across the publication, including posts and campaign archives; it is not a per-page setting or a visitor preference. Change the settings, rebuild, and publish through the normal pull-request workflow.
+Appearance is set per campaign with **skins**. A skin is a palette (light/dark base, accent, text color on the accent) plus optional CSS and fonts. Everything is configured in `src/config.ts`; change the settings, rebuild, and publish through the normal pull-request workflow. It is not a visitor preference.
 
-The current settings preserve the dark purple design:
+## Skins
 
-```ts
-theme: 'dark' as 'light' | 'dark',
-accentColor: '#572b9e',
-accentTextColor: '#ffffff',
-```
-
-For a light theme with a dark green accent, for example:
+`SKINS` in `src/config.ts` lists the available skins:
 
 ```ts
-theme: 'light' as 'light' | 'dark',
-accentColor: '#205c45',
-accentTextColor: '#ffffff',
+export const SKINS = {
+  leota: { label: 'Leota (dark purple)', theme: 'dark', accentColor: '#572b9e', accentTextColor: '#ffffff' },
+  blades: { label: 'Blades in the Dark', theme: 'dark', accentColor: '#ff5a1f', accentTextColor: '#0e0e0e' },
+};
 ```
 
-For a pale accent, choose dark text on that accent background:
+`accentTextColor` controls navigation, button and skip-link text on accent backgrounds. The site does not choose a contrasting color automatically: a pale or bright accent needs dark text. The Blades orange is one of these (white on `#ff5a1f` is about 3.1:1; ink is about 6.2:1).
+
+## Which skin a page uses
+
+The layout resolves one skin per page (`resolveSkin` in `src/config.ts`) and sets it as `data-skin` on `<html>`:
+
+1. **Campaign pages** pass their `campaign` frontmatter (`src/content/pages/*.md`) to the layout, and get that campaign's skin.
+2. **Posts** are matched by tag: the first tag that equals a campaign's `tag` picks the campaign. Tags compare as archive slugs, so `Rite and Riot` and `rite-and-riot` are the same.
+3. **Tag archives** use the campaign whose `tag` they are.
+4. **Everything else** (home, About, Resources, untagged posts) uses `SITE_CONFIG.skin`.
+
+Each campaign in `CAMPAIGN_NAVIGATION` names its skin and archive tag:
 
 ```ts
-accentColor: '#e4c98b',
-accentTextColor: '#151719',
+'rite-and-riot': {
+  skin: 'blades',
+  tag: 'rite-and-riot',
+  label: 'Blades in the Dark',
+  links: [ ... ],
+},
 ```
 
-Use CSS color values, preferably hex colors. `accentTextColor` controls navigation and button text on accent backgrounds. The site does not automatically choose a contrasting text color. The existing logo artwork is also unchanged; check its visibility when using pale backgrounds and provide suitable artwork if necessary.
+To move a campaign to another skin, change its `skin`. To change the site default, change `SITE_CONFIG.skin`.
 
-## What follows the settings
+## Adding a skin
 
-The layout sets the theme class and accent variables on the document. Shared palette variables in `src/styles/leota.css` control page backgrounds, prose, headings, secondary text, borders, code backgrounds, and focus outlines. Article/archive cards, bookmarks, downloads, disclosures, campaign navigation, and consent form controls use those colors. The People directory has a separate light palette while retaining its character-card styling.
+1. Add an entry to `SKINS`.
+2. If it needs more than a new accent, add `src/styles/skins/<id>.css`, scope every rule to `html[data-skin="<id>"]`, and import it in `src/layouts/Layout.astro`. Override the shared palette variables from `src/styles/leota.css` (`--color-darkmode`, `--color-text`, `--color-heading`, `--color-border`, and so on) and `--font-heading` / `--font-body`.
+3. For new fonts, add them to `fonts` in `astro.config.mjs` and render them for that skin in `src/components/BaseHead.astro`. Google-provided fonts are downloaded at build time and served from this site.
+4. Check contrast: body text needs 4.5:1, large headings 3:1.
 
-Text over cover photographs and banners remains white, and the image viewer retains its dark overlay. Blue/yellow callouts and green/yellow/red consent choices retain their meanings. External embedded players control their own appearance. The local email renderer uses its own dark palette and does not inherit these site settings.
+## The Blades skin
+
+- Palette: Ink `#0e0e0e`, Soot `#171717`, Iron `#242424`, Ash `#3a3a3a` (borders only), Fog `#a3a3a3`, Bone `#edebe6`, Hot Orange `#ff5a1f`. On Ink: Bone 16:1, Fog 7.6:1, Orange 6.2:1.
+- Type: Kirsty for headings, Source Serif 4 for prose, IBM Plex Mono for labels (tags, meta, navigation, footer).
+- Kirsty is the free Larabie cut, which has capitals and small capitals but no lowercase. Its license (`src/assets/fonts/kirsty/Larabie Fonts License.txt`, also published at `/fonts/kirsty-license.txt`) allows redistribution only unaltered: keep the `.ttf` files as they are. Do not convert them to WOFF2 or subset them. Astro's local font provider copies them byte-for-byte.
+
+## What follows the skin
+
+Shared palette variables control page backgrounds, prose, headings, secondary text, borders, code backgrounds and focus outlines. Article/archive cards, bookmarks, downloads, disclosures, campaign navigation and consent controls use those colors.
+
+Text over cover photographs and banners remains white, and the image viewer keeps its dark overlay. Blue/yellow callouts and green/yellow/red consent choices keep their meanings. The People directory keeps its own palette. External embedded players control their own appearance. The local email renderer uses its own palette and does not follow skins. Recent-post cards under an article show posts from every campaign in the article's skin.
 
 ## Review before publishing
 
-Run `pnpm build`, then inspect the site with `pnpm dev` or `pnpm preview`:
+Run `pnpm build`, then inspect with `pnpm preview`, for each skin in use:
 
-- Homepage and campaign archive: card titles, excerpts, and pagination.
-- Articles with and without covers: headings, links, quotes, disclosures, and code.
-- Resources and download cards: text, borders, and hover states.
-- People directory and consent checklist: labels, inputs, selections, and buttons.
+- Homepage and campaign archive: card titles, excerpts and pagination.
+- Articles with and without covers: headings, links, quotes, disclosures and code.
+- Resources and download cards: text, borders and hover states.
+- People directory and consent checklist: labels, inputs, selections and buttons.
 - Desktop/mobile navigation and footer, including the expanded mobile menu.
+- Navigating between campaigns with different skins (the site uses client-side transitions).
 - Keyboard focus and text contrast on the chosen accent; cover and logo visibility.
-
-The implementation was checked with light and dark production builds (219 pages), light homepage/Resources/checklist previews, a 390px checklist preview, and the restored dark Resources preview. New accent combinations still require their own contrast and visual review.
