@@ -72,7 +72,7 @@ To move a campaign to another skin, change its `skin`. To change the site defaul
 ## The Chosen skin
 
 - Palette, enriched from the original 2003 site's web-safe `#003333`: Crypt `#0a2629`, Tomb `#123538` (header and panels), Moss `#34595a` (borders only), Lichen `#a9bdb6`, Candle `#f3ead3`, Verdigris `#6fb8a8` (kickers and tags), Old Gold `#cda349` (links, active navigation; Crypt text on it), Glow `#ebdf9e` (title halo, hover) and Oxblood `#8e2f2c` (rules under the header, above the footer and beside quotes only). On Crypt: Candle 13.3:1, Lichen 8.0:1, Verdigris 6.9:1, Old Gold 6.8:1.
-- Type: Pirata One for titles, with a candle-glow halo on page and section titles; Almendra SC for navigation, kickers, tags and large centered quotes (verse); Alegreya for prose and inline quotes.
+- Type: Pirata One for titles, with a candle-glow halo on page and section titles; Almendra SC for navigation, kickers, tags and large centered quotes (verse); Alegreya for prose and inline quotes. Inline quotes are set apart by color, Sea Glass `#b9ddd2` (10.8:1 on Crypt), rather than a panel, so the prose stays dominant.
 - Blackletter is for titles only.
 
 ## Skin CSS and component styles
