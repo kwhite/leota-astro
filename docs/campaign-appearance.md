@@ -54,7 +54,7 @@ To move a campaign to another skin, change its `skin`. To change the site defaul
 ## The City of Mist skin
 
 - Palette: Night `#0f1020`, Smog `#1a1b33`, Haze `#34365a` (borders only), Fog `#a9aecb`, Streetlight `#e8f0ff`, Mythos Purple `#572b9e` (the header bar and other fills, with white text, 9.4:1), Neon Pink `#ff568f` (kickers, tags, active navigation, quote rules) and Neon Cyan `#56b8ff` (links). On Night: Streetlight 16.4:1, Fog 8.6:1, Cyan 8.7:1, Pink 6.3:1. Purple is 2.0:1 on Night, so it is never used for text there.
-- Type: Bebas Neue for titles (capitals only, one weight), Bangers for short comic labels, Barlow for prose and pull quotes.
+- Type: Bebas Neue for titles (capitals only, one weight), Bangers for short comic labels, Barlow for prose. Inline quotes (pink rule) are Barlow italic, a step larger and brighter than the prose; large centered quotes (`kg-blockquote-alt`) are upright Barlow Condensed with tight leading, so long ones such as verse hold together.
 - Bangers is for labels only: navigation, kickers, tags. Not paragraphs or quotes, and never below 18px; it is slanted 5 degrees.
 
 ## Skin CSS and component styles

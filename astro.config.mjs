@@ -54,6 +54,11 @@ export default defineConfig({
       fallbacks: ['system-ui', 'sans-serif'],
     },
     {
+      name: 'Barlow Condensed', cssVariable: '--font-barlow-condensed',
+      provider: fontProviders.google(), weights: [500, 600], styles: ['normal'], display: 'swap',
+      fallbacks: ['Arial Narrow', 'sans-serif'],
+    },
+    {
       name: 'Source Serif 4', cssVariable: '--font-serif',
       provider: fontProviders.google(), weights: [400, 600, 700], styles: ['normal', 'italic'], display: 'swap',
       fallbacks: ['Georgia', 'serif'],

@@ -100,10 +100,31 @@ html[data-skin="com"] .leota-content a { color: var(--com-cyan); text-underline-
 html[data-skin="com"] .leota-content a:hover { color: var(--com-cyan-hover); }
 html[data-skin="com"] .leota-content :is(strong, b) { color: var(--color-heading); }
 html[data-skin="com"] .leota-content blockquote::before { background: var(--com-pink); }
-/* Pull quotes stay in Barlow (italic, large); never Bangers. */
-html[data-skin="com"] .leota-content blockquote.kg-blockquote-alt {
-    font-family: var(--font-body), system-ui, sans-serif;
+/* Quotes are set apart from the prose around them, never in Bangers.
+   Inline quotes (pink rule): a step larger, full Streetlight, tighter leading. */
+html[data-skin="com"] .leota-content blockquote:not(.kg-blockquote-alt) {
+    font-size: 1.1em;
+    line-height: 1.5;
     color: var(--color-heading);
+}
+html[data-skin="com"] .leota-content blockquote:not(.kg-blockquote-alt) p + p { margin-top: .5em; }
+/* Large centered quotes: upright Barlow Condensed with tight leading, so a
+   multi-line block (a prophecy, a song) holds together as one piece. */
+html[data-skin="com"] .leota-content blockquote.kg-blockquote-alt {
+    font-family: var(--font-barlow-condensed), 'Arial Narrow', sans-serif;
+    font-size: 1.45em;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.3;
+    letter-spacing: .005em;
+    color: var(--color-heading);
+}
+html[data-skin="com"] .leota-content blockquote.kg-blockquote-alt + blockquote.kg-blockquote-alt { margin-top: 1.2em; }
+@media (max-width: 800px) {
+    html[data-skin="com"] .leota-content blockquote.kg-blockquote-alt { font-size: 1.35em; }
+}
+@media (max-width: 600px) {
+    html[data-skin="com"] .leota-content blockquote.kg-blockquote-alt { font-size: 1.2em; }
 }
 html[data-skin="com"] .leota-content :is(.leota-disclosure, .kg-callout-card, pre),
 html[data-skin="com"] .leota-content .kg-bookmark-card a.kg-bookmark-container { border-radius: 0; }
