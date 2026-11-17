@@ -107,11 +107,16 @@ html[data-skin="chosen"] .leota-content a { color: var(--chosen-gold); text-unde
 html[data-skin="chosen"] .leota-content a:hover { color: var(--chosen-glow); }
 html[data-skin="chosen"] .leota-content :is(strong, b) { color: var(--color-heading); }
 html[data-skin="chosen"] .leota-content blockquote::before { background: var(--chosen-oxblood); }
+/* Inline quotes sit on a Tomb panel with the oxblood rule on its edge, so a long
+   quoted clipping reads as a separate document rather than more italic prose. */
 html[data-skin="chosen"] .leota-content blockquote:not(.kg-blockquote-alt) {
-    font-size: 1.05em;
+    padding: 1em 1.3em 1em 1.5em;
+    background: var(--color-panel);
+    font-size: 1.08em;
     line-height: 1.5;
     color: var(--color-heading);
 }
+html[data-skin="chosen"] .leota-content blockquote:not(.kg-blockquote-alt)::before { left: 0; width: 4px; }
 html[data-skin="chosen"] .leota-content blockquote:not(.kg-blockquote-alt) p + p { margin-top: .5em; }
 /* Large centered quotes are verse: Almendra SC in glow gold, with the halo. */
 html[data-skin="chosen"] .leota-content blockquote.kg-blockquote-alt {
