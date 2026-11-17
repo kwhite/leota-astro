@@ -110,4 +110,5 @@ html[data-skin="com"] .leota-content .kg-bookmark-card a.kg-bookmark-container {
 html[data-skin="com"] .leota-content .leota-disclosure { background: var(--color-panel); }
 html[data-skin="com"] .leota-recent { border-top-color: var(--color-border); }
 html[data-skin="com"] .leota .feed-pagination a { color: var(--com-cyan); }
-html[data-skin="com"] .leota .post-card-content-link:hover .post-card-title { color: var(--com-pink); opacity: 1; }
+/* Cyan is the link color, so a card title turns cyan when it is about to be followed. */
+html[data-skin="com"] .leota .post-card-content-link:is(:hover, :focus-visible) .post-card-title { color: var(--com-cyan); opacity: 1; }
