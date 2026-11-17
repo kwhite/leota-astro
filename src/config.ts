@@ -6,6 +6,7 @@ export const SKINS = {
   leota: { label: 'Leota (dark purple)', theme: 'dark', accentColor: '#572b9e', accentTextColor: '#ffffff' },
   blades: { label: 'Blades in the Dark', theme: 'dark', accentColor: '#ff5a1f', accentTextColor: '#0e0e0e' },
   com: { label: 'City of Mist', theme: 'dark', accentColor: '#572b9e', accentTextColor: '#ffffff' },
+  chosen: { label: 'The Chosen', theme: 'dark', accentColor: '#cda349', accentTextColor: '#0a2629' },
 } as const satisfies Record<string, { label: string; theme: 'light' | 'dark'; accentColor: string; accentTextColor: string }>;
 export type SkinId = keyof typeof SKINS;
 
@@ -73,7 +74,7 @@ export const CAMPAIGN_NAVIGATION = {
     ],
   },
   'the-chosen': {
-    skin: 'leota',
+    skin: 'chosen',
     tag: 'the-chosen',
     label: 'The Chosen',
     links: [

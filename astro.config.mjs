@@ -58,6 +58,22 @@ export default defineConfig({
       provider: fontProviders.google(), weights: [500, 600], styles: ['normal'], display: 'swap',
       fallbacks: ['Arial Narrow', 'sans-serif'],
     },
+    // The Chosen skin: Pirata One titles, Almendra SC labels and verse, Alegreya prose.
+    {
+      name: 'Pirata One', cssVariable: '--font-pirata',
+      provider: fontProviders.google(), weights: [400], styles: ['normal'], display: 'swap',
+      fallbacks: ['Georgia', 'serif'],
+    },
+    {
+      name: 'Almendra SC', cssVariable: '--font-almendra',
+      provider: fontProviders.google(), weights: [400], styles: ['normal'], display: 'swap',
+      fallbacks: ['Georgia', 'serif'],
+    },
+    {
+      name: 'Alegreya', cssVariable: '--font-alegreya',
+      provider: fontProviders.google(), weights: [400, 700], styles: ['normal', 'italic'], display: 'swap',
+      fallbacks: ['Georgia', 'serif'],
+    },
     {
       name: 'Source Serif 4', cssVariable: '--font-serif',
       provider: fontProviders.google(), weights: [400, 600, 700], styles: ['normal', 'italic'], display: 'swap',

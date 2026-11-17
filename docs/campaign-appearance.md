@@ -11,6 +11,7 @@ export const SKINS = {
   leota: { label: 'Leota (dark purple)', theme: 'dark', accentColor: '#572b9e', accentTextColor: '#ffffff' },
   blades: { label: 'Blades in the Dark', theme: 'dark', accentColor: '#ff5a1f', accentTextColor: '#0e0e0e' },
   com: { label: 'City of Mist', theme: 'dark', accentColor: '#572b9e', accentTextColor: '#ffffff' },
+  chosen: { label: 'The Chosen', theme: 'dark', accentColor: '#cda349', accentTextColor: '#0a2629' },
 };
 ```
 
@@ -67,6 +68,12 @@ To move a campaign to another skin, change its `skin`. To change the site defaul
 - Palette: Night `#0f1020`, Smog `#1a1b33`, Haze `#34365a` (borders only), Fog `#a9aecb`, Streetlight `#e8f0ff`, Mythos Purple `#572b9e` (the header bar and other fills, with white text, 9.4:1), Neon Pink `#ff568f` (kickers, tags, active navigation, quote rules) and Neon Cyan `#56b8ff` (links). On Night: Streetlight 16.4:1, Fog 8.6:1, Cyan 8.7:1, Pink 6.3:1. Purple is 2.0:1 on Night, so it is never used for text there.
 - Type: Bebas Neue for titles (capitals only, one weight), Bangers for short comic labels, Barlow for prose. Inline quotes (pink rule) are Barlow italic, a step larger and brighter than the prose; large centered quotes (`kg-blockquote-alt`) are upright Barlow Condensed with tight leading, so long ones such as verse hold together.
 - Bangers is for labels only: navigation, kickers, tags. Not paragraphs or quotes, and never below 18px; it is slanted 5 degrees.
+
+## The Chosen skin
+
+- Palette, enriched from the original 2003 site's web-safe `#003333`: Crypt `#0a2629`, Tomb `#123538` (header and panels), Moss `#34595a` (borders only), Lichen `#a9bdb6`, Candle `#f3ead3`, Verdigris `#6fb8a8` (kickers and tags), Old Gold `#cda349` (links, active navigation; Crypt text on it), Glow `#ebdf9e` (title halo, hover) and Oxblood `#8e2f2c` (rules under the header, above the footer and beside quotes only). On Crypt: Candle 13.3:1, Lichen 8.0:1, Verdigris 6.9:1, Old Gold 6.8:1.
+- Type: Pirata One for titles, with a candle-glow halo on page and section titles; Almendra SC for navigation, kickers, tags and large centered quotes (verse); Alegreya for prose and inline quotes.
+- Blackletter is for titles only.
 
 ## Skin CSS and component styles
 

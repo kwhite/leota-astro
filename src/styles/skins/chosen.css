@@ -1,0 +1,133 @@
+/* The Chosen skin: crypt teal and verdigris, antique gold, a line of oxblood, and a
+   candle-glow on the titles. Pirata One for titles, Almendra SC for labels and verse,
+   Alegreya for prose. Scoped to html[data-skin="chosen"] (see resolveSkin in
+   src/config.ts). Palette enriched from the 2003 site's #003333 teal.
+
+   Contrast on Crypt #0a2629: Candle 13.3:1, Lichen 8.0:1, Verdigris 6.9:1,
+   Old Gold 6.8:1 (Crypt text on gold 6.8:1). Moss #34595a and Oxblood #8e2f2c are
+   about 2:1, so they are rules and borders only, never text.
+
+   Blackletter is for titles only; never body copy or small labels. */
+html[data-skin="chosen"] {
+    --color-darkmode: #0a2629;          /* Crypt: page ground */
+    --color-panel: #123538;             /* Tomb: panels, header */
+    --color-panel-hover: #1c4447;
+    --color-input: #1c4447;
+    --color-border: #34595a;            /* Moss */
+    --color-secondary-text: #a9bdb6;    /* Lichen */
+    --color-heading: #f3ead3;           /* Candle */
+    --color-heading-soft: #f3ead3;
+    --color-text: rgba(243, 234, 211, .88);
+    --color-caption: rgba(243, 234, 211, .66);
+    --color-code: #061a1c;
+    --color-pre: #123538;
+    --color-focus: #ebdf9e;
+    --chosen-verdigris: #6fb8a8;
+    --chosen-gold: #cda349;
+    --chosen-glow: #ebdf9e;
+    --chosen-oxblood: #8e2f2c;
+    --chosen-halo: 0 0 18px rgba(235, 223, 158, .45), 0 0 2px rgba(235, 223, 158, .6);
+
+    --font-heading: var(--font-pirata);
+    --font-body: var(--font-alegreya);
+    --font-label: var(--font-almendra), Georgia, serif;
+}
+
+/* Titles: Pirata One has one weight. Big titles get the candle-glow. */
+html[data-skin="chosen"] .leota :is(h1, h2, h3, h4, h5, h6),
+html[data-skin="chosen"] .leota :is(.article-title, .post-card-title) {
+    font-family: var(--font-heading), Georgia, serif;
+    font-weight: 400;
+    letter-spacing: .01em;
+    line-height: 1.05;
+}
+html[data-skin="chosen"] .leota :is(.article-title, .archive-content h1),
+html[data-skin="chosen"] .leota-content > :is(h1, h2) { text-shadow: var(--chosen-halo); }
+html[data-skin="chosen"] .article-title { font-size: clamp(4rem, 6.4vw, 7rem); }
+html[data-skin="chosen"] .archive-content h1 { font-size: 5.4rem; }
+html[data-skin="chosen"] .leota .post-card-title { font-size: 3rem; }
+html[data-skin="chosen"] .leota-content h2 { font-size: 4rem; }
+html[data-skin="chosen"] .leota-content h3 { font-size: 3.2rem; }
+@media (min-width: 1001px) {
+    html[data-skin="chosen"] .leota .post-card-large .post-card-title { font-size: 5rem; }
+    html[data-skin="chosen"] .leota .dynamic .post-card-title { font-size: 3.6rem; }
+}
+@media (max-width: 650px) {
+    html[data-skin="chosen"] .leota-content h2 { font-size: 3.4rem; }
+    html[data-skin="chosen"] .leota-content h3 { font-size: 2.8rem; }
+}
+html[data-skin="chosen"] body.leota,
+html[data-skin="chosen"] .leota :is(.leota-content, .post-card-excerpt, .kg-callout-text) {
+    font-family: var(--font-body), Georgia, serif;
+}
+
+/* Header: a Tomb bar over a line of oxblood, not an accent-filled band. */
+html[data-skin="chosen"] .leota .site-header,
+html[data-skin="chosen"] .publication-header { background: var(--color-panel); }
+html[data-skin="chosen"] .leota .site-header { border-bottom: 2px solid var(--chosen-oxblood); }
+html[data-skin="chosen"] .publication-nav,
+html[data-skin="chosen"] .publication-header { color: var(--color-heading); }
+html[data-skin="chosen"] .leota .publication-nav :is(a, summary):focus-visible { outline-color: var(--color-focus); }
+@media (max-width: 991px) {
+    html[data-skin="chosen"] .leota .publication-mobile-nav .publication-links {
+        background: var(--color-panel);
+        border-bottom: 2px solid var(--chosen-oxblood);
+    }
+}
+html[data-skin="chosen"] .leota .site-footer { border-top: 2px solid var(--chosen-oxblood); background: var(--color-panel); }
+
+/* Labels in Almendra SC: navigation, kickers, tags. */
+html[data-skin="chosen"] .leota .publication-links a,
+html[data-skin="chosen"] .leota .campaign-nav :is(a, span),
+html[data-skin="chosen"] .leota :is(.article-tag, .post-card-tags) {
+    font-family: var(--font-label);
+    font-weight: 400;
+    letter-spacing: .04em;
+    text-transform: none;
+}
+html[data-skin="chosen"] .leota .publication-links a { font-size: 1.9rem; }
+html[data-skin="chosen"] .leota .publication-links a:hover,
+html[data-skin="chosen"] .leota .publication-links a[aria-current] {
+    color: var(--chosen-gold);
+    text-decoration-color: var(--chosen-gold);
+}
+html[data-skin="chosen"] .leota .campaign-nav :is(a, span) { font-size: 1.9rem; }
+html[data-skin="chosen"] .leota .campaign-nav a:hover,
+html[data-skin="chosen"] .leota .campaign-nav a[aria-current] {
+    color: var(--chosen-gold);
+    text-decoration-color: var(--chosen-gold);
+}
+html[data-skin="chosen"] .leota .article-tag { font-size: 2rem; }
+html[data-skin="chosen"] .leota .article-tag a { color: var(--chosen-verdigris); }
+html[data-skin="chosen"] .leota .article-hero.has-image .article-tag a { color: #fff; }
+html[data-skin="chosen"] .leota .post-card-tags { font-size: 1.7rem; color: var(--chosen-verdigris); }
+
+/* Prose: gold links that glow on hover, oxblood quote rules. */
+html[data-skin="chosen"] .leota-content a { color: var(--chosen-gold); text-underline-offset: .16em; }
+html[data-skin="chosen"] .leota-content a:hover { color: var(--chosen-glow); }
+html[data-skin="chosen"] .leota-content :is(strong, b) { color: var(--color-heading); }
+html[data-skin="chosen"] .leota-content blockquote::before { background: var(--chosen-oxblood); }
+html[data-skin="chosen"] .leota-content blockquote:not(.kg-blockquote-alt) {
+    font-size: 1.05em;
+    line-height: 1.5;
+    color: var(--color-heading);
+}
+html[data-skin="chosen"] .leota-content blockquote:not(.kg-blockquote-alt) p + p { margin-top: .5em; }
+/* Large centered quotes are verse: Almendra SC in glow gold, with the halo. */
+html[data-skin="chosen"] .leota-content blockquote.kg-blockquote-alt {
+    font-family: var(--font-label);
+    font-style: normal;
+    font-size: 1.35em;
+    line-height: 1.4;
+    color: var(--chosen-glow);
+    text-shadow: var(--chosen-halo);
+}
+@media (max-width: 600px) {
+    html[data-skin="chosen"] .leota-content blockquote.kg-blockquote-alt { font-size: 1.2em; }
+}
+html[data-skin="chosen"] .leota-content :is(.leota-disclosure, .kg-callout-card, pre),
+html[data-skin="chosen"] .leota-content .kg-bookmark-card a.kg-bookmark-container { border-radius: 0; }
+html[data-skin="chosen"] .leota-content .leota-disclosure { background: var(--color-panel); }
+html[data-skin="chosen"] .leota-recent { border-top-color: var(--color-border); }
+html[data-skin="chosen"] .leota .feed-pagination a { color: var(--chosen-gold); }
+html[data-skin="chosen"] .leota .post-card-content-link:is(:hover, :focus-visible) .post-card-title { color: var(--chosen-gold); opacity: 1; }
