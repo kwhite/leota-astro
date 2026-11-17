@@ -14,7 +14,7 @@ export const SITE_CONFIG = {
   title: 'Game Notes & Summaries',
   // Default skin for pages that belong to no campaign (home, About, untagged posts).
   // Campaigns choose their own skin in CAMPAIGN_NAVIGATION; palettes live in SKINS.
-  skin: 'leota' as SkinId,
+  skin: 'com' as SkinId,
 
   description: 'All the things I write down from all the games we play.',
   cover: 'assets/images/2026/05/musetta._dramatic_low_angle_looking_up_at_six_silhouetted_figur_8e265eba-592c-4a9d-8900-251bc271583a.png',
