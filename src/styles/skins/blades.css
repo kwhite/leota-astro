@@ -71,7 +71,7 @@ html[data-skin="blades"] .leota .publication-nav :is(a, summary):focus-visible {
 
 /* Labels: tags, meta, campaign navigation, pagination and footer in mono caps. */
 html[data-skin="blades"] .leota :is(.article-tag, .post-card-tags, .post-card-meta, .feed-pagination, .site-footer-content, .archive-meta),
-html[data-skin="blades"] .campaign-nav :is(a, span) {
+html[data-skin="blades"] .leota .campaign-nav :is(a, span) {
     font-family: var(--font-label);
     font-weight: 400;
     letter-spacing: .12em;
@@ -81,9 +81,9 @@ html[data-skin="blades"] .leota .article-tag a,
 html[data-skin="blades"] .leota .post-card-tags { color: var(--ghost-accent-color); }
 html[data-skin="blades"] .leota .article-hero.has-image .article-tag a { color: #fff; }
 html[data-skin="blades"] .leota .post-card-meta { font-size: 1.2rem; }
-html[data-skin="blades"] .campaign-nav :is(a, span) { font-size: 1.25rem; }
-html[data-skin="blades"] .campaign-nav a:hover,
-html[data-skin="blades"] .campaign-nav a[aria-current] {
+html[data-skin="blades"] .leota .campaign-nav :is(a, span) { font-size: 1.25rem; }
+html[data-skin="blades"] .leota .campaign-nav a:hover,
+html[data-skin="blades"] .leota .campaign-nav a[aria-current] {
     color: var(--color-heading);
     text-decoration-color: var(--ghost-accent-color);
     text-decoration-thickness: 2px;

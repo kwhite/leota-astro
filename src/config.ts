@@ -5,6 +5,7 @@
 export const SKINS = {
   leota: { label: 'Leota (dark purple)', theme: 'dark', accentColor: '#572b9e', accentTextColor: '#ffffff' },
   blades: { label: 'Blades in the Dark', theme: 'dark', accentColor: '#ff5a1f', accentTextColor: '#0e0e0e' },
+  com: { label: 'City of Mist', theme: 'dark', accentColor: '#572b9e', accentTextColor: '#ffffff' },
 } as const satisfies Record<string, { label: string; theme: 'light' | 'dark'; accentColor: string; accentTextColor: string }>;
 export type SkinId = keyof typeof SKINS;
 
@@ -46,7 +47,7 @@ export const PRIMARY_NAVIGATION = [
 // Section links for campaign landing pages; unavailable sections render inactive until migrated.
 export const CAMPAIGN_NAVIGATION = {
   'city-of-mist': {
-    skin: 'leota',
+    skin: 'com',
     tag: 'city-of-mist',
     label: 'City of Mist',
     links: [

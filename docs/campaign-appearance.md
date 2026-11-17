@@ -10,6 +10,7 @@ Appearance is set per campaign with **skins**. A skin is a palette (light/dark b
 export const SKINS = {
   leota: { label: 'Leota (dark purple)', theme: 'dark', accentColor: '#572b9e', accentTextColor: '#ffffff' },
   blades: { label: 'Blades in the Dark', theme: 'dark', accentColor: '#ff5a1f', accentTextColor: '#0e0e0e' },
+  com: { label: 'City of Mist', theme: 'dark', accentColor: '#572b9e', accentTextColor: '#ffffff' },
 };
 ```
 
@@ -49,6 +50,16 @@ To move a campaign to another skin, change its `skin`. To change the site defaul
 - Palette: Ink `#0e0e0e`, Soot `#171717`, Iron `#242424`, Ash `#3a3a3a` (borders only), Fog `#a3a3a3`, Bone `#edebe6`, Hot Orange `#ff5a1f`. On Ink: Bone 16:1, Fog 7.6:1, Orange 6.2:1.
 - Type: Kirsty for headings, Source Serif 4 for prose, IBM Plex Mono for labels (tags, meta, navigation, footer).
 - Kirsty is the free Larabie cut, which has capitals and small capitals but no lowercase. Its license (`src/assets/fonts/kirsty/Larabie Fonts License.txt`, also published at `/fonts/kirsty-license.txt`) allows redistribution only unaltered: keep the `.ttf` files as they are. Do not convert them to WOFF2 or subset them. Astro's local font provider copies them byte-for-byte.
+
+## The City of Mist skin
+
+- Palette: Night `#0f1020`, Smog `#1a1b33`, Haze `#34365a` (borders only), Fog `#a9aecb`, Streetlight `#e8f0ff`, Mythos Purple `#572b9e` (the header bar and other fills, with white text, 9.4:1), Neon Pink `#ff568f` (kickers, tags, active navigation, quote rules) and Neon Cyan `#56b8ff` (links). On Night: Streetlight 16.4:1, Fog 8.6:1, Cyan 8.7:1, Pink 6.3:1. Purple is 2.0:1 on Night, so it is never used for text there.
+- Type: Bebas Neue for titles (capitals only, one weight), Bangers for short comic labels, Barlow for prose and pull quotes.
+- Bangers is for labels only: navigation, kickers, tags. Not paragraphs or quotes, and never below 18px; it is slanted 5 degrees.
+
+## Skin CSS and component styles
+
+Astro component styles are scoped with an attribute, which makes them more specific than a plain `html[data-skin] .class` rule. When a skin restyles a component (for example the campaign navigation), include `.leota` in the selector, as in `html[data-skin="com"] .leota .campaign-nav a`.
 
 ## What follows the skin
 

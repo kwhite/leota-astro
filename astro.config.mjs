@@ -41,6 +41,18 @@ export default defineConfig({
         ],
       },
     },
+    // City of Mist skin: Bebas Neue titles (shared with --font-character-name above),
+    // Bangers for short comic labels, Barlow for prose.
+    {
+      name: 'Bangers', cssVariable: '--font-bangers',
+      provider: fontProviders.google(), weights: [400], styles: ['normal'], display: 'swap',
+      fallbacks: ['Impact', 'sans-serif'],
+    },
+    {
+      name: 'Barlow', cssVariable: '--font-barlow',
+      provider: fontProviders.google(), weights: [400, 600, 700], styles: ['normal', 'italic'], display: 'swap',
+      fallbacks: ['system-ui', 'sans-serif'],
+    },
     {
       name: 'Source Serif 4', cssVariable: '--font-serif',
       provider: fontProviders.google(), weights: [400, 600, 700], styles: ['normal', 'italic'], display: 'swap',

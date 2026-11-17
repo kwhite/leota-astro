@@ -49,6 +49,12 @@ const isoDate = articleDate ? new Date(articleDate).toISOString() : undefined;
     <Font cssVariable="--font-serif" preload={[{ weight: 400, style: 'normal', subset: 'latin' }]} />
     <Font cssVariable="--font-character-meta" />
   </>
+) : skin === 'com' ? (
+  <>
+    <Font cssVariable="--font-character-name" preload={[{ weight: 400, style: 'normal', subset: 'latin' }]} />
+    <Font cssVariable="--font-barlow" preload={[{ weight: 400, style: 'normal', subset: 'latin' }]} />
+    <Font cssVariable="--font-bangers" />
+  </>
 ) : (
   <>
     <Font cssVariable="--font-heading" preload={[{ weight: 800, style: 'normal', subset: 'latin' }]} />
