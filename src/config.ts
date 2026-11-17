@@ -62,6 +62,8 @@ export const CAMPAIGN_NAVIGATION = {
   'freaky-gray-company': {
     skin: 'leota',
     tag: 'freaky-gray-company',
+    // Wildemount location guides: part of the campaign, but kept off the summary list.
+    otherTags: ['feolinn', 'kamordah', 'zadash'],
     label: 'Freaky Gray Company',
     links: [
       { id: 'overview', label: 'Overview', href: '/the-freaky-gray-company/', available: true },
@@ -89,17 +91,22 @@ export const CAMPAIGN_NAVIGATION = {
       { id: 'summaries', label: 'Session Summaries', href: '/tag/rite-and-riot/', available: true },
     ],
   },
-} as const satisfies Record<string, { skin: SkinId; tag: string; label: string; links: readonly unknown[] }>;
+} as const satisfies Record<string, { skin: SkinId; tag: string; otherTags?: readonly string[]; label: string; links: readonly unknown[] }>;
 export type CampaignId = keyof typeof CAMPAIGN_NAVIGATION;
 
 /** Tag names and slugs compare the way tag archive URLs are built. */
 export const tagSlug = (tag: string) => tag.toLowerCase().replace(/\s+/g, '-');
 
-/** The campaign whose archive tag matches, if any. */
+/**
+ * The campaign a tag belongs to, if any: its archive tag, or one of its otherTags
+ * (posts that belong to the campaign without appearing in its summary archive).
+ */
 export function campaignForTag(tag: string): CampaignId | undefined {
   const slug = tagSlug(tag);
-  return (Object.keys(CAMPAIGN_NAVIGATION) as CampaignId[])
-    .find(id => CAMPAIGN_NAVIGATION[id].tag === slug);
+  return (Object.keys(CAMPAIGN_NAVIGATION) as CampaignId[]).find(id => {
+    const campaign: { tag: string; otherTags?: readonly string[] } = CAMPAIGN_NAVIGATION[id];
+    return campaign.tag === slug || (campaign.otherTags ?? []).includes(slug);
+  });
 }
 
 /** The campaign a post belongs to: the one matching the earliest of its tags. */

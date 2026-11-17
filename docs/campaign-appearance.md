@@ -36,6 +36,17 @@ Each campaign in `CAMPAIGN_NAVIGATION` names its skin and archive tag:
 },
 ```
 
+Posts that belong to a campaign but should stay out of its summary archive (for example Freaky Gray Company's Wildemount location guides, tagged only Feolinn, Kamordah or Zadash) are listed by tag in the campaign's `otherTags`:
+
+```ts
+'freaky-gray-company': {
+  skin: 'leota',
+  tag: 'freaky-gray-company',
+  otherTags: ['feolinn', 'kamordah', 'zadash'],
+  ...
+},
+```
+
 To move a campaign to another skin, change its `skin`. To change the site default, change `SITE_CONFIG.skin`.
 
 ## Adding a skin
