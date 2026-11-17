@@ -31,7 +31,7 @@ Each campaign in `CAMPAIGN_NAVIGATION` names its skin and archive tag:
 'rite-and-riot': {
   skin: 'blades',
   tag: 'rite-and-riot',
-  label: 'Blades in the Dark',
+  label: 'Rite and Riot',
   links: [ ... ],
 },
 ```
