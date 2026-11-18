@@ -60,6 +60,8 @@ To move a campaign to another skin, change its `skin`. To change the site defaul
 
 ## The Blades skin
 
+Rite and Riot is not launched yet: its campaign entry, skin and fonts are in place, but it has no primary navigation link and no tag metadata file, so `/tag/rite-and-riot/` is not built. To launch, add its link to `PRIMARY_NAVIGATION` (see the comment in `src/config.ts`) and restore `src/content/tags/rite-and-riot.json`; any post tagged `Rite and Riot` also creates the archive.
+
 - Palette: Ink `#0e0e0e`, Soot `#171717`, Iron `#242424`, Ash `#3a3a3a` (borders only), Fog `#a3a3a3`, Bone `#edebe6`, Hot Orange `#ff5a1f`. On Ink: Bone 16:1, Fog 7.6:1, Orange 6.2:1.
 - Type: Kirsty for headings, Source Serif 4 for prose, IBM Plex Mono for labels (tags, meta, navigation, footer).
 - Kirsty is the free Larabie cut, which has capitals and small capitals but no lowercase. Its license (`src/assets/fonts/kirsty/Larabie Fonts License.txt`, also published at `/fonts/kirsty-license.txt`) allows redistribution only unaltered: keep the `.ttf` files as they are. Do not convert them to WOFF2 or subset them. Astro's local font provider copies them byte-for-byte.

@@ -40,7 +40,6 @@ export const SITE_CONFIG = {
 
 // Keep the original destinations recorded while their pages await migration.
 export const PRIMARY_NAVIGATION = [
-  { label: 'Rite and Riot', href: '/tag/rite-and-riot/', available: true },
   { label: 'City of Mist', href: '/city-of-mist/', available: true },
   { label: 'Freaky Gray Company', href: '/the-freaky-gray-company/', available: true },
   { label: 'The Chosen', href: '/the-chosen/', available: true },
@@ -85,6 +84,9 @@ export const CAMPAIGN_NAVIGATION = {
       { id: 'summaries', label: 'Season Summaries', href: '/tag/the-chosen/', available: true },
     ],
   },
+  // Not launched: no nav link or archive yet. To launch, add
+  // { label: 'Rite and Riot', href: '/tag/rite-and-riot/', available: true } to
+  // PRIMARY_NAVIGATION and restore src/content/tags/rite-and-riot.json.
   'rite-and-riot': {
     skin: 'blades',
     tag: 'rite-and-riot',
