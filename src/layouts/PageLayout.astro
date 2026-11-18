@@ -1,6 +1,7 @@
 ---
 import Layout from './Layout.astro';
 import ImageLightbox from '../components/ImageLightbox.astro';
+import type { CampaignId } from '../config';
 import SiteNav from '../components/SiteNav.astro';
 import ArticleHero from '../components/ArticleHero.astro';
 interface Props {
@@ -8,10 +9,11 @@ interface Props {
     cover?: string | null;
     description?: string;
     subclass?: string;
+    campaign?: CampaignId;
 }
-const { title, cover, description, subclass } = Astro.props;
+const { title, cover, description, subclass, campaign } = Astro.props;
 ---
-<Layout title={title} description={description} image={cover} current="page">
+<Layout title={title} description={description} image={cover} current="page" campaign={campaign}>
     <header class="site-header outer"><div class="inner"><SiteNav current="page" /></div></header>
     <main id="site-main">
         <article class={`leota-article ${subclass || ''}`}>

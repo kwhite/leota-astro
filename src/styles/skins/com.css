@@ -1,0 +1,135 @@
+/* City of Mist skin: night-city indigo, the Mythos purple, neon pink and cyan.
+   Bebas Neue for titles, Bangers for short comic labels, Barlow for prose.
+   Scoped to html[data-skin="com"] (see resolveSkin in src/config.ts).
+
+   Contrast on Night #0f1020: Streetlight 16.4:1, Fog 8.6:1, Cyan 8.7:1, Pink 6.3:1.
+   Mythos Purple is 2.0:1 on Night, so it is a fill only (white on it is 9.4:1).
+   Haze #34365a is for borders only, never text.
+
+   Bangers rules: labels only (nav, kickers, tags, statuses, attributions), never
+   paragraphs or quotes; never below 18px; a 5deg slant, applied to inline-block
+   elements because a transform does nothing on inline text. */
+html[data-skin="com"] {
+    --color-darkmode: #0f1020;          /* Night: page ground */
+    --color-panel: #1a1b33;             /* Smog: cards, panels */
+    --color-panel-hover: #26284a;
+    --color-input: #26284a;
+    --color-border: #34365a;            /* Haze */
+    --color-secondary-text: #a9aecb;    /* Fog */
+    --color-heading: #e8f0ff;           /* Streetlight */
+    --color-heading-soft: #e8f0ff;
+    --color-text: rgba(232, 240, 255, .86);
+    --color-caption: rgba(232, 240, 255, .64);
+    --color-code: #000;
+    --color-pre: #1a1b33;
+    --color-focus: #e8f0ff;
+    --com-pink: #ff568f;
+    --com-cyan: #56b8ff;
+    --com-cyan-hover: #8ccfff;
+
+    --font-heading: var(--font-character-name);
+    --font-body: var(--font-barlow);
+    --font-label: var(--font-bangers), Impact, sans-serif;
+    --com-slant: skewX(-5deg);
+}
+
+/* Titles: Bebas Neue has a single weight and is capitals only. It runs narrow,
+   so headings step up in size to keep their presence. */
+html[data-skin="com"] .leota :is(h1, h2, h3, h4, h5, h6),
+html[data-skin="com"] .leota :is(.article-title, .post-card-title) {
+    font-family: var(--font-heading), 'Arial Narrow', sans-serif;
+    font-weight: 400;
+    letter-spacing: .01em;
+    line-height: .95;
+}
+html[data-skin="com"] .article-title { font-size: clamp(4.4rem, 7vw, 7.6rem); }
+html[data-skin="com"] .leota .post-card-title { font-size: 3.2rem; }
+html[data-skin="com"] .archive-content h1 { font-size: 6rem; }
+html[data-skin="com"] .leota-content h2 { font-size: 4.4rem; }
+html[data-skin="com"] .leota-content h3 { font-size: 3.4rem; }
+@media (min-width: 1001px) {
+    html[data-skin="com"] .leota .post-card-large .post-card-title { font-size: 5.6rem; }
+    html[data-skin="com"] .leota .dynamic .post-card-title { font-size: 4rem; }
+}
+@media (max-width: 650px) {
+    html[data-skin="com"] .leota-content h2 { font-size: 3.6rem; }
+    html[data-skin="com"] .leota-content h3 { font-size: 3rem; }
+}
+html[data-skin="com"] body.leota,
+html[data-skin="com"] .leota :is(.leota-content, .post-card-excerpt, .kg-callout-text) {
+    font-family: var(--font-body), system-ui, sans-serif;
+}
+
+/* Header keeps the purple bar; navigation goes comic. */
+html[data-skin="com"] .leota .publication-links { gap: 12px 28px; }
+html[data-skin="com"] .leota .publication-links a,
+html[data-skin="com"] .leota .campaign-nav :is(a, span),
+html[data-skin="com"] .leota :is(.article-tag a, .post-card-tags) {
+    font-family: var(--font-label);
+    font-weight: 400;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    transform: var(--com-slant);
+}
+/* Inline-block so the slant applies; campaign links keep their inline-flex box. */
+html[data-skin="com"] .leota .publication-links a,
+html[data-skin="com"] .leota :is(.article-tag a, .post-card-tags) { display: inline-block; }
+html[data-skin="com"] .leota .publication-links a { font-size: 2rem; }
+html[data-skin="com"] .leota .publication-links a:hover,
+html[data-skin="com"] .leota .publication-links a[aria-current] {
+    text-decoration-color: var(--com-pink);
+    text-decoration-thickness: 3px;
+    text-underline-offset: 6px;
+}
+html[data-skin="com"] .leota .campaign-nav :is(a, span) { font-size: 1.9rem; }
+html[data-skin="com"] .leota .campaign-nav a:hover,
+html[data-skin="com"] .leota .campaign-nav a[aria-current] {
+    color: var(--com-pink);
+    text-decoration-color: var(--com-pink);
+    text-decoration-thickness: 3px;
+}
+
+/* Kickers and tags: pink Bangers, 18px minimum. */
+html[data-skin="com"] .leota .article-tag { font-size: 2.2rem; }
+html[data-skin="com"] .leota .article-tag a { color: var(--com-pink); }
+html[data-skin="com"] .leota .article-hero.has-image .article-tag a { color: #fff; }
+html[data-skin="com"] .leota .post-card-tags { font-size: 1.8rem; color: var(--com-pink); }
+
+/* Prose: cyan links, pink quote rule, white bold names. */
+html[data-skin="com"] .leota-content a { color: var(--com-cyan); text-underline-offset: .16em; }
+html[data-skin="com"] .leota-content a:hover { color: var(--com-cyan-hover); }
+html[data-skin="com"] .leota-content :is(strong, b) { color: var(--color-heading); }
+html[data-skin="com"] .leota-content blockquote::before { background: var(--com-pink); }
+/* Quotes are set apart from the prose around them, never in Bangers.
+   Inline quotes (pink rule): a step larger, full Streetlight, tighter leading. */
+html[data-skin="com"] .leota-content blockquote:not(.kg-blockquote-alt) {
+    font-size: 1.1em;
+    line-height: 1.5;
+    color: var(--color-heading);
+}
+html[data-skin="com"] .leota-content blockquote:not(.kg-blockquote-alt) p + p { margin-top: .5em; }
+/* Large centered quotes: upright Barlow Condensed with tight leading, so a
+   multi-line block (a prophecy, a song) holds together as one piece. */
+html[data-skin="com"] .leota-content blockquote.kg-blockquote-alt {
+    font-family: var(--font-barlow-condensed), 'Arial Narrow', sans-serif;
+    font-size: 1.45em;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.3;
+    letter-spacing: .005em;
+    color: var(--color-heading);
+}
+html[data-skin="com"] .leota-content blockquote.kg-blockquote-alt + blockquote.kg-blockquote-alt { margin-top: 1.2em; }
+@media (max-width: 800px) {
+    html[data-skin="com"] .leota-content blockquote.kg-blockquote-alt { font-size: 1.35em; }
+}
+@media (max-width: 600px) {
+    html[data-skin="com"] .leota-content blockquote.kg-blockquote-alt { font-size: 1.2em; }
+}
+html[data-skin="com"] .leota-content :is(.leota-disclosure, .kg-callout-card, pre),
+html[data-skin="com"] .leota-content .kg-bookmark-card a.kg-bookmark-container { border-radius: 0; }
+html[data-skin="com"] .leota-content .leota-disclosure { background: var(--color-panel); }
+html[data-skin="com"] .leota-recent { border-top-color: var(--color-border); }
+html[data-skin="com"] .leota .feed-pagination a { color: var(--com-cyan); }
+/* Cyan is the link color, so a card title turns cyan when it is about to be followed. */
+html[data-skin="com"] .leota .post-card-content-link:is(:hover, :focus-visible) .post-card-title { color: var(--com-cyan); opacity: 1; }

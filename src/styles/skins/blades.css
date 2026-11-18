@@ -1,0 +1,107 @@
+/* Blades in the Dark skin: soot, iron and bone with one hot orange accent.
+   Kirsty (free Larabie cut, caps + small caps) for headings, Source Serif 4 for
+   prose, IBM Plex Mono for labels. Everything is scoped to html[data-skin="blades"],
+   which the layout sets from the page's campaign (see resolveSkin in src/config.ts).
+
+   Contrast on Ink #0e0e0e: Bone 16:1, Fog 7.6:1, Orange 6.2:1. Text on the orange
+   accent is Ink (6.2:1); white on this orange is only ~3.1:1, so it is not used.
+   Ash #3a3a3a is for rules and borders only, never text. */
+html[data-skin="blades"] {
+    --color-darkmode: #0e0e0e;          /* Ink: page ground */
+    --color-panel: #171717;             /* Soot: cards, callouts */
+    --color-panel-hover: #242424;       /* Iron */
+    --color-input: #242424;
+    --color-border: #3a3a3a;            /* Ash */
+    --color-secondary-text: #a3a3a3;    /* Fog */
+    --color-heading: #edebe6;           /* Bone */
+    --color-heading-soft: #edebe6;
+    --color-text: rgba(237, 235, 230, .84);
+    --color-caption: rgba(237, 235, 230, .62);
+    --color-code: #000;
+    --color-pre: #171717;
+    --color-focus: #edebe6;
+    --blades-accent-hover: #ff7a47;
+
+    --font-heading: var(--font-kirsty);
+    --font-body: var(--font-serif);
+    --font-label: var(--font-character-meta), ui-monospace, monospace;
+}
+
+/* Headings: Kirsty ships in 400/700 only; ask for 700 rather than 800. */
+html[data-skin="blades"] .leota :is(h1, h2, h3, h4, h5, h6),
+html[data-skin="blades"] .leota :is(.article-title, .post-card-title) {
+    font-family: var(--font-heading), Georgia, serif;
+    font-weight: 700;
+    letter-spacing: .01em;
+}
+html[data-skin="blades"] body.leota,
+html[data-skin="blades"] .leota :is(.leota-content, .post-card-excerpt) {
+    font-family: var(--font-body), Georgia, serif;
+}
+
+/* Header: ink bar with a hairline, not an accent-filled band. */
+html[data-skin="blades"] .leota .site-header,
+html[data-skin="blades"] .publication-header {
+    background: var(--color-darkmode);
+}
+html[data-skin="blades"] .leota .site-header { border-bottom: 1px solid var(--color-border); }
+html[data-skin="blades"] .publication-nav,
+html[data-skin="blades"] .publication-header { color: var(--color-heading); }
+html[data-skin="blades"] .leota .publication-links {
+    font-family: var(--font-label);
+    font-size: 1.35rem;
+    font-weight: 400;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+}
+html[data-skin="blades"] .leota .publication-links a { color: var(--color-secondary-text); }
+html[data-skin="blades"] .leota .publication-links a:hover,
+html[data-skin="blades"] .leota .publication-links a[aria-current] {
+    color: var(--color-heading);
+    text-decoration-color: var(--ghost-accent-color);
+    text-decoration-thickness: 2px;
+}
+html[data-skin="blades"] .leota .publication-nav :is(a, summary):focus-visible { outline-color: var(--color-focus); }
+@media (max-width: 991px) {
+    html[data-skin="blades"] .leota .publication-mobile-nav .publication-links {
+        background: var(--color-panel);
+        border-bottom: 1px solid var(--color-border);
+    }
+}
+
+/* Labels: tags, meta, campaign navigation, pagination and footer in mono caps. */
+html[data-skin="blades"] .leota :is(.article-tag, .post-card-tags, .post-card-meta, .feed-pagination, .site-footer-content, .archive-meta),
+html[data-skin="blades"] .leota .campaign-nav :is(a, span) {
+    font-family: var(--font-label);
+    font-weight: 400;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+}
+html[data-skin="blades"] .leota .article-tag a,
+html[data-skin="blades"] .leota .post-card-tags { color: var(--ghost-accent-color); }
+html[data-skin="blades"] .leota .article-hero.has-image .article-tag a { color: #fff; }
+html[data-skin="blades"] .leota .post-card-meta { font-size: 1.2rem; }
+html[data-skin="blades"] .leota .campaign-nav :is(a, span) { font-size: 1.25rem; }
+html[data-skin="blades"] .leota .campaign-nav a:hover,
+html[data-skin="blades"] .leota .campaign-nav a[aria-current] {
+    color: var(--color-heading);
+    text-decoration-color: var(--ghost-accent-color);
+    text-decoration-thickness: 2px;
+}
+
+/* Prose: hot orange links; quieter serif callouts and quotes; square corners. */
+html[data-skin="blades"] .leota-content a {
+    color: var(--ghost-accent-color);
+    text-decoration-thickness: 1px;
+    text-underline-offset: .18em;
+}
+html[data-skin="blades"] .leota-content a:hover { color: var(--blades-accent-hover); }
+html[data-skin="blades"] .leota-content :is(strong, b) { color: var(--color-heading); }
+html[data-skin="blades"] .leota-content :is(.kg-callout-text, blockquote.kg-blockquote-alt) { font-family: var(--font-body), Georgia, serif; }
+html[data-skin="blades"] .leota-content :is(.leota-disclosure, .kg-callout-card, pre, :not(pre) > code),
+html[data-skin="blades"] .leota-content .kg-bookmark-card a.kg-bookmark-container { border-radius: 0; }
+html[data-skin="blades"] .leota-content .leota-disclosure { background: var(--color-panel); }
+html[data-skin="blades"] .leota-recent { border-top-color: var(--color-border); }
+html[data-skin="blades"] .leota .feed-pagination a { color: var(--ghost-accent-color); }
+html[data-skin="blades"] .leota .post-card-content-link:hover .post-card-title { color: var(--ghost-accent-color); opacity: 1; }
+html[data-skin="blades"] .image-lightbox button:hover { color: var(--color-on-accent); }

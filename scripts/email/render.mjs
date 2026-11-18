@@ -4,7 +4,7 @@ const decode=s=>s.replace(/&#(x[\da-f]+|\d+);/gi,(_,v)=>String.fromCodePoint(v[0
 const cls = (n,c) => (n.attributes?.class || '').split(/\s+/).includes(c);
 function find(n, predicate) { if(predicate(n)) return n; for(const child of n.children || []) { const found=find(child,predicate); if(found) return found; } }
 const text = n => n.type === 2 ? n.value : (n.children || []).map(text).join('');
-// Palette and type follow the original Ghost email. ACCENT mirrors accentColor in src/config.ts.
+// Palette and type follow the original Ghost email. ACCENT mirrors SKINS.leota.accentColor in src/config.ts.
 const ACCENT='#572b9e', TEXT='#15212A', MUTED='#73818c', RULE='#e0e7eb';
 const FONT='-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif';
 const head = (size, margin) => `color:${TEXT};font-size:${size}px;line-height:1.11em;font-weight:700;margin:${margin};`;

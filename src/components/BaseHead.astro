@@ -1,5 +1,5 @@
 ---
-import { SITE_CONFIG, getAssetUrl } from '../config';
+import { SITE_CONFIG, getAssetUrl, type SkinId } from '../config';
 import { Font } from 'astro:assets';
 
 interface Props {
@@ -10,6 +10,7 @@ interface Props {
   articleDate?: string | Date;
   tags?: string[];
   author?: string;
+  skin?: SkinId;
 }
 
 const {
@@ -20,6 +21,7 @@ const {
   articleDate,
   tags = [],
   author,
+  skin = SITE_CONFIG.skin,
 } = Astro.props;
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site || Astro.url);
@@ -41,8 +43,37 @@ const isoDate = articleDate ? new Date(articleDate).toISOString() : undefined;
 
 <!-- Fonts -->
 <!-- Prioritize the article title and body; other faces load when used. -->
-<Font cssVariable="--font-heading" preload={[{ weight: 800, style: 'normal', subset: 'latin' }]} />
-<Font cssVariable="--font-body" preload={[{ weight: 400, style: 'normal', subset: 'latin' }]} />
+{skin === 'blades' ? (
+  <>
+    <Font cssVariable="--font-kirsty" preload={[{ weight: 700, style: 'normal' }]} />
+    <Font cssVariable="--font-serif" preload={[{ weight: 400, style: 'normal', subset: 'latin' }]} />
+    <Font cssVariable="--font-character-meta" />
+  </>
+) : skin === 'fgc' ? (
+  <>
+    <Font cssVariable="--font-fell" preload={[{ weight: 400, style: 'normal', subset: 'latin' }]} />
+    <Font cssVariable="--font-baskerville" preload={[{ weight: 400, style: 'normal', subset: 'latin' }]} />
+    <Font cssVariable="--font-cinzel" />
+  </>
+) : skin === 'chosen' ? (
+  <>
+    <Font cssVariable="--font-pirata" preload={[{ weight: 400, style: 'normal', subset: 'latin' }]} />
+    <Font cssVariable="--font-alegreya" preload={[{ weight: 400, style: 'normal', subset: 'latin' }]} />
+    <Font cssVariable="--font-almendra" />
+  </>
+) : skin === 'com' ? (
+  <>
+    <Font cssVariable="--font-character-name" preload={[{ weight: 400, style: 'normal', subset: 'latin' }]} />
+    <Font cssVariable="--font-barlow" preload={[{ weight: 400, style: 'normal', subset: 'latin' }]} />
+    <Font cssVariable="--font-bangers" />
+    <Font cssVariable="--font-barlow-condensed" />
+  </>
+) : (
+  <>
+    <Font cssVariable="--font-heading" preload={[{ weight: 800, style: 'normal', subset: 'latin' }]} />
+    <Font cssVariable="--font-body" preload={[{ weight: 400, style: 'normal', subset: 'latin' }]} />
+  </>
+)}
 
 <!-- LCP Image Preloads -->
 {type === 'article' && image && (

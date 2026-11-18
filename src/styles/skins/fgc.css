@@ -1,0 +1,135 @@
+/* Freaky Gray Company skin: a dragon's hoard by candlelight. Char and soot grounds,
+   one frame color (Sealing Wax) and one metal (Old Gold). IM Fell English SC titles,
+   Cinzel engraved-caps labels, Libre Baskerville prose. Scoped to
+   html[data-skin="fgc"] (see resolveSkin in src/config.ts).
+
+   Contrast on Char #1c1311: Parchment 14.9:1, Tan 9.0:1, Old Gold 8.4:1 (Char text on
+   gold 8.4:1), quote tan 11.6:1. Sealing Wax #6b2030 is 1.6:1 on Char: a fill and a
+   quiet rule only, never text. Ash #4a342c is for borders only.
+
+   Two accents on purpose: wax is the frame, gold is the only accent. Labels use
+   engraved caps in Tan rather than a third color. */
+html[data-skin="fgc"] {
+    --color-darkmode: #1c1311;          /* Char: page ground */
+    --color-panel: #2a1c18;             /* Soot: panels */
+    --color-panel-hover: #3a2722;
+    --color-input: #3a2722;
+    --color-border: #4a342c;            /* Ash */
+    --color-secondary-text: #c9b394;    /* Tan */
+    --color-heading: #f3e7ce;           /* Parchment */
+    --color-heading-soft: #f3e7ce;
+    --color-text: rgba(243, 231, 206, .9);
+    --color-caption: rgba(243, 231, 206, .66);
+    --color-code: #120c0a;
+    --color-pre: #2a1c18;
+    --color-focus: #f3e7ce;
+    --fgc-wax: #6b2030;
+    --fgc-gold: #d9a84a;
+    --fgc-gold-hover: #edc97a;
+    --fgc-quote: #e8c9a0;
+
+    --font-heading: var(--font-fell);
+    --font-body: var(--font-baskerville);
+    --font-label: var(--font-cinzel), Georgia, serif;
+}
+
+/* Titles: IM Fell English SC, an old-style small-caps face with a single weight.
+   Session titles carry a date prefix, so the face has to stay readable when long. */
+html[data-skin="fgc"] .leota :is(h1, h2, h3, h4, h5, h6),
+html[data-skin="fgc"] .leota :is(.article-title, .post-card-title) {
+    font-family: var(--font-heading), Georgia, serif;
+    font-weight: 400;
+    letter-spacing: .005em;
+    line-height: 1.1;
+}
+html[data-skin="fgc"] .article-title { font-size: clamp(3.6rem, 5.4vw, 5.8rem); }
+html[data-skin="fgc"] .archive-content h1 { font-size: 4.4rem; }
+html[data-skin="fgc"] .leota .post-card-title { font-size: 2.8rem; }
+html[data-skin="fgc"] .leota-content h2 { font-size: 3.6rem; }
+html[data-skin="fgc"] .leota-content h3 { font-size: 2.9rem; }
+@media (min-width: 1001px) {
+    html[data-skin="fgc"] .leota .post-card-large .post-card-title { font-size: 4.4rem; }
+    html[data-skin="fgc"] .leota .dynamic .post-card-title { font-size: 3.2rem; }
+}
+@media (max-width: 650px) {
+    html[data-skin="fgc"] .leota-content h2 { font-size: 2.6rem; }
+    html[data-skin="fgc"] .leota-content h3 { font-size: 2.2rem; }
+}
+html[data-skin="fgc"] body.leota,
+html[data-skin="fgc"] .leota :is(.leota-content, .post-card-excerpt, .kg-callout-text) {
+    font-family: var(--font-body), Georgia, serif;
+}
+
+/* Header: a Sealing Wax bar over a gold rule; matching rule above the footer. */
+html[data-skin="fgc"] .leota .site-header,
+html[data-skin="fgc"] .publication-header { background: var(--fgc-wax); }
+html[data-skin="fgc"] .leota .site-header { border-bottom: 3px solid var(--fgc-gold); }
+html[data-skin="fgc"] .publication-nav,
+html[data-skin="fgc"] .publication-header { color: var(--color-heading); }
+html[data-skin="fgc"] .leota .publication-nav :is(a, summary):focus-visible { outline-color: var(--color-focus); }
+@media (max-width: 991px) {
+    html[data-skin="fgc"] .leota .publication-mobile-nav .publication-links {
+        background: var(--fgc-wax);
+        border-bottom: 3px solid var(--fgc-gold);
+    }
+}
+html[data-skin="fgc"] .leota .site-footer { border-top: 3px solid var(--fgc-gold); background: var(--color-panel); }
+
+/* Labels in Cinzel engraved caps: navigation, kickers, tags. Tan, not a third color. */
+html[data-skin="fgc"] .leota .publication-links a,
+html[data-skin="fgc"] .leota .campaign-nav :is(a, span),
+html[data-skin="fgc"] .leota :is(.article-tag, .post-card-tags) {
+    font-family: var(--font-label);
+    font-weight: 600;
+    letter-spacing: .06em;
+    text-transform: none;
+}
+html[data-skin="fgc"] .leota .publication-links a { font-size: 1.6rem; }
+html[data-skin="fgc"] .leota .publication-links a:hover,
+html[data-skin="fgc"] .leota .publication-links a[aria-current] {
+    text-decoration-color: var(--fgc-gold);
+    text-decoration-thickness: 2px;
+}
+html[data-skin="fgc"] .leota .campaign-nav :is(a, span) { font-size: 1.6rem; }
+html[data-skin="fgc"] .leota .campaign-nav a:hover,
+html[data-skin="fgc"] .leota .campaign-nav a[aria-current] {
+    color: var(--fgc-gold);
+    text-decoration-color: var(--fgc-gold);
+}
+html[data-skin="fgc"] .leota .article-tag { font-size: 1.7rem; }
+html[data-skin="fgc"] .leota .article-tag a { color: var(--color-secondary-text); }
+html[data-skin="fgc"] .leota .article-hero.has-image .article-tag a { color: #fff; }
+html[data-skin="fgc"] .leota .post-card-tags { font-size: 1.5rem; color: var(--color-secondary-text); }
+
+/* Prose: gold links; inline quotes change voice by color beside a quiet wax rule. */
+html[data-skin="fgc"] .leota-content a { color: var(--fgc-gold); text-underline-offset: .16em; }
+html[data-skin="fgc"] .leota-content a:hover { color: var(--fgc-gold-hover); }
+html[data-skin="fgc"] .leota-content :is(strong, b) { color: var(--color-heading); }
+html[data-skin="fgc"] .leota-content blockquote::before { background: var(--fgc-wax); }
+html[data-skin="fgc"] .leota-content blockquote:not(.kg-blockquote-alt) {
+    font-size: 1.05em;
+    line-height: 1.55;
+    color: var(--fgc-quote);
+}
+html[data-skin="fgc"] .leota-content blockquote:not(.kg-blockquote-alt) :is(strong, b) { color: var(--fgc-quote); }
+/* Large centered quotes read like a line from a playbill: Cinzel between gold rules. */
+html[data-skin="fgc"] .leota-content blockquote.kg-blockquote-alt {
+    padding-block: .8em;
+    border-block: 1px solid var(--fgc-gold);
+    font-family: var(--font-label);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.25em;
+    line-height: 1.45;
+    letter-spacing: .03em;
+    color: var(--fgc-gold);
+}
+@media (max-width: 600px) {
+    html[data-skin="fgc"] .leota-content blockquote.kg-blockquote-alt { font-size: 1.1em; }
+}
+html[data-skin="fgc"] .leota-content :is(.leota-disclosure, .kg-callout-card, pre),
+html[data-skin="fgc"] .leota-content .kg-bookmark-card a.kg-bookmark-container { border-radius: 0; }
+html[data-skin="fgc"] .leota-content .leota-disclosure { background: var(--color-panel); }
+html[data-skin="fgc"] .leota-recent { border-top-color: var(--color-border); }
+html[data-skin="fgc"] .leota .feed-pagination a { color: var(--fgc-gold); }
+html[data-skin="fgc"] .leota .post-card-content-link:is(:hover, :focus-visible) .post-card-title { color: var(--fgc-gold); opacity: 1; }
