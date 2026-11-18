@@ -7,6 +7,7 @@ export const SKINS = {
   blades: { label: 'Blades in the Dark', theme: 'dark', accentColor: '#ff5a1f', accentTextColor: '#0e0e0e' },
   com: { label: 'City of Mist', theme: 'dark', accentColor: '#572b9e', accentTextColor: '#ffffff' },
   chosen: { label: 'The Chosen', theme: 'dark', accentColor: '#cda349', accentTextColor: '#0a2629' },
+  fgc: { label: 'Freaky Gray Company', theme: 'dark', accentColor: '#d9a84a', accentTextColor: '#1c1311' },
 } as const satisfies Record<string, { label: string; theme: 'light' | 'dark'; accentColor: string; accentTextColor: string }>;
 export type SkinId = keyof typeof SKINS;
 
@@ -61,7 +62,7 @@ export const CAMPAIGN_NAVIGATION = {
     ],
   },
   'freaky-gray-company': {
-    skin: 'leota',
+    skin: 'fgc',
     tag: 'freaky-gray-company',
     // Wildemount location guides: part of the campaign, but kept off the summary list.
     otherTags: ['feolinn', 'kamordah', 'zadash'],

@@ -74,6 +74,22 @@ export default defineConfig({
       provider: fontProviders.google(), weights: [400, 700], styles: ['normal', 'italic'], display: 'swap',
       fallbacks: ['Georgia', 'serif'],
     },
+    // Freaky Gray Company skin: IM Fell English SC titles, Cinzel labels, Libre Baskerville prose.
+    {
+      name: 'IM Fell English SC', cssVariable: '--font-fell',
+      provider: fontProviders.google(), weights: [400], styles: ['normal'], display: 'swap',
+      fallbacks: ['Georgia', 'serif'],
+    },
+    {
+      name: 'Cinzel', cssVariable: '--font-cinzel',
+      provider: fontProviders.google(), weights: [600], styles: ['normal'], display: 'swap',
+      fallbacks: ['Georgia', 'serif'],
+    },
+    {
+      name: 'Libre Baskerville', cssVariable: '--font-baskerville',
+      provider: fontProviders.google(), weights: [400, 700], styles: ['normal', 'italic'], display: 'swap',
+      fallbacks: ['Georgia', 'serif'],
+    },
     {
       name: 'Source Serif 4', cssVariable: '--font-serif',
       provider: fontProviders.google(), weights: [400, 600, 700], styles: ['normal', 'italic'], display: 'swap',

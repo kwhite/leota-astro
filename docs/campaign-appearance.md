@@ -12,6 +12,7 @@ export const SKINS = {
   blades: { label: 'Blades in the Dark', theme: 'dark', accentColor: '#ff5a1f', accentTextColor: '#0e0e0e' },
   com: { label: 'City of Mist', theme: 'dark', accentColor: '#572b9e', accentTextColor: '#ffffff' },
   chosen: { label: 'The Chosen', theme: 'dark', accentColor: '#cda349', accentTextColor: '#0a2629' },
+  fgc: { label: 'Freaky Gray Company', theme: 'dark', accentColor: '#d9a84a', accentTextColor: '#1c1311' },
 };
 ```
 
@@ -74,6 +75,11 @@ To move a campaign to another skin, change its `skin`. To change the site defaul
 - Palette, enriched from the original 2003 site's web-safe `#003333`: Crypt `#0a2629`, Tomb `#123538` (header and panels), Moss `#34595a` (borders only), Lichen `#a9bdb6`, Candle `#f3ead3`, Verdigris `#6fb8a8` (kickers and tags), Old Gold `#cda349` (links, active navigation; Crypt text on it), Glow `#ebdf9e` (title halo, hover) and Oxblood `#8e2f2c` (rules under the header, above the footer and beside quotes only). On Crypt: Candle 13.3:1, Lichen 8.0:1, Verdigris 6.9:1, Old Gold 6.8:1.
 - Type: Pirata One for titles, with a candle-glow halo on page and section titles; Almendra SC for navigation, kickers, tags and large centered quotes (verse); Alegreya for prose and inline quotes. Inline quotes are set apart by color, Sea Glass `#b9ddd2` (10.8:1 on Crypt), rather than a panel, so the prose stays dominant.
 - Blackletter is for titles only.
+
+## The Freaky Gray Company skin
+
+- Two accents on purpose: Sealing Wax `#6b2030` is the frame (the header bar, quote rules) and Old Gold `#d9a84a` is the only accent (links, active navigation, rules; Char text on it). Grounds are Char `#1c1311` and Soot `#2a1c18`, with Ash `#4a342c` borders, Parchment `#f3e7ce` text and Tan `#c9b394` for secondary text and labels. On Char: Parchment 14.9:1, Tan 9.0:1, Old Gold 8.4:1. Sealing Wax is 1.6:1 on Char, a quiet fill and rule, never text.
+- Type: IM Fell English SC for titles (it stays readable on long, date-prefixed session titles), Cinzel for navigation, kickers, tags and large centered quotes, Libre Baskerville for prose. Inline quotes change voice by color, a warm tan `#e8c9a0` (11.6:1), beside the wax rule.
 
 ## Skin CSS and component styles
 
