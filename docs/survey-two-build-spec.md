@@ -50,7 +50,7 @@ All values below are stable machine identifiers; display the human wording. Requ
 |---|---|---|
 | cutter | Cutter / The Muscle | An intimidating fighter, bodyguard or dangerous enforcer. |
 | hound | Hound / The Hunter | A sharpshooter, tracker and specialist in watching or pursuing targets. |
-| leech | Leech / The Inventor | An alchemist, engineer, saboteur and maker of ingenious devices. |
+| leech | Leech / The Technician | A doctor, alchemist, saboteur or witch: patches up wounds, brews remedies and poisons, and builds ingenious (or explosive) devices. |
 | lurk | Lurk / The Infiltrator | A burglar, acrobat and specialist in getting into places they shouldn't be. |
 | slide | Slide / The Con Artist | A charming manipulator, impersonator and master of deception. |
 | spider | Spider / The Mastermind | A strategist, criminal fixer and operator with useful connections. |
@@ -63,7 +63,7 @@ Helper: "Playbooks describe your specialties, not limits on what you can do. Pic
 - `study` — Investigating clues and deciphering secrets
 - `survey` — Observing people and spotting danger
 - `hunt` — Tracking targets or shooting with precision
-- `tinker` — Engineering, alchemy and mechanical ingenuity
+- `tinker` — Medicine, alchemy, engineering and mechanical ingenuity
 - `finesse` — Sleight of hand, lockpicking and precise movements
 - `prowl` — Stealth, climbing and acrobatics
 - `skirmish` — Swordplay, brawling and close combat

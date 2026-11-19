@@ -82,7 +82,7 @@ export const COPY = {
 export const PLAYBOOKS: readonly Playbook[] = [
   { value: 'cutter', title: 'Cutter / The Muscle', description: 'An intimidating fighter, bodyguard or dangerous enforcer.' },
   { value: 'hound', title: 'Hound / The Hunter', description: 'A sharpshooter, tracker and specialist in watching or pursuing targets.' },
-  { value: 'leech', title: 'Leech / The Inventor', description: 'An alchemist, engineer, saboteur and maker of ingenious devices.' },
+  { value: 'leech', title: 'Leech / The Technician', description: 'A doctor, alchemist, saboteur or witch: patches up wounds, brews remedies and poisons, and builds ingenious (or explosive) devices.' },
   { value: 'lurk', title: 'Lurk / The Infiltrator', description: 'A burglar, acrobat and specialist in getting into places they shouldn’t be.' },
   { value: 'slide', title: 'Slide / The Con Artist', description: 'A charming manipulator, impersonator and master of deception.' },
   { value: 'spider', title: 'Spider / The Mastermind', description: 'A strategist, criminal fixer and operator with useful connections.' },
@@ -115,7 +115,7 @@ export const SECTIONS: readonly Section[] = [
           { value: 'study', label: 'Investigating clues and deciphering secrets' },
           { value: 'survey', label: 'Observing people and spotting danger' },
           { value: 'hunt', label: 'Tracking targets or shooting with precision' },
-          { value: 'tinker', label: 'Engineering, alchemy and mechanical ingenuity' },
+          { value: 'tinker', label: 'Medicine, alchemy, engineering and mechanical ingenuity' },
           { value: 'finesse', label: 'Sleight of hand, lockpicking and precise movements' },
           { value: 'prowl', label: 'Stealth, climbing and acrobatics' },
           { value: 'skirmish', label: 'Swordplay, brawling and close combat' },
