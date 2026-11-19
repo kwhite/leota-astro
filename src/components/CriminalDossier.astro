@@ -5,7 +5,8 @@
 // PUBLIC_SURVEY_TWO_FORMSPREE_ENDPOINT the form renders but refuses to submit.
 import { COPY, SECTIONS } from '../data/criminal-dossier';
 // Bundled with the site (not the R2 media pipeline): a small design asset, like the fonts.
-import introImage from '../assets/images/dossier-intro.webp';
+// Keep it out of any "assets/images" path, which the media build check reserves for R2 media.
+import introImage from '../assets/survey/dossier-intro.webp';
 
 const endpoint = (import.meta.env.PUBLIC_SURVEY_TWO_FORMSPREE_ENDPOINT ?? '').trim();
 const configured = /^https:\/\/\S+$/.test(endpoint);
