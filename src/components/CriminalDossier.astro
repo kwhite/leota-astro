@@ -16,11 +16,11 @@ const limitText = (required: boolean, max: number) =>
 ---
 <section class="dossier">
   <div class="dossier-intro">
+    <!-- Decorative mood image: the face stays hidden, so it implies no character's appearance. -->
+    <img class="dossier-intro-image" src={introImage.src} width={introImage.width} height={introImage.height} alt="" decoding="async" />
     <div class="dossier-intro-text">
       {COPY.intro.map(paragraph => <p>{paragraph}</p>)}
     </div>
-    <!-- Decorative mood image: the face stays hidden, so it implies no character's appearance. -->
-    <img class="dossier-intro-image" src={introImage.src} width={introImage.width} height={introImage.height} alt="" decoding="async" />
   </div>
 
   {!configured && (
@@ -367,16 +367,18 @@ const limitText = (required: boolean, max: number) =>
 <style is:global>
   .leota-content .dossier { font-size: 1.8rem; line-height: 1.55; }
   .leota-content .dossier > * + * { margin-top: max(3.2vmin, 24px); }
-  /* Intro: text beside a tall mood image on wide screens; a cropped strip above it on phones. */
-  .leota-content .dossier-intro { display: grid; grid-template-columns: minmax(0, 1fr) clamp(180px, 34%, 280px); gap: 2.4em; align-items: start; }
+  /* Intro: the portrait photo cropped to a strip (face, hands, flame) above the text:
+     16:9 on phones, a wider 2:1 from 701px so it stays under ~450px tall. */
+  .leota-content .dossier-intro .dossier-intro-image {
+    display: block; width: 100%; height: auto; margin: 0 0 1.4em; aspect-ratio: 16 / 9;
+    object-fit: cover; object-position: 50% 52%; border: 1px solid var(--color-border);
+  }
+  @media (min-width: 701px) {
+    .leota-content .dossier-intro .dossier-intro-image { aspect-ratio: 2 / 1; margin-bottom: 1.6em; }
+  }
   .leota-content .dossier-intro p { margin: 0; }
   .leota-content .dossier-intro p + p { margin-top: 1em; }
   .leota-content .dossier-intro p:last-child { color: var(--color-heading); }
-  .leota-content .dossier-intro .dossier-intro-image { width: 100%; height: auto; margin: .35em 0 0; border: 1px solid var(--color-border); }
-  @media (max-width: 700px) {
-    .leota-content .dossier-intro { grid-template-columns: 1fr; gap: 1.4em; }
-    .leota-content .dossier-intro .dossier-intro-image { order: -1; height: auto; aspect-ratio: 16 / 9; margin: 0; object-fit: cover; object-position: 50% 52%; }
-  }
 
   .leota-content .dossier-notice { margin: 0; padding: .9em 1.1em; border: 1px solid var(--ghost-accent-color); background: var(--color-panel); color: var(--color-heading); }
   .leota-content .dossier-notice code { font-size: .85em; overflow-wrap: anywhere; }
