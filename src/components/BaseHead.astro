@@ -11,6 +11,7 @@ interface Props {
   tags?: string[];
   author?: string;
   skin?: SkinId;
+  noindex?: boolean;
 }
 
 const {
@@ -22,6 +23,7 @@ const {
   tags = [],
   author,
   skin = SITE_CONFIG.skin,
+  noindex = false,
 } = Astro.props;
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site || Astro.url);
@@ -105,6 +107,7 @@ const isoDate = articleDate ? new Date(articleDate).toISOString() : undefined;
 
 <!-- Canonical URL -->
 <link rel="canonical" href={canonicalURL} />
+{noindex && <meta name="robots" content="noindex, nofollow" />}
 
 <!-- Primary Meta Tags -->
 <title>{displayTitle}</title>

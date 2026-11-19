@@ -25,6 +25,8 @@ interface Props {
   current?: string;
   /** The campaign this page belongs to; posts are matched by their tags instead. */
   campaign?: CampaignId;
+  /** Ask search engines not to index the page (not access control). */
+  noindex?: boolean;
 }
 
 const {
@@ -37,6 +39,7 @@ const {
   author,
   current,
   campaign,
+  noindex = false,
 } = Astro.props;
 
 const skin = resolveSkin({ campaign, tags });
@@ -58,6 +61,7 @@ const bodyClass = current === 'home' ? 'home-template' : `${current || 'page'}-t
       tags={tags}
       author={author}
       skin={skin}
+      noindex={noindex}
     />
     <ClientRouter />
 </head>

@@ -1,0 +1,10 @@
+---
+// Survey Two for the Blades in the Dark one-shot. Shared by URL only: kept out of the
+// navigation and marked noindex (which is not access control). See docs/survey-two-build-spec.md.
+import PageLayout from '../../layouts/PageLayout.astro';
+import CriminalDossier from '../../components/CriminalDossier.astro';
+import { COPY } from '../../data/criminal-dossier';
+---
+<PageLayout title={COPY.title} description={COPY.subtitle} campaign="blades-in-the-dark" subclass="campaign-page" noindex>
+    <CriminalDossier />
+</PageLayout>

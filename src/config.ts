@@ -41,6 +41,8 @@ export const SITE_CONFIG = {
 // Keep the original destinations recorded while their pages await migration.
 export const PRIMARY_NAVIGATION = [
   { label: 'City of Mist', href: '/city-of-mist/', available: true },
+  // Rename to the crew name once it can be shared (CAMPAIGN_NAVIGATION label too).
+  { label: 'Blades in the Dark', href: '/blades-in-the-dark/', available: true },
   { label: 'Freaky Gray Company', href: '/the-freaky-gray-company/', available: true },
   { label: 'The Chosen', href: '/the-chosen/', available: true },
   { label: 'About', href: '/about/', available: true },
@@ -84,15 +86,15 @@ export const CAMPAIGN_NAVIGATION = {
       { id: 'summaries', label: 'Season Summaries', href: '/tag/the-chosen/', available: true },
     ],
   },
-  // Not launched: no nav link or archive yet. To launch, add
-  // { label: 'Rite and Riot', href: '/tag/rite-and-riot/', available: true } to
-  // PRIMARY_NAVIGATION and restore src/content/tags/rite-and-riot.json.
-  'rite-and-riot': {
+  // The archive is not built until a post is tagged "Blades in the Dark" (or
+  // src/content/tags/blades-in-the-dark.json exists); turn on the summaries link then.
+  'blades-in-the-dark': {
     skin: 'blades',
-    tag: 'rite-and-riot',
-    label: 'Rite and Riot',
+    tag: 'blades-in-the-dark',
+    label: 'Blades in the Dark',
     links: [
-      { id: 'summaries', label: 'Session Summaries', href: '/tag/rite-and-riot/', available: true },
+      { id: 'overview', label: 'Overview', href: '/blades-in-the-dark/', available: true },
+      { id: 'summaries', label: 'Session Summaries', href: '/tag/blades-in-the-dark/', available: false },
     ],
   },
 } as const satisfies Record<string, { skin: SkinId; tag: string; otherTags?: readonly string[]; label: string; links: readonly unknown[] }>;

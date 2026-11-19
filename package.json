@@ -13,7 +13,8 @@
     "email:send": "node --env-file-if-exists=.email/credentials.env scripts/email.mjs send",
     "email:check": "node --test scripts/tests/email.mjs",
     "media:prepare": "$(command -v /opt/homebrew/bin/python3 || command -v python3) scripts/prepare-media.py",
-    "media:upload": "node scripts/upload-media.mjs --changed-since-git"
+    "media:upload": "node scripts/upload-media.mjs --changed-since-git",
+    "survey:check": "node --test scripts/tests/criminal-dossier.mjs"
   },
   "dependencies": {
     "@astrojs/markdown-satteri": "0.4.4",

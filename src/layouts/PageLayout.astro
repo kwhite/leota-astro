@@ -10,10 +10,12 @@ interface Props {
     description?: string;
     subclass?: string;
     campaign?: CampaignId;
+    /** Ask search engines not to index the page (not access control). */
+    noindex?: boolean;
 }
-const { title, cover, description, subclass, campaign } = Astro.props;
+const { title, cover, description, subclass, campaign, noindex } = Astro.props;
 ---
-<Layout title={title} description={description} image={cover} current="page" campaign={campaign}>
+<Layout title={title} description={description} image={cover} current="page" campaign={campaign} noindex={noindex}>
     <header class="site-header outer"><div class="inner"><SiteNav current="page" /></div></header>
     <main id="site-main">
         <article class={`leota-article ${subclass || ''}`}>
