@@ -2,9 +2,9 @@
   "version": 2,
   "pillow": "13.0.0",
   "webp": "1.6.0",
-  "sourceBytes": 664374606,
-  "deliveryBytes": 159562321,
-  "variantBytes": 182537944,
+  "sourceBytes": 664452673,
+  "deliveryBytes": 159640388,
+  "variantBytes": 182634024,
   "assets": [
     {
       "source": "/assets/files/2026/02/Mirror-Mirror---Intro-Sequence-2.pdf",
@@ -28164,6 +28164,73 @@
           "dimensions": [
             1280,
             717
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/11/criminal-dossier-intro.jpg",
+      "delivery": "/assets/images/2026/11/criminal-dossier-intro.jpg",
+      "sourceSha256": "d5439b9e22593172abf75bea922189e5d3b8c75c2095d758a63109e36995c4fb",
+      "deliverySha256": "d5439b9e22593172abf75bea922189e5d3b8c75c2095d758a63109e36995c4fb",
+      "sourceBytes": 78067,
+      "deliveryBytes": 78067,
+      "dimensions": [
+        1333,
+        2000
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/components/CriminalDossier.astro"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/11/criminal-dossier-intro.w320.webp",
+          "deliverySha256": "a1224013e2911f700082a855384a56756672c082c9321fea98cb9c40bd3bd7fa",
+          "deliveryBytes": 10768,
+          "dimensions": [
+            320,
+            480
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/criminal-dossier-intro.w640.webp",
+          "deliverySha256": "3be2c25cfee4cfa2e2101299bc1867e4ef0dfd2879a60b6834affa710eba535e",
+          "deliveryBytes": 30050,
+          "dimensions": [
+            640,
+            960
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/criminal-dossier-intro.w960.webp",
+          "deliverySha256": "05678a9824af1228be1111fb46ce7aaaa09dcd3b7f5ddf987668512ed8bd4a34",
+          "deliveryBytes": 55262,
+          "dimensions": [
+            960,
+            1440
           ],
           "settings": {
             "encoder": "cwebp",
