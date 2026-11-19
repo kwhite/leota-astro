@@ -212,8 +212,26 @@ export const SECTIONS: readonly Section[] = [
     title: 'Skeletons in the Closet',
     fields: [
       {
-        kind: 'checkbox', name: 'motivations', number: 9, required: false, max: 2,
-        question: 'What might have brought your character into a life of crime?',
+        kind: 'checkbox', name: 'background', number: 9, required: false, max: 2,
+        question: 'What did your character do before turning to crime?',
+        options: [
+          { value: 'academic', label: 'Academic, scholar or researcher' },
+          { value: 'artist', label: 'Artist, musician, actor or entertainer' },
+          { value: 'doctor', label: 'Doctor, apothecary or healer' },
+          { value: 'engineer', label: 'Engineer, mechanic or craftsperson' },
+          { value: 'soldier', label: 'Soldier, mercenary or law enforcement' },
+          { value: 'sailor', label: 'Sailor, gondolier or smuggler' },
+          { value: 'merchant', label: 'Merchant, banker or business owner' },
+          { value: 'aristocrat', label: 'Aristocrat, courtier or member of high society' },
+          { value: 'laborer', label: 'Servant, laborer or factory worker' },
+          { value: 'priest', label: 'Priest, mystic or occult practitioner' },
+          { value: 'criminal', label: 'Lifelong criminal or street hustler' },
+          { value: 'surprise', label: 'Surprise me', exclusive: true },
+        ],
+      },
+      {
+        kind: 'checkbox', name: 'motivations', number: 10, required: false, max: 2,
+        question: 'What drove your character into a life of crime, or keeps them pursuing it?',
         options: [
           { value: 'wealth', label: 'Money and the finer things in life' },
           { value: 'power', label: 'Ambition, influence or power' },
@@ -228,7 +246,7 @@ export const SECTIONS: readonly Section[] = [
         ],
       },
       {
-        kind: 'checkbox', name: 'story_elements', number: 10, required: false, max: 3,
+        kind: 'checkbox', name: 'story_elements', number: 11, required: false, max: 3,
         question: 'Which personal story elements would you enjoy?',
         options: [
           { value: 'rival', label: 'An old rival or nemesis' },
@@ -244,7 +262,7 @@ export const SECTIONS: readonly Section[] = [
         ],
       },
       {
-        kind: 'radio', name: 'vice', number: 11, required: false,
+        kind: 'radio', name: 'vice', number: 12, required: false,
         question: 'Every scoundrel needs an escape. What’s yours?',
         helper: 'Characters have a vice: something they turn to when the pressures of criminal life become too much. This is about the fictional character.',
         options: [
@@ -266,7 +284,7 @@ export const SECTIONS: readonly Section[] = [
     title: 'Finishing Touches',
     fields: [
       {
-        kind: 'radio', name: 'customization', number: 12, required: true,
+        kind: 'radio', name: 'customization', number: 13, required: true,
         question: 'How much would you like to customize your character?',
         options: [
           { value: 'complete', label: 'Give me a completed character and let me discover them through play.' },
@@ -276,12 +294,12 @@ export const SECTIONS: readonly Section[] = [
         ],
       },
       {
-        kind: 'textarea', name: 'character_concept', number: 13, required: false, maxLength: 2000,
+        kind: 'textarea', name: 'character_concept', number: 14, required: false, maxLength: 2000,
         question: 'Do you have a particular character concept, fictional inspiration or aesthetic in mind?',
         helper: 'A character from a book, film or game? Preferences for gender, appearance, clothes or portraits? Or leave it blank.',
       },
       {
-        kind: 'textarea', name: 'character_notes', number: 14, required: false, maxLength: 2000,
+        kind: 'textarea', name: 'character_notes', number: 15, required: false, maxLength: 2000,
         question: 'Anything else I should know about your character?',
         helper: 'Anything you particularly want or don’t want in your character’s story? You can also message me privately instead.',
       },

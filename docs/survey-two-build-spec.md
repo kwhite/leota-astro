@@ -132,7 +132,22 @@ Helper: "Playbooks describe your specialties, not limits on what you can do. Pic
 
 #### Section C — Skeletons in the Closet
 
-**Q9. What might have brought your character into a life of crime?** `motivations`, optional, up to 2.
+**Q9. What did your character do before turning to crime?** `background`, optional, up to 2.
+
+- `academic` — Academic, scholar or researcher
+- `artist` — Artist, musician, actor or entertainer
+- `doctor` — Doctor, apothecary or healer
+- `engineer` — Engineer, mechanic or craftsperson
+- `soldier` — Soldier, mercenary or law enforcement
+- `sailor` — Sailor, gondolier or smuggler
+- `merchant` — Merchant, banker or business owner
+- `aristocrat` — Aristocrat, courtier or member of high society
+- `laborer` — Servant, laborer or factory worker
+- `priest` — Priest, mystic or occult practitioner
+- `criminal` — Lifelong criminal or street hustler
+- `surprise` — Surprise me (exclusive)
+
+**Q10. What drove your character into a life of crime, or keeps them pursuing it?** `motivations`, optional, up to 2.
 
 - `wealth` — Money and the finer things in life
 - `power` — Ambition, influence or power
@@ -145,7 +160,7 @@ Helper: "Playbooks describe your specialties, not limits on what you can do. Pic
 - `justice` — A personal code of justice
 - `surprise` — Surprise me (exclusive)
 
-**Q10. Which personal story elements would you enjoy?** `story_elements`, optional, up to 3.
+**Q11. Which personal story elements would you enjoy?** `story_elements`, optional, up to 3.
 
 - `rival` — An old rival or nemesis
 - `favor` — A dangerous favor owed
@@ -158,7 +173,7 @@ Helper: "Playbooks describe your specialties, not limits on what you can do. Pic
 - `former_faction` — A former affiliation with another criminal organization
 - `minimal` — I'd prefer minimal personal drama (exclusive)
 
-**Q11. Every scoundrel needs an escape. What's yours?** `vice`, optional radio. Helper: "Characters have a vice: something they turn to when the pressures of criminal life become too much. This is about the fictional character."
+**Q12. Every scoundrel needs an escape. What's yours?** `vice`, optional radio. Helper: "Characters have a vice: something they turn to when the pressures of criminal life become too much. This is about the fictional character."
 
 - `faith` — Religious or spiritual devotion
 - `gambling` — Games of chance and high-stakes wagers
@@ -171,16 +186,16 @@ Helper: "Playbooks describe your specialties, not limits on what you can do. Pic
 
 #### Section D — Finishing Touches
 
-**Q12. How much would you like to customize your character?** `customization`, required radio.
+**Q13. How much would you like to customize your character?** `customization`, required radio.
 
 - `complete` — Give me a completed character and let me discover them through play.
 - `personality` — Give me the mechanics, but let me develop personality and appearance.
 - `collaborate` — Give me a starting point, but I'd like input into abilities and backstory.
 - `build` — I'd enjoy building my own character with some guidance before game day.
 
-**Q13. Do you have a particular character concept, fictional inspiration or aesthetic in mind?** `character_concept`, optional textarea, max 2000. Helper: "A character from a book, film or game? Preferences for gender, appearance, clothes or portraits? Or leave it blank."
+**Q14. Do you have a particular character concept, fictional inspiration or aesthetic in mind?** `character_concept`, optional textarea, max 2000. Helper: "A character from a book, film or game? Preferences for gender, appearance, clothes or portraits? Or leave it blank."
 
-**Q14. Anything else I should know about your character?** `character_notes`, optional textarea, max 2000. Helper: "Anything you particularly want or don't want in your character's story? You can also message me privately instead." Do not request sensitive personal details.
+**Q15. Anything else I should know about your character?** `character_notes`, optional textarea, max 2000. Helper: "Anything you particularly want or don't want in your character's story? You can also message me privately instead." Do not request sensitive personal details.
 
 **Submit button:** Seal Dossier
 
@@ -214,7 +229,7 @@ Join the two survey exports offline using trimmed, case-insensitive player names
 ### 8. Decisions and open questions
 
 - Proposed route, environment key, plain scrolling layout, delimiter and optional lower rankings are implementation defaults, not prior owner commitments.
-- Q8 (operating preference) is restored from earlier discussion because team design matters. Q10 is capped at three to reduce conflicting hooks. Q4, Q13 and Q14 remain optional. Confirm questionnaire copy with owner before launch.
+- Q8 (operating preference) is restored from earlier discussion because team design matters. Q11 is capped at three to reduce conflicting hooks. Q4, Q9, Q14 and Q15 remain optional. Confirm questionnaire copy with owner before launch.
 - Confirm exact crew name, whether the Silkshore/opera house copy is final, and any published campaign styling. Do not expose faction secrets or score premises.
 - Owner must supply Formspree endpoint and confirm plan/export capabilities; no credentials or repo access are included here.
 - Optional enhancements after baseline: playbook illustrations, Sheets integration, private GM analysis script. No need for these to ship survey.

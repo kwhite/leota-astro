@@ -25,7 +25,7 @@ test('valid answers build a complete payload in option order', () => {
   // Every defined field is present, unanswered optional ones as empty strings.
   const keys = FIELDS.flatMap(f => f.kind === 'rank' ? f.names : [f.name, ...(f.kind === 'checkbox' && f.companion ? [f.companion.name] : [])]);
   for (const key of keys) assert.ok(key in payload, key);
-  for (const key of ['personality', 'personality_other', 'settings', 'complications', 'motivations', 'story_elements', 'vice', 'character_concept', 'character_notes', 'playbook_third']) assert.equal(payload[key], '', key);
+  for (const key of ['personality', 'personality_other', 'background', 'settings', 'complications', 'motivations', 'story_elements', 'vice', 'character_concept', 'character_notes', 'playbook_third']) assert.equal(payload[key], '', key);
   assert.ok(Object.values(payload).every(v => typeof v === 'string'));
 });
 
@@ -49,7 +49,7 @@ test('rankings: duplicates and a skipped second choice are errors, never rewritt
 });
 
 test('checkbox limits are upper bounds', () => {
-  const limits = { talents: 4, personality: 3, score_preferences: 3, settings: 3, complications: 3, motivations: 2, story_elements: 3 };
+  const limits = { talents: 4, personality: 3, score_preferences: 3, settings: 3, complications: 3, background: 2, motivations: 2, story_elements: 3 };
   for (const [name, max] of Object.entries(limits)) {
     const field = FIELDS.find(f => f.name === name);
     const options = field.options.filter(o => !o.exclusive && o.value !== 'other').map(o => o.value);
@@ -59,6 +59,8 @@ test('checkbox limits are upper bounds', () => {
 });
 
 test('exclusive options stand alone', () => {
+  assert.deepEqual(run({ background: ['surprise'] }).errors, {});
+  assert.match(run({ background: ['artist', 'surprise'] }).errors.background, /Surprise me/);
   assert.deepEqual(run({ motivations: ['surprise'] }).errors, {});
   assert.match(run({ motivations: ['wealth', 'surprise'] }).errors.motivations, /Surprise me/);
   assert.deepEqual(run({ story_elements: ['minimal'] }).errors, {});
