@@ -4,6 +4,8 @@ The initial rollout covered 117 images. The completed published-content migratio
 
 That initial delivery set was 52.19 MiB instead of 202.47 MiB, a 74.2% reduction. The animated `jrpgart-logo.gif` accounts for 11.74 MiB and remains unchanged. Responsive WebP candidates are generated at 320, 640, 960, 1280 and 1920 pixels wide, only below each original width and only when smaller than its full-size delivery file. Animated assets remain unchanged.
 
+Each page preloads only the image it shows at the top (home cover, post or page hero, archive cover), passed to the layout as `preloadImage`; pages without one preload nothing. The share image (`og:image`) is separate and still falls back to the site cover. The build gives each image preload the same `imagesrcset`/`imagesizes` as its `<img>`, so the browser fetches one candidate instead of the full-size file plus a smaller one.
+
 ## Cloudflare setup before deployment
 
 Set the **build environment variable** `MEDIA_BASE_URL` to:

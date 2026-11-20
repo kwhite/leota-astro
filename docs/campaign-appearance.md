@@ -23,17 +23,17 @@ export const SKINS = {
 The layout resolves one skin per page (`resolveSkin` in `src/config.ts`) and sets it as `data-skin` on `<html>`:
 
 1. **Campaign pages** pass their `campaign` frontmatter (`src/content/pages/*.md`) to the layout, and get that campaign's skin.
-2. **Posts** are matched by tag: the first tag that equals a campaign's `tag` picks the campaign. Tags compare as archive slugs, so `Rite and Riot` and `rite-and-riot` are the same.
+2. **Posts** are matched by tag: the first tag that equals a campaign's `tag` picks the campaign. Tags compare as archive slugs, so `Blades in the Dark` and `blades-in-the-dark` are the same.
 3. **Tag archives** use the campaign whose `tag` they are. Other archives (seasons, arcs) use the campaign their posts belong to, when every post agrees; archives spanning campaigns, such as Session Recaps, use the default.
 4. **Everything else** (home, About, Resources, untagged posts) uses `SITE_CONFIG.skin`, currently `com` because City of Mist is the current campaign.
 
 Each campaign in `CAMPAIGN_NAVIGATION` names its skin and archive tag:
 
 ```ts
-'rite-and-riot': {
+'blades-in-the-dark': {
   skin: 'blades',
-  tag: 'rite-and-riot',
-  label: 'Rite and Riot',
+  tag: 'blades-in-the-dark',
+  label: 'Blades in the Dark',
   links: [ ... ],
 },
 ```
@@ -60,7 +60,7 @@ To move a campaign to another skin, change its `skin`. To change the site defaul
 
 ## The Blades skin
 
-Rite and Riot is not launched yet: its campaign entry, skin and fonts are in place, but it has no primary navigation link and no tag metadata file, so `/tag/rite-and-riot/` is not built. To launch, add its link to `PRIMARY_NAVIGATION` (see the comment in `src/config.ts`) and restore `src/content/tags/rite-and-riot.json`; any post tagged `Rite and Riot` also creates the archive.
+The Blades in the Dark campaign uses this skin. It has a placeholder overview page (`/blades-in-the-dark/`) and a primary navigation link, both labelled "Blades in the Dark" until the crew name can be shared (rename the `PRIMARY_NAVIGATION` and `CAMPAIGN_NAVIGATION` labels then). It has no tag metadata file yet, so `/tag/blades-in-the-dark/` is not built and its Session Summaries link is inactive: add `src/content/tags/blades-in-the-dark.json` (or tag a post `Blades in the Dark`) and set that link's `available: true`. The Survey Two questionnaire at `/survey/criminal-dossier/` also wears this skin; it is kept out of navigation and marked `noindex`.
 
 - Palette: Ink `#0e0e0e`, Soot `#171717`, Iron `#242424`, Ash `#3a3a3a` (borders only), Fog `#a3a3a3`, Bone `#edebe6`, Hot Orange `#ff5a1f`. On Ink: Bone 16:1, Fog 7.6:1, Orange 6.2:1.
 - Type: Kirsty for headings, Source Serif 4 for prose, IBM Plex Mono for labels (tags, meta, navigation, footer).

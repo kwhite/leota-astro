@@ -75,7 +75,7 @@ const campaign = campaignForArchive(tag, (await getCollection('posts'))
   .map(post => post.data.tags));
 ---
 
-<Layout title={title} description={tagDescription} image={tagCover} current="tag" campaign={campaign}>
+<Layout title={title} description={tagDescription} image={tagCover} preloadImage={tagCover} current="tag" campaign={campaign}>
     <header class="site-header outer"><div class="inner"><SiteNav current="tag" /></div></header>
 
     <!-- Main Content Area -->

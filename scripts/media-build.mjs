@@ -67,8 +67,24 @@ export default function mediaDelivery() {
           target: remote ? `${remote}${asset.delivery}` : asset.delivery,
         }));
         const images = new Map(manifest.assets.filter(asset => asset.variants?.length).map(asset => [asset.delivery, asset]));
+        // An image preload must offer the same candidates as the <img> it is for, or the browser
+        // preloads the full-size file and then downloads a smaller one for the <img> as well.
+        function matchPreloads(html) {
+          const responsive = new Map();
+          for (const tag of html.match(/<img\b[^>]*>/gi) || []) {
+            const src = tag.match(/\ssrc="([^"]+)"/i)?.[1];
+            const srcset = tag.match(/\ssrcset="([^"]+)"/i)?.[1];
+            // The first use is the one at the top of the page (a cover may reappear lower down).
+            if (src && srcset && !responsive.has(src)) responsive.set(src,{ srcset, sizes: tag.match(/\ssizes="([^"]+)"/i)?.[1] });
+          }
+          return html.replace(/<link\b[^>]*\brel="preload"[^>]*>/gi, tag => {
+            const match = /\sas="image"/i.test(tag) && !/\simagesrcset=/i.test(tag) && responsive.get(tag.match(/\shref="([^"]+)"/i)?.[1]);
+            if (!match) return tag;
+            return tag.replace(/\s*\/?>$/, '') + ` imagesrcset="${match.srcset}"` + (match.sizes ? ` imagesizes="${match.sizes}"` : '') + '>';
+          });
+        }
         function responsiveImages(html) {
-          return html.replace(/<img\b[^>]*>/gi, tag => {
+          return matchPreloads(html.replace(/<img\b[^>]*>/gi, tag => {
             const src = tag.match(/\ssrc="([^"]+)"/i)?.[1];
             const prefix = remote || site;
             const source = src?.startsWith(prefix) ? src.slice(prefix.length) : src;
@@ -85,7 +101,7 @@ export default function mediaDelivery() {
             if (!/\ssizes=/i.test(tag)) attributes += ` sizes="${sizes}"`;
             if (!/\swidth=/i.test(tag) && !/\sheight=/i.test(tag)) attributes += ` width="${asset.dimensions[0]}" height="${asset.dimensions[1]}"`;
             return tag.replace(/\s*\/?>$/, '') + attributes + '>';
-          });
+          }));
         }
         async function rewrite(folder) {
           for (const entry of await fs.readdir(folder, { withFileTypes: true })) {

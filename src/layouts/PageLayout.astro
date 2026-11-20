@@ -10,10 +10,14 @@ interface Props {
     description?: string;
     subclass?: string;
     campaign?: CampaignId;
+    /** Ask search engines not to index the page (not access control). */
+    noindex?: boolean;
+    /** Link-preview (Open Graph) image when there is no hero cover, or it should differ. */
+    image?: string | null;
 }
-const { title, cover, description, subclass, campaign } = Astro.props;
+const { title, cover, description, subclass, campaign, noindex, image } = Astro.props;
 ---
-<Layout title={title} description={description} image={cover} current="page" campaign={campaign}>
+<Layout title={title} description={description} image={image ?? cover} current="page" campaign={campaign} noindex={noindex} preloadImage={cover}>
     <header class="site-header outer"><div class="inner"><SiteNav current="page" /></div></header>
     <main id="site-main">
         <article class={`leota-article ${subclass || ''}`}>

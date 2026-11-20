@@ -19,7 +19,7 @@ const recentPosts = (await getCollection('posts'))
 const isDisqusEnabled = disqus !== false && SITE_CONFIG.disqus;
 ---
 
-<Layout title={title} description={description} image={cover} type="article"
+<Layout title={title} description={description} image={cover} preloadImage={cover} type="article"
     articleDate={date} tags={tags} author={authorEntry?.data.name} current="post">
     <header class="site-header outer"><div class="inner"><SiteNav current="post" /></div></header>
     <main id="site-main">

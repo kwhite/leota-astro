@@ -25,6 +25,10 @@ interface Props {
   current?: string;
   /** The campaign this page belongs to; posts are matched by their tags instead. */
   campaign?: CampaignId;
+  /** Ask search engines not to index the page (not access control). */
+  noindex?: boolean;
+  /** The image shown at the top of the page, if any (hero, archive or home cover). */
+  preloadImage?: string | null;
 }
 
 const {
@@ -37,6 +41,8 @@ const {
   author,
   current,
   campaign,
+  noindex = false,
+  preloadImage,
 } = Astro.props;
 
 const skin = resolveSkin({ campaign, tags });
@@ -58,6 +64,8 @@ const bodyClass = current === 'home' ? 'home-template' : `${current || 'page'}-t
       tags={tags}
       author={author}
       skin={skin}
+      noindex={noindex}
+      preloadImage={preloadImage}
     />
     <ClientRouter />
 </head>

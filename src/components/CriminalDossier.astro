@@ -1,0 +1,481 @@
+---
+// Survey Two for the Blades in the Dark one-shot: one scrolling form in four sections.
+// Copy and the field contract come from src/data/criminal-dossier.ts; the script below
+// validates with src/scripts/criminal-dossier.ts and posts JSON to Formspree. Without
+// PUBLIC_SURVEY_TWO_FORMSPREE_ENDPOINT the form renders but refuses to submit.
+import { COPY, SECTIONS } from '../data/criminal-dossier';
+
+const endpoint = (import.meta.env.PUBLIC_SURVEY_TWO_FORMSPREE_ENDPOINT ?? '').trim();
+const configured = /^https:\/\/\S+$/.test(endpoint);
+const describedBy = (...ids: (string | false | undefined)[]) => ids.filter(Boolean).join(' ') || undefined;
+const limitText = (required: boolean, max: number) =>
+  required ? `Choose 1 to ${max}.` : max === 1 ? 'Optional.' : `Optional. Choose up to ${max}.`;
+---
+<section class="dossier">
+  <div class="dossier-intro">
+    <!-- Decorative mood image: the face stays hidden, so it implies no character's appearance.
+         Served from R2 like other site media (pnpm media:prepare / media:upload); the build
+         rewrites the URL and adds the responsive srcset. It fills the content column (max 900px). -->
+    <img class="dossier-intro-image" src="/assets/images/2026/11/criminal-dossier-intro.jpg" width="1333" height="2000" sizes="(min-width: 1000px) 900px, 92vw" alt="" decoding="async" />
+    <div class="dossier-intro-text">
+      {COPY.intro.map(paragraph => <p>{paragraph}</p>)}
+    </div>
+  </div>
+
+  {!configured && (
+    <p class="dossier-notice" role="note">
+      This form isn’t connected yet, so it can’t be sent. Set <code>PUBLIC_SURVEY_TWO_FORMSPREE_ENDPOINT</code> and rebuild the site.
+    </p>
+  )}
+  <noscript><p class="dossier-notice">This form needs JavaScript to send your answers.</p></noscript>
+
+  <form class="dossier-form" data-endpoint={configured ? endpoint : ''} novalidate>
+    <div class="dossier-summary" tabindex="-1" hidden>
+      <h2 class="dossier-summary-title">A few things need another look</h2>
+      <ul></ul>
+    </div>
+
+    <p class="dossier-key">Questions marked <span class="dossier-req">Required</span> need an answer; everything else is optional.</p>
+
+    {SECTIONS.map(section => (
+      <section class="dossier-section" aria-labelledby={`section-${section.id}`}>
+        <h2 id={`section-${section.id}`}>
+          <span class="dossier-letter">Section {section.letter}</span>
+          {section.title}
+        </h2>
+
+        {section.fields.map(field => {
+          const tag = field.required
+            ? <span class="dossier-req">Required</span>
+            : <span class="dossier-opt">Optional</span>;
+          const number = <span class="dossier-num">Q{field.number}.</span>;
+
+          if (field.kind === 'text' || field.kind === 'textarea') {
+            const id = `dossier-${field.name}`;
+            const helpId = field.helper && `${id}-help`;
+            const errId = `${id}-error`;
+            return (
+              <div class="dossier-q" data-question={field.name}>
+                <label class="dossier-label" for={id}>{number} {field.question} {tag}</label>
+                {field.helper && <p class="dossier-help" id={helpId}>{field.helper}</p>}
+                {field.kind === 'text'
+                  ? <input id={id} name={field.name} type="text" maxlength={field.maxLength} required={field.required} autocomplete="name" spellcheck="false" aria-describedby={describedBy(helpId, errId)} />
+                  : <textarea id={id} name={field.name} rows="5" maxlength={field.maxLength} aria-describedby={describedBy(helpId, errId)}></textarea>}
+                {field.kind === 'textarea' && <p class="dossier-help dossier-limit">Up to {field.maxLength.toLocaleString('en-US')} characters.</p>}
+                <p class="dossier-error" id={errId} data-error-for={field.name} hidden></p>
+              </div>
+            );
+          }
+
+          if (field.kind === 'rank') {
+            const helpId = 'dossier-playbook-help';
+            return (
+              <fieldset class="dossier-q" data-question="playbook" aria-describedby={helpId}>
+                <legend class="dossier-label">{number} {field.question} {tag}</legend>
+                <p class="dossier-help" id={helpId}>{field.helper} Your first choice is required; a second and third are encouraged.</p>
+                <ul class="dossier-playbooks" aria-label="The seven playbooks">
+                  {field.options.map(playbook => {
+                    const [name, role] = playbook.title.split(' / ');
+                    return (
+                      <li>
+                        <span class="dossier-playbook-name">{name}</span>
+                        <span class="dossier-playbook-role">{role}</span>
+                        <span class="dossier-playbook-desc">{playbook.description}</span>
+                      </li>
+                    );
+                  })}
+                </ul>
+                <div class="dossier-ranks">
+                  {field.names.map((name, index) => {
+                    const id = `dossier-${name}`;
+                    const errId = `${id}-error`;
+                    return (
+                      <div class="dossier-rank">
+                        <label for={id}>{field.rankLabels[index]} {index === 0 ? <span class="dossier-req">Required</span> : <span class="dossier-opt">Optional</span>}</label>
+                        <select id={id} name={name} required={index === 0} aria-describedby={errId}>
+                          <option value="">{index === 0 ? 'Choose a playbook…' : 'No choice'}</option>
+                          {field.options.map(playbook => <option value={playbook.value}>{playbook.title}</option>)}
+                        </select>
+                        <p class="dossier-error" id={errId} data-error-for={name} hidden></p>
+                      </div>
+                    );
+                  })}
+                </div>
+              </fieldset>
+            );
+          }
+
+          const groupId = `dossier-${field.name}`;
+          const helpId = field.helper && `${groupId}-help`;
+          const limitId = `${groupId}-limit`;
+          const countId = field.kind === 'checkbox' ? `${groupId}-count` : undefined;
+          const errId = `${groupId}-error`;
+          const type = field.kind;
+          return (
+            <fieldset class="dossier-q" data-question={field.name} aria-describedby={describedBy(helpId, limitId, errId)}>
+              <legend class="dossier-label">{number} {field.question} {tag}</legend>
+              {field.helper && <p class="dossier-help" id={helpId}>{field.helper}</p>}
+              <p class="dossier-help dossier-limit" id={limitId}>
+                {type === 'checkbox' ? limitText(field.required, field.max) : field.required ? 'Choose one.' : 'Optional. Choose one.'}
+                {type === 'checkbox' && field.options.some(option => option.exclusive) && ` “${field.options.find(option => option.exclusive)!.label}” stands alone.`}
+                {countId && <> <span class="dossier-count" id={countId} data-count-for={field.name} data-max={field.max} aria-live="polite">0 of {field.max} chosen</span></>}
+              </p>
+              <div class:list={['dossier-options', { 'dossier-options-long': field.options.some(option => option.label.length > 60) }]}>
+                {field.options.map(option => (
+                  <label class:list={['dossier-option', { 'dossier-option-exclusive': type === 'checkbox' && option.exclusive }]}>
+                    <input type={type} name={field.name} value={option.value} required={type === 'radio' && field.required} />
+                    {option.label.includes(': ')
+                      ? <span><strong>{option.label.split(': ')[0]}:</strong> {option.label.split(': ').slice(1).join(': ')}</span>
+                      : <span>{option.label}</span>}
+                  </label>
+                ))}
+              </div>
+              {type === 'checkbox' && field.companion && (
+                <div class="dossier-companion">
+                  <label for={`dossier-${field.companion.name}`}>{field.companion.label}</label>
+                  <input id={`dossier-${field.companion.name}`} name={field.companion.name} type="text" maxlength={field.companion.maxLength} data-companion-of={field.name} data-companion-option={field.companion.option} disabled aria-describedby={`dossier-${field.companion.name}-error`} />
+                  <p class="dossier-error" id={`dossier-${field.companion.name}-error`} data-error-for={field.companion.name} hidden></p>
+                </div>
+              )}
+              <p class="dossier-error" id={errId} data-error-for={field.name} hidden></p>
+            </fieldset>
+          );
+        })}
+      </section>
+    ))}
+
+    <!-- Formspree honeypot: people never see or fill this. -->
+    <div class="dossier-gotcha" aria-hidden="true">
+      <label>Leave this empty <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" /></label>
+    </div>
+
+    <div class="dossier-actions">
+      <button class="dossier-submit" type="submit">{COPY.submit}</button>
+      <p class="dossier-status" role="status" aria-live="polite"></p>
+    </div>
+  </form>
+
+  <div class="dossier-success" tabindex="-1" hidden>
+    <h2>Dossier sealed</h2>
+    <p>{COPY.success}</p>
+  </div>
+</section>
+
+<script>
+  import { FIELDS, COPY } from '../data/criminal-dossier';
+  import { validate, interpretResponse, type Answers } from '../scripts/criminal-dossier';
+
+  function readAnswers(form: HTMLFormElement): Answers {
+    const answers: Answers = {};
+    const value = (name: string) => form.querySelector<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>(`[name="${name}"]`)?.value ?? '';
+    for (const field of FIELDS) {
+      if (field.kind === 'rank') field.names.forEach(name => { answers[name] = value(name); });
+      else if (field.kind === 'checkbox') {
+        answers[field.name] = [...form.querySelectorAll<HTMLInputElement>(`input[name="${field.name}"]:checked`)].map(input => input.value);
+        if (field.companion) answers[field.companion.name] = value(field.companion.name);
+      } else if (field.kind === 'radio') {
+        answers[field.name] = form.querySelector<HTMLInputElement>(`input[name="${field.name}"]:checked`)?.value ?? '';
+      } else answers[field.name] = value(field.name);
+    }
+    return answers;
+  }
+
+  /** Each error name maps to the controls it describes: one control, or a whole group. */
+  function controlsFor(form: HTMLFormElement, name: string) {
+    return [...form.querySelectorAll<HTMLElement>(`[name="${name}"]`)];
+  }
+
+  function showError(form: HTMLFormElement, name: string, message: string | undefined) {
+    const slot = form.querySelector<HTMLElement>(`[data-error-for="${name}"]`);
+    if (!slot) return;
+    slot.textContent = message ?? '';
+    slot.hidden = !message;
+    // Single controls get aria-invalid; checkbox and radio groups are flagged on their fieldset.
+    const controls = controlsFor(form, name);
+    const isGroup = controls.some(control => control.matches('[type=radio],[type=checkbox]'));
+    controls.forEach(control => {
+      if (message && !isGroup) control.setAttribute('aria-invalid', 'true');
+      else control.removeAttribute('aria-invalid');
+    });
+    const question = slot.closest('.dossier-q');
+    question?.toggleAttribute('data-invalid', !!question.querySelector('.dossier-error:not([hidden])'));
+  }
+
+  /** Names of every error slot that belongs to a field, so cleared errors can be hidden. */
+  function namesFor(fieldName: string) {
+    const field = FIELDS.find(f => (f.kind === 'rank' ? f.names.includes(fieldName) : f.name === fieldName || (f.kind === 'checkbox' && f.companion?.name === fieldName)));
+    if (!field) return [fieldName];
+    if (field.kind === 'rank') return [...field.names];
+    if (field.kind === 'checkbox' && field.companion) return [field.name, field.companion.name];
+    return [field.name];
+  }
+
+  function hasValue(answers: Answers, name: string) {
+    const value = answers[name];
+    return Array.isArray(value) ? value.length > 0 : !!(typeof value === 'string' && value.trim());
+  }
+
+  function updateCounts(form: HTMLFormElement) {
+    form.querySelectorAll<HTMLElement>('[data-count-for]').forEach(count => {
+      const name = count.dataset.countFor!;
+      const chosen = form.querySelectorAll(`input[name="${name}"]:checked`).length;
+      const max = Number(count.dataset.max);
+      const text = `${chosen} of ${max} chosen`;
+      if (count.textContent !== text) count.textContent = text;
+      count.toggleAttribute('data-over', chosen > max);
+    });
+  }
+
+  function syncCompanions(form: HTMLFormElement) {
+    form.querySelectorAll<HTMLInputElement>('[data-companion-of]').forEach(input => {
+      const on = !!form.querySelector<HTMLInputElement>(`input[name="${input.dataset.companionOf}"][value="${input.dataset.companionOption}"]:checked`);
+      if (!on && input.value) input.value = ''; // spec: clear stale "Other" text when deselected
+      input.disabled = !on;
+    });
+  }
+
+  function renderSummary(form: HTMLFormElement, errors: Record<string, string>) {
+    const summary = form.querySelector<HTMLElement>('.dossier-summary')!;
+    const list = summary.querySelector('ul')!;
+    list.replaceChildren(...Object.entries(errors).map(([name, message]) => {
+      const target = controlsFor(form, name)[0];
+      const question = form.querySelector<HTMLElement>(`[data-error-for="${name}"]`)?.closest('.dossier-q');
+      const number = question?.querySelector('.dossier-num')?.textContent ?? '';
+      const item = document.createElement('li');
+      const link = document.createElement('a');
+      link.href = `#${target?.id || question?.querySelector('input,select,textarea')?.id || ''}`;
+      link.textContent = `${number} ${message}`.trim();
+      link.addEventListener('click', event => {
+        event.preventDefault();
+        (target ?? question?.querySelector<HTMLElement>('input,select,textarea'))?.focus();
+      });
+      item.append(link);
+      return item;
+    }));
+    summary.hidden = Object.keys(errors).length === 0;
+    return summary;
+  }
+
+  function initDossier() {
+    document.querySelectorAll<HTMLFormElement>('.dossier-form').forEach(form => {
+      if (form.dataset.initialized) return;
+      form.dataset.initialized = 'true';
+      const root = form.closest('.dossier')!;
+      const submit = form.querySelector<HTMLButtonElement>('.dossier-submit')!;
+      const status = form.querySelector<HTMLElement>('.dossier-status')!;
+      const success = root.querySelector<HTMLElement>('.dossier-success')!;
+      let attempted = false;
+      let pending = false;
+
+      const refresh = (changed?: string) => {
+        updateCounts(form);
+        syncCompanions(form);
+        const answers = readAnswers(form);
+        const { errors } = validate(answers);
+        // While editing, show limit/duplicate problems at once; "required" ones wait for a submit attempt.
+        const names = changed
+          ? namesFor(changed)
+          : [...form.querySelectorAll<HTMLElement>('[data-error-for]')].map(slot => slot.dataset.errorFor!);
+        for (const name of names) {
+          const visible = form.querySelector<HTMLElement>(`[data-error-for="${name}"]:not([hidden])`);
+          const relevant = attempted || hasValue(answers, name) || !!visible;
+          showError(form, name, relevant ? errors[name] : undefined);
+        }
+        if (attempted) renderSummary(form, errors);
+      };
+
+      form.addEventListener('change', event => {
+        const target = event.target as HTMLInputElement;
+        if (target.name) refresh(target.name);
+      });
+      form.addEventListener('input', event => {
+        const target = event.target as HTMLInputElement;
+        if (target.matches('input[type=text], textarea') && form.querySelector(`[data-error-for="${target.name}"]:not([hidden])`)) refresh(target.name);
+      });
+
+      form.addEventListener('submit', async event => {
+        event.preventDefault();
+        if (pending) return;
+        attempted = true;
+        const { errors, payload } = validate(readAnswers(form));
+        refresh();
+        delete status.dataset.state;
+        const summary = renderSummary(form, errors);
+        if (Object.keys(errors).length) {
+          const count = Object.keys(errors).length;
+          status.textContent = `${count} ${count === 1 ? 'answer needs' : 'answers need'} another look before the dossier can be sealed.`;
+          summary.focus();
+          return;
+        }
+
+        const endpoint = form.dataset.endpoint;
+        if (!endpoint) {
+          status.textContent = 'This form isn’t connected to a form service yet, so nothing was sent. Your answers are still here; please let Kat know.';
+          return;
+        }
+
+        pending = true;
+        submit.disabled = true;
+        submit.textContent = COPY.pending;
+        form.setAttribute('aria-busy', 'true');
+        status.textContent = 'Sending your dossier…';
+        const honeypot = form.querySelector<HTMLInputElement>('[name="_gotcha"]')?.value ?? '';
+        const body = {
+          ...payload,
+          client_submitted_at: new Date().toISOString(),
+          _subject: 'New Criminal Dossier (Survey Two)',
+          ...(honeypot ? { _gotcha: honeypot } : {}),
+        };
+
+        let outcome;
+        try {
+          const response = await fetch(endpoint, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+            body: JSON.stringify(body),
+          });
+          outcome = await interpretResponse(response);
+        } catch (error) {
+          outcome = await interpretResponse(error instanceof Error ? error : new Error(String(error)));
+        }
+
+        pending = false;
+        form.removeAttribute('aria-busy');
+        submit.disabled = false;
+        submit.textContent = COPY.submit;
+        if (outcome.ok) {
+          status.textContent = '';
+          form.hidden = true;
+          success.hidden = false;
+          success.focus();
+        } else {
+          status.textContent = outcome.message;
+          status.dataset.state = 'error';
+        }
+      });
+
+      updateCounts(form);
+      syncCompanions(form);
+    });
+  }
+
+  initDossier();
+  document.addEventListener('astro:page-load', initDossier);
+</script>
+
+<style is:global>
+  .leota-content .dossier { font-size: 1.8rem; line-height: 1.55; }
+  .leota-content .dossier > * + * { margin-top: max(3.2vmin, 24px); }
+  /* Intro: the portrait photo cropped to a strip (face, hands, flame) above the text:
+     16:9 on phones, a wider 2:1 from 701px so it stays under ~450px tall. */
+  .leota-content .dossier-intro .dossier-intro-image {
+    display: block; width: 100%; height: auto; margin: 0 0 1.4em; aspect-ratio: 16 / 9;
+    object-fit: cover; object-position: 50% 52%; border: 1px solid var(--color-border);
+  }
+  @media (min-width: 701px) {
+    .leota-content .dossier-intro .dossier-intro-image { aspect-ratio: 2 / 1; margin-bottom: 1.6em; }
+  }
+  .leota-content .dossier-intro p { margin: 0; }
+  .leota-content .dossier-intro p + p { margin-top: 1em; }
+  .leota-content .dossier-intro p:last-child { color: var(--color-heading); }
+
+  .leota-content .dossier-notice { margin: 0; padding: .9em 1.1em; border: 1px solid var(--ghost-accent-color); background: var(--color-panel); color: var(--color-heading); }
+  .leota-content .dossier-notice code { font-size: .85em; overflow-wrap: anywhere; }
+
+  .leota-content .dossier-form > * + * { margin-top: max(4vmin, 28px); }
+  .leota-content .dossier-key { margin: 0; color: var(--color-secondary-text); font-size: .9em; }
+
+  /* Mono labels for numbers, markers and counts, as in the skin's tags and meta. */
+  .leota-content .dossier :is(.dossier-letter, .dossier-num, .dossier-req, .dossier-opt, .dossier-count, .dossier-playbook-role, .dossier-rank > label) {
+    font-family: var(--font-label, ui-monospace, monospace);
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  .leota-content .dossier :is(.dossier-req, .dossier-opt) { display: inline-block; margin-left: .35em; font-size: .62em; font-weight: 600; vertical-align: .2em; white-space: nowrap; }
+  .leota-content .dossier .dossier-req { color: var(--ghost-accent-color); }
+  .leota-content .dossier .dossier-opt { color: var(--color-secondary-text); font-weight: 400; }
+
+  .leota-content .dossier-section { padding-top: max(3vmin, 20px); border-top: 1px solid var(--color-border); }
+  .leota-content .dossier-section > * + * { margin-top: max(3.6vmin, 26px); }
+  .leota-content .dossier-section h2 { margin: 0; color: var(--color-heading); font-size: clamp(2.6rem, 4vw, 3.2rem); line-height: 1.15; }
+  .leota-content .dossier-letter { display: block; margin-bottom: .45em; color: var(--ghost-accent-color); font-size: 1.3rem; font-weight: 400; }
+
+  .leota-content .dossier-q { min-width: 0; margin-inline: 0; padding: 0; border: 0; }
+  .leota-content .dossier-q > * + * { margin-top: .7em; }
+  .leota-content .dossier-label { display: block; float: none; width: 100%; padding: 0; color: var(--color-heading); font-weight: 600; line-height: 1.35; }
+  .leota-content .dossier-num { margin-right: .2em; color: var(--color-secondary-text); font-size: .7em; font-weight: 400; }
+  .leota-content .dossier-help { margin: .35em 0 0; color: var(--color-secondary-text); font-size: .88em; }
+  .leota-content legend + .dossier-help { margin-top: .5em; }
+  .leota-content .dossier-count { margin-left: .5em; white-space: nowrap;color: var(--color-heading); font-size: .85em; }
+  .leota-content .dossier-count[data-over] { color: var(--ghost-accent-color); }
+
+  .leota-content .dossier :is(input[type=text], textarea, select) {
+    display: block; width: 100%; min-width: 0; min-height: 48px; margin: 0; padding: .55em .7em;
+    border: 1px solid var(--color-border); border-radius: 0; background: var(--color-input);
+    color: var(--color-heading); font: inherit; font-size: 1em;
+  }
+  .leota-content .dossier textarea { min-height: 8em; resize: vertical; }
+  .leota-content .dossier input[type=text]:disabled { opacity: .5; cursor: not-allowed; }
+  .leota-content .dossier select { appearance: auto; }
+  .leota-content .dossier [aria-invalid=true], .leota-content .dossier-q[data-invalid] .dossier-options { border-color: var(--ghost-accent-color); }
+
+  .leota-content .dossier-options { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 28rem), 1fr)); gap: 0; border: 1px solid var(--color-border); }
+  .leota-content .dossier-options-long { grid-template-columns: 1fr; }
+  .leota-content .dossier-option {
+    display: flex; gap: .7em; align-items: flex-start; min-height: 48px; margin: 0; padding: .6em .8em;
+    box-shadow: 0 0 0 .5px var(--color-border); background: var(--color-panel); color: var(--color-text); cursor: pointer; line-height: 1.4;
+  }
+  .leota-content .dossier-option:hover { background: var(--color-panel-hover); }
+  .leota-content .dossier-option:has(input:checked) { background: var(--color-panel-hover); color: var(--color-heading); box-shadow: inset 3px 0 0 var(--ghost-accent-color), 0 0 0 .5px var(--color-border); }
+  .leota-content .dossier-option input { flex: none; width: 1.15em; height: 1.15em; margin: .15em 0 0; accent-color: var(--ghost-accent-color); }
+  .leota-content .dossier-option-exclusive span { font-style: italic; }
+
+  .leota-content .dossier-companion { display: grid; gap: .35em; max-width: 36rem; }
+  .leota-content .dossier-companion label { color: var(--color-secondary-text); font-size: .88em; }
+
+  .leota-content .dossier-playbooks { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 22rem), 1fr)); gap: 0; margin: 1em 0 0; padding: 0; list-style: none; border: 1px solid var(--color-border); background: var(--color-panel); }
+  .leota-content .dossier-playbooks li { display: flex; flex-direction: column; gap: .2em; margin: 0; padding: .8em .9em 1em; box-shadow: 0 0 0 .5px var(--color-border); }
+  .leota-content .dossier-playbook-name { color: var(--color-heading); font-family: var(--font-heading), Georgia, serif; font-size: 1.25em; font-weight: 700; line-height: 1.1; }
+  .leota-content .dossier-playbook-role { color: var(--ghost-accent-color); font-size: .68em; }
+  .leota-content .dossier-playbook-desc { margin-top: .3em; color: var(--color-text); font-size: .88em; line-height: 1.45; }
+
+  .leota-content .dossier-ranks { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr)); gap: 1em 1.2em; margin-top: 1.2em; }
+  .leota-content .dossier-rank { display: flex; flex-direction: column; gap: .4em; min-width: 0; }
+  .leota-content .dossier-rank > label { color: var(--color-heading); font-size: .75em; }
+  .leota-content .dossier-rank > label :is(.dossier-req, .dossier-opt) { font-size: .82em; vertical-align: baseline; }
+
+  .leota-content .dossier-error { margin: .5em 0 0; padding-left: .7em; border-left: 3px solid var(--ghost-accent-color); color: var(--color-heading); font-size: .88em; font-weight: 600; }
+  .leota-content .dossier-error::before { content: 'Check this: '; color: var(--ghost-accent-color); }
+  .leota-content .dossier-error[hidden] { display: none; }
+
+  .leota-content .dossier-summary { padding: 1em 1.2em; border: 1px solid var(--ghost-accent-color); background: var(--color-panel); }
+  .leota-content .dossier-summary-title { margin: 0; color: var(--color-heading); font-size: 2.2rem; }
+  .leota-content .dossier-summary ul { margin: .6em 0 0; padding-left: 1.2em; }
+  .leota-content .dossier-summary a { color: var(--ghost-accent-color); }
+
+  .leota-content .dossier-gotcha { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
+
+  .leota-content .dossier-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 1em 1.4em; padding-top: max(3vmin, 20px); border-top: 1px solid var(--color-border); }
+  .leota-content .dossier-submit {
+    min-height: 52px; padding: .6em 1.6em; border: 0; border-radius: 0; background: var(--ghost-accent-color); color: var(--color-on-accent);
+    font-family: var(--font-label, ui-monospace, monospace); font-size: 1.5rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; cursor: pointer;
+  }
+  .leota-content .dossier-submit:hover { background: var(--blades-accent-hover, var(--ghost-accent-color)); }
+  .leota-content .dossier-submit:disabled { opacity: .65; cursor: progress; }
+  .leota-content .dossier-status { flex: 1 1 20rem; margin: 0; color: var(--color-heading); font-size: .92em; }
+  .leota-content .dossier-status:empty { display: none; }
+  .leota-content .dossier-status[data-state=error] { padding-left: .7em; border-left: 3px solid var(--ghost-accent-color); }
+
+  .leota-content .dossier-success { padding: 1.4em 1.5em; border: 1px solid var(--color-border); border-left: 4px solid var(--ghost-accent-color); background: var(--color-panel); }
+  .leota-content .dossier-success h2 { margin: 0; color: var(--color-heading); font-size: 3rem; }
+  .leota-content .dossier-success p { margin: .6em 0 0; color: var(--color-heading); }
+
+  .leota-content .dossier :is(input, select, textarea, button, a, .dossier-summary, .dossier-success):focus-visible { outline: 2px solid var(--color-focus); outline-offset: 3px; }
+  .leota-content .dossier-option:has(input:focus-visible) { outline: 2px solid var(--color-focus); outline-offset: -2px; }
+  .leota-content .dossier-option input:focus-visible { outline: none; }
+  .leota-content .dossier :is(.dossier-summary, .dossier-success):focus:not(:focus-visible) { outline: none; }
+
+  @media (prefers-reduced-motion: reduce) {
+    .leota-content .dossier * { transition: none !important; scroll-behavior: auto !important; }
+  }
+</style>
