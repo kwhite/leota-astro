@@ -17,7 +17,7 @@ interface Props {
 }
 const { title, cover, description, subclass, campaign, noindex, image } = Astro.props;
 ---
-<Layout title={title} description={description} image={image ?? cover} current="page" campaign={campaign} noindex={noindex}>
+<Layout title={title} description={description} image={image ?? cover} current="page" campaign={campaign} noindex={noindex} preloadImage={cover}>
     <header class="site-header outer"><div class="inner"><SiteNav current="page" /></div></header>
     <main id="site-main">
         <article class={`leota-article ${subclass || ''}`}>

@@ -59,7 +59,7 @@ const coverImage = authorData.cover ? getAssetUrl(authorData.cover) : null;
 const authorProfileImg = authorData.picture ? getAssetUrl(authorData.picture) : null;
 ---
 
-<Layout title={authorData.name} description={authorData.bio} image={coverImage} current="author">
+<Layout title={authorData.name} description={authorData.bio} image={coverImage} preloadImage={coverImage} current="author">
     <header class="site-header outer"><div class="inner"><SiteNav current="author" /></div></header>
 
     <!-- Main Content Area -->

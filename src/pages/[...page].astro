@@ -31,7 +31,7 @@ const { page } = pageProps;
 const headerBg = SITE_CONFIG.cover ? getAssetUrl(SITE_CONFIG.cover) : null;
 ---
 
-<Layout current="home">
+<Layout current="home" preloadImage={headerBg}>
     <header class="publication-header">
         <div class="publication-navigation outer"><div class="inner"><SiteNav current="home" /></div></div>
         {headerBg && <img class="publication-cover" src={headerBg} alt="" fetchpriority="high" />}

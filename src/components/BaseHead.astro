@@ -12,6 +12,8 @@ interface Props {
   author?: string;
   skin?: SkinId;
   noindex?: boolean;
+  /** The image shown at the top of the page, if any: preloaded so it paints sooner. */
+  preloadImage?: string | null;
 }
 
 const {
@@ -24,6 +26,7 @@ const {
   author,
   skin = SITE_CONFIG.skin,
   noindex = false,
+  preloadImage,
 } = Astro.props;
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site || Astro.url);
@@ -77,12 +80,10 @@ const isoDate = articleDate ? new Date(articleDate).toISOString() : undefined;
   </>
 )}
 
-<!-- LCP Image Preloads -->
-{type === 'article' && image && (
-  <link rel="preload" as="image" href={getAssetUrl(image)} fetchpriority="high" />
-)}
-{type === 'website' && SITE_CONFIG.cover && (
-  <link rel="preload" as="image" href={getAssetUrl(SITE_CONFIG.cover)} fetchpriority="high" />
+<!-- LCP image preload: only the image the page actually shows at the top. The share
+     image (og:image above) is separate and falls back to the site cover on every page. -->
+{preloadImage && (
+  <link rel="preload" as="image" href={getAssetUrl(preloadImage)} fetchpriority="high" />
 )}
 
 {SITE_CONFIG.googleAnalytics && (
