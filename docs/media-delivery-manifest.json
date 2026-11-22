@@ -2,9 +2,9 @@
   "version": 2,
   "pillow": "13.0.0",
   "webp": "1.6.0",
-  "sourceBytes": 695276840,
-  "deliveryBytes": 165293923,
-  "variantBytes": 190707604,
+  "sourceBytes": 695565332,
+  "deliveryBytes": 165582415,
+  "variantBytes": 190835716,
   "assets": [
     {
       "source": "/assets/files/2026/02/Mirror-Mirror---Intro-Sequence-2.pdf",
@@ -28587,6 +28587,89 @@
           "dimensions": [
             960,
             1440
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/11/doskvol-preview.jpg",
+      "delivery": "/assets/images/2026/11/doskvol-preview.jpg",
+      "sourceSha256": "6dc5a808dcc079a3b64201107f944bf17aa1649293e8c9a5c6f0f01403883eee",
+      "deliverySha256": "6dc5a808dcc079a3b64201107f944bf17aa1649293e8c9a5c6f0f01403883eee",
+      "sourceBytes": 288492,
+      "deliveryBytes": 288492,
+      "dimensions": [
+        1329,
+        748
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/pages/blades-in-the-dark.astro",
+        "src/pages/doskvol-scoundrels.astro"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/11/doskvol-preview.w320.webp",
+          "deliverySha256": "1bc2e543fe86ed5a9ff615a9b1a97783459428f52a22b2ca1d38bd4ad8129b79",
+          "deliveryBytes": 8010,
+          "dimensions": [
+            320,
+            180
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/doskvol-preview.w640.webp",
+          "deliverySha256": "5e01767abe5cea03edb05a480ea83994756c5c0c4149846a1034d86b94fe4747",
+          "deliveryBytes": 21518,
+          "dimensions": [
+            640,
+            360
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/doskvol-preview.w960.webp",
+          "deliverySha256": "6107b0e1dbaeb0090a4d1f6b761a02beb466f2ff19754cbcfcd4d37e9a5497cc",
+          "deliveryBytes": 38928,
+          "dimensions": [
+            960,
+            540
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/doskvol-preview.w1280.webp",
+          "deliverySha256": "6ad2ae9950bd00a725660a9a58e5c6dfcc5b909ebed13d173bb980ddd172deb0",
+          "deliveryBytes": 59656,
+          "dimensions": [
+            1280,
+            720
           ],
           "settings": {
             "encoder": "cwebp",
