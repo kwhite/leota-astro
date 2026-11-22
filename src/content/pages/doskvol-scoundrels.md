@@ -29,7 +29,7 @@ scoundrels:
   - kind: friend
     name: "Flint"
     title: "Spirit Trafficker"
-    of: "Seele"
+    of: "Nora"
     description: "A calculating black-market merchant whose inventory includes the restless dead."
     district: "Six Towers"
     image: /assets/images/2026/11/flint.png
@@ -65,10 +65,10 @@ scoundrels:
   - kind: rival
     name: "Quellyn"
     title: "Witch"
-    of: "Seele"
+    of: "Nora"
     description: "An accomplished healer and occult practitioner wanted by the Spirit Wardens."
-    district: "Six Towers"
-    image: /assets/images/2026/11/quellyn.png
+    district: "Unknown · Tycheros"
+    image: /assets/images/2026/11/quellyn-tycheros.png
     width: 1024
     height: 1536
   - kind: friend

@@ -2,9 +2,9 @@
   "version": 2,
   "pillow": "13.0.0",
   "webp": "1.6.0",
-  "sourceBytes": 695565332,
-  "deliveryBytes": 165582415,
-  "variantBytes": 190835716,
+  "sourceBytes": 702985494,
+  "deliveryBytes": 166931499,
+  "variantBytes": 192868208,
   "assets": [
     {
       "source": "/assets/files/2026/02/Mirror-Mirror---Intro-Sequence-2.pdf",
@@ -28684,6 +28684,78 @@
       ]
     },
     {
+      "source": "/assets/images/2026/11/eckerd.png",
+      "delivery": "/assets/images/2026/11/eckerd.webp",
+      "sourceSha256": "51cede91802a4a948775c5c14c9b7be1a4feab94f4a32e723f5ee9a0b0a6dadf",
+      "deliverySha256": "370b4c57cada8284995e6e31173ce79ec1cb18004d914ff093de041b7506f2f3",
+      "sourceBytes": 2543357,
+      "deliveryBytes": 471202,
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "encoder": "cwebp",
+        "method": 6,
+        "quality": 95,
+        "sharpYuv": true
+      },
+      "status": "converted",
+      "reason": "quality 95 sharp-YUV artwork",
+      "usedIn": [
+        "src/content/pages/rite-and-riot-scoundrels.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/11/eckerd.w320.webp",
+          "deliverySha256": "fff4ca7165f8222be418b5b18823620444275bc7802b88d0ac1f6056f0541ca1",
+          "deliveryBytes": 60900,
+          "dimensions": [
+            320,
+            480
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/eckerd.w640.webp",
+          "deliverySha256": "7edcb2efef8ae9520cb3985ce2fd3ddd04ee3d8beadc514ef0b6e2727f28aa01",
+          "deliveryBytes": 212536,
+          "dimensions": [
+            640,
+            960
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/eckerd.w960.webp",
+          "deliverySha256": "ed59f39413ab7096546526c00e77ba8b0b883f12dc379ea0614c8686a88accc3",
+          "deliveryBytes": 415924,
+          "dimensions": [
+            960,
+            1440
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        }
+      ]
+    },
+    {
       "source": "/assets/images/2026/11/eisele.png",
       "delivery": "/assets/images/2026/11/eisele.webp",
       "sourceSha256": "c832c16c0d204db924ffcb1abd6c8a25f39ea44e3227d8d2867cf73870ccfb9e",
@@ -28777,7 +28849,8 @@
       "status": "converted",
       "reason": "quality 95 sharp-YUV artwork",
       "usedIn": [
-        "src/content/pages/doskvol-scoundrels.md"
+        "src/content/pages/doskvol-scoundrels.md",
+        "src/content/pages/rite-and-riot-scoundrels.md"
       ],
       "variants": [
         {
@@ -29046,6 +29119,78 @@
       ]
     },
     {
+      "source": "/assets/images/2026/11/quellyn-tycheros.png",
+      "delivery": "/assets/images/2026/11/quellyn-tycheros.webp",
+      "sourceSha256": "9bf4c037d0bd3a8fa8e97d5163ec5a63d34a4c004144f2b6aae69b1e741f2dd1",
+      "deliverySha256": "48ae87f2a4e148ae457f64107345c83abcdb775b167cf3ab490445361299c0de",
+      "sourceBytes": 2559266,
+      "deliveryBytes": 483814,
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "encoder": "cwebp",
+        "method": 6,
+        "quality": 95,
+        "sharpYuv": true
+      },
+      "status": "converted",
+      "reason": "quality 95 sharp-YUV artwork",
+      "usedIn": [
+        "src/content/pages/doskvol-scoundrels.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/11/quellyn-tycheros.w320.webp",
+          "deliverySha256": "26ea76b8e769f23f46b7662abfad3e33e84392fa4f673d96f16f79b45e1feea9",
+          "deliveryBytes": 77996,
+          "dimensions": [
+            320,
+            480
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/quellyn-tycheros.w640.webp",
+          "deliverySha256": "8e41e7c66303b8bdcc0072d1fa8400ba20948f957ac4ef4e341068b6003018c6",
+          "deliveryBytes": 247298,
+          "dimensions": [
+            640,
+            960
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/quellyn-tycheros.w960.webp",
+          "deliverySha256": "fc5754df3ddba3217757fb3e881ff7305d2ae6347d7c4f0b986ba138d529bcc0",
+          "deliveryBytes": 440254,
+          "dimensions": [
+            960,
+            1440
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        }
+      ]
+    },
+    {
       "source": "/assets/images/2026/11/quellyn.png",
       "delivery": "/assets/images/2026/11/quellyn.webp",
       "sourceSha256": "e2a3ed367423eb5c307b435b4dc3aaa6ed63c237ecab518ccca7c6570f4af01d",
@@ -29067,7 +29212,7 @@
       "status": "converted",
       "reason": "quality 95 sharp-YUV artwork",
       "usedIn": [
-        "src/content/pages/doskvol-scoundrels.md"
+        "src/content/pages/rite-and-riot-scoundrels.md"
       ],
       "variants": [
         {
@@ -29386,6 +29531,7 @@
       "status": "converted",
       "reason": "quality 95 sharp-YUV artwork",
       "usedIn": [
+        "src/content/pages/doskvol-scoundrels.md",
         "src/content/pages/rite-and-riot-scoundrels.md"
       ],
       "variants": [
@@ -29495,6 +29641,78 @@
           "delivery": "/assets/images/2026/11/tessa-brand.w960.webp",
           "deliverySha256": "0ea4bc18263c44bc08e63ead813f921a92fbf94553a1e1f0e5322181ae3172c6",
           "deliveryBytes": 423322,
+          "dimensions": [
+            960,
+            1440
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/11/veldren.png",
+      "delivery": "/assets/images/2026/11/veldren.webp",
+      "sourceSha256": "cd09d8661a0d5aba19ce625ca63afd66eb926ee118d4b9e5398f06159ede2ada",
+      "deliverySha256": "e09de575abdf08b3fa10132adce9ef1ca92ac5e3467a5f7f1d98f90fe8cf80ec",
+      "sourceBytes": 2317539,
+      "deliveryBytes": 394068,
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "encoder": "cwebp",
+        "method": 6,
+        "quality": 95,
+        "sharpYuv": true
+      },
+      "status": "converted",
+      "reason": "quality 95 sharp-YUV artwork",
+      "usedIn": [
+        "src/content/pages/rite-and-riot-scoundrels.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/11/veldren.w320.webp",
+          "deliverySha256": "6c711f969606663f5fb174575835f9dd511e80a7cbaff7dc248b750b710a3c66",
+          "deliveryBytes": 55482,
+          "dimensions": [
+            320,
+            480
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/veldren.w640.webp",
+          "deliverySha256": "0d1cde53afded2a3a4f348d247fee57af414ee22fce50846d3cdb54924d2c26e",
+          "deliveryBytes": 178596,
+          "dimensions": [
+            640,
+            960
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/veldren.w960.webp",
+          "deliverySha256": "cb37af137ee0a7bc9c8dd875d766b5d5e615b10920bcc02cb9b491f22c6e87fd",
+          "deliveryBytes": 343506,
           "dimensions": [
             960,
             1440

@@ -111,4 +111,40 @@ scoundrels:
     image: /assets/images/2026/11/slate.png
     width: 1024
     height: 1536
+  - kind: friend
+    name: "Veldren"
+    title: "Psychonaut"
+    of: "Leech TBD"
+    description: "An explorer of altered consciousness whose experiments venture beyond ordinary perception."
+    district: "Charterhall"
+    image: /assets/images/2026/11/veldren.png
+    width: 1024
+    height: 1536
+  - kind: rival
+    name: "Eckerd"
+    title: "Corpse Thief"
+    of: "Leech TBD"
+    description: "A discreet procurer of the dead, supplying bodies to clients who ask few questions."
+    district: "Charhollow"
+    image: /assets/images/2026/11/eckerd.png
+    width: 1024
+    height: 1536
+  - kind: friend
+    name: "Quellyn"
+    title: "Witch"
+    of: "Whisper TBD"
+    description: "An accomplished healer and occult practitioner wanted by the Spirit Wardens."
+    district: "Six Towers"
+    image: /assets/images/2026/11/quellyn.png
+    width: 1024
+    height: 1536
+  - kind: rival
+    name: "Flint"
+    title: "Spirit Trafficker"
+    of: "Whisper TBD"
+    description: "A calculating black-market merchant whose inventory includes the restless dead."
+    district: "Six Towers"
+    image: /assets/images/2026/11/flint.png
+    width: 1024
+    height: 1536
 ---
