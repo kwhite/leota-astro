@@ -28191,7 +28191,7 @@
       "status": "retained",
       "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
       "usedIn": [
-        "src/content/pages/doskvol-scoundrels.md"
+        "src/content/pages/rite-and-riot-scoundrels.md"
       ],
       "variants": [
         {
@@ -28263,7 +28263,7 @@
       "status": "converted",
       "reason": "quality 95 sharp-YUV artwork",
       "usedIn": [
-        "src/content/pages/doskvol-scoundrels.md"
+        "src/content/pages/rite-and-riot-scoundrels.md"
       ],
       "variants": [
         {
@@ -28475,7 +28475,8 @@
       "status": "converted",
       "reason": "quality 95 sharp-YUV artwork",
       "usedIn": [
-        "src/content/pages/doskvol-scoundrels.md"
+        "src/content/pages/doskvol-scoundrels.md",
+        "src/content/pages/rite-and-riot-scoundrels.md"
       ],
       "variants": [
         {
@@ -28547,7 +28548,7 @@
       "status": "converted",
       "reason": "quality 95 sharp-YUV artwork",
       "usedIn": [
-        "src/content/pages/doskvol-scoundrels.md"
+        "src/content/pages/rite-and-riot-scoundrels.md"
       ],
       "variants": [
         {
@@ -28614,8 +28615,10 @@
       "status": "retained",
       "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
       "usedIn": [
-        "src/pages/blades-in-the-dark.astro",
-        "src/pages/doskvol-scoundrels.astro"
+        "src/content/pages/doskvol-scoundrels.md",
+        "src/content/pages/rite-and-riot-scoundrels.md",
+        "src/content/pages/rite-and-riot.md",
+        "src/pages/blades-in-the-dark.astro"
       ],
       "variants": [
         {
@@ -28702,7 +28705,7 @@
       "status": "converted",
       "reason": "quality 95 sharp-YUV artwork",
       "usedIn": [
-        "src/content/pages/doskvol-scoundrels.md"
+        "src/content/pages/rite-and-riot-scoundrels.md"
       ],
       "variants": [
         {
@@ -28846,7 +28849,8 @@
       "status": "converted",
       "reason": "quality 95 sharp-YUV artwork",
       "usedIn": [
-        "src/content/pages/doskvol-scoundrels.md"
+        "src/content/pages/doskvol-scoundrels.md",
+        "src/content/pages/rite-and-riot-scoundrels.md"
       ],
       "variants": [
         {
@@ -28990,7 +28994,8 @@
       "status": "converted",
       "reason": "quality 95 sharp-YUV artwork",
       "usedIn": [
-        "src/content/pages/doskvol-scoundrels.md"
+        "src/content/pages/doskvol-scoundrels.md",
+        "src/content/pages/rite-and-riot-scoundrels.md"
       ],
       "variants": [
         {
@@ -29308,7 +29313,8 @@
       "status": "converted",
       "reason": "quality 95 sharp-YUV artwork",
       "usedIn": [
-        "src/content/pages/doskvol-scoundrels.md"
+        "src/content/pages/doskvol-scoundrels.md",
+        "src/content/pages/rite-and-riot-scoundrels.md"
       ],
       "variants": [
         {
@@ -29380,7 +29386,7 @@
       "status": "converted",
       "reason": "quality 95 sharp-YUV artwork",
       "usedIn": [
-        "src/content/pages/doskvol-scoundrels.md"
+        "src/content/pages/rite-and-riot-scoundrels.md"
       ],
       "variants": [
         {
@@ -29452,7 +29458,7 @@
       "status": "converted",
       "reason": "quality 95 sharp-YUV artwork",
       "usedIn": [
-        "src/content/pages/doskvol-scoundrels.md"
+        "src/content/pages/rite-and-riot-scoundrels.md"
       ],
       "variants": [
         {

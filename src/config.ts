@@ -98,6 +98,20 @@ export const CAMPAIGN_NAVIGATION = {
       { id: 'summaries', label: 'Session Summaries', href: '/tag/blades-in-the-dark/', available: false },
     ],
   },
+  // A Blades in the Dark one-shot: same system, so same skin. Linked from the site
+  // footer (SECONDARY_NAVIGATION), not the header. Turn on summaries once a post is
+  // tagged "Rite and Riot" (or src/content/tags/rite-and-riot.json exists). Not "Rite &
+  // Riot": tag slugs keep the ampersand, so that tag would not match `rite-and-riot`.
+  'rite-and-riot': {
+    skin: 'blades',
+    tag: 'rite-and-riot',
+    label: 'Rite & Riot',
+    links: [
+      { id: 'overview', label: 'Overview', href: '/rite-and-riot/', available: true },
+      { id: 'scoundrels', label: 'Scoundrels', href: '/rite-and-riot-scoundrels/', available: true },
+      { id: 'summaries', label: 'Session Summaries', href: '/tag/rite-and-riot/', available: false },
+    ],
+  },
 } as const satisfies Record<string, { skin: SkinId; tag: string; otherTags?: readonly string[]; label: string; links: readonly unknown[] }>;
 export type CampaignId = keyof typeof CAMPAIGN_NAVIGATION;
 
@@ -143,7 +157,9 @@ export function resolveSkin({ campaign, tags = [] }: { campaign?: CampaignId; ta
   return id ? CAMPAIGN_NAVIGATION[id].skin : SITE_CONFIG.skin;
 }
 
+// Footer links: reference pages, plus one-shots that don't get a header slot.
 export const SECONDARY_NAVIGATION = [
+  { label: 'Rite & Riot', href: '/rite-and-riot/', available: true },
   { label: 'DM Resources', href: '/dm-resources/', available: true },
   { label: 'RPG Consent Checklist', href: '/rpg-consent-checklist/', available: true },
 ];

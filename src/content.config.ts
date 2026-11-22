@@ -1,6 +1,10 @@
 import { defineCollection, reference } from 'astro:content';
 import { z } from 'astro/zod';
 import { glob } from 'astro/loaders';
+import { CAMPAIGN_NAVIGATION, type CampaignId } from './config';
+
+// Every campaign in CAMPAIGN_NAVIGATION, so adding one there is enough.
+const campaignIds = Object.keys(CAMPAIGN_NAVIGATION) as [CampaignId, ...CampaignId[]];
 
 const posts = defineCollection({
   loader: glob({ pattern: '**/[^_]*.{md,mdx}', base: './src/content/posts' }),
@@ -64,8 +68,13 @@ const pages = defineCollection({
   loader: glob({ pattern: '**/[^_]*.{md,mdx}', base: './src/content/pages' }),
   schema: z.object({
     title: z.string(), cover: z.string().nullable().optional(),
+    // Link-preview (Open Graph) image, when it should differ from the cover or there is none.
+    image: z.string().nullable().optional(),
     description: z.string().optional(), sourceId: z.string().optional(),
-    campaign: z.enum(['city-of-mist', 'the-chosen', 'freaky-gray-company', 'blades-in-the-dark']).default('city-of-mist'),
+    // Pages with a template need no .astro file: src/pages/[slug].astro builds them at /<file name>/.
+    // Pages without one are built by their own hand-written file in src/pages/.
+    template: z.enum(['scoundrels']).optional(),
+    campaign: z.enum(campaignIds).default('city-of-mist'),
     campaignSection: z.enum(['overview', 'rules', 'neighborhoods', 'people', 'gazette', 'cast', 'scoundrels']).optional(),
     chapters: z.array(z.object({ chapter: z.string(), title: z.string(), href: z.string().nullable() })).default([]),
     people: z.array(z.object({

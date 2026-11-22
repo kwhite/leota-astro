@@ -1,19 +1,41 @@
 ---
-import { getCollection, render } from 'astro:content';
+// Top-level URLs built from content: every post, plus every standalone page that sets a
+// `template` in its frontmatter (pages without one have their own file in src/pages/).
+// A hand-written file in src/pages/ with the same name takes priority over this route.
+import { getCollection, render, type CollectionEntry } from 'astro:content';
 import PostLayout from '../layouts/PostLayout.astro';
+import PageLayout from '../layouts/PageLayout.astro';
+import CampaignNav from '../components/CampaignNav.astro';
+import ScoundrelGallery from '../components/ScoundrelGallery.astro';
+
+type Props = { post: CollectionEntry<'posts'>; page?: never } | { page: CollectionEntry<'pages'>; post?: never };
 
 export async function getStaticPaths() {
   const posts = await getCollection('posts');
-  return posts.map(post => ({
-    params: { slug: post.id },
-    props: { post },
-  }));
+  const pages = await getCollection('pages', ({ data }) => !!data.template);
+  // A post and a templated page with the same file name would want the same URL: fail the build.
+  const postIds = new Set(posts.map(post => post.id));
+  const clash = pages.find(page => postIds.has(page.id));
+  if (clash) throw new Error(`URL /${clash.id}/ is claimed by both a post and a page; rename one of them.`);
+  return [
+    ...posts.map(post => ({ params: { slug: post.id }, props: { post } })),
+    ...pages.map(page => ({ params: { slug: page.id }, props: { page } })),
+  ];
 }
 
-const { post } = Astro.props;
-const { Content } = await render(post);
+const { post, page } = Astro.props;
+const { Content } = await render(post ?? page);
 ---
 
-<PostLayout post={post}>
-  <Content />
-</PostLayout>
+{post && (
+  <PostLayout post={post}>
+    <Content />
+  </PostLayout>
+)}
+{page && (
+  <PageLayout title={page.data.title} cover={page.data.cover} image={page.data.image} description={page.data.description} campaign={page.data.campaign} subclass="campaign-page">
+    {page.data.campaignSection && <CampaignNav current={page.data.campaignSection} campaign={page.data.campaign} />}
+    <Content />
+    {page.data.template === 'scoundrels' && <ScoundrelGallery entries={page.data.scoundrels} />}
+  </PageLayout>
+)}
