@@ -6,7 +6,7 @@ const page = await getEntry('pages', 'blades-in-the-dark');
 if (!page) throw new Error('Missing page content: blades-in-the-dark');
 const { Content } = await render(page);
 ---
-<PageLayout title={page.data.title} cover={page.data.cover} description={page.data.description} campaign={page.data.campaign} subclass="campaign-page">
+<PageLayout title={page.data.title} cover={page.data.cover} image="/assets/images/2026/11/doskvol-preview.jpg" description={page.data.description} campaign={page.data.campaign} subclass="campaign-page">
     {page.data.campaignSection && <CampaignNav current={page.data.campaignSection} campaign={page.data.campaign} />}
     <Content />
 </PageLayout>

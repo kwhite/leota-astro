@@ -1,0 +1,447 @@
+---
+// Blades in the Dark NPC gallery: faction standings, filterable portrait cards and a
+// dossier lightbox. Data comes from the `scoundrels` frontmatter on a pages entry
+// (schema in src/content.config.ts). Cards sort by headline, ignoring a leading "The".
+// Without JavaScript the cards still render; portraits link to the full-size image.
+import type { CollectionEntry } from 'astro:content';
+import { getAssetUrl } from '../config';
+
+type Entry = CollectionEntry<'pages'>['data']['scoundrels'][number];
+interface Props { entries: Entry[]; }
+const { entries } = Astro.props;
+
+const LEVELS: Record<string, string> = { '-3': 'War', '-2': 'Hostile', '-1': 'Interfering', '0': 'Neutral', '1': 'Helpful', '2': 'Friendly', '3': 'Allies' };
+const slug = (text: string) => text.toLowerCase().normalize('NFKD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+const headline = (e: Entry) => (e.kind === 'faction' ? e.faction : e.name);
+const sortKey = (e: Entry) => headline(e).replace(/^the\s+/i, '');
+const sorted = [...entries].sort((a, b) => sortKey(a).localeCompare(sortKey(b)));
+const idFor = (name: string) => `scoundrel-${slug(name)}`;
+const repByFaction = new Map(sorted.flatMap(e => (e.kind === 'faction' ? [[e.faction, e.name] as const] : [])));
+const known = new Set(sorted.map(e => e.name));
+
+function status(value: number, who: string) {
+    const sign = value > 0 ? `+${value}` : value < 0 ? `−${Math.abs(value)}` : '0';
+    return {
+        label: `${sign} ${LEVELS[String(value)]}`,
+        tone: value > 0 ? 'pos' : value < 0 ? 'neg' : 'zero',
+        aria: `Status with ${who}: ${sign}, ${LEVELS[String(value)]}`,
+        pips: [-3, -2, -1, 0, 1, 2, 3].map(v => ({
+            center: v === 0,
+            on: (value > 0 && v > 0 && v <= value) || (value < 0 && v < 0 && v >= value),
+            pos: v > 0,
+        })),
+    };
+}
+
+const TAGS = { friend: 'Friend', rival: 'Rival', contact: 'Contact' } as const;
+const cards = sorted.map((e, i) => {
+    const num = String(i + 1).padStart(3, '0');
+    const common = { entry: e, id: idFor(e.name), num, headline: headline(e), image: getAssetUrl(e.image), meta: `Dossier · No. ${num} · ${e.district}` };
+    if (e.kind === 'faction') {
+        return { ...common, kicker: `Faction · ${e.name}`, blurb: e.teaser, status: status(e.status, e.faction),
+            origin: e.via ? `Via ${e.via.split(' ')[0]}` : 'Direct', viaId: e.via && known.has(e.via) ? idFor(e.via) : null,
+            tag: null, tie: null, associations: [] };
+    }
+    return { ...common, kicker: e.title, blurb: e.description, status: null, origin: null, viaId: null, tag: TAGS[e.kind],
+        tie: e.kind === 'contact' ? 'of the crew' : `of ${e.of}`,
+        associations: e.kind === 'contact' ? e.associations.map(a => {
+            const rep = repByFaction.get(a.faction);
+            return { ...a, status: status(a.status, a.faction), rep, repId: rep ? idFor(rep) : null };
+        }) : [] };
+});
+const ledger = cards.filter(c => c.entry.kind === 'faction');
+const count = (kind: Entry['kind']) => cards.filter(c => c.entry.kind === kind).length;
+const filters = [
+    { id: 'all', label: 'All', count: cards.length },
+    { id: 'faction', label: 'Factions', count: count('faction') },
+    { id: 'contact', label: 'Contacts', count: count('contact') },
+    { id: 'friend', label: 'Friends', count: count('friend') },
+    { id: 'rival', label: 'Rivals', count: count('rival') },
+].filter(f => f.count > 0);
+const cardSizes = 'auto, (max-width: 560px) 100vw, (max-width: 1100px) 50vw, 300px';
+---
+<div class="sc kg-width-wide">
+    {ledger.length > 0 && (
+        <section class="sc-ledger" aria-labelledby="sc-ledger-title">
+            <div class="sc-ledger-head">
+                <h2 id="sc-ledger-title">Standing with the Factions</h2>
+                <p class="sc-label">−3 War · 0 Neutral · +3 Allies</p>
+            </div>
+            <ul class="sc-ledger-list">
+                {ledger.map(c => c.status && (
+                    <li>
+                        <a class="sc-ledger-item" href={`#${c.id}`} data-open={c.id}>
+                            <span class="sc-ledger-name">{c.headline}</span>
+                            <span class="sc-meter" role="img" aria-label={c.status.aria}>
+                                {c.status.pips.map(p => <span class:list={['sc-pip', { 'is-center': p.center, 'is-on': p.on, 'is-pos': p.pos }]}></span>)}
+                            </span>
+                            <span class:list={['sc-label', 'sc-status', `is-${c.status.tone}`]}>{c.status.label}</span>
+                            <span class="sc-label sc-ledger-rep">{c.entry.name} · {c.origin}</span>
+                        </a>
+                    </li>
+                ))}
+            </ul>
+        </section>
+    )}
+
+    <h2 class="sc-visually-hidden" id="sc-gallery-title">All scoundrels</h2>
+    <div class="sc-filters" role="group" aria-label="Show" hidden>
+        {filters.map(f => (
+            <button type="button" data-filter={f.id} aria-pressed={f.id === 'all' ? 'true' : 'false'}>{f.label} <span class="sc-count">{f.count}</span></button>
+        ))}
+    </div>
+
+    <ul class="sc-grid" aria-labelledby="sc-gallery-title">
+        {cards.map(c => (
+            <li class="sc-card" id={c.id} data-kind={c.entry.kind} data-name={c.headline} data-meta={c.meta}>
+                <a class="sc-portrait" href={c.image} data-open={c.id} aria-label={`Open dossier: ${c.headline}`}>
+                    <img class="sc-base" src={c.image} alt="" width={c.entry.width} height={c.entry.height} sizes={cardSizes} loading="lazy" decoding="async" />
+                    <img class="sc-tint" src={c.image} alt="" aria-hidden="true" width={c.entry.width} height={c.entry.height} sizes={cardSizes} loading="lazy" decoding="async" />
+                    <span class="sc-ruler" aria-hidden="true"></span>
+                    <span class="sc-plate"><span>No. {c.num}</span><span class="sc-plate-district" title={c.entry.district}>{c.entry.district}</span></span>
+                </a>
+                <div class="sc-info">
+                    <p class="sc-label sc-kicker">{c.kicker}</p>
+                    <h3 class="sc-name">{c.headline}</h3>
+                    <p class="sc-blurb">{c.blurb}</p>
+                    <div class="sc-foot">
+                        {c.status ? (
+                            <>
+                                <span class="sc-meter" role="img" aria-label={`Crew ${c.status.aria.charAt(0).toLowerCase()}${c.status.aria.slice(1)}`}>
+                                    {c.status.pips.map(p => <span class:list={['sc-pip', { 'is-center': p.center, 'is-on': p.on, 'is-pos': p.pos }]}></span>)}
+                                </span>
+                                <span class:list={['sc-label', 'sc-status', `is-${c.status.tone}`]}>{c.status.label}</span>
+                                <span class="sc-label sc-origin">Origin · {c.origin}</span>
+                            </>
+                        ) : (
+                            <>
+                                <span class:list={['sc-tag', `is-${c.entry.kind}`]}>{c.tag}</span>
+                                <span class="sc-label">{c.tie}</span>
+                            </>
+                        )}
+                    </div>
+                </div>
+
+                <template class="sc-template">
+                    <div class="sc-d">
+                        <figure class="sc-d-portrait">
+                            <img src={c.image} alt={`Portrait of ${c.entry.name}`} width={c.entry.width} height={c.entry.height} sizes="(max-width: 860px) 100vw, 520px" />
+                        </figure>
+                        <div class="sc-d-text">
+                            <p class="sc-label sc-kicker">{c.kicker}</p>
+                            <h2 class="sc-d-name" id="sc-dossier-title">{c.headline}</h2>
+                            <p class="sc-d-blurb">{c.blurb}</p>
+                            <dl class="sc-d-facts">
+                                <dt class="sc-label">District</dt>
+                                <dd>{c.entry.district}</dd>
+                                <dt class="sc-label">Relationship</dt>
+                                <dd class="sc-d-rel">
+                                    {c.status ? (
+                                        <>
+                                            <span class="sc-meter" role="img" aria-label={c.status.aria}>
+                                                {c.status.pips.map(p => <span class:list={['sc-pip', { 'is-center': p.center, 'is-on': p.on, 'is-pos': p.pos }]}></span>)}
+                                            </span>
+                                            <span class:list={['sc-label', 'sc-status', `is-${c.status.tone}`]}>{c.status.label}</span>
+                                        </>
+                                    ) : (
+                                        <>
+                                            <span class:list={['sc-tag', `is-${c.entry.kind}`]}>{c.tag}</span>
+                                            <span class="sc-label sc-d-tie">{c.tie}</span>
+                                        </>
+                                    )}
+                                </dd>
+                                {c.entry.kind === 'faction' && (
+                                    <>
+                                        <dt class="sc-label">Representative</dt>
+                                        <dd class="sc-d-rep"><strong>{c.entry.name}</strong><span>{c.entry.description}</span></dd>
+                                        <dt class="sc-label">Origin</dt>
+                                        <dd>{c.viaId ? <a class="sc-link" href={`#${c.viaId}`} data-open={c.viaId}>Via {c.entry.via}</a> : (c.entry.via ? `Via ${c.entry.via}` : 'Direct')}</dd>
+                                    </>
+                                )}
+                            </dl>
+                            {c.associations && c.associations.length > 0 && (
+                                <section class="sc-d-assoc" aria-labelledby={`${c.id}-assoc`}>
+                                    <h3 class="sc-label" id={`${c.id}-assoc`}>Associated factions</h3>
+                                    {c.associations.map(a => (
+                                        <div class="sc-d-assoc-item">
+                                            <div class="sc-d-assoc-text">
+                                                <strong>{a.faction}</strong>
+                                                <span>{a.note}</span>
+                                                {a.repId && <a class="sc-label sc-link" href={`#${a.repId}`} data-open={a.repId}>Representative: {a.rep} →</a>}
+                                            </div>
+                                            <div class="sc-d-assoc-status">
+                                                <span class="sc-meter" role="img" aria-label={a.status.aria}>
+                                                    {a.status.pips.map(p => <span class:list={['sc-pip', { 'is-center': p.center, 'is-on': p.on, 'is-pos': p.pos }]}></span>)}
+                                                </span>
+                                                <span class:list={['sc-label', 'sc-status', `is-${a.status.tone}`]}>{a.status.label}</span>
+                                            </div>
+                                        </div>
+                                    ))}
+                                </section>
+                            )}
+                        </div>
+                    </div>
+                </template>
+            </li>
+        ))}
+    </ul>
+
+    <dialog class="sc-dossier" aria-labelledby="sc-dossier-title">
+        <div class="sc-dossier-inner">
+            <div class="sc-dossier-bar">
+                <span class="sc-label sc-dossier-meta"></span>
+                <button type="button" class="sc-close" autofocus aria-label="Close dossier">
+                    <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 3l12 12M15 3L3 15" /></svg>
+                </button>
+            </div>
+            <div class="sc-dossier-body"></div>
+            <div class="sc-dossier-nav">
+                <button type="button" class="sc-prev"><span aria-hidden="true">←</span> <span class="sc-prev-name"></span></button>
+                <span class="sc-label sc-dossier-count" aria-live="polite"></span>
+                <button type="button" class="sc-next"><span class="sc-next-name"></span> <span aria-hidden="true">→</span></button>
+            </div>
+        </div>
+    </dialog>
+</div>
+
+<script>
+    let cleanup: (() => void) | undefined;
+    function initialize() {
+        cleanup?.();
+        const root = document.querySelector<HTMLElement>('.sc');
+        const dialog = root?.querySelector<HTMLDialogElement>('dialog.sc-dossier');
+        if (!root || !dialog || typeof dialog.showModal !== 'function') return;
+        const controller = new AbortController();
+        const { signal } = controller;
+        const cards = Array.from(root.querySelectorAll<HTMLLIElement>('.sc-card'));
+        const filterBar = root.querySelector<HTMLElement>('.sc-filters')!;
+        const filterButtons = Array.from(filterBar.querySelectorAll<HTMLButtonElement>('[data-filter]'));
+        const body = dialog.querySelector<HTMLElement>('.sc-dossier-body')!;
+        const meta = dialog.querySelector<HTMLElement>('.sc-dossier-meta')!;
+        const counter = dialog.querySelector<HTMLElement>('.sc-dossier-count')!;
+        const previous = dialog.querySelector<HTMLButtonElement>('.sc-prev')!;
+        const next = dialog.querySelector<HTMLButtonElement>('.sc-next')!;
+        const closeButton = dialog.querySelector<HTMLButtonElement>('.sc-close')!;
+        const pad = (n: number) => String(n).padStart(2, '0');
+        let current: HTMLLIElement | undefined;
+        let opener: HTMLElement | undefined;
+        let previousOverflow = '';
+        filterBar.hidden = false;
+
+        const visible = () => cards.filter(card => !card.hidden);
+        function applyFilter(kind: string) {
+            filterButtons.forEach(button => button.setAttribute('aria-pressed', String(button.dataset.filter === kind)));
+            cards.forEach(card => { card.hidden = kind !== 'all' && card.dataset.kind !== kind; });
+        }
+        function show(card: HTMLLIElement) {
+            if (card.hidden) applyFilter('all');
+            current = card;
+            const template = card.querySelector<HTMLTemplateElement>('template.sc-template')!;
+            body.replaceChildren(template.content.cloneNode(true));
+            const list = visible();
+            const index = list.indexOf(card);
+            const before = list[(index - 1 + list.length) % list.length];
+            const after = list[(index + 1) % list.length];
+            meta.textContent = card.dataset.meta || '';
+            counter.textContent = `${pad(index + 1)} / ${pad(list.length)}`;
+            previous.querySelector('.sc-prev-name')!.textContent = before.dataset.name || '';
+            next.querySelector('.sc-next-name')!.textContent = after.dataset.name || '';
+            previous.hidden = next.hidden = list.length < 2;
+            dialog!.scrollTop = 0;
+            // A link inside the old dossier (e.g. "Representative →") was just removed with it;
+            // keep focus inside the dialog so keyboard navigation keeps working.
+            if (dialog!.open && !dialog!.contains(document.activeElement)) closeButton.focus({ preventScroll: true });
+        }
+        function open(card: HTMLLIElement, from: HTMLElement) {
+            if (!dialog!.open) {
+                opener = from;
+                previousOverflow = document.documentElement.style.overflow;
+                document.documentElement.style.overflow = 'hidden';
+                show(card);
+                dialog!.showModal();
+            } else {
+                show(card);
+            }
+        }
+        function move(step: number) {
+            if (!current) return;
+            const list = visible();
+            show(list[(list.indexOf(current) + step + list.length) % list.length]);
+        }
+
+        root.addEventListener('click', event => {
+            const target = event.target as Element;
+            const filter = target.closest<HTMLButtonElement>('[data-filter]');
+            if (filter) { applyFilter(filter.dataset.filter || 'all'); return; }
+            const trigger = target.closest<HTMLElement>('[data-open]');
+            if (!trigger || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+            const card = document.getElementById(trigger.dataset.open || '');
+            if (!(card instanceof HTMLLIElement)) return;
+            event.preventDefault();
+            open(card, trigger);
+        }, { signal });
+        previous.addEventListener('click', () => move(-1), { signal });
+        next.addEventListener('click', () => move(1), { signal });
+        closeButton.addEventListener('click', () => dialog.close(), { signal });
+        dialog.addEventListener('click', event => { if (event.target === dialog) dialog.close(); }, { signal });
+        dialog.addEventListener('keydown', event => {
+            if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
+                event.preventDefault(); move(event.key === 'ArrowLeft' ? -1 : 1);
+            }
+            if (event.key === 'Tab') {
+                const controls = Array.from(dialog.querySelectorAll<HTMLElement>('a[href], button')).filter(control => !control.hidden && control.offsetParent !== null);
+                const first = controls[0];
+                const last = controls[controls.length - 1];
+                if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last.focus(); }
+                else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first.focus(); }
+            }
+        }, { signal });
+        dialog.addEventListener('close', () => {
+            document.documentElement.style.overflow = previousOverflow;
+            body.replaceChildren();
+            // Return focus to whatever opened the dossier (a portrait or a standings tile).
+            if (opener?.isConnected) opener.focus({ preventScroll: true });
+            current = undefined;
+            opener = undefined;
+        }, { signal });
+
+        // A link to /doskvol-scoundrels/#scoundrel-<name> opens that dossier.
+        const linked = location.hash && document.getElementById(decodeURIComponent(location.hash.slice(1)));
+        if (linked instanceof HTMLLIElement && root.contains(linked)) open(linked, linked.querySelector<HTMLElement>('.sc-portrait')!);
+
+        cleanup = () => {
+            if (dialog.open) { dialog.close(); document.documentElement.style.overflow = previousOverflow; }
+            controller.abort();
+        };
+    }
+    document.addEventListener('astro:page-load', initialize);
+    document.addEventListener('astro:before-swap', () => cleanup?.());
+</script>
+
+<style is:global>
+    /* Everything is prefixed .sc: the dossier is cloned from <template>, outside Astro's scoped styles. */
+    @property --sc-bloom { syntax: '<percentage>'; inherits: false; initial-value: 0%; }
+
+    .sc { --sc-ease: cubic-bezier(.22, .61, .36, 1); display: flex; flex-direction: column; gap: 32px; margin-top: 8px; }
+    .sc-visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+    .sc-label { margin: 0; font-family: var(--font-label, ui-monospace, monospace); font-size: 1.2rem; font-weight: 400; letter-spacing: .12em; line-height: 1.5; text-transform: uppercase; color: var(--color-secondary-text); }
+
+    /* Undo article-prose styling (.leota-content lists, links, headings, dl) inside the gallery.
+       Selectors carry .sc twice where needed to outrank html[data-skin] .leota-content rules. */
+    .sc.sc ul { margin: 0; padding: 0; list-style: none; }
+    .sc.sc li { margin: 0; padding: 0; }
+    .sc.sc li::before, .sc.sc li::marker { content: none; }
+    .sc.sc a:not(.sc-link) { color: inherit; text-decoration: none; }
+    .sc.sc .sc-label { margin: 0; font-family: var(--font-label, ui-monospace, monospace); font-size: 1.2rem; font-weight: 400; letter-spacing: .12em; line-height: 1.5; text-transform: uppercase; color: var(--color-secondary-text); }
+    .sc.sc .sc-d-assoc h3 { font-weight: 600; letter-spacing: .18em; }
+    .sc.sc dl, .sc.sc dt, .sc.sc dd { text-align: left; }
+    /* global.css floats every dt at a fixed 120px width; the dossier lays them out in a grid instead. */
+    .sc.sc .sc-d-facts dt { float: none; width: auto; margin: 0; white-space: nowrap; font-weight: 400; }
+
+    /* Faction standings */
+    .sc-ledger { display: flex; flex-direction: column; gap: 16px; }
+    .sc-ledger-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 24px; }
+    .sc-ledger-head h2 { margin: 0; font-family: var(--font-heading), Georgia, serif; font-size: 4rem; font-weight: 700; line-height: 1.05; color: var(--color-heading); }
+    .sc-ledger-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1px; margin: 0; padding: 0; list-style: none; background: var(--color-border); border: 1px solid var(--color-border); }
+    .sc-ledger-list li { margin: 0; padding: 0; display: flex; }
+    .sc-ledger-item { flex: 1; display: flex; flex-direction: column; align-items: flex-start; gap: 10px; padding: 16px 18px; background: var(--color-panel); color: var(--color-heading); text-decoration: none; }
+    .sc-ledger-item:hover, .sc-ledger-item:focus-visible { background: var(--color-panel-hover); }
+    .sc-ledger-name { font-family: var(--font-body), Georgia, serif; font-size: 1.9rem; font-weight: 600; line-height: 1.2; }
+    .sc-ledger-rep { font-size: 1.1rem; }
+
+    /* Meters and tags */
+    .sc-meter { display: inline-flex; align-items: center; gap: 3px; }
+    .sc-pip { width: 12px; height: 12px; box-sizing: border-box; border: 1px solid var(--color-border); }
+    .sc-pip.is-center { border-color: var(--color-heading); }
+    .sc-pip.is-on.is-pos { background: var(--ghost-accent-color); border-color: var(--ghost-accent-color); }
+    .sc-pip.is-on:not(.is-pos) { background: var(--color-secondary-text); border-color: var(--color-secondary-text); }
+    .sc-status.is-pos { color: var(--ghost-accent-color); }
+    .sc-status.is-neg { color: var(--color-heading); }
+    .sc-tag { padding: 5px 9px; font-family: var(--font-label, ui-monospace, monospace); font-size: 1.2rem; font-weight: 600; letter-spacing: .14em; line-height: 1.2; text-transform: uppercase; border: 1px solid var(--color-border); color: var(--color-heading); }
+    .sc-tag.is-friend { background: var(--color-heading); border-color: var(--color-heading); color: var(--color-darkmode); }
+    .sc-tag.is-contact { border-color: var(--ghost-accent-color); color: var(--ghost-accent-color); }
+
+    /* Filters */
+    .sc-filters { display: flex; flex-wrap: wrap; gap: 8px; }
+    .sc-filters[hidden] { display: none; }
+    .sc-filters button { min-height: 44px; padding: 0 16px; border: 1px solid var(--color-border); border-radius: 0; background: transparent; color: var(--color-secondary-text); font-family: var(--font-label, ui-monospace, monospace); font-size: 1.3rem; letter-spacing: .14em; text-transform: uppercase; cursor: pointer; }
+    .sc-filters button:hover { color: var(--color-heading); }
+    .sc-filters button[aria-pressed="true"] { background: var(--ghost-accent-color); border-color: var(--ghost-accent-color); color: var(--color-on-accent); font-weight: 600; }
+    .sc-count { opacity: .75; }
+
+    /* Cards */
+    /* At most four across: each column is at least a quarter of the row (less the gaps), and never under 220px. */
+    .sc-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(max(220px, calc((100% - 3 * 24px) / 4)), 1fr)); gap: 24px; margin: 0; padding: 0; list-style: none; }
+    .sc-card { display: flex; flex-direction: column; min-width: 0; margin: 0; padding: 0; background: var(--color-panel); border: 1px solid var(--color-border); scroll-margin-top: 96px; }
+    .sc-card[hidden] { display: none; }
+    .sc-portrait { position: relative; display: block; aspect-ratio: 2 / 3; overflow: hidden; background: var(--color-panel-hover); cursor: zoom-in; }
+    .sc-portrait img { position: absolute; inset: 0; display: block; width: 100%; height: 100%; object-fit: cover; transition: transform 2.4s var(--sc-ease); }
+    .sc-base { filter: grayscale(1) contrast(1.08) brightness(.9); }
+    .sc-tint {
+        opacity: 0; --sc-bloom: 0%;
+        mask-image: radial-gradient(ellipse 110% 80% at 50% 30%, #000 var(--sc-bloom), transparent calc(var(--sc-bloom) + 45%));
+        transition: opacity .9s ease-in, --sc-bloom .9s ease-in, transform 2.4s var(--sc-ease);
+    }
+    .sc-card:hover .sc-tint, .sc-portrait:focus-visible .sc-tint {
+        opacity: 1; --sc-bloom: 130%;
+        transition: opacity 1.1s var(--sc-ease), --sc-bloom 1.9s cubic-bezier(.33, 0, .2, 1), transform 2.4s var(--sc-ease);
+    }
+    .sc-card:hover .sc-portrait img, .sc-portrait:focus-visible img { transform: scale(1.03); }
+    @media (hover: none) { .sc-tint { opacity: 1; --sc-bloom: 200%; } }
+    .sc-ruler { position: absolute; top: 0; right: 0; bottom: 44px; width: 22px; border-left: 1px solid var(--color-border); background: repeating-linear-gradient(to bottom, var(--color-border) 0 1px, transparent 1px 12px) right top / 8px 100% repeat-y, repeating-linear-gradient(to bottom, var(--color-secondary-text) 0 1px, transparent 1px 60px) right top / 22px 100% repeat-y; }
+    .sc-plate { position: absolute; left: 0; right: 0; bottom: 0; height: 44px; box-sizing: border-box; padding: 0 12px; display: flex; align-items: center; justify-content: space-between; gap: 8px; background: var(--color-darkmode); border-top: 1px solid var(--color-border); font-family: var(--font-label, ui-monospace, monospace); font-size: 1.1rem; letter-spacing: .16em; text-transform: uppercase; color: var(--color-secondary-text); }
+    .sc-plate > span:first-child { flex: none; }
+    .sc-plate-district { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .sc-info { flex: 1; display: flex; flex-direction: column; gap: 10px; padding: 18px 18px 20px; border-top: 1px solid var(--color-border); }
+    .sc-kicker { font-size: 1.1rem; letter-spacing: .16em; }
+    .sc .sc-name { margin: 0; font-family: var(--font-heading), Georgia, serif; font-size: 3rem; font-weight: 700; line-height: 1.05; color: var(--color-heading); }
+    .sc-blurb { margin: 0; font-family: var(--font-body), Georgia, serif; font-size: 1.6rem; line-height: 1.5; color: var(--color-text); }
+    .sc-foot { margin-top: auto; padding-top: 14px; border-top: 1px solid var(--color-border); display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px; }
+    .sc-origin { flex-basis: 100%; font-size: 1.1rem; }
+
+    /* Dossier */
+    .sc-dossier { width: 100%; max-width: none; height: 100%; max-height: none; margin: 0; padding: 0; border: 0; background: color-mix(in srgb, var(--color-darkmode) 96%, transparent); color: var(--color-text); overflow-y: auto; }
+    .sc-dossier::backdrop { background: rgb(0 0 0 / .5); }
+    .sc-dossier[open] { animation: sc-fade .35s ease-out; }
+    .sc-dossier-inner { max-width: 1120px; margin: 0 auto; padding: 24px 24px 48px; box-sizing: border-box; display: flex; flex-direction: column; gap: 20px; }
+    .sc-dossier-bar { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-bottom: 12px; border-bottom: 1px solid var(--color-border); }
+    .sc-close { width: 44px; height: 44px; flex: none; display: flex; align-items: center; justify-content: center; padding: 0; border: 1px solid var(--color-border); border-radius: 0; background: transparent; color: var(--color-heading); cursor: pointer; }
+    .sc-close:hover { border-color: var(--color-heading); }
+    .sc-d { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 32px 48px; }
+    .sc-d-portrait { flex: 1 1 360px; max-width: 520px; min-width: 0; margin: 0; aspect-ratio: 2 / 3; overflow: hidden; background: var(--color-panel-hover); border: 1px solid var(--color-border); }
+    .sc-d-portrait img { display: block; width: 100%; height: 100%; object-fit: cover; animation: sc-develop 1.6s var(--sc-ease); }
+    .sc-d-text { flex: 999 1 360px; min-width: 0; display: flex; flex-direction: column; gap: 18px; padding-top: 8px; }
+    .sc-d-text .sc-kicker { font-size: 1.3rem; letter-spacing: .18em; }
+    .sc .sc-d-name { margin: 0; font-family: var(--font-heading), Georgia, serif; font-size: clamp(4rem, 6vw, 6.4rem); font-weight: 700; line-height: 1; color: var(--color-heading); }
+    .sc-d-blurb { margin: 0; font-family: var(--font-body), Georgia, serif; font-size: 2.1rem; line-height: 1.6; color: var(--color-text); }
+    .sc-d-facts { display: grid; grid-template-columns: max-content minmax(0, 1fr); margin: 8px 0 0; border-top: 1px solid var(--color-border); }
+    .sc-d-facts dt { padding: 14px 24px 14px 0; border-bottom: 1px solid var(--color-border); }
+    .sc-d-facts dd { margin: 0; padding: 12px 0; min-height: 20px; border-bottom: 1px solid var(--color-border); font-family: var(--font-body), Georgia, serif; font-size: 1.8rem; color: var(--color-heading); }
+    .sc-d-rel { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+    .sc-d-tie { color: var(--color-heading); }
+    .sc-d-rep { display: flex; flex-direction: column; gap: 4px; }
+    .sc-d-rep span { font-size: 1.6rem; line-height: 1.5; color: var(--color-secondary-text); }
+    .sc-link { color: var(--ghost-accent-color); text-decoration: underline; text-underline-offset: .18em; }
+    .sc-link:hover { color: var(--blades-accent-hover, var(--ghost-accent-color)); }
+    .sc-d-assoc { display: flex; flex-direction: column; gap: 12px; margin-top: 8px; }
+    .sc-d-assoc h3 { font-weight: 600; letter-spacing: .18em; }
+    .sc-d-assoc-item { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 24px; padding: 16px 18px; background: var(--color-panel); border: 1px solid var(--color-border); }
+    .sc-d-assoc-text { flex: 1 1 220px; min-width: 0; display: flex; flex-direction: column; gap: 4px; font-family: var(--font-body), Georgia, serif; }
+    .sc-d-assoc-text strong { font-size: 1.9rem; color: var(--color-heading); }
+    .sc-d-assoc-text span { font-size: 1.6rem; line-height: 1.5; color: var(--color-secondary-text); }
+    .sc-d-assoc-text .sc-link { display: inline-flex; align-items: center; min-height: 44px; align-self: flex-start; }
+    .sc-d-assoc-status { display: flex; align-items: center; gap: 12px; }
+    .sc-dossier-nav { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding-top: 8px; }
+    .sc-dossier-nav button { min-height: 44px; padding: 0 16px; border: 1px solid var(--color-border); border-radius: 0; background: transparent; color: var(--color-heading); font-family: var(--font-label, ui-monospace, monospace); font-size: 1.2rem; letter-spacing: .14em; text-transform: uppercase; cursor: pointer; }
+    .sc-dossier-nav button:hover { border-color: var(--color-heading); }
+    .sc-dossier-nav button[hidden] { visibility: hidden; display: inline-block; }
+
+    @keyframes sc-fade { from { opacity: 0; } to { opacity: 1; } }
+    @keyframes sc-develop { from { filter: grayscale(1) brightness(.8); } to { filter: none; } }
+    @media (prefers-reduced-motion: reduce) {
+        .sc-portrait img, .sc-tint, .sc-card:hover .sc-tint { transition: opacity .3s linear; }
+        .sc-card:hover .sc-portrait img, .sc-portrait:focus-visible img { transform: none; }
+        .sc-card:hover .sc-tint, .sc-portrait:focus-visible .sc-tint { --sc-bloom: 200%; }
+        .sc-dossier[open], .sc-d-portrait img { animation: none; }
+    }
+</style>
