@@ -140,7 +140,7 @@ scoundrels:
     teaser: "An elusive network of masked thieves and spies, as protective of their identities as they are adept at uncovering secrets."
     status: -1
     name: "Slate"
-    description: "The daring, secretive leader of a mysterious crew of masked thieves and spies."
+    description: "A sophisticated gentleman, daring in his exploits and guarded in his affairs."
     district: "Silkshore"
     image: /assets/images/2026/11/slate.png
     width: 1024

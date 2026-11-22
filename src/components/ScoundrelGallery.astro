@@ -370,7 +370,8 @@ const cardSizes = 'auto, (max-width: 560px) 100vw, (max-width: 1100px) 50vw, 300
     .sc-count { opacity: .75; }
 
     /* Cards */
-    .sc-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 24px; margin: 0; padding: 0; list-style: none; }
+    /* At most four across: each column is at least a quarter of the row (less the gaps), and never under 220px. */
+    .sc-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(max(220px, calc((100% - 3 * 24px) / 4)), 1fr)); gap: 24px; margin: 0; padding: 0; list-style: none; }
     .sc-card { display: flex; flex-direction: column; min-width: 0; margin: 0; padding: 0; background: var(--color-panel); border: 1px solid var(--color-border); scroll-margin-top: 96px; }
     .sc-card[hidden] { display: none; }
     .sc-portrait { position: relative; display: block; aspect-ratio: 2 / 3; overflow: hidden; background: var(--color-panel-hover); cursor: zoom-in; }
