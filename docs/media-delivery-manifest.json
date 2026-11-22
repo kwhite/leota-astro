@@ -2,9 +2,9 @@
   "version": 2,
   "pillow": "13.0.0",
   "webp": "1.6.0",
-  "sourceBytes": 664452673,
-  "deliveryBytes": 159640388,
-  "variantBytes": 182634024,
+  "sourceBytes": 695276840,
+  "deliveryBytes": 165293923,
+  "variantBytes": 190707604,
   "assets": [
     {
       "source": "/assets/files/2026/02/Mirror-Mirror---Intro-Sequence-2.pdf",
@@ -28175,6 +28175,217 @@
       ]
     },
     {
+      "source": "/assets/images/2026/11/adelaide-phroaig.jpg",
+      "delivery": "/assets/images/2026/11/adelaide-phroaig.jpg",
+      "sourceSha256": "4dd4d641732c716e0de57d83afa48dea96a334ae352f0eb1a563dddb559171b5",
+      "deliverySha256": "4dd4d641732c716e0de57d83afa48dea96a334ae352f0eb1a563dddb559171b5",
+      "sourceBytes": 680807,
+      "deliveryBytes": 680807,
+      "dimensions": [
+        1200,
+        1800
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": null,
+      "status": "retained",
+      "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
+      "usedIn": [
+        "src/content/pages/doskvol-scoundrels.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/11/adelaide-phroaig.w320.webp",
+          "deliverySha256": "7980a081c8862e01497415b194885446295ac7e44416a0840011222d83b026f3",
+          "deliveryBytes": 53916,
+          "dimensions": [
+            320,
+            480
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/adelaide-phroaig.w640.webp",
+          "deliverySha256": "2ae3b02b78ba2cfa8b55c6c4d85d5095a5fecc33cb37c2ecccca731c8153fdf3",
+          "deliveryBytes": 176574,
+          "dimensions": [
+            640,
+            960
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/adelaide-phroaig.w960.webp",
+          "deliverySha256": "9e348732e8bcf113161cc4c12369e9b3a814bf8462fa5a625804340704a8a496",
+          "deliveryBytes": 318610,
+          "dimensions": [
+            960,
+            1440
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/11/bazso-baz.png",
+      "delivery": "/assets/images/2026/11/bazso-baz.webp",
+      "sourceSha256": "0b90552f76e1fa255932815713d279ce2c58f7fb97241433e258306d0017d15c",
+      "deliverySha256": "1a09e99215b98f1853fedc4fd95aa0d5a309f79a9a7f44b668b366461d5d527a",
+      "sourceBytes": 2222725,
+      "deliveryBytes": 346124,
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "encoder": "cwebp",
+        "method": 6,
+        "quality": 95,
+        "sharpYuv": true
+      },
+      "status": "converted",
+      "reason": "quality 95 sharp-YUV artwork",
+      "usedIn": [
+        "src/content/pages/doskvol-scoundrels.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/11/bazso-baz.w320.webp",
+          "deliverySha256": "ad3b9748b3cb9632109ee144e982b8dace75b148b1b0b7301277c1929463b8c4",
+          "deliveryBytes": 41668,
+          "dimensions": [
+            320,
+            480
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/bazso-baz.w640.webp",
+          "deliverySha256": "78c7a4d57dc5b8f6b4897d7cb11db2e48124dbb5f0e5d80da27acf816321e377",
+          "deliveryBytes": 157078,
+          "dimensions": [
+            640,
+            960
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/bazso-baz.w960.webp",
+          "deliverySha256": "2d9ba345abe9090ed6f7f676b1a00b8d2ea333dc5afceb1c1b1a6bf24c817853",
+          "deliveryBytes": 305826,
+          "dimensions": [
+            960,
+            1440
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/11/casta.png",
+      "delivery": "/assets/images/2026/11/casta.webp",
+      "sourceSha256": "202e35196e1256242b5eb8947df6456772f4fa50f092a8d5d72eedba399f843c",
+      "deliverySha256": "47635b80c87fe01544c1d37c92d43d515542c78dea3525f6cb0f90667894b7df",
+      "sourceBytes": 2264747,
+      "deliveryBytes": 365262,
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "encoder": "cwebp",
+        "method": 6,
+        "quality": 95,
+        "sharpYuv": true
+      },
+      "status": "converted",
+      "reason": "quality 95 sharp-YUV artwork",
+      "usedIn": [
+        "src/content/pages/doskvol-scoundrels.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/11/casta.w320.webp",
+          "deliverySha256": "c39a01c658521cbed21c8dd616aa2ff835766a6cbd70739d6571e1aa0a04b069",
+          "deliveryBytes": 50348,
+          "dimensions": [
+            320,
+            480
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/casta.w640.webp",
+          "deliverySha256": "35c5fa66ff42347bdc47f6420acd6f390dc0fcf42b8098107c3aa9b215db5b0f",
+          "deliveryBytes": 167456,
+          "dimensions": [
+            640,
+            960
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/casta.w960.webp",
+          "deliverySha256": "bba398f806e2621eb8b77834ed92db4a177e9ef6da0f2faa7b2bff64dd25b4ed",
+          "deliveryBytes": 319596,
+          "dimensions": [
+            960,
+            1440
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        }
+      ]
+    },
+    {
       "source": "/assets/images/2026/11/criminal-dossier-intro.jpg",
       "delivery": "/assets/images/2026/11/criminal-dossier-intro.jpg",
       "sourceSha256": "d5439b9e22593172abf75bea922189e5d3b8c75c2095d758a63109e36995c4fb",
@@ -28191,7 +28402,8 @@
       "status": "retained",
       "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
       "usedIn": [
-        "src/components/CriminalDossier.astro"
+        "src/components/CriminalDossier.astro",
+        "src/pages/survey/criminal-dossier.astro"
       ],
       "variants": [
         {
@@ -28228,6 +28440,582 @@
           "delivery": "/assets/images/2026/11/criminal-dossier-intro.w960.webp",
           "deliverySha256": "05678a9824af1228be1111fb46ce7aaaa09dcd3b7f5ddf987668512ed8bd4a34",
           "deliveryBytes": 55262,
+          "dimensions": [
+            960,
+            1440
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/11/darmot.png",
+      "delivery": "/assets/images/2026/11/darmot.webp",
+      "sourceSha256": "e00e6acab36d59e5ea45e2ab17a6736078980d9c0050190a31414f5b24e37c21",
+      "deliverySha256": "c4dfed40f59b194219369c78d597622cc9ed2c5328d9730f22e233199a8c8752",
+      "sourceBytes": 2294168,
+      "deliveryBytes": 344294,
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "encoder": "cwebp",
+        "method": 6,
+        "quality": 95,
+        "sharpYuv": true
+      },
+      "status": "converted",
+      "reason": "quality 95 sharp-YUV artwork",
+      "usedIn": [
+        "src/content/pages/doskvol-scoundrels.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/11/darmot.w320.webp",
+          "deliverySha256": "606fcb3fb2aa9c7f3e72bd27cda4c309a0f5e8792c3dcfbe1a5244ab611c36ec",
+          "deliveryBytes": 46768,
+          "dimensions": [
+            320,
+            480
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/darmot.w640.webp",
+          "deliverySha256": "547cb383ceda889a0b886bf96f38e25c406dd41f2d75f63aafb658775fb1c1f3",
+          "deliveryBytes": 161626,
+          "dimensions": [
+            640,
+            960
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/darmot.w960.webp",
+          "deliverySha256": "006ed4d81d2d31e4f197b16d91b682037f22235dd2c546e40f23e449088fb185",
+          "deliveryBytes": 303294,
+          "dimensions": [
+            960,
+            1440
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/11/djera-maha.png",
+      "delivery": "/assets/images/2026/11/djera-maha.webp",
+      "sourceSha256": "7f3b6fc1ac61b6e7bc372d05e047c11cb0f0993eabfeeedf1e689af8063d9df1",
+      "deliverySha256": "abd8551d67ae7e5184cade58fae654d23a043622d8112f35b7976cf652eb2cb1",
+      "sourceBytes": 2131235,
+      "deliveryBytes": 347956,
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "encoder": "cwebp",
+        "method": 6,
+        "quality": 95,
+        "sharpYuv": true
+      },
+      "status": "converted",
+      "reason": "quality 95 sharp-YUV artwork",
+      "usedIn": [
+        "src/content/pages/doskvol-scoundrels.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/11/djera-maha.w320.webp",
+          "deliverySha256": "2dacf99f8755a328dde7effc871618f99095237359df575649d8d7a1b32d5760",
+          "deliveryBytes": 50308,
+          "dimensions": [
+            320,
+            480
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/djera-maha.w640.webp",
+          "deliverySha256": "ed328daa8600530e05526874465b9df5c8754e28be70495ba85cc3a4508133aa",
+          "deliveryBytes": 167914,
+          "dimensions": [
+            640,
+            960
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/djera-maha.w960.webp",
+          "deliverySha256": "f17af758fb94a7e471b07c5811284a8dde2a3d78b4ae12966230c27be25acc05",
+          "deliveryBytes": 316152,
+          "dimensions": [
+            960,
+            1440
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/11/eisele.png",
+      "delivery": "/assets/images/2026/11/eisele.webp",
+      "sourceSha256": "c832c16c0d204db924ffcb1abd6c8a25f39ea44e3227d8d2867cf73870ccfb9e",
+      "deliverySha256": "4f1e3b3d512a93a9503a20a801214b3d194d4ddd980cdd8835e4f611c475d8ed",
+      "sourceBytes": 2142483,
+      "deliveryBytes": 328288,
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "encoder": "cwebp",
+        "method": 6,
+        "quality": 95,
+        "sharpYuv": true
+      },
+      "status": "converted",
+      "reason": "quality 95 sharp-YUV artwork",
+      "usedIn": [
+        "src/content/pages/doskvol-scoundrels.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/11/eisele.w320.webp",
+          "deliverySha256": "8d7461a88d80521e970daccef36650d58c0f597ad5efddeb0c6af2569693fca3",
+          "deliveryBytes": 53226,
+          "dimensions": [
+            320,
+            480
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/eisele.w640.webp",
+          "deliverySha256": "2dce2bf4fd3999d8fdaa5a9b3e7849dd9e67463027c6e4413ac0bc8b659e65e0",
+          "deliveryBytes": 162632,
+          "dimensions": [
+            640,
+            960
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/eisele.w960.webp",
+          "deliverySha256": "cb9ac15940322d96489aafb2d4625425882baba40cac7950b7942a2c93614ca1",
+          "deliveryBytes": 296232,
+          "dimensions": [
+            960,
+            1440
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/11/flint.png",
+      "delivery": "/assets/images/2026/11/flint.webp",
+      "sourceSha256": "0651d53b90cbd6f2c909aa3edce927df77fd82fe8fecfe774874c42622ef485c",
+      "deliverySha256": "9ebbeb65021d3a344f3a3d28e380ed6a71f90f751f0e1df76641fe9b446a53fe",
+      "sourceBytes": 2159040,
+      "deliveryBytes": 310750,
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "encoder": "cwebp",
+        "method": 6,
+        "quality": 95,
+        "sharpYuv": true
+      },
+      "status": "converted",
+      "reason": "quality 95 sharp-YUV artwork",
+      "usedIn": [
+        "src/content/pages/doskvol-scoundrels.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/11/flint.w320.webp",
+          "deliverySha256": "e2cc54cda34f92bb53d900edb16c156a875c05d66adf34f53bafad4c3ede4207",
+          "deliveryBytes": 50896,
+          "dimensions": [
+            320,
+            480
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/flint.w640.webp",
+          "deliverySha256": "0fd329938ac47bf42e4dad62a9295015d778f849123bc43dda64005a6a8b82cc",
+          "deliveryBytes": 160368,
+          "dimensions": [
+            640,
+            960
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/flint.w960.webp",
+          "deliverySha256": "7feec03340c5f4b6efd08b7b4d38db1de856beef62c16eeb56c57c487e36429c",
+          "deliveryBytes": 284364,
+          "dimensions": [
+            960,
+            1440
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/11/klyra.png",
+      "delivery": "/assets/images/2026/11/klyra.webp",
+      "sourceSha256": "2490bcc5455544bd886ddb8e83bd2cef9482778668877861f0edb2c8e03bf0c8",
+      "deliverySha256": "f0f95e9f840d65d84e140eba831a95590d3cc8c21681192698e8bced4ef7439a",
+      "sourceBytes": 2529927,
+      "deliveryBytes": 477672,
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "encoder": "cwebp",
+        "method": 6,
+        "quality": 95,
+        "sharpYuv": true
+      },
+      "status": "converted",
+      "reason": "quality 95 sharp-YUV artwork",
+      "usedIn": [
+        "src/content/pages/doskvol-scoundrels.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/11/klyra.w320.webp",
+          "deliverySha256": "1f3e4de6909c1d15be6d4d08afe79aed8a7772460afc25c3243a9022e1dd3775",
+          "deliveryBytes": 65678,
+          "dimensions": [
+            320,
+            480
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/klyra.w640.webp",
+          "deliverySha256": "1aef2872318c712a53c765cc20b7100e8ab22a152de48dd54dcf3a5db52908ea",
+          "deliveryBytes": 212420,
+          "dimensions": [
+            640,
+            960
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/klyra.w960.webp",
+          "deliverySha256": "aa078e9553d96d383e7f89807370b6a70e6fa8806204c5cd36aedd9bf86dc724",
+          "deliveryBytes": 423874,
+          "dimensions": [
+            960,
+            1440
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/11/melvir.png",
+      "delivery": "/assets/images/2026/11/melvir.webp",
+      "sourceSha256": "c436fa7076a26a8c7c71ab472ba2cd78d5552d0e172d250296883549d6788cfb",
+      "deliverySha256": "9888c4109b6d42971016592226ef179b80bb765b364fdb7aa616018983d4d7fd",
+      "sourceBytes": 2379328,
+      "deliveryBytes": 398948,
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "encoder": "cwebp",
+        "method": 6,
+        "quality": 95,
+        "sharpYuv": true
+      },
+      "status": "converted",
+      "reason": "quality 95 sharp-YUV artwork",
+      "usedIn": [
+        "src/content/pages/doskvol-scoundrels.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/11/melvir.w320.webp",
+          "deliverySha256": "91380fd0001fbb060e16c4005fc57ca65b22a3e5be122380d20d6317b6018ede",
+          "deliveryBytes": 57712,
+          "dimensions": [
+            320,
+            480
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/melvir.w640.webp",
+          "deliverySha256": "c2b39314b8b4f6ce0c59d835661613b0af6058650271fccae1cf937a54dd8d79",
+          "deliveryBytes": 186550,
+          "dimensions": [
+            640,
+            960
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/melvir.w960.webp",
+          "deliverySha256": "113ba0e29f342a0a987353f622e57a0c3944a3fd3315f4621aea05f1990e3825",
+          "deliveryBytes": 354240,
+          "dimensions": [
+            960,
+            1440
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/11/nyryx.png",
+      "delivery": "/assets/images/2026/11/nyryx.webp",
+      "sourceSha256": "bf0963a52d47dee377b4ae6f3fa502a7d7f37b5f2d32d308e282732f0df2c7d6",
+      "deliverySha256": "e99db6ca6a4bce7fa7b9806c55968632264cd836a95e1e84e51f7dcd448002fc",
+      "sourceBytes": 2208894,
+      "deliveryBytes": 358246,
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "encoder": "cwebp",
+        "method": 6,
+        "quality": 95,
+        "sharpYuv": true
+      },
+      "status": "converted",
+      "reason": "quality 95 sharp-YUV artwork",
+      "usedIn": [
+        "src/content/pages/doskvol-scoundrels.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/11/nyryx.w320.webp",
+          "deliverySha256": "74cc08d3079c390671c9ef2770783dbf14542c112abea9dd16d3574c9da33c1e",
+          "deliveryBytes": 64596,
+          "dimensions": [
+            320,
+            480
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/nyryx.w640.webp",
+          "deliverySha256": "8a8256c53c4b5573a741f94d88ae4902f4ab3c5378f417725d3e78ceb4887f46",
+          "deliveryBytes": 185726,
+          "dimensions": [
+            640,
+            960
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/nyryx.w960.webp",
+          "deliverySha256": "d4a5022c503471bedefb723d002ac8dea987bc695bfe33eb2a726df30e94915a",
+          "deliveryBytes": 327598,
+          "dimensions": [
+            960,
+            1440
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/11/quellyn.png",
+      "delivery": "/assets/images/2026/11/quellyn.webp",
+      "sourceSha256": "e2a3ed367423eb5c307b435b4dc3aaa6ed63c237ecab518ccca7c6570f4af01d",
+      "deliverySha256": "1a6f6dd46ac024478893e1763d226631f45c24dd50ef8410c98a491000d8772f",
+      "sourceBytes": 2528845,
+      "deliveryBytes": 473006,
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "encoder": "cwebp",
+        "method": 6,
+        "quality": 95,
+        "sharpYuv": true
+      },
+      "status": "converted",
+      "reason": "quality 95 sharp-YUV artwork",
+      "usedIn": [
+        "src/content/pages/doskvol-scoundrels.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/11/quellyn.w320.webp",
+          "deliverySha256": "7adc5899550fe959fbb57f7faad7ce926fbe6de04d38d2560c3e38cae22c6dba",
+          "deliveryBytes": 65762,
+          "dimensions": [
+            320,
+            480
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/quellyn.w640.webp",
+          "deliverySha256": "db87f8d1fb922b8494ec75ebfd579e0b546aa312fb2ba2828c1826f83ea8fad4",
+          "deliveryBytes": 213092,
+          "dimensions": [
+            640,
+            960
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/quellyn.w960.webp",
+          "deliverySha256": "550d9b353db1733f9d0809377a73c5fbed084e45c33e4ad61d905e612c48b2b6",
+          "deliveryBytes": 420370,
           "dimensions": [
             960,
             1440
@@ -28405,6 +29193,222 @@
           "dimensions": [
             1280,
             717
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/11/roslyn-kellis.png",
+      "delivery": "/assets/images/2026/11/roslyn-kellis.webp",
+      "sourceSha256": "54989bac5c6d94729d088f3643ce24c9fb6f9999f2860373f270f11132baeab8",
+      "deliverySha256": "546c867613c21ab07ce042a7e23402bec7e1b37a48c431ab01c736548f752d38",
+      "sourceBytes": 2625087,
+      "deliveryBytes": 449552,
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "encoder": "cwebp",
+        "method": 6,
+        "quality": 95,
+        "sharpYuv": true
+      },
+      "status": "converted",
+      "reason": "quality 95 sharp-YUV artwork",
+      "usedIn": [
+        "src/content/pages/doskvol-scoundrels.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/11/roslyn-kellis.w320.webp",
+          "deliverySha256": "782b0db837fdbbb178bdb14b0dc59e80e58410a2869d0ee741916779819899b8",
+          "deliveryBytes": 70032,
+          "dimensions": [
+            320,
+            480
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/roslyn-kellis.w640.webp",
+          "deliverySha256": "f8cc7a2a94b3ae10b55aaa171d609ca5991b2853e8e3b8069f2c50fbacfcf505",
+          "deliveryBytes": 208538,
+          "dimensions": [
+            640,
+            960
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/roslyn-kellis.w960.webp",
+          "deliverySha256": "70c9b272d2541aa7fad377b3aaf6e581ea1a4b736e182178bfab29b5b6c46d85",
+          "deliveryBytes": 398536,
+          "dimensions": [
+            960,
+            1440
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/11/slate.png",
+      "delivery": "/assets/images/2026/11/slate.webp",
+      "sourceSha256": "d2d619ddd96959a1bd44bd55ca71825efb4c12a99064dbe486d1645695bd375b",
+      "deliverySha256": "3c46b1551d70080e5aee8bc541a0fef061a2772eb09200750c892778cac4607e",
+      "sourceBytes": 2139517,
+      "deliveryBytes": 299746,
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "encoder": "cwebp",
+        "method": 6,
+        "quality": 95,
+        "sharpYuv": true
+      },
+      "status": "converted",
+      "reason": "quality 95 sharp-YUV artwork",
+      "usedIn": [
+        "src/content/pages/doskvol-scoundrels.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/11/slate.w320.webp",
+          "deliverySha256": "906dd7bd378212183eaa4470ca881f56ced7ea80599bccf5f91cc592fa26ab8e",
+          "deliveryBytes": 43916,
+          "dimensions": [
+            320,
+            480
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/slate.w640.webp",
+          "deliverySha256": "c1688564595854484ecfd1a44cf5335094f0302c19bf87ad03444993590730a3",
+          "deliveryBytes": 145426,
+          "dimensions": [
+            640,
+            960
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/slate.w960.webp",
+          "deliverySha256": "439d3ae3559e7400cb82d97ede4b0dccee74ffc8855009eca00fc9db6583918e",
+          "deliveryBytes": 266802,
+          "dimensions": [
+            960,
+            1440
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/11/tessa-brand.png",
+      "delivery": "/assets/images/2026/11/tessa-brand.webp",
+      "sourceSha256": "d0def2cdca1bedf2ff33b45c9ce869757585698600ca6bc6eff675a94d982687",
+      "deliverySha256": "2eea499f5f9346ab038045ead2b70316f86b6fc0eba84c9cd98497da1570bcae",
+      "sourceBytes": 2517364,
+      "deliveryBytes": 472884,
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "encoder": "cwebp",
+        "method": 6,
+        "quality": 95,
+        "sharpYuv": true
+      },
+      "status": "converted",
+      "reason": "quality 95 sharp-YUV artwork",
+      "usedIn": [
+        "src/content/pages/doskvol-scoundrels.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/11/tessa-brand.w320.webp",
+          "deliverySha256": "0decd4ed038619b5142682b2b5cdd6a3c910277d8656188ce75e73c75387c5c4",
+          "deliveryBytes": 72386,
+          "dimensions": [
+            320,
+            480
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/tessa-brand.w640.webp",
+          "deliverySha256": "ae7f48fc6498fce225ac09ddd547d8e3c7674faa8c6f1d5bf63fcfe32d182e03",
+          "deliveryBytes": 222152,
+          "dimensions": [
+            640,
+            960
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/tessa-brand.w960.webp",
+          "deliverySha256": "0ea4bc18263c44bc08e63ead813f921a92fbf94553a1e1f0e5322181ae3172c6",
+          "deliveryBytes": 423322,
+          "dimensions": [
+            960,
+            1440
           ],
           "settings": {
             "encoder": "cwebp",

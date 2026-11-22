@@ -94,6 +94,7 @@ export const CAMPAIGN_NAVIGATION = {
     label: 'Blades in the Dark',
     links: [
       { id: 'overview', label: 'Overview', href: '/blades-in-the-dark/', available: true },
+      { id: 'scoundrels', label: 'Scoundrels', href: '/doskvol-scoundrels/', available: true },
       { id: 'summaries', label: 'Session Summaries', href: '/tag/blades-in-the-dark/', available: false },
     ],
   },
