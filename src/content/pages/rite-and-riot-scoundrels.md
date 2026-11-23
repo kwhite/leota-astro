@@ -132,7 +132,7 @@ scoundrels:
   - kind: friend
     name: "Quellyn"
     title: "Witch"
-    of: "Wren Ashcombe"
+    of: "Songbird"
     description: "An accomplished healer and occult practitioner wanted by the Spirit Wardens."
     district: "Six Towers"
     image: /assets/images/2026/11/quellyn.png
@@ -141,7 +141,7 @@ scoundrels:
   - kind: rival
     name: "Flint"
     title: "Spirit Trafficker"
-    of: "Wren Ashcombe"
+    of: "Songbird"
     description: "A calculating black-market merchant whose inventory includes the restless dead."
     district: "Six Towers"
     image: /assets/images/2026/11/flint.png
@@ -150,7 +150,7 @@ scoundrels:
   - kind: friend
     name: "Augus"
     title: "Master Architect"
-    of: "Thea Arran"
+    of: "Varnish"
     description: "A master architect whose knowledge of Doskvol's buildings is matched only by his appreciation for their secrets."
     district: "Charterhall"
     image: /assets/images/2026/11/augus.png
@@ -159,7 +159,7 @@ scoundrels:
   - kind: rival
     name: "Riven"
     title: "Chemist"
-    of: "Thea Arran"
+    of: "Varnish"
     description: "A gifted young chemist whose considerable talents are rivaled by a talent for holding grudges."
     district: "Charterhall"
     image: /assets/images/2026/11/riven2.png
