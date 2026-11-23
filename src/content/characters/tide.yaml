@@ -1,0 +1,16 @@
+name: Tide
+playbook: Hound
+campaigns: [blades-in-the-dark]
+player: Helmcamp
+concept: null
+personality: null
+heritage: Skovlan
+background: Blood culler
+vice: Stupor (fighting) · Helene, Silkshore
+look: null
+actions: { hunt: 2, survey: 1, study: 1, finesse: 1, prowl: 1, command: 1 }
+ability:
+  name: Scout
+  text: +1 effect when gathering information to locate a target. +1d to stay hidden from a prepared position or under camouflage.
+friend: { name: Melvir, title: Physicker }
+rival: { name: Casta, title: Bounty Hunter }

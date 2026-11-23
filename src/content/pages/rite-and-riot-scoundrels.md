@@ -114,7 +114,7 @@ scoundrels:
   - kind: friend
     name: "Veldren"
     title: "Psychonaut"
-    of: "Leech TBD"
+    of: "Tansy Brine"
     description: "An explorer of altered consciousness whose experiments venture beyond ordinary perception."
     district: "Charterhall"
     image: /assets/images/2026/11/veldren.png
@@ -123,7 +123,7 @@ scoundrels:
   - kind: rival
     name: "Eckerd"
     title: "Corpse Thief"
-    of: "Leech TBD"
+    of: "Tansy Brine"
     description: "A discreet procurer of the dead, supplying bodies to clients who ask few questions."
     district: "Charhollow"
     image: /assets/images/2026/11/eckerd.png
@@ -132,7 +132,7 @@ scoundrels:
   - kind: friend
     name: "Quellyn"
     title: "Witch"
-    of: "Whisper TBD"
+    of: "Wren Ashcombe"
     description: "An accomplished healer and occult practitioner wanted by the Spirit Wardens."
     district: "Six Towers"
     image: /assets/images/2026/11/quellyn.png
@@ -141,7 +141,7 @@ scoundrels:
   - kind: rival
     name: "Flint"
     title: "Spirit Trafficker"
-    of: "Whisper TBD"
+    of: "Wren Ashcombe"
     description: "A calculating black-market merchant whose inventory includes the restless dead."
     district: "Six Towers"
     image: /assets/images/2026/11/flint.png
