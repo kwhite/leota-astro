@@ -7,6 +7,7 @@ import PostLayout from '../layouts/PostLayout.astro';
 import PageLayout from '../layouts/PageLayout.astro';
 import CampaignNav from '../components/CampaignNav.astro';
 import ScoundrelGallery from '../components/ScoundrelGallery.astro';
+import CrewGallery from '../components/CrewGallery.astro';
 
 type Props = { post: CollectionEntry<'posts'>; page?: never } | { page: CollectionEntry<'pages'>; post?: never };
 
@@ -25,6 +26,16 @@ export async function getStaticPaths() {
 
 const { post, page } = Astro.props;
 const { Content } = await render(post ?? page);
+
+// Crew pages: the campaign's characters, plus its Scoundrels page so friends and rivals can link to their dossiers.
+let crew: { characters: CollectionEntry<'characters'>[]; scoundrelsPage: CollectionEntry<'pages'> | undefined } | undefined;
+if (page?.data.template === 'crew') {
+  const campaign = page.data.campaign;
+  crew = {
+    characters: await getCollection('characters', ({ data }) => data.campaigns.includes(campaign)),
+    scoundrelsPage: (await getCollection('pages', ({ data }) => data.template === 'scoundrels' && data.campaign === campaign))[0],
+  };
+}
 ---
 
 {post && (
@@ -37,5 +48,6 @@ const { Content } = await render(post ?? page);
     {page.data.campaignSection && <CampaignNav current={page.data.campaignSection} campaign={page.data.campaign} />}
     <Content />
     {page.data.template === 'scoundrels' && <ScoundrelGallery entries={page.data.scoundrels} />}
+    {crew && <CrewGallery characters={crew.characters.map(c => c.data)} sheet={page.data.crew} scoundrels={crew.scoundrelsPage} />}
   </PageLayout>
 )}

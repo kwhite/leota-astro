@@ -94,6 +94,7 @@ export const CAMPAIGN_NAVIGATION = {
     label: 'Blades in the Dark',
     links: [
       { id: 'overview', label: 'Overview', href: '/blades-in-the-dark/', available: true },
+      { id: 'crew', label: 'Crew', href: '/doskvol-crew/', available: true },
       { id: 'scoundrels', label: 'Scoundrels', href: '/doskvol-scoundrels/', available: true },
       { id: 'summaries', label: 'Session Summaries', href: '/tag/blades-in-the-dark/', available: false },
     ],
@@ -108,6 +109,7 @@ export const CAMPAIGN_NAVIGATION = {
     label: 'Rite & Riot',
     links: [
       { id: 'overview', label: 'Overview', href: '/rite-and-riot/', available: true },
+      { id: 'crew', label: 'Crew', href: '/rite-and-riot-crew/', available: true },
       { id: 'scoundrels', label: 'Scoundrels', href: '/rite-and-riot-scoundrels/', available: true },
       { id: 'summaries', label: 'Session Summaries', href: '/tag/rite-and-riot/', available: false },
     ],

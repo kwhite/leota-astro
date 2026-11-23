@@ -1,0 +1,16 @@
+name: Luna Matahari
+playbook: Slide
+campaigns: [blades-in-the-dark, rite-and-riot]
+player: Ginger
+concept: A real spy with Agent Carter’s curiosity under a Mae West wit. You never know if you’re getting the naughty or the nice version.
+personality: Charming, eccentric, irreverent
+heritage: Elsewhere
+background: Imperial City courtiers
+vice: Luxury · Mara Onehand, jeweler
+look: null
+actions: { sway: 2, consort: 1, study: 1, survey: 1, finesse: 1, command: 1 }
+ability:
+  name: Cloak & Dagger
+  text: +1d to confuse or deflect suspicion while in disguise or using covert misdirection. Throwing off the disguise seizes the initiative.
+friend: { name: Klyra, title: Tavern Owner }
+rival: { name: Nyryx, title: Courtesan }

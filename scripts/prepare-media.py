@@ -43,7 +43,7 @@ def sha(path):
 def main():
     refs = {}
     for path in (ROOT / 'src').rglob('*'):
-        if path.suffix in {'.md', '.mdx', '.json', '.ts', '.astro', '.css'}:
+        if path.suffix in {'.md', '.mdx', '.json', '.yaml', '.yml', '.ts', '.astro', '.css'}:
             for match in PATTERN.findall(path.read_text()):
                 url = '/' + match.lstrip('/')
                 refs.setdefault(url, set()).add(str(path.relative_to(ROOT)))

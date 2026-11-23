@@ -73,9 +73,17 @@ const pages = defineCollection({
     description: z.string().optional(), sourceId: z.string().optional(),
     // Pages with a template need no .astro file: src/pages/[slug].astro builds them at /<file name>/.
     // Pages without one are built by their own hand-written file in src/pages/.
-    template: z.enum(['scoundrels']).optional(),
+    template: z.enum(['scoundrels', 'crew']).optional(),
     campaign: z.enum(campaignIds).default('city-of-mist'),
-    campaignSection: z.enum(['overview', 'rules', 'neighborhoods', 'people', 'gazette', 'cast', 'scoundrels']).optional(),
+    campaignSection: z.enum(['overview', 'rules', 'neighborhoods', 'people', 'gazette', 'cast', 'crew', 'scoundrels']).optional(),
+    // Crew page (template: crew): the crew sheet facts. Leave a field null until it's decided.
+    crew: z.object({
+      type: z.string().nullable().default(null),
+      lair: z.string().nullable().default(null),
+      tier: z.string().nullable().default(null),
+      huntingGrounds: z.string().nullable().default(null),
+      reputation: z.string().nullable().default(null),
+    }).optional(),
     chapters: z.array(z.object({ chapter: z.string(), title: z.string(), href: z.string().nullable() })).default([]),
     people: z.array(z.object({
       name: z.string(), mythos: z.string().nullable(), mythosStruck: z.boolean(),
@@ -100,7 +108,44 @@ const pages = defineCollection({
   }),
 });
 
+// Blades in the Dark player characters (crew pages). One YAML file per scoundrel in
+// src/content/characters/; `campaigns` lists every campaign the character plays in.
+// Only things that hold steady between sessions belong here: stress, harm, trauma and
+// xp are left to the real character sheets.
+const ACTIONS = ['hunt', 'study', 'survey', 'tinker', 'finesse', 'prowl', 'skirmish', 'wreck', 'attune', 'command', 'consort', 'sway'] as const;
+const tie = z.object({ name: z.string(), title: z.string() }).nullable().default(null);
+const characters = defineCollection({
+  loader: glob({ pattern: '**/[^_]*.{yaml,yml}', base: './src/content/characters' }),
+  schema: z.object({
+    // The name the table uses: the alias if the player gave one, otherwise the character's name.
+    name: z.string(),
+    playbook: z.enum(['Cutter', 'Hound', 'Leech', 'Lurk', 'Slide', 'Spider', 'Whisper']),
+    campaigns: z.array(z.enum(campaignIds)).min(1),
+    player: z.string().nullable().default(null),
+    // A character the GM drafted and the player hasn't signed off on yet.
+    draft: z.boolean().default(false),
+    concept: z.string().nullable().default(null),
+    personality: z.string().nullable().default(null),
+    heritage: z.string().nullable().default(null),
+    background: z.string().nullable().default(null),
+    vice: z.string().nullable().default(null),
+    look: z.string().nullable().default(null),
+    // Total rating per action: the playbook's starting dots plus the points assigned.
+    actions: z.partialRecord(z.enum(ACTIONS), z.number().int().min(0).max(4)).default({}),
+    // Shown under the action ratings, e.g. when only the starting dots are known.
+    actionsNote: z.string().nullable().default(null),
+    ability: z.object({ name: z.string(), text: z.string() }).nullable().default(null),
+    // Linked to the matching dossier on the same campaign's Scoundrels page, if there is one.
+    friend: tie,
+    rival: tie,
+    image: z.string().nullable().default(null),
+    width: z.number().default(1024),
+    height: z.number().default(1536),
+  }),
+});
+
 export const collections = {
+  characters,
   pages,
   posts,
   authors,

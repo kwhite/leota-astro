@@ -1,0 +1,456 @@
+---
+// Blades in the Dark crew page: the crew sheet, a "who to call" summary of the best
+// action ratings, and a card per scoundrel that opens a dossier lightbox. Data comes from
+// src/content/characters/*.yaml (schema in src/content.config.ts), filtered to the page's
+// campaign by src/pages/[slug].astro. This is a dossier, not a working character sheet:
+// stress, harm, trauma and xp are deliberately absent.
+// Without JavaScript the cards still render and the dossier is not available.
+import type { CollectionEntry } from 'astro:content';
+import { getAssetUrl } from '../config';
+
+type Character = CollectionEntry<'characters'>['data'];
+type Sheet = CollectionEntry<'pages'>['data']['crew'];
+interface Props { characters: Character[]; sheet?: Sheet; scoundrels?: CollectionEntry<'pages'>; }
+const { characters, sheet, scoundrels } = Astro.props;
+
+const ATTRIBUTES = [
+    { name: 'Insight', actions: ['hunt', 'study', 'survey', 'tinker'] },
+    { name: 'Prowess', actions: ['finesse', 'prowl', 'skirmish', 'wreck'] },
+    { name: 'Resolve', actions: ['attune', 'command', 'consort', 'sway'] },
+] as const;
+type Action = (typeof ATTRIBUTES)[number]['actions'][number];
+const TAGLINES: Record<Character['playbook'], string> = {
+    Cutter: 'A dangerous and intimidating fighter',
+    Hound: 'A deadly sharpshooter and tracker',
+    Leech: 'A saboteur and technician',
+    Lurk: 'A stealthy infiltrator and burglar',
+    Slide: 'A subtle manipulator and spy',
+    Spider: 'A devious mastermind',
+    Whisper: 'An arcane adept and channeler',
+};
+const slug = (text: string) => text.toLowerCase().normalize('NFKD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+const title = (action: string) => action.charAt(0).toUpperCase() + action.slice(1);
+const rating = (c: Character, action: Action) => c.actions[action] ?? 0;
+const dots = (n: number) => [1, 2, 3, 4].map(i => i <= n);
+
+// Friends and rivals link to their dossier when the campaign's Scoundrels page has them.
+const dossierNames = new Set((scoundrels?.data.scoundrels ?? []).map(e => e.name));
+const dossierHref = (name: string) => scoundrels && dossierNames.has(name) ? `${getAssetUrl(`/${scoundrels.id}/`)}#scoundrel-${slug(name)}` : null;
+
+const sorted = [...characters].sort((a, b) => a.name.localeCompare(b.name));
+const cards = sorted.map((c, i) => {
+    const num = String(i + 1).padStart(2, '0');
+    const attributes = ATTRIBUTES.map(a => ({
+        name: a.name,
+        rating: a.actions.filter(action => rating(c, action) > 0).length,
+        actions: a.actions.map(action => ({ name: title(action), value: rating(c, action) })),
+    }));
+    const top = (Object.entries(c.actions) as [Action, number][])
+        .filter(([, v]) => v > 0)
+        .sort((x, y) => y[1] - x[1] || x[0].localeCompare(y[0]))
+        .slice(0, 3)
+        .map(([action, value]) => ({ name: title(action), value }));
+    const ties = [
+        c.friend && { kind: 'friend', tag: 'Friend', ...c.friend, href: dossierHref(c.friend.name) },
+        c.rival && { kind: 'rival', tag: 'Rival', ...c.rival, href: dossierHref(c.rival.name) },
+    ].filter(Boolean) as { kind: string; tag: string; name: string; title: string; href: string | null }[];
+    const facts = [
+        ['Played by', c.player], ['Heritage', c.heritage], ['Background', c.background],
+        ['Vice · Purveyor', c.vice], ['Personality', c.personality], ['Look', c.look],
+    ].map(([label, value]) => ({ label, value }));
+    return {
+        c, num, id: `crew-${slug(c.name)}`, image: c.image ? getAssetUrl(c.image) : null,
+        kicker: [c.playbook, c.player, c.draft ? 'Draft' : null].filter(Boolean).join(' · '),
+        tagline: TAGLINES[c.playbook], blurb: c.concept ?? TAGLINES[c.playbook],
+        meta: `Dossier · No. ${num} · ${c.playbook}`, attributes, top, ties, facts,
+    };
+});
+
+const coverage = ATTRIBUTES.map(a => ({
+    name: a.name,
+    rows: a.actions.map(action => {
+        const best = Math.max(0, ...sorted.map(c => rating(c, action)));
+        return { name: title(action), best, who: best ? sorted.filter(c => rating(c, action) === best).map(c => c.name).join(', ') : 'Nobody yet' };
+    }),
+}));
+
+const sheetFacts = sheet ? [
+    ['Crew type', sheet.type], ['Lair', sheet.lair], ['Tier · Hold', sheet.tier],
+    ['Hunting grounds', sheet.huntingGrounds], ['Reputation', sheet.reputation],
+].map(([label, value]) => ({ label, value })) : [];
+const cardSizes = 'auto, (max-width: 560px) 100vw, (max-width: 1100px) 50vw, 300px';
+---
+<div class="cr kg-width-wide">
+    {sheetFacts.length > 0 && (
+        <section class="cr-section" aria-labelledby="cr-sheet-title">
+            <h2 class="cr-h2" id="cr-sheet-title">Crew Sheet</h2>
+            <dl class="cr-sheet">
+                {sheetFacts.map(f => (
+                    <div class="cr-sheet-item">
+                        <dt class="cr-label">{f.label}</dt>
+                        <dd class:list={{ 'is-pending': !f.value }}>{f.value ?? 'TBD'}</dd>
+                    </div>
+                ))}
+            </dl>
+        </section>
+    )}
+
+    {cards.length > 0 && (
+        <section class="cr-section" aria-labelledby="cr-cover-title">
+            <div class="cr-section-head">
+                <h2 class="cr-h2" id="cr-cover-title">Who to Call</h2>
+                <p class="cr-label">Best rating in the crew, per action</p>
+            </div>
+            <div class="cr-cover">
+                {coverage.map(g => (
+                    <div class="cr-cover-group">
+                        <h3 class="cr-label cr-cover-name">{g.name}</h3>
+                        <ul>
+                            {g.rows.map(r => (
+                                <li class:list={['cr-cover-row', { 'is-empty': !r.best }]}>
+                                    <span class="cr-cover-action">{r.name}</span>
+                                    <span class="cr-dots" role="img" aria-label={`${r.name}: best rating ${r.best} of 4`}>
+                                        {dots(r.best).map(on => <span class:list={['cr-dot', { 'is-on': on }]}></span>)}
+                                    </span>
+                                    <span class="cr-label cr-cover-who">{r.who}</span>
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+                ))}
+            </div>
+        </section>
+    )}
+
+    <h2 class="cr-h2" id="cr-gallery-title">The Scoundrels</h2>
+    <ul class="cr-grid" aria-labelledby="cr-gallery-title">
+        {cards.map(card => (
+            <li class="cr-card" id={card.id} data-name={card.c.name} data-meta={card.meta}>
+                <a class="cr-portrait" href={`#${card.id}`} data-open={card.id} aria-label={`Open dossier: ${card.c.name}`}>
+                    {card.image ? (
+                        <img src={card.image} alt="" width={card.c.width} height={card.c.height} sizes={cardSizes} loading="lazy" decoding="async" />
+                    ) : (
+                        <span class="cr-silhouette" aria-hidden="true">
+                            <svg viewBox="0 0 200 300" fill="none" stroke="currentColor" stroke-width="2"><circle cx="100" cy="112" r="38" /><path d="M30 262c6-52 36-80 70-80s64 28 70 80" /></svg>
+                            <span class="cr-label">Portrait pending</span>
+                        </span>
+                    )}
+                    <span class="cr-plate"><span>No. {card.num}</span><span>{card.c.playbook}</span></span>
+                </a>
+                <div class="cr-info">
+                    <p class="cr-label cr-kicker">{card.kicker}</p>
+                    <h3 class="cr-name">{card.c.name}</h3>
+                    <p class="cr-blurb">{card.blurb}</p>
+                    {card.top.length > 0 && (
+                        <ul class="cr-top">
+                            {card.top.map(t => (
+                                <li>
+                                    <span class="cr-label">{t.name}</span>
+                                    <span class="cr-dots" role="img" aria-label={`${t.name}: ${t.value} of 4`}>
+                                        {dots(t.value).map(on => <span class:list={['cr-dot', { 'is-on': on }]}></span>)}
+                                    </span>
+                                </li>
+                            ))}
+                        </ul>
+                    )}
+                </div>
+
+                <template class="cr-template">
+                    <div class="cr-d">
+                        <div class="cr-d-side">
+                            <figure class="cr-d-portrait">
+                                {card.image ? (
+                                    <img src={card.image} alt={`Portrait of ${card.c.name}`} width={card.c.width} height={card.c.height} sizes="(max-width: 860px) 100vw, 380px" />
+                                ) : (
+                                    <span class="cr-silhouette" role="img" aria-label={`Portrait of ${card.c.name} (pending)`}>
+                                        <svg viewBox="0 0 200 300" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2"><circle cx="100" cy="112" r="38" /><path d="M30 262c6-52 36-80 70-80s64 28 70 80" /></svg>
+                                    </span>
+                                )}
+                            </figure>
+                            <section class="cr-d-ties" aria-labelledby={`${card.id}-ties`}>
+                                <h3 class="cr-label cr-d-h3" id={`${card.id}-ties`}>Friend &amp; Rival</h3>
+                                {card.ties.length === 0 && <p class="cr-pending">Not chosen yet.</p>}
+                                {card.ties.map(t => (
+                                    <div class="cr-tie">
+                                        <span class:list={['cr-tag', `is-${t.kind}`]}>{t.tag}</span>
+                                        <div class="cr-tie-text">
+                                            {t.href ? <a class="cr-link" href={t.href}>{t.name}</a> : <strong>{t.name}</strong>}
+                                            <span class="cr-label">{t.title}</span>
+                                        </div>
+                                    </div>
+                                ))}
+                            </section>
+                        </div>
+
+                        <div class="cr-d-text">
+                            <div class="cr-d-head">
+                                <p class="cr-label cr-kicker">{card.c.playbook} · {card.tagline}{card.c.draft ? ' · Draft' : ''}</p>
+                                <h2 class="cr-d-name" id="cr-dossier-title">{card.c.name}</h2>
+                                {card.c.concept && <p class="cr-d-blurb">{card.c.concept}</p>}
+                            </div>
+                            <dl class="cr-d-facts">
+                                {card.facts.map(f => (
+                                    <>
+                                        <dt class="cr-label">{f.label}</dt>
+                                        <dd class:list={{ 'is-pending': !f.value }}>{f.value ?? 'TBD'}</dd>
+                                    </>
+                                ))}
+                            </dl>
+                            <section aria-labelledby={`${card.id}-actions`}>
+                                <h3 class="cr-label cr-d-h3" id={`${card.id}-actions`}>Actions</h3>
+                                {card.c.actionsNote && <p class="cr-pending">{card.c.actionsNote}</p>}
+                                <div class="cr-attrs">
+                                    {card.attributes.map(a => (
+                                        <div class="cr-attr">
+                                            <div class="cr-attr-head"><span class="cr-attr-name">{a.name}</span><span class="cr-attr-rating" aria-label={`${a.name} rating ${a.rating}`}>{a.rating}</span></div>
+                                            {a.actions.map(r => (
+                                                <div class:list={['cr-action', { 'is-empty': !r.value }]}>
+                                                    <span>{r.name}</span>
+                                                    <span class="cr-dots" role="img" aria-label={`${r.name}: ${r.value} of 4`}>
+                                                        {dots(r.value).map(on => <span class:list={['cr-dot', { 'is-on': on }]}></span>)}
+                                                    </span>
+                                                </div>
+                                            ))}
+                                        </div>
+                                    ))}
+                                </div>
+                            </section>
+                            <section class="cr-d-ability" aria-labelledby={`${card.id}-ability`}>
+                                <h3 class="cr-label cr-d-h3" id={`${card.id}-ability`}>Special ability</h3>
+                                {card.c.ability ? (
+                                    <>
+                                        <strong>{card.c.ability.name}</strong>
+                                        <p>{card.c.ability.text}</p>
+                                    </>
+                                ) : <p class="cr-pending">Not chosen yet.</p>}
+                            </section>
+                        </div>
+                    </div>
+                </template>
+            </li>
+        ))}
+    </ul>
+
+    <dialog class="cr-dossier" aria-labelledby="cr-dossier-title">
+        <div class="cr-dossier-inner">
+            <div class="cr-dossier-bar">
+                <span class="cr-label cr-dossier-meta"></span>
+                <button type="button" class="cr-close" autofocus aria-label="Close dossier">
+                    <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 3l12 12M15 3L3 15" /></svg>
+                </button>
+            </div>
+            <div class="cr-dossier-body"></div>
+            <div class="cr-dossier-nav">
+                <button type="button" class="cr-prev"><span aria-hidden="true">←</span> <span class="cr-prev-name"></span></button>
+                <span class="cr-label cr-dossier-count" aria-live="polite"></span>
+                <button type="button" class="cr-next"><span class="cr-next-name"></span> <span aria-hidden="true">→</span></button>
+            </div>
+        </div>
+    </dialog>
+</div>
+
+<script>
+    let cleanup: (() => void) | undefined;
+    function initialize() {
+        cleanup?.();
+        const root = document.querySelector<HTMLElement>('.cr');
+        const dialog = root?.querySelector<HTMLDialogElement>('dialog.cr-dossier');
+        if (!root || !dialog || typeof dialog.showModal !== 'function') return;
+        const controller = new AbortController();
+        const { signal } = controller;
+        const cards = Array.from(root.querySelectorAll<HTMLLIElement>('.cr-card'));
+        const body = dialog.querySelector<HTMLElement>('.cr-dossier-body')!;
+        const meta = dialog.querySelector<HTMLElement>('.cr-dossier-meta')!;
+        const counter = dialog.querySelector<HTMLElement>('.cr-dossier-count')!;
+        const previous = dialog.querySelector<HTMLButtonElement>('.cr-prev')!;
+        const next = dialog.querySelector<HTMLButtonElement>('.cr-next')!;
+        const closeButton = dialog.querySelector<HTMLButtonElement>('.cr-close')!;
+        const pad = (n: number) => String(n).padStart(2, '0');
+        let current: HTMLLIElement | undefined;
+        let opener: HTMLElement | undefined;
+        let previousOverflow = '';
+
+        function show(card: HTMLLIElement) {
+            current = card;
+            const template = card.querySelector<HTMLTemplateElement>('template.cr-template')!;
+            body.replaceChildren(template.content.cloneNode(true));
+            const index = cards.indexOf(card);
+            const before = cards[(index - 1 + cards.length) % cards.length];
+            const after = cards[(index + 1) % cards.length];
+            meta.textContent = card.dataset.meta || '';
+            counter.textContent = `${pad(index + 1)} / ${pad(cards.length)}`;
+            previous.querySelector('.cr-prev-name')!.textContent = before.dataset.name || '';
+            next.querySelector('.cr-next-name')!.textContent = after.dataset.name || '';
+            previous.hidden = next.hidden = cards.length < 2;
+            dialog!.scrollTop = 0;
+            if (dialog!.open && !dialog!.contains(document.activeElement)) closeButton.focus({ preventScroll: true });
+        }
+        function open(card: HTMLLIElement, from: HTMLElement) {
+            if (!dialog!.open) {
+                opener = from;
+                previousOverflow = document.documentElement.style.overflow;
+                document.documentElement.style.overflow = 'hidden';
+                show(card);
+                dialog!.showModal();
+            } else {
+                show(card);
+            }
+        }
+        function move(step: number) {
+            if (!current) return;
+            show(cards[(cards.indexOf(current) + step + cards.length) % cards.length]);
+        }
+
+        root.addEventListener('click', event => {
+            const trigger = (event.target as Element).closest<HTMLElement>('[data-open]');
+            if (!trigger || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+            const card = document.getElementById(trigger.dataset.open || '');
+            if (!(card instanceof HTMLLIElement)) return;
+            event.preventDefault();
+            open(card, trigger);
+        }, { signal });
+        previous.addEventListener('click', () => move(-1), { signal });
+        next.addEventListener('click', () => move(1), { signal });
+        closeButton.addEventListener('click', () => dialog.close(), { signal });
+        dialog.addEventListener('click', event => { if (event.target === dialog) dialog.close(); }, { signal });
+        dialog.addEventListener('keydown', event => {
+            if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
+                event.preventDefault(); move(event.key === 'ArrowLeft' ? -1 : 1);
+            }
+            if (event.key === 'Tab') {
+                const controls = Array.from(dialog.querySelectorAll<HTMLElement>('a[href], button')).filter(control => !control.hidden && control.offsetParent !== null);
+                const first = controls[0];
+                const last = controls[controls.length - 1];
+                if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last.focus(); }
+                else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first.focus(); }
+            }
+        }, { signal });
+        dialog.addEventListener('close', () => {
+            document.documentElement.style.overflow = previousOverflow;
+            body.replaceChildren();
+            if (opener?.isConnected) opener.focus({ preventScroll: true });
+            current = undefined;
+            opener = undefined;
+        }, { signal });
+
+        // A link to /<crew page>/#crew-<name> opens that dossier.
+        const linked = location.hash && document.getElementById(decodeURIComponent(location.hash.slice(1)));
+        if (linked instanceof HTMLLIElement && root.contains(linked)) open(linked, linked.querySelector<HTMLElement>('.cr-portrait')!);
+
+        cleanup = () => {
+            if (dialog.open) { dialog.close(); document.documentElement.style.overflow = previousOverflow; }
+            controller.abort();
+        };
+    }
+    document.addEventListener('astro:page-load', initialize);
+    document.addEventListener('astro:before-swap', () => cleanup?.());
+</script>
+
+<style is:global>
+    /* Everything is prefixed .cr: the dossier is cloned from <template>, outside Astro's scoped styles.
+       Visual language matches ScoundrelGallery (.sc). */
+    .cr { --cr-ease: cubic-bezier(.22, .61, .36, 1); display: flex; flex-direction: column; gap: 40px; margin-top: 8px; }
+    .cr.cr ul { margin: 0; padding: 0; list-style: none; }
+    .cr.cr li { margin: 0; padding: 0; }
+    .cr.cr li::before, .cr.cr li::marker { content: none; }
+    .cr.cr a:not(.cr-link) { color: inherit; text-decoration: none; }
+    .cr.cr dl, .cr.cr dt, .cr.cr dd { text-align: left; }
+    .cr.cr dt { float: none; width: auto; margin: 0; white-space: nowrap; font-weight: 400; }
+    .cr.cr .cr-label { margin: 0; font-family: var(--font-label, ui-monospace, monospace); font-size: 1.2rem; font-weight: 400; letter-spacing: .12em; line-height: 1.5; text-transform: uppercase; color: var(--color-secondary-text); }
+    .cr .cr-h2 { margin: 0; font-family: var(--font-heading), Georgia, serif; font-size: 4rem; font-weight: 700; line-height: 1.05; color: var(--color-heading); }
+    .cr-section { display: flex; flex-direction: column; gap: 16px; }
+    .cr-section-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 24px; }
+    .cr .is-pending, .cr .cr-pending { color: var(--color-secondary-text); font-style: italic; }
+    .cr .cr-pending { margin: 0; font-family: var(--font-body), Georgia, serif; font-size: 1.6rem; }
+
+    /* Crew sheet */
+    .cr-sheet { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1px; margin: 0; background: var(--color-border); border: 1px solid var(--color-border); }
+    .cr-sheet-item { display: flex; flex-direction: column; gap: 8px; padding: 16px 18px; background: var(--color-panel); }
+    .cr-sheet-item dd { margin: 0; font-family: var(--font-body), Georgia, serif; font-size: 1.9rem; font-weight: 600; line-height: 1.2; color: var(--color-heading); }
+    .cr-sheet-item dd.is-pending { font-weight: 400; }
+
+    /* Dots */
+    .cr-dots { display: inline-flex; gap: 4px; }
+    .cr-dot { width: 10px; height: 10px; border-radius: 50%; box-sizing: border-box; border: 1px solid var(--color-border); }
+    .cr-dot.is-on { background: var(--color-heading); border-color: var(--color-heading); }
+
+    /* Who to call */
+    .cr-cover { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1px; background: var(--color-border); border: 1px solid var(--color-border); }
+    .cr-cover-group { display: flex; flex-direction: column; gap: 4px; padding: 16px 18px; background: var(--color-panel); }
+    .cr.cr .cr-cover-name { margin-bottom: 6px; font-weight: 600; letter-spacing: .18em; }
+    .cr-cover-row { display: grid; grid-template-columns: 80px max-content minmax(0, 1fr); align-items: center; gap: 14px; min-height: 32px; border-top: 1px solid var(--color-border); }
+    .cr-cover-action { font-family: var(--font-body), Georgia, serif; font-size: 1.7rem; font-weight: 600; color: var(--color-heading); }
+    .cr-cover-row.is-empty .cr-cover-action { font-weight: 400; color: var(--color-secondary-text); }
+    .cr.cr .cr-cover-who { font-size: 1.1rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+    /* Cards */
+    .cr-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(max(220px, calc((100% - 3 * 24px) / 4)), 1fr)); gap: 24px; margin: 0; padding: 0; list-style: none; }
+    .cr-card { display: flex; flex-direction: column; min-width: 0; background: var(--color-panel); border: 1px solid var(--color-border); scroll-margin-top: 96px; }
+    .cr-portrait { position: relative; display: block; aspect-ratio: 2 / 3; overflow: hidden; background: var(--color-panel-hover); cursor: zoom-in; }
+    .cr-portrait img { position: absolute; inset: 0; display: block; width: 100%; height: 100%; object-fit: cover; filter: grayscale(1) contrast(1.08) brightness(.9); transition: filter 1.2s var(--cr-ease), transform 2.4s var(--cr-ease); }
+    .cr-card:hover .cr-portrait img, .cr-portrait:focus-visible img { filter: none; transform: scale(1.03); }
+    .cr-silhouette { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; color: var(--color-border); }
+    .cr-silhouette svg { width: 70%; height: auto; }
+    .cr-plate { position: absolute; left: 0; right: 0; bottom: 0; height: 44px; box-sizing: border-box; padding: 0 12px; display: flex; align-items: center; justify-content: space-between; gap: 8px; background: var(--color-darkmode); border-top: 1px solid var(--color-border); font-family: var(--font-label, ui-monospace, monospace); font-size: 1.1rem; letter-spacing: .16em; text-transform: uppercase; color: var(--color-secondary-text); }
+    .cr-info { flex: 1; display: flex; flex-direction: column; gap: 10px; padding: 18px 18px 20px; border-top: 1px solid var(--color-border); }
+    .cr.cr .cr-kicker { font-size: 1.1rem; letter-spacing: .16em; }
+    .cr .cr-name { margin: 0; font-family: var(--font-heading), Georgia, serif; font-size: 3rem; font-weight: 700; line-height: 1.05; color: var(--color-heading); }
+    .cr-blurb { margin: 0; font-family: var(--font-body), Georgia, serif; font-size: 1.6rem; line-height: 1.5; color: var(--color-text); }
+    .cr-top { margin-top: auto !important; padding-top: 14px !important; border-top: 1px solid var(--color-border); display: flex; flex-direction: column; gap: 6px; }
+    .cr-top li { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+    .cr-top .cr-label { color: var(--color-heading); }
+
+    /* Tags (same as the Scoundrels page) */
+    .cr-tag { flex: none; width: 64px; padding: 5px 0; text-align: center; font-family: var(--font-label, ui-monospace, monospace); font-size: 1.1rem; font-weight: 600; letter-spacing: .14em; line-height: 1.2; text-transform: uppercase; border: 1px solid var(--color-border); color: var(--color-heading); }
+    .cr-tag.is-friend { background: var(--color-heading); border-color: var(--color-heading); color: var(--color-darkmode); }
+
+    /* Dossier */
+    .cr-dossier { width: 100%; max-width: none; height: 100%; max-height: none; margin: 0; padding: 0; border: 0; background: color-mix(in srgb, var(--color-darkmode) 97%, transparent); color: var(--color-text); overflow-y: auto; }
+    .cr-dossier::backdrop { background: rgb(0 0 0 / .5); }
+    .cr-dossier[open] { animation: cr-fade .35s ease-out; }
+    .cr-dossier-inner { max-width: 1180px; margin: 0 auto; padding: 24px 24px 48px; box-sizing: border-box; display: flex; flex-direction: column; gap: 20px; }
+    .cr-dossier-bar { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-bottom: 12px; border-bottom: 1px solid var(--color-border); }
+    .cr-close { width: 44px; height: 44px; flex: none; display: flex; align-items: center; justify-content: center; padding: 0; border: 1px solid var(--color-border); border-radius: 0; background: transparent; color: var(--color-heading); cursor: pointer; }
+    .cr-close:hover { border-color: var(--color-heading); }
+    .cr-d { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 32px 40px; }
+    .cr-d-side { flex: 1 1 300px; max-width: 380px; min-width: 0; display: flex; flex-direction: column; gap: 20px; }
+    .cr-d-portrait { position: relative; margin: 0; aspect-ratio: 2 / 3; overflow: hidden; background: var(--color-panel-hover); border: 1px solid var(--color-border); }
+    .cr-d-portrait img { display: block; width: 100%; height: 100%; object-fit: cover; animation: cr-develop 1.6s var(--cr-ease); }
+    .cr-d-ties { display: flex; flex-direction: column; gap: 10px; }
+    .cr.cr .cr-d-h3 { margin: 0; font-weight: 600; letter-spacing: .18em; }
+    .cr-tie { display: flex; align-items: center; gap: 12px; padding: 12px 14px; background: var(--color-panel); border: 1px solid var(--color-border); }
+    .cr-tie-text { display: flex; flex-direction: column; gap: 2px; min-width: 0; font-family: var(--font-body), Georgia, serif; font-size: 1.8rem; color: var(--color-heading); }
+    .cr.cr .cr-tie-text .cr-label { font-size: 1.1rem; }
+    .cr-link { color: var(--ghost-accent-color); text-decoration: underline; text-underline-offset: .18em; }
+    .cr-link:hover { color: var(--blades-accent-hover, var(--ghost-accent-color)); }
+    .cr-d-text { flex: 999 1 480px; min-width: 0; display: flex; flex-direction: column; gap: 22px; }
+    .cr-d-head { display: flex; flex-direction: column; gap: 10px; }
+    .cr.cr .cr-d-head .cr-kicker { font-size: 1.3rem; letter-spacing: .18em; }
+    .cr .cr-d-name { margin: 0; font-family: var(--font-heading), Georgia, serif; font-size: clamp(4rem, 6vw, 6.4rem); font-weight: 700; line-height: 1; color: var(--color-heading); }
+    .cr-d-blurb { margin: 6px 0 0; font-family: var(--font-body), Georgia, serif; font-size: 2rem; line-height: 1.6; color: var(--color-text); }
+    .cr-d-facts { display: grid; grid-template-columns: max-content minmax(0, 1fr); margin: 0; border-top: 1px solid var(--color-border); }
+    .cr-d-facts dt { padding: 12px 24px 12px 0; border-bottom: 1px solid var(--color-border); }
+    .cr-d-facts dd { margin: 0; padding: 12px 0; border-bottom: 1px solid var(--color-border); font-family: var(--font-body), Georgia, serif; font-size: 1.8rem; color: var(--color-heading); }
+    .cr-attrs { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 1px; margin-top: 12px; background: var(--color-border); border: 1px solid var(--color-border); }
+    .cr-attr { display: flex; flex-direction: column; gap: 6px; padding: 14px 16px 16px; background: var(--color-panel); }
+    .cr-attr-head { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; padding-bottom: 8px; border-bottom: 1px solid var(--color-border); font-family: var(--font-heading), Georgia, serif; font-size: 2.4rem; font-weight: 700; color: var(--color-heading); }
+    .cr-attr-rating { font-family: var(--font-label, ui-monospace, monospace); font-size: 2rem; }
+    .cr-action { display: flex; align-items: center; justify-content: space-between; gap: 10px; min-height: 30px; font-family: var(--font-body), Georgia, serif; font-size: 1.7rem; color: var(--color-heading); }
+    .cr-action .cr-dot { width: 12px; height: 12px; }
+    .cr-action.is-empty { color: var(--color-secondary-text); }
+    .cr-d-ability { display: flex; flex-direction: column; gap: 8px; padding: 16px 18px; background: var(--color-panel); border: 1px solid var(--color-border); }
+    .cr-d-ability strong { font-family: var(--font-heading), Georgia, serif; font-size: 2.6rem; line-height: 1.1; color: var(--color-heading); }
+    .cr-d-ability p { margin: 0; font-family: var(--font-body), Georgia, serif; font-size: 1.6rem; line-height: 1.5; color: var(--color-text); }
+    .cr-dossier-nav { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding-top: 8px; }
+    .cr-dossier-nav button { min-height: 44px; padding: 0 16px; border: 1px solid var(--color-border); border-radius: 0; background: transparent; color: var(--color-heading); font-family: var(--font-label, ui-monospace, monospace); font-size: 1.2rem; letter-spacing: .14em; text-transform: uppercase; cursor: pointer; }
+    .cr-dossier-nav button:hover { border-color: var(--color-heading); }
+    .cr-dossier-nav button[hidden] { visibility: hidden; display: inline-block; }
+
+    @keyframes cr-fade { from { opacity: 0; } to { opacity: 1; } }
+    @keyframes cr-develop { from { filter: grayscale(1) brightness(.8); } to { filter: none; } }
+    @media (prefers-reduced-motion: reduce) {
+        .cr-portrait img { transition: filter .3s linear; }
+        .cr-card:hover .cr-portrait img, .cr-portrait:focus-visible img { transform: none; }
+        .cr-dossier[open], .cr-d-portrait img { animation: none; }
+    }
+</style>

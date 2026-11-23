@@ -1,0 +1,16 @@
+name: Hop-To
+playbook: Lurk
+campaigns: [blades-in-the-dark, rite-and-riot]
+player: Steve
+concept: A vaudeville entertainer who just missed the big break. Foppish, snarky, main-character energy on occasion, and a very ugly dark side.
+personality: Reckless, irreverent, honorable
+heritage: Akoros
+background: Underworld
+vice: Fine art · Maestro Helleren, Spirecarden Theatre, Whitecrown
+look: null
+actions: { prowl: 2, finesse: 1, hunt: 1, tinker: 1, consort: 1, skirmish: 1 }
+ability:
+  name: Infiltrator
+  text: Quality and Tier never reduce Hop-To’s effect when getting past security — locks, safes, elite guards.
+friend: { name: Roslyn Kellis, title: Noble }
+rival: { name: Darmot, title: Bluecoats }
