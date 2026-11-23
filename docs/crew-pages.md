@@ -39,10 +39,12 @@ Added 2026-11-22. One Crew page per Blades campaign, next to its Scoundrels page
 
 ## Open items
 
-- Portraits: none yet. Add `image`, `width`, `height` to a character file (2:3), put the file in
+- Portraits: none yet (the placeholder silhouette is inline SVG, no upload). Add `image`, `width`, `height`
+  to a character file (2:3), put the file in
   `public/assets/images/…`, then `pnpm media:prepare` / `pnpm media:upload` as usual.
 - Sparks: playbook starting dots only; heritage, ability, friend/rival TBD.
 - Tide: played by Helmcamp.
 - Pilot crew type, lair and tier: not decided.
 - Hop-To and Luna Matahari play in both campaigns (pilot is the warm-up for the one-shot). Jackie and Scott will too, once their sheets exist.
 - Look and portraits for everyone.
+- `scripts/prepare-media.py` now also scans `.yaml`/`.yml` files, so portraits referenced in character files get prepared and uploaded.
