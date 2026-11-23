@@ -37,7 +37,9 @@ const dots = (n: number) => [1, 2, 3, 4].map(i => i <= n);
 const dossierNames = new Set((scoundrels?.data.scoundrels ?? []).map(e => e.name));
 const dossierHref = (name: string) => scoundrels && dossierNames.has(name) ? `${getAssetUrl(`/${scoundrels.id}/`)}#scoundrel-${slug(name)}` : null;
 
-const sorted = [...characters].sort((a, b) => a.name.localeCompare(b.name));
+// The alias, when set, is the name used everywhere except the full-name line in the dossier.
+const callName = (c: Character) => c.alias ?? c.name;
+const sorted = [...characters].sort((a, b) => callName(a).localeCompare(callName(b)));
 const cards = sorted.map((c, i) => {
     const num = String(i + 1).padStart(2, '0');
     const attributes = ATTRIBUTES.map(a => ({
@@ -55,11 +57,12 @@ const cards = sorted.map((c, i) => {
         c.rival && { kind: 'rival', tag: 'Rival', ...c.rival, href: dossierHref(c.rival.name) },
     ].filter(Boolean) as { kind: string; tag: string; name: string; title: string; href: string | null }[];
     const facts = [
+        ...(c.alias ? [['Full name', c.name]] : []),
         ['Played by', c.player], ['Heritage', c.heritage], ['Background', c.background],
         ['Vice · Purveyor', c.vice], ['Personality', c.personality], ['Look', c.look],
     ].map(([label, value]) => ({ label, value }));
     return {
-        c, num, id: `crew-${slug(c.name)}`, image: c.image ? getAssetUrl(c.image) : null,
+        c, num, name: callName(c), id: `crew-${slug(callName(c))}`, image: c.image ? getAssetUrl(c.image) : null,
         kicker: [c.playbook, c.player, c.draft ? 'Draft' : null].filter(Boolean).join(' · '),
         tagline: TAGLINES[c.playbook], blurb: c.concept ?? TAGLINES[c.playbook],
         meta: `Dossier · No. ${num} · ${c.playbook}`, attributes, top, ties, facts,
@@ -70,7 +73,7 @@ const coverage = ATTRIBUTES.map(a => ({
     name: a.name,
     rows: a.actions.map(action => {
         const best = Math.max(0, ...sorted.map(c => rating(c, action)));
-        return { name: title(action), best, who: best ? sorted.filter(c => rating(c, action) === best).map(c => c.name).join(', ') : 'Nobody yet' };
+        return { name: title(action), best, who: best ? sorted.filter(c => rating(c, action) === best).map(callName).join(', ') : 'Nobody yet' };
     }),
 }));
 
@@ -125,8 +128,8 @@ const cardSizes = 'auto, (max-width: 560px) 100vw, (max-width: 1100px) 50vw, 300
     <h2 class="cr-h2" id="cr-gallery-title">The Scoundrels</h2>
     <ul class="cr-grid" aria-labelledby="cr-gallery-title">
         {cards.map(card => (
-            <li class="cr-card" id={card.id} data-name={card.c.name} data-meta={card.meta}>
-                <a class="cr-portrait" href={`#${card.id}`} data-open={card.id} aria-label={`Open dossier: ${card.c.name}`}>
+            <li class="cr-card" id={card.id} data-name={card.name} data-meta={card.meta}>
+                <a class="cr-portrait" href={`#${card.id}`} data-open={card.id} aria-label={`Open dossier: ${card.name}`}>
                     {card.image ? (
                         <img src={card.image} alt="" width={card.c.width} height={card.c.height} sizes={cardSizes} loading="lazy" decoding="async" />
                     ) : (
@@ -139,7 +142,7 @@ const cardSizes = 'auto, (max-width: 560px) 100vw, (max-width: 1100px) 50vw, 300
                 </a>
                 <div class="cr-info">
                     <p class="cr-label cr-kicker">{card.kicker}</p>
-                    <h3 class="cr-name">{card.c.name}</h3>
+                    <h3 class="cr-name">{card.name}</h3>
                     <p class="cr-blurb">{card.blurb}</p>
                     {card.top.length > 0 && (
                         <ul class="cr-top">
@@ -160,9 +163,9 @@ const cardSizes = 'auto, (max-width: 560px) 100vw, (max-width: 1100px) 50vw, 300
                         <div class="cr-d-side">
                             <figure class="cr-d-portrait">
                                 {card.image ? (
-                                    <img src={card.image} alt={`Portrait of ${card.c.name}`} width={card.c.width} height={card.c.height} sizes="(max-width: 860px) 100vw, 380px" />
+                                    <img src={card.image} alt={`Portrait of ${card.name}`} width={card.c.width} height={card.c.height} sizes="(max-width: 860px) 100vw, 380px" />
                                 ) : (
-                                    <span class="cr-silhouette" role="img" aria-label={`Portrait of ${card.c.name} (pending)`}>
+                                    <span class="cr-silhouette" role="img" aria-label={`Portrait of ${card.name} (pending)`}>
                                         <svg viewBox="0 0 200 300" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2"><circle cx="100" cy="112" r="38" /><path d="M30 262c6-52 36-80 70-80s64 28 70 80" /></svg>
                                     </span>
                                 )}
@@ -185,7 +188,7 @@ const cardSizes = 'auto, (max-width: 560px) 100vw, (max-width: 1100px) 50vw, 300
                         <div class="cr-d-text">
                             <div class="cr-d-head">
                                 <p class="cr-label cr-kicker">{card.c.playbook} · {card.tagline}{card.c.draft ? ' · Draft' : ''}</p>
-                                <h2 class="cr-d-name" id="cr-dossier-title">{card.c.name}</h2>
+                                <h2 class="cr-d-name" id="cr-dossier-title">{card.name}</h2>
                                 {card.c.concept && <p class="cr-d-blurb">{card.c.concept}</p>}
                             </div>
                             <dl class="cr-d-facts">
@@ -378,7 +381,10 @@ const cardSizes = 'auto, (max-width: 560px) 100vw, (max-width: 1100px) 50vw, 300
     .cr-cover { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1px; background: var(--color-border); border: 1px solid var(--color-border); }
     .cr-cover-group { display: flex; flex-direction: column; gap: 4px; padding: 16px 18px; background: var(--color-panel); }
     .cr.cr .cr-cover-name { margin-bottom: 6px; font-weight: 600; letter-spacing: .18em; }
-    .cr-cover-row { display: grid; grid-template-columns: 80px max-content minmax(0, 1fr); align-items: center; gap: 14px; min-height: 32px; border-top: 1px solid var(--color-border); }
+    /* The list owns the columns and each row borrows them (subgrid), so the action column is as
+       wide as the longest action in the group ("Command", "Skirmish") and the rows stay aligned. */
+    .cr-cover-group > ul { display: grid; grid-template-columns: max-content max-content minmax(0, 1fr); row-gap: 4px; margin: 0; padding: 0; list-style: none; }
+    .cr-cover-row { display: grid; grid-column: 1 / -1; grid-template-columns: subgrid; align-items: center; column-gap: 14px; min-height: 32px; border-top: 1px solid var(--color-border); }
     .cr-cover-action { font-family: var(--font-body), Georgia, serif; font-size: 1.7rem; font-weight: 600; color: var(--color-heading); }
     .cr-cover-row.is-empty .cr-cover-action { font-weight: 400; color: var(--color-secondary-text); }
     .cr.cr .cr-cover-who { font-size: 1.1rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }

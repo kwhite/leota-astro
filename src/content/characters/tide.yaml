@@ -1,11 +1,12 @@
-name: Tide
+name: Lucas Whitaker
+alias: Tide
 playbook: Hound
 campaigns: [blades-in-the-dark]
 player: Helmcamp
 concept: null
 personality: null
 heritage: Skovlan
-background: Blood culler
+background: Blood Culler
 vice: Stupor (fighting) · Helene, Silkshore
 look: null
 actions: { hunt: 2, survey: 1, study: 1, finesse: 1, prowl: 1, command: 1 }

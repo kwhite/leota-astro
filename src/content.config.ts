@@ -117,8 +117,10 @@ const tie = z.object({ name: z.string(), title: z.string() }).nullable().default
 const characters = defineCollection({
   loader: glob({ pattern: '**/[^_]*.{yaml,yml}', base: './src/content/characters' }),
   schema: z.object({
-    // The name the table uses: the alias if the player gave one, otherwise the character's name.
+    // The character's full name, kept on record in their dossier.
     name: z.string(),
+    // The shorter name the table uses. Cards, headings and links use it when set, else `name`.
+    alias: z.string().nullable().default(null),
     playbook: z.enum(['Cutter', 'Hound', 'Leech', 'Lurk', 'Slide', 'Spider', 'Whisper']),
     campaigns: z.array(z.enum(campaignIds)).min(1),
     player: z.string().nullable().default(null),
