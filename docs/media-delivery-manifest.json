@@ -2,9 +2,9 @@
   "version": 2,
   "pillow": "13.0.0",
   "webp": "1.6.0",
-  "sourceBytes": 702985494,
-  "deliveryBytes": 166931499,
-  "variantBytes": 192868208,
+  "sourceBytes": 719926866,
+  "deliveryBytes": 169985677,
+  "variantBytes": 197511788,
   "assets": [
     {
       "source": "/assets/files/2026/02/Mirror-Mirror---Intro-Sequence-2.pdf",
@@ -28242,6 +28242,78 @@
       ]
     },
     {
+      "source": "/assets/images/2026/11/augus.png",
+      "delivery": "/assets/images/2026/11/augus.webp",
+      "sourceSha256": "09d525a862092fe0ce734ca3d235d965b5ce341d3ef3fe1253bb87cd93a2c84a",
+      "deliverySha256": "c9a1f1623ea1b5d53d85a9ec90e581bd6bbd077ad497fd0bfd40dc295c520683",
+      "sourceBytes": 2463643,
+      "deliveryBytes": 441026,
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "encoder": "cwebp",
+        "method": 6,
+        "quality": 95,
+        "sharpYuv": true
+      },
+      "status": "converted",
+      "reason": "quality 95 sharp-YUV artwork",
+      "usedIn": [
+        "src/content/pages/rite-and-riot-scoundrels.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/11/augus.w320.webp",
+          "deliverySha256": "f67892f737b49537ec8651ce8cf75b05d14812a098b5cf390d28a48fd4bd0bc4",
+          "deliveryBytes": 58424,
+          "dimensions": [
+            320,
+            480
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/augus.w640.webp",
+          "deliverySha256": "28d76badc9315695be72743c10c1d5bfd4a23b1e457711a6308834e5719e8901",
+          "deliveryBytes": 193556,
+          "dimensions": [
+            640,
+            960
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/augus.w960.webp",
+          "deliverySha256": "ac43b57e851460c096e05000a00d2d7ac8a273949d3bb10d60530f1c60f26dd3",
+          "deliveryBytes": 389488,
+          "dimensions": [
+            960,
+            1440
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        }
+      ]
+    },
+    {
       "source": "/assets/images/2026/11/bazso-baz.png",
       "delivery": "/assets/images/2026/11/bazso-baz.webp",
       "sourceSha256": "0b90552f76e1fa255932815713d279ce2c58f7fb97241433e258306d0017d15c",
@@ -28615,7 +28687,9 @@
       "status": "retained",
       "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
       "usedIn": [
+        "src/content/pages/doskvol-crew.md",
         "src/content/pages/doskvol-scoundrels.md",
+        "src/content/pages/rite-and-riot-crew.md",
         "src/content/pages/rite-and-riot-scoundrels.md",
         "src/content/pages/rite-and-riot.md",
         "src/pages/blades-in-the-dark.astro"
@@ -28901,6 +28975,78 @@
       ]
     },
     {
+      "source": "/assets/images/2026/11/hop-to.png",
+      "delivery": "/assets/images/2026/11/hop-to.webp",
+      "sourceSha256": "16e08a33ec7cb8d9c2d0b342f8e5a88c73192bfe936f96e12bd2d873bf517199",
+      "deliverySha256": "9d9199373a5eaf0ad7a0a3983327a58cbe09cb0b1469bae5c8afcbc36d9e56a7",
+      "sourceBytes": 2554657,
+      "deliveryBytes": 507042,
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "encoder": "cwebp",
+        "method": 6,
+        "quality": 95,
+        "sharpYuv": true
+      },
+      "status": "converted",
+      "reason": "quality 95 sharp-YUV artwork",
+      "usedIn": [
+        "src/content/characters/hop-to.yaml"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/11/hop-to.w320.webp",
+          "deliverySha256": "837748f99b2bbfddb3d58357b2fb6350f0b8754b09b9b02f713bbf4c63f08424",
+          "deliveryBytes": 74242,
+          "dimensions": [
+            320,
+            480
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/hop-to.w640.webp",
+          "deliverySha256": "2736a8227c1ca20d25ca737dcd082092cebd89cc6c5116a76810ceeb5f47b801",
+          "deliveryBytes": 235952,
+          "dimensions": [
+            640,
+            960
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/hop-to.w960.webp",
+          "deliverySha256": "d507713162f948eb02738dc50b9d006759c766cb33d1799956138815a6f9488c",
+          "deliveryBytes": 456410,
+          "dimensions": [
+            960,
+            1440
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        }
+      ]
+    },
+    {
       "source": "/assets/images/2026/11/klyra.png",
       "delivery": "/assets/images/2026/11/klyra.webp",
       "sourceSha256": "2490bcc5455544bd886ddb8e83bd2cef9482778668877861f0edb2c8e03bf0c8",
@@ -28960,6 +29106,78 @@
           "delivery": "/assets/images/2026/11/klyra.w960.webp",
           "deliverySha256": "aa078e9553d96d383e7f89807370b6a70e6fa8806204c5cd36aedd9bf86dc724",
           "deliveryBytes": 423874,
+          "dimensions": [
+            960,
+            1440
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/11/luna.png",
+      "delivery": "/assets/images/2026/11/luna.webp",
+      "sourceSha256": "2dbad1b21e988a859825c43aee9ecad0135169c339957eb7a291ccfa97240b56",
+      "deliverySha256": "43b0e88a17fc75bb11de3421024f0b3e561d4fbeb649862416afc897515e7930",
+      "sourceBytes": 2068339,
+      "deliveryBytes": 334338,
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "encoder": "cwebp",
+        "method": 6,
+        "quality": 95,
+        "sharpYuv": true
+      },
+      "status": "converted",
+      "reason": "quality 95 sharp-YUV artwork",
+      "usedIn": [
+        "src/content/characters/luna-matahari.yaml"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/11/luna.w320.webp",
+          "deliverySha256": "02396418e08879e150efd82bc285c1460e70ccc35efdeec698d726bfc0db5b0e",
+          "deliveryBytes": 60198,
+          "dimensions": [
+            320,
+            480
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/luna.w640.webp",
+          "deliverySha256": "dc020752cfea308346eebbb6671d3939fc64cff62ec088ae55f7f3a7942945fd",
+          "deliveryBytes": 174420,
+          "dimensions": [
+            640,
+            960
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/luna.w960.webp",
+          "deliverySha256": "6623e263f59d178520713ebbf89dc3848631c505657075d2283dc69a9865c711",
+          "deliveryBytes": 306520,
           "dimensions": [
             960,
             1440
@@ -29437,6 +29655,78 @@
       ]
     },
     {
+      "source": "/assets/images/2026/11/riven2.png",
+      "delivery": "/assets/images/2026/11/riven2.webp",
+      "sourceSha256": "711e110c470449c45e67d8728db4e4a80fe4370344da06983cf08bc644c9cfba",
+      "deliverySha256": "1b386728768be7f12a80281f2447d1bd4c8473920839f745dac09f6009ee088e",
+      "sourceBytes": 2622604,
+      "deliveryBytes": 522678,
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "encoder": "cwebp",
+        "method": 6,
+        "quality": 95,
+        "sharpYuv": true
+      },
+      "status": "converted",
+      "reason": "quality 95 sharp-YUV artwork",
+      "usedIn": [
+        "src/content/pages/rite-and-riot-scoundrels.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/11/riven2.w320.webp",
+          "deliverySha256": "9066b01eb846f3418f626dda1a4360773e46e9072e24effb28351a4a9283558f",
+          "deliveryBytes": 73210,
+          "dimensions": [
+            320,
+            480
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/riven2.w640.webp",
+          "deliverySha256": "632842c647b03c6da894864f780c01bab565f2f3690b1b57c7d77227e9bd91b3",
+          "deliveryBytes": 240660,
+          "dimensions": [
+            640,
+            960
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/riven2.w960.webp",
+          "deliverySha256": "54f8de1e2cc98b0e4d17cb0bd5fcabd9069471f3255f217f1ae84110d620cbef",
+          "deliveryBytes": 465414,
+          "dimensions": [
+            960,
+            1440
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        }
+      ]
+    },
+    {
       "source": "/assets/images/2026/11/roslyn-kellis.png",
       "delivery": "/assets/images/2026/11/roslyn-kellis.webp",
       "sourceSha256": "54989bac5c6d94729d088f3643ce24c9fb6f9999f2860373f270f11132baeab8",
@@ -29496,6 +29786,78 @@
           "delivery": "/assets/images/2026/11/roslyn-kellis.w960.webp",
           "deliverySha256": "70c9b272d2541aa7fad377b3aaf6e581ea1a4b736e182178bfab29b5b6c46d85",
           "deliveryBytes": 398536,
+          "dimensions": [
+            960,
+            1440
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/11/seele.png",
+      "delivery": "/assets/images/2026/11/seele.webp",
+      "sourceSha256": "58417fd555f25cc320d6a1eeceaf38661918fe491c9f9c76a3c64a1b751f9559",
+      "deliverySha256": "e72668691f4626c2504cb948ef67976bb81d2f83d0a7abf00de6ef2818ffb456",
+      "sourceBytes": 2077309,
+      "deliveryBytes": 311630,
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "encoder": "cwebp",
+        "method": 6,
+        "quality": 95,
+        "sharpYuv": true
+      },
+      "status": "converted",
+      "reason": "quality 95 sharp-YUV artwork",
+      "usedIn": [
+        "src/content/characters/nora.yaml"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/11/seele.w320.webp",
+          "deliverySha256": "5c029755d581b5afd9195fdc97603bf27b7248b018e14e74fdf4b02ba11411fe",
+          "deliveryBytes": 56030,
+          "dimensions": [
+            320,
+            480
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/seele.w640.webp",
+          "deliverySha256": "3e07e538e476f7274a7a0574be71d7d39f7d9c0e6f03b78a3e3a03fb4394d12f",
+          "deliveryBytes": 171492,
+          "dimensions": [
+            640,
+            960
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/seele.w960.webp",
+          "deliverySha256": "9a589976db15a644e73adc4a50a1e2789b977356b40fae4cb4479040e5a1d4a4",
+          "deliveryBytes": 292164,
           "dimensions": [
             960,
             1440
@@ -29641,6 +30003,150 @@
           "delivery": "/assets/images/2026/11/tessa-brand.w960.webp",
           "deliverySha256": "0ea4bc18263c44bc08e63ead813f921a92fbf94553a1e1f0e5322181ae3172c6",
           "deliveryBytes": 423322,
+          "dimensions": [
+            960,
+            1440
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/11/thea.png",
+      "delivery": "/assets/images/2026/11/thea.webp",
+      "sourceSha256": "af5bf917e07b30c82379272736f698948b99f8c5bf24fe28fe3b12f5b3ee1a93",
+      "deliverySha256": "d73461a53a2e252621a5bbe750c628f1459e55a95577ac7e2afcaafb632e341d",
+      "sourceBytes": 2596530,
+      "deliveryBytes": 487846,
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "encoder": "cwebp",
+        "method": 6,
+        "quality": 95,
+        "sharpYuv": true
+      },
+      "status": "converted",
+      "reason": "quality 95 sharp-YUV artwork",
+      "usedIn": [
+        "src/content/characters/thea-arran.yaml"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/11/thea.w320.webp",
+          "deliverySha256": "c590df6394b6802109127f786c069dcf92d1239589d43f45022a6153e0635979",
+          "deliveryBytes": 70888,
+          "dimensions": [
+            320,
+            480
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/thea.w640.webp",
+          "deliverySha256": "e2e068fccc420e077fb66a5857a89859e65f312dc6c8e51cabab987a5087c692",
+          "deliveryBytes": 227100,
+          "dimensions": [
+            640,
+            960
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/thea.w960.webp",
+          "deliverySha256": "6ded6aca90bb715fd8637a16942789b0ca730cd1a15892a4ebded16c536f3ef2",
+          "deliveryBytes": 434694,
+          "dimensions": [
+            960,
+            1440
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/11/tide.png",
+      "delivery": "/assets/images/2026/11/tide.webp",
+      "sourceSha256": "49409382e95c0d8591598f8030290558c94be57cd062bb8633939236b378f91d",
+      "deliverySha256": "d6718d218ee02025eaff84777adb7e8e2d2c11648034cf98c172302b4df35db9",
+      "sourceBytes": 2558290,
+      "deliveryBytes": 449618,
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "encoder": "cwebp",
+        "method": 6,
+        "quality": 95,
+        "sharpYuv": true
+      },
+      "status": "converted",
+      "reason": "quality 95 sharp-YUV artwork",
+      "usedIn": [
+        "src/content/characters/tide.yaml"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/11/tide.w320.webp",
+          "deliverySha256": "4cf813d2f006976183a181a2407d3de33d25a1232ae3ba0223aee4b68fede8ed",
+          "deliveryBytes": 57940,
+          "dimensions": [
+            320,
+            480
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/tide.w640.webp",
+          "deliverySha256": "06607ff2a5129d51245263baef86ea649922533e9a33ed7e8c505d4c5fc19806",
+          "deliveryBytes": 201526,
+          "dimensions": [
+            640,
+            960
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/tide.w960.webp",
+          "deliverySha256": "fa224ca57e1290b9f55a273c3ad8fdbff4db73a21df206366feeeef60c799bbc",
+          "deliveryBytes": 403252,
           "dimensions": [
             960,
             1440

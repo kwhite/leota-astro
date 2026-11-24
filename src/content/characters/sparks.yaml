@@ -2,7 +2,7 @@ name: Sparks
 playbook: Leech
 campaigns: [blades-in-the-dark, rite-and-riot]
 player: Jackie
-concept: Talented, ambitious and poor, until the mentor who saw her promise stole her work and sank her chances. Nobody respectable will hire her now, and she’s really angry about it.
+concept: Talented, ambitious and poor, she was a sparkcraft prodigy until someone stole her research and her chances for a better life.
 personality: Hides her bitter hopelessness behind a steady work ethic
 heritage: null
 background: Engineer or laborer (leaning)
@@ -10,6 +10,6 @@ vice: Weird · purveyor TBD
 look: null
 actions: { tinker: 2, wreck: 1 }
 actionsNote: Playbook starting dots only. Her four points aren’t set yet.
-ability: null
+abilities: []
 friend: null
 rival: null

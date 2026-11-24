@@ -1,16 +1,20 @@
-name: Nora
+name: Seele
+alias: Nora
 playbook: Whisper
 campaigns: [blades-in-the-dark]
 player: Avery
-concept: Keeps a button collection. Possibly trailed by a ghostly familiar.
+image: /assets/images/2026/11/seele.png
+concept: An eccentric runaway with the power of storms at her fingertips, and a spectral cat at her side.
 personality: Charming, calculating, loyal
-heritage: Tycheros
-background: Labour
+heritage: Tycheros · Seekers
+background: Labour · Servant
 vice: A button collection, taken from the dead (and some living)
 look: null
 actions: { attune: 2, study: 1, survey: 1, prowl: 1, sway: 2 }
-ability:
-  name: Tempest
-  text: Push yourself to call a stroke of lightning down as a weapon, or raise a storm close by — driving rain, roaring wind, heavy fog, frost and snow.
+abilities:
+  - name: Tempest
+    text: Push yourself to call a stroke of lightning down as a weapon, or raise a storm close by — driving rain, roaring wind, heavy fog, frost and snow.
+  - name: Spectral Companion
+    text: You are accompanied by a spectral cat, a ghost bound to you through the ghost field. You can always perceive your cat. Others must successfully Attune to see it. Animals sensitive to the supernatural can detect its presence without a roll.
 friend: { name: Flint, title: Spirit Trafficker }
 rival: { name: Quellyn, title: Witch }

@@ -104,7 +104,7 @@ scoundrels:
   - kind: faction
     faction: "The Wraiths"
     teaser: "An elusive network of masked thieves and spies, as protective of their identities as they are adept at uncovering secrets."
-    status: -1
+    status: 0
     name: "Slate"
     description: "A sophisticated gentleman, daring in his exploits and guarded in his affairs."
     district: "Silkshore"
@@ -114,7 +114,7 @@ scoundrels:
   - kind: friend
     name: "Veldren"
     title: "Psychonaut"
-    of: "Tansy Brine"
+    of: "Sparks"
     description: "An explorer of altered consciousness whose experiments venture beyond ordinary perception."
     district: "Charterhall"
     image: /assets/images/2026/11/veldren.png
@@ -123,7 +123,7 @@ scoundrels:
   - kind: rival
     name: "Eckerd"
     title: "Corpse Thief"
-    of: "Tansy Brine"
+    of: "Sparks"
     description: "A discreet procurer of the dead, supplying bodies to clients who ask few questions."
     district: "Charhollow"
     image: /assets/images/2026/11/eckerd.png
@@ -132,7 +132,7 @@ scoundrels:
   - kind: friend
     name: "Quellyn"
     title: "Witch"
-    of: "Wren Ashcombe"
+    of: "Songbird"
     description: "An accomplished healer and occult practitioner wanted by the Spirit Wardens."
     district: "Six Towers"
     image: /assets/images/2026/11/quellyn.png
@@ -141,10 +141,28 @@ scoundrels:
   - kind: rival
     name: "Flint"
     title: "Spirit Trafficker"
-    of: "Wren Ashcombe"
+    of: "Songbird"
     description: "A calculating black-market merchant whose inventory includes the restless dead."
     district: "Six Towers"
     image: /assets/images/2026/11/flint.png
+    width: 1024
+    height: 1536
+  - kind: friend
+    name: "Augus"
+    title: "Master Architect"
+    of: "Varnish"
+    description: "A master architect whose knowledge of Doskvol's buildings is matched only by his appreciation for their secrets."
+    district: "Charterhall"
+    image: /assets/images/2026/11/augus.png
+    width: 1024
+    height: 1536
+  - kind: rival
+    name: "Riven"
+    title: "Chemist"
+    of: "Varnish"
+    description: "A gifted young chemist whose considerable talents are rivaled by a talent for holding grudges."
+    district: "Charterhall"
+    image: /assets/images/2026/11/riven2.png
     width: 1024
     height: 1536
 ---

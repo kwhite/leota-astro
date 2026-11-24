@@ -1,0 +1,19 @@
+name: Thea Arran
+alias: Varnish
+playbook: Spider
+campaigns: [rite-and-riot]
+player: Skye
+image: /assets/images/2026/11/thea.png
+draft: false
+concept: A skilled restorer and broker of arcane antiquities whose talent for uncovering secrets is matched by her ability to keep them.
+personality: Reckless, eccentric, irreverent
+heritage: Arkoran · South Point Traders
+background: Academic · Spectrologist who manipulates spiritual energies, echos, and ghosts
+vice: Obligation · Circle of the Flame
+look: Slim and strking, favoring flowing Iruvian silks, soft boots, and wide belts
+actions: { tinker: 2, finesse: 1, attune: 1, consort: 2, study: 1 }
+abilities:
+  - name: Foresight
+    text: Twice per score, +1d to a teammate's roll or invoke a flashback without paying Stress.
+friend: { name: Augus, title: Master Architect }
+rival: { name: Riven, title: Chemist }
