@@ -2,9 +2,9 @@
   "version": 2,
   "pillow": "13.0.0",
   "webp": "1.6.0",
-  "sourceBytes": 710668271,
-  "deliveryBytes": 168383049,
-  "variantBytes": 195021642,
+  "sourceBytes": 719960406,
+  "deliveryBytes": 169993701,
+  "variantBytes": 197517942,
   "assets": [
     {
       "source": "/assets/files/2026/02/Mirror-Mirror---Intro-Sequence-2.pdf",
@@ -28975,6 +28975,78 @@
       ]
     },
     {
+      "source": "/assets/images/2026/11/hop-to.png",
+      "delivery": "/assets/images/2026/11/hop-to.webp",
+      "sourceSha256": "16e08a33ec7cb8d9c2d0b342f8e5a88c73192bfe936f96e12bd2d873bf517199",
+      "deliverySha256": "9d9199373a5eaf0ad7a0a3983327a58cbe09cb0b1469bae5c8afcbc36d9e56a7",
+      "sourceBytes": 2554657,
+      "deliveryBytes": 507042,
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "encoder": "cwebp",
+        "method": 6,
+        "quality": 95,
+        "sharpYuv": true
+      },
+      "status": "converted",
+      "reason": "quality 95 sharp-YUV artwork",
+      "usedIn": [
+        "src/content/characters/hop-to.yaml"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/11/hop-to.w320.webp",
+          "deliverySha256": "837748f99b2bbfddb3d58357b2fb6350f0b8754b09b9b02f713bbf4c63f08424",
+          "deliveryBytes": 74242,
+          "dimensions": [
+            320,
+            480
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/hop-to.w640.webp",
+          "deliverySha256": "2736a8227c1ca20d25ca737dcd082092cebd89cc6c5116a76810ceeb5f47b801",
+          "deliveryBytes": 235952,
+          "dimensions": [
+            640,
+            960
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/hop-to.w960.webp",
+          "deliverySha256": "d507713162f948eb02738dc50b9d006759c766cb33d1799956138815a6f9488c",
+          "deliveryBytes": 456410,
+          "dimensions": [
+            960,
+            1440
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        }
+      ]
+    },
+    {
       "source": "/assets/images/2026/11/klyra.png",
       "delivery": "/assets/images/2026/11/klyra.webp",
       "sourceSha256": "2490bcc5455544bd886ddb8e83bd2cef9482778668877861f0edb2c8e03bf0c8",
@@ -29034,6 +29106,78 @@
           "delivery": "/assets/images/2026/11/klyra.w960.webp",
           "deliverySha256": "aa078e9553d96d383e7f89807370b6a70e6fa8806204c5cd36aedd9bf86dc724",
           "deliveryBytes": 423874,
+          "dimensions": [
+            960,
+            1440
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/11/luna.png",
+      "delivery": "/assets/images/2026/11/luna.webp",
+      "sourceSha256": "2dbad1b21e988a859825c43aee9ecad0135169c339957eb7a291ccfa97240b56",
+      "deliverySha256": "43b0e88a17fc75bb11de3421024f0b3e561d4fbeb649862416afc897515e7930",
+      "sourceBytes": 2068339,
+      "deliveryBytes": 334338,
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "encoder": "cwebp",
+        "method": 6,
+        "quality": 95,
+        "sharpYuv": true
+      },
+      "status": "converted",
+      "reason": "quality 95 sharp-YUV artwork",
+      "usedIn": [
+        "src/content/characters/luna-matahari.yaml"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/11/luna.w320.webp",
+          "deliverySha256": "02396418e08879e150efd82bc285c1460e70ccc35efdeec698d726bfc0db5b0e",
+          "deliveryBytes": 60198,
+          "dimensions": [
+            320,
+            480
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/luna.w640.webp",
+          "deliverySha256": "dc020752cfea308346eebbb6671d3939fc64cff62ec088ae55f7f3a7942945fd",
+          "deliveryBytes": 174420,
+          "dimensions": [
+            640,
+            960
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/luna.w960.webp",
+          "deliverySha256": "6623e263f59d178520713ebbf89dc3848631c505657075d2283dc69a9865c711",
+          "deliveryBytes": 306520,
           "dimensions": [
             960,
             1440
@@ -29656,6 +29800,78 @@
       ]
     },
     {
+      "source": "/assets/images/2026/11/seele.png",
+      "delivery": "/assets/images/2026/11/seele.webp",
+      "sourceSha256": "7c6386e5ec244f65ccc0940e108bd282933cd71f9cdb119eb4d9ef5d8ded14fe",
+      "deliverySha256": "8c6322ed2fad46ac08940b552a805f5f785fd87505d48a6b8e2b9e052dca46d6",
+      "sourceBytes": 2110849,
+      "deliveryBytes": 319654,
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "encoder": "cwebp",
+        "method": 6,
+        "quality": 95,
+        "sharpYuv": true
+      },
+      "status": "converted",
+      "reason": "quality 95 sharp-YUV artwork",
+      "usedIn": [
+        "src/content/characters/nora.yaml"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/11/seele.w320.webp",
+          "deliverySha256": "a15a2db988d266c80452af3af731699cb1df1bb11bc95055bc4cf773b39afa9d",
+          "deliveryBytes": 55054,
+          "dimensions": [
+            320,
+            480
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/seele.w640.webp",
+          "deliverySha256": "fece72ff42bfbded756944926ab39e5dd689435afba6a3e0b1bbbb8898809675",
+          "deliveryBytes": 172420,
+          "dimensions": [
+            640,
+            960
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/seele.w960.webp",
+          "deliverySha256": "bc1942fec05f5294937b4480aff8dd5d159d00e6d5a9148f3cbef5e50dc2bb8f",
+          "deliveryBytes": 298366,
+          "dimensions": [
+            960,
+            1440
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        }
+      ]
+    },
+    {
       "source": "/assets/images/2026/11/slate.png",
       "delivery": "/assets/images/2026/11/slate.webp",
       "sourceSha256": "d2d619ddd96959a1bd44bd55ca71825efb4c12a99064dbe486d1645695bd375b",
@@ -29859,6 +30075,78 @@
           "delivery": "/assets/images/2026/11/thea.w960.webp",
           "deliverySha256": "6ded6aca90bb715fd8637a16942789b0ca730cd1a15892a4ebded16c536f3ef2",
           "deliveryBytes": 434694,
+          "dimensions": [
+            960,
+            1440
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/11/tide.png",
+      "delivery": "/assets/images/2026/11/tide.webp",
+      "sourceSha256": "49409382e95c0d8591598f8030290558c94be57cd062bb8633939236b378f91d",
+      "deliverySha256": "d6718d218ee02025eaff84777adb7e8e2d2c11648034cf98c172302b4df35db9",
+      "sourceBytes": 2558290,
+      "deliveryBytes": 449618,
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "encoder": "cwebp",
+        "method": 6,
+        "quality": 95,
+        "sharpYuv": true
+      },
+      "status": "converted",
+      "reason": "quality 95 sharp-YUV artwork",
+      "usedIn": [
+        "src/content/characters/tide.yaml"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/11/tide.w320.webp",
+          "deliverySha256": "4cf813d2f006976183a181a2407d3de33d25a1232ae3ba0223aee4b68fede8ed",
+          "deliveryBytes": 57940,
+          "dimensions": [
+            320,
+            480
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/tide.w640.webp",
+          "deliverySha256": "06607ff2a5129d51245263baef86ea649922533e9a33ed7e8c505d4c5fc19806",
+          "deliveryBytes": 201526,
+          "dimensions": [
+            640,
+            960
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/tide.w960.webp",
+          "deliverySha256": "fa224ca57e1290b9f55a273c3ad8fdbff4db73a21df206366feeeef60c799bbc",
+          "deliveryBytes": 403252,
           "dimensions": [
             960,
             1440

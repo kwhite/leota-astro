@@ -136,7 +136,9 @@ const characters = defineCollection({
     actions: z.partialRecord(z.enum(ACTIONS), z.number().int().min(0).max(4)).default({}),
     // Shown under the action ratings, e.g. when only the starting dots are known.
     actionsNote: z.string().nullable().default(null),
-    ability: z.object({ name: z.string(), text: z.string() }).nullable().default(null),
+    // Special abilities in the order they were taken: the starting one first, then any
+    // bought with playbook advances. Leave empty until one is chosen.
+    abilities: z.array(z.object({ name: z.string(), text: z.string() })).default([]),
     // Linked to the matching dossier on the same campaign's Scoundrels page, if there is one.
     friend: tie,
     rival: tie,

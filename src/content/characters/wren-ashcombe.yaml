@@ -12,8 +12,8 @@ background: Academic — dropped out of spectrology at Charterhall when the tuit
 vice: Stupor · laudanum and lamplight in a back booth of a Silkshore tea house
 look: Ink-stained cuffs, borrowed spectacles, a satchel of annotated ghost-field charts
 actions: { attune: 2, study: 2, survey: 1, consort: 2 }
-ability:
-  name: Ghost Mind
-  text: Always aware of supernatural entities nearby. +1d whenever she gathers information about the supernatural, by any means.
+abilities:
+  - name: Ghost Mind
+    text: Always aware of supernatural entities nearby. +1d whenever she gathers information about the supernatural, by any means.
 friend: { name: Quellyn, title: Witch }
 rival: { name: Flint, title: Spirit Trafficker }

@@ -12,8 +12,8 @@ background: Academic · Spectrologist who manipulates spiritual energies, echos,
 vice: Obligation · Circle of the Flame
 look: Slim and strking, favoring flowing Iruvian silks, soft boots, and wide belts
 actions: { tinker: 2, finesse: 1, attune: 1, consort: 2, study: 1 }
-ability:
-  name: Foresight
-  text: Twice per score, +1d to a teammate's roll or invoke a flashback without paying Stress.
+abilities:
+  - name: Foresight
+    text: Twice per score, +1d to a teammate's roll or invoke a flashback without paying Stress.
 friend: { name: Augus, title: Master Architect }
 rival: { name: Riven, title: Chemist }

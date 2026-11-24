@@ -219,13 +219,13 @@ const cardSizes = 'auto, (max-width: 560px) 100vw, (max-width: 1100px) 50vw, 300
                                 </div>
                             </section>
                             <section class="cr-d-ability" aria-labelledby={`${card.id}-ability`}>
-                                <h3 class="cr-label cr-d-h3" id={`${card.id}-ability`}>Special ability</h3>
-                                {card.c.ability ? (
-                                    <>
-                                        <strong>{card.c.ability.name}</strong>
-                                        <p>{card.c.ability.text}</p>
-                                    </>
-                                ) : <p class="cr-pending">Not chosen yet.</p>}
+                                <h3 class="cr-label cr-d-h3" id={`${card.id}-ability`}>{card.c.abilities.length > 1 ? 'Special abilities' : 'Special ability'}</h3>
+                                {card.c.abilities.length ? card.c.abilities.map((a) => (
+                                    <div class="cr-d-ability-item">
+                                        <strong>{a.name}</strong>
+                                        <p>{a.text}</p>
+                                    </div>
+                                )) : <p class="cr-pending">Not chosen yet.</p>}
                             </section>
                         </div>
                     </div>
@@ -444,8 +444,10 @@ const cardSizes = 'auto, (max-width: 560px) 100vw, (max-width: 1100px) 50vw, 300
     .cr-action { display: flex; align-items: center; justify-content: space-between; gap: 10px; min-height: 30px; font-family: var(--font-body), Georgia, serif; font-size: 1.7rem; color: var(--color-heading); }
     .cr-action .cr-dot { width: 12px; height: 12px; }
     .cr-action.is-empty { color: var(--color-secondary-text); }
-    .cr-d-ability { display: flex; flex-direction: column; gap: 8px; padding: 16px 18px; background: var(--color-panel); border: 1px solid var(--color-border); }
+    .cr-d-ability { display: flex; flex-direction: column; gap: 16px; padding: 16px 18px; background: var(--color-panel); border: 1px solid var(--color-border); }
     .cr-d-ability strong { font-family: var(--font-heading), Georgia, serif; font-size: 2.6rem; line-height: 1.1; color: var(--color-heading); }
+    .cr-d-ability-item { display: flex; flex-direction: column; gap: 8px; }
+    .cr-d-ability-item + .cr-d-ability-item { padding-top: 16px; border-top: 1px solid var(--color-border); }
     .cr-d-ability p { margin: 0; font-family: var(--font-body), Georgia, serif; font-size: 1.6rem; line-height: 1.5; color: var(--color-text); }
     .cr-dossier-nav { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding-top: 8px; }
     .cr-dossier-nav button { min-height: 44px; padding: 0 16px; border: 1px solid var(--color-border); border-radius: 0; background: transparent; color: var(--color-heading); font-family: var(--font-label, ui-monospace, monospace); font-size: 1.2rem; letter-spacing: .14em; text-transform: uppercase; cursor: pointer; }
