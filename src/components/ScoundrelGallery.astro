@@ -2,7 +2,8 @@
 // Blades in the Dark NPC gallery: faction standings, filterable portrait cards and a
 // dossier lightbox. Data comes from the `scoundrels` frontmatter on a pages entry
 // (schema in src/content.config.ts). Entries marked `hidden` are left out entirely, and a
-// faction whose `via` contact is hidden shows no origin until they're revealed. Cards sort by headline, ignoring a leading "The".
+// faction whose `via` contact is hidden shows no origin until they're revealed. Likewise a
+// contact's associations leave out any faction that is hidden. Cards sort by headline, ignoring a leading "The".
 // Without JavaScript the cards still render; portraits link to the full-size image.
 import type { CollectionEntry } from 'astro:content';
 import { getAssetUrl } from '../config';
@@ -11,6 +12,7 @@ type Entry = CollectionEntry<'pages'>['data']['scoundrels'][number];
 interface Props { entries: Entry[]; }
 const { entries: all } = Astro.props;
 const hiddenNames = new Set(all.filter(e => e.hidden).map(e => e.name));
+const hiddenFactions = new Set(all.flatMap(e => (e.hidden && e.kind === 'faction' ? [e.faction] : [])));
 const entries = all.filter(e => !e.hidden);
 
 const LEVELS: Record<string, string> = { '-3': 'War', '-2': 'Hostile', '-1': 'Interfering', '0': 'Neutral', '1': 'Helpful', '2': 'Friendly', '3': 'Allies' };
@@ -48,7 +50,7 @@ const cards = sorted.map((e, i) => {
     }
     return { ...common, kicker: e.title, blurb: e.description, status: null, via: null, origin: null, viaId: null, tag: TAGS[e.kind],
         tie: e.kind === 'contact' ? 'of the crew' : `of ${e.of}`,
-        associations: e.kind === 'contact' ? e.associations.map(a => {
+        associations: e.kind === 'contact' ? e.associations.filter(a => !hiddenFactions.has(a.faction)).map(a => {
             const rep = repByFaction.get(a.faction);
             return { ...a, status: status(a.status, a.faction), rep, repId: rep ? idFor(rep) : null };
         }) : [] };

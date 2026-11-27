@@ -54,6 +54,7 @@ scoundrels:
     height: 1536
   - kind: faction
     faction: "The Ink Rakes"
+    hidden: true
     teaser: "Enterprising journalists and broadsheet publishers who make their living exposing secrets and trafficking in scandal."
     status: 1
     via: "Adelaide Phroaig"
@@ -74,6 +75,7 @@ scoundrels:
     height: 1536
   - kind: faction
     faction: "The Lampblacks"
+    hidden: true
     teaser: "Former lamplighters who turned to organized crime when technological progress rendered their trade obsolete."
     status: -1
     via: "Adelaide Phroaig"

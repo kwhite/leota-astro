@@ -36,6 +36,7 @@ Added 2026-11-22. One Crew page per Blades campaign, next to its Scoundrels page
   Scoundrels entries in `ScoundrelGallery.astro`, so every count, the faction standings, Who to Call and
   dossier numbers only see visible people. Crew-page friend/rival names don't link to a hidden dossier,
   and a faction whose `via` contact is hidden shows no origin ("Via …" / "Direct") at all.
+  It works both ways: a contact's associations leave out any hidden faction.
   The source repo is public, so hidden is for surprises, not secrets.
 - `draft: true` marks GM-drafted characters (Tansy Brine, Wren Ashcombe) until the player signs off.
 
