@@ -17,11 +17,11 @@ scoundrels:
     width: 1200
     height: 1800
     associations:
-      - faction: "The Ink Rakes"
-        note: "Society scandals and profitable headlines."
+      - faction: "The Skovlander Refugees"
+        note: "Adelaide employs displaced people, pays properly, and has refused demands to dismiss them."
         status: 1
-      - faction: "The Lampblacks"
-        note: "Her family’s role in displacing the lamplighters."
+      - faction: "The Ministry of Preservation"
+        note: "An official wanted her public support for some respectable atrocity. She made her refusal spectacularly embarrassing."
         status: -1
   - kind: rival
     name: "Darmot"
@@ -62,6 +62,28 @@ scoundrels:
     description: "An intrepid reporter with a nose for scandal and a talent for asking inconvenient questions."
     district: "The Docks"
     image: /assets/images/2026/11/tessa-brand.png
+    width: 1024
+    height: 1536
+  - kind: faction
+    faction: "The Skovlander Refugees"
+    teaser: "Survivors of the Unity War fighting for rights, livelihoods, and a place in a city that treats them as outsiders."
+    status: 1
+    via: "Adelaide Phroaig"
+    name: "Sergeant Kulcannan"
+    description: "A tough, dedicated Skovlander Home Guard veteran organizing resistance against Imperial rule."
+    district: "Coalridge"
+    image: /assets/images/2026/11/kulcannan.png
+    width: 1024
+    height: 1536
+  - kind: faction
+    faction: "The Ministry of Preservation"
+    teaser: "The powerful Imperial bureaucracy controlling the railways, food supplies, and vital resources that keep Doskvol alive."
+    status: -1
+    via: "Adelaide Phroaig"
+    name: "Lord Dalmore"
+    description: "The Ministry’s commanding executive in Doskvol, wielding control over vital supplies with keen intelligence and unquestioned authority."
+    district: "Charterhall"
+    image: /assets/images/2026/11/dalmore2.png
     width: 1024
     height: 1536
   - kind: friend
@@ -113,7 +135,7 @@ scoundrels:
     image: /assets/images/2026/11/slate.png
     width: 1024
     height: 1536
-  - kind: friend
+  - kind: rival
     name: "Veldren"
     title: "Psychonaut"
     of: "Sparks"
@@ -122,9 +144,19 @@ scoundrels:
     image: /assets/images/2026/11/veldren.png
     width: 1024
     height: 1536
+  - kind: friend
+    name: "Stazia"
+    title: "Apothecary"
+    of: "Sparks"
+    description: "A sharp-eyed young apothecary with a steady hand for remedies and the people who need them."
+    district: "Charterhall"
+    image: /assets/images/2026/11/stazia.png
+    width: 1024
+    height: 1536
   - kind: rival
     name: "Eckerd"
     title: "Corpse Thief"
+    hidden: true
     of: "Sparks"
     description: "A discreet procurer of the dead, supplying bodies to clients who ask few questions."
     district: "Charhollow"

@@ -1,15 +1,17 @@
-name: Sparks
+name: Nelly
+alias: Sparks
 playbook: Leech
 campaigns: [blades-in-the-dark, rite-and-riot]
 player: Jackie
 concept: Talented, ambitious and poor, she was a sparkcraft prodigy until someone stole her research and her chances for a better life.
-personality: Hides her bitter hopelessness behind a steady work ethic
-heritage: null
-background: Engineer or laborer (leaning)
+personality: TBD
+heritage: Akoros
+background: Academic
 vice: Weird · purveyor TBD
 look: null
-actions: { tinker: 2, wreck: 1 }
-actionsNote: Playbook starting dots only. Her four points aren’t set yet.
-abilities: []
-friend: null
-rival: null
+actions: { study: 1, tinker: 2, finesse: 1, prowl: 1, wreck: 2 }
+abilities: 
+  - name: Fortitude
+    text: Expend special armor to resist consequences of fatigue, weakness, or chemical effects, or push yourself when working.
+friend: { name: Stazia, title: Apothecary }
+rival: { name: Veldren, title: Psychonaut }

@@ -8,6 +8,63 @@ campaignSection: scoundrels
 # Card order on the page is alphabetical by headline (faction name for factions,
 # ignoring a leading "The"); the order here doesn't matter. Portraits are 2:3.
 scoundrels:
+  - kind: contact
+    name: "Adelaide Phroaig"
+    title: "Noble · Socialite"
+    description: "A wealthy widow whose social engagements keep the city’s scandal sheets in print."
+    district: "Brightstone"
+    image: /assets/images/2026/11/adelaide-phroaig.jpg
+    width: 1200
+    height: 1800
+    associations:
+      - faction: "The Skovlander Refugees"
+        note: "Adelaide employs displaced people, pays properly, and has refused demands to dismiss them."
+        status: 1
+      - faction: "The Ministry of Preservation"
+        note: "An official wanted her public support for some respectable atrocity. She made her refusal spectacularly embarrassing."
+        status: -1
+  - kind: faction
+    faction: "The Skovlander Refugees"
+    teaser: "Survivors of the Unity War fighting for rights, livelihoods, and a place in a city that treats them as outsiders."
+    status: 1
+    via: "Adelaide Phroaig"
+    name: "Sergeant Kulcannan"
+    description: "A tough, dedicated Skovlander Home Guard veteran organizing resistance against Imperial rule."
+    district: "Coalridge"
+    image: /assets/images/2026/11/kulcannan.png
+    width: 1024
+    height: 1536
+  - kind: faction
+    faction: "The Ministry of Preservation"
+    teaser: "The powerful Imperial bureaucracy controlling the railways, food supplies, and vital resources that keep Doskvol alive."
+    status: -1
+    via: "Adelaide Phroaig"
+    name: "Lord Dalmore"
+    description: "The Ministry’s commanding executive in Doskvol, wielding control over vital supplies with keen intelligence and unquestioned authority."
+    district: "Charterhall"
+    image: /assets/images/2026/11/dalmore2.png
+    width: 1024
+    height: 1536
+  - kind: faction
+    faction: "The Gondoliers"
+    teaser: "An ancient guild of boatmen who navigate Doskvol’s canals and safeguard the city from the horrors beneath its waters."
+    status: 1
+    name: "Eisele"
+    description: "The unflappable keeper of the canals and the ancient secrets beneath them."
+    district: "Silkshore"
+    image: /assets/images/2026/11/eisele.png
+    width: 1024
+    height: 1536
+  - kind: faction
+    faction: "The Hive"
+    teaser: "A powerful syndicate of merchants whose respectable businesses conceal a vast network of illicit trade."
+    status: -1
+    name: "Djera Maha"
+    description: "A self-made merchant magnate who built an empire on the illicit movement of goods."
+    district: "Charterhall"
+    image: /assets/images/2026/11/djera-maha.png
+    width: 1024
+    height: 1536
   - kind: rival
     name: "Casta"
     title: "Bounty Hunter"
@@ -88,6 +145,24 @@ scoundrels:
     description: "A sophisticated gentleman, daring in his exploits and guarded in his affairs."
     district: "Silkshore"
     image: /assets/images/2026/11/slate.png
+    width: 1024
+    height: 1536
+  - kind: rival
+    name: "Veldren"
+    title: "Psychonaut"
+    of: "Sparks"
+    description: "An explorer of altered consciousness whose experiments venture beyond ordinary perception."
+    district: "Charterhall"
+    image: /assets/images/2026/11/veldren.png
+    width: 1024
+    height: 1536
+  - kind: friend
+    name: "Stazia"
+    title: "Apothecary"
+    of: "Sparks"
+    description: "A sharp-eyed young apothecary with a steady hand for remedies and the people who need them."
+    district: "Charterhall"
+    image: /assets/images/2026/11/stazia.png
     width: 1024
     height: 1536
 ---

@@ -2,9 +2,9 @@
   "version": 2,
   "pillow": "13.0.0",
   "webp": "1.6.0",
-  "sourceBytes": 719926866,
-  "deliveryBytes": 169985677,
-  "variantBytes": 197511788,
+  "sourceBytes": 726612675,
+  "deliveryBytes": 171031333,
+  "variantBytes": 199101594,
   "assets": [
     {
       "source": "/assets/files/2026/02/Mirror-Mirror---Intro-Sequence-2.pdf",
@@ -28191,6 +28191,7 @@
       "status": "retained",
       "reason": "existing format, animation, favicon compatibility, or conversion not smaller",
       "usedIn": [
+        "src/content/pages/doskvol-scoundrels.md",
         "src/content/pages/rite-and-riot-scoundrels.md"
       ],
       "variants": [
@@ -28526,6 +28527,79 @@
       ]
     },
     {
+      "source": "/assets/images/2026/11/dalmore2.png",
+      "delivery": "/assets/images/2026/11/dalmore2.webp",
+      "sourceSha256": "4ac2299591f46e90e4c093ee1d919483a0a39075aedafec6569be59417653a32",
+      "deliverySha256": "8638f2e31a5022251b232087fab1e3eed4cb23a50676a9d9e18f39c323026dde",
+      "sourceBytes": 1935565,
+      "deliveryBytes": 260760,
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "encoder": "cwebp",
+        "method": 6,
+        "quality": 95,
+        "sharpYuv": true
+      },
+      "status": "converted",
+      "reason": "quality 95 sharp-YUV artwork",
+      "usedIn": [
+        "src/content/pages/doskvol-scoundrels.md",
+        "src/content/pages/rite-and-riot-scoundrels.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/11/dalmore2.w320.webp",
+          "deliverySha256": "e071affe2cda580d6460fcabf0e7afe0825e64c0222a875e5c118c9cabcba7a7",
+          "deliveryBytes": 50402,
+          "dimensions": [
+            320,
+            480
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/dalmore2.w640.webp",
+          "deliverySha256": "d9a8635fec95d3cf7b2bf77e09a249ed1f432d35871e46ea72565fb8ffce4dc9",
+          "deliveryBytes": 141138,
+          "dimensions": [
+            640,
+            960
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/dalmore2.w960.webp",
+          "deliverySha256": "9b42318ee8dee2028e5c30110d2e40fb2b251eeb4d97e5ed1f96dc1efeb60ab9",
+          "deliveryBytes": 250952,
+          "dimensions": [
+            960,
+            1440
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        }
+      ]
+    },
+    {
       "source": "/assets/images/2026/11/darmot.png",
       "delivery": "/assets/images/2026/11/darmot.webp",
       "sourceSha256": "e00e6acab36d59e5ea45e2ab17a6736078980d9c0050190a31414f5b24e37c21",
@@ -28620,6 +28694,7 @@
       "status": "converted",
       "reason": "quality 95 sharp-YUV artwork",
       "usedIn": [
+        "src/content/pages/doskvol-scoundrels.md",
         "src/content/pages/rite-and-riot-scoundrels.md"
       ],
       "variants": [
@@ -28851,6 +28926,7 @@
       "status": "converted",
       "reason": "quality 95 sharp-YUV artwork",
       "usedIn": [
+        "src/content/pages/doskvol-scoundrels.md",
         "src/content/pages/rite-and-riot-scoundrels.md"
       ],
       "variants": [
@@ -29106,6 +29182,79 @@
           "delivery": "/assets/images/2026/11/klyra.w960.webp",
           "deliverySha256": "aa078e9553d96d383e7f89807370b6a70e6fa8806204c5cd36aedd9bf86dc724",
           "deliveryBytes": 423874,
+          "dimensions": [
+            960,
+            1440
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/2026/11/kulcannan.png",
+      "delivery": "/assets/images/2026/11/kulcannan.webp",
+      "sourceSha256": "83ad2a8676f8f338c2751faf5359edff4530928c01c36d586a48bbe229a606e0",
+      "deliverySha256": "cf10cb218623a67a90a90495b9a8c1c9b386dc133948fcf324d348332f5914fc",
+      "sourceBytes": 2270993,
+      "deliveryBytes": 335998,
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "encoder": "cwebp",
+        "method": 6,
+        "quality": 95,
+        "sharpYuv": true
+      },
+      "status": "converted",
+      "reason": "quality 95 sharp-YUV artwork",
+      "usedIn": [
+        "src/content/pages/doskvol-scoundrels.md",
+        "src/content/pages/rite-and-riot-scoundrels.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/11/kulcannan.w320.webp",
+          "deliverySha256": "84e4852dd26b3971ebaced2dd9687b42060bc87e364e27fefe72794d9378bb57",
+          "deliveryBytes": 44870,
+          "dimensions": [
+            320,
+            480
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/kulcannan.w640.webp",
+          "deliverySha256": "d60cc0c7e94ddbede964615d53cb493e3535596b6ba80b20e44353b22de3fcaa",
+          "deliveryBytes": 152660,
+          "dimensions": [
+            640,
+            960
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/kulcannan.w960.webp",
+          "deliverySha256": "61083bd1ff83d636edcc81aa12e494126ba4e45442d3b1092e7ff310bf9280f4",
+          "deliveryBytes": 290322,
           "dimensions": [
             960,
             1440
@@ -29945,6 +30094,79 @@
       ]
     },
     {
+      "source": "/assets/images/2026/11/stazia.png",
+      "delivery": "/assets/images/2026/11/stazia.webp",
+      "sourceSha256": "048fba2c5b4d67d1fb1c813bd0978f2d4f75c8416c3832a21a631a14db5f6c23",
+      "deliverySha256": "4fb54bda4f6e21df9346e9c545a38c308894718082caf834145c86a1bc0c16b0",
+      "sourceBytes": 2479251,
+      "deliveryBytes": 448898,
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": false,
+      "animated": false,
+      "settings": {
+        "encoder": "cwebp",
+        "method": 6,
+        "quality": 95,
+        "sharpYuv": true
+      },
+      "status": "converted",
+      "reason": "quality 95 sharp-YUV artwork",
+      "usedIn": [
+        "src/content/pages/doskvol-scoundrels.md",
+        "src/content/pages/rite-and-riot-scoundrels.md"
+      ],
+      "variants": [
+        {
+          "delivery": "/assets/images/2026/11/stazia.w320.webp",
+          "deliverySha256": "c50927f215ee0d9dd1e639b93ec74a2e3f5f0e37d5218d6a83e397bf68daa5c2",
+          "deliveryBytes": 62936,
+          "dimensions": [
+            320,
+            480
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/stazia.w640.webp",
+          "deliverySha256": "959c4b3e624dd6c282735f4b134e72f907f6f6822cd4e72fc50d89195d5e1e1b",
+          "deliveryBytes": 200592,
+          "dimensions": [
+            640,
+            960
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        },
+        {
+          "delivery": "/assets/images/2026/11/stazia.w960.webp",
+          "deliverySha256": "37cc0aa9b62c33672ee9bcb0971cadb698e07d972ce5d9d552263449282139b0",
+          "deliveryBytes": 395934,
+          "dimensions": [
+            960,
+            1440
+          ],
+          "settings": {
+            "encoder": "cwebp",
+            "method": 6,
+            "quality": 95,
+            "sharpYuv": true
+          }
+        }
+      ]
+    },
+    {
       "source": "/assets/images/2026/11/tessa-brand.png",
       "delivery": "/assets/images/2026/11/tessa-brand.webp",
       "sourceSha256": "d0def2cdca1bedf2ff33b45c9ce869757585698600ca6bc6eff675a94d982687",
@@ -30182,6 +30404,7 @@
       "status": "converted",
       "reason": "quality 95 sharp-YUV artwork",
       "usedIn": [
+        "src/content/pages/doskvol-scoundrels.md",
         "src/content/pages/rite-and-riot-scoundrels.md"
       ],
       "variants": [
