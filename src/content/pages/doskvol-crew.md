@@ -9,7 +9,7 @@ campaignSection: crew
 crew:
   type: Shadows
   lair: The Clermont Lyric Opera, Silkshore
-  tier: 0
+  tier: 0 · Strong
   huntingGrounds: Silkshore
   reputation: null
 ---
