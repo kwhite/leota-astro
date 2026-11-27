@@ -6,9 +6,9 @@ player: Ginger
 image: /assets/images/2026/11/luna.png
 concept: A real spy with Agent Carter’s curiosity under a Mae West wit. You never know if you’re getting the naughty or the nice version.
 personality: Charming, eccentric, irreverent
-heritage: Elsewhere
-background: Imperial City courtiers
-vice: Luxury · Mara Onehand, jeweler
+heritage: Akoros · Imperial City Courtiers
+background: Dilettante
+vice: Luxury · Mara Onehand, Jeweler
 look: null
 actions: { sway: 2, consort: 1, study: 1, survey: 1, finesse: 1, command: 1 }
 abilities:
