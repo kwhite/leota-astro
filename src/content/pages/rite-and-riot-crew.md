@@ -8,8 +8,8 @@ campaignSection: crew
 # The characters come from src/content/characters/ (any with rite-and-riot in `campaigns`).
 crew:
   type: Shadows
-  lair: The Clermont Lyric Opera House, Silkshore
+  lair: The Clermont Lyric Opera, Silkshore
   tier: 0 · Strong
-  huntingGrounds: null
+  huntingGrounds: Silkshore
   reputation: null
 ---

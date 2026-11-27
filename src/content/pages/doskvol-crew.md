@@ -7,9 +7,9 @@ image: /assets/images/2026/11/doskvol-preview.jpg
 campaignSection: crew
 # The characters come from src/content/characters/ (any with blades-in-the-dark in `campaigns`).
 crew:
-  type: null
-  lair: null
-  tier: null
-  huntingGrounds: null
+  type: Shadows
+  lair: The Clermont Lyric Opera, Silkshore
+  tier: 0 · Strong
+  huntingGrounds: Silkshore
   reputation: null
 ---
