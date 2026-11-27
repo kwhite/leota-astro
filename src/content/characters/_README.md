@@ -12,6 +12,8 @@ One YAML file per player character. The schema is `characters` in `src/content.c
 - `abilities` is a list of special abilities (`name` + `text`), starting ability first,
   then any taken with advances. Use `abilities: []` if none is chosen yet.
 - `friend` / `rival` link to the dossier with the same `name` on that campaign's Scoundrels page.
+- `hidden: true` keeps a character off the Crew pages (cards and Who to Call) until they're
+  revealed. Remove it, or set `false`, to show them. The repo is public, so it's not a secret.
 - Leave anything unknown as `null`; the page shows it as TBD.
 - Only things that hold steady between sessions belong here. No stress, harm, trauma or xp.
 - Nothing secret: the site is public.

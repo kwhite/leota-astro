@@ -31,6 +31,12 @@ Added 2026-11-22. One Crew page per Blades campaign, next to its Scoundrels page
   filled in from the printed playbooks — check them against the real sheets.
 - It's a dossier, not a character sheet: no stress, harm, trauma or xp.
 - The site is public: no GM secrets in character files.
+- `hidden: true` on a character file, or on any entry in a Scoundrels page's `scoundrels:` list,
+  keeps that person off the built page until revealed. Characters are filtered in `src/pages/[slug].astro`,
+  Scoundrels entries in `ScoundrelGallery.astro`, so every count, the faction standings, Who to Call and
+  dossier numbers only see visible people. Crew-page friend/rival names don't link to a hidden dossier,
+  and a faction whose `via` contact is hidden shows no origin ("Via …" / "Direct") at all.
+  The source repo is public, so hidden is for surprises, not secrets.
 - `draft: true` marks GM-drafted characters (Tansy Brine, Wren Ashcombe) until the player signs off.
 
 ## Also changed

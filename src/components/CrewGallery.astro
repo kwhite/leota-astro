@@ -33,8 +33,8 @@ const title = (action: string) => action.charAt(0).toUpperCase() + action.slice(
 const rating = (c: Character, action: Action) => c.actions[action] ?? 0;
 const dots = (n: number) => [1, 2, 3, 4].map(i => i <= n);
 
-// Friends and rivals link to their dossier when the campaign's Scoundrels page has them.
-const dossierNames = new Set((scoundrels?.data.scoundrels ?? []).map(e => e.name));
+// Friends and rivals link to their dossier when the campaign's Scoundrels page shows them.
+const dossierNames = new Set((scoundrels?.data.scoundrels ?? []).filter(e => !e.hidden).map(e => e.name));
 const dossierHref = (name: string) => scoundrels && dossierNames.has(name) ? `${getAssetUrl(`/${scoundrels.id}/`)}#scoundrel-${slug(name)}` : null;
 
 // The alias, when set, is the name used everywhere except the full-name line in the dossier.

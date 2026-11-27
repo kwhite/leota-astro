@@ -1,14 +1,17 @@
 ---
 // Blades in the Dark NPC gallery: faction standings, filterable portrait cards and a
 // dossier lightbox. Data comes from the `scoundrels` frontmatter on a pages entry
-// (schema in src/content.config.ts). Cards sort by headline, ignoring a leading "The".
+// (schema in src/content.config.ts). Entries marked `hidden` are left out entirely, and a
+// faction whose `via` contact is hidden shows no origin until they're revealed. Cards sort by headline, ignoring a leading "The".
 // Without JavaScript the cards still render; portraits link to the full-size image.
 import type { CollectionEntry } from 'astro:content';
 import { getAssetUrl } from '../config';
 
 type Entry = CollectionEntry<'pages'>['data']['scoundrels'][number];
 interface Props { entries: Entry[]; }
-const { entries } = Astro.props;
+const { entries: all } = Astro.props;
+const hiddenNames = new Set(all.filter(e => e.hidden).map(e => e.name));
+const entries = all.filter(e => !e.hidden);
 
 const LEVELS: Record<string, string> = { '-3': 'War', '-2': 'Hostile', '-1': 'Interfering', '0': 'Neutral', '1': 'Helpful', '2': 'Friendly', '3': 'Allies' };
 const slug = (text: string) => text.toLowerCase().normalize('NFKD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
@@ -39,10 +42,11 @@ const cards = sorted.map((e, i) => {
     const common = { entry: e, id: idFor(e.name), num, headline: headline(e), image: getAssetUrl(e.image), meta: `Dossier · No. ${num} · ${e.district}` };
     if (e.kind === 'faction') {
         return { ...common, kicker: `Faction · ${e.name}`, blurb: e.teaser, status: status(e.status, e.faction),
-            origin: e.via ? `Via ${e.via.split(' ')[0]}` : 'Direct', viaId: e.via && known.has(e.via) ? idFor(e.via) : null,
+            via: e.via, origin: e.via ? `Via ${e.via.split(' ')[0]}` : 'Direct', viaId: e.via && known.has(e.via) ? idFor(e.via) : null,
+            ...(e.via && hiddenNames.has(e.via) ? { via: null, origin: null, viaId: null } : {}),
             tag: null, tie: null, associations: [] };
     }
-    return { ...common, kicker: e.title, blurb: e.description, status: null, origin: null, viaId: null, tag: TAGS[e.kind],
+    return { ...common, kicker: e.title, blurb: e.description, status: null, via: null, origin: null, viaId: null, tag: TAGS[e.kind],
         tie: e.kind === 'contact' ? 'of the crew' : `of ${e.of}`,
         associations: e.kind === 'contact' ? e.associations.map(a => {
             const rep = repByFaction.get(a.faction);
@@ -76,7 +80,7 @@ const cardSizes = 'auto, (max-width: 560px) 100vw, (max-width: 1100px) 50vw, 300
                                 {c.status.pips.map(p => <span class:list={['sc-pip', { 'is-center': p.center, 'is-on': p.on, 'is-pos': p.pos }]}></span>)}
                             </span>
                             <span class:list={['sc-label', 'sc-status', `is-${c.status.tone}`]}>{c.status.label}</span>
-                            <span class="sc-label sc-ledger-rep">{c.entry.name} · {c.origin}</span>
+                            <span class="sc-label sc-ledger-rep">{c.origin ? `${c.entry.name} · ${c.origin}` : c.entry.name}</span>
                         </a>
                     </li>
                 ))}
@@ -111,7 +115,7 @@ const cardSizes = 'auto, (max-width: 560px) 100vw, (max-width: 1100px) 50vw, 300
                                     {c.status.pips.map(p => <span class:list={['sc-pip', { 'is-center': p.center, 'is-on': p.on, 'is-pos': p.pos }]}></span>)}
                                 </span>
                                 <span class:list={['sc-label', 'sc-status', `is-${c.status.tone}`]}>{c.status.label}</span>
-                                <span class="sc-label sc-origin">Origin · {c.origin}</span>
+                                {c.origin && <span class="sc-label sc-origin">Origin · {c.origin}</span>}
                             </>
                         ) : (
                             <>
@@ -154,8 +158,8 @@ const cardSizes = 'auto, (max-width: 560px) 100vw, (max-width: 1100px) 50vw, 300
                                     <>
                                         <dt class="sc-label">Representative</dt>
                                         <dd class="sc-d-rep"><strong>{c.entry.name}</strong><span>{c.entry.description}</span></dd>
-                                        <dt class="sc-label">Origin</dt>
-                                        <dd>{c.viaId ? <a class="sc-link" href={`#${c.viaId}`} data-open={c.viaId}>Via {c.entry.via}</a> : (c.entry.via ? `Via ${c.entry.via}` : 'Direct')}</dd>
+                                        {c.origin && <dt class="sc-label">Origin</dt>}
+                                        {c.origin && <dd>{c.viaId ? <a class="sc-link" href={`#${c.viaId}`} data-open={c.viaId}>Via {c.via}</a> : (c.via ? `Via ${c.via}` : 'Direct')}</dd>}
                                     </>
                                 )}
                             </dl>

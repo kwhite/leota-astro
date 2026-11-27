@@ -58,9 +58,12 @@ const tags = defineCollection({
 });
 
 // Shared fields for a Blades NPC: who they are, where, and a 2:3 portrait.
+// `hidden: true` keeps someone off the built page (cards, standings, counts, links) until
+// they're revealed. It is not a secret: the source repo is public.
 const portrait = {
   name: z.string(), description: z.string(), district: z.string(),
   image: z.string(), width: z.number(), height: z.number(),
+  hidden: z.boolean().default(false),
 };
 
 // Standalone pages: prose in Markdown, optional structured sections in frontmatter.
@@ -126,6 +129,8 @@ const characters = defineCollection({
     player: z.string().nullable().default(null),
     // A character the GM drafted and the player hasn't signed off on yet.
     draft: z.boolean().default(false),
+    // Kept off the Crew pages (cards, Who to Call) until revealed. Not a secret: the repo is public.
+    hidden: z.boolean().default(false),
     concept: z.string().nullable().default(null),
     personality: z.string().nullable().default(null),
     heritage: z.string().nullable().default(null),
